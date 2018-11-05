@@ -3,9 +3,9 @@ use Test::MockModule;
 
 use File::Temp qw/tempdir/;
 use JSON;
-use GenomeBrowser::Resources::PubMed;
+use PublicResources::Resources::PubMed;
 
-my $module = new Test::MockModule('GenomeBrowser::Resources::LocallyCachedResource');
+my $module = new Test::MockModule('PublicResources::Resources::LocallyCachedResource');
 $module->mock('get_xml', do {local $/; <DATA>});
 
 my $species = "schistosoma_mansoni";
@@ -13,15 +13,15 @@ my $pubmed_id = "29069413";
 
 sub assert_pubmed {
   my ($metadata, $expected, $description) = @_;
-  my $result = GenomeBrowser::Resources::PubMed->new(tempdir( CLEANUP => 1 ), $species, $metadata);
+  my $result = PublicResources::Resources::PubMed->new(tempdir( CLEANUP => 1 ), $species, $metadata);
   is_deeply(
-     $result, bless ($expected, 'GenomeBrowser::Resources::PubMed'),
+     $result, bless ($expected, 'PublicResources::Resources::PubMed'),
   ,$description) or diag explain $result;
 }
 
 assert_pubmed({
-  rnaseqer => bless({}, 'GenomeBrowser::Resources::RnaseqerMetadata'),
-  array_express => bless({}, 'GenomeBrowser::Resources::ArrayExpressMetadata'),
+  rnaseqer => bless({}, 'PublicResources::Resources::RnaseqerMetadata'),
+  array_express => bless({}, 'PublicResources::Resources::ArrayExpressMetadata'),
 },{}, "Null case");
 sub pick_up_paper {
   my ($metadata, $description) = @_;
@@ -30,23 +30,23 @@ sub pick_up_paper {
   }}}, $description);
 }
 pick_up_paper({
-  rnaseqer => bless ({metadata =>{assembly_id => {study_id=>{}}}},'GenomeBrowser::Resources::RnaseqerMetadata'),
+  rnaseqer => bless ({metadata =>{assembly_id => {study_id=>{}}}},'PublicResources::Resources::RnaseqerMetadata'),
   ena => {assembly_id => {study_id=>{pubmed => [$pubmed_id]}}},
-  array_express => bless({}, 'GenomeBrowser::Resources::ArrayExpressMetadata'),
+  array_express => bless({}, 'PublicResources::Resources::ArrayExpressMetadata'),
 }, "ENA");
 
 pick_up_paper({
-  rnaseqer => bless ({metadata => {assembly_id => {study_id=>{}}}},'GenomeBrowser::Resources::RnaseqerMetadata'),
+  rnaseqer => bless ({metadata => {assembly_id => {study_id=>{}}}},'PublicResources::Resources::RnaseqerMetadata'),
   geo => {assembly_id => {study_id=>{pubmed => [$pubmed_id]}}},
-  array_express => bless({}, 'GenomeBrowser::Resources::ArrayExpressMetadata'),
+  array_express => bless({}, 'PublicResources::Resources::ArrayExpressMetadata'),
 }, "GEO");
 
 pick_up_paper({
-  rnaseqer => bless ({metadata => {assembly_id => {study_id=>{}}}},'GenomeBrowser::Resources::RnaseqerMetadata'),
+  rnaseqer => bless ({metadata => {assembly_id => {study_id=>{}}}},'PublicResources::Resources::RnaseqerMetadata'),
   array_express => bless ({
     secondary_to_primary_accession=>{study_id=>"E-MOCK-1"},
     primary_accession_to_pubmed=>{"E-MOCK-1", [$pubmed_id]}
-  }, 'GenomeBrowser::Resources::ArrayExpressMetadata'),
+  }, 'PublicResources::Resources::ArrayExpressMetadata'),
 }, "AE");
 done_testing();
 __DATA__

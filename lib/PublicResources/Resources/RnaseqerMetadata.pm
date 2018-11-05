@@ -1,8 +1,8 @@
 
-package GenomeBrowser::Resources::RnaseqerMetadata;
+package PublicResources::Resources::RnaseqerMetadata;
 use List::MoreUtils qw(uniq);
 use File::Basename;
-use parent GenomeBrowser::Resources::LocallyCachedResource;
+use parent PublicResources::Resources::LocallyCachedResource;
 
 # Assembly -> study -> run -> type -> value
 

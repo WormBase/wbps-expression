@@ -1,6 +1,6 @@
+package PublicResources::Resources::GeoMetadata;
 
-package GenomeBrowser::Resources::GeoMetadata;
-use parent GenomeBrowser::Resources::LocallyCachedResource;
+use parent PublicResources::Resources::LocallyCachedResource;
 use Data::Dumper;
 my $EUTILS_URL = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils';
 

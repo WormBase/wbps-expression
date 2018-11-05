@@ -1,4 +1,4 @@
-use GenomeBrowser::Descriptions;
+use PublicResources::Descriptions;
 use Test::More;
 
 my $species = "schistosoma_mansoni";
@@ -7,7 +7,7 @@ my $run_id = "SRR1230321";
 my $default_long_desc = "$run_id: sample from Schistosoma mansoni";
 sub assert_run_description {
   my ($factors, $attributes, $curated, $expected_description_short, $expected_description_full, $desc) = @_;
-   my ($description_short, $description_full) = GenomeBrowser::Descriptions->new(
+   my ($description_short, $description_full) = PublicResources::Descriptions->new(
         {$species=>{$study_id=>$curated}})->run_description($species, $study_id, $run_id, $factors, $attributes);
    is_deeply($description_short, $expected_description_short, "description_short $desc");
    is_deeply($description_full, $expected_description_full, "description_full $desc");
@@ -63,7 +63,7 @@ factors_rejected(["type"], {"other_type"=> "value"});
 sub assert_study_description {
   my ($study_attributes, $expected, $desc) = @_;
    $desc //= "assert_study_description $study_id -> $expected";
-   is_deeply([GenomeBrowser::Descriptions->new(
+   is_deeply([PublicResources::Descriptions->new(
         {$species=>{}})->study_description($species, $study_id, $study_attributes)],
      $expected, $desc);
 }

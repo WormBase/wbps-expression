@@ -1,6 +1,6 @@
 
-package GenomeBrowser::Resources::RnaseqerStats;
-use parent GenomeBrowser::Resources::LocallyCachedResource;
+package PublicResources::Resources::RnaseqerStats;
+use parent PublicResources::Resources::LocallyCachedResource;
 
 
 sub _fetch {

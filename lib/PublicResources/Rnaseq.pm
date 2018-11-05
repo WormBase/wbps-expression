@@ -1,21 +1,21 @@
 
-package GenomeBrowser::Resources;
+package PublicResources::Rnaseq;
 
-use GenomeBrowser::Resources::ArrayExpressMetadata;
-use GenomeBrowser::Resources::RnaseqerMetadata;
-use GenomeBrowser::Resources::EnaMetadata;
-use GenomeBrowser::Resources::GeoMetadata;
-use GenomeBrowser::Resources::Factors;
-use GenomeBrowser::Resources::RnaseqerStats;
-use GenomeBrowser::Resources::PubMed;
-use GenomeBrowser::Descriptions;
-use GenomeBrowser::Links;
+use PublicResources::Resources::ArrayExpressMetadata;
+use PublicResources::Resources::RnaseqerMetadata;
+use PublicResources::Resources::EnaMetadata;
+use PublicResources::Resources::GeoMetadata;
+use PublicResources::Resources::Factors;
+use PublicResources::Resources::RnaseqerStats;
+use PublicResources::Resources::PubMed;
+use PublicResources::Descriptions;
+use PublicResources::Links;
 sub new {
   my ($class, $root_dir) = @_;
   bless {
     root_dir => $root_dir,
-    descriptions => GenomeBrowser::Descriptions->new,
-    links => 'GenomeBrowser::Links',
+    descriptions => PublicResources::Descriptions->new,
+    links => 'PublicResources::Links',
   }, $class; 
 }
 sub get {
@@ -23,18 +23,18 @@ sub get {
   my $root_dir = $self->{root_dir};
   $species = lc($species);
   $species =~ s/([a-z]*_[a-z]*).*/$1/;
-  my $rnaseqer_metadata = GenomeBrowser::Resources::RnaseqerMetadata->new($root_dir, $species);
-  my $array_express_metadata = GenomeBrowser::Resources::ArrayExpressMetadata->new($root_dir, $species);
-  my $ena_metadata = GenomeBrowser::Resources::EnaMetadata->new($root_dir, $species, $rnaseqer_metadata); 
-  my $rnaseqer_stats = GenomeBrowser::Resources::RnaseqerStats->new($root_dir, $species, $rnaseqer_metadata); 
-  my $geo_metadata = GenomeBrowser::Resources::GeoMetadata->new($root_dir, $species, $rnaseqer_metadata); 
-  my $pubmed = GenomeBrowser::Resources::PubMed->new($root_dir, $species, {
+  my $rnaseqer_metadata = PublicResources::Resources::RnaseqerMetadata->new($root_dir, $species);
+  my $array_express_metadata = PublicResources::Resources::ArrayExpressMetadata->new($root_dir, $species);
+  my $ena_metadata = PublicResources::Resources::EnaMetadata->new($root_dir, $species, $rnaseqer_metadata); 
+  my $rnaseqer_stats = PublicResources::Resources::RnaseqerStats->new($root_dir, $species, $rnaseqer_metadata); 
+  my $geo_metadata = PublicResources::Resources::GeoMetadata->new($root_dir, $species, $rnaseqer_metadata); 
+  my $pubmed = PublicResources::Resources::PubMed->new($root_dir, $species, {
      rnaseqer=>$rnaseqer_metadata,
      array_express=>$array_express_metadata,
      ena=>$ena_metadata,
      geo=>$geo_metadata,
   });
-  my $factors = GenomeBrowser::Resources::Factors->new($root_dir, $species, $rnaseqer_metadata, $array_express_metadata);
+  my $factors = PublicResources::Resources::Factors->new($root_dir, $species, $rnaseqer_metadata, $array_express_metadata);
   my @studies;
   for my $study_id (@{$rnaseqer_metadata->access($assembly)}){
     unless ($ena_metadata->{$assembly}{$study_id}){

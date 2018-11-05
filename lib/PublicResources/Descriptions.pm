@@ -1,5 +1,5 @@
 
-package GenomeBrowser::Descriptions;
+package PublicResources::Descriptions;
 
 my $curated_descriptions_canned = {
     'ascaris_suum' => {
@@ -801,7 +801,6 @@ sub _clean_study_title {
    $name = ucfirst(lc($name)) if $name eq uc($name);
    return $name;
 }
-# Do we also want to curate these?
 sub study_description {
     my ( $self, $species, $study_id, $study_metadata ) = @_;
     $species =~ s/_/ /g;

@@ -1,10 +1,10 @@
 # Produces a folder of TSV files
 # Format:
 # study run location  num_reads_approx  mapping_quality_approx  @factors
-package GenomeBrowser::Tsv;
-
-use ProductionMysql;
-use GenomeBrowser::Resources;
+use strict;
+use warnings;
+package PublicResources::Report;
+use PublicResources::Resources;
 use File::Path qw(make_path);
 use File::Slurp qw(write_file);
 use File::Basename qw(dirname);
@@ -15,7 +15,7 @@ sub new {
       "$ENV{PARASITE_SCRATCH}/jbrowse/WBPS$ENV{PARASITE_VERSION}";
     return bless {
         dir       => "$args{root_dir}/tsv",
-        resources => GenomeBrowser::Resources->new("$args{root_dir}/Resources"),
+        resources => PublicResources::Resources->new("$args{root_dir}/Resources"),
     }, $class;
 }
 
@@ -26,27 +26,11 @@ sub path {
     return $result;
 }
 
-sub make_all {
-    my ( $self, %opts ) = @_;
+sub make_report {
+    my ($self, $species, $assembly, %opts) = @_;
 
-    make_path $self->path;
-
-    my @genomes;
-    for my $core_db ( ProductionMysql->staging->core_databases($opts{core_dbs_pattern}) ) {
-        $self->make_tsv( $core_db, %opts );
-    }
-}
-
-sub make_tsv {
-    my ( $self, $core_db, %opts ) = @_;
-
-    my ( $spe, $cies, $bioproject ) = split "_", $core_db;
-    return if $bioproject eq "core";
-    my $species = join "_", $spe, $cies, $bioproject;
-    my $assembly =
-      ProductionMysql->staging->meta_value( $core_db, "assembly.name" );
     my ( $attribute_query_order, $location_per_run_id, @studies ) =
-      $self->{resources}->get( $core_db, $assembly );
+      $self->{resources}->get( $species, $assembly );
     @studies = sort {$a->{study_id} cmp $b->{study_id}} @studies;
     my $runs_path = $self->path("$species.runs.tsv");
     unlink $runs_path if -f $runs_path;

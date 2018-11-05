@@ -1,8 +1,8 @@
 
-package GenomeBrowser::Resources::EnaMetadata;
+package PublicResources::Resources::EnaMetadata;
 use List::Util qw(sum);
 use List::MoreUtils qw(uniq);
-use parent GenomeBrowser::Resources::LocallyCachedResource;
+use parent PublicResources::Resources::LocallyCachedResource;
 
 sub _fetch {
     my ( $class, $species, $rnaseqer_metadata ) = @_;

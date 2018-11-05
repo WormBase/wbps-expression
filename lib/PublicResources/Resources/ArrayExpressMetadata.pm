@@ -1,7 +1,7 @@
 
-package GenomeBrowser::Resources::ArrayExpressMetadata;
+package PublicResources::Resources::ArrayExpressMetadata;
 
-use parent GenomeBrowser::Resources::LocallyCachedResource;
+use parent PublicResources::Resources::LocallyCachedResource;
 
 sub _val {
    my ($self, $study_accession, $val) = @_;

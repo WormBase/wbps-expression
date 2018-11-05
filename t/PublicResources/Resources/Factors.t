@@ -1,9 +1,9 @@
 use Test::More;
 
 use File::Temp qw/tempdir/;
-use GenomeBrowser::Resources::ArrayExpressMetadata;
-use GenomeBrowser::Resources::RnaseqerMetadata;
-use GenomeBrowser::Resources::Factors;
+use PublicResources::Resources::ArrayExpressMetadata;
+use PublicResources::Resources::RnaseqerMetadata;
+use PublicResources::Resources::Factors;
 
 sub studies_grouped_by_factor_as_expected {
     my (
@@ -15,17 +15,17 @@ sub studies_grouped_by_factor_as_expected {
     my $species  = "schistosoma_mansoni";
     my $assembly = "schisto_v7.2";
     my $mock_rm  = bless { metadata => { $assembly => $rnaseqer_characteristics_per_study }},
-      'GenomeBrowser::Resources::RnaseqerMetadata';
+      'PublicResources::Resources::RnaseqerMetadata';
     my $mock_aem = bless {
         primary_accession_to_factor_type => $array_express_factors_per_study,
         secondary_to_primary_accession   => {},
       },
-      'GenomeBrowser::Resources::ArrayExpressMetadata';
+      'PublicResources::Resources::ArrayExpressMetadata';
 
     my $subject =
-      GenomeBrowser::Resources::Factors->new( $root_dir, $species, $mock_rm,
+      PublicResources::Resources::Factors->new( $root_dir, $species, $mock_rm,
         $mock_aem );
-    is_deeply( $subject, bless( $expected, 'GenomeBrowser::Resources::Factors' ),
+    is_deeply( $subject, bless( $expected, 'PublicResources::Resources::Factors' ),
         $description ) or diag explain $subject, $expected;
 }
 

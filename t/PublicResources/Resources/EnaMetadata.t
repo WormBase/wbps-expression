@@ -3,11 +3,11 @@ use Test::MockModule;
 
 use File::Temp qw/tempdir/;
 use XML::Simple;
-use GenomeBrowser::Resources::RnaseqerMetadata;
-use GenomeBrowser::Resources::EnaMetadata;
+use PublicResources::Resources::RnaseqerMetadata;
+use PublicResources::Resources::EnaMetadata;
 my $study_id = "ERP006623";
 
-my $module = new Test::MockModule('GenomeBrowser::Resources::LocallyCachedResource');
+my $module = new Test::MockModule('PublicResources::Resources::LocallyCachedResource');
 my $xml    = XMLin(
     do { local $/; <DATA> }
 );
@@ -77,9 +77,9 @@ my $rnaseqer_metadata = bless {
         }
     }
   },
-  'GenomeBrowser::Resources::RnaseqerMetadata';
+  'PublicResources::Resources::RnaseqerMetadata';
 
-my $subject = GenomeBrowser::Resources::EnaMetadata->new( $root_dir, $species,
+my $subject = PublicResources::Resources::EnaMetadata->new( $root_dir, $species,
     $rnaseqer_metadata );
 is_deeply(
     $subject,
@@ -112,7 +112,7 @@ is_deeply(
           'study_title' => undef
         }
       }
-    }, 'GenomeBrowser::Resources::EnaMetadata' ),
+    }, 'PublicResources::Resources::EnaMetadata' ),
     "Get properties from ENA xml"
 ) or diag explain $subject;
 

@@ -1,5 +1,5 @@
 
-package GenomeBrowser::Resources::LocallyCachedResource;
+package PublicResources::Resources::LocallyCachedResource;
 use LWP;
 use YAML;
 use File::Path qw(make_path);

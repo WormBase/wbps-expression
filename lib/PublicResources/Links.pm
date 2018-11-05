@@ -1,4 +1,4 @@
-package GenomeBrowser::Links;
+package PublicResources::Links;
 
 sub _link {
    my ($url, $name) = @_;

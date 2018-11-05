@@ -1,7 +1,7 @@
-package GenomeBrowser::Resources::PubMed;
-use parent GenomeBrowser::Resources::LocallyCachedResource;
-use GenomeBrowser::Resources::RnaseqerMetadata;
-use GenomeBrowser::Resources::ArrayExpressMetadata;
+package PublicResources::Resources::PubMed;
+use parent PublicResources::Resources::LocallyCachedResource;
+use PublicResources::Resources::RnaseqerMetadata;
+use PublicResources::Resources::ArrayExpressMetadata;
 use List::MoreUtils qw(uniq);
 use XML::Simple;
 
