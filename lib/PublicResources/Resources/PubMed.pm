@@ -32,15 +32,9 @@ sub _short_and_full_paper_description_from_payload {
     my $payload = XMLin($payload_string);
 
     my @authors = @{$payload->{MedlineCitation}{Article}{AuthorList}{Author} || [] };
-    # Use regex: XML::Simple is being too simple.
-    # E.g. 30049782: <ArticleTitle>Transgenerational Effects of Extended Dauer Diapause on Starvation Survival and Gene Expression Plasticity in <i>Caenorhabditis elegans</i>.</ArticleTitle>
+    # Use regex because XML::Simple is being too simple.
+    # E.g. 30049782: <ArticleTitle> Stuff in <i>Caenorhabditis elegans</i>.</ArticleTitle>
     my ($title) = $payload_string =~ /<ArticleTitle>(.*)<\/ArticleTitle>/;
-    $title = $title->{content} if ref $title eq 'HASH';
-    $title = join "", @$title if ref $title eq 'ARRAY';
-    if(ref $title){
-       use Data::Dumper;
-       die Data::Dumper::Dumper($payload);
-    }
     my $authors = $payload->{MedlineCitation}{Article}{AuthorList}{Author};
     my @authors = $authors ? ref $authors eq 'ARRAY' ? @$authors : ($authors) : ();
     my $first_author = @authors[0]->{LastName};
@@ -48,6 +42,7 @@ sub _short_and_full_paper_description_from_payload {
     my $authors = $first_author ? $last_author ne $first_author ? "$first_author & $last_author" : $first_author :  "";
     my $year = $payload->{MedlineCitation}{Article}{Journal}{JournalIssue}{PubDate}{Year};
     my $short_description = "$authors, $year";
-    return [$short_description, "$title ($short_description)"];
+    my $full_description = $title ? "$title ($authors, $year)" : $short_description;
+    return [$short_description, $full_description];
 }
 1;

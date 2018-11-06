@@ -31,9 +31,15 @@ sub pick_up_paper {
 }
 pick_up_paper({
   rnaseqer => bless ({metadata =>{assembly_id => {study_id=>{}}}},'PublicResources::Resources::RnaseqerMetadata'),
-  ena => {assembly_id => {study_id=>{pubmed => [$pubmed_id]}}},
+  ena => {assembly_id => {study_id=>{study_pubmed => [$pubmed_id]}}},
   array_express => bless({}, 'PublicResources::Resources::ArrayExpressMetadata'),
-}, "ENA");
+}, "ENA study");
+
+pick_up_paper({
+  rnaseqer => bless ({metadata =>{assembly_id => {study_id=>{}}}},'PublicResources::Resources::RnaseqerMetadata'),
+  ena => {assembly_id => {study_id=>{bioproject_pubmed => [$pubmed_id]}}},
+  array_express => bless({}, 'PublicResources::Resources::ArrayExpressMetadata'),
+}, "ENA bioproject");
 
 pick_up_paper({
   rnaseqer => bless ({metadata => {assembly_id => {study_id=>{}}}},'PublicResources::Resources::RnaseqerMetadata'),
