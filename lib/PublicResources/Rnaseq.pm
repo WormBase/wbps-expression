@@ -45,7 +45,7 @@ sub get {
     for my $run_id (@{$rnaseqer_metadata->access($assembly, $study_id)}){
        my $stats = $rnaseqer_stats->get_formatted_stats($run_id);
        my $links = $self->{links}->misc_links($study_id,$run_id, $rnaseqer_metadata->data_location($run_id),
-         [keys ($pubmed->{$assembly}{$study_id} || {})]
+         [keys %{$pubmed->{$assembly}{$study_id} || {}}]
        );
        my %attributes;
        for my $characteristic_type (@{$rnaseqer_metadata->access($assembly, $study_id, $run_id)}){
