@@ -14,3 +14,5 @@ requires 'YAML';
 test_requires 'File::Temp';
 test_requires 'Test::MockModule';
 test_requires 'Test::More';
+
+author_suggests 'Smart::Comments';
