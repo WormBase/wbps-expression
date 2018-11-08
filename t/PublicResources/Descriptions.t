@@ -4,7 +4,8 @@ use Test::More;
 my $species = "schistosoma_mansoni";
 my $study_id = "SRP1234000";
 my $run_id = "SRR1230321";
-my $default_long_desc = "$run_id: sample from Schistosoma mansoni";
+my $default_short_desc = "";
+my $default_long_desc = "sample from Schistosoma mansoni";
 sub assert_run_description {
   my ($factors, $attributes, $curated, $expected_description_short, $expected_description_full, $desc) = @_;
    my ($description_short, $description_full) = PublicResources::Descriptions->new(
@@ -13,17 +14,17 @@ sub assert_run_description {
    is_deeply($description_full, $expected_description_full, "description_full $desc");
 }
 
-assert_run_description([], {},{}, $run_id, $default_long_desc, "Default long description ok in null case");
-assert_run_description([], {},{$run_id => "curated value"}, "$run_id: curated value", "$run_id: curated value", "curated value");
-assert_run_description([], {},{$run_id => ["curated value", "curated value long"]}, "$run_id: curated value", "$run_id: curated value long", "curated value long");
+assert_run_description([], {},{}, "", $default_long_desc, "Default long description ok in null case");
+assert_run_description([], {},{$run_id => "curated value"}, "curated value", "curated value", "curated value");
+assert_run_description([], {},{$run_id => ["curated value", "curated value long"]}, "curated value", "curated value long", "curated value long");
 sub sample_name_ok {
   my ($sample_name, $desc) = @_;
-  assert_run_description([], {sample_name => $sample_name}, {}, "$run_id: $sample_name", "$run_id: $sample_name", 
+  assert_run_description([], {sample_name => $sample_name}, {}, "$sample_name", "$sample_name", 
     $desc // "sample_name_ok $sample_name");
 }
 sub sample_name_rejected {
   my ($sample_name, $desc) = @_;
-  assert_run_description([], {sample_name => $sample_name}, {}, $run_id, $default_long_desc,
+  assert_run_description([], {sample_name => $sample_name}, {}, $default_short_desc, $default_long_desc,
     $desc // "sample_name_rejected $sample_name");
 }
 sample_name_ok("words words words");
@@ -40,13 +41,13 @@ sub _str {
 }
 sub factors_ok{
   my ($factors, $attributes, $d_short, $d_full, $desc) = @_;
-  assert_run_description($factors, $attributes, {}, "$run_id: $d_short", "$run_id: $d_full",
+  assert_run_description($factors, $attributes, {}, "$d_short", "$d_full",
   $desc // "factors_ok "._str($factors, $attributes) 
   );
 }
 sub factors_rejected {
   my ($factors, $attributes, $desc) = @_;
-  assert_run_description($factors, $attributes, {}, $run_id, $default_long_desc,
+  assert_run_description($factors, $attributes, {}, $default_short_desc, $default_long_desc,
   $desc // "factors_ok "._str($factors, $attributes)
   );
 }

@@ -783,11 +783,11 @@ sub _get_run_description {
 sub run_description {
     my ( $self, $species, $study_id, $run_id, $factors, $attributes ) = @_;
     my $r = _get_run_description(@_);
-    return map { "$run_id: $_" } @$r if ref $r eq 'ARRAY';
-    return "$run_id: $r", "$run_id: $r", if $r;
+    return @$r if ref $r eq 'ARRAY';
+    return $r, $r if $r;
     $species =~ s/_/ /g;
     $species = ucfirst($species);
-    return "$run_id", "$run_id: sample from $species";
+    return "", "sample from $species";
 }
 sub _clean_study_description {
   my ($study_description) = @_;

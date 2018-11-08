@@ -49,7 +49,7 @@ sub make_report {
         for my $run ( sort {$a->{run_id} cmp $b->{run_id}} @{ $study->{runs} } ) {
             my $run_id = $run->{run_id};
             print $runs_fh join ("\t",
-                 $study_id, $run->{run_description_short},
+                 $study_id, join(": ", grep {$_} $run_id, $run->{run_description_short}),
                  $run->{attributes}{library_size_approx}, $run->{attributes}{mapping_quality_approx},
                  dirname($location_per_run_id->{$run_id}),
                  map {$run->{attributes}{$_} || '' } @$attribute_query_order
