@@ -4,7 +4,7 @@
 use strict;
 use warnings;
 package PublicResources::Report;
-use PublicResources::Resources;
+use PublicResources::Rnaseq;
 use File::Path qw(make_path);
 use File::Slurp qw(write_file);
 use File::Basename qw(dirname);
@@ -15,7 +15,7 @@ sub new {
       "$ENV{PARASITE_SCRATCH}/jbrowse/WBPS$ENV{PARASITE_VERSION}";
     return bless {
         dir       => "$args{root_dir}/tsv",
-        resources => PublicResources::Resources->new("$args{root_dir}/Resources"),
+        resources => PublicResources::Rnaseq->new("$args{root_dir}/Resources"),
     }, $class;
 }
 
@@ -72,7 +72,7 @@ sub make_report {
         $study->{study_id},
         $study->{attributes}{submitting_centre}, $study->{attributes}{"ENA first public"}, $study->{attributes}{"ENA last update"},
         $study->{study_description_short},
-        join(", " , keys ($study->{pubmed}|| {})), join(", " , map {$_->[1]} values ($study->{pubmed}|| {})),
+        join(", " , keys %{$study->{pubmed}|| {}}), join(", " , map {$_->[1]} values %{$study->{pubmed}|| {}}),
       )."\n";
     }
     close $studies_fh; 
