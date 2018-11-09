@@ -36,6 +36,7 @@ sub make_report {
     unlink $runs_path if -f $runs_path;
     
     return unless @studies;
+    make_path dirname $runs_path;
     open(my $runs_fh, '>:utf8', $runs_path ) or die $runs_path;
 
     print $runs_fh join ("\t",
@@ -50,7 +51,7 @@ sub make_report {
             my $run_id = $run->{run_id};
             print $runs_fh join ("\t",
                  $study_id, join(": ", grep {$_} $run_id, $run->{run_description_short}),
-                 $run->{attributes}{library_size_approx}, $run->{attributes}{mapping_quality_approx},
+                 $run->{attributes}{library_size_reads_approximate}, $run->{attributes}{fraction_of_reads_mapping_uniquely_approximate},
                  dirname($location_per_run_id->{$run_id}),
                  map {$run->{attributes}{$_} || '' } @$attribute_query_order
             ). "\n";     
