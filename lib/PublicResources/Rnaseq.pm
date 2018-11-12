@@ -10,21 +10,20 @@ use PublicResources::Resources::RnaseqerStats;
 use PublicResources::Resources::PubMed;
 use PublicResources::Descriptions;
 use PublicResources::Links;
-use Curation::Sheets;
+use Production::Sheets;
 use File::Basename qw/dirname/;
 sub new {
-  my ($class, $root_dir, $src_dir) = @_;
-  $src_dir //= dirname(dirname(dirname(__FILE__)));
+  my ($class, $root_dir, $sheets) = @_;
+  $sheets //= Production::Sheets->new(dirname(dirname(dirname(__FILE__))));
   bless {
     root_dir => $root_dir,
-    src_dir => $src_dir,
+    sheets => $sheets,
     links => 'PublicResources::Links',
   }, $class; 
 }
 sub get {
   my ($self, $species, $assembly) = @_;
   my $root_dir = $self->{root_dir};
-  my $src_dir =  $self->{src_dir}; 
   $species = lc($species);
   $species =~ s/([a-z]*_[a-z]*).*/$1/;
   my $rnaseqer_metadata = PublicResources::Resources::RnaseqerMetadata->new($root_dir, $species);
@@ -39,7 +38,7 @@ sub get {
      geo=>$geo_metadata,
   });
   my $factors = PublicResources::Resources::Factors->new($root_dir, $species, $rnaseqer_metadata, $array_express_metadata);
-  my $descriptions = PublicResources::Descriptions->new($src_dir, $species);
+  my $descriptions = PublicResources::Descriptions->new($species, $self->{sheets}->double_hash('run_descriptions', $species));
   my @studies;
   for my $study_id (@{$rnaseqer_metadata->access($assembly)}){
     unless ($ena_metadata->{$assembly}{$study_id}){
@@ -52,15 +51,16 @@ sub get {
        my $links = $self->{links}->misc_links($study_id,$run_id, $rnaseqer_metadata->data_location($run_id),
          [keys %{$pubmed->{$assembly}{$study_id} || {}}]
        );
-       my %attributes;
+       my %characteristics;
        for my $characteristic_type (@{$rnaseqer_metadata->access($assembly, $study_id, $run_id)}){
-         $attributes{$characteristic_type} = $rnaseqer_metadata->access($assembly, $study_id, $run_id, $characteristic_type);
+         $characteristics{$characteristic_type} = $rnaseqer_metadata->access($assembly, $study_id, $run_id, $characteristic_type);
        }
        my ($run_description_short, $run_description_full) =
-          $descriptions->run_description( $study_id, $run_id, $factors, \%attributes);
+          $descriptions->run_description( $study_id, $run_id, $factors, \%characteristics);
        push @runs, {
           run_id => $run_id,
-          attributes => {%$stats, %$links, %attributes},
+          characteristics => \%characteristics,
+          attributes => {%$stats, %$links, %characteristics},
           run_description_short => $run_description_short,
           run_description_full => $run_description_full,
        };

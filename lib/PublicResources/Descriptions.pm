@@ -1,11 +1,12 @@
-
+use strict;
+use warnings;
 package PublicResources::Descriptions;
 
 sub new {
-   my ($class, $src_dir, $species) = @_;
+   my ($class, $species, $curations) = @_;
    return bless {
-      curations => Curation::Sheets->new($src_dir)->double_hash('run_descriptions', $species),
       species => $species,
+      curations => $curations, 
    }, $class;
 }
 sub run_description_from_sample_name {
@@ -73,7 +74,7 @@ sub run_description {
 }
 sub _clean_study_description {
   my ($study_description) = @_;
-  return "" if length($sd) > 500;
+  return "" if length($study_description) > 500;
   return "" if $study_description =~ /This data is part of a pre-publication release/;
   return $study_description;
 }
@@ -88,8 +89,8 @@ sub study_description {
     my $species = $self->{species};
     $species =~ s/_/ /g;
     $species = ucfirst($species);
-    my $short_description = _clean_study_title($study_metadata->{study_title}) || "$species study";
-    my $full_description = _clean_study_description($study_metadata->{study_description}) || $short_description;
+    my $short_description = $study_metadata->{study_title} ? _clean_study_title($study_metadata->{study_title}) : "$species study";
+    my $full_description = $study_metadata->{study_description} ? _clean_study_description($study_metadata->{study_description}) : $short_description;
     return $short_description, $full_description;
 }
 1;

@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-package Curation::Sheets;
+package Production::Sheets;
 use Text::CSV qw/csv/;
 use File::Slurp qw/read_dir/;
 #use Smart::Comments;
@@ -12,15 +12,30 @@ sub new {
 }
 
 sub path {
-   my ($self, @components) = @_;
-   return join("/", $self->{dir}, @components);
+  my ($self, @components) = @_;
+  my $path = join("/", $self->{dir}, @components);
+#### $path
+  return $path;
+}
+
+sub dir_content_paths {
+  my ($self, $name, $species) = @_;
+  my $entry = $self->path($name, $species);
+  return -d $entry ? map {"$entry/$_"} read_dir $entry : ();
 }
 
 sub list {
   my ($self, $name, $species) = @_;
   my $entry = $self->path($name, $species);
-### $entry
-  return -d $entry ? read_dir $entry : -f "$entry.tsv" ? map {join "", @$_} @{csv(in=>"$entry.tsv")}: ();
+  return -f "$entry.tsv" ? map {join "", @$_} @{csv(in=>"$entry.tsv")}: ();
+}
+
+sub write_list {
+  my ($self, $list, $name, $species) = @_;
+  my $entry = $self->path($name, $species);
+  open(my $fh, ">", "$entry.tsv") or die "$entry.tsv: $!";
+  map {print $fh "$_\n"} @{$list};
+  close($fh);
 }
 
 sub _aoa_to_double_hash {

@@ -1,7 +1,7 @@
 use Test::More;
 use Test::MockModule;
 use File::Temp qw/tempdir/;
-use Model::StudyDesign;
+use Model::Design;
 
 sub test_preserve_format {
    my ($tsv, $test_name) = @_;
@@ -9,12 +9,17 @@ sub test_preserve_format {
       my ($header, @lines) = split "\n", $tsv;
       sprintf("%s + %s lines", $header , 0+@lines);
    };
-   my $subject = Model::StudyDesign::from_tsv(\$tsv);
+   my $subject = Model::Design::from_tsv(\$tsv);
    my $tmp = "";
    $subject->to_tsv(\$tmp);
    is($tmp, $tsv, $test_name) or diag explain $subject;
 }
-
+my $in = -t STDIN ? "" : do {local $/; <>};
+if($in){
+   test_preserve_format($in, "test stdin");
+   done_testing;
+   exit;
+}
 test_preserve_format("Run\tCondition\n");
 test_preserve_format("Run\tCondition\torganism part\n");
 test_preserve_format("Run\tCondition\torganism part\nSRR3209257\thead\thead\n");

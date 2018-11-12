@@ -6,8 +6,10 @@ use File::Path qw(make_path);
 use JSON;
 use XML::Simple;
 use Text::CSV qw(csv);
+use Smart::Comments;
 sub new {
     my ($class,$root_dir,$species, @other_args) = @_;
+### require: $species
     my $dir = "$root_dir/$species";
     my $path_to_local_copy = "$dir/$class";
     make_path $dir;
