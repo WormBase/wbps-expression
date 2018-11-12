@@ -24,6 +24,7 @@ sub run_description_from_sample_name {
     $sample_name =~ s/\[\w+ $cies RNAseq\]//;#https://www.ebi.ac.uk/ena/data/view/DRS026763&display=xml
     $sample_name =~ s/^\s+//;
     $sample_name =~ s/\s+$//;
+    $sample_name =~ s/\s*(biological)? replicate \d+$//;
     return $sample_name;
 }
 
