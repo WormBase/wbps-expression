@@ -7,7 +7,6 @@ use File::Slurp qw/read_dir/;
 #use Smart::Comments;
 sub new {
   my ($class, $src_dir) = @_;
-  $src_dir //= dirname(dirname(dirname(__FILE__)));
   return bless {
      dir => "$src_dir/curation",
   }, $class;
@@ -34,7 +33,7 @@ sub _aoa_to_double_hash {
   }
   return \%result;
 }
-sub study_run_hash {
+sub double_hash {
   my ($self, $name, $species) = @_;
   my $entry = $self->path($name, $species);
   return &_aoa_to_double_hash(-f "$entry.tsv" ? csv(in=>"$entry.tsv", sep => "\t"): []);

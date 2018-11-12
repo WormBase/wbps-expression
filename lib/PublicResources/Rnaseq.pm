@@ -11,16 +11,18 @@ use PublicResources::Resources::PubMed;
 use PublicResources::Descriptions;
 use PublicResources::Links;
 sub new {
-  my ($class, $root_dir) = @_;
+  my ($class, $root_dir, $src_dir) = @_;
+  $src_dir //= dirname(dirname(dirname(__FILE__)));
   bless {
     root_dir => $root_dir,
-    descriptions => PublicResources::Descriptions->new,
+    src_dir => $src_dir,
     links => 'PublicResources::Links',
   }, $class; 
 }
 sub get {
   my ($self, $species, $assembly) = @_;
   my $root_dir = $self->{root_dir};
+  my $src_dir =  $self->{src_dir}; 
   $species = lc($species);
   $species =~ s/([a-z]*_[a-z]*).*/$1/;
   my $rnaseqer_metadata = PublicResources::Resources::RnaseqerMetadata->new($root_dir, $species);
@@ -35,6 +37,7 @@ sub get {
      geo=>$geo_metadata,
   });
   my $factors = PublicResources::Resources::Factors->new($root_dir, $species, $rnaseqer_metadata, $array_express_metadata);
+  my $descriptions = PublicResources::Descriptions->create_for_species($src_dir, $species);
   my @studies;
   for my $study_id (@{$rnaseqer_metadata->access($assembly)}){
     unless ($ena_metadata->{$assembly}{$study_id}){
@@ -52,7 +55,7 @@ sub get {
          $attributes{$characteristic_type} = $rnaseqer_metadata->access($assembly, $study_id, $run_id, $characteristic_type);
        }
        my ($run_description_short, $run_description_full) =
-          $self->{descriptions}->run_description($species, $study_id, $run_id, $factors, \%attributes);
+          $descriptions->run_description( $study_id, $run_id, $factors, \%attributes);
        push @runs, {
           run_id => $run_id,
           attributes => {%$stats, %$links, %attributes},
@@ -61,7 +64,7 @@ sub get {
        };
     }
     my ($study_description_short, $study_description_full) =
-         $self->{descriptions}->study_description($species, $study_id, $ena_metadata->{$assembly}{$study_id});
+         $descriptions->study_description($study_id, $ena_metadata->{$assembly}{$study_id});
 
     push @studies, {
       study_id => $study_id,

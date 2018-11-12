@@ -1,15 +1,18 @@
 use PublicResources::Descriptions;
 use Test::More;
-
+use Test::MockModule;
 my $species = "schistosoma_mansoni";
 my $study_id = "SRP1234000";
 my $run_id = "SRR1230321";
 my $default_short_desc = "";
 my $default_long_desc = "sample from Schistosoma mansoni";
+my $mock = Test::MockModule->new('Curation::Sheets');
+
 sub assert_run_description {
   my ($factors, $attributes, $curated, $expected_description_short, $expected_description_full, $desc) = @_;
-   my ($description_short, $description_full) = PublicResources::Descriptions->new(
-        {$species=>{$study_id=>$curated}})->run_description($species, $study_id, $run_id, $factors, $attributes);
+  $mock->mock('double_hash', {$study_id=>$curated});  
+   my ($description_short, $description_full) =
+     PublicResources::Descriptions->new('tmp_dir_mocked_out', $species)->run_description($study_id, $run_id, $factors, $attributes);
    is_deeply($description_short, $expected_description_short, "description_short $desc");
    is_deeply($description_full, $expected_description_full, "description_full $desc");
 }
@@ -64,8 +67,8 @@ factors_rejected(["type"], {"other_type"=> "value"});
 sub assert_study_description {
   my ($study_attributes, $expected, $desc) = @_;
    $desc //= "assert_study_description $study_id -> $expected";
-   is_deeply([PublicResources::Descriptions->new(
-        {$species=>{}})->study_description($species, $study_id, $study_attributes)],
+   is_deeply(
+     [PublicResources::Descriptions->new("src_dir_unused", $species)->study_description($study_id, $study_attributes)],
      $expected, $desc);
 }
 
