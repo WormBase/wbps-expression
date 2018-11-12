@@ -8,7 +8,6 @@ use File::Slurp qw/write_file/;
 use Curation::StudiesFolder;
 
 my $rnaseq = Test::MockModule->new('PublicResources::Rnaseq');
-ok(-d Curation::StudiesFolder->new("processing dir", undef)->{sheets}->{dir}, "Curation folder in repository");
 
 my $species = "schistosoma_mansoni";
 my $assembly = "Schisto_v7";

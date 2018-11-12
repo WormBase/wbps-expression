@@ -10,6 +10,8 @@ use PublicResources::Resources::RnaseqerStats;
 use PublicResources::Resources::PubMed;
 use PublicResources::Descriptions;
 use PublicResources::Links;
+use Curation::Sheets;
+use File::Basename qw/dirname/;
 sub new {
   my ($class, $root_dir, $src_dir) = @_;
   $src_dir //= dirname(dirname(dirname(__FILE__)));
@@ -37,7 +39,7 @@ sub get {
      geo=>$geo_metadata,
   });
   my $factors = PublicResources::Resources::Factors->new($root_dir, $species, $rnaseqer_metadata, $array_express_metadata);
-  my $descriptions = PublicResources::Descriptions->create_for_species($src_dir, $species);
+  my $descriptions = PublicResources::Descriptions->new($src_dir, $species);
   my @studies;
   for my $study_id (@{$rnaseqer_metadata->access($assembly)}){
     unless ($ena_metadata->{$assembly}{$study_id}){

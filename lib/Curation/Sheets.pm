@@ -1,7 +1,6 @@
 use strict;
 use warnings;
 package Curation::Sheets;
-use File::Basename qw/dirname/;
 use Text::CSV qw/csv/;
 use File::Slurp qw/read_dir/;
 #use Smart::Comments;
