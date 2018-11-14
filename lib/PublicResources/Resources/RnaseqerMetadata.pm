@@ -17,6 +17,11 @@ sub access {
   return $h;
 }
 
+sub access_characteristics {
+  my ($self, $assembly, $study_id, $run_id) = @_;
+  return $self->{metadata}{$assembly}{$study_id}{$run_id};
+}
+
 sub data_location {
   my ($self, $run_id) = @_; 
   my $bigwig_location = $self->{location_per_run_id}{$run_id};

@@ -12,7 +12,10 @@ sub test_preserve_format {
    my $subject = Model::Design::from_tsv(\$tsv);
    my $tmp = "";
    $subject->to_tsv(\$tmp);
-   is($tmp, $tsv, $test_name) or diag explain $subject;
+   is($tmp, $tsv, "from_tsv then to_tsv preserves tsv: $test_name") or diag explain $subject;
+   my @a = ($subject->{conditions_per_run}, $subject->characteristics_per_run, $subject->{characteristics_in_order});
+   
+   is_deeply(Model::Design::from_data_by_run(@a), $subject, "characteristics_per_run stable: $test_name") or diag explain @a;
 }
 my $in = -t STDIN ? "" : do {local $/; <>};
 if($in){

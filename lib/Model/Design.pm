@@ -101,6 +101,17 @@ sub all_runs {
 sub all_conditions {
   return keys %{reverse_hoa(shift->{conditions_per_run})};
 }
+sub characteristics_per_run {
+  my ($self) = @_;
+  my @all_runs = $self->all_runs;
+  my %result;
+  for my $run_id (@all_runs){
+    for my $ch (@{$self->{characteristics_in_order}}){
+      $result{$run_id}{$ch} = $self->value_in_run($run_id, $ch);
+    }
+  }
+  return \%result;
+}
 sub to_tsv {
   my($self, $path) = @_;
   open(my $fh, ">", $path) or die "$path: $!";

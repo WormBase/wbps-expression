@@ -11,7 +11,9 @@ use PublicResources::Resources::PubMed;
 use PublicResources::Descriptions;
 use PublicResources::Links;
 use Production::Sheets;
+use Model::Design;
 use File::Basename qw/dirname/;
+use List::Pairwise qw/map_pairwise/;
 sub new {
   my ($class, $root_dir, $sheets) = @_;
   $sheets //= Production::Sheets->new(dirname(dirname(dirname(__FILE__))));
@@ -39,6 +41,7 @@ sub get {
   });
   my $factors = PublicResources::Resources::Factors->new($root_dir, $species, $rnaseqer_metadata, $array_express_metadata);
   my $descriptions = PublicResources::Descriptions->new($species, $self->{sheets}->double_hash('run_descriptions', $species));
+  my %stored_characteristics = map_pairwise {$a => Model::Design->from_tsv($b)->characteristics_per_run } %{$self->{sheets}->tsvs_in_folders('studies', $species))};
   my @studies;
   for my $study_id (@{$rnaseqer_metadata->access($assembly)}){
     unless ($ena_metadata->{$assembly}{$study_id}){
@@ -51,16 +54,13 @@ sub get {
        my $links = $self->{links}->misc_links($study_id,$run_id, $rnaseqer_metadata->data_location($run_id),
          [keys %{$pubmed->{$assembly}{$study_id} || {}}]
        );
-       my %characteristics;
-       for my $characteristic_type (@{$rnaseqer_metadata->access($assembly, $study_id, $run_id)}){
-         $characteristics{$characteristic_type} = $rnaseqer_metadata->access($assembly, $study_id, $run_id, $characteristic_type);
-       }
+       my $characteristics = $stored_characteristics{$study_id}{$run_id} // $rnaseqer_metadata->access_characteristics($assembly, $study_id, $run_id);
        my ($run_description_short, $run_description_full) =
           $descriptions->run_description( $study_id, $run_id, $factors, \%characteristics);
        push @runs, {
           run_id => $run_id,
-          characteristics => \%characteristics,
-          attributes => {%$stats, %$links, %characteristics},
+          characteristics => $characteristics,
+          attributes => {%$stats, %$links, %{$characteristics}},
           run_description_short => $run_description_short,
           run_description_full => $run_description_full,
        };
