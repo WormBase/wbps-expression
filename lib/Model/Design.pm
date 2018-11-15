@@ -2,6 +2,7 @@ use strict;
 use warnings;
 package Model::Design;
 use Text::CSV qw/csv/;
+use List::Util qw/pairmap/;
 use List::MoreUtils qw/uniq/;
 #use Smart::Comments '###';
 
@@ -127,5 +128,23 @@ sub to_tsv {
      }
   }  
   close $fh; 
+}
+
+sub data_quality_checks {
+  my ($self) = @_;
+  my %runs_by_condition = %{reverse_hoa($self->{conditions_per_run})};
+  my %characteristics_by_run = %{$self->{values}{by_run} || {}};
+  return (
+    "Some runs",
+       => scalar %runs_by_condition,
+    "Some characteristics" 
+       => 0+@{$self->{characteristics_in_order}},
+    "If there are multiple conditions, then some characteristics vary by condition"
+       => (%runs_by_condition < 2 or %{$self->{values}{by_condition}} > 0 ),
+     pairmap { 
+       "Condition $a is well-defined: uniform characteristics in runs @{$b}" 
+         => not scalar grep {$_} @characteristics_by_run{@{$b}}
+     } %runs_by_condition
+  ); 
 }
 1;
