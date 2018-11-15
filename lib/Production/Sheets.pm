@@ -27,7 +27,7 @@ sub dir_content_paths {
 sub tsvs_in_folders {
   my ($self, $name, $species) = @_;
   my $entry = $self->path($name, $species);
-  my %result = -d $entry ? map {my $f = "$entry/$_/$_.tsv"; return -f $f ? ($_, $f) : () } : ();
+  my %result = -d $entry ? map {my $f = "$entry/$_/$_.tsv"; -f $f ? ($_, $f) : () } read_dir $entry : ();
   return \%result;
 }
 

@@ -5,7 +5,6 @@ requires 'File::Slurp';
 requires 'JSON';
 requires 'LWP';
 requires 'List::MoreUtils';
-requires 'List::Pairwise';
 requires 'List::Util';
 requires 'Text::CSV';
 requires 'XML::Simple';

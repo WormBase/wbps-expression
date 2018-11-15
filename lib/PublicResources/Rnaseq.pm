@@ -13,7 +13,7 @@ use PublicResources::Links;
 use Production::Sheets;
 use Model::Design;
 use File::Basename qw/dirname/;
-use List::Pairwise qw/map_pairwise/;
+use List::Util qw/pairmap/;
 sub new {
   my ($class, $root_dir, $sheets) = @_;
   $sheets //= Production::Sheets->new(dirname(dirname(dirname(__FILE__))));
@@ -41,7 +41,7 @@ sub get {
   });
   my $factors = PublicResources::Resources::Factors->new($root_dir, $species, $rnaseqer_metadata, $array_express_metadata);
   my $descriptions = PublicResources::Descriptions->new($species, $self->{sheets}->double_hash('run_descriptions', $species));
-  my %stored_characteristics = map_pairwise {$a => Model::Design->from_tsv($b)->characteristics_per_run } %{$self->{sheets}->tsvs_in_folders('studies', $species))};
+  my %stored_characteristics = pairmap {$a => Model::Design::from_tsv($b)->characteristics_per_run } %{$self->{sheets}->tsvs_in_folders('studies', $species)};
   my @studies;
   for my $study_id (@{$rnaseqer_metadata->access($assembly)}){
     unless ($ena_metadata->{$assembly}{$study_id}){
