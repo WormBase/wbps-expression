@@ -2,9 +2,9 @@ use strict;
 use warnings;
 package Model::Design;
 use Text::CSV qw/csv/;
-use List::Util qw/pairmap/;
-use List::MoreUtils qw/uniq/;
-#use Smart::Comments '###';
+use List::Util qw/pairmap first/;
+use List::MoreUtils qw/uniq zip duplicates/;
+use Smart::Comments '###';
 
 sub new {
   my ($class, %args) = @_;
@@ -49,7 +49,7 @@ sub from_data_by_run {
         $characteristics_varying_within_any_condition{$characteristic} += -1 + uniq map {$characteristics_per_run->{$_}{$characteristic}} @{$runs_by_condition{$condition}};
      }
   }
-  my %characteristics;
+  my %characteristics = (by_run => {}, by_condition => {}, common => {});
 #### $characteristics_in_order
 #### %characteristics_varying_within_any_condition
 #### %characteristics_varying_across_conditions
@@ -129,22 +129,117 @@ sub to_tsv {
   }  
   close $fh; 
 }
+sub n_choose_one {
+  my @result;
+  for my $i (0..$#_){
+     my @copy = @_;
+     my ($el) = splice @copy, $i, 1;
+     push @result, [$el, \@copy];
+  }
+  return @result;
+}
 
+# adapted from Math::Subsets::List 1.008
+sub subsets {
+  my @result;
+  my $n = scalar(@_);  # Size of list to be subsetted
+  my $l = 0;           # Current item
+  my @p = ();          # Current subset
+  my @P = @_;          # List to be subsetted
+
+  my $p; 
+  $p = sub {
+   if ($l < $n) {
+      ++$l;
+	  &$p();
+	  push @p, $P[$l-1];
+	  &$p();
+	  pop @p;
+	  --$l;
+    } else {
+     push @result, [@p];
+   }
+  };
+  &$p;
+  $p = undef;
+  return @result;
+}
+
+sub slices {
+  my ($self) = @_;
+  my %vs = %{$self->{values}{by_condition}};
+  my @characteristics_separating_conditions = uniq sort map {keys %{$vs{$_}}} keys %vs;
+
+  my @all_conditions = $self->all_conditions;
+  my @result;
+  for my $pair (n_choose_one @characteristics_separating_conditions){
+    my ($characteristic, $others) = @{$pair};
+    for my $characteristic_subset (subsets @{$others}){
+      my %conditions_by_values;
+      for my $condition (@all_conditions){
+        my %d = %{$vs{$condition}};
+        my $k = join("\t", @d{@{$characteristic_subset}});
+        $conditions_by_values{$k} //= [];
+        push @{$conditions_by_values{$k}}, $condition;
+      }
+### require: %conditions_by_values > 0
+      for my $k (keys %conditions_by_values){
+        my @common_characteristics_values = split("\t", $k);
+        my %common_characteristics = zip(@$characteristic_subset, @common_characteristics_values);
+        my %varying_characteristic_per_condition = map {$_ => $vs{$_}{$characteristic}} @{$conditions_by_values{$k}};
+        push @result, {
+           varying_characteristic => $characteristic,
+           common_characteristics => \%common_characteristics,
+           values => \%varying_characteristic_per_condition,
+        } if %varying_characteristic_per_condition and not duplicates values %varying_characteristic_per_condition;
+      }
+    }
+  }
+  return \@result;
+}
+sub slices_keys {
+  my @result = map {key_to_slice(%{$_})} @{slices(@_)};
+  return \@result;
+}
+sub is_key_to_slice {
+  my ($key, $slice) = @_;
+  my %ccs = %{$slice->{common_characteristics}};
+  return ($key->{__factor__} eq $slice->{varying_characteristic}
+    and all {$key->{$_} eq $ccs{$_}} keys %ccs
+    and %{$key} == %ccs+1
+  );
+}
+sub lookup_slice {
+  my ($self, $slice_key) = @_;
+  return first {is_key_to_slice($slice_key, $_)} @{$self->slices};
+}
+sub key_to_slice {
+   my (%slice) = @_;
+   return {__factor__ => $slice{varying_characteristic}, map {$_ => $slice{common_characteristics}{$_}} sort keys %{$slice{common_characteristics}}};
+}
 sub data_quality_checks {
   my ($self) = @_;
   my %runs_by_condition = %{reverse_hoa($self->{conditions_per_run})};
-  my %characteristics_by_run = %{$self->{values}{by_run} || {}};
+  my %characteristics_by_run = %{$self->{values}{by_run}};
+  my @slices = @{$self->slices};
+  my %slices_by_key = map {join("\t", key_to_slice(%{$_})) => $_} @slices;
+#### %slices_by_key
+  my @conditions_well_defined = pairmap {
+    "Condition $a is well-defined: uniform characteristics in runs @{$b}"
+      => not scalar grep {$_} @characteristics_by_run{@{$b}}
+  } %runs_by_condition;
   return (
     "Some runs",
        => scalar %runs_by_condition,
     "Some characteristics" 
        => 0+@{$self->{characteristics_in_order}},
+    "If characteristics separate by condition, then there are some slices"
+       => (not %{$self->{values}{by_condition}} or 0+@slices),
     "If there are multiple conditions, then some characteristics vary by condition"
        => (%runs_by_condition < 2 or %{$self->{values}{by_condition}} > 0 ),
-     pairmap { 
-       "Condition $a is well-defined: uniform characteristics in runs @{$b}" 
-         => not scalar grep {$_} @characteristics_by_run{@{$b}}
-     } %runs_by_condition
+    "No key collision on slices",
+       => (@slices == %slices_by_key),
+     @conditions_well_defined,
   ); 
 }
 1;
