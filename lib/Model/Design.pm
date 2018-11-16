@@ -5,7 +5,6 @@ use Text::CSV qw/csv/;
 use List::Util qw/pairmap first/;
 use List::MoreUtils qw/uniq zip duplicates/;
 use Smart::Comments '###';
-
 sub new {
   my ($class, %args) = @_;
   return bless \%args, $class; 
@@ -232,7 +231,8 @@ sub data_quality_checks {
   my %runs_by_condition = %{reverse_hoa($self->{conditions_per_run})};
   my %characteristics_by_run = %{$self->{values}{by_run}};
   my @slices = @{$self->slices};
-  my %slices_by_key = map {join("\t", key_to_slice(%{$_})) => $_} @slices;
+  my %slices_by_key = map {join("\t", %{key_to_slice(%{$_})}) => $_} @slices;
+#### %slices_by_key
   my @conditions_well_defined = pairmap {
     "Condition $a is well-defined: uniform characteristics in runs @{$b}"
       => not scalar grep {$_} @characteristics_by_run{@{$b}}

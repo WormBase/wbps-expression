@@ -33,7 +33,6 @@ sub study {
      title => $args{study_description_short},
      description => $args{study_description_full},
      pubmed => $args{pubmed},
-     public => 0,
   });
 }
 1;
