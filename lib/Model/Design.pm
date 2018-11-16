@@ -178,13 +178,17 @@ sub slices {
       my %conditions_by_values;
       for my $condition (@all_conditions){
         my %d = %{$vs{$condition}};
-        my $k = join("\t", @d{@{$characteristic_subset}});
+        my $k = @{$characteristic_subset} ? join("\t", @d{@{$characteristic_subset}}) : "__empty__";
         $conditions_by_values{$k} //= [];
         push @{$conditions_by_values{$k}}, $condition;
       }
 ### require: %conditions_by_values > 0
       for my $k (keys %conditions_by_values){
-        my @common_characteristics_values = split("\t", $k);
+        my @common_characteristics_values = $k eq "__empty__" ? () : $k ? split("\t", $k, -1) : ("");
+#### $characteristic
+#### $characteristic_subset
+#### %conditions_by_values
+### require: @$characteristic_subset == @common_characteristics_values
         my %common_characteristics = zip(@$characteristic_subset, @common_characteristics_values);
         my %varying_characteristic_per_condition = map {$_ => $vs{$_}{$characteristic}} @{$conditions_by_values{$k}};
         push @result, {
@@ -203,11 +207,17 @@ sub slices_keys {
 }
 sub is_key_to_slice {
   my ($key, $slice) = @_;
+#### $key
+#### $slice
   my %ccs = %{$slice->{common_characteristics}};
-  return ($key->{__factor__} eq $slice->{varying_characteristic}
-    and all {$key->{$_} eq $ccs{$_}} keys %ccs
-    and %{$key} == %ccs+1
-  );
+  return 0 unless $key->{__factor__} eq $slice->{varying_characteristic};
+  for my $k (keys %ccs){
+### require: defined $key->{$k}
+### require: defined $ccs{$k}
+    return 0 unless $key->{$k} eq $ccs{$k};
+  }
+  return 0 unless %{$key} == %ccs+1;
+  return 1;
 }
 sub lookup_slice {
   my ($self, $slice_key) = @_;
@@ -223,7 +233,6 @@ sub data_quality_checks {
   my %characteristics_by_run = %{$self->{values}{by_run}};
   my @slices = @{$self->slices};
   my %slices_by_key = map {join("\t", key_to_slice(%{$_})) => $_} @slices;
-#### %slices_by_key
   my @conditions_well_defined = pairmap {
     "Condition $a is well-defined: uniform characteristics in runs @{$b}"
       => not scalar grep {$_} @characteristics_by_run{@{$b}}

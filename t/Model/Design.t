@@ -27,7 +27,7 @@ sub test_preserve_format {
 	 my @a = ($subject->{conditions_per_run}, $subject->characteristics_per_run, $subject->{characteristics_in_order});
 	 
 	 is_deeply(Model::Design::from_data_by_run(@a), $subject, "characteristics_per_run stable") or diag explain \@a;
-   }
+   };
 }
 sub fails_data_quality_checks {
    my ($tsv, $test_name) = @_;
@@ -43,7 +43,7 @@ sub passes_data_quality_checks {
      my @pairs = pairs Model::Design::from_tsv(\$tsv)->data_quality_checks;
      plan tests => scalar @pairs;
      for my $pair (@pairs) {
-       ok($pair->value, $pair->key);
+       ok($pair->value, $pair->key) or diag $tsv;
      }
    }
 }
