@@ -27,41 +27,45 @@ sub should_reject_study {
   return ($study->{design}->all_conditions < 2 || $study->{design}->all_runs < 6);
 }
 
-sub update_sheets_with_incoming_studies {
-  my ($self, $species, @new_studies) = @_;
-  my @new_studies_saved;
-  my @new_studies_rejected;
-  my @ignore_studies = $self->{sheets}->list("ignore_studies", $species);
-  for my $study (@new_studies) {
-    my $study_id = $study->{study_id};
-    if (grep {$_ eq $study_id} @ignore_studies or $self->should_reject_study($study)){ 
-      push @new_studies_rejected, $study->{study_id};
-    } else {
-      $study->to_folder($self->{sheets}->path("studies", $species, $study->{study_id}));
-      push @new_studies_saved, $study->{study_id};
-    }
-  }
-  if(@new_studies_rejected){
-    $self->{sheets}->write_list( [sort uniq(@ignore_studies, @new_studies_rejected)], "ignore_studies", $species)
-  }
-  return \@new_studies_rejected , \@new_studies_saved;
-}
-
-
-sub list_queue {
-  my ($self, $species, $assembly) = @_;
-  return read_dir join("/", $self->{processing_path}, $species, $assembly);
-}
-
 sub do_everything {
   my ($self, $species, $assembly) = @_;
   my ($factors, $location_per_run_id, @public_study_records) = $self->{public_rnaseq_studies}->get($species, $assembly);  
-  my @current_studies = grep {$_->{config}{public}} $self->get_studies_in_sheets($species);
-  my %current_study_ids = map {($_->{study_id}, 1)} @current_studies;
-  my @new_studies = map {&Production::CurationDefaults::study(%$_)} grep { not $current_study_ids{$_} } @public_study_records;
-  my ($rejected_study_ids, $saved_study_ids) = $self->update_sheets_with_incoming_studies($species, @new_studies);
+  my %current_studies = map {$_->{study_id}=> $_} $self->get_studies_in_sheets($species);
+  my %current_ignore_studies = map {$_=>1} $self->{sheets}->list("ignore_studies", $species);
+
+  my @rejected;
+  my @updated;
+  my @saved;
+
+  INCOMING_STUDIES:
+  for my $study ( map {&Production::CurationDefaults::study(%$_)} grep { not $current_study_ids{$_} } @public_study_records){
+    my $current_record = $current_studies{$study->{study_id}};
+    if ($self->should_reject_study($study)){
+      $self->{sheets}->remove_tree($species, $study->{study_id}) if $current_record; 
+      push @rejected, $study->{study_id};
+      next INCOMING_STUDIES;
+    } 
+    if ($current_record and Model::Study::config_matches_design($current_record->{config}, $study->{design})){
+       $study->{config}{slices} = $current_record->{config}{slices};
+       $study->{config}{condition_names} = $current_record->{config}{condition_names};
+       # Additionally, characteristics in the current record were already reused
+       # because they provided sources of attributes for the runs - see PublicResources::Rnaseq
+       
+       $study->to_folder($self->{sheets}->path("studies", $species, $study->{study_id}));
+       push @updated, $study->{study_id};
+       next INCOMING_STUDIES;
+    }
+    $study->to_folder($self->{sheets}->path("studies", $species, $study->{study_id}));
+    push @saved, $study->{study_id};
+    next INCOMING_STUDIES;
+  };
+  if (@rejected){
+    $self->{sheets}->write_list( [sort uniq(keys %current_ignore_studies, @rejected)], "ignore_studies", $species)
+  }
+
 
   # Remaining:
+  # Run checks on everything
   # Work out analyses to do, and do them for all current studies, populating the production directory - needs input path locations and production directory 
   # Deployment directory - link between production directory results, a corner of FTP where they serve, and where the paths should go
   # Go through done / pending curation / rejected studies, and make a HTML page
@@ -71,5 +75,8 @@ sub do_everything {
   #   - what analyses should run?
   #   - production->deployment sync
   #   - HTML rendering with links pointing to correct places
+  # Some internal report on what happened:
+  #   - statuses: ignored / removed / unchanged / updated / failed_data_quality / failed_analysis 
+  #   - more granular than html, which should only have successful and other
 }
 1;

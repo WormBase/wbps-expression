@@ -3,6 +3,7 @@ use warnings;
 package Production::Sheets;
 use Text::CSV qw/csv/;
 use File::Slurp qw/read_dir/;
+use File::Path qw/remove_tree/;
 #use Smart::Comments;
 sub new {
   my ($class, $src_dir) = @_;
@@ -44,7 +45,9 @@ sub write_list {
   map {print $fh "$_\n"} @{$list};
   close($fh);
 }
-
+sub remove_all {
+  return remove_tree path(@_);
+}
 sub _aoa_to_double_hash {
   my ($aoa) = @_;
   my %result;
