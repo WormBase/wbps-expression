@@ -1,0 +1,21 @@
+Run	Condition	developmental_stage	ivm_concentration	sex	timepoint
+SRR2954987	0h	adult		female	RNA extraction upon arrival at McGill
+SRR2954988	0h	adult		female	RNA extraction upon arrival at McGill
+SRR2954989	0h	adult		female	RNA extraction upon arrival at McGill
+SRR2954990	48 h	adult		female	RNA extraction at 48 h
+SRR2954991	48 h	adult		female	RNA extraction at 48 h
+SRR2954992	48 h	adult		female	RNA extraction at 48 h
+SRR2954999	5 d	adult		female	RNA extraction at 5 d
+SRR2955000	5 d	adult		female	RNA extraction at 5 d
+SRR2955001	5 d	adult		female	RNA extraction at 5 d
+SRR2954996	Ivermectin 1 uM, 48 h	adult	1 uM	female	RNA extraction at 48 h
+SRR2954997	Ivermectin 1 uM, 48 h	adult	1 uM	female	RNA extraction at 48 h
+SRR2954998	Ivermectin 1 uM, 48 h	adult	1 uM	female	RNA extraction at 48 h
+SRR2955005	Ivermectin 1 uM, 5 d	adult	1 uM	female	RNA extraction at 5 d
+SRR2955006	Ivermectin 1 uM, 5 d	adult	1 uM	female	RNA extraction at 5 d
+SRR2954993	Ivermectin 300 nM, 48 h	adult	300 nM	female	RNA extraction at 48 h
+SRR2954994	Ivermectin 300 nM, 48 h	adult	300 nM	female	RNA extraction at 48 h
+SRR2954995	Ivermectin 300 nM, 48 h	adult	300 nM	female	RNA extraction at 48 h
+SRR2955002	Ivermectin 300 nM, 5 d	adult	300 nM	female	RNA extraction at 5 d
+SRR2955003	Ivermectin 300 nM, 5 d	adult	300 nM	female	RNA extraction at 5 d
+SRR2955004	Ivermectin 300 nM, 5 d	adult	300 nM	female	RNA extraction at 5 d

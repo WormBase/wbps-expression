@@ -1,0 +1,22 @@
+---
+condition_names: {}
+description: 'High-throughput sequencing to profile the transcriptome of the human filarial nematode Brugia malayi, the causative agent of lymphatic filariasis, across multiple life-cycle stages.'
+pubmed:
+  22180794:
+    - 'Choi & Michalski, 2011'
+    - 'A deep sequencing approach to comparatively analyze the transcriptome of lifecycle stages of the filarial worm, Brugia malayi. (Choi & Michalski, 2011)'
+  24853112:
+    - 'Choi & Christensen, 2014'
+    - 'Dual RNA-seq of parasite and host reveals gene expression dynamics during filarial worm-mosquito interactions. (Choi & Christensen, 2014)'
+slices:
+  - __factor__: developmental_stage
+    strain: FR3 and WI
+  - __factor__: strain
+    developmental_stage: larva L3
+  - __factor__: strain
+    developmental_stage: mature microfilariae
+  - __factor__: strain
+    developmental_stage: larva L4
+  - __factor__: strain
+    developmental_stage: eggs and embryos
+title: Brugia malayi transcriptomics at different life cycle stages

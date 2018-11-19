@@ -1,0 +1,13 @@
+Run	Condition	biosourceprovider	biosourcetype	developmental_stage	organism_part	strain
+ERR048962	Adult female	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	adult	whole organism	FR3
+ERR048970	Adult female	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	adult	whole organism	FR3
+ERR048972	Adult female	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	adult	whole organism	FR3
+ERR048961	Adult male	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	adult	whole organism	FR3
+ERR048967	Eggs/embryos	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	eggs and embryos	whole organism	FR3
+ERR048969	Eggs/embryos	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	eggs and embryos	whole organism	FR3
+ERR048974	L3	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	larva L3	whole organism	FR3 and WI
+ERR048964	L3 (GA sample)	NIAID-NIH Filariasis Research Reagent Resource (FR3) Center at University of Georgia, Athens, GA	frozen_sample	larva L3	whole organism	FR3
+ERR048963	L4	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	larva L4	whole organism	FR3
+ERR048971	L4	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	larva L4	whole organism	FR3
+ERR048973	L4	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	larva L4	whole organism	FR3
+ERR048965	Microfilariae	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	mature microfilariae	whole organism	FR3
