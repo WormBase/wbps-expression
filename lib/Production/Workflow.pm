@@ -40,7 +40,7 @@ sub do_everything {
   INCOMING_STUDIES:
   for my $study ( map {&Production::CurationDefaults::study(%$_)} grep { not $current_study_ids{$_} } @public_study_records){
     my $current_record = $current_studies{$study->{study_id}};
-    if ($self->should_reject_study($study)){
+    if ($current_ignore_studies{$study->{study_id}} or $self->should_reject_study($study)){
       $self->{sheets}->remove_tree($species, $study->{study_id}) if $current_record; 
       push @rejected, $study->{study_id};
       next INCOMING_STUDIES;
@@ -60,7 +60,7 @@ sub do_everything {
     next INCOMING_STUDIES;
   };
   if (@rejected){
-    $self->{sheets}->write_list( [sort uniq(keys %current_ignore_studies, @rejected)], "ignore_studies", $species)
+    $self->{sheets}->write_list( [uniq sort(keys %current_ignore_studies, @rejected)], "ignore_studies", $species)
   }
 
 

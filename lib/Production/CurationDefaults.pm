@@ -10,7 +10,7 @@ sub design_from_runs {
   my (@runs) = @_;
   my %conditions_per_run = map {($_->{run_id}, $_->{run_description_short})} @runs;
   my %characteristics_per_run = map {($_->{run_id}, $_->{characteristics})} @runs;
-  my @characteristics_in_order = sort {$a cmp $b} uniq map {keys %{$_->{characteristics}}} @runs;
+  my @characteristics_in_order = uniq sort {$a cmp $b} map {keys %{$_->{characteristics}}} @runs;
   return Model::Design::from_data_by_run(\%conditions_per_run, \%characteristics_per_run, \@characteristics_in_order);
 }
 
