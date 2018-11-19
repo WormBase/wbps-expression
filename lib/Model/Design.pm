@@ -3,8 +3,8 @@ use warnings;
 package Model::Design;
 use Text::CSV qw/csv/;
 use List::Util qw/pairmap first/;
-use List::MoreUtils qw/uniq zip duplicates/;
-use Smart::Comments '###';
+use List::MoreUtils qw/uniq zip/;
+#use Smart::Comments '###';
 sub new {
   my ($class, %args) = @_;
   return bless \%args, $class; 
@@ -12,8 +12,8 @@ sub new {
 
 sub from_tsv {
   my ($path) = @_;
-  my %characteristics_per_run;
-  my %conditions_per_run;
+  my %characteristics_per_run = ();
+  my %conditions_per_run = ();
 
   my ($header, @lines) = @{csv(in=>$path, sep_char => "\t")};
   my ($_1,$_2, @characteristics) = @{$header};
@@ -194,7 +194,7 @@ sub slices {
            varying_characteristic => $characteristic,
            common_characteristics => \%common_characteristics,
            values => \%varying_characteristic_per_condition,
-        } if %varying_characteristic_per_condition and not duplicates values %varying_characteristic_per_condition;
+        } if %varying_characteristic_per_condition and keys %varying_characteristic_per_condition == keys %{reverse_hoa(\%varying_characteristic_per_condition)};
       }
     }
   }
@@ -215,7 +215,7 @@ sub is_key_to_slice {
 ### require: defined $ccs{$k}
     return 0 unless $key->{$k} eq $ccs{$k};
   }
-  return 0 unless %{$key} == %ccs+1;
+  return 0 unless keys %{$key} == 1 + keys %ccs;
   return 1;
 }
 sub lookup_slice {
@@ -245,9 +245,9 @@ sub data_quality_checks {
     "If characteristics separate by condition, then there are some slices"
        => (not %{$self->{values}{by_condition}} or 0+@slices),
     "If there are multiple conditions, then some characteristics vary by condition"
-       => (%runs_by_condition < 2 or %{$self->{values}{by_condition}} > 0 ),
+       => (2 > keys %runs_by_condition or 0 < keys %{$self->{values}{by_condition}} ),
     "No key collision on slices",
-       => (@slices == %slices_by_key),
+       => (@slices == keys %slices_by_key),
      @conditions_well_defined,
   ); 
 }

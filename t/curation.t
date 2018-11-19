@@ -22,7 +22,7 @@ sub design_dumps_to_tsv {
   my $lines = $tsv =~ tr/\n//;
   subtest $test_name => sub {
     is(
-      %{ $subject->{conditions_per_run} } + 1,
+      1+ keys %{ $subject->{conditions_per_run} },
       $lines,
 "Dimension check: header + one line per run expected to be number of newlines"
     );
