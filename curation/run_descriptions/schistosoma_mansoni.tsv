@@ -1,10 +1,10 @@
-ERP000427	ERR022872	Cercariae
-ERP000427	ERR022873	Adult
+ERP000427	ERR022872	Cercariae	
+ERP000427	ERR022873	Adult	
 ERP000427	ERR022874	Somule 3hrs	Somule 3hrs post-infection
-ERP000427	ERR022875	Cercarial tail
+ERP000427	ERR022875	Cercarial tail	
 ERP000427	ERR022876	Somule 3hrs	Somule 3hrs post-infection
-ERP000427	ERR022877	Cercariae
-ERP000427	ERR022878	Cercariae
+ERP000427	ERR022877	Cercariae	
+ERP000427	ERR022878	Cercariae	
 ERP000427	ERR022879	Somule 3hrs	Somule 3hrs post-infection
 ERP000427	ERR022880	Somule 3hrs	Somule 3hrs post-infection
 ERP000427	ERR022881	Somule 24hrs	Somule 24hrs post-infection
@@ -28,13 +28,13 @@ SRP017443	SRR629229	Non-irradiated	Non-irradiated male control
 SRP017443	SRR629230	Irradiated	Irradiated male
 SRP017443	SRR629231	Irradiated	Irradiated male
 SRP017443	SRR629232	Irradiated	Irradiated male
-SRP026308	SRR922067	Miracidia
-SRP026308	SRR922068	Sporocyst
-SRP032348	SRR1020294	Oxamniquine resistant
-SRP032348	SRR1020295	Oxamniquine resistant
-SRP032348	SRR1020296	Oxamniquine resistant
-SRP032348	SRR1020297	Oxamniquine susceptible
-SRP032348	SRR1020298	Oxamniquine susceptible
-SRP042222	SRR1346220	Adult virgin females
+SRP026308	SRR922067	Miracidia	
+SRP026308	SRR922068	Sporocyst	
+SRP032348	SRR1020294	Oxamniquine resistant	
+SRP032348	SRR1020295	Oxamniquine resistant	
+SRP032348	SRR1020296	Oxamniquine resistant	
+SRP032348	SRR1020297	Oxamniquine susceptible	
+SRP032348	SRR1020298	Oxamniquine susceptible	
+SRP042222	SRR1346220	Adult virgin females	
 SRP042222	SRR1346221	Adult virgin females	Previously fecund females
 SRP042222	SRR1346222	Adult virgin females	Adult fecund females

@@ -1,15 +1,15 @@
-ERP000948	ERR048961	Adult male
-ERP000948	ERR048962	Adult female
-ERP000948	ERR048963	L4
-ERP000948	ERR048965	Microfilariae
-ERP000948	ERR048967	Eggs/embryos
-ERP000948	ERR048969	Eggs/embryos
-ERP000948	ERR048970	Adult female
-ERP000948	ERR048971	L4
-ERP000948	ERR048972	Adult female
-ERP000948	ERR048973	L4
-ERP000948	ERR048974	L3
-ERP000948	ERR048964	L3 (GA sample)
+ERP000948	ERR048961	Adult male	
+ERP000948	ERR048962	Adult female	
+ERP000948	ERR048963	L4	
+ERP000948	ERR048965	Microfilariae	
+ERP000948	ERR048967	Eggs/embryos	
+ERP000948	ERR048969	Eggs/embryos	
+ERP000948	ERR048970	Adult female	
+ERP000948	ERR048971	L4	
+ERP000948	ERR048972	Adult female	
+ERP000948	ERR048973	L4	
+ERP000948	ERR048974	L3	
+ERP000948	ERR048964	L3 (GA sample)	
 SRP063061	SRR2225857	Upon dissection	RNA extraction immediately upon jird dissection
 SRP063061	SRR2225858	Upon dissection	RNA extraction immediately upon jird dissection
 SRP063061	SRR2225859	Upon dissection	RNA extraction immediately upon jird dissection
@@ -34,9 +34,9 @@ SRP063061	SRR2225877	5 days	RNA extraction after 5 days in culture
 SRP063061	SRR2225878	5 days	RNA extraction after 5 days in culture
 SRP063061	SRR2225879	5 days	RNA extraction after 5 days in culture
 SRP063061	SRR2225880	5 days	RNA extraction after 5 days in culture
-SRP064921	SRR2673316	20-hydroxyecdysone-treated females
-SRP064921	SRR3292163	20-hydroxyecdysone-treated females
-SRP064921	SRR3292166	20-hydroxyecdysone-treated females
+SRP064921	SRR2673316	20-hydroxyecdysone-treated females	
+SRP064921	SRR3292163	20-hydroxyecdysone-treated females	
+SRP064921	SRR3292166	20-hydroxyecdysone-treated females	
 SRP066610	SRR2954973	0h	RNA extraction upon arrival at McGill
 SRP066610	SRR2954974	0h	RNA extraction upon arrival at McGill
 SRP066610	SRR2954975	24 h	RNA extraction at 24 h
@@ -71,14 +71,14 @@ SRP066611	SRR2955003	Ivermectin 300 nM, 5 d	Ivermectin 300 nM, RNA extraction at
 SRP066611	SRR2955004	Ivermectin 300 nM, 5 d	Ivermectin 300 nM, RNA extraction at 5 d
 SRP066611	SRR2955005	Ivermectin 1 uM, 5 d	Ivermectin 1 uM, RNA extraction at 5 d
 SRP066611	SRR2955006	Ivermectin 1 uM, 5 d	Ivermectin 1 uM, RNA extraction at 5 d
-SRP068692	SRR3110748	Adult female
-SRP068692	SRR3111433	Adult female
-SRP068692	SRR3111490	Adult female
-SRP068692	SRR3111494	Adult female
-SRP068692	SRR3111497	Adult male
-SRP068692	SRR3111501	Adult male
-SRP068692	SRR3111507	Embryos
-SRP068692	SRR3111512	Embryos
+SRP068692	SRR3110748	Adult female	
+SRP068692	SRR3111433	Adult female	
+SRP068692	SRR3111490	Adult female	
+SRP068692	SRR3111494	Adult female	
+SRP068692	SRR3111497	Adult male	
+SRP068692	SRR3111501	Adult male	
+SRP068692	SRR3111507	Embryos	
+SRP068692	SRR3111512	Embryos	
 SRP068692	SRR3111516	3dpi mixed	3 days post-infection of host (mixed sex)
 SRP068692	SRR3111520	3dpi mixed	3 days post-infection of host (mixed sex)
 SRP068692	SRR3111547	4dpi mixed	4 days post-infection of host (mixed sex)
