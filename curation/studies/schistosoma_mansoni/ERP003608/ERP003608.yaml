@@ -1,0 +1,19 @@
+---
+condition_names:
+  '': sample from Schistosoma mansoni
+  'Female, mixed-sex, no treatment': Female control (no treatment) from mixed-sex infection
+  'Female, mixed-sex, treated': Female treated with TGF beta from mixed-sex infection
+  'Female, single-sex, no treatment': Female control (no treatment) from single-sex infection
+  'Female, single-sex, treated': Female treated with TGF beta from single-sex infection
+  'Female, worm pair, no treatment': Female control (no treatment) from worm-pair
+  'Female, worm-pair, treated': Female treated with TGF beta from worm-pair
+  'Male, mixed-sex, no treatment': Male control (no treatment) from mixed-sex infection
+  'Male, mixed-sex, treated': Male treated with TGF beta from mixed-sex infection
+  'Male, single-sex, no treatment': Male control (no treatment) from single-sex infection
+  'Male, single-sex, treated': Male treated with TGF beta from single-sex infection
+  'Male, worm pair, no treatment': Male control (no treatment) from worm-pair
+  'Male, worm-pair, treated': Male treated with TGF beta from worm-pair
+description: ''
+pubmed: ~
+slices: []
+title: STUDY THE EFFECT OF TGF beta ON SCHISTOSOME ADULT WORMS

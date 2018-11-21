@@ -1,0 +1,11 @@
+---
+condition_names:
+  Irradiated: Irradiated male
+  Non-irradiated: Non-irradiated male control
+description: Adult stem cells in the human parasite Schistosoma mansoni
+pubmed:
+  23426263:
+    - 'Collins & Newmark, 2013'
+    - 'Adult somatic stem cells in the human parasite Schistosoma mansoni. (Collins & Newmark, 2013)'
+slices: []
+title: Adult stem cells in the human parasite Schistosoma mansoni

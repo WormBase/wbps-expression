@@ -1,0 +1,123 @@
+---
+condition_names:
+  Adult: ''
+  Cercariae: ''
+  Cercarial tail: ''
+  Somule 24hrs: Somule 24hrs post-infection
+  Somule 3hrs: Somule 3hrs post-infection
+description: 'High-throughput sequencing of life stages and tissues of the flatworm Schistosoma mansoni to be used for further gene editing, gene finding and transcriptome analysis'
+pubmed:
+  22253936:
+    - 'Protasio & Berriman, 2012'
+    - 'A systematically improved high quality genome and transcriptome of the human blood fluke Schistosoma mansoni. (Protasio & Berriman, 2012)'
+  23516644:
+    - 'Protasio & Berriman, 2013'
+    - 'Comparative study of transcriptome profiles of mechanical- and skin-transformed Schistosoma mansoni schistosomula. (Protasio & Berriman, 2013)'
+slices:
+  - __factor__: biosourceprovider
+    timeunit: weeks
+  - __factor__: biosourceprovider
+    organism_part: tail
+  - __factor__: biosourceprovider
+    organism_part: tail
+    timeunit: hours
+  - __factor__: biosourceprovider
+    organism_part: ''
+    timeunit: weeks
+  - __factor__: biosourceprovider
+    developmental_stage: adult
+  - __factor__: biosourceprovider
+    developmental_stage: adult
+    timeunit: weeks
+  - __factor__: biosourceprovider
+    developmental_stage: adult
+    organism_part: ''
+  - __factor__: biosourceprovider
+    developmental_stage: larva
+    organism_part: tail
+  - __factor__: biosourceprovider
+    developmental_stage: adult
+    organism_part: ''
+    timeunit: weeks
+  - __factor__: biosourceprovider
+    developmental_stage: larva
+    organism_part: tail
+    timeunit: hours
+  - __factor__: developmental_stage
+    timeunit: weeks
+  - __factor__: developmental_stage
+    organism_part: tail
+  - __factor__: developmental_stage
+    organism_part: tail
+    timeunit: hours
+  - __factor__: developmental_stage
+    organism_part: ''
+    timeunit: weeks
+  - __factor__: developmental_stage
+    biosourceprovider: 'Departments of Biochemistry and Pathology, 7703 Floyd Curl Dr., Mail Code 7760, University of Texas Health Science Center, San Antonio, Texas 78229-3900, US.'
+  - __factor__: developmental_stage
+    biosourceprovider: 'Departments of Biochemistry and Pathology, 7703 Floyd Curl Dr., Mail Code 7760, University of Texas Health Science Center, San Antonio, Texas 78229-3900, US.'
+    timeunit: weeks
+  - __factor__: developmental_stage
+    biosourceprovider: 'Departments of Biochemistry and Pathology, 7703 Floyd Curl Dr., Mail Code 7760, University of Texas Health Science Center, San Antonio, Texas 78229-3900, US.'
+    organism_part: ''
+  - __factor__: developmental_stage
+    biosourceprovider: 'Schistosomiasis Research Group, Division of Microbiology and Parasitology, Department of Pathology, University of Cambridge, Tennis Court Road, Cambridge, CB2 1QP, United Kingdom'
+    organism_part: tail
+  - __factor__: developmental_stage
+    biosourceprovider: 'Schistosomiasis Research Group, Division of Microbiology and Parasitology, Department of Pathology, University of Cambridge, Tennis Court Road, Cambridge, CB2 1QP, United Kingdom'
+    organism_part: tail
+    timeunit: hours
+  - __factor__: developmental_stage
+    biosourceprovider: 'Departments of Biochemistry and Pathology, 7703 Floyd Curl Dr., Mail Code 7760, University of Texas Health Science Center, San Antonio, Texas 78229-3900, US.'
+    organism_part: ''
+    timeunit: weeks
+  - __factor__: organism_part
+    timeunit: weeks
+  - __factor__: organism_part
+    developmental_stage: adult
+  - __factor__: organism_part
+    developmental_stage: adult
+    timeunit: weeks
+  - __factor__: organism_part
+    biosourceprovider: 'Departments of Biochemistry and Pathology, 7703 Floyd Curl Dr., Mail Code 7760, University of Texas Health Science Center, San Antonio, Texas 78229-3900, US.'
+  - __factor__: organism_part
+    biosourceprovider: 'Departments of Biochemistry and Pathology, 7703 Floyd Curl Dr., Mail Code 7760, University of Texas Health Science Center, San Antonio, Texas 78229-3900, US.'
+    timeunit: weeks
+  - __factor__: organism_part
+    biosourceprovider: 'Departments of Biochemistry and Pathology, 7703 Floyd Curl Dr., Mail Code 7760, University of Texas Health Science Center, San Antonio, Texas 78229-3900, US.'
+    developmental_stage: adult
+  - __factor__: organism_part
+    biosourceprovider: 'Departments of Biochemistry and Pathology, 7703 Floyd Curl Dr., Mail Code 7760, University of Texas Health Science Center, San Antonio, Texas 78229-3900, US.'
+    developmental_stage: adult
+    timeunit: weeks
+  - __factor__: timeunit
+    organism_part: tail
+  - __factor__: timeunit
+    developmental_stage: adult
+  - __factor__: timeunit
+    developmental_stage: adult
+    organism_part: ''
+  - __factor__: timeunit
+    developmental_stage: larva
+    organism_part: tail
+  - __factor__: timeunit
+    biosourceprovider: 'Departments of Biochemistry and Pathology, 7703 Floyd Curl Dr., Mail Code 7760, University of Texas Health Science Center, San Antonio, Texas 78229-3900, US.'
+  - __factor__: timeunit
+    biosourceprovider: 'Departments of Biochemistry and Pathology, 7703 Floyd Curl Dr., Mail Code 7760, University of Texas Health Science Center, San Antonio, Texas 78229-3900, US.'
+    organism_part: ''
+  - __factor__: timeunit
+    biosourceprovider: 'Schistosomiasis Research Group, Division of Microbiology and Parasitology, Department of Pathology, University of Cambridge, Tennis Court Road, Cambridge, CB2 1QP, United Kingdom'
+    organism_part: tail
+  - __factor__: timeunit
+    biosourceprovider: 'Departments of Biochemistry and Pathology, 7703 Floyd Curl Dr., Mail Code 7760, University of Texas Health Science Center, San Antonio, Texas 78229-3900, US.'
+    developmental_stage: adult
+  - __factor__: timeunit
+    biosourceprovider: 'Schistosomiasis Research Group, Division of Microbiology and Parasitology, Department of Pathology, University of Cambridge, Tennis Court Road, Cambridge, CB2 1QP, United Kingdom'
+    developmental_stage: larva
+    organism_part: tail
+  - __factor__: timeunit
+    biosourceprovider: 'Departments of Biochemistry and Pathology, 7703 Floyd Curl Dr., Mail Code 7760, University of Texas Health Science Center, San Antonio, Texas 78229-3900, US.'
+    developmental_stage: adult
+    organism_part: ''
+title: Schistosoma mansoni transcriptomics at different life stages

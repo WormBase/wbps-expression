@@ -1,0 +1,38 @@
+Run	Condition	developmental_stage	sample_name	species	strain
+ERR582657		adult	ERS324017	Schistosoma mansoni	Puerto Rican
+ERR582658		adult	ERS324018	Schistosoma mansoni	Puerto Rican
+ERR582659		adult	ERS324019	Schistosoma mansoni	Puerto Rican
+ERR582660		immature adults	ERS324020	Schistosoma mansoni	Puerto Rican
+ERR582661		adult	ERS324021	Schistosoma mansoni	Puerto Rican
+ERR582662		adult	ERS326004	Schistosoma mansoni	Puerto Rican
+ERR582663		immature adults	ERS326006	Schistosoma mansoni	Puerto Rican
+ERR582664		immature adults	ERS326007	Schistosoma mansoni	Puerto Rican
+ERR582665		adult	ERS326008	Schistosoma mansoni	Puerto Rican
+ERR582666		immature adults	ERS326005	Schistosoma mansoni	Puerto Rican
+ERR582667		immature adults	ERS326013	Schistosoma mansoni	Puerto Rican
+ERR582668		adult	ERS326009	Schistosoma mansoni	Puerto Rican
+ERR582669		immature adults	ERS326012	Schistosoma mansoni	Puerto Rican
+ERR582670		immature adults	ERS326011	Schistosoma mansoni	Puerto Rican
+ERR582671		immature adults	ERS326010	Schistosoma mansoni	Puerto Rican
+ERR957332			ERS002461		
+ERR957333			ERS002462		
+ERR957334			ERS002777		
+ERR957335			ERS002778		
+ERR957336			ERS002779		
+ERR957337			ERS002780		
+ERR957338			ERS005815		
+ERR957339			ERS005818		
+ERR957340			ERS005817		
+ERR957341			ERS005816		
+ERR582651	Female, mixed-sex, no treatment		ERS326023	Schistosoma mansoni	
+ERR582648	Female, mixed-sex, treated		ERS326020	Schistosoma mansoni	
+ERR582652	Female, single-sex, no treatment		ERS326024	Schistosoma mansoni	
+ERR582649	Female, single-sex, treated		ERS326021	Schistosoma mansoni	
+ERR582653	Female, worm pair, no treatment		ERS326025	Schistosoma mansoni	
+ERR582650	Female, worm-pair, treated		ERS326022	Schistosoma mansoni	
+ERR582645	Male, mixed-sex, no treatment		ERS326017	Schistosoma mansoni	
+ERR582654	Male, mixed-sex, treated		ERS326014	Schistosoma mansoni	
+ERR582646	Male, single-sex, no treatment		ERS326018	Schistosoma mansoni	
+ERR582655	Male, single-sex, treated		ERS326015	Schistosoma mansoni	
+ERR582647	Male, worm pair, no treatment		ERS326019	Schistosoma mansoni	
+ERR582656	Male, worm-pair, treated		ERS326016	Schistosoma mansoni	
