@@ -68,6 +68,8 @@ sub _normalise_type_and_value {
 
   $type = lc($type);
   $type =~ s/\W+/_/g;
+#each run has a sample and we can look it up in ENA but it's not a characteristic so filter it
+  return "","" if $type eq 'sample_name' && $value =~ /^(E|S)RS\d+$/;
 
 #Sometimes there's curation like: age+time unit
   return $type, $value if $type eq "age" and $value =~s/^\W+$//;

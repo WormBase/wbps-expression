@@ -66,13 +66,18 @@ is_deeply(
 
 is_deeply(
    $subject->access("ASM23792v2","SRP026308", "SRR922067"), 
-   ['developmental_stage','organism_part','sample_name','source_name','strain'],
-   "Property types for assembly, study, and run. Normalise values. Skip dummy type with bad value of 'not applicable'"
+   ['developmental_stage','organism_part','source_name','strain'],
+   "Property types for assembly, study, and run. Normalise values. Skip sample_name because it's of the form ERS\d+. Skip dummy type with bad value of 'not applicable'"
 ) or diag explain $subject;
 is_deeply(
    $subject->access("ASM23792v2","SRP026308", "SRR922067","strain"), 
    "NMRI",
    "Single property value for assembly, study, run, and study"
+) or diag explain $subject;
+is_deeply(
+   $subject->access("ASM23792v2","SRP026308", "SRR922068"), 
+   ['developmental_stage','organism_part','sample_name', 'source_name','strain'],
+  "Property types for assembly, study, and run - canned as they are in ENA" 
 ) or diag explain $subject;
 done_testing();
 __DATA__
@@ -116,7 +121,7 @@ __DATA__
       "STUDY_ID": "SRP026308",
       "RUN_ID": "SRR922067",
       "TYPE": "Sample Name",
-      "VALUE": "Miracidia",
+      "VALUE": "SRS452514",
       "EFO_URL": "NA"
     },
     {
@@ -182,7 +187,7 @@ __DATA__
       "VALUE": "NMRI",
       "EFO_URL": "NA"
     },
-        {
+    {
       "STUDY_ID": "SRP026308",
       "RUN_ID": "SRR922067",
       "TYPE": "Dummy",
