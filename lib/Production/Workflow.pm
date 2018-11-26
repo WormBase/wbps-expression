@@ -29,7 +29,7 @@ sub should_reject_study {
 
 sub do_everything {
   my ($self, $species, $assembly) = @_;
-  my ($factors, $location_per_run_id, @public_study_records) = $self->{public_rnaseq_studies}->get($species, $assembly);  
+  my @public_study_records = $self->{public_rnaseq_studies}->get($species, $assembly);  
   my %current_studies = map {$_->{study_id}=> $_} $self->get_studies_in_sheets($species);
   my %current_ignore_studies = map {$_=>1} $self->{sheets}->list("ignore_studies", $species);
 

@@ -21,7 +21,6 @@ sub assert_pubmed {
 
 assert_pubmed({
   rnaseqer => bless({}, 'PublicResources::Resources::RnaseqerMetadata'),
-  array_express => bless({}, 'PublicResources::Resources::ArrayExpressMetadata'),
 },{}, "Null case");
 sub pick_up_paper {
   my ($metadata, $description) = @_;
@@ -32,28 +31,18 @@ sub pick_up_paper {
 pick_up_paper({
   rnaseqer => bless ({metadata =>{assembly_id => {study_id=>{}}}},'PublicResources::Resources::RnaseqerMetadata'),
   ena => {assembly_id => {study_id=>{study_pubmed => [$pubmed_id]}}},
-  array_express => bless({}, 'PublicResources::Resources::ArrayExpressMetadata'),
 }, "ENA study");
 
 pick_up_paper({
   rnaseqer => bless ({metadata =>{assembly_id => {study_id=>{}}}},'PublicResources::Resources::RnaseqerMetadata'),
   ena => {assembly_id => {study_id=>{bioproject_pubmed => [$pubmed_id]}}},
-  array_express => bless({}, 'PublicResources::Resources::ArrayExpressMetadata'),
 }, "ENA bioproject");
 
 pick_up_paper({
   rnaseqer => bless ({metadata => {assembly_id => {study_id=>{}}}},'PublicResources::Resources::RnaseqerMetadata'),
   geo => {assembly_id => {study_id=>{pubmed => [$pubmed_id]}}},
-  array_express => bless({}, 'PublicResources::Resources::ArrayExpressMetadata'),
 }, "GEO");
 
-pick_up_paper({
-  rnaseqer => bless ({metadata => {assembly_id => {study_id=>{}}}},'PublicResources::Resources::RnaseqerMetadata'),
-  array_express => bless ({
-    secondary_to_primary_accession=>{study_id=>"E-MOCK-1"},
-    primary_accession_to_pubmed=>{"E-MOCK-1", [$pubmed_id]}
-  }, 'PublicResources::Resources::ArrayExpressMetadata'),
-}, "AE");
 done_testing();
 __DATA__
 <PubmedArticle>

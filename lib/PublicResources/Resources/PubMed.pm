@@ -1,7 +1,6 @@
 package PublicResources::Resources::PubMed;
 use parent PublicResources::Resources::LocallyCachedResource;
 use PublicResources::Resources::RnaseqerMetadata;
-use PublicResources::Resources::ArrayExpressMetadata;
 use List::MoreUtils qw(uniq);
 use XML::Simple;
 
@@ -13,7 +12,6 @@ sub _fetch {
           my $ena_study_pubmed_ids = $metadata->{ena}{$assembly}{$study_id}{study_pubmed} // [];
           my $ena_bioproject_pubmed_ids = $metadata->{ena}{$assembly}{$study_id}{bioproject_pubmed} // [];
           my $geo_pubmed_ids = $metadata->{geo}{$assembly}{$study_id}{pubmed} // [];
-          my $ae_pubmed_ids = $metadata->{array_express}->pubmed($study_id) //[];
           for my $pubmed_id ( uniq(@$ena_study_pubmed_ids,@$ena_bioproject_pubmed_ids, @$geo_pubmed_ids, @$ae_pubmed_ids)){
               next if $pubmed_id eq '2971468'; # Check if PRJNA392315 still refers to this paper in error
               $data{$assembly}{$study_id}{$pubmed_id} = &_short_and_full_paper_description_from_payload($class->get_xml(

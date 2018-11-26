@@ -9,7 +9,7 @@ my $module = new Test::MockModule('PublicResources::Resources::LocallyCachedReso
 my $listing = <<"EOF";
 $run_id.pe.hits.bam.stats.csv
 $run_id.pe.genes.raw.htseq2.tsv
-$run_id.pe.genes.tsv.htseq2.tsv
+$run_id.pe.genes.tpm.htseq2.irap.tsv
 $run_id.nospliced.bw
 EOF
 our $text = do { local $/; <DATA> };
@@ -60,7 +60,7 @@ is_deeply(
                 'files' => {
 	            'bigwig' => 'ftp://invalid/SRR112/004/SRR1124914/SRR1124914.nospliced.bw',
 	            'counts_htseq2' => 'ftp://invalid/SRR112/004/SRR1124914/SRR1124914.pe.genes.raw.htseq2.tsv',
-	            'tpm_htseq2' => 'ftp://invalid/SRR112/004/SRR1124914/'
+	            'tpm_htseq2' => 'ftp://invalid/SRR112/004/SRR1124914/SRR1124914.pe.genes.tpm.htseq2.irap.tsv'
                 },
             }
         },

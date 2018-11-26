@@ -2,11 +2,9 @@ use strict;
 use warnings;
 package PublicResources::Rnaseq;
 
-use PublicResources::Resources::ArrayExpressMetadata;
 use PublicResources::Resources::RnaseqerMetadata;
 use PublicResources::Resources::EnaMetadata;
 use PublicResources::Resources::GeoMetadata;
-use PublicResources::Resources::Factors;
 use PublicResources::Resources::RnaseqerStats;
 use PublicResources::Resources::PubMed;
 use PublicResources::Descriptions;
@@ -15,6 +13,7 @@ use Production::Sheets;
 use Model::Design;
 use File::Basename qw/dirname/;
 use List::Util qw/pairmap/;
+#use Smart::Comments;
 sub new {
   my ($class, $root_dir, $sheets) = @_;
   $sheets //= Production::Sheets->new(dirname(dirname(dirname(__FILE__))));
@@ -30,17 +29,14 @@ sub get {
   $species = lc($species);
   $species =~ s/([a-z]*_[a-z]*).*/$1/;
   my $rnaseqer_metadata = PublicResources::Resources::RnaseqerMetadata->new($root_dir, $species);
-  my $array_express_metadata = PublicResources::Resources::ArrayExpressMetadata->new($root_dir, $species);
   my $ena_metadata = PublicResources::Resources::EnaMetadata->new($root_dir, $species, $rnaseqer_metadata); 
   my $rnaseqer_stats = PublicResources::Resources::RnaseqerStats->new($root_dir, $species, $rnaseqer_metadata); 
   my $geo_metadata = PublicResources::Resources::GeoMetadata->new($root_dir, $species, $rnaseqer_metadata); 
   my $pubmed = PublicResources::Resources::PubMed->new($root_dir, $species, {
      rnaseqer=>$rnaseqer_metadata,
-     array_express=>$array_express_metadata,
      ena=>$ena_metadata,
      geo=>$geo_metadata,
   });
-  my $factors = PublicResources::Resources::Factors->new($root_dir, $species, $rnaseqer_metadata, $array_express_metadata);
   my $descriptions = PublicResources::Descriptions->new($species, $self->{sheets}->double_hash('run_descriptions', $species));
   my %stored_characteristics = pairmap {$a => Model::Design::from_tsv($b)->characteristics_per_run } %{$self->{sheets}->tsvs_in_folders('studies', $species)};
   my @studies;
@@ -51,6 +47,7 @@ sub get {
     }
     my @runs;
     for my $run_id (@{$rnaseqer_metadata->access($assembly, $study_id)}){
+### $run_id
        my $stats = $rnaseqer_stats->get_formatted_stats($run_id);
        my $data_location = $rnaseqer_metadata->data_location($run_id);
        my $links = $self->{links}->misc_links($study_id,$run_id, $data_location,
@@ -80,6 +77,6 @@ sub get {
       pubmed => $pubmed->{$assembly}{$study_id},
     };
   }
-  return $factors, $rnaseqer_metadata->{location_per_run_id}, @studies;
+  return @studies;
 }
 1;
