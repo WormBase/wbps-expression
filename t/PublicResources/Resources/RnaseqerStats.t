@@ -6,12 +6,20 @@ use PublicResources::Resources::RnaseqerMetadata;
 use PublicResources::Resources::RnaseqerStats;
 our $run_id = "SRR1124914";
 my $module = new Test::MockModule('PublicResources::Resources::LocallyCachedResource');
+my $listing = <<"EOF";
+$run_id.pe.hits.bam.stats.csv
+$run_id.pe.genes.raw.htseq2.tsv
+$run_id.pe.genes.tsv.htseq2.tsv
+$run_id.nospliced.bw
+EOF
 our $text = do { local $/; <DATA> };
 $module->mock(
     'get_text',
     sub {
         my ( $class, $url ) = @_;
-        if ( $url =~ /$run_id/ ) {
+        if ( $url =~ /$run_id$/ ) {
+            return $listing;
+        } elsif ($url =~ /stats.csv/){
             return $text;
         }
         else {
@@ -48,7 +56,12 @@ is_deeply(
         {
             'SRR1124914' => {
                 'fraction_reads_uniquely_mapped' => '0.856',
-                'library_size'                   => '59712662'
+                'library_size'                   => '59712662',
+                'files' => {
+	            'bigwig' => 'ftp://invalid/SRR112/004/SRR1124914/SRR1124914.nospliced.bw',
+	            'counts_htseq2' => 'ftp://invalid/SRR112/004/SRR1124914/SRR1124914.pe.genes.raw.htseq2.tsv',
+	            'tpm_htseq2' => 'ftp://invalid/SRR112/004/SRR1124914/'
+                },
             }
         },
         'PublicResources::Resources::RnaseqerStats'
