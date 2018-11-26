@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-package PublicResources::Resources::RnaseqerStats;
+package PublicResources::Resources::RnaseqerFtp;
 use List::Util qw(first);
 use parent 'PublicResources::Resources::LocallyCachedResource';
 

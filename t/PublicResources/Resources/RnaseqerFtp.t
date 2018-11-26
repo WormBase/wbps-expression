@@ -3,7 +3,7 @@ use Test::MockModule;
 
 use File::Temp qw/tempdir/;
 use PublicResources::Resources::RnaseqerMetadata;
-use PublicResources::Resources::RnaseqerStats;
+use PublicResources::Resources::RnaseqerFtp;
 our $run_id = "SRR1124914";
 my $module = new Test::MockModule('PublicResources::Resources::LocallyCachedResource');
 my $listing = <<"EOF";
@@ -48,7 +48,7 @@ my $rnaseqer_metadata = bless {
   },
   'PublicResources::Resources::RnaseqerMetadata';
 
-my $subject = PublicResources::Resources::RnaseqerStats->new( $root_dir, $species,
+my $subject = PublicResources::Resources::RnaseqerFtp->new( $root_dir, $species,
     $rnaseqer_metadata );
 is_deeply(
     $subject,
@@ -64,7 +64,7 @@ is_deeply(
                 },
             }
         },
-        'PublicResources::Resources::RnaseqerStats'
+        'PublicResources::Resources::RnaseqerFtp'
     ),
     "Get properties from FTP"
 ) or diag explain $subject;

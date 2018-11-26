@@ -5,7 +5,7 @@ package PublicResources::Rnaseq;
 use PublicResources::Resources::RnaseqerMetadata;
 use PublicResources::Resources::EnaMetadata;
 use PublicResources::Resources::GeoMetadata;
-use PublicResources::Resources::RnaseqerStats;
+use PublicResources::Resources::RnaseqerFtp;
 use PublicResources::Resources::PubMed;
 use PublicResources::Descriptions;
 use PublicResources::Links;
@@ -30,7 +30,7 @@ sub get {
   $species =~ s/([a-z]*_[a-z]*).*/$1/;
   my $rnaseqer_metadata = PublicResources::Resources::RnaseqerMetadata->new($root_dir, $species);
   my $ena_metadata = PublicResources::Resources::EnaMetadata->new($root_dir, $species, $rnaseqer_metadata); 
-  my $rnaseqer_stats = PublicResources::Resources::RnaseqerStats->new($root_dir, $species, $rnaseqer_metadata); 
+  my $rnaseqer_stats = PublicResources::Resources::RnaseqerFtp->new($root_dir, $species, $rnaseqer_metadata); 
   my $geo_metadata = PublicResources::Resources::GeoMetadata->new($root_dir, $species, $rnaseqer_metadata); 
   my $pubmed = PublicResources::Resources::PubMed->new($root_dir, $species, {
      rnaseqer=>$rnaseqer_metadata,
