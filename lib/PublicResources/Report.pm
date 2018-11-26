@@ -29,9 +29,7 @@ sub path {
 sub make_report {
     my ($self, $species, $assembly, %opts) = @_;
 
-    my ( $attribute_query_order, $location_per_run_id, @studies ) =
-      $self->{resources}->get( $species, $assembly );
-    @studies = sort {$a->{study_id} cmp $b->{study_id}} @studies;
+    my @studies = sort {$a->{study_id} cmp $b->{study_id}} $self->{resources}->get( $species, $assembly );
     my $runs_path = $self->path("$species.runs.tsv");
     unlink $runs_path if -f $runs_path;
     
@@ -42,8 +40,6 @@ sub make_report {
     print $runs_fh join ("\t",
        "Study", "Track",
        "Library size (reads)", "Mapping quality (reads uniquely mapped)", 
-       "Results", 
-       map {( my $a = $_) =~ s/[\W_-]+/ /g; ucfirst($a)} @$attribute_query_order
     ) . "\n";
     for my $study (@studies) {
         my $study_id = $study->{study_id};
@@ -52,8 +48,6 @@ sub make_report {
             print $runs_fh join ("\t",
                  $study_id, join(": ", grep {$_} $run_id, $run->{run_description_short}),
                  $run->{attributes}{library_size_reads_approximate}, $run->{attributes}{fraction_of_reads_mapping_uniquely_approximate},
-                 dirname($location_per_run_id->{$run_id}),
-                 map {$run->{attributes}{$_} || '' } @$attribute_query_order
             ). "\n";     
         }
     }
