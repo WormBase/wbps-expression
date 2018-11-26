@@ -1,4 +1,5 @@
-
+use strict;
+use warnings;
 package PublicResources::Resources::LocallyCachedResource;
 use LWP;
 use YAML;
@@ -28,8 +29,8 @@ sub new {
 sub get_text {
   my ($class, $url) = @_;
   my $errors;
-  if ($CAN_SEE_EBI_FILESYSTEM and $url =~ m{ftp://ebi.ac.uk}){
-     (my $local = $location) =~ s{ftp://ftp.ebi.ac.uk}{/nfs/ftp};
+  if ($CAN_SEE_EBI_FILESYSTEM and $url =~ m{ftp://ftp.ebi.ac.uk}){
+     (my $local = $url) =~ s{ftp://ftp.ebi.ac.uk}{/nfs/ftp};
      if( -d $local){
         #Not exactly the same: EBI's ftp server replies with ls -l output
         print STDERR "read_dir $local\n" if $ENV{LOCALLY_CACHED_RESOURCE_VERBOSE};
