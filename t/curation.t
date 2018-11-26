@@ -63,7 +63,7 @@ sub all_checks_pass {
     my @pairs = pairs @checks;
     plan tests => scalar @pairs;
     for my $pair (@pairs) {
-      ok( $pair->value, $pair->key );
+      ok( $pair->[1], $pair->[0] );
     }
   };
 }
