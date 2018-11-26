@@ -6,6 +6,10 @@ use File::Path qw(make_path);
 use JSON;
 use XML::Simple;
 use Text::CSV qw(csv);
+use File::Slurp qw(read_file read_dir);
+
+my $CAN_SEE_EBI_FILESYSTEM = -d "/nfs/ftp";
+
 #use Smart::Comments;
 sub new {
     my ($class,$root_dir,$species, @other_args) = @_;
@@ -22,18 +26,26 @@ sub new {
 }
 
 sub get_text {
-  my ($class,@urls) = @_;
+  my ($class, $url) = @_;
   my $errors;
-  for my $url (@urls){
-   print STDERR "Retrieving: $url\n" if $ENV{LOCALLY_CACHED_RESOURCE_VERBOSE};
-   my $response = LWP::UserAgent->new->get($url);
-   if($response->is_success){
-     return $response->decoded_content;
-   } else {
-     $errors.="$url error:".$response->status_line."\n";
-   }
+  if ($CAN_SEE_EBI_FILESYSTEM and $url =~ m{ftp://ebi.ac.uk}){
+     (my $local = $location) =~ s{ftp://ftp.ebi.ac.uk}{/nfs/ftp};
+     if( -d $local){
+        #Not exactly the same: EBI's ftp server replies with ls -l output
+        print STDERR "read_dir $local\n" if $ENV{LOCALLY_CACHED_RESOURCE_VERBOSE};
+        return join "\n", read_dir $local;
+     }elsif(-f $local){
+        print STDERR "read_file $local\n" if $ENV{LOCALLY_CACHED_RESOURCE_VERBOSE};
+        return read_file $local;
+     }
   }
-  die $errors;
+  print STDERR "Retrieving: $url\n" if $ENV{LOCALLY_CACHED_RESOURCE_VERBOSE};
+  my $response = LWP::UserAgent->new->get($url);
+  if($response->is_success){
+    return $response->decoded_content;
+  } else {
+    die "$url error:".$response->status_line."\n";
+  }
 }
 sub get_csv {
   my $class = shift;
