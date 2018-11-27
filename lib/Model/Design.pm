@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Model::Design;
 use Text::CSV qw/csv/;
-use List::Util qw/pairmap first/;
+use List::Util qw/pairmap first all/;
 use List::MoreUtils qw/uniq zip/;
 #use Smart::Comments '###';
 sub new {
@@ -98,8 +98,11 @@ sub value_in_run {
 sub all_runs {
   return keys %{shift->{conditions_per_run}};
 }
+sub runs_by_condition {
+  return reverse_hoa(shift->{conditions_per_run});
+}
 sub all_conditions {
-  return keys %{reverse_hoa(shift->{conditions_per_run})};
+  return keys %{shift->runs_by_condition};
 }
 sub characteristics_per_run {
   my ($self) = @_;
@@ -112,6 +115,7 @@ sub characteristics_per_run {
   }
   return \%result;
 }
+
 sub to_tsv {
   my($self, $path) = @_;
   open(my $fh, ">", $path) or die "$path: $!";
@@ -120,7 +124,7 @@ sub to_tsv {
 #### characteristics in order: @a
   print $fh join("\t", "Run", "Condition", @a)."\n";
 #### $self
-  my %runs_by_condition = %{reverse_hoa($self->{conditions_per_run})};
+  my %runs_by_condition = %{$self->runs_by_condition};
   for my $condition (sort keys %runs_by_condition){
      for my $run_id (sort @{$runs_by_condition{$condition}}){
         print $fh join ("\t", $run_id, $condition, map {$self->value_in_run($run_id, $_)} @a)."\n";
@@ -228,7 +232,7 @@ sub key_to_slice {
 }
 sub data_quality_checks {
   my ($self) = @_;
-  my %runs_by_condition = %{reverse_hoa($self->{conditions_per_run})};
+  my %runs_by_condition = %{$self->runs_by_condition};
   my %characteristics_by_run = %{$self->{values}{by_run}};
   my @slices = @{$self->slices};
   my %slices_by_key = map {join("\t", %{key_to_slice(%{$_})}) => $_} @slices;
@@ -250,5 +254,9 @@ sub data_quality_checks {
        => (@slices == keys %slices_by_key),
      @conditions_well_defined,
   ); 
+}
+sub passes_checks {
+  my %checks = shift->data_quality_checks;
+  return all {$_} values %checks;
 }
 1;

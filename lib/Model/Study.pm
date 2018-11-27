@@ -56,4 +56,44 @@ sub consistency_checks {
   my ($self) = @_;
   return config_matches_design_checks($self->{config}, $self->{design});
 }
+sub passes_checks {
+  my ($self) = @_;
+  return $self->{design}->passes_checks && $self->config_matches_design;
+}
+
+# Currently not part of the config but wondrously inferred
+# Logic: 
+# - Everything should have counts per run
+# - Everything should have TPM per run
+# - Everything with three replicates somewhere should have a TPM per condition
+#   + maybe with a "qc warning" 
+#     #low replicates: egg(1), L3(2)
+#     #low mean mapping quality: egg(56%)
+#     !eggs, !L3 in the header
+# - Every factor corresponds to a DE results file
+
+# This needs to provide enough arguments to determine
+# - which analysis to run (analysis code will have access to both the study and the data files)
+# - how to display analysis results
+# - how to link to the data files
+sub analyses_required {
+  my ($self) = @_;
+  my $study_id = $self->{study_id};
+  return (
+    {
+      type => "aggregate_by_run",
+      file_name => "$study_id.counts.tsv",
+      title => "Raw data",
+      description => "Raw data (counts of aligned reads) for study $study_id",
+      source => "counts_htseq2",
+    }, 
+    {
+      type => "average_by_condition",
+      file_name => "$study_id.tpm.tsv",
+      title => "Raw data",
+      description => "Raw data (counts of aligned reads) for study $study_id",
+      source => "tpm_htseq2",
+    }
+  );
+}
 1;
