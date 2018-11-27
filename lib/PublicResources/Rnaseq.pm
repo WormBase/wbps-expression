@@ -55,7 +55,7 @@ sub get {
        );
        my $characteristics = $stored_characteristics{$study_id}{$run_id} // $rnaseqer_metadata->access_characteristics($assembly, $study_id, $run_id) // {};
        my ($run_description_short, $run_description_full) =
-          $descriptions->run_description( $study_id, $run_id, $factors, $characteristics);
+          $descriptions->run_description( $study_id, $run_id, $characteristics);
        push @runs, {
           run_id => $run_id,
           data_files => $rnaseqer_stats->{files},
