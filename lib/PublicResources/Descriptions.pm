@@ -110,12 +110,12 @@ sub _get_run_description {
 sub run_description {
     my ( $self, $study_id, $run_id, $attributes ) = @_;
     my $species = $self->{species};
-    my $r = _get_run_description(@_);
-    return @$r if ref $r eq 'ARRAY';
-    return $r, $r if $r;
     $species =~ s/_/ /g;
     $species = ucfirst($species);
-    return "", "sample from $species";
+    my $r = _get_run_description(@_);
+    $r = [$r, $r] unless ref $r eq 'ARRAY';
+	my ($r1, $r2) = @{$r};
+	return $r1 ? $r2 ? ($r1, $r2) : ($r1, $r1) : ( "", "sample from $species");
 }
 sub _clean_study_description {
   my ($study_description) = @_;
