@@ -30,7 +30,7 @@ sub get {
   $species =~ s/([a-z]*_[a-z]*).*/$1/;
   my $rnaseqer_metadata = PublicResources::Resources::RnaseqerMetadata->new($root_dir, $species);
   my $ena_metadata = PublicResources::Resources::EnaMetadata->new($root_dir, $species, $rnaseqer_metadata); 
-  my $rnaseqer_stats = PublicResources::Resources::RnaseqerFtp->new($root_dir, $species, $rnaseqer_metadata); 
+  my $rnaseqer_ftp = PublicResources::Resources::RnaseqerFtp->new($root_dir, $species, $rnaseqer_metadata); 
   my $geo_metadata = PublicResources::Resources::GeoMetadata->new($root_dir, $species, $rnaseqer_metadata); 
   my $pubmed = PublicResources::Resources::PubMed->new($root_dir, $species, {
      rnaseqer=>$rnaseqer_metadata,
@@ -48,7 +48,7 @@ sub get {
     my @runs;
     for my $run_id (@{$rnaseqer_metadata->access($assembly, $study_id)}){
 ### $run_id
-       my $stats = $rnaseqer_stats->get_formatted_stats($run_id);
+       my $stats = $rnaseqer_ftp->get_formatted_stats($run_id);
        my $data_location = $rnaseqer_metadata->data_location($run_id);
        my $links = $self->{links}->misc_links($study_id,$run_id, $data_location,
          [keys %{$pubmed->{$assembly}{$study_id} || {}}]
@@ -58,7 +58,7 @@ sub get {
           $descriptions->run_description( $study_id, $run_id, $characteristics);
        push @runs, {
           run_id => $run_id,
-          data_files => $rnaseqer_stats->{files},
+          data_files => $rnaseqer_ftp->{$run_id}{files},
           characteristics => $characteristics,
           attributes => {%$stats, %$links, %{$characteristics}},
           run_description_short => $run_description_short,
