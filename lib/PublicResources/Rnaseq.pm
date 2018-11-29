@@ -58,6 +58,7 @@ sub get {
           $descriptions->run_description( $study_id, $run_id, $characteristics);
        push @runs, {
           run_id => $run_id,
+          qc_issues => $rnaseqer_ftp->get_qc_issues($run_id),
           data_files => $rnaseqer_ftp->{$run_id}{files},
           characteristics => $characteristics,
           attributes => {%$stats, %$links, %{$characteristics}},

@@ -1,11 +1,11 @@
 use strict;
 use warnings;
-use File::Slurp qw/read_dir/;
-use Model::DataDir;
 package Production::Analysis;
+use File::Slurp qw/read_dir/;
 use Production::Analysis::DataFiles qw/aggregate average_and_aggregate/;
 use Model::Design;
 use List::Util qw/pairmap/;
+use File::Path qw/make_path/;
 #use Smart::Comments;
 sub new {
   my ($class, $dir) = @_;
@@ -13,51 +13,61 @@ sub new {
     dir => $dir,
   }, $class;
 }
-
+sub low_qc_by_condition {
+   my ($runs_by_condition, $qc_issues_per_run) = @_;
+   my %result;
+   my %d = %{$runs_by_condition};
+    for my $c (keys %d){
+      my @runs = @{$d{$c}};
+      push @{$result{$c}}, sprintf("Low replicates (%s)", scalar @runs) if @runs < 3;
+      my %qcs;
+      for my $run (@runs){
+         for my $qc (@{$qc_issues_per_run->{$run_id}}){
+            push @{$qcs{$qc}}, $run;
+         }
+      }
+      for my $qc (keys %qcs){
+         push @{$result{$c}}, sprintf("%s: %s %s", $qc, (@{$qcs{$qc}} > 1 ? "runs" : "run"), join(", ", @{$qcs{$qc}}));
+      }
+   }
+   return \%result;
+}
 my %ANALYSES = (
   aggregate_by_run => sub { 
     my($study, $files, $output_path, %analysis_args) = @_; 
-    my @name_to_path_pairs = map {[$_, $study->{files}{$_}{$analysis_args{source}}]} @{$study->{design}->all_runs};
+    my @name_to_path_pairs = map {[$_, $files->{$_}{$analysis_args{source}}]} $study->{design}->all_runs;
     aggregate(\@name_to_path_pairs, $output_path, $analysis_args{description});
   },
   average_by_condition => sub {
     my($study, $files, $output_path, %analysis_args) = @_; 
-    my @name_to_pathlist_pairs = pairmap {[$a, [map {$study->{files}{$_}{$analysis_args{source}}} @{$b}]]} %{$study->{design}->runs_by_condition};  
-    average_and_aggregate(\@name_to_pathlist_pairs, $output_path, $analysis_args{description});
+    my @frontmatter;
+    my $runs_by_condition = $study->{design}->runs_by_condition;
+    my %qc_issues_per_run = map {$_ => $files->{$_}{qc_issues}} map {@{$_}} values %{$runs_by_condition};
+    my $low_qc_by_condition = low_qc_by_condition($runs_by_condition, \%qc_issues_per_run);
+    my @frontmatter = sort pairmap {"!$a: ".join (". ", sort map ucfirst @{$b}) } %{$low_qc_by_condition};
+    my @name_to_pathlist_pairs= pairmap {
+       my $name = $low_qc_by_condition->{$a} ? "!$a" : $a;
+       my @paths = map {$files->{$_}{$analysis_args{source}}} @{$b};
+       [$name, \@paths]
+    } %{$runs_by_condition};
+    average_and_aggregate(\@name_to_pathlist_pairs, $output_path, $analysis_args{description}, @frontmatter);
   }
 );
 sub run {
   my ($self, $study, $files) = @_;
   my @analyses = $study->analyses_required;
-  my $output_dir = Model::DataDir->new(join("/", $self->{dir}, $study->{study_id}));
-  my %done = $output_dir->list;
-  my @todo = grep {not $done{$_->{file_name}}} @analyses;
-  for my $analysis (@todo){
+  my $output_dir = join("/", $self->{dir}, $study->{study_id});
+  make_path $output_dir;
+  my %done = map { $_=>1 } read_dir $output_dir; 
+  my @analyses_to_do = grep {not $done{$_->{file_name}}} @analyses;
+  for my $analysis (@analyses_to_do){
     &{$ANALYSES{$analysis->{type}}}(
        $study,
        $files,
-       $output_dir->path($analysis->{file_name}),
+       join("/", $output_dir, $analysis->{file_name}),
        %{$analysis},
     );
   }
-  return @todo;
-}
-
-sub do_all {
-  my ($self, $location_per_run_id, @studies) = @_;
-  my %result;
-  for my $study (@studies){
-    my @analyses = $study->analyses_required;
-    my $output_dir = Model::DataDir->new(join("/", $self->{dir}, $study->{study_id}));
-    my %done = $output_dir->list;
-# grep {not $output_dir->done($analysis)} using type and hm, name?
-    for my $analysis (grep {not $done{$_->{type}}} @analyses){
-# Hm, maybe not? How do I cope with the fact there will be more than one analysis per type?
-# Reminds me of the system of URIs for Atlas resources I wrote
-       my $out_path = $output_dir->path($analysis);
-       &{$ANALYSES{$analysis->{type}}}($stu
-       
-    }
-  }
+  return @analyses_to_do;
 }
 1;

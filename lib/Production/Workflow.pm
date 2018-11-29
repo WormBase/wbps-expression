@@ -18,7 +18,7 @@ sub new {
      processing_path => "$root_dir/curation",
      sheets => $sheets,
      public_rnaseq_studies => PublicResources::Rnaseq->new($root_dir, $sheets),
-     analysis => Production::Analysis($work_dir);
+     analysis => Production::Analysis->new($work_dir),
   }, $class;
 }
 sub get_studies_in_sheets {
@@ -41,7 +41,7 @@ sub fetch_incoming_studies {
     if ($current_ignore_studies->{$study->{study_id}} or $self->should_reject_study($study)){
       push @{$result{REJECT}}, $study;
     } else { 
-      if ($current_record and Model::Study::config_matches_design($current_record->{config}, $study->{design})){
+      if ($current_record and Model::Study::config_matches_design_checks($current_record->{config}, $study->{design})){
         $study->{config}{slices} = $current_record->{config}{slices};
         $study->{config}{condition_names} = $current_record->{config}{condition_names};
         # Additionally, characteristics in the current record were already reused
@@ -66,20 +66,24 @@ sub do_everything {
   my %current_studies = map {$_->{study_id}=> $_} $self->get_studies_in_sheets($species);
   my %current_ignore_studies = map {$_=>1} $self->{sheets}->list("ignore_studies", $species);
   my $incoming_studies = $self->fetch_incoming_studies(\@public_study_records, \%current_studies, \%current_ignore_studies);
-  for my $study ($incoming_studies->{SAVE}){
+  for my $study (@{$incoming_studies->{SAVE}}){
      $study->to_folder($self->{sheets}->path("studies", $species, $study->{study_id}));
   }
   if (@{$incoming_studies->{REJECT}}){
     $self->{sheets}->write_list( [uniq sort(keys %current_ignore_studies, map {$_->{study_id}} @{$incoming_studies->{REJECT}})], "ignore_studies", $species)
   }
   
-  my $todo_studies = $self->run_checks(values %current_studies, map {$_->{study_id}=> $_} @incoming_studies));
+  my $todo_studies = $self->run_checks(values %current_studies, @{$incoming_studies->{SAVE}});
 
   my %analysed_studies;
   for my $study (@{$todo_studies->{PASSED_CHECKS}}){
      my $public_study_record = first {$_->{study_id} eq $study->{study_id}} @public_study_records; 
-     my %files = map {($_->{run_id}, $_->{files})} @{$public_study_record->{runs}};
-     my $done = $self->{analysis}->run($study, \$files);
+     my %files = map {
+        $_->{run_id} => { 
+          %{$_->{data_files}},
+          qc_issues => $_->{qc_issues},
+        }} @{$public_study_record->{runs}};
+     my $done = $self->{analysis}->run($study, \%files);
      push @{$analysed_studies{$done ? "DONE": "SKIPPED"}}, $study;
   }
   my %report = (%$incoming_studies, %$todo_studies, %analysed_studies);

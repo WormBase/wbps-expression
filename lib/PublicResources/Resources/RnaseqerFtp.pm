@@ -65,7 +65,14 @@ sub get_formatted_stats {
     fraction_of_reads_mapping_uniquely=> $self->{$run_id}{fraction_reads_uniquely_mapped}
   };
 }
-
+sub get_qc_issues {
+  my ($self, $run_id) = @_;
+  my @result;
+  push @result, "Very low amount of reads (<200k)" if $self->{$run_id}{library_size} < 200000;
+  push @result, "Low amount of reads (200k-1M)" if $self->{$run_id}{library_size} > 200000 and $self->{$run_id}{library_size} < 1000000;
+  push @result, "Under 50% reads mapping uniquely" if $self->{$run_id}{fraction_reads_uniquely_mapped} < 0.5;
+  return \@result;
+}
 sub _get_pairs {
   my ($lines) = @_;
   my %result;

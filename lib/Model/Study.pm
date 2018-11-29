@@ -6,7 +6,7 @@ use File::Basename;
 use Model::Design;
 use YAML qw/DumpFile LoadFile/;
 use Carp qw/confess/;
-use List::Util qw/all/;
+use List::Util qw/all max/;
 sub new {
   my ($class, $study_id, $study_design, $study_config) = @_;
   return bless {
@@ -41,7 +41,8 @@ sub to_folder {
    DumpFile(sprintf("%s/%s.yaml", $path, $self->{study_id}),$self->{config});
 }
 sub config_matches_design {
-  my %checks = config_matches_design_checks(@_);
+  my ($self) = @_;
+  my %checks = config_matches_design_checks($self->{config}, $self->{design});
   return all {$_} values %checks; 
 }
 sub config_matches_design_checks {
@@ -79,21 +80,29 @@ sub passes_checks {
 sub analyses_required {
   my ($self) = @_;
   my $study_id = $self->{study_id};
+  my $max_reps = max map {scalar @{$_}} values %{$self->{design}->runs_by_condition};
   return (
     {
       type => "aggregate_by_run",
-      file_name => "$study_id.counts.tsv",
-      title => "Raw data",
+      file_name => "$study_id.counts_per_run.tsv",
+      title => "Counts per run",
       description => "Raw data (counts of aligned reads) for study $study_id",
       source => "counts_htseq2",
-    }, 
+    },
     {
+      type => "aggregate_by_run",
+      file_name => "$study_id.tpm_per_run.tsv",
+      title => "Expression per run (TPM)",
+      description => "Gene expression in TPM for each run in  study $study_id",
+      source => "tpm_htseq2",
+    }, 
+    ($max_reps >= 3 ? {
       type => "average_by_condition",
       file_name => "$study_id.tpm.tsv",
-      title => "Raw data",
-      description => "Raw data (counts of aligned reads) for study $study_id",
+      title => "Expression per condition (TPM)",
+      description => "Gene expression in TPM - median across runs per condition for study $study_id",
       source => "tpm_htseq2",
-    }
+    } :()),
   );
 }
 1;
