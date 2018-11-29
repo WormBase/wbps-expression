@@ -6,8 +6,9 @@ use File::Slurp qw/read_dir/;
 use LWP;
 my $CAN_SEE_EBI_FILESYSTEM = -d "/nfs/ftp";
 
-sub open_fh {
+sub open_read_fh {
   my ($path) = @_;
+  print STDERR "open_read_fh $path\n" if $ENV{ANALYSIS_VERBOSE};
   my $fh;
   if (not ref $path and $path =~ m{ftp://ftp.ebi.ac.uk}) {
     if( $CAN_SEE_EBI_FILESYSTEM ) {
@@ -28,7 +29,7 @@ sub open_fh {
 sub read_file_into_hash {
   my ($path) = @_;
   my %result;
-  my $fh = open_fh($path);
+  my $fh = open_read_fh($path);
   my $header = <$fh>;
   while(<$fh>){
     chomp;
@@ -43,7 +44,7 @@ sub read_files_into_averaged_hash {
   my (@paths) = @_;
   my %result;
   for my $path (@paths) {
-	open(my $fh, "<", $path) or die "$path: $!";
+	my $fh = open_read_fh($path);
 	my $header = <$fh>;
 	while(<$fh>){
       chomp;
@@ -74,7 +75,7 @@ sub calculate_median {
 }
 sub write_named_hashes {
   my ($name_to_data_pairs, $out_path, @frontmatter) = @_;
-  print STDERR sprintf("write_named_hashes %s -> %s", scalar @{$name_to_data_pairs}, $out_path) if $ENV{ANALYSIS_VERBOSE};
+  print STDERR sprintf("write_named_hashes %s -> %s\n", scalar @{$name_to_data_pairs}, $out_path) if $ENV{ANALYSIS_VERBOSE};
   my %row_labels;
   for my $p (@{$name_to_data_pairs}){
     for my $label(keys %{$p->[1]}){
@@ -90,13 +91,13 @@ sub write_named_hashes {
   close $fh;
 }
 sub aggregate {
-  my ($name_to_path_pairs, $out_path) = @_;
+  my ($name_to_path_pairs, $out_path, @frontmatter) = @_;
   my @name_to_data_pairs = map {
    my $name = $_->[0];
    my $data = read_file_into_hash($_->[1]);
    [$name, $data]
   }  @{$name_to_path_pairs};
-  write_named_hashes(\@name_to_data_pairs, $out_path);
+  write_named_hashes(\@name_to_data_pairs, $out_path, @frontmatter);
 }
 sub average_and_aggregate {
   my ($name_to_pathlist_pairs, $out_path, @frontmatter) = @_;

@@ -259,4 +259,22 @@ sub passes_checks {
   my %checks = shift->data_quality_checks;
   return all {$_} values %checks;
 }
+# not official markdown, but should render well enough on github pages
+sub to_markdown {
+  my ($self) = @_;
+  my $table = ""; 
+  open(my $fh, ">", \$table);
+  my @a = @{$self->{characteristics_in_order}};
+  print $fh join(" | ","" , "Run", "Condition", @a, "")."\n";
+  print $fh join(" | ","", "---", "---",(map {"---"} @a), "")."\n";
+  my %runs_by_condition = %{$self->runs_by_condition};
+  for my $condition (sort keys %runs_by_condition){
+     for my $run_id (sort @{$runs_by_condition{$condition}}){
+        print $fh join (" | ", "", $run_id, $condition, (map {$self->value_in_run($run_id, $_)} @a), "")."\n";
+     }
+  }  
+  close $fh;
+  my $summary = sprintf("#### Design: %s conditions across %s runs\n", scalar $self->all_conditions, scalar $self->all_runs);
+  return "$summary\n$table\n";
+}
 1;

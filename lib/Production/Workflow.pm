@@ -28,14 +28,13 @@ sub get_studies_in_sheets {
 
 sub should_reject_study {
   my ($self, $study) = @_;
-  return ($study->{design}->all_conditions < 2 || $study->{design}->all_runs < 6);
+  return $study->{design}->all_runs < 6;
 }
 
 sub fetch_incoming_studies {
   my ($self, $public_study_records, $current_studies, $current_ignore_studies) = @_;
 
   my %result = (REJECT => [], SAVE => []); 
-
   for my $study ( map {&Production::CurationDefaults::study(%$_)} @{$public_study_records}){
     my $current_record = $current_studies->{$study->{study_id}};
     if ($current_ignore_studies->{$study->{study_id}} or $self->should_reject_study($study)){
@@ -69,31 +68,36 @@ sub do_everything {
   for my $study (@{$incoming_studies->{SAVE}}){
      $study->to_folder($self->{sheets}->path("studies", $species, $study->{study_id}));
   }
+  my @new_ignore_studies = uniq sort(keys %current_ignore_studies, map {$_->{study_id}} @{$incoming_studies->{REJECT}});
   if (@{$incoming_studies->{REJECT}}){
-    $self->{sheets}->write_list( [uniq sort(keys %current_ignore_studies, map {$_->{study_id}} @{$incoming_studies->{REJECT}})], "ignore_studies", $species)
+    $self->{sheets}->write_list( \@new_ignore_studies, "ignore_studies", $species);
   }
   
-  my $todo_studies = $self->run_checks(values %current_studies, @{$incoming_studies->{SAVE}});
+  my $todo_studies = $self->run_checks(@{$incoming_studies->{SAVE}});
 
-  my %analysed_studies;
+  my %files;
   for my $study (@{$todo_studies->{PASSED_CHECKS}}){
      my $public_study_record = first {$_->{study_id} eq $study->{study_id}} @public_study_records; 
-     my %files = map {
-        $_->{run_id} => { 
-          %{$_->{data_files}},
+     for my $run (@{$public_study_record->{runs}}){
+        $files{$study->{study_id}}{$run->{run_id}} = { 
+          %{$run->{data_files}},
           qc_issues => $_->{qc_issues},
-        }} @{$public_study_record->{runs}};
-     my $done = $self->{analysis}->run($study, \%files);
-     push @{$analysed_studies{$done ? "DONE": "SKIPPED"}}, $study;
+        };
+     }
   }
-  my %report = (%$incoming_studies, %$todo_studies, %analysed_studies);
-  use YAML;
-  print Dump(\%report);
-  # Remaining:
+  $self->{analysis}->run_all_and_produce_markdown_report(
+    species => $species,
+    assembly => $assembly,
+    studies => {
+      ids_skipped => \@new_ignore_studies,
+      failed_checks => $todo_studies->{FAILED_CHECKS},
+      todo => $todo_studies->{PASSED_CHECKS},
+    },
+    files => \%files,
+  );
+  # Future directions:
   # - Deployment directory - link between production directory results, a corner of FTP where they serve, and where the paths should go
-  # - Go through done / pending curation / rejected studies, and make a HTML page
-  # - Internal report on what happened:
-  #   + statuses: ignored / removed / unchanged / updated / failed_data_quality / failed_analysis 
-  #   + more granular than html, which should only have successful and other
+  # - Instead of the markdown report, make something deployable
+  # - Report on what just happened: I'm not sure actually, maybe it's better to always show state that was achieved after the run
 }
 1;
