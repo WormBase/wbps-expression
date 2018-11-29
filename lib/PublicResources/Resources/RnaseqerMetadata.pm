@@ -63,6 +63,32 @@ sub _fetch {
   }
   return {metadata => \%data, location_per_run_id => \%location_per_run_id};
 }
+# Stuff that won't be helpful to see, and also not helpful when curating the experiment
+# Be conservative when putting stuff here, because how do we know?
+my @type_blacklist = (
+ #Metadata
+  "bioproject_id",
+  "species",
+  "organism",
+ # Replicate - frequently 1,2,3
+  "replicate",
+  "repplicate",
+  "biological_replicate",
+ # GEO->ENA import artifacts
+  "ncbi_submission_model",
+  "ncbi_submission_package",
+  "geo_accession", 
+  "insdc_center_name",
+  "insdc_first_public",
+  "insdc_secondary_accession",
+  "insdc_status",
+  "insdc_last_update",
+ # Software things
+  "package",
+  "library_id",
+  "library_preparation",
+  "base_calling_software_version",
+);
 sub _normalise_type_and_value {
   my ($type, $value) = @_;
 
@@ -70,7 +96,7 @@ sub _normalise_type_and_value {
   $type =~ s/\W+/_/g;
 #each run has a sample and we can look it up in ENA but it's not a characteristic so filter it
   return "","" if $type eq 'sample_name' && $value =~ /^(E|S)RS\d+$/;
-
+  return "","" if grep {$_ eq $type} @type_blacklist;
 #Sometimes there's curation like: age+time unit
   return $type, $value if $type eq "age" and $value =~s/^\W+$//;
 # But sometimes age means developmental stage
