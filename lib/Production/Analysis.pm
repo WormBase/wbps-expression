@@ -6,7 +6,7 @@ use Production::Analysis::DataFiles;
 use Model::Design;
 use List::Util qw/pairmap pairgrep/;
 use File::Path qw/make_path/;
-#use Smart::Comments;
+#use Smart::Comments '###';
 sub new {
   my ($class, $dir) = @_;
   return bless {
@@ -51,14 +51,19 @@ my %ANALYSES = (
   average_by_condition => sub {
     my($study, $files, $output_path, %analysis_args) = @_; 
     my $runs_by_condition = $study->{design}->runs_by_condition;
+    my @conditions_alphabetically = sort keys %{$runs_by_condition};
     my %qc_issues_per_run = map {$_ => $files->{$_}{qc_issues}} map {@{$_}} values %{$runs_by_condition};
     my $low_qc_by_condition = low_qc_by_condition($runs_by_condition, \%qc_issues_per_run);
-    my @frontmatter = $low_qc_by_condition ? sort pairmap {"!$a: ".join (". ", sort map ucfirst @{$b}) } %{$low_qc_by_condition} : ();
-    my @name_to_pathlist_pairs= pairmap {
-       my $name = $low_qc_by_condition->{$a} ? "!$a" : $a;
-       my @paths = map {$files->{$_}{$analysis_args{source}}} @{$b};
+#### $low_qc_by_condition
+    my @frontmatter = map {
+      $low_qc_by_condition->{$_} ? ("!$_: ".join(". ", sort map {ucfirst $_} @{$low_qc_by_condition->{$_}})): ()
+    } @conditions_alphabetically;
+#### @frontmatter
+    my @name_to_pathlist_pairs= map {
+       my $name = $low_qc_by_condition->{$_} ? "!$_" : $_;
+       my @paths = map {$files->{$_}{$analysis_args{source}}} @{$runs_by_condition->{$_}};
        [$name, \@paths]
-    } %{$runs_by_condition};
+    } @conditions_alphabetically;
     Production::Analysis::DataFiles::average_and_aggregate(\@name_to_pathlist_pairs, $output_path, $analysis_args{description}, @frontmatter);
   }
 );
