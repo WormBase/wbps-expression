@@ -41,6 +41,9 @@ sub _fetch {
        $class->_get_rnaseqer_sample_attributes_per_run_for_study($study_id)
      }){
        my ($type, $value) = _normalise_type_and_value($attribute_record->{TYPE}, $attribute_record->{VALUE});
+       if($type eq "sample_name"){
+          $value = fix_sample_name($species, $value);
+       }
        $run_attributes{$attribute_record->{RUN_ID}}{$type} = $value if $type and $value;
      }
      $run_attributes{$attribute_record->{RUN_ID}} = _normalise_characteristics_hash($run_attributes{$attribute_record->{RUN_ID}});
@@ -95,7 +98,6 @@ sub _normalise_type_and_value {
   $type = lc($type);
   $type =~ s/\W+/_/g;
 #each run has a sample and we can look it up in ENA but it's not a characteristic so filter it
-  return "","" if $type eq 'sample_name' && $value =~ /^(E|S)RS\d+$/;
   return "","" if grep {$_ eq $type} @type_blacklist;
 #Sometimes there's curation like: age+time unit
   return $type, $value if $type eq "age" and $value =~s/^\W+$//;
@@ -136,8 +138,27 @@ sub _normalise_type_and_value {
 
   return $type, $value;
 }
+# Sample name is important so give it special treatment
+# We want it to be a run description and a meaningful guess at conditions
+# Unfortunately someone out there has a default based on species name,
+# also GEO announces stuff in the field, etc.
+sub fix_sample_name {
+  my ($species, $sample_name) = @_;
+  return "" unless $sample_name;
+  ( my $cies = $species ) =~ s/.*_//;
+  return ""
+    if (  $cies
+      and $sample_name =~ /$cies/i
+      and $sample_name =~ /sample from/i );
+  return "" if $sample_name =~ /^(E|S)RS\d+$/;
+  return "" if $sample_name =~ /private and is scheduled to be released/;
 
-# Pretends to be referentially transparent
+  $sample_name =~ s/\[\w+ $cies RNAseq\]//;#https://www.ebi.ac.uk/ena/data/view/DRS026763&display=xml
+  $sample_name =~ s/^\s+//;
+  $sample_name =~ s/\s+$//;
+  $sample_name =~ s/\s*(biological)? replicate \d+$//;
+  return $sample_name;
+}
 sub _normalise_characteristics_hash {
   my $o = shift;
   if(not $o->{sex} and $o->{developmental_stage} =~ /^adult ?-?_?males?$/){

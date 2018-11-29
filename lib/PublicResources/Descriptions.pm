@@ -9,25 +9,6 @@ sub new {
       curations => $curations, 
    }, $class;
 }
-sub run_description_from_sample_name {
-    my ( $species, $sample_name ) = @_;
-    ( my $cies = $species ) =~ s/.*_//;
-    return "" unless $sample_name;
-    return ""
-      if (  $cies
-        and $sample_name =~ /$cies/i
-        and $sample_name =~ /sample from/i );
-    return "" if ( scalar( split /\W+/, $sample_name ) == 1 );
-    return "" if $sample_name =~ /private/;
-    return "" if length($sample_name) < 10;
-
-
-    $sample_name =~ s/\[\w+ $cies RNAseq\]//;#https://www.ebi.ac.uk/ena/data/view/DRS026763&display=xml
-    $sample_name =~ s/^\s+//;
-    $sample_name =~ s/\s+$//;
-    $sample_name =~ s/\s*(biological)? replicate \d+$//;
-    return $sample_name;
-}
 
 # Duplicated with JBrowseDisplay.pm
 my @types_blacklist = (
@@ -102,7 +83,7 @@ sub _get_run_description {
     my ( $self, $study_id, $run_id, $attributes ) = @_;
     return (
         $self->{curations}{$study_id}{$run_id}
-          or run_description_from_sample_name( $self->{species}, $attributes->{sample_name} )
+          or $attributes->{sample_name}
           or run_description_from_attributes( $attributes )
           or ""
     );
