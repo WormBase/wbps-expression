@@ -32,39 +32,42 @@ sub low_qc_by_condition {
    }
    return \%result;
 }
-my %ANALYSES = (
+
+my %ANALYSES = (  
   aggregate_by_run => sub { 
     my($study, $files, $output_path, %analysis_args) = @_; 
-    my @runs = sort $study->{design}->all_runs;
+    my @runs = $study->{design}->all_runs;
     my %qc_issues_per_run = pairgrep {$b} map {$_ => $files->{$_}{qc_issues}} @runs;
-    my @frontmatter = map {
+    my @qc_warnings = map {
        my $qcs = $qc_issues_per_run{$_};
        $qcs ? "!$_: ".join(". ", sort map ucfirst @{$qcs}) : ()
      } @runs;
+    my @frontmatter = $analysis_args{decorate_files} ? ($analysis_args{description}, @qc_warnings) : ();
     my @name_to_path_pairs = map {
-      my $name = $qc_issues_per_run{$_} ? "!$_" : $_;
+      my $name = $analysis_args{decorate_files} && $qc_issues_per_run{$_} ? "!$_" : $_;
       my $path = $files->{$_}{$analysis_args{source}};
       [$name, $path]
     } @runs;
-    Production::Analysis::DataFiles::aggregate(\@name_to_path_pairs, $output_path, $analysis_args{description}, @frontmatter);
+    Production::Analysis::DataFiles::aggregate(\@name_to_path_pairs, $output_path, @frontmatter);
   },
   average_by_condition => sub {
     my($study, $files, $output_path, %analysis_args) = @_; 
     my $runs_by_condition = $study->{design}->runs_by_condition;
-    my @conditions_alphabetically = sort keys %{$runs_by_condition};
+    my @conditions_ordered = $study->{design}->all_conditions; 
     my %qc_issues_per_run = map {$_ => $files->{$_}{qc_issues}} map {@{$_}} values %{$runs_by_condition};
     my $low_qc_by_condition = low_qc_by_condition($runs_by_condition, \%qc_issues_per_run);
 #### $low_qc_by_condition
-    my @frontmatter = map {
+    my @qc_warnings = map {
       $low_qc_by_condition->{$_} ? ("!$_: ".join(". ", sort map {ucfirst $_} @{$low_qc_by_condition->{$_}})): ()
-    } @conditions_alphabetically;
+    } @conditions_ordered;
+    my @frontmatter = $analysis_args{decorate_files} ? ($analysis_args{description}, @qc_warnings) : ();
 #### @frontmatter
     my @name_to_pathlist_pairs= map {
-       my $name = $low_qc_by_condition->{$_} ? "!$_" : $_;
+       my $name = $analysis_args{decorate_files} && $low_qc_by_condition->{$_} ? "!$_" : $_;
        my @paths = map {$files->{$_}{$analysis_args{source}}} @{$runs_by_condition->{$_}};
        [$name, \@paths]
-    } @conditions_alphabetically;
-    Production::Analysis::DataFiles::average_and_aggregate(\@name_to_pathlist_pairs, $output_path, $analysis_args{description}, @frontmatter);
+    } @conditions_ordered;
+    Production::Analysis::DataFiles::average_and_aggregate(\@name_to_pathlist_pairs, $output_path, @frontmatter);
   }
 );
 sub run {

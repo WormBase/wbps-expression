@@ -93,6 +93,7 @@ sub analyses_required {
       title => "Counts per run",
       description => "Raw data (counts of aligned reads) for study $study_id",
       source => "counts_htseq2",
+      decorate_files => 0,
     },
     {
       type => "aggregate_by_run",
@@ -100,6 +101,7 @@ sub analyses_required {
       title => "Expression per run (TPM)",
       description => "Gene expression in TPM for each run in  study $study_id",
       source => "tpm_htseq2",
+      decorate_files => 1,
     }, 
     ($max_reps >= 3 ? {
       type => "average_by_condition",
@@ -107,6 +109,7 @@ sub analyses_required {
       title => "Expression per condition (TPM)",
       description => "Gene expression in TPM - median across runs per condition for study $study_id",
       source => "tpm_htseq2",
+      decorate_files => 1,
     } :()),
   );
 }
