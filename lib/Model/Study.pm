@@ -50,8 +50,13 @@ sub config_matches_design_checks {
   my %conditions_design = map {$_=>1} $design->all_conditions;
   my @conditions_config = keys %{$config->{condition_names}};
   my @conditions_match = map {("Condition $_ in config present in design" => $conditions_design{$_})} @conditions_config; 
-  my @keys_match = map {("Key in config".join("\t", %{$_}). " matches slice") => $design->lookup_slice($_)} @{$config->{slices}};
-  return @conditions_match, @keys_match;
+  my @slices = @{$config->{slices} //[]};
+  if (@slices < 1000){
+    my @keys_match = map {("Key in config".join("\t", %{$_}). " matches slice") => $design->lookup_slice($_)} @{$config->{slices}};
+    return @conditions_match, @keys_match;
+  } else {
+    return @conditions_match, "Manageably many slices - under 1000" => 0
+  }
 }
 sub consistency_checks {
   my ($self) = @_;

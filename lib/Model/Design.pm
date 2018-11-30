@@ -215,15 +215,15 @@ sub is_key_to_slice {
   my %ccs = %{$slice->{common_characteristics}};
   return 0 unless $key->{__factor__} eq $slice->{varying_characteristic};
   for my $k (keys %ccs){
-### require: defined $key->{$k}
-### require: defined $ccs{$k}
-    return 0 unless $key->{$k} eq $ccs{$k};
+    return 0 if not defined $key->{$k};
+    return 0 if $key->{$k} ne $ccs{$k};
   }
-  return 0 unless keys %{$key} == 1 + keys %ccs;
+  return 0 if keys %{$key} != 1 + keys %ccs;
   return 1;
 }
 sub lookup_slice {
   my ($self, $slice_key) = @_;
+### lookup_slice: $slice_key
   return first {is_key_to_slice($slice_key, $_)} @{$self->slices};
 }
 sub key_to_slice {
