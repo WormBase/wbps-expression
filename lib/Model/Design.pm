@@ -67,7 +67,7 @@ sub from_data_by_run {
       }
     } else {
       my ($value, @others) = uniq map {$characteristics_per_run->{$_}{$characteristic}} keys %{$conditions_per_run};
-### require: $value
+### require: defined $value
 ### require: not @others
       $characteristics{common}{$characteristic} = $value;
     }
@@ -95,14 +95,26 @@ sub value_in_run {
 #### $value_in_run
    return $value_in_run;
 }
-sub all_runs {
-  return keys %{shift->{conditions_per_run}};
-}
 sub runs_by_condition {
   return reverse_hoa(shift->{conditions_per_run});
 }
+sub condition_run_ordered_pairs {
+  my %d = %{shift->runs_by_condition};
+  my @result;
+  for my $condition (sort keys %d){
+     for my $run_id (sort @{$d{$condition}}){
+        push @result, [$condition, $run_id];
+     }
+  }
+  return @result;
+}
+sub all_runs {
+  my @a = map {$_->[1]} shift->condition_run_ordered_pairs;
+  return @a;
+}
 sub all_conditions {
-  return keys %{shift->runs_by_condition};
+  my @a = uniq map {$_->[0]} shift->condition_run_ordered_pairs;
+  return @a;
 }
 sub characteristics_per_run {
   my ($self) = @_;
@@ -124,12 +136,9 @@ sub to_tsv {
 #### characteristics in order: @a
   print $fh join("\t", "Run", "Condition", @a)."\n";
 #### $self
-  my %runs_by_condition = %{$self->runs_by_condition};
-  for my $condition (sort keys %runs_by_condition){
-     for my $run_id (sort @{$runs_by_condition{$condition}}){
-        print $fh join ("\t", $run_id, $condition, map {$self->value_in_run($run_id, $_)} @a)."\n";
-     }
-  }  
+  for my $p ($self->condition_run_ordered_pairs){
+     print $fh join ("\t", $p->[1], $p->[0], map {$self->value_in_run($p->[1], $_)} @a)."\n";
+  }
   close $fh; 
 }
 sub n_choose_one {
@@ -223,7 +232,7 @@ sub is_key_to_slice {
 }
 sub lookup_slice {
   my ($self, $slice_key) = @_;
-### lookup_slice: $slice_key
+#### lookup_slice: $slice_key
   return first {is_key_to_slice($slice_key, $_)} @{$self->slices};
 }
 sub key_to_slice {
@@ -267,12 +276,9 @@ sub to_markdown {
   my @a = @{$self->{characteristics_in_order}};
   print $fh join(" | ","" , "Run", "Condition", @a, "")."\n";
   print $fh join(" | ","", "---", "---",(map {"---"} @a), "")."\n";
-  my %runs_by_condition = %{$self->runs_by_condition};
-  for my $condition (sort keys %runs_by_condition){
-     for my $run_id (sort @{$runs_by_condition{$condition}}){
-        print $fh join (" | ", "", $run_id, $condition, (map {$self->value_in_run($run_id, $_)} @a), "")."\n";
-     }
-  }  
+  for my $p ($self->condition_run_ordered_pairs){
+     print $fh join (" | ","", $p->[1], $p->[0], (map {$self->value_in_run($p->[1], $_)} @a), "")."\n";
+  }
   close $fh;
   my $summary = sprintf("#### Design: %s conditions across %s runs\n", scalar $self->all_conditions, scalar $self->all_runs);
   return "$summary\n$table\n";
