@@ -99,6 +99,11 @@ sub _normalise_type_and_value {
   $type =~ s/\W+/_/g;
 #each run has a sample and we can look it up in ENA but it's not a characteristic so filter it
   return "","" if grep {$_ eq $type} @type_blacklist;
+# Reject accessions of sample names - regex originally from https://www.ebi.ac.uk/ena/submit/accession-number-formats
+# SRS\d+ are NCBI sample names I think, although they don't commit to a regex
+# Sometimes in "synonym" field
+  return "","" if $value =~ /^(E|S)RS\d{6,}$/;
+  return "","" if $value =~ /^SAM(E|D|N)[A-Z]?\d+$/;
 #Sometimes there's curation like: age+time unit
   return $type, $value if $type eq "age" and $value =~s/^\W+$//;
 # But sometimes age means developmental stage
@@ -150,7 +155,6 @@ sub fix_sample_name {
     if (  $cies
       and $sample_name =~ /$cies/i
       and $sample_name =~ /sample from/i );
-  return "" if $sample_name =~ /^(E|S)RS\d+$/;
   return "" if $sample_name =~ /private and is scheduled to be released/;
 
   $sample_name =~ s/\[\w+ $cies RNAseq\]//;#https://www.ebi.ac.uk/ena/data/view/DRS026763&display=xml
