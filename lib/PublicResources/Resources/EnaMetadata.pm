@@ -22,6 +22,9 @@ sub _fetch {
                 $data_for_study->{attributes}{submitting_centre} //= $submitting_centre;
 
             }
+            if( $data_for_study->{attributes}{submitting_centre} =~ /^null$/i){
+                delete $data_for_study->{attributes}{submitting_centre};
+            }
             $data{$assembly}{$study_id} = $data_for_study;
         }
     }

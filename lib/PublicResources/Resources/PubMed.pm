@@ -37,7 +37,7 @@ sub _short_and_full_paper_description_from_payload {
     my @authors = $authors ? ref $authors eq 'ARRAY' ? @$authors : ($authors) : ();
     my $first_author = @authors[0]->{LastName};
     my $last_author = @authors[-1]->{LastName};
-    my $authors = $first_author ? $last_author ne $first_author ? "$first_author & $last_author" : $first_author :  "";
+    my $authors = $first_author ? $last_author ne $first_author ? "$first_author .. $last_author" : $first_author :  "";
     my $year = $payload->{MedlineCitation}{Article}{Journal}{JournalIssue}{PubDate}{Year};
     my $short_description = "$authors, $year";
     my $full_description = $title ? "$title ($authors, $year)" : $short_description;
