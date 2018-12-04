@@ -25,7 +25,7 @@ assert_pubmed({
 sub pick_up_paper {
   my ($metadata, $description) = @_;
   assert_pubmed($metadata, {assembly_id => {study_id => {
-     $pubmed_id => ["Lee & Howe, 2018", "WormBase 2017: molting into a new stage. (Lee & Howe, 2018)"]
+     $pubmed_id => ["Lee .. Howe, 2018", "WormBase 2017: molting into a new stage. (Lee .. Howe, 2018)"]
   }}}, $description);
 }
 pick_up_paper({
