@@ -7,6 +7,7 @@ use Model::Design;
 use YAML qw/DumpFile LoadFile/;
 use Carp qw/confess/;
 use List::Util qw/all max/;
+use Smart::Comments '###';
 sub new {
   my ($class, $study_id, $study_design, $study_config) = @_;
   return bless {
@@ -45,18 +46,29 @@ sub config_matches_design {
   my %checks = config_matches_design_checks($self->{config}, $self->{design});
   return all {$_} values %checks; 
 }
+sub list_of_contrasts_checks {
+  my ($condition_names, $name, @values) = @_;
+#### list_of_contrasts_checks: @_
+  if ($#values > 50){
+    return ("$name manageably many contrasts" => 0);
+  } else {
+    return map { 
+      my ($reference, $test, $name) = @{$values[$_]};
+      "$name contrast $_ ok" => $condition_names->{$reference} && $condition_names->{$test} && $name
+    }  (0 .. $#values);
+  }
+}
 sub config_matches_design_checks {
   my ($config, $design) = @_;
+#### contrasts: $config->{contrasts}
   my %conditions_design = map {$_=>1} $design->all_conditions;
   my @conditions_config = keys %{$config->{condition_names}};
   my @conditions_match = map {("Condition $_ in config present in design" => $conditions_design{$_})} @conditions_config; 
-  my @slices = @{$config->{slices} //[]};
-  if (@slices < 1000){
-    my @keys_match = map {("Key in config".join("\t", %{$_}). " matches slice") => $design->lookup_slice($_)} @{$config->{slices}};
-    return @conditions_match, @keys_match;
-  } else {
-    return @conditions_match, "Manageably many slices - under 1000" => 0
-  }
+  my @contrasts_match = map {
+    list_of_contrasts_checks(\%conditions_design, $_->{name}, @{$_->{values}})
+  } @{$config->{contrasts}};
+#### @contrasts_match
+  return @conditions_match, @contrasts_match;
 }
 sub consistency_checks {
   my ($self) = @_;

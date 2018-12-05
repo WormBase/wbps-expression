@@ -4,11 +4,36 @@ condition_names:
   5 days: RNA extraction after 5 days in culture
   Upon arrival: RNA extraction upon arrival
   Upon dissection: RNA extraction immediately upon jird dissection
+contrasts:
+  - name: timepoint
+    values:
+      -
+        - 48h
+        - 5 days
+        - 48h vs 5 days
+      -
+        - 48h
+        - Upon arrival
+        - 48h vs Upon arrival
+      -
+        - 48h
+        - Upon dissection
+        - 48h vs Upon dissection
+      -
+        - 5 days
+        - Upon arrival
+        - 5 days vs Upon arrival
+      -
+        - 5 days
+        - Upon dissection
+        - 5 days vs Upon dissection
+      -
+        - Upon arrival
+        - Upon dissection
+        - Upon arrival vs Upon dissection
 description: The effect of in vitro cultivation on the transcriptome of adult Brugia malayi
 pubmed:
   26727204:
     - 'Ballesteros & Geary, 2016'
     - 'The Effect of In Vitro Cultivation on the Transcriptome of Adult Brugia malayi. (Ballesteros & Geary, 2016)'
-slices:
-  - __factor__: timepoint
 title: The effect of in vitro cultivation on the transcriptome of adult Brugia malayi

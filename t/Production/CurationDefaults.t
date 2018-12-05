@@ -1,0 +1,68 @@
+use Test::More;
+use Production::CurationDefaults;
+use Model::Design;
+sub test_subsets {
+  my @actual = Production::CurationDefaults::subsets(@_);
+  ok(@actual == 2**@_, "Subsets: @_") or diag explain \@actual;
+}
+test_subsets();
+test_subsets(1);
+test_subsets("apple", "banana");
+test_subsets("apple", "banana", "pear");
+
+sub contrasts_as_expected {
+  my ($design_tsv, $expected, $test_name) = @_;
+  my $actual = Production::CurationDefaults::contrasts(Model::Design::from_tsv(\$design_tsv));
+  is_deeply($actual, $expected, $test_name) or warn explain $actual, $expected;
+}
+contrasts_as_expected("Run\tCondition\n", [], "null case");
+my $tsv = <<'EOF';
+Run	Condition	developmental_stage
+r1	head	head
+r2	tail	tail
+EOF
+contrasts_as_expected($tsv, [{name => "developmental_stage", values => [["head", "tail", "head vs tail"]]}], "minimal example");
+(my $no_characteristics_tsv = $tsv) =~ s/head\thead/head\ttail/;
+contrasts_as_expected($no_characteristics_tsv, [{name => "", values => [["head", "tail", "head vs tail"]]}], "no characteristics needed");
+(my $no_factors_tsv = $tsv) =~ s/head/tail/g;
+contrasts_as_expected($no_factors_tsv, [], "no factors example");
+my $two_factor_tsv = <<'EOF';
+Run	Condition	sex	developmental_stage
+r1	hf	female	head
+r2	tf	female	tail
+r3	hm	male	head
+r4	tm	male	tail
+EOF
+contrasts_as_expected($two_factor_tsv, [
+  {
+    'name' => 'developmental_stage',
+    'values' => [
+      [
+        'hf',
+        'tf',
+        'hf vs tf'
+      ],
+      [
+        'hm',
+        'tm',
+        'hm vs tm'
+      ]
+    ]
+  },
+  {
+    'name' => 'sex',
+    'values' => [
+      [
+        'hf',
+        'hm',
+        'hf vs hm'
+      ],
+      [
+        'tf',
+        'tm',
+        'tf vs tm'
+      ]
+    ]
+  }
+], "two characteristics example");
+done_testing;

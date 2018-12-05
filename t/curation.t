@@ -142,9 +142,8 @@ sub ok_design_fails_with_wrong_condition_names {
     shift, 1, 0 );
 }
 
-sub ok_design_fails_with_wrong_slices {
-  test_tsv_and_config( shift,
-    { slices => [ { __factor__ => "not a characteristic" } ] },
+sub ok_design_fails_with_wrong_contrasts {
+  test_tsv_and_config( shift, { contrasts => [{ name => "contrasts.name", values => [["wrong_reference", "wrong_test", "wrong_reference vs wrong_test : contrast name"]]}] } ,
     shift, 1, 0 );
 }
 tsv_well_formatted_but_fails_checks("Run\tCondition\n");
@@ -168,7 +167,7 @@ SRR3209262	tail	Schistosoma mansoni	adult	female	tail
 EOF
 design_ok($tsv);
 ok_design_fails_with_wrong_condition_names($tsv);
-ok_design_fails_with_wrong_slices($tsv);
+ok_design_fails_with_wrong_contrasts($tsv);
 ( my $tsv_no_factors = $tsv ) =~ s/head/tail/g;
 design_ok( $tsv_no_factors,
   "same as before, head -> tail ie no factors at all" );
@@ -197,8 +196,7 @@ SRR0000002	tm	Schistosoma mansoni	adult	male	tail
 EOF
 design_ok($two_factor_tsv);
 ok_design_fails_with_wrong_condition_names($two_factor_tsv);
-ok_design_fails_with_wrong_slices($two_factor_tsv);
-
+ok_design_fails_with_wrong_contrasts($two_factor_tsv);
 find(
   sub {
     test_folder($File::Find::name)

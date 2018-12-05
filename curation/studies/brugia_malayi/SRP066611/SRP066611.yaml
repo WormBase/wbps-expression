@@ -7,22 +7,58 @@ condition_names:
   'Ivermectin 1 uM, 5 d': 'Ivermectin 1 uM, RNA extraction at 5 d'
   'Ivermectin 300 nM, 48 h': 'Ivermectin 300 nM, RNA extraction at 48 h'
   'Ivermectin 300 nM, 5 d': 'Ivermectin 300 nM, RNA extraction at 5 d'
+contrasts:
+  - name: timepoint
+    values:
+      -
+        - 0h
+        - 48 h
+        - 0h vs 48 h
+      -
+        - 0h
+        - 5 d
+        - 0h vs 5 d
+      -
+        - 48 h
+        - 5 d
+        - 48 h vs 5 d
+      -
+        - 'Ivermectin 1 uM, 48 h'
+        - 'Ivermectin 1 uM, 5 d'
+        - 'Ivermectin 1 uM, 48 h vs Ivermectin 1 uM, 5 d'
+      -
+        - 'Ivermectin 300 nM, 48 h'
+        - 'Ivermectin 300 nM, 5 d'
+        - 'Ivermectin 300 nM, 48 h vs Ivermectin 300 nM, 5 d'
+  - name: ivm_concentration
+    values:
+      -
+        - 48 h
+        - 'Ivermectin 1 uM, 48 h'
+        - '48 h vs Ivermectin 1 uM, 48 h'
+      -
+        - 48 h
+        - 'Ivermectin 300 nM, 48 h'
+        - '48 h vs Ivermectin 300 nM, 48 h'
+      -
+        - 'Ivermectin 1 uM, 48 h'
+        - 'Ivermectin 300 nM, 48 h'
+        - 'Ivermectin 1 uM, 48 h vs Ivermectin 300 nM, 48 h'
+      -
+        - 5 d
+        - 'Ivermectin 1 uM, 5 d'
+        - '5 d vs Ivermectin 1 uM, 5 d'
+      -
+        - 5 d
+        - 'Ivermectin 300 nM, 5 d'
+        - '5 d vs Ivermectin 300 nM, 5 d'
+      -
+        - 'Ivermectin 1 uM, 5 d'
+        - 'Ivermectin 300 nM, 5 d'
+        - 'Ivermectin 1 uM, 5 d vs Ivermectin 300 nM, 5 d'
 description: 'Deciphering the loss of fertility in ivermectin-treated Brugia malayi females in vitro: a transcriptomic approach [Study II]'
 pubmed:
   27529747:
     - 'Ballesteros & Geary, 2016'
     - 'The Effects of Ivermectin on Brugia malayi Females In Vitro: A Transcriptomic Approach. (Ballesteros & Geary, 2016)'
-slices:
-  - __factor__: ivm_concentration
-    timepoint: RNA extraction upon arrival at McGill
-  - __factor__: ivm_concentration
-    timepoint: RNA extraction at 5 d
-  - __factor__: ivm_concentration
-    timepoint: RNA extraction at 48 h
-  - __factor__: timepoint
-    ivm_concentration: ''
-  - __factor__: timepoint
-    ivm_concentration: 300 nM
-  - __factor__: timepoint
-    ivm_concentration: 1 uM
 title: 'Deciphering the loss of fertility in ivermectin-treated Brugia malayi females in vitro: a transcriptomic approach [Study II]'

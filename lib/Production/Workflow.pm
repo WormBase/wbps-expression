@@ -41,7 +41,7 @@ sub fetch_incoming_studies {
       push @{$result{REJECT}}, $study;
     } else { 
       if ($current_record and Model::Study::config_matches_design_checks($current_record->{config}, $study->{design})){
-        $study->{config}{slices} = $current_record->{config}{slices};
+        $study->{config}{contrasts} = $current_record->{config}{contrasts};
         $study->{config}{condition_names} = $current_record->{config}{condition_names};
         # Additionally, characteristics in the current record were already reused
         # because they provided sources of attributes for the runs - see PublicResources::Rnaseq
