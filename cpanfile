@@ -9,7 +9,7 @@ requires 'List::Util';
 requires 'Text::CSV';
 requires 'XML::Simple';
 requires 'YAML';
-
+requires 'Statistics::R';
 
 test_requires 'File::Temp';
 test_requires 'Test::MockModule';

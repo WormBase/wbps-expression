@@ -2,11 +2,13 @@ use strict;
 use warnings;
 package Production::Analysis;
 use File::Slurp qw/read_dir/;
+use File::Basename;
 use Production::Analysis::DataFiles;
+use Production::Analysis::DESeq2;
 use Model::Design;
 use List::Util qw/pairmap pairgrep/;
 use File::Path qw/make_path/;
-#use Smart::Comments '###';
+# use Smart::Comments '###';
 sub new {
   my ($class, $dir) = @_;
   return bless {
@@ -68,7 +70,22 @@ my %ANALYSES = (
        [$name, \@paths]
     } @conditions_ordered;
     Production::Analysis::DataFiles::average_and_aggregate(\@name_to_pathlist_pairs, $output_path, @frontmatter);
-  }
+  },
+  differential_expression => sub {
+    my($study, $files, $output_path, %analysis_args) = @_;
+### %analysis_args
+    my $source_file = join("/", dirname ($output_path), $analysis_args{source_file_name});
+    die "Does not exist: $source_file" unless -f $source_file;
+    my $design_dump_file = join("/", dirname($output_path), $study->{study_id}.".design.tsv.tmp");
+    $study->{design}->to_tsv($design_dump_file);
+    eval {
+      Production::Analysis::DESeq2::do_analysis(
+        $design_dump_file, $source_file, $analysis_args{contrasts}, $output_path
+      );
+    };
+    unlink $design_dump_file;
+    die $@ if $@;
+  },
 );
 sub run {
   my ($self, $output_dir, $study, $files) = @_;

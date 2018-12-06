@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Production::Analysis::DataFiles;
 use File::Slurp qw/read_dir/;
-
+use Production::Analysis::Common;
 use LWP;
 my $CAN_SEE_EBI_FILESYSTEM = -d "/nfs/ftp";
 
@@ -73,23 +73,6 @@ sub calculate_median {
         );
     }
 }
-sub write_named_hashes {
-  my ($name_to_data_pairs, $out_path, @frontmatter) = @_;
-  print STDERR sprintf("write_named_hashes %s -> %s\n", scalar @{$name_to_data_pairs}, $out_path) if $ENV{ANALYSIS_VERBOSE};
-  my %row_labels;
-  for my $p (@{$name_to_data_pairs}){
-    for my $label(keys %{$p->[1]}){
-      $row_labels{$label}++;
-    }
-  }
-  open(my $fh, ">", $out_path) or die "$out_path: $!";
-  print $fh "# $_\n" for @frontmatter;
-  print $fh join ("\t", "", map {$_->[0]} @{$name_to_data_pairs})."\n";
-  for my $row (sort keys %row_labels){
-     print $fh join ("\t",$row, map {$_->[1]->{$row} // ""} @{$name_to_data_pairs})."\n";
-  }
-  close $fh;
-}
 sub aggregate {
   my ($name_to_path_pairs, $out_path, @frontmatter) = @_;
   my @name_to_data_pairs = map {
@@ -97,7 +80,7 @@ sub aggregate {
    my $data = read_file_into_hash($_->[1]);
    [$name, $data]
   }  @{$name_to_path_pairs};
-  write_named_hashes(\@name_to_data_pairs, $out_path, @frontmatter);
+  Production::Analysis::Common::write_named_hashes(\@name_to_data_pairs, $out_path, @frontmatter);
 }
 sub average_and_aggregate {
   my ($name_to_pathlist_pairs, $out_path, @frontmatter) = @_;
@@ -106,6 +89,6 @@ sub average_and_aggregate {
     my $data = read_files_into_averaged_hash(@{$_->[1]});
     [$name, $data]
   } @{$name_to_pathlist_pairs};
-  write_named_hashes(\@name_to_data_pairs, $out_path, @frontmatter);
+  Production::Analysis::Common::write_named_hashes(\@name_to_data_pairs, $out_path, @frontmatter);
 }
 1;

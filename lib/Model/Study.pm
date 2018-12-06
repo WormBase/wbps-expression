@@ -98,10 +98,11 @@ sub analyses_required {
   my ($self) = @_;
   my $study_id = $self->{study_id};
   my $max_reps = max map {scalar @{$_}} values %{$self->{design}->runs_by_condition};
+  my $counts_file_name = "$study_id.counts_per_run.tsv";
   return (
     {
       type => "aggregate_by_run",
-      file_name => "$study_id.counts_per_run.tsv",
+      file_name => $counts_file_name,
       title => "Counts per run",
       description => "Raw data (counts of aligned reads) for study $study_id",
       source => "counts_htseq2",
@@ -123,6 +124,15 @@ sub analyses_required {
       source => "tpm_htseq2",
       decorate_files => 1,
     } :()),
+   (map {{
+      type => "differential_expression",
+      file_name => sprintf("$study_id.de%s%s.tsv" , $_->{name} ? ".": "" , $_->{name}),
+      title => sprintf("Differential expression%s%s" , $_->{name} ? ": ": "", $_->{name} =~ tr/_/ /r),
+      description => sprintf("DESeq2 differential expression - log2foldchange for genes found differentially expressed with adjusted p-value < 0.05, %s contrast%s %s%s",
+          scalar @{$_->{values}}, @{$_->{values}} > 1 ? "s":"", $_->{name} ? " across: " :"", $_->{name} =~ tr/_/ /r),
+      source_file_name => $counts_file_name,
+      contrasts => $_->{values}, 
+   }} @{$self->{config}{contrasts}}),
   );
 }
 sub to_markdown {
