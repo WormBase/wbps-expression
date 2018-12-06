@@ -7,9 +7,10 @@ use List::MoreUtils qw/zip/;
 #use Smart::Comments '###';
 
 sub do_analysis {
-  my ($design_path, $counts_path, $contrasts, $out_path) = @_;
+  my ($design_path, $counts_path, $contrasts, $out_path, @frontmatter) = @_;
 
   my @name_to_data_pairs;
+  my @analysis_warnings;
   my $R = Statistics::R->new();
   my $r_version = $R->get('getRversion()');
   $R->set('colPath', $design_path);
@@ -38,9 +39,17 @@ sub do_analysis {
      my @row_names = ref $rn eq 'ARRAY' ? @{$rn} : ();
      die unless @fold_changes == @row_names;
      my %h = zip @row_names, @fold_changes;
-     push @name_to_data_pairs, [$contrast_name, \%h];
+     if(%h){
+       push @name_to_data_pairs, [$contrast_name, \%h];
+     } else {
+       push @analysis_warnings, "No differentially expressed genes found in contrast: $contrast_name";
+     }
   }
   $R->stop;
-  Production::Analysis::Common::write_named_hashes(\@name_to_data_pairs, $out_path, "R version: $r_version", "DESeq2 version: $deseq_version");
+  Production::Analysis::Common::write_named_hashes(\@name_to_data_pairs, $out_path,
+    shift @frontmatter,
+    "R version: $r_version", "DESeq2 version: $deseq_version",
+    @frontmatter, @analysis_warnings,
+  );
 }
 1;

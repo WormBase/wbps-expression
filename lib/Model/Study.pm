@@ -128,7 +128,7 @@ sub analyses_required {
       type => "differential_expression",
       file_name => sprintf("$study_id.de%s%s.tsv" , $_->{name} ? ".": "" , $_->{name}),
       title => sprintf("Differential expression%s%s" , $_->{name} ? ": ": "", $_->{name} =~ tr/_/ /r),
-      description => sprintf("DESeq2 differential expression - log2foldchange for genes found differentially expressed with adjusted p-value < 0.05, %s contrast%s %s%s",
+      description => sprintf("Differential expression analysis - log2foldchange for genes found differentially expressed with adjusted p-value < 0.05, %s contrast%s %s%s",
           scalar @{$_->{values}}, @{$_->{values}} > 1 ? "s":"", $_->{name} ? " across: " :"", $_->{name} =~ tr/_/ /r),
       source_file_name => $counts_file_name,
       contrasts => $_->{values}, 

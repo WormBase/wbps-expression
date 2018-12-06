@@ -21,7 +21,7 @@ sub low_qc_by_condition {
    my %d = %{$runs_by_condition};
     for my $c (keys %d){
       my @runs = @{$d{$c}};
-      push @{$result{$c}}, sprintf("Low replicates (%s)", scalar @runs) if @runs < 3;
+      push @{$result{$c}}, sprintf("low replicates (%s)", scalar @runs) if @runs < 3;
       my %qcs;
       for my $run_id (@runs){
          for my $qc (@{$qc_issues_per_run->{$run_id}}){
@@ -74,13 +74,30 @@ my %ANALYSES = (
   differential_expression => sub {
     my($study, $files, $output_path, %analysis_args) = @_;
 ### %analysis_args
+    my $runs_by_condition = $study->{design}->runs_by_condition;
+    my @conditions_ordered = $study->{design}->all_conditions; 
+    my %qc_issues_per_run = map {$_ => $files->{$_}{qc_issues}} map {@{$_}} values %{$runs_by_condition};
+    my $low_qc_by_condition = low_qc_by_condition($runs_by_condition, \%qc_issues_per_run);
+    my @qc_warnings;
+    my @contrasts_amended_names;
+    for (@{$analysis_args{contrasts}}){
+       my ($reference, $test, $name) = @{$_};
+       my @qcs  = ((map {"$reference - $_"} @{$low_qc_by_condition->{$reference} //[]}),( map {"$test - $_"} @{$low_qc_by_condition->{$test} //[]}));
+       if(@qcs){
+          push @qc_warnings, "!$name: ".join(". ", sort map {ucfirst $_} @qcs);
+          $name = "!$name";
+       }
+       push @contrasts_amended_names, [$reference, $test, $name ];
+    }
+
     my $source_file = join("/", dirname ($output_path), $analysis_args{source_file_name});
     die "Does not exist: $source_file" unless -f $source_file;
     my $design_dump_file = join("/", dirname($output_path), $study->{study_id}.".design.tsv.tmp");
     $study->{design}->to_tsv($design_dump_file);
+    my @frontmatter = ($analysis_args{description}, @qc_warnings);
     eval {
       Production::Analysis::DESeq2::do_analysis(
-        $design_dump_file, $source_file, $analysis_args{contrasts}, $output_path
+        $design_dump_file, $source_file, \@contrasts_amended_names, $output_path, @frontmatter
       );
     };
     unlink $design_dump_file;
