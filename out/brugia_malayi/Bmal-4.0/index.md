@@ -3,6 +3,8 @@ Assembly: Bmal-4.0
 ## Analysed
 ### ERP000948: Brugia malayi transcriptomics at different life cycle stages
 *High-throughput sequencing to profile the transcriptome of the human filarial nematode Brugia malayi, the causative agent of lymphatic filariasis, across multiple life-cycle stages.*
+[A deep sequencing approach to comparatively analyze the transcriptome of lifecycle stages of the filarial worm, Brugia malayi. (Choi & Michalski, 2011)](https://www.ncbi.nlm.nih.gov/pubmed/22180794)
+[Dual RNA-seq of parasite and host reveals gene expression dynamics during filarial worm-mosquito interactions. (Choi & Christensen, 2014)](https://www.ncbi.nlm.nih.gov/pubmed/24853112)
 #### Data
 ##### Counts per run
 [Raw data (counts of aligned reads) for study ERP000948](ERP000948/ERP000948.counts_per_run.tsv)
@@ -34,6 +36,7 @@ Assembly: Bmal-4.0
  | ERR048965 | Microfilariae | Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI. | frozen_sample | mature microfilariae | whole organism | mixed | FR3 | 
 
 ### SRP063061: The effect of in vitro cultivation on the transcriptome of adult Brugia malayi
+[The Effect of In Vitro Cultivation on the Transcriptome of Adult Brugia malayi. (Ballesteros & Geary, 2016)](https://www.ncbi.nlm.nih.gov/pubmed/26727204)
 #### Data
 ##### Counts per run
 [Raw data (counts of aligned reads) for study SRP063061](SRP063061/SRP063061.counts_per_run.tsv)
@@ -73,6 +76,7 @@ Assembly: Bmal-4.0
  | SRR2225862 | Upon dissection | adult | Upon dissection | 
 
 ### SRP066610: Deciphering the loss of fertility in ivermectin-treated Brugia malayi females in vitro: a transcriptomic approach [Study I]
+[The Effects of Ivermectin on Brugia malayi Females In Vitro: A Transcriptomic Approach. (Ballesteros & Geary, 2016)](https://www.ncbi.nlm.nih.gov/pubmed/27529747)
 #### Data
 ##### Counts per run
 [Raw data (counts of aligned reads) for study SRP066610](SRP066610/SRP066610.counts_per_run.tsv)
@@ -102,6 +106,7 @@ Assembly: Bmal-4.0
  | SRR2954986 | Ivermectin 100nM, 72 h | adult | 100nM | female | RNA extraction at 72 h | 
 
 ### SRP066611: Deciphering the loss of fertility in ivermectin-treated Brugia malayi females in vitro: a transcriptomic approach [Study II]
+[The Effects of Ivermectin on Brugia malayi Females In Vitro: A Transcriptomic Approach. (Ballesteros & Geary, 2016)](https://www.ncbi.nlm.nih.gov/pubmed/27529747)
 #### Data
 ##### Counts per run
 [Raw data (counts of aligned reads) for study SRP066611](SRP066611/SRP066611.counts_per_run.tsv)
