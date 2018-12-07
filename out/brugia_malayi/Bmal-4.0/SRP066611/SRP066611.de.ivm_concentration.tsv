@@ -1,0 +1,12 @@
+# Differential expression analysis for study SRP0666116 contrasts  across:ivm concentration. Values are log2 of fold change for genes found differentially expressed with adjusted p-value < 0.05
+# R version: ‘3.5.1’
+# DESeq2 version: ‘1.22.1’
+# !5 d vs Ivermectin 1 uM, 5 d: Ivermectin 1 uM, 5 d - low replicates (2)
+# !Ivermectin 1 uM, 5 d vs Ivermectin 300 nM, 5 d: Ivermectin 1 uM, 5 d - low replicates (2)
+# No differentially expressed genes found in contrast: 48 h vs Ivermectin 1 uM, 48 h
+# No differentially expressed genes found in contrast: 48 h vs Ivermectin 300 nM, 48 h
+# No differentially expressed genes found in contrast: Ivermectin 1 uM, 48 h vs Ivermectin 300 nM, 48 h
+# No differentially expressed genes found in contrast: !5 d vs Ivermectin 1 uM, 5 d
+# No differentially expressed genes found in contrast: 5 d vs Ivermectin 300 nM, 5 d
+# No differentially expressed genes found in contrast: !Ivermectin 1 uM, 5 d vs Ivermectin 300 nM, 5 d
+
