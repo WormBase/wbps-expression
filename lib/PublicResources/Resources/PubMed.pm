@@ -4,6 +4,11 @@ use PublicResources::Resources::RnaseqerMetadata;
 use List::MoreUtils qw(uniq);
 use XML::Simple;
 
+my $curation = {
+  hymenolepis_microstoma => {
+    ERP004459 => [30455861], 
+  }
+};
 sub _fetch {
     my ( $class, $species, $metadata ) = @_;
     my %data;
@@ -12,7 +17,8 @@ sub _fetch {
           my $ena_study_pubmed_ids = $metadata->{ena}{$assembly}{$study_id}{study_pubmed} // [];
           my $ena_bioproject_pubmed_ids = $metadata->{ena}{$assembly}{$study_id}{bioproject_pubmed} // [];
           my $geo_pubmed_ids = $metadata->{geo}{$assembly}{$study_id}{pubmed} // [];
-          for my $pubmed_id ( uniq(@$ena_study_pubmed_ids,@$ena_bioproject_pubmed_ids, @$geo_pubmed_ids, @$ae_pubmed_ids)){
+          my $curated_ids = $curation->{$species}{$study_id} // [];
+          for my $pubmed_id ( uniq(@$ena_study_pubmed_ids, @$ena_bioproject_pubmed_ids, @$geo_pubmed_ids, @$ae_pubmed_ids, @$curated_ids)){
               next if $pubmed_id eq '2971468'; # Check if PRJNA392315 still refers to this paper in error
               $data{$assembly}{$study_id}{$pubmed_id} = &_short_and_full_paper_description_from_payload($class->get_xml(
                    "https://www.ncbi.nlm.nih.gov/pubmed/$pubmed_id?report=xml&format=text"
