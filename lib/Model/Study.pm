@@ -140,6 +140,9 @@ sub to_markdown {
    open (my $fh, ">", \$result);
    print $fh sprintf("### %s: %s\n", $self->{study_id}, $self->{config}{title} // "<title>" );
    print $fh sprintf("*%s*\n", $self->{config}{description}) if $self->{config}{description} and $self->{config}{description} ne $self->{config}{title};
+   while (my ($k, $v) = each %{$self->{config}{pubmed} //{}}){
+     print $fh sprintf("[%s](https://www.ncbi.nlm.nih.gov/pubmed/%s)\n", $v->[1], $k);
+   }
    my $fails_checks = not $self->passes_checks;
    print $fh "*Not analysed - needs curation*\n" if $fails_checks;
    print $fh "#### Data\n";
