@@ -50,9 +50,7 @@ sub get {
 ### $run_id
        my $stats = $rnaseqer_ftp->get_formatted_stats($run_id);
        my $data_location = $rnaseqer_metadata->data_location($run_id);
-       my $links = $self->{links}->misc_links($study_id,$run_id, $data_location,
-         [keys %{$pubmed->{$assembly}{$study_id} || {}}]
-       );
+       my $links = $self->{links}->misc_links($study_id,$run_id, $data_location);
        my $characteristics = $stored_characteristics{$study_id}{$run_id} // $rnaseqer_metadata->access_characteristics($assembly, $study_id, $run_id) // {};
        my ($run_description_short, $run_description_full) =
           $descriptions->run_description( $study_id, $run_id, $characteristics);
