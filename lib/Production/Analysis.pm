@@ -1,7 +1,8 @@
 use strict;
 use warnings;
 package Production::Analysis;
-use File::Slurp qw/read_dir/;
+use File::Slurp qw/read_dir write_file/;
+use Text::MultiMarkdown qw/markdown/;
 use File::Basename;
 use Production::Analysis::DataFiles;
 use Production::Analysis::DESeq2;
@@ -124,7 +125,8 @@ sub run_all_and_produce_markdown_report {
   my ($self, %args) = @_;
   my $output_dir = join("/", $self->{dir}, $args{species} , $args{assembly});
   make_path $output_dir;
-  open(my $fh, ">", "$output_dir/index.md") or die "$output_dir/index.md: $!";
+  my $result = "";
+  open(my $fh, ">", \$result); 
   print $fh sprintf("# %s - public RNASeq studies\nAssembly: %s\n", do {
     my $species = $args{species};
     $species =~ s/_/ /g;
@@ -144,5 +146,14 @@ sub run_all_and_produce_markdown_report {
   print $fh join(", ", @{$args{studies}{ids_skipped}})."\n";
 
   close $fh;
+  write_file("$output_dir/index.md", $result);  
+  write_file("$output_dir/index.html", sprintf('
+   <html>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
+    <body>
+      %s
+    </body>
+   </html>
+  ',markdown($result)));  
 }
 1;

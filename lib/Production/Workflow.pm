@@ -6,10 +6,11 @@ use Production::CurationDefaults;
 use Production::Analysis;
 use PublicResources::Rnaseq;
 use File::Basename qw/dirname/;
-use File::Slurp qw/read_dir/;
+use File::Slurp qw/read_dir write_file/;
 use File::Path qw/make_path/;
 use List::Util qw/first/;
 use List::MoreUtils qw/uniq/;
+use Text::MultiMarkdown qw/markdown/;
 use Model::Study;
 sub new {
   my ($class, $root_dir, $src_dir, $work_dir) = @_;
@@ -99,5 +100,6 @@ sub do_everything {
   # - Deployment directory - link between production directory results, a corner of FTP where they serve, and where the paths should go
   # - Instead of the markdown report, make something deployable
   # - Report on what just happened: I'm not sure actually, maybe it's better to always show state that was achieved after the run
+  
 }
 1;

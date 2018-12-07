@@ -149,7 +149,7 @@ sub to_markdown {
    for my $analysis($self->analyses_required){
      print $fh sprintf("##### %s\n", $analysis->{title});
      if($fails_checks){
-        print $fh sprintf( "~~%s~~\n", $analysis->{description});
+        print $fh sprintf( "<strike>%s</strike>\n", $analysis->{description});
      } else {
         print $fh  sprintf("[%s](%s/%s)\n", $analysis->{description}, $self->{study_id}, $analysis->{file_name});
      }
