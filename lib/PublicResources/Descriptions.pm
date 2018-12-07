@@ -101,8 +101,13 @@ sub run_description {
 }
 sub _clean_study_description {
   my ($study_description) = @_;
+  if( $study_description =~ m{http://www.sanger.ac.uk/datasharing}){
+     $study_description =~ s/\s+/ /g;
+     $study_description =~ s{This data is part of a pre-publication release.*http://www.sanger.ac.uk/datasharing\W+}{};
+  }
   return "" if length($study_description) > 500;
-  return "" if $study_description =~ /This data is part of a pre-publication release/;
+  return "" if length($study_description) < 5;
+  die $study_description if $study_description =~ /This data is part of a pre-publication release/;
   return $study_description;
 }
 sub _clean_study_title {

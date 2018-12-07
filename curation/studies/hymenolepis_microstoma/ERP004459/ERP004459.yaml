@@ -36,12 +36,7 @@ contrasts:
         - 'Adult, whole'
         - mid-metamorphosis larvae
         - 'Adult, whole vs mid-metamorphosis larvae'
-description: |-
-  Project to investigate gene and small RNA expression of tapeworms (including
-           Echinococcus multilocularis, E. granulosus, Hymenolepis microstoma). This data is part of a
-           pre-publication release. For information on the proper use of pre-publication data shared
-           by the Wellcome Trust Sanger Institute (including details of any publication moratoria),
-           please see http://www.sanger.ac.uk/datasharing/
+description: 'Project to investigate gene and small RNA expression of tapeworms (including Echinococcus multilocularis, E. granulosus, Hymenolepis microstoma). '
 pubmed:
   30455861:
     - 'Olson .. Berriman, 2018'
