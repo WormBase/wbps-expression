@@ -148,13 +148,13 @@ Assembly: Bmal-4.0
 *Not analysed - needs curation*
 #### Data
 ##### Counts per run
-~~Raw data (counts of aligned reads) for study SRP108080~~
+<strike>Raw data (counts of aligned reads) for study SRP108080</strike>
 ##### Expression per run (TPM)
-~~Gene expression in TPM for each run in  study SRP108080~~
+<strike>Gene expression in TPM for each run in  study SRP108080</strike>
 ##### Differential expression: sample name
-~~Differential expression analysis for study SRP108080119 contrasts  across:sample name. Values are log2 of fold change for genes found differentially expressed with adjusted p-value < 0.05~~
+<strike>Differential expression analysis for study SRP108080119 contrasts  across:sample name. Values are log2 of fold change for genes found differentially expressed with adjusted p-value < 0.05</strike>
 ##### Differential expression: sample name+synonym
-~~Differential expression analysis for study SRP1080803 contrasts  across:sample name+synonym. Values are log2 of fold change for genes found differentially expressed with adjusted p-value < 0.05~~
+<strike>Differential expression analysis for study SRP1080803 contrasts  across:sample name+synonym. Values are log2 of fold change for genes found differentially expressed with adjusted p-value < 0.05</strike>
 #### Design: 68 conditions across 68 runs
 
  | Run | Condition | drug_treatment | model | organism | package | replicate | sample_name | source_name | synonym | 
