@@ -169,7 +169,7 @@ sub data_quality_checks {
     "Some characteristics" 
        => 0+@{$self->{characteristics_in_order}},
     "Conditions have non-blank names",
-       => not grep {not $_} $self->all_conditions,
+       => ( 0 ==  grep {not $_} $self->all_conditions),
     "If there are multiple conditions, then some characteristics vary by condition"
        => (2 > keys %runs_by_condition or 0 < $self->characteristics_varying_by_condition ),
      @conditions_well_defined,

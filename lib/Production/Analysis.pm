@@ -43,7 +43,7 @@ my %ANALYSES = (
     my %qc_issues_per_run = pairgrep {$b} map {$_ => $files->{$_}{qc_issues}} @runs;
     my @qc_warnings = map {
        my $qcs = $qc_issues_per_run{$_};
-       $qcs ? "!$_: ".join(". ", sort map ucfirst @{$qcs}) : ()
+       $qcs ? "!$_: ".join(". ", sort map {ucfirst $_} @{$qcs}) : ()
      } @runs;
     my @frontmatter = $analysis_args{decorate_files} ? ($analysis_args{description}, @qc_warnings) : ();
     my @name_to_path_pairs = map {
