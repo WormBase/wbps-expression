@@ -1,11 +1,11 @@
-Run	Condition	developmental_stage	model	organism_part	sample_name	source_name	strain
-SRR5635079	Female diplotene	Female germline	Generic	diplotene	Female diplotene	Female diplotene	North American wildtype
-SRR5635077	Female early pachytene	Female germline	Generic	early pachytene	Female early pachytene	Female early pachytene	North American wildtype
-SRR5635078	Female late pacheytene	Female germline	Generic	late pacheytene	Female late pacheytene	Female late pacheytene	North American wildtype
-SRR5635076	Female mitotic region	Female germline	Generic	mitotic region	Female mitotic region	Female mitotic region	North American wildtype
-SRR5635080	Female oocyte	Female germline	Generic	oocyte	Female oocyte	Female oocyte	North American wildtype
-SRR5635071	Male mitotic region	Male germline	Generic	mitotic region	Male mitotic region	Male mitotic region	North American wildtype
-SRR5635073	Male post-meiotic region	Male germline	Generic	post-meiotic region	Male post-meiotic region	Male post-meiotic region	North American wildtype
-SRR5635074	Male seminal vesicle	Male germline	Generic	seminal vesicle	Male seminal vesicle	Male seminal vesicle	North American wildtype
-SRR5635075	Male spermatids	Male germline	Generic	spermatids	Male spermatids	Male spermatids	North American wildtype
-SRR5635072	Male spermatogenesis	Male germline	Generic	spermatogenesis	Male spermatogenesis	Male spermatogenesis	North American wildtype
+Run	Condition	sex	organism_part	strain
+SRR5635079	Female diplotene	Female	diplotene	North American wildtype
+SRR5635077	Female early pachytene	Female	early pachytene	North American wildtype
+SRR5635078	Female late pacheytene	Female	late pacheytene	North American wildtype
+SRR5635076	Female mitotic region	Female	mitotic region	North American wildtype
+SRR5635080	Female oocyte	Female	oocyte	North American wildtype
+SRR5635071	Male mitotic region	Male	mitotic region	North American wildtype
+SRR5635073	Male post-meiotic region	Male	post-meiotic region	North American wildtype
+SRR5635074	Male seminal vesicle	Male	seminal vesicle	North American wildtype
+SRR5635075	Male spermatids	Male	spermatids	North American wildtype
+SRR5635072	Male spermatogenesis	Male	spermatogenesis	North American wildtype
