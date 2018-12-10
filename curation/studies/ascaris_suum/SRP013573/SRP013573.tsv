@@ -1,0 +1,16 @@
+Run	Condition	developmental_stage	organism_part	sample_name	source_name	strain	timepoint
+SRR504550	24hr	embryo		24hr	24hr (1-cell) embryos	North American wild population	24 hr
+SRR504551	46hr	embryo		46hr	46hr (1-2-cell) embryos	North American wild population	46 hr
+SRR504552	64hr	embryo		64hr	64hr (2-4-cell) embryos	North American wild population	64 hr
+SRR504559	female carcass	adult	carcass	female carcass	muscle, hypodermis, pharynx, and neurons	North American wild population	
+SRR504560	female carcass	adult	carcass	female carcass	muscle, hypodermis, pharynx, and neurons	North American wild population	
+SRR504561	female carcass	adult	carcass	female carcass	muscle, hypodermis, pharynx, and neurons	North American wild population	
+SRR504554	intestine	adult	intestine	intestine	intestine	North American wild population	
+SRR504553	larvae	larvae		larvae	7 days - Larvae L2	North American wild population	
+SRR504556	male carcass	adult	carcass	male carcass	muscle, hypodermis, pharynx, and neurons	North American wild population	
+SRR504557	male carcass	adult	carcass	male carcass	muscle, hypodermis, pharynx, and neurons	North American wild population	
+SRR504558	male carcass	adult	carcass	male carcass	muscle, hypodermis, pharynx, and neurons	North American wild population	
+SRR504555	muscle	adult	muscle	muscle	muscle (and hypodermis)	North American wild population	
+SRR504564	ovary	adult	ovary	ovary	ovary germinal zone	North American wild population	
+SRR504562	testis	adult	testis	testis	testis germinal zone	North American wild population	
+SRR504563	testis	adult	testis	testis	testis germinal zone	North American wild population	

@@ -1,0 +1,15 @@
+Run	Condition	cell_line	description_title	developmental_stage	sample_name	time
+SRR7026129	A_AscL3_0h		Model organism or animal sample from Ascaris suum	L3 stage larvae	A_AscL3_0h	
+SRR7026132	A_AscL3_1h		Model organism or animal sample from Ascaris suum	L3 stage larvae	A_AscL3_1h	1
+SRR7026131	A_AscL3_2h		Model organism or animal sample from Ascaris suum	L3 stage larvae	A_AscL3_2h	2
+SRR7026128	A_AscL3_3h		Model organism or animal sample from Ascaris suum	L3 stage larvae	A_AscL3_3h	3
+SRR7026127	A_AscL3_9h		Model organism or animal sample from Ascaris suum	L3 stage larvae	A_AscL3_9h	9
+SRR7026121	B_AscL3_0h	IPEC-J2	Model organism or animal sample from Ascaris suum	L3 stage larvae	B_AscL3_0h	
+SRR7026119	B_AscL3_2h		Model organism or animal sample from Ascaris suum	L3 stage larvae	B_AscL3_2h	2
+SRR7026118	B_AscL3_3h		Model organism or animal sample from Ascaris suum	L3 stage larvae	B_AscL3_3h	3
+SRR7026117	B_AscL3_9h		Model organism or animal sample from Ascaris suum	L3 stage larvae	B_AscL3_9h	9
+SRR7026110	C_AscL3_0h	IPEC-J2	Model organism or animal sample from Ascaris suum	L3 stage larvae	C_AscL3_0h	
+SRR7026107	C_AscL3_1h		Model organism or animal sample from Ascaris suum	L3 stage larvae	C_AscL3_1h	1
+SRR7026108	C_AscL3_2h		Model organism or animal sample from Ascaris suum	L3 stage larvae	C_AscL3_2h	2
+SRR7026115	C_AscL3_3h		Model organism or animal sample from Ascaris suum	L3 stage larvae	C_AscL3_3h	3
+SRR7026116	C_AscL3_9h		Model organism or animal sample from Ascaris suum	L3 stage larvae	C_AscL3_9h	9

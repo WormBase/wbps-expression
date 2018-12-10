@@ -1,0 +1,9 @@
+---
+condition_names: {}
+contrasts: []
+description: Ascaris suum transcriptome (RNA-Seq) data
+pubmed:
+  21685128:
+    - 'Wang .. Davis, 2011'
+    - 'Deep small RNA sequencing from the nematode Ascaris reveals conservation, functional diversification, and novel developmental profiles. (Wang .. Davis, 2011)'
+title: Ascaris suum transcriptome (RNA-Seq) data
