@@ -1,16 +1,16 @@
-Run	Condition	organism_part	developmental_stage	sex
-SRR096901	embryos	whole organism	embryo 0 - 64 hr	mixed
-SRR096900	embryos	whole organism	embryo 0 - 64 hr	mixed
-SRR096897	embryos	whole organism	embryo 0 - 64 hr	mixed
-SRR096898	embryos	whole organism	embryo 0 - 64 hr	mixed
-SRR096899	embryos	whole organism	embryo 0 - 64 hr	mixed
-SRR096903	female reproductive system	female reproductive system	adult	female
-SRR096904	L2 larvae	whole organism	L2	mixed
-SRR096902	ovary	ovary	adult	female
-SRR096896	testis	testis	adult	male
-SRR096895	testis	testis	adult	male
-SRR096891	testis	testis	adult	male
-SRR096892	testis	testis	adult	male
-SRR096893	testis	testis	adult	male
-SRR096894	testis	testis	adult	male
-SRR096905	whole male	whole organism	adult	male
+Run	Condition	organism_part	developmental_stage	sex																		
+SRR096904	L2 larvae	whole organism	L2	mixed																		
+SRR096901	embryos	whole organism	embryo 0 - 64 hr	mixed																		
+SRR096900	embryos	whole organism	embryo 0 - 64 hr	mixed																		
+SRR096897	embryos	whole organism	embryo 0 - 64 hr	mixed																		
+SRR096898	embryos	whole organism	embryo 0 - 64 hr	mixed																		
+SRR096899	embryos	whole organism	embryo 0 - 64 hr	mixed																		
+SRR096903	female reproductive system	female reproductive system	adult	female																		
+SRR096902	ovary	ovary	adult	female																		
+SRR096896	testis	testis	adult	male																		
+SRR096895	testis	testis	adult	male																		
+SRR096891	testis	testis	adult	male																		
+SRR096892	testis	testis	adult	male																		
+SRR096893	testis	testis	adult	male																		
+SRR096894	testis	testis	adult	male																		
+SRR096905	whole male	whole organism	adult	male																		
