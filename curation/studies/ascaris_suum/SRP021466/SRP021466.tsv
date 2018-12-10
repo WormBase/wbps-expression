@@ -1,0 +1,36 @@
+Run	Condition	developmental_stage	sample_name	source_name	strain
+SRR833352	0day	zygote	0day	zygotes from region 4 of uterus	North American wild population
+SRR833353	0day	zygote	0day	zygotes from region 4 of uterus	North American wild population
+SRR833354	0day	zygote	0day	zygotes from region 4 of uterus	North American wild population
+SRR833348	116hr (32-64-cell) embryos	embryo	116hr (32-64-cell) embryos	116hr (32-64-cell) embryos	North American wild population
+SRR833355	1day	embryo	1day	1day (1-cell) embryos	North American wild population
+SRR833356	1day	embryo	1day	1day (1-cell) embryos	North American wild population
+SRR833357	1day	embryo	1day	1day (1-cell) embryos	North American wild population
+SRR833344	24hr (1-cell) embryos	embryo	24hr (1-cell) embryos	24hr (1-cell) embryos	North American wild population
+SRR833358	3day	embryo	3day	3day (4-8-cell) embryos	North American wild population
+SRR833359	3day	embryo	3day	3day (4-8-cell) embryos	North American wild population
+SRR833360	3day	embryo	3day	3day (4-8-cell) embryos	North American wild population
+SRR833345	46hr (1-2-cell) embryos	embryo	46hr (1-2-cell) embryos	46hr (1-2-cell) embryos	North American wild population
+SRR833361	5day	embryo	5day	5day (32-64-cell) embryos	North American wild population
+SRR833362	5day	embryo	5day	5day (32-64-cell) embryos	North American wild population
+SRR833363	5day	embryo	5day	5day (32-64-cell) embryos	North American wild population
+SRR833346	64hr (2-4-cell) embryos	embryo	64hr (2-4-cell) embryos	64hr (2-4-cell) embryos	North American wild population
+SRR1029600	64hr - ribozero	embryo	64hr - ribozero	64hr (2-4-cell) embryos	North American wild population
+SRR1029599	64hr - total	embryo	64hr - total	64hr (2-4-cell) embryos	North American wild population
+SRR833349	7D (~256-cell) embryos	embryo	7D (~256-cell) embryos	7day (~256-cell) embryos	North American wild population
+SRR833364	7day	embryo	7day	7day (~256-cell) embryos	North American wild population
+SRR833365	7day	embryo	7day	7day (~256-cell) embryos	North American wild population
+SRR833366	7day	embryo	7day	7day (~256-cell) embryos	North American wild population
+SRR833347	96hr (10-26-cell) embryos	embryo	96hr (10-26-cell) embryos	96hr (10-26-cell) embryos	North American wild population
+SRR833350	L1	larvae	L1	L1 larvae	North American wild population
+SRR1029596	oocyte - ribozero	female germline	oocyte - ribozero	oocyte	North American wild population
+SRR1029595	oocyte - total	female germline	oocyte - total	oocyte	North American wild population
+SRR833339	oocyte with wall	female germline	oocyte with wall	oocyte with wall	North American wild population
+SRR1029594	oocyte with wall - ribozero	female germline	oocyte with wall - ribozero	oocyte with wall	North American wild population
+SRR1029593	oocyte with wall - total	female germline	oocyte with wall - total	oocyte with wall	North American wild population
+SRR833340	zygote1	zygote	zygote1	zygotes from region 1 of uterus	North American wild population
+SRR833341	zygote2	zygote	zygote2	zygotes from region 2 of uterus	North American wild population
+SRR833342	zygote3	zygote	zygote3	zygotes from region 3 of uterus	North American wild population
+SRR833343	zygote4	zygote	zygote4	zygotes from region 4 of uterus	North American wild population
+SRR1029598	zygote4 - ribozero	zygote	zygote4 - ribozero	zygotes from region 4 of uterus	North American wild population
+SRR1029597	zygote4 - total	zygote	zygote4 - total	zygotes from region 4 of uterus	North American wild population

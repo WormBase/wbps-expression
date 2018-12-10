@@ -1,0 +1,35 @@
+---
+condition_names: {}
+contrasts:
+  - name: sample_name+source_name
+    values:
+      -
+        - 1day
+        - 3day
+        - 1day vs 3day
+      -
+        - 1day
+        - 5day
+        - 1day vs 5day
+      -
+        - 1day
+        - 7day
+        - 1day vs 7day
+      -
+        - 3day
+        - 5day
+        - 3day vs 5day
+      -
+        - 3day
+        - 7day
+        - 3day vs 7day
+      -
+        - 5day
+        - 7day
+        - 5day vs 7day
+description: 'Transcription in Pronuclei and One- to Four-Cell Embryos Drives Early Development in a Nematode'
+pubmed:
+  24374308:
+    - 'Wang .. Davis, 2014'
+    - 'Transcription in pronuclei and one- to four-cell embryos drives early development in a nematode. (Wang .. Davis, 2014)'
+title: 'Transcription in Pronuclei and One- to Four-Cell Embryos Drives Early Development in a Nematode'
