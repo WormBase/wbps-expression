@@ -97,7 +97,9 @@ sub contrast_name {
 
 sub contrasts {
   my ($design)   = @_;
-  my @conditions = $design->all_conditions;
+  my %replicates = %{$design->runs_by_condition};
+  my @conditions = grep {@{$replicates{$_}} >= 3 } $design->all_conditions;
+  return [] unless @conditions;
   my @chs        = $design->characteristics_varying_by_condition;
 #### All characteristics varying by conditions somewhere in the design: @chs
   my @result;
