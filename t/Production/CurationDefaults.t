@@ -18,8 +18,12 @@ sub contrasts_as_expected {
 contrasts_as_expected("Run\tCondition\n", [], "null case");
 my $tsv = <<'EOF';
 Run	Condition	developmental_stage
-r1	head	head
-r2	tail	tail
+r11	head	head
+r12	head	head
+r13	head	head
+r21	tail	tail
+r22	tail	tail
+r23	tail	tail
 EOF
 contrasts_as_expected($tsv, [{name => "developmental_stage", values => [["head", "tail", "head vs tail"]]}], "minimal example");
 (my $no_characteristics_tsv = $tsv) =~ s/head\thead/head\ttail/;
@@ -28,10 +32,18 @@ contrasts_as_expected($no_characteristics_tsv, [{name => "", values => [["head",
 contrasts_as_expected($no_factors_tsv, [], "no factors example");
 my $two_factor_tsv = <<'EOF';
 Run	Condition	sex	developmental_stage
-r1	hf	female	head
-r2	tf	female	tail
-r3	hm	male	head
-r4	tm	male	tail
+r11	hf	female	head
+r12	hf	female	head
+r13	hf	female	head
+r21	tf	female	tail
+r22	tf	female	tail
+r23	tf	female	tail
+r31	hm	male	head
+r32	hm	male	head
+r33	hm	male	head
+r41	tm	male	tail
+r42	tm	male	tail
+r43	tm	male	tail
 EOF
 contrasts_as_expected($two_factor_tsv, [
   {

@@ -122,7 +122,8 @@ sub study_description {
     $species =~ s/_/ /g;
     $species = ucfirst($species);
     my $short_description = $study_metadata->{study_title} ? _clean_study_title($study_metadata->{study_title}) : "$species study";
-    my $full_description = $study_metadata->{study_description} ? _clean_study_description($study_metadata->{study_description}) : $short_description;
+    my $full_description = _clean_study_description($study_metadata->{study_description} // "");
+    $full_description ||= $short_description;
     return $short_description, $full_description;
 }
 1;

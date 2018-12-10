@@ -24,10 +24,9 @@ assert_run_description({organism_part=>"head", strain => "NMRI"},{}, "head, NMRI
 
 sub assert_study_description {
   my ($study_attributes, $expected, $desc) = @_;
-   $desc //= "assert_study_description $study_id -> $expected";
-   is_deeply(
-     [PublicResources::Descriptions->new($species, {})->study_description($study_id, $study_attributes)],
-     $expected, $desc);
+   $desc //= "assert_study_description $study_id";
+   my $actual = [PublicResources::Descriptions->new($species, {})->study_description($study_id, $study_attributes)];
+   is_deeply($actual, $expected, $desc) or diag explain $actual, $expected;
 }
 
 assert_study_description(
@@ -36,16 +35,16 @@ assert_study_description(
     "Default value",
 );
 assert_study_description(
-    {study_description => "Desc"},
-    ["Schistosoma mansoni study","Desc"],
+    {study_description => "Description"},
+    ["Schistosoma mansoni study","Description"],
 );
 assert_study_description(
     {"study_title" => "Study title"},
     [("Study title") x 2 ],
 );
 assert_study_description(
-    {"study_title"=> "Study title", "study_description" => "Desc",},
-    ["Study title","Desc"],
+    {"study_title"=> "Study title", "study_description" => "Description",},
+    ["Study title","Description"],
 );
 sub assert_names_get_better {
   my ($from, $to) = @_;
