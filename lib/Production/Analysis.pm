@@ -9,6 +9,7 @@ use Production::Analysis::DESeq2;
 use Model::Design;
 use List::Util qw/pairmap pairgrep/;
 use File::Path qw/make_path/;
+use View::StudiesPage;
 # use Smart::Comments '###';
 sub new {
   my ($class, $dir) = @_;
@@ -121,39 +122,15 @@ sub run {
   }
   return @analyses_to_do;
 }
-sub run_all_and_produce_markdown_report {
+sub run_all {
   my ($self, %args) = @_;
   my $output_dir = join("/", $self->{dir}, $args{species} , $args{assembly});
   make_path $output_dir;
-  my $result = "";
-  open(my $fh, ">", \$result); 
-  print $fh sprintf("# %s - public RNASeq studies\nAssembly: %s\n", do {
-    my $species = $args{species};
-    $species =~ s/_/ /g;
-    ucfirst($species)
-  }, $args{assembly});
-  print $fh "## Analysed\n";
-  for my $study (@{$args{studies}{todo}}){
+  for my $study (@{$args{studies}}){
+     print STDERR sprintf("Running: %s\n", $study->{study_id}) if $ENV{ANALYSIS_VERBOSE};
      $self->run($output_dir, $study, $args{files}{$study->{study_id}});
-     print $fh $study->to_markdown;
   }
-  print $fh "## Failing curation checks\n";
-  for my $study (@{$args{studies}{failed_checks}}){
-     print $fh $study->to_markdown;
-  }
-  print $fh "## Skipped\n";
-  print $fh sprintf("##### Total: %s\n", scalar @{$args{studies}{ids_skipped}});
-  print $fh join(", ", @{$args{studies}{ids_skipped}})."\n";
-
-  close $fh;
-  write_file("$output_dir/index.md", $result);  
-  write_file("$output_dir/index.html", sprintf('
-   <html>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
-    <body>
-      %s
-    </body>
-   </html>
-  ',markdown($result)));  
+  print STDERR "Writing page: $output_dir/index.html\n" if $ENV{ANALYSIS_VERBOSE};
+  write_file("$output_dir/index.html", View::StudiesPage->new($args{species}, @{$args{studies}})->to_html);
 }
 1;

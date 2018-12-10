@@ -12,6 +12,7 @@ use List::Util qw/first/;
 use List::MoreUtils qw/uniq/;
 use Text::MultiMarkdown qw/markdown/;
 use Model::Study;
+use View::StudiesPage;
 sub new {
   my ($class, $root_dir, $src_dir, $work_dir) = @_;
   my $sheets = Production::Sheets->new($src_dir);
@@ -86,16 +87,17 @@ sub do_everything {
         };
      }
   }
-  $self->{analysis}->run_all_and_produce_markdown_report(
+  $self->{analysis}->run_all(
     species => $species,
     assembly => $assembly,
-    studies => {
-      ids_skipped => \@new_ignore_studies,
-      failed_checks => $todo_studies->{FAILED_CHECKS},
-      todo => $todo_studies->{PASSED_CHECKS},
-    },
+    studies => $todo_studies->{PASSED_CHECKS},
     files => \%files,
   );
+
+  # TODO report somewhere, maybe here:
+  # \@new_ignore_studies
+  # $todo_studies->{FAILED_CHECKS}
+
   # Future directions:
   # - Deployment directory - link between production directory results, a corner of FTP where they serve, and where the paths should go
   # - Instead of the markdown report, make something deployable

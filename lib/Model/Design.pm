@@ -180,19 +180,4 @@ sub passes_checks {
   my %checks = shift->data_quality_checks;
   return all {$_} values %checks;
 }
-# not official markdown, but should render well enough on github pages
-sub to_markdown {
-  my ($self) = @_;
-  my $table = ""; 
-  open(my $fh, ">", \$table);
-  my @a = @{$self->{characteristics_in_order}};
-  print $fh join(" | ","" , "Run", "Condition", @a, "")."\n";
-  print $fh join(" | ","", "---", "---",(map {"---"} @a), "")."\n";
-  for my $p ($self->condition_run_ordered_pairs){
-     print $fh join (" | ","", $p->[1], $p->[0], (map {$self->value_in_run($p->[1], $_)} @a), "")."\n";
-  }
-  close $fh;
-  my $summary = sprintf("#### Design: %s conditions across %s runs\n", scalar $self->all_conditions, scalar $self->all_runs);
-  return "$summary\n$table\n";
-}
 1;
