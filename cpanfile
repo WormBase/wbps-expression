@@ -9,7 +9,6 @@ requires 'List::Util';
 requires 'Text::CSV';
 requires 'XML::Simple';
 requires 'YAML';
-requires 'Statistics::R';
 requires 'Text::MultiMarkdown';
 
 test_requires 'File::Temp';
@@ -17,5 +16,6 @@ test_requires 'Test::MockModule';
 test_requires 'Test::More';
 
 on 'develop' => sub {
+    requires 'Statistics::R';
     suggests 'Smart::Comments';
 };
