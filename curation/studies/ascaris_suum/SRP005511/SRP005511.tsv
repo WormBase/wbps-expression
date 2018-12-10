@@ -1,17 +1,16 @@
-Run	Condition	organism_part	sample_name	sex	source_name
-SRR096901	EmbryoPairedEnd114nt_1	mixed samples from 0 - 64 hr embryos	EmbryoPairedEnd114nt_1		Ascaris sample
-SRR096900	EmbryoPairedEnd76nt_1	mixed samples from 0 - 64 hr embryos	EmbryoPairedEnd76nt_1		Ascaris sample
-SRR096897	EmbryoSingleEnd1	mixed samples from 0 - 64 hr embryos	EmbryoSingleEnd1		Ascaris sample
-SRR096898	EmbryoSingleEnd2	mixed samples from 0 - 64 hr embryos	EmbryoSingleEnd2		Ascaris sample
-SRR096899	EmbryoSingleEnd3	mixed samples from 0 - 64 hr embryos	EmbryoSingleEnd3		Ascaris sample
-SRR096903	FemaleReproductivePairedEnd120nt_1	complete female reproductive system	FemaleReproductivePairedEnd120nt_1		Ascaris sample
-SRR096904	LarvaePairedEnd120nt_1	mixed samples from 128 cells - l2	LarvaePairedEnd120nt_1		Ascaris sample
-SRR096906	MixedSamplesPairedEnd120nt_1	mixed samples of germlines and embryos, full length cdna sheared	MixedSamplesPairedEnd120nt_1		Ascaris sample
-SRR096902	OvaryPairedEnd120nt_1	ovary germinal zone	OvaryPairedEnd120nt_1		Ascaris sample
-SRR096896	TestisPairedEnd114nt_1	testis germinal zone	TestisPairedEnd114nt_1		Ascaris sample
-SRR096895	TestisPairedEnd76nt_1	testis germinal zone	TestisPairedEnd76nt_1		Ascaris sample
-SRR096891	TestisSingleEnd1	testis germinal zone	TestisSingleEnd1		Ascaris sample
-SRR096892	TestisSingleEnd2	testis germinal zone	TestisSingleEnd2		Ascaris sample
-SRR096893	TestisSingleEnd3	testis germinal zone	TestisSingleEnd3		Ascaris sample
-SRR096894	TestisSingleEnd4	testis germinal zone	TestisSingleEnd4		Ascaris sample
-SRR096905	WholeMalePairedEnd120nt_1	whole organism	WholeMalePairedEnd120nt_1	male	Ascaris sample
+Run	Condition	organism_part	developmental_stage	sex
+SRR096901	embryos	whole organism	embryo 0 - 64 hr	mixed
+SRR096900	embryos	whole organism	embryo 0 - 64 hr	mixed
+SRR096897	embryos	whole organism	embryo 0 - 64 hr	mixed
+SRR096898	embryos	whole organism	embryo 0 - 64 hr	mixed
+SRR096899	embryos	whole organism	embryo 0 - 64 hr	mixed
+SRR096903	female reproductive system	female reproductive system	adult	female
+SRR096904	L2 larvae	whole organism	L2	mixed
+SRR096902	ovary	ovary	adult	female
+SRR096896	testis	testis	adult	male
+SRR096895	testis	testis	adult	male
+SRR096891	testis	testis	adult	male
+SRR096892	testis	testis	adult	male
+SRR096893	testis	testis	adult	male
+SRR096894	testis	testis	adult	male
+SRR096905	whole male	whole organism	adult	male
