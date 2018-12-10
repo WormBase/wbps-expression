@@ -27,8 +27,8 @@ sub do_analysis {
      $R->set('reference', $reference);
      $R->set('test', $test);
      $R->run(
-      q`results = results(dds, contrast = c("Condition", reference, test), alpha = 0.05)`,
-      q`res = subset(results, padj < 0.05)`,
+      q`res = results(dds, contrast = c("Condition", reference, test), alpha = 0.05)`,
+      q`res = subset(res, padj < 0.05)`,
       q`rn = rownames(res)`,
       q`fc = res$log2FoldChange`,
       q`fc = round(fc, digits=2)`,
