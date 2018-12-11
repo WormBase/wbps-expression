@@ -1,0 +1,7 @@
+---
+condition_names:
+  'mixed propagative, Pinus thunbergii, Ka4C1': 'mixed propagative, Pinus thunbergii, strain Ka4C1'
+contrasts: []
+description: 'Transcriptome analysis of several stages/conditions of the pine wood nematode Bursaphelenchus xylophilus. Stages contain egg, 2nd stage larva, 3rd stage larva, 4th stage larva, adult female, adult male, dauer 3rd stage juvenile,  dauer 3rd stage juvenile, mixed-stage and mixed-stage infected.'
+pubmed: ~
+title: Bursaphelenchus xylophilus transcriptome

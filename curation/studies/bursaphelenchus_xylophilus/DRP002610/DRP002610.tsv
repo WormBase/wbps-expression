@@ -1,0 +1,27 @@
+Run	Condition	description_title	developmental_stage	host	sample_name	sample_title	sex	strain
+DRR029450	B. xylophilus D4 stage		dauer (4th stage juvenle)	Monochamus alternatus	B. xylophilus D4 stage			Ka4C1
+DRR029451	B. xylophilus D4 stage		dauer (4th stage juvenle)	Monochamus alternatus	B. xylophilus D4 stage			Ka4C1
+DRR029452	B. xylophilus D4 stage		dauer (4th stage juvenle)	Monochamus alternatus	B. xylophilus D4 stage			Ka4C1
+DRR029455	B.xylophilus cont Sep		mixed propagative		B.xylophilus cont Sep			Ka4C1
+DRR141215	BxD3_1	B.xylophilus D3 1	3rd stage dispersal juvenile		BxD3_1		pooled male and female	Ka4C1
+DRR141216	BxD3_2	B.xylophilus D3 2	3rd stage dispersal juvenile		BxD3_2		pooled male and female	Ka4C1
+DRR141203	BxEgg_1	B.xylophilus egg 1	embryo		BxEgg_1		pooled male and female	Ka4C1
+DRR141204	BxEgg_2	B.xylophilus egg 2	embryo		BxEgg_2		pooled male and female	Ka4C1
+DRR141205	BxL2_1	B.xylophilus L2 1	2nd stage larva		BxL2_1		pooled male and female	Ka4C1
+DRR141206	BxL2_2	B.xylophilus L2 2	2nd stage larva		BxL2_2		pooled male and female	Ka4C1
+DRR141217	BxL2_3h_1	B.xylophilus L2 3h 1	2nd stage larva		BxL2_3h_1		pooled male and female	Ka4C1
+DRR141218	BxL2_3h_2	B.xylophilus L2 3h 2	2nd stage larva		BxL2_3h_2		pooled male and female	Ka4C1
+DRR141219	BxL2_6h_1	B.xylophilus L2 6h 1	2nd stage larva		BxL2_6h_1		pooled male and female	Ka4C1
+DRR141220	BxL2_6h_2	B.xylophilus L2 6h 2	2nd stage larva		BxL2_6h_2		pooled male and female	Ka4C1
+DRR141207	BxL3_1	B.xylophilus L3 1	3rd stage larva		BxL3_1		pooled male and female	Ka4C1
+DRR141208	BxL3_2	B.xylophilus L3 2	3rd stage larva		BxL3_2		pooled male and female	Ka4C1
+DRR141221	BxL3_3	B.xylophilus L3 3	3rd stage larva		BxL3_3		pooled male and female	Ka4C1
+DRR141209	BxL4_1	B.xylophilus L4 1	4th stage larva		BxL4_1		pooled male and female	Ka4C1
+DRR141210	BxL4_2	B.xylophilus L4 2	4th stage larva		BxL4_2		pooled male and female	Ka4C1
+DRR141222	BxL4_3	B.xylophilus L4 3	4th stage larva		BxL4_3		pooled male and female	Ka4C1
+DRR141213	Bxfemale_1	B.xylophilus female 1	adult		Bxfemale_1		female	Ka4C1
+DRR141214	Bxfemale_2	B.xylophilus female 2	adult		Bxfemale_2		female	Ka4C1
+DRR141211	Bxmale_1	B.xylophilus male 1	adult		Bxmale_1		male	Ka4C1
+DRR141212	Bxmale_2	B.xylophilus male 2	adult		Bxmale_2		male	Ka4C1
+DRR029453	mixed propagative, Pinus thunbergii, Ka4C1		mixed propagative	Pinus thunbergii		B.xylophilus infected Sep		Ka4C1
+DRR029454	mixed propagative, Pinus thunbergii, Ka4C1		mixed propagative	Pinus thunbergii		B.xylophilus infected Sep		Ka4C1

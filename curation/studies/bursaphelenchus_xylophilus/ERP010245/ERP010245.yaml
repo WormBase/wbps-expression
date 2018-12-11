@@ -1,0 +1,15 @@
+---
+condition_names:
+  'Nematodes were collected from maritime pine seedlings 15 days post infection, mixed life stages (juveniles, female and males), maritime pine tree (Pinus pinaster), BxPt75OH, Laboratório de Nematologia-ICAAM, Universidade de Évora, Bursaphelenchus xylophilus': 'Nematodes were collected from maritime pine seedlings 15 days post infection, mixed life stages (juveniles, female and males), maritime pine tree (Pinus pinaster), isolate BxPt75OH, Laboratório de Nematologia-ICAAM, Universidade de Évora, Bursaphelenchus xylophilus'
+  'Nematodes were collected from maritime pine seedlings, after 6 days post infection, mixed life stages (juveniles, female and males), maritime pine tree (Pinus pinaster), BxPt75OH, Laboratório de Nematologia-ICAAM, Universidade de Évora, Bursaphelenchus xylophilus': 'Nematodes were collected from maritime pine seedlings, after 6 days post infection, mixed life stages (juveniles, female and males), maritime pine tree (Pinus pinaster), isolate BxPt75OH, Laboratório de Nematologia-ICAAM, Universidade de Évora, Bursaphelenchus xylophilus'
+  'Nematodes were on Botrytis cinerea and Barley seeds, mixed life stages (juveniles, female and males), BxPt75OH, Laboratório de Nematologia-ICAAM, Universidade de Évora, Bursaphelenchus xylophilus': 'Nematodes were on Botrytis cinerea and Barley seeds, mixed life stages (juveniles, female and males), isolate BxPt75OH, Laboratório de Nematologia-ICAAM, Universidade de Évora, Bursaphelenchus xylophilus'
+contrasts:
+  - name: bio_material
+    values:
+      -
+        - 'Nematodes were collected from maritime pine seedlings 15 days post infection, mixed life stages (juveniles, female and males), maritime pine tree (Pinus pinaster), BxPt75OH, Laboratório de Nematologia-ICAAM, Universidade de Évora, Bursaphelenchus xylophilus'
+        - 'Nematodes were collected from maritime pine seedlings, after 6 days post infection, mixed life stages (juveniles, female and males), maritime pine tree (Pinus pinaster), BxPt75OH, Laboratório de Nematologia-ICAAM, Universidade de Évora, Bursaphelenchus xylophilus'
+        - 'Nematodes were collected from maritime pine seedlings 15 days post infection, mixed life stages (juveniles, female and males), maritime pine tree (Pinus pinaster), BxPt75OH, Laboratório de Nematologia-ICAAM, Universidade de Évora, Bursaphelenchus xylophilus vs Nematodes were collected from maritime pine seedlings, after 6 days post infection, mixed life stages (juveniles, female and males), maritime pine tree (Pinus pinaster), BxPt75OH, Laboratório de Nematologia-ICAAM, Universidade de Évora, Bursaphelenchus xylophilus'
+description: 'Please refer to Espada et al (2015) "Identification and characterization of parasitism genes from the pinewood nematode Bursaphelenchus xylophilus reveals a multi-layered detoxification strategy", Molecular Plant Pathology (in press).'
+pubmed: ~
+title: Pinewood nematode Bursaphelenchus xylophilus RNA-Seq from phytophagous and mycetophagous life cycle phase.
