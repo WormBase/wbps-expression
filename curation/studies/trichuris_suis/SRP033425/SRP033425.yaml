@@ -1,0 +1,15 @@
+---
+condition_names: {}
+contrasts:
+  - name: developmental_stage+organism_part
+    values:
+      -
+        - adult
+        - large intestine
+        - adult vs large intestine
+description: Trichuris suis isolate:DCEP-RM93M Genome sequencing and assembly
+pubmed:
+  24929829:
+    - 'Jex .. Gasser, 2014'
+    - 'Genome and transcriptome of the porcine whipworm Trichuris suis. (Jex .. Gasser, 2014)'
+title: Trichuris suis isolate:DCEP-RM93M Genome sequencing and assembly
