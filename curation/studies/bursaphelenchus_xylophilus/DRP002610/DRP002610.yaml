@@ -1,0 +1,104 @@
+---
+condition_names: {}
+contrasts:
+  - name: sex
+    values:
+      -
+        - 'adult, female'
+        - 'adult, male'
+        - 'adult, female vs adult, male'
+  - name: developmental_stage
+    values:
+      -
+        - '2nd stage larva +3h, pooled male and female'
+        - '2nd stage larva +6h, pooled male and female'
+        - '2nd stage larva +3h, pooled male and female vs 2nd stage larva +6h, pooled male and female'
+      -
+        - '2nd stage larva +3h, pooled male and female'
+        - '2nd stage larva, pooled male and female'
+        - '2nd stage larva +3h, pooled male and female vs 2nd stage larva, pooled male and female'
+      -
+        - '2nd stage larva +3h, pooled male and female'
+        - '3rd stage dispersal juvenile, pooled male and female'
+        - '2nd stage larva +3h, pooled male and female vs 3rd stage dispersal juvenile, pooled male and female'
+      -
+        - '2nd stage larva +3h, pooled male and female'
+        - '3rd stage larva, pooled male and female'
+        - '2nd stage larva +3h, pooled male and female vs 3rd stage larva, pooled male and female'
+      -
+        - '2nd stage larva +3h, pooled male and female'
+        - '4th stage larva, pooled male and female'
+        - '2nd stage larva +3h, pooled male and female vs 4th stage larva, pooled male and female'
+      -
+        - '2nd stage larva +3h, pooled male and female'
+        - 'embryo, pooled male and female'
+        - '2nd stage larva +3h, pooled male and female vs embryo, pooled male and female'
+      -
+        - '2nd stage larva +6h, pooled male and female'
+        - '2nd stage larva, pooled male and female'
+        - '2nd stage larva +6h, pooled male and female vs 2nd stage larva, pooled male and female'
+      -
+        - '2nd stage larva +6h, pooled male and female'
+        - '3rd stage dispersal juvenile, pooled male and female'
+        - '2nd stage larva +6h, pooled male and female vs 3rd stage dispersal juvenile, pooled male and female'
+      -
+        - '2nd stage larva +6h, pooled male and female'
+        - '3rd stage larva, pooled male and female'
+        - '2nd stage larva +6h, pooled male and female vs 3rd stage larva, pooled male and female'
+      -
+        - '2nd stage larva +6h, pooled male and female'
+        - '4th stage larva, pooled male and female'
+        - '2nd stage larva +6h, pooled male and female vs 4th stage larva, pooled male and female'
+      -
+        - '2nd stage larva +6h, pooled male and female'
+        - 'embryo, pooled male and female'
+        - '2nd stage larva +6h, pooled male and female vs embryo, pooled male and female'
+      -
+        - '2nd stage larva, pooled male and female'
+        - '3rd stage dispersal juvenile, pooled male and female'
+        - '2nd stage larva, pooled male and female vs 3rd stage dispersal juvenile, pooled male and female'
+      -
+        - '2nd stage larva, pooled male and female'
+        - '3rd stage larva, pooled male and female'
+        - '2nd stage larva, pooled male and female vs 3rd stage larva, pooled male and female'
+      -
+        - '2nd stage larva, pooled male and female'
+        - '4th stage larva, pooled male and female'
+        - '2nd stage larva, pooled male and female vs 4th stage larva, pooled male and female'
+      -
+        - '2nd stage larva, pooled male and female'
+        - 'embryo, pooled male and female'
+        - '2nd stage larva, pooled male and female vs embryo, pooled male and female'
+      -
+        - '3rd stage dispersal juvenile, pooled male and female'
+        - '3rd stage larva, pooled male and female'
+        - '3rd stage dispersal juvenile, pooled male and female vs 3rd stage larva, pooled male and female'
+      -
+        - '3rd stage dispersal juvenile, pooled male and female'
+        - '4th stage larva, pooled male and female'
+        - '3rd stage dispersal juvenile, pooled male and female vs 4th stage larva, pooled male and female'
+      -
+        - '3rd stage dispersal juvenile, pooled male and female'
+        - 'embryo, pooled male and female'
+        - '3rd stage dispersal juvenile, pooled male and female vs embryo, pooled male and female'
+      -
+        - '3rd stage larva, pooled male and female'
+        - '4th stage larva, pooled male and female'
+        - '3rd stage larva, pooled male and female vs 4th stage larva, pooled male and female'
+      -
+        - '3rd stage larva, pooled male and female'
+        - 'embryo, pooled male and female'
+        - '3rd stage larva, pooled male and female vs embryo, pooled male and female'
+      -
+        - '4th stage larva, pooled male and female'
+        - 'embryo, pooled male and female'
+        - '4th stage larva, pooled male and female vs embryo, pooled male and female'
+  - name: developmental_stage+host
+    values:
+      -
+        - 'dauer (4th stage juvenile), Monochamus alternatus'
+        - 'mixed propagative, Pinus thunbergii'
+        - 'dauer (4th stage juvenile), Monochamus alternatus vs mixed propagative, Pinus thunbergii'
+description: 'Transcriptome analysis of several stages/conditions of the pine wood nematode Bursaphelenchus xylophilus. Stages contain egg, 2nd stage larva, 3rd stage larva, 4th stage larva, adult female, adult male, dauer 3rd stage juvenile,  dauer 3rd stage juvenile, mixed-stage and mixed-stage infected.'
+pubmed: ~
+title: Bursaphelenchus xylophilus transcriptome
