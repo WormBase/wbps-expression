@@ -75,6 +75,13 @@ sub from_data_by_run {
   }
   return new(__PACKAGE__, conditions_per_run => $conditions_per_run, values => \%characteristics, characteristics_in_order => $characteristics_in_order);
 }
+sub with_condition_names {
+   my ($self, $new_names) = @_;
+   my %ns = %{$new_names};
+   my %conditions_per_run = pairmap {$a => ($ns{$b} || $b)} %{$self->{conditions_per_run}};
+   my %values_by_condition = pairmap {($ns{$a} || $a) => $b } %{$self->{values}{by_condition}};
+   return new(__PACKAGE__, conditions_per_run => \%conditions_per_run, values => {%{$self->{values}}, by_condition => \%values_by_condition}, characteristics_in_order => $self->{characteristics_in_order});
+}
 sub common_value {
    my ($self, $characteristic) = @_;
 #### common value: $characteristic
@@ -173,6 +180,8 @@ sub data_quality_checks {
        => ( 0 ==  grep {not $_} $self->all_conditions),
     "Conditions should have reasonably short names - below 60 chars",
        => ( 0 ==  grep {length $_ > 60 } $self->all_conditions),
+    "Conditions should not have too-long-I-will-make-an-automatic-name names like c_1",
+       => ( 0 ==  grep { $_ =~ /^c_\d+$/ } $self->all_conditions),
     "If there are multiple conditions, then some characteristics should vary by condition"
        => (2 > keys %runs_by_condition or 0 < $self->characteristics_varying_by_condition ),
      @conditions_well_defined,

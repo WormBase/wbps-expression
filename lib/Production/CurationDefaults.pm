@@ -4,10 +4,25 @@ use warnings;
 package Production::CurationDefaults;
 use PublicResources::Rnaseq;
 use List::MoreUtils qw/uniq/;
+use List::Util qw/pairmap/;
 use Model::Study;
 use Model::Design;
 
 #use Smart::Comments '###';
+
+sub shorter_condition_names {
+  my ($design) = @_;
+  my @all_conditions = $design->all_conditions;
+  my @chs = $design->characteristics_varying_by_condition;
+  my $count;
+  return map {
+     my $c = $_;
+     my $n = $c;
+     $n = join(", ", grep {$_} map {$design->value_in_condition($c, $_)} @chs ) if length($n) > 60;
+     $n = "c_".++$count if not $n || length($n) > 60;
+     $c => $n
+   } @all_conditions;
+}
 sub design_from_runs {
   my (@runs) = @_;
   my %conditions_per_run =
@@ -16,11 +31,30 @@ sub design_from_runs {
     map { ( $_->{run_id}, $_->{characteristics} ) } @runs;
   my @characteristics_in_order =
     uniq sort { $a cmp $b } map { keys %{ $_->{characteristics} } } @runs;
-  return Model::Design::from_data_by_run( \%conditions_per_run,
+  my $result = Model::Design::from_data_by_run( \%conditions_per_run,
     \%characteristics_per_run, \@characteristics_in_order );
+  my @all_conditions = $result->all_conditions;
+  if (grep {length($_) > 60} @all_conditions){
+     my @chs = $result->characteristics_varying_by_condition;
+     my $count;
+     my %shorter_names = map {
+       my $c = $_;
+       my $n = $c;
+       $n = join(", ", grep {$_} map {$result->value_in_condition($c, $_)} @chs ) if length($n) > 60;
+       chomp $n;
+       $n = "c_".++$count if not $n || length($n) > 60;
+       $c => $n
+     } @all_conditions;
+     my %conditions_per_run_shorter = pairmap {
+       $a => $shorter_names{$b}
+     } %conditions_per_run;
+     $result = Model::Design::from_data_by_run(\%conditions_per_run_shorter,
+       \%characteristics_per_run, \@characteristics_in_order );
+  }
+  return $result;
 }
 
-sub condition_names {
+sub condition_names_from_runs {
   my (@runs) = @_;
   my %result;
   for my $run (@runs) {
@@ -28,7 +62,7 @@ sub condition_names {
       ( $run->{run_description_short}, $run->{run_description_full} );
     $result{$rs} = $rf unless $rs eq $rf;
   }
-  return \%result;
+  return %result;
 }
 
 # adapted from Math::Subsets::List 1.008
@@ -146,11 +180,17 @@ sub contrasts {
 sub study {
   my (%args) = @_;
   my $design = design_from_runs( @{ $args{runs} } );
+  my %condition_names = condition_names_from_runs( @{ $args{runs} } );
+  my %shorter_conditions = shorter_condition_names($design);
+
+  $design = $design->with_condition_names(\%shorter_conditions);
+  %condition_names = pairmap {$shorter_conditions{$a} => $b} %condition_names;
+  
   return Model::Study->new(
     $args{study_id},
     $design,
     {
-      condition_names => condition_names( @{ $args{runs} } ),
+      condition_names => \%condition_names,
       title           => $args{study_description_short},
       description     => $args{study_description_full},
       pubmed          => $args{pubmed},
