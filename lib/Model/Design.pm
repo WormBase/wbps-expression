@@ -4,6 +4,7 @@ package Model::Design;
 use Text::CSV qw/csv/;
 use List::Util qw/pairmap all/;
 use List::MoreUtils qw/uniq /;
+use open ':encoding(utf8)';
 #use Smart::Comments '###';
 sub new {
   my ($class, %args) = @_;

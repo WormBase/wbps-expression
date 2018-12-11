@@ -7,6 +7,7 @@ use Model::Design;
 use YAML qw/DumpFile LoadFile/;
 use Carp qw/confess/;
 use List::Util qw/all max/;
+use open ':encoding(utf8)';
 # use Smart::Comments '###';
 sub new {
   my ($class, $study_id, $study_design, $study_config) = @_;
