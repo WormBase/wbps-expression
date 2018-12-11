@@ -152,12 +152,12 @@ sub data_quality_checks {
   my %runs_by_condition = %{$self->runs_by_condition};
   my %characteristics_by_run = %{$self->{values}{by_run}};
   my @conditions_well_defined = pairmap {
-    "Condition $a is well-defined: uniform characteristics in runs @{$b}"
+    "Condition $a should have uniform characteristics in runs @{$b}"
       => not scalar grep {$_} @characteristics_by_run{@{$b}}
   } %runs_by_condition;
   my @characteristics_varying_by_condition = $self->characteristics_varying_by_condition;
   my @conditions_unique = pairmap {
-    "Characteristics $a define precisely one condition"
+    "Characteristics $a should define precisely one condition"
      => (@{$b} == 1 )
   } %{reverse_hoa({ map {
       my $c = $_; 
@@ -165,13 +165,15 @@ sub data_quality_checks {
       $c => $s
    } $self->all_conditions})};
   return (
-    "Some runs",
+    "Study should have some runs",
        => scalar %runs_by_condition,
-    "Some characteristics" 
+    "Study should have some characteristics" 
        => 0+@{$self->{characteristics_in_order}},
-    "Conditions have non-blank names",
+    "Conditions should have non-blank names",
        => ( 0 ==  grep {not $_} $self->all_conditions),
-    "If there are multiple conditions, then some characteristics vary by condition"
+    "Conditions should have reasonably short names - below 60 chars",
+       => ( 0 ==  grep {length $_ > 60 } $self->all_conditions),
+    "If there are multiple conditions, then some characteristics should vary by condition"
        => (2 > keys %runs_by_condition or 0 < $self->characteristics_varying_by_condition ),
      @conditions_well_defined,
      @conditions_unique,
