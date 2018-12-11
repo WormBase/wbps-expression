@@ -1,0 +1,15 @@
+Run	Condition	developmental_stage	geographic_location	host	isolate	mgi_unique_identifier	organism_part	sample_id	sample_name	sample_type	strain
+SRR332576	Ancylostoma caninum stage L1 strain Baltimore	L1						2870140480	Ancylostoma caninum stage L1 strain Baltimore	rna	Baltimore
+SRR332578	Ancylostoma caninum stage L1 strain Baltimore	L1						2870140480	Ancylostoma caninum stage L1 strain Baltimore	rna	Baltimore
+SRR332580	Ancylostoma caninum stage L3(activated) strain Baltimore	L3 (Activated)						2870140482	Ancylostoma caninum stage L3(activated) strain Baltimore	rna	Baltimore
+SRR332581	Ancylostoma caninum stage L3(activated) strain Baltimore	L3 (Activated)						2870140482	Ancylostoma caninum stage L3(activated) strain Baltimore	rna	Baltimore
+SRR332450	Ancylostoma caninum stage eggs strain Baltimore	eggs						2870140479	Ancylostoma caninum stage eggs strain Baltimore	rna	Baltimore
+SRR332575	Ancylostoma caninum stage eggs strain Baltimore	eggs						2870140479	Ancylostoma caninum stage eggs strain Baltimore	rna	Baltimore
+SRR332577	Ancylostoma caninum stage l2 strain Baltimore	L2						2870140481	Ancylostoma caninum stage l2 strain Baltimore	rna	Baltimore
+SRR332579	Ancylostoma caninum stage l2 strain Baltimore	L2						2870140481	Ancylostoma caninum stage l2 strain Baltimore	rna	Baltimore
+SRR3945578	USA: Baltimore MD, Canis familiaris, Baltimore, AIAD-100816_Male_RNA_Tube1, whole organism		USA: Baltimore MD	Canis familiaris	Baltimore	AIAD-100816_Male_RNA_Tube1	whole organism				
+SRR3945579	USA: Baltimore MD, Canis familiaris, Baltimore, AIAF-090923_female_RNA_tube1, whole organism		USA: Baltimore MD	Canis familiaris	Baltimore	AIAF-090923_female_RNA_tube1	whole organism				
+SRR3945575	USA: Baltimore MD, Canis familiaris, Baltimore, AIAL-100903_Nonactivated_L3_Tube1, whole organism		USA: Baltimore MD	Canis familiaris	Baltimore	AIAL-100903_Nonactivated_L3_Tube1	whole organism				
+SRR3945576	USA: Baltimore MD, Canis familiaris, Baltimore, AIAL-100903_Untreated_L3_Tube1, whole organism		USA: Baltimore MD	Canis familiaris	Baltimore	AIAL-100903_Untreated_L3_Tube1	whole organism				
+SRR3945577	USA: Baltimore MD, Canis familiaris, Baltimore, AIAL-101008_Larvae2_tube7_10, whole organism		USA: Baltimore MD	Canis familiaris	Baltimore	AIAL-101008_Larvae2_tube7_10	whole organism				
+SRR3945581	gut						gut				

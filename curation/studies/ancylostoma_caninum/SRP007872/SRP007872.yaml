@@ -1,0 +1,11 @@
+---
+condition_names:
+  'USA: Baltimore MD, Canis familiaris, Baltimore, AIAD-100816_Male_RNA_Tube1, whole organism': 'USA: Baltimore MD, Canis familiaris, isolate Baltimore, AIAD-100816_Male_RNA_Tube1, whole organism'
+  'USA: Baltimore MD, Canis familiaris, Baltimore, AIAF-090923_female_RNA_tube1, whole organism': 'USA: Baltimore MD, Canis familiaris, isolate Baltimore, AIAF-090923_female_RNA_tube1, whole organism'
+  'USA: Baltimore MD, Canis familiaris, Baltimore, AIAL-100903_Nonactivated_L3_Tube1, whole organism': 'USA: Baltimore MD, Canis familiaris, isolate Baltimore, AIAL-100903_Nonactivated_L3_Tube1, whole organism'
+  'USA: Baltimore MD, Canis familiaris, Baltimore, AIAL-100903_Untreated_L3_Tube1, whole organism': 'USA: Baltimore MD, Canis familiaris, isolate Baltimore, AIAL-100903_Untreated_L3_Tube1, whole organism'
+  'USA: Baltimore MD, Canis familiaris, Baltimore, AIAL-101008_Larvae2_tube7_10, whole organism': 'USA: Baltimore MD, Canis familiaris, isolate Baltimore, AIAL-101008_Larvae2_tube7_10, whole organism'
+contrasts: []
+description: Ancylostoma caninum Genome Sequencing
+pubmed: ~
+title: Ancylostoma caninum Genome Sequencing
