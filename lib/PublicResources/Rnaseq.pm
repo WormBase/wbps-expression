@@ -13,6 +13,7 @@ use Production::Sheets;
 use Model::Design;
 use File::Basename qw/dirname/;
 use List::Util qw/pairmap/;
+use List::MoreUtils qw/duplicates/;
 #use Smart::Comments;
 sub new {
   my ($class, $root_dir, $sheets) = @_;
@@ -45,21 +46,30 @@ sub get {
        print STDERR "Study $study_id not in ENA, skipping\n";
        next;
     }
+    my %characteristics_per_run = map {my $run_id = $_; 
+      $run_id => ($stored_characteristics{$study_id}{$run_id} // $rnaseqer_metadata->access_characteristics($assembly, $study_id, $run_id) // {})
+    } @{$rnaseqer_metadata->access($assembly, $study_id)};
+    
+    my @characteristic_types_varying_in_study = do {
+       my %flattened = map {pairmap {"$a\t$b" => $a} %{$_}} values %characteristics_per_run;
+       duplicates values %flattened
+    };
+
     my @runs;
     for my $run_id (@{$rnaseqer_metadata->access($assembly, $study_id)}){
 ### $run_id
        my $stats = $rnaseqer_ftp->get_formatted_stats($run_id);
        my $data_location = $rnaseqer_metadata->data_location($run_id);
        my $links = $self->{links}->misc_links($study_id,$run_id, $data_location);
-       my $characteristics = $stored_characteristics{$study_id}{$run_id} // $rnaseqer_metadata->access_characteristics($assembly, $study_id, $run_id) // {};
+       my %characteristics = %{$characteristics_per_run{$run_id}};
        my ($run_description_short, $run_description_full) =
-          $descriptions->run_description( $study_id, $run_id, $characteristics);
+          $descriptions->run_description( $study_id, $run_id, (@characteristic_types_varying_in_study ? {%characteristics{@characteristic_types_varying_in_study}} : \%characteristics));
        push @runs, {
           run_id => $run_id,
           qc_issues => $rnaseqer_ftp->get_qc_issues($run_id),
           data_files => $rnaseqer_ftp->{$run_id}{files},
-          characteristics => $characteristics,
-          attributes => {%$stats, %$links, %{$characteristics}},
+          characteristics => \%characteristics,
+          attributes => {%$stats, %$links, %characteristics},
           run_description_short => $run_description_short,
           run_description_full => $run_description_full,
        };
