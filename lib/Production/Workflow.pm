@@ -42,7 +42,7 @@ sub fetch_incoming_studies {
     if ($current_ignore_studies->{$study->{study_id}} or $self->should_reject_study($study)){
       push @{$result{REJECT}}, $study;
     } else { 
-      if ($current_record and Model::Study::config_matches_design_checks($current_record->{config}, $study->{design})){
+      if ($current_record and Model::Study::config_matches_design_checks($current_record->{config}, $study->{design}) and not $ENV{RECREATE_ALL_CONFIGS}){
         $study->{config}{contrasts} = $current_record->{config}{contrasts};
         $study->{config}{condition_names} = $current_record->{config}{condition_names};
         # Additionally, characteristics in the current record were already reused

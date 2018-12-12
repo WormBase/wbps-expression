@@ -67,6 +67,7 @@ sub run_description_from_attributes {
         my $v = $attributes->{$t};
         next if grep {$_ eq $t} @types_blacklist;
         next unless $v;
+        $v =~ s/^\s+|\s+$//g;
         push @result_short, $v;
         if ( grep { $_ eq $t } @types_that_help_explain_values ) {
             push @result_full, "$t $v";

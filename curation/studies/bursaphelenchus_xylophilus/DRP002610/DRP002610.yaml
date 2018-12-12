@@ -56,43 +56,43 @@ contrasts:
       -
         - '2nd stage larva, pooled male and female'
         - '3rd stage dispersal juvenile, pooled male and female'
-        - '2nd stage larva, pooled male and female vs 3rd stage dispersal juvenile, pooled male and female'
+        - 'pooled male and female: 2nd stage larva vs 3rd stage dispersal juvenile'
       -
         - '2nd stage larva, pooled male and female'
         - '3rd stage larva, pooled male and female'
-        - '2nd stage larva, pooled male and female vs 3rd stage larva, pooled male and female'
+        - 'pooled male and female: 2nd stage larva vs 3rd stage larva'
       -
         - '2nd stage larva, pooled male and female'
         - '4th stage larva, pooled male and female'
-        - '2nd stage larva, pooled male and female vs 4th stage larva, pooled male and female'
+        - 'pooled male and female: 2nd stage larva vs 4th stage larva'
       -
         - '2nd stage larva, pooled male and female'
         - 'embryo, pooled male and female'
-        - '2nd stage larva, pooled male and female vs embryo, pooled male and female'
+        - 'pooled male and female: 2nd stage larva vs embryo'
       -
         - '3rd stage dispersal juvenile, pooled male and female'
         - '3rd stage larva, pooled male and female'
-        - '3rd stage dispersal juvenile, pooled male and female vs 3rd stage larva, pooled male and female'
+        - 'pooled male and female: 3rd stage dispersal juvenile vs 3rd stage larva'
       -
         - '3rd stage dispersal juvenile, pooled male and female'
         - '4th stage larva, pooled male and female'
-        - '3rd stage dispersal juvenile, pooled male and female vs 4th stage larva, pooled male and female'
+        - 'pooled male and female: 3rd stage dispersal juvenile vs 4th stage larva'
       -
         - '3rd stage dispersal juvenile, pooled male and female'
         - 'embryo, pooled male and female'
-        - '3rd stage dispersal juvenile, pooled male and female vs embryo, pooled male and female'
+        - 'pooled male and female: 3rd stage dispersal juvenile vs embryo'
       -
         - '3rd stage larva, pooled male and female'
         - '4th stage larva, pooled male and female'
-        - '3rd stage larva, pooled male and female vs 4th stage larva, pooled male and female'
+        - 'pooled male and female: 3rd stage larva vs 4th stage larva'
       -
         - '3rd stage larva, pooled male and female'
         - 'embryo, pooled male and female'
-        - '3rd stage larva, pooled male and female vs embryo, pooled male and female'
+        - 'pooled male and female: 3rd stage larva vs embryo'
       -
         - '4th stage larva, pooled male and female'
         - 'embryo, pooled male and female'
-        - '4th stage larva, pooled male and female vs embryo, pooled male and female'
+        - 'pooled male and female: 4th stage larva vs embryo'
   - name: developmental_stage+host
     values:
       -
