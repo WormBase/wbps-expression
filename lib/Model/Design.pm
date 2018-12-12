@@ -21,6 +21,7 @@ sub from_tsv {
   for my $line (@lines){
 ### require: @$line == 2 + @characteristics 
      my ($run_id,$condition, @values) = @$line;
+     $_ =~ s/^\s+|\s+$//g for @values;
      $conditions_per_run{$run_id} = $condition;
      my %h;
      @h{@characteristics} = @values;
