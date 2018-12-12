@@ -19,9 +19,4 @@ fi
 #  echo "Your R doesn't have DESeq2 installed: " $(which R)
 # fi
 
-ROOT_DIR=$ROOT_DIR PERL5LIB="$ROOT_DIR/lib:$ROOT_DIR/local/lib/perl5" ANALYSIS_VERBOSE=1 LOCALLY_CACHED_RESOURCE_VERBOSE=1 perl -e '
-   use Production::Workflow;
-   my $data_dir = "/nfs/nobackup/ensemblgenomes/wormbase/parasite/production/jbrowse/WBPS$ENV{PARASITE_VERSION}";
-   my $src_dir = $ENV{ROOT_DIR};
-   Production::Workflow->new("$data_dir/Resources", $src_dir, "$data_dir/Production-".`whoami`)->do_everything(@ARGV);
-' "$@"
+PERL5LIB="$ROOT_DIR/lib:$ROOT_DIR/local/lib/perl5" prove $ROOT_DIR/t/curation.t "$@"
