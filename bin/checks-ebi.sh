@@ -1,10 +1,6 @@
 #!/usr/bin/bash
 set -euo pipefail
 
-if [ $# -lt 2 -o "$PARASITE_VERSION" == "" ] ; then
-  echo "Usage: PARASITE_VERSION=<> $0 species assembly"
-  exit 1
-fi
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
 
 ( cd $ROOT_DIR && [ -d "local" ] || carton )
