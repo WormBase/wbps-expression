@@ -62,8 +62,9 @@ sub get {
        my $data_location = $rnaseqer_metadata->data_location($run_id);
        my $links = $self->{links}->misc_links($study_id,$run_id, $data_location);
        my %characteristics = %{$characteristics_per_run{$run_id}};
+       my %characteristics_varying_in_study = map {$_ => $characteristics{$_}} @characteristic_types_varying_in_study;
        my ($run_description_short, $run_description_full) =
-          $descriptions->run_description( $study_id, $run_id, (@characteristic_types_varying_in_study ? {%characteristics{@characteristic_types_varying_in_study}} : \%characteristics));
+          $descriptions->run_description( $study_id, $run_id, \%characteristics_varying_in_study || \%characteristics);
        push @runs, {
           run_id => $run_id,
           qc_issues => $rnaseqer_ftp->get_qc_issues($run_id),
