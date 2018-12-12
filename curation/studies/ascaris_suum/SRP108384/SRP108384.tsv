@@ -1,11 +1,11 @@
-Run	Condition	sex	organism_part	strain
-SRR5635079	Female diplotene	Female	diplotene	North American wildtype
-SRR5635077	Female early pachytene	Female	early pachytene	North American wildtype
-SRR5635078	Female late pacheytene	Female	late pacheytene	North American wildtype
-SRR5635076	Female mitotic region	Female	mitotic region	North American wildtype
-SRR5635080	Female oocyte	Female	oocyte	North American wildtype
-SRR5635071	Male mitotic region	Male	mitotic region	North American wildtype
-SRR5635073	Male post-meiotic region	Male	post-meiotic region	North American wildtype
-SRR5635074	Male seminal vesicle	Male	seminal vesicle	North American wildtype
-SRR5635075	Male spermatids	Male	spermatids	North American wildtype
-SRR5635072	Male spermatogenesis	Male	spermatogenesis	North American wildtype
+Run	Condition	organism_part	sex	strain
+SRR5635079	Female diplotene	diplotene	Female	North American wildtype
+SRR5635077	Female early pachytene	early pachytene	Female	North American wildtype
+SRR5635078	Female late pacheytene	late pacheytene	Female	North American wildtype
+SRR5635076	Female mitotic region	mitotic region	Female	North American wildtype
+SRR5635080	Female oocyte	oocyte	Female	North American wildtype
+SRR5635071	Male mitotic region	mitotic region	Male	North American wildtype
+SRR5635073	Male post-meiotic region	post-meiotic region	Male	North American wildtype
+SRR5635074	Male seminal vesicle	seminal vesicle	Male	North American wildtype
+SRR5635075	Male spermatids	spermatids	Male	North American wildtype
+SRR5635072	Male spermatogenesis	spermatogenesis	Male	North American wildtype

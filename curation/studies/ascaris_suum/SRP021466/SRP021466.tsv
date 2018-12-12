@@ -1,31 +1,36 @@
-Run	Condition	developmental_stage	timepoint	strain
-SRR833352		zygote	0 days	North American wild population
-SRR833353		zygote	0 days	North American wild population
-SRR833354		zygote	0 days	North American wild population
-SRR833348		embryo	116 hours	North American wild population
-SRR833355		embryo	1 day	North American wild population
-SRR833356		embryo	1 day	North American wild population
-SRR833357		embryo	1 day	North American wild population
-SRR833344		embryo	2h hours	North American wild population
-SRR833358		embryo	3 days	North American wild population
-SRR833359		embryo	3 days	North American wild population
-SRR833360		embryo	3 days	North American wild population
-SRR833345		embryo	46 hours	North American wild population
-SRR833361		embryo	5 days	North American wild population
-SRR833362		embryo	5 days	North American wild population
-SRR833363		embryo	5 days	North American wild population
-SRR833346		embryo	64 hours	North American wild population
-SRR1029600		embryo	64 hours	North American wild population
-SRR1029599		embryo	64 hours	North American wild population
-SRR833349		embryo	7 days	North American wild population
-SRR833364		embryo	7 days	North American wild population
-SRR833365		embryo	7 days	North American wild population
-SRR833366		embryo	7 days	North American wild population
-SRR833347		embryo	96 hours	North American wild population
-SRR833350		larvae	L1	North American wild population
-SRR833340		zygote	zygote	North American wild population
-SRR833341		zygote	zygote	North American wild population
-SRR833342		zygote	zygote	North American wild population
-SRR833343		zygote	zygote	North American wild population
-SRR1029598		zygote	zygote	North American wild population
-SRR1029597		zygote	zygote	North American wild population
+Run	Condition	developmental_stage	sample_name	source_name	strain	timepoint
+SRR833355	embryo, 1 day	embryo			North American wild population	1 day
+SRR833356	embryo, 1 day	embryo			North American wild population	1 day
+SRR833357	embryo, 1 day	embryo			North American wild population	1 day
+SRR833348	embryo, 116 hours	embryo			North American wild population	116 hours
+SRR833344	embryo, 2h hours	embryo			North American wild population	2h hours
+SRR833358	embryo, 3 days	embryo			North American wild population	3 days
+SRR833359	embryo, 3 days	embryo			North American wild population	3 days
+SRR833360	embryo, 3 days	embryo			North American wild population	3 days
+SRR833345	embryo, 46 hours	embryo			North American wild population	46 hours
+SRR833361	embryo, 5 days	embryo			North American wild population	5 days
+SRR833362	embryo, 5 days	embryo			North American wild population	5 days
+SRR833363	embryo, 5 days	embryo			North American wild population	5 days
+SRR1029599	embryo, 64 hours	embryo			North American wild population	64 hours
+SRR1029600	embryo, 64 hours	embryo			North American wild population	64 hours
+SRR833346	embryo, 64 hours	embryo			North American wild population	64 hours
+SRR833349	embryo, 7 days	embryo			North American wild population	7 days
+SRR833364	embryo, 7 days	embryo			North American wild population	7 days
+SRR833365	embryo, 7 days	embryo			North American wild population	7 days
+SRR833366	embryo, 7 days	embryo			North American wild population	7 days
+SRR833347	embryo, 96 hours	embryo			North American wild population	96 hours
+SRR833350	larvae, L1	larvae			North American wild population	L1
+SRR1029596	oocyte - ribozero	female germline	oocyte - ribozero	oocyte	North American wild population	
+SRR1029595	oocyte - total	female germline	oocyte - total	oocyte	North American wild population	
+SRR833339	oocyte with wall	female germline	oocyte with wall	oocyte with wall	North American wild population	
+SRR1029594	oocyte with wall - ribozero	female germline	oocyte with wall - ribozero	oocyte with wall	North American wild population	
+SRR1029593	oocyte with wall - total	female germline	oocyte with wall - total	oocyte with wall	North American wild population	
+SRR1029597	zygote	zygote			North American wild population	
+SRR1029598	zygote	zygote			North American wild population	
+SRR833340	zygote	zygote			North American wild population	
+SRR833341	zygote	zygote			North American wild population	
+SRR833342	zygote	zygote			North American wild population	
+SRR833343	zygote	zygote			North American wild population	
+SRR833352	zygote	zygote			North American wild population	
+SRR833353	zygote	zygote			North American wild population	
+SRR833354	zygote	zygote			North American wild population	

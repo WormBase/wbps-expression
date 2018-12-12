@@ -1,6 +1,13 @@
 ---
-condition_names: {}
-contrasts: []
+condition_names:
+  mixed: 'mixed samples of germlines and embryos, full length cdna sheared'
+contrasts:
+  - name: developmental_stage+organism_part+sex
+    values:
+      -
+        - embryos
+        - testis
+        - embryos vs testis
 description: Ascaris suum transcriptome (RNA-Seq) data
 pubmed:
   21685128:

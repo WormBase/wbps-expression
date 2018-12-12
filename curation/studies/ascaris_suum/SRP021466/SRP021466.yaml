@@ -1,32 +1,48 @@
 ---
 condition_names: {}
 contrasts:
-  - name: sample_name+source_name
+  - name: timepoint
     values:
       -
-        - 1day
-        - 3day
-        - 1day vs 3day
+        - 'embryo, 1 day'
+        - 'embryo, 3 days'
+        - 'embryo: 1 day vs 3 days'
       -
-        - 1day
-        - 5day
-        - 1day vs 5day
+        - 'embryo, 1 day'
+        - 'embryo, 5 days'
+        - 'embryo: 1 day vs 5 days'
       -
-        - 1day
-        - 7day
-        - 1day vs 7day
+        - 'embryo, 1 day'
+        - 'embryo, 64 hours'
+        - 'embryo: 1 day vs 64 hours'
       -
-        - 3day
-        - 5day
-        - 3day vs 5day
+        - 'embryo, 1 day'
+        - 'embryo, 7 days'
+        - 'embryo: 1 day vs 7 days'
       -
-        - 3day
-        - 7day
-        - 3day vs 7day
+        - 'embryo, 3 days'
+        - 'embryo, 5 days'
+        - 'embryo: 3 days vs 5 days'
       -
-        - 5day
-        - 7day
-        - 5day vs 7day
+        - 'embryo, 3 days'
+        - 'embryo, 64 hours'
+        - 'embryo: 3 days vs 64 hours'
+      -
+        - 'embryo, 3 days'
+        - 'embryo, 7 days'
+        - 'embryo: 3 days vs 7 days'
+      -
+        - 'embryo, 5 days'
+        - 'embryo, 64 hours'
+        - 'embryo: 5 days vs 64 hours'
+      -
+        - 'embryo, 5 days'
+        - 'embryo, 7 days'
+        - 'embryo: 5 days vs 7 days'
+      -
+        - 'embryo, 64 hours'
+        - 'embryo, 7 days'
+        - 'embryo: 64 hours vs 7 days'
 description: 'Transcription in Pronuclei and One- to Four-Cell Embryos Drives Early Development in a Nematode'
 pubmed:
   24374308:
