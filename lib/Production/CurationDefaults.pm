@@ -91,19 +91,17 @@ sub n_choose_two {
 
 sub contrast_name {
   my ( $design, $factors, $reference, $test ) = @_;
-  my $result = "$reference vs $test";
-  if (length($result) > 60) {
-     my @reference_values = map {$design->value_in_condition($reference, $_) } @{$factors};
-     my $reference_short = $reference;
-     $reference_short =~ s/(\W*)$_(\W*)/$1/ for @reference_values;
-     my @test_values = map {$design->value_in_condition($test, $_) } @{$factors};
-     my $test_short = $test;
-     $test_short =~ s/(\W*)$_(\W*)/$1/ for @test_values;
-     if($reference_short eq $test_short){
-        $result = ($reference_short ? "$reference_short: " : "") . join (", ", @reference_values) . " vs " . join(", ", @test_values);
-     }
+  my @reference_values = map {$design->value_in_condition($reference, $_) } @{$factors};
+  my $reference_short = $reference;
+  $reference_short =~ s/(\W*)$_(\W*)/$1/ for @reference_values;
+  my @test_values = map {$design->value_in_condition($test, $_) } @{$factors};
+  my $test_short = $test;
+  $test_short =~ s/(\W*)$_(\W*)/$1/ for @test_values;
+  if($reference_short eq $test_short){
+    return ($reference_short ? "$reference_short: " : "") . join (", ", @reference_values) . " vs " . join(", ", @test_values);
+  } else {
+    return "$reference vs $test";
   }
-  return $result;
 }
 
 sub contrasts {
