@@ -94,9 +94,11 @@ sub contrast_name {
   my @reference_values = map {$design->value_in_condition($reference, $_) } @{$factors};
   my $reference_short = $reference;
   $reference_short =~ s/(\W*)$_(\W*)/$1/ for @reference_values;
+  $reference_short =~ s/^\W+|\W+$//;
   my @test_values = map {$design->value_in_condition($test, $_) } @{$factors};
   my $test_short = $test;
   $test_short =~ s/(\W*)$_(\W*)/$1/ for @test_values;
+  $test_short =~ s/^\W+|\W+$//;
   if($reference_short eq $test_short){
     return ($reference_short ? "$reference_short: " : "") . join (", ", @reference_values) . " vs " . join(", ", @test_values);
   } else {
