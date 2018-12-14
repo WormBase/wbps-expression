@@ -69,6 +69,16 @@ sub partition_by_characteristics_values {
   return values %result;
 }
 
+sub all_characteristics_vary {
+  my ( $design, $chs, $conditions ) = @_;
+  for my $ch ( @{$chs} ) {
+    return 0
+      if 1 == uniq map { $design->value_in_condition( $_, $ch ) }
+      @{$conditions};
+  }
+  return 1;
+}
+
 sub is_different_values_on_all_characteristics {
   my ( $design, $chs, $conditions ) = @_;
   for my $ch ( @{$chs} ) {
@@ -108,7 +118,10 @@ sub contrast_name {
     return "$reference vs $test";
   }
 }
-
+sub is_life_cycle {
+  my ($x, $y, @others) = sort @_;
+  return $x && $y && $x eq "developmental_stage" && $y eq "sex" && not @others; 
+}
 sub contrasts {
   my ($design)   = @_;
   my %replicates = %{$design->runs_by_condition};
@@ -135,9 +148,10 @@ sub contrasts {
       [ map { @{$_} == 1 ? @{$_} : () } @partitioned_p ]
     } @partition if @subset_chs;
 #### Filter to those that also differ in values on chosen characteristics: @partition
+    next unless all_characteristics_vary($design, \@subset_chs, [ map {@$_} @partition]); 
     @partition = grep {
       is_different_values_on_all_characteristics( $design, \@subset_chs, $_ )
-    } @partition;
+    } @partition unless is_life_cycle(@subset_chs);
 #### Filter further to those that differ in all values chosen characteristics: @partition
     next unless @partition;
     my @contrasts =
@@ -152,6 +166,9 @@ sub contrasts {
       name   => join( "+", @subset_chs ),
       values => \@contrasts,
       };
+  }
+  if(grep {$_->{name} eq "developmental_stage+sex"} @result){
+     @result = grep {$_->{name} ne "developmental_stage" && $_->{name} ne "sex"} @result;
   }
 #### @result
   return \@result;
