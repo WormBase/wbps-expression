@@ -98,23 +98,48 @@ sub n_choose_two {
   }
   return @result;
 }
+sub trim_values {
+  my ($result, @values) = @_;
+  $result =~ s/([,\s]*)$_([,\s]*)/$1/ for map {quotemeta $_ } @values;
+  $result =~ s/^\W+|[,\s]+$//;
+  return $result;
+}
+sub venn {
+  my ($xs, $ys) = @_;
+  my @xxs;
+  my @is;
+  my @yys;
+  for my $x (@{$xs}){
+    if( grep {$_ eq $x} @{$ys} ){
+      push @is, $x;
+    } else {
+      push @xxs, $x;
+    }
+  }
+  for my $y (@{$ys}){
+    if (not grep {$_ eq $y} @$xs){
+       push @yys, $y;
+    }
+  }
+  return \@xxs, \@is, \@yys;
+}
 
 sub contrast_name {
   my ( $design, $factors, $reference, $test ) = @_;
   my @reference_values = map {$design->value_in_condition($reference, $_) } @{$factors};
-  my $reference_short = $reference;
-  $reference_short =~ s/([,\s]*)$_([,\s]*)/$1/ for @reference_values;
-  $reference_short =~ s/^\W+|[,\s]+$//;
-  my @test_values = map {$design->value_in_condition($test, $_) } @{$factors};
-  my $test_short = $test;
-  $test_short =~ s/([,\s]*)$_([,\s]*)/$1/ for @test_values;
-  $test_short =~ s/^\W+|[,\s]+$//;
+  my $reference_short = trim_values($reference, @reference_values);
+  my @test_values = map {$design->value_in_condition($test, $_) } @{$factors}; 
+  my $test_short = trim_values($test,@test_values); 
   if($reference_short eq $test_short){
-    return ($reference_short ? "$reference_short: " : "")
-      . (@reference_values ? join (", ", @reference_values) : "''")
+    my ($ref_only, $intersection, $test_only) = venn(\@reference_values, \@test_values);
+    my $common = $reference_short || join(", ", @{$intersection});
+    $common = "$common: " if $common;
+    return $common
+      . (@reference_values ? join (", ", @{$ref_only}) : "''")
       . " vs "
-      . (@test_values ? join(", ", @test_values): "''");
+      . (@test_values ? join(", ", @{$test_only}): "''");
   } else {
+### require: @$factors ==1
     return "$reference vs $test";
   }
 }

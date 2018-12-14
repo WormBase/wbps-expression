@@ -1,58 +1,68 @@
 ---
 condition_names: {}
 contrasts:
-  - name: sex
+  - name: developmental_stage+sex
     values:
       -
+        - '2nd stage larva +3h, pooled male and female'
+        - '2nd stage larva +6h, pooled male and female'
+        - 'pooled male and female: 2nd stage larva +3h vs 2nd stage larva +6h'
+      -
+        - '2nd stage larva +3h, pooled male and female'
+        - '2nd stage larva, pooled male and female'
+        - 'pooled male and female: 2nd stage larva +3h vs 2nd stage larva'
+      -
+        - '2nd stage larva +3h, pooled male and female'
+        - '3rd stage dispersal juvenile, pooled male and female'
+        - 'pooled male and female: 2nd stage larva +3h vs 3rd stage dispersal juvenile'
+      -
+        - '2nd stage larva +3h, pooled male and female'
+        - '3rd stage larva, pooled male and female'
+        - 'pooled male and female: 2nd stage larva +3h vs 3rd stage larva'
+      -
+        - '2nd stage larva +3h, pooled male and female'
+        - '4th stage larva, pooled male and female'
+        - 'pooled male and female: 2nd stage larva +3h vs 4th stage larva'
+      -
+        - '2nd stage larva +3h, pooled male and female'
         - 'adult, female'
+        - '2nd stage larva +3h, pooled male and female vs adult, female'
+      -
+        - '2nd stage larva +3h, pooled male and female'
         - 'adult, male'
-        - 'adult: female vs male'
-  - name: developmental_stage
-    values:
-      -
-        - '2nd stage larva +3h, pooled male and female'
-        - '2nd stage larva +6h, pooled male and female'
-        - '2nd stage larva +3h, pooled male and female vs 2nd stage larva +6h, pooled male and female'
-      -
-        - '2nd stage larva +3h, pooled male and female'
-        - '2nd stage larva, pooled male and female'
-        - '2nd stage larva +3h, pooled male and female vs 2nd stage larva, pooled male and female'
-      -
-        - '2nd stage larva +3h, pooled male and female'
-        - '3rd stage dispersal juvenile, pooled male and female'
-        - '2nd stage larva +3h, pooled male and female vs 3rd stage dispersal juvenile, pooled male and female'
-      -
-        - '2nd stage larva +3h, pooled male and female'
-        - '3rd stage larva, pooled male and female'
-        - '2nd stage larva +3h, pooled male and female vs 3rd stage larva, pooled male and female'
-      -
-        - '2nd stage larva +3h, pooled male and female'
-        - '4th stage larva, pooled male and female'
-        - '2nd stage larva +3h, pooled male and female vs 4th stage larva, pooled male and female'
+        - '2nd stage larva +3h, pooled male and female vs adult, male'
       -
         - '2nd stage larva +3h, pooled male and female'
         - 'embryo, pooled male and female'
-        - '2nd stage larva +3h, pooled male and female vs embryo, pooled male and female'
+        - 'pooled male and female: 2nd stage larva +3h vs embryo'
       -
         - '2nd stage larva +6h, pooled male and female'
         - '2nd stage larva, pooled male and female'
-        - '2nd stage larva +6h, pooled male and female vs 2nd stage larva, pooled male and female'
+        - 'pooled male and female: 2nd stage larva +6h vs 2nd stage larva'
       -
         - '2nd stage larva +6h, pooled male and female'
         - '3rd stage dispersal juvenile, pooled male and female'
-        - '2nd stage larva +6h, pooled male and female vs 3rd stage dispersal juvenile, pooled male and female'
+        - 'pooled male and female: 2nd stage larva +6h vs 3rd stage dispersal juvenile'
       -
         - '2nd stage larva +6h, pooled male and female'
         - '3rd stage larva, pooled male and female'
-        - '2nd stage larva +6h, pooled male and female vs 3rd stage larva, pooled male and female'
+        - 'pooled male and female: 2nd stage larva +6h vs 3rd stage larva'
       -
         - '2nd stage larva +6h, pooled male and female'
         - '4th stage larva, pooled male and female'
-        - '2nd stage larva +6h, pooled male and female vs 4th stage larva, pooled male and female'
+        - 'pooled male and female: 2nd stage larva +6h vs 4th stage larva'
+      -
+        - '2nd stage larva +6h, pooled male and female'
+        - 'adult, female'
+        - '2nd stage larva +6h, pooled male and female vs adult, female'
+      -
+        - '2nd stage larva +6h, pooled male and female'
+        - 'adult, male'
+        - '2nd stage larva +6h, pooled male and female vs adult, male'
       -
         - '2nd stage larva +6h, pooled male and female'
         - 'embryo, pooled male and female'
-        - '2nd stage larva +6h, pooled male and female vs embryo, pooled male and female'
+        - 'pooled male and female: 2nd stage larva +6h vs embryo'
       -
         - '2nd stage larva, pooled male and female'
         - '3rd stage dispersal juvenile, pooled male and female'
@@ -67,6 +77,14 @@ contrasts:
         - 'pooled male and female: 2nd stage larva vs 4th stage larva'
       -
         - '2nd stage larva, pooled male and female'
+        - 'adult, female'
+        - '2nd stage larva, pooled male and female vs adult, female'
+      -
+        - '2nd stage larva, pooled male and female'
+        - 'adult, male'
+        - '2nd stage larva, pooled male and female vs adult, male'
+      -
+        - '2nd stage larva, pooled male and female'
         - 'embryo, pooled male and female'
         - 'pooled male and female: 2nd stage larva vs embryo'
       -
@@ -79,6 +97,14 @@ contrasts:
         - 'pooled male and female: 3rd stage dispersal juvenile vs 4th stage larva'
       -
         - '3rd stage dispersal juvenile, pooled male and female'
+        - 'adult, female'
+        - '3rd stage dispersal juvenile, pooled male and female vs adult, female'
+      -
+        - '3rd stage dispersal juvenile, pooled male and female'
+        - 'adult, male'
+        - '3rd stage dispersal juvenile, pooled male and female vs adult, male'
+      -
+        - '3rd stage dispersal juvenile, pooled male and female'
         - 'embryo, pooled male and female'
         - 'pooled male and female: 3rd stage dispersal juvenile vs embryo'
       -
@@ -87,12 +113,40 @@ contrasts:
         - 'pooled male and female: 3rd stage larva vs 4th stage larva'
       -
         - '3rd stage larva, pooled male and female'
+        - 'adult, female'
+        - '3rd stage larva, pooled male and female vs adult, female'
+      -
+        - '3rd stage larva, pooled male and female'
+        - 'adult, male'
+        - '3rd stage larva, pooled male and female vs adult, male'
+      -
+        - '3rd stage larva, pooled male and female'
         - 'embryo, pooled male and female'
         - 'pooled male and female: 3rd stage larva vs embryo'
       -
         - '4th stage larva, pooled male and female'
+        - 'adult, female'
+        - '4th stage larva, pooled male and female vs adult, female'
+      -
+        - '4th stage larva, pooled male and female'
+        - 'adult, male'
+        - '4th stage larva, pooled male and female vs adult, male'
+      -
+        - '4th stage larva, pooled male and female'
         - 'embryo, pooled male and female'
         - 'pooled male and female: 4th stage larva vs embryo'
+      -
+        - 'adult, female'
+        - 'adult, male'
+        - 'adult: female vs male'
+      -
+        - 'adult, female'
+        - 'embryo, pooled male and female'
+        - 'adult, female vs embryo, pooled male and female'
+      -
+        - 'adult, male'
+        - 'embryo, pooled male and female'
+        - 'adult, male vs embryo, pooled male and female'
   - name: developmental_stage+host
     values:
       -

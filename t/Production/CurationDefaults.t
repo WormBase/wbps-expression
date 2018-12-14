@@ -31,7 +31,7 @@ contrasts_as_expected($no_characteristics_tsv, [{name => "", values => [["head",
 (my $no_factors_tsv = $tsv) =~ s/head/tail/g;
 contrasts_as_expected($no_factors_tsv, [], "no factors example");
 my $two_factor_tsv = <<'EOF';
-Run	Condition	sex	developmental_stage
+Run	Condition	sax	developmental_stage
 r11	hf	female	head
 r12	hf	female	head
 r13	hf	female	head
@@ -62,7 +62,7 @@ contrasts_as_expected($two_factor_tsv, [
     ]
   },
   {
-    'name' => 'sex',
+    'name' => 'sax',
     'values' => [
       [
         'hf',
@@ -77,4 +77,7 @@ contrasts_as_expected($two_factor_tsv, [
     ]
   }
 ], "two characteristics example");
+
+is(Production::CurationDefaults::trim_values("3rd stage dispersal juvenile, pooled male and female", "3rd stage dispersal juvenile", "pooled male and female"), "", "trim values");
+
 done_testing;
