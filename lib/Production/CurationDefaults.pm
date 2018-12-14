@@ -93,14 +93,17 @@ sub contrast_name {
   my ( $design, $factors, $reference, $test ) = @_;
   my @reference_values = map {$design->value_in_condition($reference, $_) } @{$factors};
   my $reference_short = $reference;
-  $reference_short =~ s/(\W*)$_(\W*)/$1/ for @reference_values;
-  $reference_short =~ s/^\W+|\W+$//;
+  $reference_short =~ s/([,\s]*)$_([,\s]*)/$1/ for @reference_values;
+  $reference_short =~ s/^\W+|[,\s]+$//;
   my @test_values = map {$design->value_in_condition($test, $_) } @{$factors};
   my $test_short = $test;
-  $test_short =~ s/(\W*)$_(\W*)/$1/ for @test_values;
-  $test_short =~ s/^\W+|\W+$//;
+  $test_short =~ s/([,\s]*)$_([,\s]*)/$1/ for @test_values;
+  $test_short =~ s/^\W+|[,\s]+$//;
   if($reference_short eq $test_short){
-    return ($reference_short ? "$reference_short: " : "") . join (", ", @reference_values) . " vs " . join(", ", @test_values);
+    return ($reference_short ? "$reference_short: " : "")
+      . (@reference_values ? join (", ", @reference_values) : "''")
+      . " vs "
+      . (@test_values ? join(", ", @test_values): "''");
   } else {
     return "$reference vs $test";
   }

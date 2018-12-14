@@ -6,7 +6,7 @@ contrasts:
       -
         - 'adult, female'
         - 'adult, male'
-        - 'adult, : female vs male'
+        - 'adult: female vs male'
   - name: developmental_stage
     values:
       -
