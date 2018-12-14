@@ -46,3 +46,12 @@ Broadly, they should agree on conditions. The samples that represent the same co
 
 #### How to conveniently edit the files
 Copy the design files somewhere where you can edit them - Excel works well, so does online editing via Github.  You can also use programs - `scripts/transpose` swaps rows and columns, and then you can use `grep -v` to remove unwanted columns.
+
+
+### Local installation
+Install R, then install all the packages from the cpanfile. If you can access the EBI cluster, lucky you! You can grab the files from the cluster and save yourself some downloading:
+```
+scp -r -o proxycommand="ssh -p 2222 -l wbazant ligate.ebi.ac.uk proxy %h" wbazant@ebi-cli-002:/nfs/nobackup/ensemblgenomes/wormbase/parasite/production/jbrowse/WBPS12/Resources/ /var/tmp/wbps-expression-scratch/jbrowse/WBPS12/Resources/
+
+RECREATE_ALL_CONFIGS=1 ANALYSIS_VERBOSE=1 LOCALLY_CACHED_RESOURCE_VERBOSE=1 perl -MProduction::Workflow -e 'Production::Workflow->new("/var/tmp/wbps-expression-scratch/jbrowse/WBPS12/Resources", "/Users/wb4/dev/wbps-expression", "/Users/wb4/dev/wbps-expression/out")->do_everything("brugia_malayi", "Bmal-4.0")'
+```
