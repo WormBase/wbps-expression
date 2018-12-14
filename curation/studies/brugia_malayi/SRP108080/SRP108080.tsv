@@ -1,0 +1,69 @@
+Run	Condition	developmental_stage	drug_treatment	sex	timepoint
+SRR5609084	Microfilaria, Albendazole, 1 day	Microfilaria	Albendazole		1 day
+SRR5609085	Microfilaria, Albendazole, 1 day	Microfilaria	Albendazole		1 day
+SRR5609086	Microfilaria, Albendazole, 1 day	Microfilaria	Albendazole		1 day
+SRR5609087	Microfilaria, Albendazole, 7 days	Microfilaria	Albendazole		7 days
+SRR5609088	Microfilaria, Albendazole, 7 days	Microfilaria	Albendazole		7 days
+SRR5609101	Microfilaria, Control (DMSO), 1 day	Microfilaria	Control (DMSO)		1 day
+SRR5609102	Microfilaria, Control (DMSO), 1 day	Microfilaria	Control (DMSO)		1 day
+SRR5609103	Microfilaria, Control (DMSO), 1 day	Microfilaria	Control (DMSO)		1 day
+SRR5609104	Microfilaria, Control (DMSO), 7 days	Microfilaria	Control (DMSO)		7 days
+SRR5609105	Microfilaria, Control (DMSO), 7 days	Microfilaria	Control (DMSO)		7 days
+SRR5609118	Microfilaria, Diethylcarbamazine, 1 day	Microfilaria	Diethylcarbamazine		1 day
+SRR5609119	Microfilaria, Diethylcarbamazine, 1 day	Microfilaria	Diethylcarbamazine		1 day
+SRR5609120	Microfilaria, Diethylcarbamazine, 1 day	Microfilaria	Diethylcarbamazine		1 day
+SRR5609121	Microfilaria, Diethylcarbamazine, 7 days	Microfilaria	Diethylcarbamazine		7 days
+SRR5609122	Microfilaria, Diethylcarbamazine, 7 days	Microfilaria	Diethylcarbamazine		7 days
+SRR5609135	Microfilaria, Ivermectin, 1 day	Microfilaria	Ivermectin		1 day
+SRR5609136	Microfilaria, Ivermectin, 1 day	Microfilaria	Ivermectin		1 day
+SRR5609137	Microfilaria, Ivermectin, 1 day	Microfilaria	Ivermectin		1 day
+SRR5609138	Microfilaria, Ivermectin, 7 days	Microfilaria	Ivermectin		7 days
+SRR5609139	Microfilaria, Ivermectin, 7 days	Microfilaria	Ivermectin		7 days
+SRR5609072	adult, Albendazole, female, 1 day	adult	Albendazole	female	1 day
+SRR5609073	adult, Albendazole, female, 1 day	adult	Albendazole	female	1 day
+SRR5609074	adult, Albendazole, female, 1 day	adult	Albendazole	female	1 day
+SRR5609075	adult, Albendazole, female, 7 days	adult	Albendazole	female	7 days
+SRR5609076	adult, Albendazole, female, 7 days	adult	Albendazole	female	7 days
+SRR5609077	adult, Albendazole, female, 7 days	adult	Albendazole	female	7 days
+SRR5609078	adult, Albendazole, male, 1 day	adult	Albendazole	male	1 day
+SRR5609079	adult, Albendazole, male, 1 day	adult	Albendazole	male	1 day
+SRR5609080	adult, Albendazole, male, 1 day	adult	Albendazole	male	1 day
+SRR5609081	adult, Albendazole, male, 7 days	adult	Albendazole	male	7 days
+SRR5609082	adult, Albendazole, male, 7 days	adult	Albendazole	male	7 days
+SRR5609083	adult, Albendazole, male, 7 days	adult	Albendazole	male	7 days
+SRR5609089	adult, Control (DMSO), female, 1 day	adult	Control (DMSO)	female	1 day
+SRR5609090	adult, Control (DMSO), female, 1 day	adult	Control (DMSO)	female	1 day
+SRR5609091	adult, Control (DMSO), female, 1 day	adult	Control (DMSO)	female	1 day
+SRR5609092	adult, Control (DMSO), female, 7 days	adult	Control (DMSO)	female	7 days
+SRR5609093	adult, Control (DMSO), female, 7 days	adult	Control (DMSO)	female	7 days
+SRR5609094	adult, Control (DMSO), female, 7 days	adult	Control (DMSO)	female	7 days
+SRR5609095	adult, Control (DMSO), male, 1 day	adult	Control (DMSO)	male	1 day
+SRR5609096	adult, Control (DMSO), male, 1 day	adult	Control (DMSO)	male	1 day
+SRR5609097	adult, Control (DMSO), male, 1 day	adult	Control (DMSO)	male	1 day
+SRR5609098	adult, Control (DMSO), male, 7 days	adult	Control (DMSO)	male	7 days
+SRR5609099	adult, Control (DMSO), male, 7 days	adult	Control (DMSO)	male	7 days
+SRR5609100	adult, Control (DMSO), male, 7 days	adult	Control (DMSO)	male	7 days
+SRR5609106	adult, Diethylcarbamazine, female, 1 day	adult	Diethylcarbamazine	female	1 day
+SRR5609107	adult, Diethylcarbamazine, female, 1 day	adult	Diethylcarbamazine	female	1 day
+SRR5609108	adult, Diethylcarbamazine, female, 1 day	adult	Diethylcarbamazine	female	1 day
+SRR5609109	adult, Diethylcarbamazine, female, 7 days	adult	Diethylcarbamazine	female	7 days
+SRR5609110	adult, Diethylcarbamazine, female, 7 days	adult	Diethylcarbamazine	female	7 days
+SRR5609111	adult, Diethylcarbamazine, female, 7 days	adult	Diethylcarbamazine	female	7 days
+SRR5609112	adult, Diethylcarbamazine, male, 1 day	adult	Diethylcarbamazine	male	1 day
+SRR5609113	adult, Diethylcarbamazine, male, 1 day	adult	Diethylcarbamazine	male	1 day
+SRR5609114	adult, Diethylcarbamazine, male, 1 day	adult	Diethylcarbamazine	male	1 day
+SRR5609115	adult, Diethylcarbamazine, male, 7 days	adult	Diethylcarbamazine	male	7 days
+SRR5609116	adult, Diethylcarbamazine, male, 7 days	adult	Diethylcarbamazine	male	7 days
+SRR5609117	adult, Diethylcarbamazine, male, 7 days	adult	Diethylcarbamazine	male	7 days
+SRR5609123	adult, Ivermectin, female, 1 day	adult	Ivermectin	female	1 day
+SRR5609124	adult, Ivermectin, female, 1 day	adult	Ivermectin	female	1 day
+SRR5609125	adult, Ivermectin, female, 1 day	adult	Ivermectin	female	1 day
+SRR5609126	adult, Ivermectin, female, 7 days	adult	Ivermectin	female	7 days
+SRR5609127	adult, Ivermectin, female, 7 days	adult	Ivermectin	female	7 days
+SRR5609128	adult, Ivermectin, female, 7 days	adult	Ivermectin	female	7 days
+SRR5609129	adult, Ivermectin, male, 1 day	adult	Ivermectin	male	1 day
+SRR5609130	adult, Ivermectin, male, 1 day	adult	Ivermectin	male	1 day
+SRR5609131	adult, Ivermectin, male, 1 day	adult	Ivermectin	male	1 day
+SRR5609132	adult, Ivermectin, male, 7 days	adult	Ivermectin	male	7 days
+SRR5609133	adult, Ivermectin, male, 7 days	adult	Ivermectin	male	7 days
+SRR5609134	adult, Ivermectin, male, 7 days	adult	Ivermectin	male	7 days
