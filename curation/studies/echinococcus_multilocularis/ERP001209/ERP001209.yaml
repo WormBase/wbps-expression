@@ -1,0 +1,11 @@
+---
+condition_names:
+  'Activated protoscolex, MS10': 'Activated protoscolex, strain MS10'
+  'Metacestode vesicle, without brood chambers, G8065': 'Metacestode vesicle, without brood chambers, strain G8065'
+  'Non-activated protoscolex, MS10': 'Non-activated protoscolex, strain MS10'
+  'Primary cells (stage 1), G8065': 'Primary cells (stage 1), strain G8065'
+  'Primary cells 11 days (stage 2), G8065': 'Primary cells 11 days (stage 2), strain G8065'
+contrasts: []
+description: 'The main objective of this project is to recognize genes expressed in the life stages and tissue types of a variety of different cestode species, including Echinococcus multilocularis, E. granulosus, Hymenolepis microstoma, H. nana and others. '
+pubmed: ~
+title: Cestode transcriptomics
