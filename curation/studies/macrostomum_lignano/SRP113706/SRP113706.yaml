@@ -1,0 +1,213 @@
+---
+condition_names: {}
+contrasts:
+  - name: treatment
+    values:
+      -
+        - '10 months, multiple-cut'
+        - '10 months, non-cut'
+        - '10 months: multiple-cut vs non-cut'
+      -
+        - '10 months, multiple-cut'
+        - '10 months, once-cut'
+        - '10 months: multiple-cut vs once-cut'
+      -
+        - '10 months, non-cut'
+        - '10 months, once-cut'
+        - '10 months: non-cut vs once-cut'
+      -
+        - '12 months, multiple-cut'
+        - '12 months, non-cut'
+        - '12 months: multiple-cut vs non-cut'
+      -
+        - '12 months, multiple-cut'
+        - '12 months, once-cut'
+        - '12 months: multiple-cut vs once-cut'
+      -
+        - '12 months, non-cut'
+        - '12 months, once-cut'
+        - '12 months: non-cut vs once-cut'
+      -
+        - '26 months, multiple-cut'
+        - '26 months, non-cut'
+        - '26 months: multiple-cut vs non-cut'
+      -
+        - '26 months, multiple-cut'
+        - '26 months, once-cut'
+        - '26 months: multiple-cut vs once-cut'
+      -
+        - '26 months, non-cut'
+        - '26 months, once-cut'
+        - '26 months: non-cut vs once-cut'
+      -
+        - '4 months, non-cut'
+        - '4 months, once-cut'
+        - '4 months: non-cut vs once-cut'
+      -
+        - '6 months, multiple-cut'
+        - '6 months, non-cut'
+        - '6 months: multiple-cut vs non-cut'
+      -
+        - '6 months, multiple-cut'
+        - '6 months, once-cut'
+        - '6 months: multiple-cut vs once-cut'
+      -
+        - '6 months, non-cut'
+        - '6 months, once-cut'
+        - '6 months: non-cut vs once-cut'
+  - name: age
+    values:
+      -
+        - '1 month, non-cut'
+        - '10 months, non-cut'
+        - 'non-cut: 1 month vs 10 months'
+      -
+        - '1 month, non-cut'
+        - '12 months, non-cut'
+        - 'non-cut: 1 month vs 12 months'
+      -
+        - '1 month, non-cut'
+        - '2 months, non-cut'
+        - 'non-cut: 1 month vs 2 months'
+      -
+        - '1 month, non-cut'
+        - '26 months, non-cut'
+        - 'non-cut: 1 month vs 26 months'
+      -
+        - '1 month, non-cut'
+        - '4 months, non-cut'
+        - 'non-cut: 1 month vs 4 months'
+      -
+        - '1 month, non-cut'
+        - '6 months, non-cut'
+        - 'non-cut: 1 month vs 6 months'
+      -
+        - '10 months, non-cut'
+        - '12 months, non-cut'
+        - 'non-cut: 10 months vs 12 months'
+      -
+        - '10 months, non-cut'
+        - '2 months, non-cut'
+        - 'non-cut: 10 months vs 2 months'
+      -
+        - '10 months, non-cut'
+        - '26 months, non-cut'
+        - 'non-cut: 10 months vs 26 months'
+      -
+        - '10 months, non-cut'
+        - '4 months, non-cut'
+        - 'non-cut: 10 months vs 4 months'
+      -
+        - '10 months, non-cut'
+        - '6 months, non-cut'
+        - 'non-cut: 10 months vs 6 months'
+      -
+        - '12 months, non-cut'
+        - '2 months, non-cut'
+        - 'non-cut: 12 months vs 2 months'
+      -
+        - '12 months, non-cut'
+        - '26 months, non-cut'
+        - 'non-cut: 12 months vs 26 months'
+      -
+        - '12 months, non-cut'
+        - '4 months, non-cut'
+        - 'non-cut: 12 months vs 4 months'
+      -
+        - '12 months, non-cut'
+        - '6 months, non-cut'
+        - 'non-cut: 12 months vs 6 months'
+      -
+        - '2 months, non-cut'
+        - '26 months, non-cut'
+        - 'non-cut: 2 months vs 26 months'
+      -
+        - '2 months, non-cut'
+        - '4 months, non-cut'
+        - 'non-cut: 2 months vs 4 months'
+      -
+        - '2 months, non-cut'
+        - '6 months, non-cut'
+        - 'non-cut: 2 months vs 6 months'
+      -
+        - '26 months, non-cut'
+        - '4 months, non-cut'
+        - 'non-cut: 26 months vs 4 months'
+      -
+        - '26 months, non-cut'
+        - '6 months, non-cut'
+        - 'non-cut: 26 months vs 6 months'
+      -
+        - '4 months, non-cut'
+        - '6 months, non-cut'
+        - 'non-cut: 4 months vs 6 months'
+      -
+        - '10 months, multiple-cut'
+        - '12 months, multiple-cut'
+        - 'multiple-cut: 10 months vs 12 months'
+      -
+        - '10 months, multiple-cut'
+        - '26 months, multiple-cut'
+        - 'multiple-cut: 10 months vs 26 months'
+      -
+        - '10 months, multiple-cut'
+        - '6 months, multiple-cut'
+        - 'multiple-cut: 10 months vs 6 months'
+      -
+        - '12 months, multiple-cut'
+        - '26 months, multiple-cut'
+        - 'multiple-cut: 12 months vs 26 months'
+      -
+        - '12 months, multiple-cut'
+        - '6 months, multiple-cut'
+        - 'multiple-cut: 12 months vs 6 months'
+      -
+        - '26 months, multiple-cut'
+        - '6 months, multiple-cut'
+        - 'multiple-cut: 26 months vs 6 months'
+      -
+        - '10 months, once-cut'
+        - '12 months, once-cut'
+        - 'once-cut: 10 months vs 12 months'
+      -
+        - '10 months, once-cut'
+        - '26 months, once-cut'
+        - 'once-cut: 10 months vs 26 months'
+      -
+        - '10 months, once-cut'
+        - '4 months, once-cut'
+        - 'once-cut: 10 months vs 4 months'
+      -
+        - '10 months, once-cut'
+        - '6 months, once-cut'
+        - 'once-cut: 10 months vs 6 months'
+      -
+        - '12 months, once-cut'
+        - '26 months, once-cut'
+        - 'once-cut: 12 months vs 26 months'
+      -
+        - '12 months, once-cut'
+        - '4 months, once-cut'
+        - 'once-cut: 12 months vs 4 months'
+      -
+        - '12 months, once-cut'
+        - '6 months, once-cut'
+        - 'once-cut: 12 months vs 6 months'
+      -
+        - '26 months, once-cut'
+        - '4 months, once-cut'
+        - 'once-cut: 26 months vs 4 months'
+      -
+        - '26 months, once-cut'
+        - '6 months, once-cut'
+        - 'once-cut: 26 months vs 6 months'
+      -
+        - '4 months, once-cut'
+        - '6 months, once-cut'
+        - 'once-cut: 4 months vs 6 months'
+description: Ageing in Macrostomum lignano
+pubmed:
+  29488325:
+    - 'Mouton .. Berezikov, 2018'
+    - 'Resilience to aging in the regeneration-capable flatworm Macrostomum lignano. (Mouton .. Berezikov, 2018)'
+title: Ageing in Macrostomum lignano

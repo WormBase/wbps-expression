@@ -1,0 +1,5 @@
+#!/bin/bash
+column_name=$1
+shift 
+ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
+$ROOT_DIR/scripts/transpose "$@" | grep $column_name | $ROOT_DIR/scripts/transpose

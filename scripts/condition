@@ -1,3 +1,3 @@
 #!/bin/bash
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
-$ROOT_DIR/scripts/transpose "$@" | grep Condition | $ROOT_DIR/scripts/transpose
+$ROOT_DIR/scripts/column Condition "$@"
