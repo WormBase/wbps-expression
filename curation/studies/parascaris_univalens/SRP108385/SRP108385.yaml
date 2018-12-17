@@ -1,0 +1,29 @@
+---
+condition_names: {}
+contrasts:
+  - name: organism_part
+    values:
+      -
+        - 'somatic, carcass, male'
+        - 'somatic, embryo, male'
+        - 'somatic, male: carcass vs embryo'
+      -
+        - 'somatic, carcass, male'
+        - 'somatic, intestine, male'
+        - 'somatic, male: carcass vs intestine'
+      -
+        - 'somatic, embryo, male'
+        - 'somatic, intestine, male'
+        - 'somatic, male: embryo vs intestine'
+  - name: organism_part+sex
+    values:
+      -
+        - 'germline, ovary, female'
+        - 'germline, testis, male'
+        - 'germline: ovary, female vs testis, male'
+description: Comparative Genome Analysis of Programmed DNA Elimination in Nematodes (Parascaris)
+pubmed:
+  29118011:
+    - 'Wang .. Davis, 2017'
+    - 'Comparative genome analysis of programmed DNA elimination in nematodes. (Wang .. Davis, 2017)'
+title: Comparative Genome Analysis of Programmed DNA Elimination in Nematodes (Parascaris)

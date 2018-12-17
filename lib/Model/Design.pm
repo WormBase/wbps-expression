@@ -170,6 +170,8 @@ sub data_quality_checks {
        => scalar %runs_by_condition,
     "Study should have some characteristics" 
        => 0+@{$self->{characteristics_in_order}},
+    "Characteristics should have non-blank names"
+       => ( 0 ==  grep {not $_} @{$self->{characteristics_in_order}}),
     "Conditions should have non-blank names",
        => ( 0 ==  grep {not $_} $self->all_conditions),
     "Conditions should have reasonably short names - below 60 chars",
