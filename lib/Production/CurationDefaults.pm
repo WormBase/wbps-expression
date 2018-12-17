@@ -132,14 +132,15 @@ sub contrast_name {
   my $test_short = trim_values($test,@test_values); 
   if($reference_short eq $test_short){
     my ($ref_only, $intersection, $test_only) = venn(\@reference_values, \@test_values);
+    my @ref_only = grep {$_} @{$ref_only};
+    my @test_only = grep {$_} @{$test_only};
     my $common = $reference_short || join(", ", grep {$_} @{$intersection});
     $common = "$common: " if $common;
     return $common
-      . (@reference_values ? join (", ", grep {$_} @{$ref_only}) : "''")
+      . (@ref_only ? join (", ", @ref_only ) : "''")
       . " vs "
-      . (@test_values ? join(", ", grep {$_} @{$test_only}): "''");
+      . (@test_only ? join(", ", @test_only) : "''");
   } else {
-### require: @$factors ==1
     return "$reference vs $test";
   }
 }
