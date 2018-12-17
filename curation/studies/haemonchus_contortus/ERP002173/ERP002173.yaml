@@ -1,0 +1,124 @@
+---
+condition_names:
+  CAVR: strain CAVR
+  ISE: strain ISE
+  'L1, inbred ISE': 'L1, strain inbred ISE'
+  'L4, inbred ISE': 'L4, strain inbred ISE'
+  MHco3(ISE): strain MHco3(ISE)
+  Unannotated: strain Unannotated
+  WRS: strain WRS
+  'adult, female, inbred ISE': 'adult, female, strain inbred ISE'
+  'adult, male, inbred ISE': 'adult, male, strain inbred ISE'
+  'dissected adult female gut, ISE': 'dissected adult female gut, strain ISE'
+  'dissected adult female gut, MHco3(ISE)': 'dissected adult female gut, strain MHco3(ISE)'
+  'eggs, inbred ISE': 'eggs, strain inbred ISE'
+  inbred ISE: strain inbred ISE
+  'sheathed L3, inbred ISE': 'sheathed L3, strain inbred ISE'
+contrasts:
+  - name: strain
+    values:
+      -
+        - CAVR
+        - ISE
+        - CAVR vs ISE
+      -
+        - CAVR
+        - MHco3(ISE)
+        - CAVR vs MHco3(ISE)
+      -
+        - CAVR
+        - WRS
+        - CAVR vs WRS
+      -
+        - CAVR
+        - inbred ISE
+        - CAVR vs inbred ISE
+      -
+        - ISE
+        - MHco3(ISE)
+        - ISE vs MHco3(ISE)
+      -
+        - ISE
+        - WRS
+        - ISE vs WRS
+      -
+        - ISE
+        - inbred ISE
+        - ISE vs inbred ISE
+      -
+        - MHco3(ISE)
+        - WRS
+        - MHco3(ISE) vs WRS
+      -
+        - MHco3(ISE)
+        - inbred ISE
+        - MHco3(ISE) vs inbred ISE
+      -
+        - WRS
+        - inbred ISE
+        - WRS vs inbred ISE
+  - name: developmental_stage+sex
+    values:
+      -
+        - 'L1, inbred ISE'
+        - 'L4, inbred ISE'
+        - 'inbred ISE: L1 vs L4'
+      -
+        - 'L1, inbred ISE'
+        - 'adult, female, inbred ISE'
+        - 'inbred ISE: L1 vs adult, female'
+      -
+        - 'L1, inbred ISE'
+        - 'adult, male, inbred ISE'
+        - 'inbred ISE: L1 vs adult, male'
+      -
+        - 'L1, inbred ISE'
+        - 'eggs, inbred ISE'
+        - 'inbred ISE: L1 vs eggs'
+      -
+        - 'L1, inbred ISE'
+        - 'sheathed L3, inbred ISE'
+        - 'inbred ISE: L1 vs sheathed L3'
+      -
+        - 'L4, inbred ISE'
+        - 'adult, female, inbred ISE'
+        - 'inbred ISE: L4 vs adult, female'
+      -
+        - 'L4, inbred ISE'
+        - 'adult, male, inbred ISE'
+        - 'inbred ISE: L4 vs adult, male'
+      -
+        - 'L4, inbred ISE'
+        - 'eggs, inbred ISE'
+        - 'inbred ISE: L4 vs eggs'
+      -
+        - 'L4, inbred ISE'
+        - 'sheathed L3, inbred ISE'
+        - 'inbred ISE: L4 vs sheathed L3'
+      -
+        - 'adult, female, inbred ISE'
+        - 'adult, male, inbred ISE'
+        - 'inbred ISE: female vs male'
+      -
+        - 'adult, female, inbred ISE'
+        - 'eggs, inbred ISE'
+        - 'inbred ISE: adult, female vs eggs'
+      -
+        - 'adult, female, inbred ISE'
+        - 'sheathed L3, inbred ISE'
+        - 'inbred ISE: adult, female vs sheathed L3'
+      -
+        - 'adult, male, inbred ISE'
+        - 'eggs, inbred ISE'
+        - 'inbred ISE: adult, male vs eggs'
+      -
+        - 'adult, male, inbred ISE'
+        - 'sheathed L3, inbred ISE'
+        - 'inbred ISE: adult, male vs sheathed L3'
+      -
+        - 'eggs, inbred ISE'
+        - 'sheathed L3, inbred ISE'
+        - 'inbred ISE: eggs vs sheathed L3'
+description: Haemonchus contortus transcriptome
+pubmed: ~
+title: Haemonchus contortus transcriptome
