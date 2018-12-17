@@ -1,7 +1,6 @@
 ---
 condition_names:
   'Adult, whole': 'Adult, whole worm'
-  Nottingham: strain Nottingham
   mid-metamorphosis larvae: Appr. 5 days old mid-metamorphosis larvae
 contrasts:
   - name: organism_part
