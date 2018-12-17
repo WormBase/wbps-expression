@@ -10,7 +10,7 @@ sub new {
 sub to_html {
   my ($self) = @_;
   my $result = "";
-  open(my $fh, ">", \$result);
+  open(my $fh, ">:utf8", \$result);
   print $fh sprintf("<h2> %s - public RNASeq studies</h2>\n", do {
     my $species = $self->{species};
     $species =~ s/_/ /g;

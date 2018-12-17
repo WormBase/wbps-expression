@@ -10,7 +10,7 @@ sub new {
 sub to_markdown {
    my ($study) = @_;
    my $result = "";
-   open (my $fh, ">", \$result);
+   open (my $fh, ">:utf8", \$result);
    print $fh sprintf("### %s: %s\n", $study->{study_id}, $study->{config}{title} // "<title>" );
    print $fh sprintf("*%s*\n", $study->{config}{description}) if $study->{config}{description} and $study->{config}{description} ne $study->{config}{title};
    while (my ($k, $v) = each %{$study->{config}{pubmed} //{}}){

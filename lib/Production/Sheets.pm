@@ -41,7 +41,7 @@ sub list {
 sub write_list {
   my ($self, $list, $name, $species) = @_;
   my $entry = $self->path($name, $species);
-  open(my $fh, ">", "$entry.tsv") or die "$entry.tsv: $!";
+  open(my $fh, ">:utf8", "$entry.tsv") or die "$entry.tsv: $!";
   map {print $fh "$_\n"} @{$list};
   close($fh);
 }

@@ -11,7 +11,7 @@ sub new {
 sub to_markdown {
   my ($design) = @_;
   my $table = ""; 
-  open(my $fh, ">", \$table);
+  open(my $fh, ">:utf8", \$table);
   my @a = @{$design->{characteristics_in_order}};
   print $fh join(" | ","" , "Run", "Condition", @a, "")."\n";
   print $fh join(" | ","", "---", "---",(map {"---"} @a), "")."\n";
