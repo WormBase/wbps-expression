@@ -1,0 +1,9 @@
+---
+condition_names: {}
+contrasts: []
+description: 'We conducted transcriptome sequencing of Clonorchis sinesis sub-organs (sucker, muscle, ovary and testis) with Illumina sequencing.'
+pubmed:
+  23382950:
+    - 'Huang .. Yu, 2013'
+    - 'The carcinogenic liver fluke, Clonorchis sinensis: new assembly, reannotation and analysis of the genome and characterization of tissue transcriptomes. (Huang .. Yu, 2013)'
+title: Clonorchis sinensis transcriptome

@@ -28,9 +28,13 @@ sub get_studies_in_sheets {
   return map {Model::Study->from_folder($_)} $self->{sheets}->dir_content_paths("studies", $species);
 }
 
+my %exceptions = (
+  "ERP006987" => "C. sinensis: four runs, but the tpms could be meaningful"
+);
+
 sub should_reject_study {
   my ($self, $study) = @_;
-  return $study->{design}->all_runs < 6;
+  return not ($exceptions{$study->{study_id}}) && $study->{design}->all_runs < 6;
 }
 
 sub fetch_incoming_studies {
