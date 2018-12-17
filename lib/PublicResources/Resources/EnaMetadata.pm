@@ -1,6 +1,6 @@
 
 package PublicResources::Resources::EnaMetadata;
-use List::Util qw(sum);
+use List::Util qw(sum pairmap);
 use List::MoreUtils qw(uniq);
 use parent PublicResources::Resources::LocallyCachedResource;
 
@@ -47,6 +47,15 @@ sub _data_for_bioproject_from_ena_bioproject_xml {
          @{$payload->{PROJECT}{PROJECT_LINKS}{PROJECT_LINK}}
     ], $payload->{PROJECT}{center_name};
 }
+
+# Found description as an empty hash in: SRP013211
+sub to_string {
+    my ($o) = @_;
+    $o = join ", ", pairmap {"$a: $b"} %{$o} if ref $o eq 'HASH';
+    $o = join ", ", @{$o} if ref $o eq 'ARRAY';
+    return $o;
+}
+
 sub _data_for_study_from_ena_study_xml {
     my $payload = shift;
     return {} unless $payload;
@@ -84,13 +93,13 @@ sub _data_for_study_from_ena_study_xml {
           #probably a link to an ENA something - skip
        }
     }
-    
+     
     return {
       attributes => $attributes,
       bioproject => $bioproject,
       study_pubmed => \@pubmed_refs,
-      study_title => $payload->{STUDY}{DESCRIPTOR}{STUDY_TITLE},
-      study_description => $payload->{STUDY}{DESCRIPTOR}{STUDY_DESCRIPTION},
+      study_title => to_string($payload->{STUDY}{DESCRIPTOR}{STUDY_TITLE}),
+      study_description => to_string($payload->{STUDY}{DESCRIPTOR}{STUDY_DESCRIPTION}),
     };
 }
 1;

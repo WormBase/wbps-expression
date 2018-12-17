@@ -29,7 +29,8 @@ sub get_studies_in_sheets {
 }
 
 my %exceptions = (
-  "ERP006987" => "C. sinensis: four runs, but the tpms could be meaningful"
+  "ERP006987" => "C. sinensis: four runs, but the tpms could be meaningful",
+  "SRP013211" => "O. viverrini: two runs, juvenile vs adult, from 2012",
 );
 
 sub should_reject_study {
