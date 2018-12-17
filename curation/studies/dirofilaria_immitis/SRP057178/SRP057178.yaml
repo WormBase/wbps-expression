@@ -1,0 +1,35 @@
+---
+condition_names: {}
+contrasts:
+  - name: organism_part
+    values:
+      -
+        - body wall
+        - head
+        - body wall vs head
+      -
+        - body wall
+        - intestine
+        - body wall vs intestine
+      -
+        - body wall
+        - uterus
+        - body wall vs uterus
+      -
+        - head
+        - intestine
+        - head vs intestine
+      -
+        - head
+        - uterus
+        - head vs uterus
+      -
+        - intestine
+        - uterus
+        - intestine vs uterus
+description: Tissue-Specific Transcriptomics and Proteomics of a Filarial Nematode and its Wolbachia Endosymbiont
+pubmed:
+  26559510:
+    - 'Luck .. Slatko, 2015'
+    - 'Tissue-specific transcriptomics and proteomics of a filarial nematode and its Wolbachia endosymbiont. (Luck .. Slatko, 2015)'
+title: Tissue-Specific Transcriptomics and Proteomics of a Filarial Nematode and its Wolbachia Endosymbiont
