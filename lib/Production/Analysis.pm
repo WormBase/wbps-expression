@@ -7,7 +7,7 @@ use File::Basename;
 use Production::Analysis::DataFiles;
 use Production::Analysis::DESeq2;
 use Model::Design;
-use List::Util qw/pairmap pairgrep/;
+use List::Util qw/pairmap pairs pairgrep/;
 use File::Path qw/make_path/;
 use View::StudiesPage;
 # use Smart::Comments '###';
@@ -23,7 +23,6 @@ sub low_qc_by_condition {
    my %d = %{$runs_by_condition};
     for my $c (keys %d){
       my @runs = @{$d{$c}};
-      push @{$result{$c}}, sprintf("low replicates (%s)", scalar @runs) if @runs < 3;
       my %qcs;
       for my $run_id (@runs){
          for my $qc (@{$qc_issues_per_run->{$run_id}}){
@@ -35,6 +34,34 @@ sub low_qc_by_condition {
       }
    }
    return \%result;
+}
+sub low_replicate_by_condition {
+  my ($runs_by_condition) = @_;
+  my %result = ();
+  my %d = %{$runs_by_condition};
+  for my $c (keys %d){
+    my $number_runs = @{$d{$c}};
+    $result{$c} = $number_runs if $number_runs < 3;
+  }
+  return \%result;
+}
+sub low_replicate_warnings {
+  my ($runs_by_condition) = @_;
+  my %low_replicates_by_count = ();
+  my %d = %{$runs_by_condition};
+  for my $c (keys %d){
+    my @runs = @{$d{$c}};
+    push @{$low_replicates_by_count{scalar @runs}}, $c if @runs < 3;
+  }
+  return map {
+    my $count = $_->[0];
+    my @conditions = @{$_->[1]};
+    keys %d == @conditions 
+      ? sprintf("low replicates in all conditions (%s)", $count)
+      : sprintf("low replicates (%s) : %s" , $_->[0], join(", " , @conditions))
+  } sort {
+    $b->[0] cmp $a->[0] 
+  } pairs %low_replicates_by_count;
 }
 
 my %ANALYSES = (  
@@ -60,17 +87,25 @@ my %ANALYSES = (
     my @conditions_ordered = $study->{design}->all_conditions; 
     my %qc_issues_per_run = map {$_ => $files->{$_}{qc_issues}} map {@{$_}} values %{$runs_by_condition};
     my $low_qc_by_condition = low_qc_by_condition($runs_by_condition, \%qc_issues_per_run);
-#### $low_qc_by_condition
+    my $low_replicate_by_condition = low_replicate_by_condition($runs_by_condition);
+### $low_qc_by_condition
+### $low_replicate_by_condition
     my @qc_warnings = map {
-      $low_qc_by_condition->{$_} ? ("!$_: ".join(". ", sort map {ucfirst $_} @{$low_qc_by_condition->{$_}})): ()
-    } @conditions_ordered;
+      my @low_qc = sort map {ucfirst $_} @{$low_qc_by_condition->{$_} // []};
+      my $low_rep = $low_replicate_by_condition->{$_} ? sprintf ("Low replicates (%s)", $low_replicate_by_condition->{$_}) : "";
+      @low_qc || $low_rep ? "!$_: ".join(". ", @low_qc, $low_rep || ()) : ()
+    } @conditions_ordered; 
     my @frontmatter = $analysis_args{decorate_files} ? ($analysis_args{description}, @qc_warnings) : ();
-#### @frontmatter
+### @frontmatter
     my @name_to_pathlist_pairs= map {
-       my $name = $analysis_args{decorate_files} && $low_qc_by_condition->{$_} ? "!$_" : $_;
+       my $name = $_;
+       if($analysis_args{decorate_files} && ($low_qc_by_condition->{$_} || $low_replicate_by_condition->{$_})){
+          $name = "!$name";
+       }
        my @paths = map {$files->{$_}{$analysis_args{source}}} @{$runs_by_condition->{$_}};
        [$name, \@paths]
     } @conditions_ordered;
+### @name_to_pathlist_pairs 
     Production::Analysis::DataFiles::average_and_aggregate(\@name_to_pathlist_pairs, $output_path, @frontmatter);
   },
   differential_expression => sub {
@@ -80,16 +115,25 @@ my %ANALYSES = (
     my @conditions_ordered = $study->{design}->all_conditions; 
     my %qc_issues_per_run = map {$_ => $files->{$_}{qc_issues}} map {@{$_}} values %{$runs_by_condition};
     my $low_qc_by_condition = low_qc_by_condition($runs_by_condition, \%qc_issues_per_run);
+    my $low_replicate_by_condition = low_replicate_by_condition($runs_by_condition);
     my @qc_warnings;
     my @contrasts_amended_names;
+    my $contrasts_low_replicates;
     for (@{$analysis_args{contrasts}}){
        my ($reference, $test, $name) = @{$_};
        my @qcs  = ((map {"$reference - $_"} @{$low_qc_by_condition->{$reference} //[]}),( map {"$test - $_"} @{$low_qc_by_condition->{$test} //[]}));
-       if(@qcs){
-          push @qc_warnings, "!$name: ".join(". ", sort map {ucfirst $_} @qcs);
-          $name = "!$name";
-       }
+       my $low_replicates = $low_replicate_by_condition->{$reference} || $low_replicate_by_condition->{$test};
+       push @qc_warnings, "!$name: ".join(". ", sort map {ucfirst $_} @qcs) if @qcs;
+       $contrasts_low_replicates++ if $low_replicates;
+       $name = "!$name" if @qcs || $low_replicates;
        push @contrasts_amended_names, [$reference, $test, $name ];
+    }  
+    # We don't allow contrasts with 1 replicate. So if low, then 2.
+    if(keys %{$low_replicate_by_condition} == @conditions_ordered){
+       push @qc_warnings, "! Contrasts based on conditions with low (2) replicates";
+    } elsif (%{$low_replicate_by_condition}){
+       push @qc_warnings, sprintf("! Conditions with low (2) replicates used in %s/%s contrasts:",  $contrasts_low_replicates, scalar @contrasts_amended_names); 
+       push @qc_warnings, "! - $_" for keys %{$low_replicate_by_condition} ;
     }
 
     my $source_file = join("/", dirname ($output_path), $analysis_args{source_file_name});
