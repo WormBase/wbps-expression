@@ -1,0 +1,15 @@
+---
+condition_names: {}
+contrasts:
+  - name: sex
+    values:
+      -
+        - female
+        - male
+        - female vs male
+description: Male and Female DNA and RNA sequencing in several nematode species
+pubmed:
+  24793291:
+    - 'Albritton .. Ercan, 2014'
+    - 'Sex-biased gene expression and evolution of the x chromosome in nematodes. (Albritton .. Ercan, 2014)'
+title: Male and Female DNA and RNA sequencing in several nematode species
