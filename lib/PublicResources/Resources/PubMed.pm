@@ -7,7 +7,10 @@ use XML::Simple;
 my $curation = {
   hymenolepis_microstoma => {
     ERP004459 => [30455861], 
-  }
+  },
+  heligmosomoides_polygyrus => {
+    SRP157940 => [30349532],
+  }, 
 };
 sub _fetch {
     my ( $class, $species, $metadata ) = @_;

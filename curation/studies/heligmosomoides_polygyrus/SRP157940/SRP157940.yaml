@@ -8,5 +8,8 @@ contrasts:
         - specific pathogen-free conditions
         - germ-free conditions vs specific pathogen-free conditions
 description: RNA-Seq of Heligmosomoides polygyrus under varying mice gut condition
-pubmed: ~
+pubmed:
+  30349532:
+    - 'Rausch .. Hartmann, 2018'
+    - 'Parasitic Nematodes Exert Antimicrobial Activity and Benefit From Microbiota-Driven Support for Host Immune Regulation. (Rausch .. Hartmann, 2018)'
 title: RNA-Seq of Heligmosomoides polygyrus under varying mice gut condition
