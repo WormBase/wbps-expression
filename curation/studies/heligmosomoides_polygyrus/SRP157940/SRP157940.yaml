@@ -1,0 +1,12 @@
+---
+condition_names: {}
+contrasts:
+  - name: host_conditions
+    values:
+      -
+        - germ-free conditions
+        - specific pathogen-free conditions
+        - germ-free conditions vs specific pathogen-free conditions
+description: RNA-Seq of Heligmosomoides polygyrus under varying mice gut condition
+pubmed: ~
+title: RNA-Seq of Heligmosomoides polygyrus under varying mice gut condition
