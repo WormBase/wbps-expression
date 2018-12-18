@@ -2,9 +2,10 @@ use strict;
 use warnings;
 package View::StudiesPage;
 use View::Study;
+use View::SkippedRuns;
 sub new {
-  my ($class, $species, @studies) = @_;
-  return bless {species => $species, studies => \@studies}, $class;
+  my ($class, $species, $studies) = @_;
+  return bless {species => $species, studies => $studies}, $class;
 }
 
 sub to_html {
@@ -17,12 +18,18 @@ sub to_html {
     ucfirst($species)
   });
 
-  my $toc = join "\n", map {"<li>$_</li>\n"} map {$_->{study_id}} @{$self->{studies}};
-  print $fh "<h3>TOC</h3>\n<ul>\n$toc</ul>\n";
   
   print $fh "<h3>Studies</h3>\n";
-  for my $study (@{$self->{studies}}){
+  print $fh "<h4>Analysed</h4>\n";
+  for my $study (@{$self->{studies}{passing_checks}}){
      print $fh View::Study->new($study)->to_html . "\n";
+  }
+  for my $study (@{$self->{studies}{failing_checks}}){
+     print $fh View::Study->new($study)->to_html . "\n";
+  }
+  print $fh "<h4>Other</h4>\n";
+  for my $skipped_runs (@{$self->{studies}{skipped_runs}}){
+     print $fh View::SkippedRuns->new($skipped_runs)->to_html . "\n";
   }
   close $fh; 
   return sprintf('

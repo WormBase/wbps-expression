@@ -170,11 +170,11 @@ sub run_all {
   my ($self, %args) = @_;
   my $output_dir = join("/", $self->{dir}, $args{species} , $args{assembly});
   make_path $output_dir;
-  for my $study (@{$args{studies}}){
+  for my $study (@{$args{studies}{passing_checks}}){
      print STDERR sprintf("Running: %s\n", $study->{study_id}) if $ENV{ANALYSIS_VERBOSE};
     $self->run($output_dir, $study, $args{files}{$study->{study_id}}) unless $ENV{ANALYSIS_SKIP_ALL};
   }
   print STDERR "Writing page: $output_dir/index.html\n" if $ENV{ANALYSIS_VERBOSE};
-  write_file("$output_dir/index.html", View::StudiesPage->new($args{species}, @{$args{studies}})->to_html);
+  write_file("$output_dir/index.html", View::StudiesPage->new($args{species}, $args{studies})->to_html);
 }
 1;

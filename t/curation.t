@@ -204,4 +204,8 @@ find(
   },
   "$FindBin::Bin/../curation/studies"
 );
+# TODO: Something that checks skipped runs and curated studies don't overrun
+# If there's a matching study, the config is empty, and the runs don't overlap
+# Otherwise the config is nonempty
+
 done_testing;

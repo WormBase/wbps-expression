@@ -12,7 +12,9 @@ use List::Util qw/first/;
 use List::MoreUtils qw/uniq/;
 use Text::MultiMarkdown qw/markdown/;
 use Model::Study;
+use Model::SkippedRuns;
 use View::StudiesPage;
+use Smart::Comments;
 sub new {
   my ($class, $root_dir, $src_dir, $work_dir) = @_;
   my $sheets = Production::Sheets->new($src_dir);
@@ -27,6 +29,10 @@ sub get_studies_in_sheets {
   my ($self, $species) = @_;
   return map {Model::Study->from_folder($_)} $self->{sheets}->dir_content_paths("studies", $species);
 }
+sub get_skipped_runs_in_sheets {
+  my ($self, $species) = @_;
+  return map {Model::SkippedRuns->from_folder($_)} $self->{sheets}->dir_content_paths("skipped_runs", $species);
+}
 
 my %exceptions = (
   "ERP006987" => "C. sinensis: four runs, but the tpms could be meaningful",
@@ -34,19 +40,46 @@ my %exceptions = (
 );
 
 sub should_reject_study {
-  my ($self, $study) = @_;
-  return not ($exceptions{$study->{study_id}}) && $study->{design}->all_runs < 6;
+  my ($self, $public_study_record) = @_;
+  return not ($exceptions{$public_study_record->{study_id}}) && $public_study_record->{runs} < 6;
+}
+
+# I could be more complicated
+# e.g. get the median number of characteristics in a study, reject if three times fewer?
+sub should_reject_run {
+  my ($study, $run) = @_;
+  return not(%{$run->{characteristics}});
 }
 
 sub fetch_incoming_studies {
-  my ($self, $public_study_records, $current_studies, $current_ignore_studies) = @_;
+  my ($self, $public_study_records, $current_studies, $current_skipped_runs_per_study_id) = @_;
 
-  my %result = (REJECT => [], SAVE => []); 
-  for my $study ( map {&Production::CurationDefaults::study(%$_)} @{$public_study_records}){
+  my %result = (NEW_SKIPPED_RUNS => [], SAVE => []); 
+  for my $study (@{$public_study_records}){
     my $current_record = $current_studies->{$study->{study_id}};
-    if ($current_ignore_studies->{$study->{study_id}} or $self->should_reject_study($study)){
-      push @{$result{REJECT}}, $study;
-    } else { 
+    my $should_reject_all = $self->should_reject_study($study);
+    my @should_reject_runs = map {
+      $_->{run_id}
+    } grep {
+      $should_reject_all || should_reject_run($study, $_)
+    } @{$study->{runs}};
+
+    my @current_skipped_runs = @{ $current_skipped_runs_per_study_id->{$study->{study_id}}{runs}//[]};
+    my %runs_to_skip = map {$_ => 1} (@should_reject_runs, @current_skipped_runs);
+### @current_skipped_runs
+    if ($current_record and not $ENV{RECREATE_ALL_SKIPPED_RUNS}){
+       delete $runs_to_skip{$_} for $current_record->design->all_runs;
+    }
+
+    my @remaining_runs = grep {not $runs_to_skip{$_->{run_id}}} @{$study->{runs}};
+
+    if (%runs_to_skip){
+      my $config = @remaining_runs ? {} : &Production::CurationDefaults::config_base(%$study);
+      push @{$result{NEW_SKIPPED_RUNS}}, Model::SkippedRuns->new($study->{study_id}, $config, [keys %runs_to_skip]);
+    }
+    if (@remaining_runs){
+      $study->{runs} = \@remaining_runs; 
+      $study = &Production::CurationDefaults::study(%$study);
       if ($current_record and Model::Study::config_matches_design_checks($current_record->{config}, $study->{design}) and not $ENV{RECREATE_ALL_CONFIGS}){
         $study->{config}{contrasts} = $current_record->{config}{contrasts};
         $study->{config}{condition_names} = $current_record->{config}{condition_names};
@@ -60,30 +93,37 @@ sub fetch_incoming_studies {
 }
 sub run_checks {
   my ($self, @studies) = @_;
-  my %result = (FAILED_CHECKS => [], PASSED_CHECKS => []);
+  my @failed_checks;
+  my @passed_checks;
   for my $study (@studies){
-    push @{$result{$study->passes_checks ? "PASSED_CHECKS" : "FAILED_CHECKS"}},$study;
+    if($study->passes_checks){
+       push @passed_checks, $study;
+    } else {
+       push @failed_checks, $study;
+    }
   }
-  return \%result;
+  return \@failed_checks, \@passed_checks;
 }
+
 sub do_everything {
   my ($self, $species, $assembly) = @_;
   my @public_study_records = $self->{public_rnaseq_studies}->get($species, $assembly);  
   my %current_studies = map {$_->{study_id}=> $_} $self->get_studies_in_sheets($species);
-  my %current_ignore_studies = map {$_=>1} $self->{sheets}->list("ignore_studies", $species);
-  my $incoming_studies = $self->fetch_incoming_studies(\@public_study_records, \%current_studies, \%current_ignore_studies);
+  my %current_skipped_runs_per_study_id  = map {$_->{study_id}=> $_} $self->get_skipped_runs_in_sheets($species);
+
+  my $incoming_studies = $self->fetch_incoming_studies(\@public_study_records, \%current_studies, \%current_skipped_runs_per_study_id);
+
   for my $study (@{$incoming_studies->{SAVE}}){
      $study->to_folder($self->{sheets}->path("studies", $species, $study->{study_id}));
   }
-  my @new_ignore_studies = uniq sort(keys %current_ignore_studies, map {$_->{study_id}} @{$incoming_studies->{REJECT}});
-  if (@{$incoming_studies->{REJECT}}){
-    $self->{sheets}->write_list( \@new_ignore_studies, "ignore_studies", $species);
+  for my $skipped_runs (@{$incoming_studies->{NEW_SKIPPED_RUNS}}){
+     $skipped_runs->to_folder($self->{sheets}->path("skipped_runs", $species, $skipped_runs->{study_id}));
   }
   
-  my $todo_studies = $self->run_checks(@{$incoming_studies->{SAVE}});
+  my ($studies_failing_checks, $studies_passing_checks) = $self->run_checks(@{$incoming_studies->{SAVE}});
 
   my %files;
-  for my $study (@{$todo_studies->{PASSED_CHECKS}}){
+  for my $study (@{$studies_passing_checks}){
      my $public_study_record = first {$_->{study_id} eq $study->{study_id}} @public_study_records; 
      for my $run (@{$public_study_record->{runs}}){
         $files{$study->{study_id}}{$run->{run_id}} = { 
@@ -95,18 +135,12 @@ sub do_everything {
   $self->{analysis}->run_all(
     species => $species,
     assembly => $assembly,
-    studies => $todo_studies->{PASSED_CHECKS},
+    studies => {
+      passing_checks => $studies_passing_checks,
+      failing_checks => $studies_failing_checks,
+      skipped_runs => $incoming_studies->{NEW_SKIPPED_RUNS},
+    },
     files => \%files,
   );
-
-  # TODO report somewhere, maybe here:
-  # \@new_ignore_studies
-  # $todo_studies->{FAILED_CHECKS}
-
-  # Future directions:
-  # - Deployment directory - link between production directory results, a corner of FTP where they serve, and where the paths should go
-  # - Instead of the markdown report, make something deployable
-  # - Report on what just happened: I'm not sure actually, maybe it's better to always show state that was achieved after the run
-  
 }
 1;

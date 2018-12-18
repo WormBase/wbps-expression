@@ -199,7 +199,14 @@ sub contrasts {
 #### @result
   return \@result;
 }
-
+sub config_base {
+  my (%args) = @_;
+  return {
+      title           => $args{study_description_short},
+      description     => $args{study_description_full},
+      pubmed          => $args{pubmed},
+  };
+}
 sub study {
   my (%args) = @_;
   my $design = design_from_runs( @{ $args{runs} } );
@@ -207,10 +214,8 @@ sub study {
     $args{study_id},
     $design,
     {
+      %{ config_base(%args) },
       condition_names => condition_names( @{ $args{runs} } ),
-      title           => $args{study_description_short},
-      description     => $args{study_description_full},
-      pubmed          => $args{pubmed},
       contrasts       => contrasts($design),
     }
   );
