@@ -37,6 +37,7 @@ sub get_skipped_runs_in_sheets {
 my %exceptions = (
   "ERP006987" => "C. sinensis: four runs, but the tpms could be meaningful",
   "SRP013211" => "O. viverrini: two runs, juvenile vs adult, from 2012",
+  "DRP003063" => "Emu study, four runs",
 );
 
 sub should_reject_study {
