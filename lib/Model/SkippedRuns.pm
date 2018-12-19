@@ -42,7 +42,7 @@ sub to_folder {
    make_path $path;
    my $tsv_path = sprintf("%s/%s.tsv", $path, $self->{study_id});
    my $yaml_path = sprintf("%s/%s.yaml", $path, $self->{study_id});
-   write_file($tsv_path, join("\n", "Run", sort @{$self->{runs}})); 
+   write_file($tsv_path, join("\n", "Run", sort @{$self->{runs}})."\n"); 
    if(%{$self->{config}}){
      DumpFile($yaml_path,$self->{config});
    } else {

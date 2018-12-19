@@ -1,0 +1,14 @@
+Run	Condition	developmental_stage	incubation	treatment
+SRR1124913	12 days post infection	12 days post infection		
+SRR1124849	18 d.p.i + incubate, Cry5B treatment	18 days post infection	culture media	100ug/mL Cry5B
+SRR1124850	18 d.p.i + incubate, control treatment	18 days post infection	culture media	HEPES buffer (control)
+SRR1124905	18 d.p.i. + incubate with SB203580, Cry5B treatment	18 days post infection	50uM SB203580 (p38 MAPK inhibitor)	100ug/mL Cry5B
+SRR1124900	18 d.p.i. + incubate with SB203580, control treatment 	18 days post infection	50uM SB203580 (p38 MAPK inhibitor)	HEPES buffer (control)
+SRR1124906	18 d.p.i. 100ug/mL Cry5B treatment	18 days post infection		100ug/mL Cry5B
+SRR1124909	18 d.p.i. albendazole treatment	18 days post infection		albendazole
+SRR1124907	18 d.p.i. control treatment	18 days post infection		HEPES buffer (control)
+SRR1124911	19 days post infection	19 days post infection		
+SRR1124910	24 hours post infection	24 hours post infection		
+SRR1124914	5 days post infection	5 days post infection		
+SRR1124986	Infectious L3 larvae	Infectious L3 larvae		
+SRR1124985	Infectious L3 larvae, incubated	Infectious L3 larvae	culture media	
