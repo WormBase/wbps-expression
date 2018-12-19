@@ -1,0 +1,29 @@
+---
+condition_names: {}
+contrasts:
+  - name: sex
+    values:
+      -
+        - 'Sj-pp1c KD, female'
+        - 'Sj-pp1c KD, male'
+        - 'Sj-pp1c KD: female vs male'
+      -
+        - 'wild type, female'
+        - 'wild type, male'
+        - 'wild type: female vs male'
+  - name: genotype
+    values:
+      -
+        - 'Sj-pp1c KD, female'
+        - 'wild type, female'
+        - 'female: Sj-pp1c KD vs wild type'
+      -
+        - 'Sj-pp1c KD, male'
+        - 'wild type, male'
+        - 'male: Sj-pp1c KD vs wild type'
+description: Transcriptome analysis of females and males following knockdown serine/threonine protein phosphatase 1 catalytic subunit encoding genes(Sj-pp1c) in Schistosoma japonicum
+pubmed:
+  29879373:
+    - 'Zhao .. Hu, 2018'
+    - 'Serine/threonine protein phosphatase 1 (PP1) controls growth and reproduction in Schistosoma japonicum. (Zhao .. Hu, 2018)'
+title: Transcriptome analysis of females and males following knockdown serine/threonine protein phosphatase 1 catalytic subunit encoding genes(Sj-pp1c) in Schistosoma japonicum

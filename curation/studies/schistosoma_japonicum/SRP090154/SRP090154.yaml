@@ -1,0 +1,40 @@
+---
+condition_names: {}
+contrasts:
+  - name: sex
+    values:
+      -
+        - '14day, female'
+        - '14day, male'
+        - '14day: female vs male'
+      -
+        - '16day, female'
+        - '16day, male'
+        - '16day: female vs male'
+      -
+        - '18day, female'
+        - '18day, male'
+        - '18day: female vs male'
+      -
+        - '20day, female'
+        - '20day, male'
+        - '20day: female vs male'
+      -
+        - '22day, female'
+        - '22day, male'
+        - '22day: female vs male'
+      -
+        - '24day, female'
+        - '24day, male'
+        - '24day: female vs male'
+      -
+        - '26day, female'
+        - '26day, male'
+        - '26day: female vs male'
+      -
+        - '28day, female'
+        - '28day, male'
+        - '28day: female vs male'
+description: Dynamic transcriptome surveys revealed that biogenic amines and insect-like hormonal regulation are involved in Schistosoma japonicum pairing and reproductive development
+pubmed: ~
+title: Dynamic transcriptome surveys revealed that biogenic amines and insect-like hormonal regulation are involved in Schistosoma japonicum pairing and reproductive development
