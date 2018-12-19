@@ -1,0 +1,19 @@
+Run	Condition	developmental_stage
+ERR576952	Adult	adult
+ERR576953	Adult	adult
+ERR576954	Egg	eggs
+ERR576955	Egg	eggs
+ERR576956	Juveniles	juvenile (21day)
+ERR576957	Juveniles	juvenile (21day)
+ERR576958	Metacercariae	metacercariae
+ERR576959	Metacercariae	metacercariae
+ERR576964	Metacercariae	metacercariae
+ERR576965	Metacercariae	metacercariae
+ERR576960	Newly emerged juveniles 1hr	newly excysted juveniles (1hr)
+ERR576961	Newly emerged juveniles 1hr	newly excysted juveniles (1hr)
+ERR576966	Newly emerged juveniles 1hr	newly excysted juveniles (1hr)
+ERR576967	Newly emerged juveniles 24hrs	newly excysted juveniles (24hr)
+ERR576968	Newly emerged juveniles 24hrs	newly excysted juveniles (24hr)
+ERR576962	Newly emerged juveniles 3hrs	newly excysted juveniles (3hr)
+ERR576963	Newly emerged juveniles 3hrs	newly excysted juveniles (3hr)
+ERR576969	Newly emerged juveniles 3hrs	newly excysted juveniles (3hr)
