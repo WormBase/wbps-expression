@@ -8,6 +8,7 @@ use File::Slurp qw/read_file/;
 use FindBin;
 use Model::Design;
 use Model::Study;
+use Model::SkippedRuns;
 use List::Util qw/sum pairs/;
 
 sub describe_tsv {
@@ -146,6 +147,22 @@ sub ok_design_fails_with_wrong_contrasts {
   test_tsv_and_config( shift, { contrasts => [{ name => "contrasts.name", values => [["wrong_reference", "wrong_test", "wrong_reference vs wrong_test : contrast name"]]}] } ,
     shift, 1, 0 );
 }
+
+sub skipped_runs_ok {
+  my ($skipped_runs_path, $study_path) = @_;
+  my $subject = Model::SkippedRuns->from_folder($skipped_runs_path);
+  subtest "$skipped_runs_path" => sub {
+    cmp_ok (scalar @{$subject->{runs}}, '>', 0 , "Some runs");
+    if($study_path){
+      ok (not (keys %{$subject->{config}}), "Study config should go with curated runs");
+      my @curated_runs = Model::Study->from_folder($study_path)->{design}->all_runs;
+      my @overlap = grep {my $x = $_; grep {$x eq $_ } @curated_runs } @{$subject->{runs}};
+      is_deeply(\@overlap, [], "Skipped and curated runs shouldn't overlap");
+    } else {
+      ok (scalar keys %{$subject->{config}}, "Study skipped whole - should have config with study description"); 
+    }
+  }
+}
 tsv_well_formatted_but_fails_checks("Run\tCondition\n");
 tsv_well_formatted_but_fails_checks("Run\tCondition\torganism part\n");
 design_ok("Run\tCondition\torganism part\nSRR3209257\thead\thead\n");
@@ -197,15 +214,25 @@ EOF
 design_ok($two_factor_tsv);
 ok_design_fails_with_wrong_condition_names($two_factor_tsv);
 ok_design_fails_with_wrong_contrasts($two_factor_tsv);
+my %studies;
 find(
   sub {
-    test_folder($File::Find::name)
-      if -d $File::Find::name and $File::Find::name =~ /\w+\d+$/;
+    $studies{basename $File::Find::name} = $File::Find::name if -d $File::Find::name and $File::Find::name =~ /\w+\d+$/;
   },
   "$FindBin::Bin/../curation/studies"
 );
-# TODO: Something that checks skipped runs and curated studies don't overrun
-# If there's a matching study, the config is empty, and the runs don't overlap
-# Otherwise the config is nonempty
+my %skipped_runs;
+find(
+  sub {
+    $skipped_runs{basename $File::Find::name} = $File::Find::name if -d $File::Find::name and $File::Find::name =~ /\w+\d+$/;
+  },
+  "$FindBin::Bin/../curation/skipped_runs"
+);
+
+test_folder($_) for values %studies;
+for my $study_id (keys %skipped_runs){
+  skipped_runs_ok($skipped_runs{$study_id}, $studies{$study_id}); 
+}
+
 
 done_testing;
