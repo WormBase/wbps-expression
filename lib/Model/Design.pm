@@ -34,7 +34,7 @@ sub reverse_hoa {
   my $original = shift;
   my %inverse;
   push @{ $inverse{ $original->{$_} } }, $_ for keys %$original;
-### require: %inverse <= %$original
+### require: keys %inverse <= keys %$original
   return \%inverse;
 }
 
@@ -154,7 +154,7 @@ sub data_quality_checks {
   my %characteristics_by_run = %{$self->{values}{by_run}};
   my @conditions_well_defined = pairmap {
     "Condition $a should have uniform characteristics in runs @{$b}"
-      => not scalar grep {$_} @characteristics_by_run{@{$b}}
+      => 2 > uniq map {$_ ? join("", sort %$_): ()} @characteristics_by_run{@{$b}}
   } %runs_by_condition;
   my @characteristics_varying_by_condition = $self->characteristics_varying_by_condition;
   my @conditions_unique = pairmap {
