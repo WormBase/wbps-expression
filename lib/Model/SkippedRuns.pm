@@ -21,7 +21,9 @@ sub from_paths {
    my ($class, $study_id, $runs_path, $config_or_path) = @_;
    open(my $runs_fh, "<", $runs_path) or die "$!: $runs_path";
    my ($header, @runs) = <$runs_fh>;
+   die $runs_path if $header =~ /^[ES]RR/;
    chomp for @runs;
+   s/\s.*$// for @runs;
    my $study_config = ref $config_or_path eq "HASH" ? $config_or_path : LoadFile($config_or_path);
    return $class->new($study_id, $study_config, \@runs);
 }
