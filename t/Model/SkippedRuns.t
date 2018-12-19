@@ -1,11 +1,11 @@
 use strict;
 use warnings;
 use Test::More;
-use Model::SkippedRuns;
 use File::Temp qw/tempdir/;
 use File::Basename qw/basename/;
 
-sub test_create {
+use Model::SkippedRuns;
+sub skipped_runs_formally_correct {
   my ($runs, $config, $test_name) = @_;
   my $runs_path = join("\n", "Run", @$runs);
   my $tmpdir = tempdir(CLEANUP => 1);

@@ -14,7 +14,7 @@ use Text::MultiMarkdown qw/markdown/;
 use Model::Study;
 use Model::SkippedRuns;
 use View::StudiesPage;
-use Smart::Comments;
+#use Smart::Comments '###';
 sub new {
   my ($class, $root_dir, $src_dir, $work_dir) = @_;
   my $sheets = Production::Sheets->new($src_dir);
@@ -41,14 +41,14 @@ my %exceptions = (
 
 sub should_reject_study {
   my ($self, $public_study_record) = @_;
-  return not ($exceptions{$public_study_record->{study_id}}) && $public_study_record->{runs} < 6;
+  return not ($exceptions{$public_study_record->{study_id}}) && @{$public_study_record->{runs}//[]} < 6;
 }
 
 # I could be more complicated
 # e.g. get the median number of characteristics in a study, reject if three times fewer?
 sub should_reject_run {
   my ($study, $run) = @_;
-  return not(%{$run->{characteristics}});
+  return not(grep {$_} values %{$run->{characteristics}});
 }
 
 sub fetch_incoming_studies {
@@ -66,9 +66,10 @@ sub fetch_incoming_studies {
 
     my @current_skipped_runs = @{ $current_skipped_runs_per_study_id->{$study->{study_id}}{runs}//[]};
     my %runs_to_skip = map {$_ => 1} (@should_reject_runs, @current_skipped_runs);
-### @current_skipped_runs
+#### @current_skipped_runs
     if ($current_record and not $ENV{RECREATE_ALL_SKIPPED_RUNS}){
-       delete $runs_to_skip{$_} for $current_record->design->all_runs;
+       delete $runs_to_skip{$_} for $current_record->{design}->all_runs;
+    #### Remaining: sort keys %runs_to_skip
     }
 
     my @remaining_runs = grep {not $runs_to_skip{$_->{run_id}}} @{$study->{runs}};
@@ -107,6 +108,7 @@ sub run_checks {
 
 sub do_everything {
   my ($self, $species, $assembly) = @_;
+  unlink $self->{sheets}->path("ignore_studies", "$species.tsv");
   my @public_study_records = $self->{public_rnaseq_studies}->get($species, $assembly);  
   my %current_studies = map {$_->{study_id}=> $_} $self->get_studies_in_sheets($species);
   my %current_skipped_runs_per_study_id  = map {$_->{study_id}=> $_} $self->get_skipped_runs_in_sheets($species);

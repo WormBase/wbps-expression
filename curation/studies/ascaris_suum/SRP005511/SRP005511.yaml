@@ -1,6 +1,5 @@
 ---
-condition_names:
-  mixed: 'mixed samples of germlines and embryos, full length cdna sheared'
+condition_names: {}
 contrasts:
   - name: developmental_stage+organism_part+sex
     values:
