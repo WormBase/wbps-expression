@@ -1,0 +1,12 @@
+---
+condition_names: {}
+contrasts:
+  - name: treatment
+    values:
+      -
+        - control
+        - zfp-1-1 dsRNA
+        - control vs zfp-1-1 dsRNA
+description: Transcriptional Profiling of Schistosoma mansoni f zfp-1-1(RNAi) parasites
+pubmed: ~
+title: Transcriptional Profiling of Schistosoma mansoni f zfp-1-1(RNAi) parasites

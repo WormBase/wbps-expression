@@ -1,0 +1,13 @@
+Run	Condition	biomaterial provider	developmental stage	organism part	sex	strain	treatment
+SRR5054482	Control A	Moluscario Lobato Paraense	schistosomula	whole organism	pooled male and female	LE	Control A
+SRR5054486	Control A	Moluscario Lobato Paraense	schistosomula	whole organism	pooled male and female	LE	Control A
+SRR5054488	Control A	Moluscario Lobato Paraense	schistosomula	whole organism	pooled male and female	LE	Control A
+SRR5054483	Control B	Moluscario Lobato Paraense	schistosomula	whole organism	pooled male and female	LE	Control B
+SRR5054485	Control B	Moluscario Lobato Paraense	schistosomula	whole organism	pooled male and female	LE	Control B
+SRR5054492	Control B	Moluscario Lobato Paraense	schistosomula	whole organism	pooled male and female	LE	Control B
+SRR5054487	GFP-dsRNA	Moluscario Lobato Paraense	schistosomula	whole organism	pooled male and female	LE	GFP-dsRNA
+SRR5054489	GFP-dsRNA	Moluscario Lobato Paraense	schistosomula	whole organism	pooled male and female	LE	GFP-dsRNA
+SRR5054493	GFP-dsRNA	Moluscario Lobato Paraense	schistosomula	whole organism	pooled male and female	LE	GFP-dsRNA
+SRR5054484	mCherry-dsRNA	Moluscario Lobato Paraense	schistosomula	whole organism	pooled male and female	LE	mCherry-dsRNA
+SRR5054490	mCherry-dsRNA	Moluscario Lobato Paraense	schistosomula	whole organism	pooled male and female	LE	mCherry-dsRNA
+SRR5054491	mCherry-dsRNA	Moluscario Lobato Paraense	schistosomula	whole organism	pooled male and female	LE	mCherry-dsRNA

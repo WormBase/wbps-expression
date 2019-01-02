@@ -1,0 +1,22 @@
+---
+condition_names: {}
+contrasts:
+  - name: sex
+    values:
+      -
+        - whole female
+        - whole male
+        - 'whole: female vs male'
+  - name: organism_part
+    values:
+      -
+        - ovaries
+        - whole female
+        - ovaries vs whole female
+      -
+        - testes
+        - whole male
+        - testes vs whole male
+description: S mansoni male and female adult worm reproductive organs pre and post pairing
+pubmed: ~
+title: S mansoni male and female adult worm reproductive organs pre and post pairing

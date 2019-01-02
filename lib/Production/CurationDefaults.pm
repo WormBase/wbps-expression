@@ -100,7 +100,7 @@ sub n_choose_two {
 }
 sub trim_values {
   my ($result, @values) = @_;
-  $result =~ s/([,\s]*)$_([,\s]*)/$1/ for map {quotemeta $_ } @values;
+  $result =~ s/([,\s]*)$_(s|es)?([,\s]*)/$1/ for map {quotemeta $_ } @values;
   $result =~ s/^\W+|[,\s]+$//;
   return $result;
 }
@@ -144,9 +144,26 @@ sub contrast_name {
     return "$reference vs $test";
   }
 }
+sub is_contrast_across_characteristic {
+  my ( $characteristic, $design, $reference, $test ) = @_;
+  my $r = $design->value_in_condition($reference, $characteristic) // "";
+  my $t = $design->value_in_condition($test, $characteristic) // "";
+#### is_contrast_across_characteristic : "$characteristic $reference - $r vs $test - $t"
+  return $r ne $t;
+}
+sub if_value_defined_then_empty {
+  my ( $characteristic, $design, $reference, $test ) = @_;
+  my $r = $design->value_in_condition($reference, $characteristic);
+  my $t = $design->value_in_condition($test, $characteristic);
+  return (! defined $r || not $r) && (! defined $t || not $t);
+}
 sub is_life_cycle {
   my ($x, $y, @others) = sort @_;
   return $x && $y && $x eq "developmental_stage" && $y eq "sex" && not @others; 
+}
+sub is_drug_assay {
+  my ($x, $y, @others) = sort @_;
+  return $x && $y && $x eq "timepoint" && $y eq "treatment" && not @others; 
 }
 sub contrasts {
   my ($design)   = @_;
@@ -177,16 +194,23 @@ sub contrasts {
     next unless all_characteristics_vary($design, \@subset_chs, [ map {@$_} @partition]); 
     @partition = grep {
       is_different_values_on_all_characteristics( $design, \@subset_chs, $_ )
-    } @partition unless is_life_cycle(@subset_chs);
+    } @partition unless is_life_cycle(@subset_chs) || is_drug_assay(@subset_chs);
 #### Filter further to those that differ in all values chosen characteristics: @partition
     next unless @partition;
     my @contrasts =
       map {
       [ $_->[0], $_->[1], contrast_name( $design, \@subset_chs, @{$_} ) ]
       }
+      grep {
+        ! is_life_cycle(@subset_chs) || if_value_defined_then_empty("treatment", $design, @{$_})
+      }
+      grep {
+        ! is_drug_assay(@subset_chs) || is_contrast_across_characteristic("treatment", $design, @{$_}) 
+      }
       map { n_choose_two( @{$_} ) }
       sort { join( "", @{$a} ) cmp join( "", @{$b} ) }
       map { [ sort @{$_} ] } @partition;
+    
     push @result,
       {
       name   => join( "+", @subset_chs ),
@@ -195,6 +219,9 @@ sub contrasts {
   }
   if(grep {$_->{name} eq "developmental_stage+sex"} @result){
      @result = grep {$_->{name} ne "developmental_stage" && $_->{name} ne "sex"} @result;
+  }
+  if(grep {$_->{name} eq "timepoint+treatment"} @result){
+     @result = grep {$_->{name} ne "timepoint" && $_->{name} ne "treatment"} @result;
   }
 #### @result
   return \@result;

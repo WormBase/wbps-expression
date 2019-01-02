@@ -1,0 +1,7 @@
+---
+condition_names:
+  '': sample from Schistosoma mansoni
+contrasts: []
+description: 'Using RNAseq to characterise bulk preparations from different Schistosoma mansoni cells and somatic (control) cells to find new markers and putative factors involved in controlling their growth and differentiation. '
+pubmed: ~
+title: Characterising Schistosoma mansoni stem cell populations

@@ -1,0 +1,32 @@
+---
+condition_names: {}
+contrasts:
+  - name: treatment
+    values:
+      -
+        - Control A
+        - Control B
+        - Control A vs Control B
+      -
+        - Control A
+        - GFP-dsRNA
+        - Control A vs GFP-dsRNA
+      -
+        - Control A
+        - mCherry-dsRNA
+        - Control A vs mCherry-dsRNA
+      -
+        - Control B
+        - GFP-dsRNA
+        - Control B vs GFP-dsRNA
+      -
+        - Control B
+        - mCherry-dsRNA
+        - Control B vs mCherry-dsRNA
+      -
+        - GFP-dsRNA
+        - mCherry-dsRNA
+        - GFP-dsRNA vs mCherry-dsRNA
+description: Schistosoma mansoni strain:LE Transcriptome or Gene expression
+pubmed: ~
+title: Schistosoma mansoni strain:LE Transcriptome or Gene expression

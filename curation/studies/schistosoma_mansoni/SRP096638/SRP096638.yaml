@@ -1,0 +1,30 @@
+---
+condition_names:
+  'female, BH': 'female, strain BH'
+  'female, puerto rican': 'female, strain puerto rican'
+  'male, BH': 'male, strain BH'
+  'male, puerto rican': 'male, strain puerto rican'
+contrasts:
+  - name: strain
+    values:
+      -
+        - 'female, BH'
+        - 'female, puerto rican'
+        - 'female: BH vs puerto rican'
+      -
+        - 'male, BH'
+        - 'male, puerto rican'
+        - 'male: BH vs puerto rican'
+  - name: sex
+    values:
+      -
+        - 'female, BH'
+        - 'male, BH'
+        - 'BH: female vs male'
+      -
+        - 'female, puerto rican'
+        - 'male, puerto rican'
+        - 'puerto rican: female vs male'
+description: RNA-seq for the study of the effect of histone modifying enzymes (HMEs) inhibitors on gene expression in Schistosoma mansoni
+pubmed: ~
+title: RNA-seq for the study of the effect of histone modifying enzymes (HMEs) inhibitors on gene expression in Schistosoma mansoni

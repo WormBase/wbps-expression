@@ -1,0 +1,14 @@
+---
+condition_names:
+  5-AzaC: 5-AzaC treated females
+  untreated: untreated females
+contrasts:
+  - name: treatment
+    values:
+      -
+        - 5-AzaC
+        - untreated
+        - 5-AzaC vs untreated
+description: 5-AzaC effect on Schistosoma mansoni Transcriptome
+pubmed: ~
+title: 5-AzaC effect on Schistosoma mansoni Transcriptome

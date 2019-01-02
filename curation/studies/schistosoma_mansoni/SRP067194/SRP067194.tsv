@@ -1,0 +1,15 @@
+Run	Condition	developmental_stage	organism_part	sex	strain	treatment
+SRR2984282	0 Gy	adult	organism without head or testes	male	NMRI	
+SRR2984283	0 Gy	adult	organism without head or testes	male	NMRI	
+SRR2984284	0 Gy	adult	organism without head or testes	male	NMRI	
+SRR2984285	200 Gy	adult	organism without head or testes	male	NMRI	Irradiated with 200 Gy
+SRR2984286	200 Gy	adult	organism without head or testes	male	NMRI	Irradiated with 200 Gy
+SRR2984287	200 Gy	adult	organism without head or testes	male	NMRI	Irradiated with 200 Gy
+SRR2984288	Control RNAi	adult	organism without head or testes	male	NMRI	Control RNAi treated
+SRR2984289	Control RNAi	adult	organism without head or testes	male	NMRI	Control RNAi treated
+SRR2984290	Control RNAi	adult	organism without head or testes	male	NMRI	Control RNAi treated
+SRR2984291	fgfrA(RNAi)	adult	organism without head or testes	male	NMRI	fgfrA RNAi treated
+SRR2984292	fgfrA(RNAi)	adult	organism without head or testes	male	NMRI	fgfrA RNAi treated
+SRR2984293	fgfrA(RNAi)	adult	organism without head or testes	male	NMRI	fgfrA RNAi treated
+SRR2984294	h2b(RNAi)	adult	organism without head or testes	male	NMRI	h2b RNAi treated
+SRR2984295	h2b(RNAi)	adult	organism without head or testes	male	NMRI	h2b RNAi treated

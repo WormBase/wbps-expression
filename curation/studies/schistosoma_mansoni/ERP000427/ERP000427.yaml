@@ -1,0 +1,22 @@
+---
+condition_names:
+  Somule 24hrs: Somule 24hrs post-infection
+  Somule 3hrs: Somule 3hrs post-infection
+contrasts:
+  - name: Condition
+    values:
+      -
+        - Cercariae
+        - Somule 24hrs
+        - Cercariae vs Somule 24hrs
+      -
+        - Cercariae
+        - Somule 3hrs
+        - Cercariae vs Somule 3hrs
+      -
+        - Somule 24hrs
+        - Somule 3hrs
+        - Somule 24hrs vs Somule 3hrs
+description: 'High-throughput sequencing of life stages and tissues of the flatworm Schistosoma mansoni to be used for further gene editing, gene finding and transcriptome analysis'
+pubmed: ~
+title: Schistosoma mansoni transcriptomics at different life stages

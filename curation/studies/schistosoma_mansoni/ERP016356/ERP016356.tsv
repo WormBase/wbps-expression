@@ -1,0 +1,139 @@
+Run	Condition	adult	developmental_stage	organism_part	sex	strain
+ERR506071	ovaries		adult	ovaries	female	Liberia_TODO_pre_and_post_pairing_is_missing
+ERR506072	ovaries		adult	ovaries	female	Liberia
+ERR506073	ovaries		adult	ovaries	female	Liberia
+ERR506074	ovaries		adult	ovaries	female	Liberia
+ERR506075	ovaries		adult	ovaries	female	Liberia
+ERR506095	ovaries		adult	ovaries	female	Liberia
+ERR506096	ovaries		adult	ovaries	female	Liberia
+ERR506097	ovaries		adult	ovaries	female	Liberia
+ERR506098	ovaries		adult	ovaries	female	Liberia
+ERR506099	ovaries		adult	ovaries	female	Liberia
+ERR667049	ovaries		adult	ovaries	female	Liberia
+ERR667050	ovaries		adult	ovaries	female	Liberia
+ERR667051	ovaries		adult	ovaries	female	Liberia
+ERR667052	ovaries		adult	ovaries	female	Liberia
+ERR667053	ovaries		adult	ovaries	female	Liberia
+ERR667073	ovaries		adult	ovaries	female	Liberia
+ERR667074	ovaries		adult	ovaries	female	Liberia
+ERR667075	ovaries		adult	ovaries	female	Liberia
+ERR667076	ovaries		adult	ovaries	female	Liberia
+ERR667077	ovaries		adult	ovaries	female	Liberia
+ERR667097	ovaries		adult	ovaries	female	Liberia
+ERR667098	ovaries		adult	ovaries	female	Liberia
+ERR667099	ovaries		adult	ovaries	female	Liberia
+ERR667100	ovaries		adult	ovaries	female	Liberia
+ERR667101	ovaries		adult	ovaries	female	Liberia
+ERR667121	ovaries		adult	ovaries	female	Liberia
+ERR667122	ovaries		adult	ovaries	female	Liberia
+ERR667123	ovaries		adult	ovaries	female	Liberia
+ERR667124	ovaries		adult	ovaries	female	Liberia
+ERR667125	ovaries		adult	ovaries	female	Liberia
+ERR506077	testes		adult	testes	male	Liberia
+ERR506078	testes		adult	testes	male	Liberia
+ERR506079	testes		adult	testes	male	Liberia
+ERR506080	testes		adult	testes	male	Liberia
+ERR506081	testes		adult	testes	male	Liberia
+ERR506085	testes		adult	testes	male	Liberia
+ERR506101	testes		adult	testes	male	Liberia
+ERR506102	testes		adult	testes	male	Liberia
+ERR506103	testes		adult	testes	male	Liberia
+ERR506104	testes		adult	testes	male	Liberia
+ERR506105	testes		adult	testes	male	Liberia
+ERR506109	testes		adult	testes	male	Liberia
+ERR667055	testes		adult	testes	male	Liberia
+ERR667056	testes		adult	testes	male	Liberia
+ERR667057	testes		adult	testes	male	Liberia
+ERR667058	testes		adult	testes	male	Liberia
+ERR667059	testes		adult	testes	male	Liberia
+ERR667063	testes		adult	testes	male	Liberia
+ERR667079	testes		adult	testes	male	Liberia
+ERR667080	testes		adult	testes	male	Liberia
+ERR667081	testes		adult	testes	male	Liberia
+ERR667082	testes		adult	testes	male	Liberia
+ERR667083	testes		adult	testes	male	Liberia
+ERR667087	testes		adult	testes	male	Liberia
+ERR667103	testes		adult	testes	male	Liberia
+ERR667104	testes		adult	testes	male	Liberia
+ERR667105	testes		adult	testes	male	Liberia
+ERR667106	testes		adult	testes	male	Liberia
+ERR667107	testes		adult	testes	male	Liberia
+ERR667111	testes		adult	testes	male	Liberia
+ERR667127	testes		adult	testes	male	Liberia
+ERR667128	testes		adult	testes	male	Liberia
+ERR667129	testes		adult	testes	male	Liberia
+ERR667130	testes		adult	testes	male	Liberia
+ERR667131	testes		adult	testes	male	Liberia
+ERR667135	testes		adult	testes	male	Liberia
+ERR506076	whole female		adult	whole organism	female	Liberia
+ERR506083	whole female		adult	whole organism	female	Liberia
+ERR506084	whole female		adult	whole organism	female	Liberia
+ERR506091	whole female		adult	whole organism	female	Liberia
+ERR506092	whole female		adult	whole organism	female	Liberia
+ERR506093	whole female		adult	whole organism	female	Liberia
+ERR506100	whole female		adult	whole organism	female	Liberia
+ERR506107	whole female		adult	whole organism	female	Liberia
+ERR506108	whole female		adult	whole organism	female	Liberia
+ERR506115	whole female		adult	whole organism	female	Liberia
+ERR506116	whole female		adult	whole organism	female	Liberia
+ERR506117	whole female		adult	whole organism	female	Liberia
+ERR667054	whole female		adult	whole organism	female	Liberia
+ERR667061	whole female		adult	whole organism	female	Liberia
+ERR667062	whole female		adult	whole organism	female	Liberia
+ERR667069	whole female		adult	whole organism	female	Liberia
+ERR667070	whole female		adult	whole organism	female	Liberia
+ERR667071	whole female		adult	whole organism	female	Liberia
+ERR667078	whole female		adult	whole organism	female	Liberia
+ERR667085	whole female		adult	whole organism	female	Liberia
+ERR667086	whole female		adult	whole organism	female	Liberia
+ERR667093	whole female		adult	whole organism	female	Liberia
+ERR667094	whole female		adult	whole organism	female	Liberia
+ERR667095	whole female		adult	whole organism	female	Liberia
+ERR667102	whole female		adult	whole organism	female	Liberia
+ERR667109	whole female		adult	whole organism	female	Liberia
+ERR667110	whole female		adult	whole organism	female	Liberia
+ERR667117	whole female		adult	whole organism	female	Liberia
+ERR667118	whole female		adult	whole organism	female	Liberia
+ERR667119	whole female		adult	whole organism	female	Liberia
+ERR667126	whole female		adult	whole organism	female	Liberia
+ERR667133	whole female		adult	whole organism	female	Liberia
+ERR667134	whole female		adult	whole organism	female	Liberia
+ERR667141	whole female		adult	whole organism	female	Liberia
+ERR667142	whole female		adult	whole organism	female	Liberia
+ERR667143	whole female		adult	whole organism	female	Liberia
+ERR506082	whole male		adult	whole organism	male	Liberia
+ERR506086	whole male		adult	whole organism	male	Liberia
+ERR506087	whole male		adult	whole organism	male	Liberia
+ERR506088	whole male		adult	whole organism	male	Liberia
+ERR506089	whole male		adult	whole organism	male	Liberia
+ERR506090	whole male		adult	whole organism	male	Liberia
+ERR506106	whole male		adult	whole organism	male	Liberia
+ERR506110	whole male		adult	whole organism	male	Liberia
+ERR506111	whole male		adult	whole organism	male	Liberia
+ERR506112	whole male		adult	whole organism	male	Liberia
+ERR506113	whole male		adult	whole organism	male	Liberia
+ERR506114	whole male		adult	whole organism	male	Liberia
+ERR667060	whole male		adult	whole organism	male	Liberia
+ERR667064	whole male		adult	whole organism	male	Liberia
+ERR667065	whole male		adult	whole organism	male	Liberia
+ERR667066	whole male		adult	whole organism	male	Liberia
+ERR667067	whole male		adult	whole organism	male	Liberia
+ERR667068	whole male		adult	whole organism	male	Liberia
+ERR667084	whole male		adult	whole organism	male	Liberia
+ERR667088	whole male		adult	whole organism	male	Liberia
+ERR667089	whole male		adult	whole organism	male	Liberia
+ERR667090	whole male		adult	whole organism	male	Liberia
+ERR667091	whole male		adult	whole organism	male	Liberia
+ERR667092	whole male		adult	whole organism	male	Liberia
+ERR667108	whole male		adult	whole organism	male	Liberia
+ERR667112	whole male		adult	whole organism	male	Liberia
+ERR667113	whole male		adult	whole organism	male	Liberia
+ERR667114	whole male		adult	whole organism	male	Liberia
+ERR667115	whole male		adult	whole organism	male	Liberia
+ERR667116	whole male		adult	whole organism	male	Liberia
+ERR667132	whole male		adult	whole organism	male	Liberia
+ERR667136	whole male		adult	whole organism	male	Liberia
+ERR667137	whole male		adult	whole organism	male	Liberia
+ERR667138	whole male		adult	whole organism	male	Liberia
+ERR667139	whole male		adult	whole organism	male	Liberia
+ERR667140	whole male		adult	whole organism	male	Liberia

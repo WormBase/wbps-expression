@@ -1,0 +1,48 @@
+---
+condition_names: {}
+contrasts:
+  - name: treatment
+    values:
+      -
+        - 0 Gy
+        - 200 Gy
+        - 0 Gy vs 200 Gy
+      -
+        - 0 Gy
+        - Control RNAi
+        - 0 Gy vs Control RNAi
+      -
+        - 0 Gy
+        - fgfrA(RNAi)
+        - 0 Gy vs fgfrA(RNAi)
+      -
+        - 0 Gy
+        - h2b(RNAi)
+        - 0 Gy vs h2b(RNAi)
+      -
+        - 200 Gy
+        - Control RNAi
+        - 200 Gy vs Control RNAi
+      -
+        - 200 Gy
+        - fgfrA(RNAi)
+        - 200 Gy vs fgfrA(RNAi)
+      -
+        - 200 Gy
+        - h2b(RNAi)
+        - 200 Gy vs h2b(RNAi)
+      -
+        - Control RNAi
+        - fgfrA(RNAi)
+        - Control RNAi vs fgfrA(RNAi)
+      -
+        - Control RNAi
+        - h2b(RNAi)
+        - Control RNAi vs h2b(RNAi)
+      -
+        - fgfrA(RNAi)
+        - h2b(RNAi)
+        - fgfrA(RNAi) vs h2b(RNAi)
+description: Stem cells rejuvinate the schistosome host-parasite interface
+pubmed: ~
+title: Stem cells rejuvinate the schistosome host-parasite interface
