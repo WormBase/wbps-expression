@@ -205,4 +205,5 @@ contrasts:
         - 'mixed sex, male: 35 days post infection vs 38 days post infection'
 description: Analysis of gene expression levels between male and female Schistosoma mansoni worms.
 pubmed: ~
+submitting_centre: Wellcome Sanger Institute
 title: Schistosoma mansoni RNASeq male and female characterisation

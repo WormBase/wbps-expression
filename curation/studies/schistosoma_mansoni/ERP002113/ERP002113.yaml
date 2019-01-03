@@ -403,4 +403,5 @@ contrasts:
         - 'males and females NMRI: adult vs juvenile'
 description: 'The drug Praziquantel is the most commonly used drug for parasitic flatworms. It is currently being increasingly used in mass drug administration programmes, raising concerns over whether resistance will develop. Although widely used, its mode of action was until very recently uncertain. This study will investigate the praziquantel mode of action and resistance by sequencing the transcriptomes of Dugesia japonica and different stages and strains of S. mansoni.'
 pubmed: ~
+submitting_centre: Wellcome Sanger Institute
 title: Praziquantel mode of action and resistance

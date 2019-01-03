@@ -85,4 +85,5 @@ contrasts:
         - 'BH male vs BH male, GSK343 at 20uM'
 description: RNA-seq for the study of the effect of histone modifying enzymes (HMEs) inhibitors on gene expression in Schistosoma mansoni
 pubmed: ~
+submitting_centre: 'University of Sao Paulo - Institute of Chemistry'
 title: RNA-seq for the study of the effect of histone modifying enzymes (HMEs) inhibitors on gene expression in Schistosoma mansoni

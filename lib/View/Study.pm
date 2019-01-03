@@ -12,9 +12,10 @@ sub to_markdown {
    my $result = "";
    open (my $fh, ">:utf8", \$result);
    print $fh sprintf("### %s: %s\n", $study->{study_id}, $study->{config}{title} // "<title>" );
-   print $fh sprintf("*%s*\n", $study->{config}{description}) if $study->{config}{description} and $study->{config}{description} ne $study->{config}{title};
+   print $fh sprintf("**%s**\n\n", $study->{config}{submitting_centre}) if $study->{config}{submitting_centre};
+   print $fh sprintf("*%s*\n\n", $study->{config}{description}) if $study->{config}{description} and $study->{config}{description} ne $study->{config}{title};
    while (my ($k, $v) = each %{$study->{config}{pubmed} //{}}){
-     print $fh sprintf("[%s](https://www.ncbi.nlm.nih.gov/pubmed/%s)\n", $v->[1], $k);
+     print $fh sprintf("[%s](https://www.ncbi.nlm.nih.gov/pubmed/%s)\n\n", $v->[1], $k);
    }
    my $fails_checks = not $study->passes_checks;
    print $fh "*Not analysed - needs curation*\n" if $fails_checks;

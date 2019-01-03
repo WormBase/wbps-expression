@@ -229,9 +229,10 @@ sub contrasts {
 sub config_base {
   my (%args) = @_;
   return {
-      title           => $args{study_description_short},
-      description     => $args{study_description_full},
-      pubmed          => $args{pubmed},
+      title             => $args{study_description_short},
+      description       => $args{study_description_full},
+      pubmed            => $args{pubmed},
+      submitting_centre => $args{attributes}{submitting_centre},
   };
 }
 sub study {
