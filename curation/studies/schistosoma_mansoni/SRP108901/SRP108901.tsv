@@ -1,8 +1,8 @@
-Run	Condition	developmental_stage
-SRR5664529		adult
-SRR5664530		adult
-SRR5664531		adult
-SRR5664532		adult
-SRR5664533		adult
-SRR5664534		adult
-SRR5664535		adult
+Run	Condition	sex	strain	treatment
+SRR5664530	female	female	LE	
+SRR5664533	female, E. milli latex	female	LE	E. milli latex
+SRR5664534	female, E. milli latex	female	LE	E. milli latex
+SRR5664531	male	male	LE	
+SRR5664532	male	male	LE	
+SRR5664529	male, E. milli latex	male	LE	E. milli latex
+SRR5664535	male, E. milli latex	male	LE	E. milli latex

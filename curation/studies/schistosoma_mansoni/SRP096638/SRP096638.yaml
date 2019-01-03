@@ -1,30 +1,88 @@
 ---
-condition_names:
-  'female, BH': 'female, strain BH'
-  'female, puerto rican': 'female, strain puerto rican'
-  'male, BH': 'male, strain BH'
-  'male, puerto rican': 'male, strain puerto rican'
+condition_names: {}
 contrasts:
   - name: strain
     values:
       -
-        - 'female, BH'
-        - 'female, puerto rican'
-        - 'female: BH vs puerto rican'
+        - BH female
+        - Puerto Rican female
+        - 'female: BH vs Puerto Rican'
       -
-        - 'male, BH'
-        - 'male, puerto rican'
-        - 'male: BH vs puerto rican'
+        - BH male
+        - Puerto Rican male
+        - 'male: BH vs Puerto Rican'
+  - name: strain+treatment
+    values:
+      -
+        - 'BH female, GSK343 at 20uM'
+        - 'Puerto Rican female, TH65 at 20uM'
+        - 'female, at 20uM: BH, GSK343 vs Puerto Rican, TH65'
+      -
+        - 'BH male, GSK343 at 20uM'
+        - 'Puerto Rican male, TH65 at 20uM'
+        - 'male, at 20uM: BH, GSK343 vs Puerto Rican, TH65'
   - name: sex
     values:
       -
-        - 'female, BH'
-        - 'male, BH'
+        - 'BH female, GSK343 at 20uM'
+        - 'BH male, GSK343 at 20uM'
+        - 'BH GSK343 at 20uM: female vs male'
+      -
+        - BH female
+        - BH male
         - 'BH: female vs male'
       -
-        - 'female, puerto rican'
-        - 'male, puerto rican'
-        - 'puerto rican: female vs male'
+        - 'Puerto Rican female, TH65 at 05uM'
+        - 'Puerto Rican male, TH65 at 05uM'
+        - 'Puerto Rican TH65 at 05uM: female vs male'
+      -
+        - 'Puerto Rican female, TH65 at 10uM'
+        - 'Puerto Rican male, TH65 at 10uM'
+        - 'Puerto Rican TH65 at 10uM: female vs male'
+      -
+        - 'Puerto Rican female, TH65 at 20uM'
+        - 'Puerto Rican male, TH65 at 20uM'
+        - 'Puerto Rican TH65 at 20uM: female vs male'
+      -
+        - Puerto Rican female
+        - Puerto Rican male
+        - 'Puerto Rican: female vs male'
+  - name: concentration
+    values:
+      -
+        - 'Puerto Rican female, TH65 at 05uM'
+        - 'Puerto Rican female, TH65 at 10uM'
+        - 'Puerto Rican female, TH65 at: 05uM vs 10uM'
+      -
+        - 'Puerto Rican female, TH65 at 05uM'
+        - 'Puerto Rican female, TH65 at 20uM'
+        - 'Puerto Rican female, TH65 at: 05uM vs 20uM'
+      -
+        - 'Puerto Rican female, TH65 at 10uM'
+        - 'Puerto Rican female, TH65 at 20uM'
+        - 'Puerto Rican female, TH65 at: 10uM vs 20uM'
+      -
+        - 'Puerto Rican male, TH65 at 05uM'
+        - 'Puerto Rican male, TH65 at 10uM'
+        - 'Puerto Rican male, TH65 at: 05uM vs 10uM'
+      -
+        - 'Puerto Rican male, TH65 at 05uM'
+        - 'Puerto Rican male, TH65 at 20uM'
+        - 'Puerto Rican male, TH65 at: 05uM vs 20uM'
+      -
+        - 'Puerto Rican male, TH65 at 10uM'
+        - 'Puerto Rican male, TH65 at 20uM'
+        - 'Puerto Rican male, TH65 at: 10uM vs 20uM'
+  - name: concentration+treatment
+    values:
+      -
+        - BH female
+        - 'BH female, GSK343 at 20uM'
+        - 'BH female vs BH female, GSK343 at 20uM'
+      -
+        - BH male
+        - 'BH male, GSK343 at 20uM'
+        - 'BH male vs BH male, GSK343 at 20uM'
 description: RNA-seq for the study of the effect of histone modifying enzymes (HMEs) inhibitors on gene expression in Schistosoma mansoni
 pubmed: ~
 title: RNA-seq for the study of the effect of histone modifying enzymes (HMEs) inhibitors on gene expression in Schistosoma mansoni

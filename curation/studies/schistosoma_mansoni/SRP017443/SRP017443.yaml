@@ -3,7 +3,7 @@ condition_names:
   Irradiated: Irradiated male
   Non-irradiated: Non-irradiated male control
 contrasts:
-  - name: ''
+  - name: irradiation
     values:
       -
         - Irradiated

@@ -1,7 +1,188 @@
 ---
-condition_names:
-  '': sample from Schistosoma mansoni
-contrasts: []
+condition_names: {}
+contrasts:
+  - name: developmental_stage+sex
+    values:
+      -
+        - 'adult, female'
+        - 'adult, male'
+        - 'adult: female vs male'
+      -
+        - 'adult, female'
+        - 'cercariae, female'
+        - 'female: adult vs cercariae'
+      -
+        - 'adult, female'
+        - 'cercariae, male'
+        - 'adult, female vs cercariae, male'
+      -
+        - 'adult, female'
+        - 'schistosomule stage 1, female'
+        - 'female: adult vs schistosomule stage 1'
+      -
+        - 'adult, female'
+        - 'schistosomule stage 1, male'
+        - 'adult, female vs schistosomule stage 1, male'
+      -
+        - 'adult, female'
+        - 'schistosomule stage 2, female'
+        - 'female: adult vs schistosomule stage 2'
+      -
+        - 'adult, female'
+        - 'schistosomule stage 2, male'
+        - 'adult, female vs schistosomule stage 2, male'
+      -
+        - 'adult, female'
+        - 'schistosomule stage 3, female'
+        - 'female: adult vs schistosomule stage 3'
+      -
+        - 'adult, female'
+        - 'schistosomule stage 3, male'
+        - 'adult, female vs schistosomule stage 3, male'
+      -
+        - 'adult, male'
+        - 'cercariae, female'
+        - 'adult, male vs cercariae, female'
+      -
+        - 'adult, male'
+        - 'cercariae, male'
+        - 'male: adult vs cercariae'
+      -
+        - 'adult, male'
+        - 'schistosomule stage 1, female'
+        - 'adult, male vs schistosomule stage 1, female'
+      -
+        - 'adult, male'
+        - 'schistosomule stage 1, male'
+        - 'male: adult vs schistosomule stage 1'
+      -
+        - 'adult, male'
+        - 'schistosomule stage 2, female'
+        - 'adult, male vs schistosomule stage 2, female'
+      -
+        - 'adult, male'
+        - 'schistosomule stage 2, male'
+        - 'male: adult vs schistosomule stage 2'
+      -
+        - 'adult, male'
+        - 'schistosomule stage 3, female'
+        - 'adult, male vs schistosomule stage 3, female'
+      -
+        - 'adult, male'
+        - 'schistosomule stage 3, male'
+        - 'male: adult vs schistosomule stage 3'
+      -
+        - 'cercariae, female'
+        - 'cercariae, male'
+        - 'cercariae: female vs male'
+      -
+        - 'cercariae, female'
+        - 'schistosomule stage 1, female'
+        - 'female: cercariae vs schistosomule stage 1'
+      -
+        - 'cercariae, female'
+        - 'schistosomule stage 1, male'
+        - 'cercariae, female vs schistosomule stage 1, male'
+      -
+        - 'cercariae, female'
+        - 'schistosomule stage 2, female'
+        - 'female: cercariae vs schistosomule stage 2'
+      -
+        - 'cercariae, female'
+        - 'schistosomule stage 2, male'
+        - 'cercariae, female vs schistosomule stage 2, male'
+      -
+        - 'cercariae, female'
+        - 'schistosomule stage 3, female'
+        - 'female: cercariae vs schistosomule stage 3'
+      -
+        - 'cercariae, female'
+        - 'schistosomule stage 3, male'
+        - 'cercariae, female vs schistosomule stage 3, male'
+      -
+        - 'cercariae, male'
+        - 'schistosomule stage 1, female'
+        - 'cercariae, male vs schistosomule stage 1, female'
+      -
+        - 'cercariae, male'
+        - 'schistosomule stage 1, male'
+        - 'male: cercariae vs schistosomule stage 1'
+      -
+        - 'cercariae, male'
+        - 'schistosomule stage 2, female'
+        - 'cercariae, male vs schistosomule stage 2, female'
+      -
+        - 'cercariae, male'
+        - 'schistosomule stage 2, male'
+        - 'male: cercariae vs schistosomule stage 2'
+      -
+        - 'cercariae, male'
+        - 'schistosomule stage 3, female'
+        - 'cercariae, male vs schistosomule stage 3, female'
+      -
+        - 'cercariae, male'
+        - 'schistosomule stage 3, male'
+        - 'male: cercariae vs schistosomule stage 3'
+      -
+        - 'schistosomule stage 1, female'
+        - 'schistosomule stage 1, male'
+        - 'schistosomule stage 1: female vs male'
+      -
+        - 'schistosomule stage 1, female'
+        - 'schistosomule stage 2, female'
+        - 'female: schistosomule stage 1 vs schistosomule stage 2'
+      -
+        - 'schistosomule stage 1, female'
+        - 'schistosomule stage 2, male'
+        - 'schistosomule stage 1, female vs schistosomule stage 2, male'
+      -
+        - 'schistosomule stage 1, female'
+        - 'schistosomule stage 3, female'
+        - 'female: schistosomule stage 1 vs schistosomule stage 3'
+      -
+        - 'schistosomule stage 1, female'
+        - 'schistosomule stage 3, male'
+        - 'schistosomule stage 1, female vs schistosomule stage 3, male'
+      -
+        - 'schistosomule stage 1, male'
+        - 'schistosomule stage 2, female'
+        - 'schistosomule stage 1, male vs schistosomule stage 2, female'
+      -
+        - 'schistosomule stage 1, male'
+        - 'schistosomule stage 2, male'
+        - 'male: schistosomule stage 1 vs schistosomule stage 2'
+      -
+        - 'schistosomule stage 1, male'
+        - 'schistosomule stage 3, female'
+        - 'schistosomule stage 1, male vs schistosomule stage 3, female'
+      -
+        - 'schistosomule stage 1, male'
+        - 'schistosomule stage 3, male'
+        - 'male: schistosomule stage 1 vs schistosomule stage 3'
+      -
+        - 'schistosomule stage 2, female'
+        - 'schistosomule stage 2, male'
+        - 'schistosomule stage 2: female vs male'
+      -
+        - 'schistosomule stage 2, female'
+        - 'schistosomule stage 3, female'
+        - 'female: schistosomule stage 2 vs schistosomule stage 3'
+      -
+        - 'schistosomule stage 2, female'
+        - 'schistosomule stage 3, male'
+        - 'schistosomule stage 2, female vs schistosomule stage 3, male'
+      -
+        - 'schistosomule stage 2, male'
+        - 'schistosomule stage 3, female'
+        - 'schistosomule stage 2, male vs schistosomule stage 3, female'
+      -
+        - 'schistosomule stage 2, male'
+        - 'schistosomule stage 3, male'
+        - 'male: schistosomule stage 2 vs schistosomule stage 3'
+      -
+        - 'schistosomule stage 3, female'
+        - 'schistosomule stage 3, male'
+        - 'schistosomule stage 3: female vs male'
 description: Schistosoma mansoni sex determination
 pubmed: ~
 title: Schistosoma mansoni sex determination

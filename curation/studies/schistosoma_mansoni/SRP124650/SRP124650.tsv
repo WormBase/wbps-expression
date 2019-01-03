@@ -1,7 +1,7 @@
-Run	Condition	description_title	source_name	strain	treatment
-SRR6269807	control	Control RNAi A	Male posterior somatic tissue	NMRI	control
-SRR6269808	control	Control RNAi B	Male posterior somatic tissue	NMRI	control
-SRR6269809	control	Control RNAi C	Male posterior somatic tissue	NMRI	control
-SRR6269810	zfp-1-1 dsRNA	zfp-1-1(RNAi) A	Male posterior somatic tissue	NMRI	zfp-1-1 dsRNA
-SRR6269811	zfp-1-1 dsRNA	zfp-1-1(RNAi) B	Male posterior somatic tissue	NMRI	zfp-1-1 dsRNA
-SRR6269812	zfp-1-1 dsRNA	zfp-1-1(RNAi) C	Male posterior somatic tissue	NMRI	zfp-1-1 dsRNA
+Run	Condition	organism_part	sex	strain	treatment
+SRR6269807	NMRI male	posterior somatic tissue	male	NMRI	
+SRR6269808	NMRI male	posterior somatic tissue	male	NMRI	
+SRR6269809	NMRI male	posterior somatic tissue	male	NMRI	
+SRR6269810	NMRI male, zfp-1-1 dsRNA	posterior somatic tissue	male	NMRI	zfp-1-1 dsRNA
+SRR6269811	NMRI male, zfp-1-1 dsRNA	posterior somatic tissue	male	NMRI	zfp-1-1 dsRNA
+SRR6269812	NMRI male, zfp-1-1 dsRNA	posterior somatic tissue	male	NMRI	zfp-1-1 dsRNA

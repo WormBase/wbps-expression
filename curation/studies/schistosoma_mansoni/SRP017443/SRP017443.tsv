@@ -1,7 +1,7 @@
-Run	Condition	culture_conditions	developmental_stage	organism_part	sample_name	source_name	strain
-SRR629230	Irradiated	in vitro 48 hours	Perfused from mice 43 days post-infection	posterior somatic tissue	Irradiated Experimental A	Male posterior somatic tissue	NMRI
-SRR629231	Irradiated	in vitro 48 hours	Perfused from mice 43 days post-infection	posterior somatic tissue	Irradiated Experimental B	Male posterior somatic tissue	NMRI
-SRR629232	Irradiated	in vitro 48 hours	Perfused from mice 43 days post-infection	posterior somatic tissue	Irradiated Experimental C	Male posterior somatic tissue	NMRI
-SRR629227	Non-irradiated	in vitro 48 hours	Perfused from mice 43 days post-infection	posterior somatic tissue	Non-irradiated Control A	Male posterior somatic tissue	NMRI
-SRR629228	Non-irradiated	in vitro 48 hours	Perfused from mice 43 days post-infection	posterior somatic tissue	Non-irradiated Control B	Male posterior somatic tissue	NMRI
-SRR629229	Non-irradiated	in vitro 48 hours	Perfused from mice 43 days post-infection	posterior somatic tissue	Non-irradiated Control C	Male posterior somatic tissue	NMRI
+Run	Condition	age	culture conditions	irradiation	organism	organism part	sex	strain
+SRR629230	Irradiated	Perfused from mice 43 days post-infection	in vitro 48 hours	200 Gy	Schistosoma mansoni	posterior somatic tissue	Male	NMRI
+SRR629231	Irradiated	Perfused from mice 43 days post-infection	in vitro 48 hours	200 Gy	Schistosoma mansoni	posterior somatic tissue	Male	NMRI
+SRR629232	Irradiated	Perfused from mice 43 days post-infection	in vitro 48 hours	200 Gy	Schistosoma mansoni	posterior somatic tissue	Male	NMRI
+SRR629227	Non-irradiated	Perfused from mice 43 days post-infection	in vitro 48 hours	None	Schistosoma mansoni	posterior somatic tissue	Male	NMRI
+SRR629228	Non-irradiated	Perfused from mice 43 days post-infection	in vitro 48 hours	None	Schistosoma mansoni	posterior somatic tissue	Male	NMRI
+SRR629229	Non-irradiated	Perfused from mice 43 days post-infection	in vitro 48 hours	None	Schistosoma mansoni	posterior somatic tissue	Male	NMRI

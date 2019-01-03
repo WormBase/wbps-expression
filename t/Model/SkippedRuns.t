@@ -5,7 +5,7 @@ use File::Temp qw/tempdir/;
 use File::Basename qw/basename/;
 
 use Model::SkippedRuns;
-sub skipped_runs_formally_correct {
+sub test_create {
   my ($runs, $config, $test_name) = @_;
   my $runs_path = join("\n", "Run", @$runs);
   my $tmpdir = tempdir(CLEANUP => 1);
@@ -18,7 +18,7 @@ sub skipped_runs_formally_correct {
 }
 
 test_create([], {}, "Null case");
-test_create(["run id"], {}, "One run");
+test_create(["run_id"], {}, "One run");
 test_create([], {description => "study description"},  "One property");
 
 done_testing;

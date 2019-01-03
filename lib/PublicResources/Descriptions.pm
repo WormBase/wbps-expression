@@ -115,6 +115,7 @@ sub _clean_study_title {
    my $name = shift;
    $name =~s/_+/ /g if scalar(split " ", $name) == 1;
    $name = ucfirst(lc($name)) if $name eq uc($name);
+   $name =~ s/rejuvinate/rejuvenate/;
    return $name;
 }
 sub study_description {

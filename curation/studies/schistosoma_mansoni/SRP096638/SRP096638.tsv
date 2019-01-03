@@ -1,37 +1,37 @@
-Run	Condition	host	in_house_sample_code	organism_part	sex	strain	synonym
-SRR5170157	female, BH	Homo sapiens	FT-S3	whole organism	female	BH	GSK343 adult female at 20uM replicate 3;SRS1916658
-SRR5170158	female, BH	Homo sapiens	FT-S2	whole organism	female	BH	GSK343 adult female at 20uM replicate 2;SRS1916659
-SRR5170159	female, BH	Homo sapiens	FT-S1	whole organism	female	BH	GSK343 adult female at 20uM replicate 1;SRS1916662
-SRR5170160	female, BH	Homo sapiens	FC-S3	whole organism	female	BH	GSK343 control adult female replicate 3;SRS1916657
-SRR5170161	female, BH	Homo sapiens	FC-S2	whole organism	female	BH	GSK343 control adult female replicate 2;SRS1916660
-SRR5170162	female, BH	Homo sapiens	FC-S1	whole organism	female	BH	GSK343 control adult female replicate 1;SRS1916661
-SRR5170169	female, puerto rican	Homo sapiens	TH-S24	whole organism	female	puerto rican	SRS1916669;TH65 adult female at 20uM replicate 3
-SRR5170170	female, puerto rican	Homo sapiens	TH-S16	whole organism	female	puerto rican	SRS1916671;TH65 adult female at 20uM replicate 2
-SRR5170171	female, puerto rican	Homo sapiens	TH-S8	whole organism	female	puerto rican	SRS1916670;TH65 adult female at 20uM replicate 1
-SRR5170172	female, puerto rican	Homo sapiens	TH-S23	whole organism	female	puerto rican	SRS1916672;TH65 adult female at 10uM replicate 3
-SRR5170173	female, puerto rican	Homo sapiens	TH-S15	whole organism	female	puerto rican	SRS1916673;TH65 adult female at 10uM replicate 2
-SRR5170174	female, puerto rican	Homo sapiens	TH-S7	whole organism	female	puerto rican	SRS1916675;TH65 adult female at 10uM replicate 1
-SRR5170175	female, puerto rican	Homo sapiens	TH-S22	whole organism	female	puerto rican	SRS1916674;TH65 adult female at 05uM replicate 3
-SRR5170176	female, puerto rican	Homo sapiens	TH-S14	whole organism	female	puerto rican	SRS1916676;TH65 adult female at 05uM replicate 2
-SRR5170177	female, puerto rican	Homo sapiens	TH-S6	whole organism	female	puerto rican	SRS1916679;TH65 adult female at 05uM replicate 1
-SRR5170178	female, puerto rican	Homo sapiens	TH-S21	whole organism	female	puerto rican	SRS1916677;TH65 control adult female replicate 3
-SRR5170179	female, puerto rican	Homo sapiens	TH-S13	whole organism	female	puerto rican	SRS1916678;TH65 control adult female replicate 2
-SRR5170180	female, puerto rican	Homo sapiens	TH-S5	whole organism	female	puerto rican	SRS1916680;TH65 control adult female replicate 1
-SRR5170163	male, BH	Homo sapiens	AD-S6	whole organism	male	BH	GSK343 adult male at 20uM replicate 3;SRS1916663
-SRR5170164	male, BH	Homo sapiens	AD-S2	whole organism	male	BH	GSK343 adult male at 20uM replicate 2;SRS1916664
-SRR5170165	male, BH	Homo sapiens	AD-S4	whole organism	male	BH	GSK343 adult male at 20uM replicate 1;SRS1916665
-SRR5170166	male, BH	Homo sapiens	AD-S3	whole organism	male	BH	GSK343 control adult male replicate 3;SRS1916666
-SRR5170167	male, BH	Homo sapiens	AD-S5	whole organism	male	BH	GSK343 control adult male replicate 2;SRS1916667
-SRR5170168	male, BH	Homo sapiens	AD-S1	whole organism	male	BH	GSK343 control adult male replicate 1;SRS1916668
-SRR5170181	male, puerto rican	Homo sapiens	TH-S20	whole organism	male	puerto rican	SRS1916681;TH65 adult male at 20uM replicate 3
-SRR5170182	male, puerto rican	Homo sapiens	TH-S12	whole organism	male	puerto rican	SRS1916682;TH65 adult male at 20uM replicate 2
-SRR5170183	male, puerto rican	Homo sapiens	TH-S4	whole organism	male	puerto rican	SRS1916683;TH65 adult male at 20uM replicate 1
-SRR5170184	male, puerto rican	Homo sapiens	TH-S19	whole organism	male	puerto rican	SRS1916684;TH65 adult male at 10uM replicate 3
-SRR5170185	male, puerto rican	Homo sapiens	TH-S11	whole organism	male	puerto rican	SRS1916685;TH65 adult male at 10uM replicate 2
-SRR5170186	male, puerto rican	Homo sapiens	TH-S3	whole organism	male	puerto rican	SRS1916689;TH65 adult male at 10uM replicate 1
-SRR5170187	male, puerto rican	Homo sapiens	TH-S18	whole organism	male	puerto rican	SRS1916687;TH65 adult male at 05uM replicate 3
-SRR5170188	male, puerto rican	Homo sapiens	TH-S10	whole organism	male	puerto rican	SRS1916686;TH65 adult male at 05uM replicate 2
-SRR5170189	male, puerto rican	Homo sapiens	TH-S2	whole organism	male	puerto rican	SRS1916688;TH65 adult male at 05uM replicate 1
-SRR5170190	male, puerto rican	Homo sapiens	TH-S17	whole organism	male	puerto rican	SRS1916690;TH65 control adult male replicate 3
-SRR5170191	male, puerto rican	Homo sapiens	TH-S9	whole organism	male	puerto rican	SRS1916691;TH65 control adult male replicate 2
-SRR5170192	male, puerto rican	Homo sapiens	TH-S1	whole organism	male	puerto rican	SRS1916692;TH65 control adult male replicate 1
+Run	Condition	concentration	organism_part	sex	strain	treatment
+SRR5170160	BH female		whole organism	female	BH	
+SRR5170161	BH female		whole organism	female	BH	
+SRR5170162	BH female		whole organism	female	BH	
+SRR5170157	BH female, GSK343 at 20uM	20uM	whole organism	female	BH	GSK343
+SRR5170158	BH female, GSK343 at 20uM	20uM	whole organism	female	BH	GSK343
+SRR5170159	BH female, GSK343 at 20uM	20uM	whole organism	female	BH	GSK343
+SRR5170166	BH male		whole organism	male	BH	
+SRR5170167	BH male		whole organism	male	BH	
+SRR5170168	BH male		whole organism	male	BH	
+SRR5170163	BH male, GSK343 at 20uM	20uM	whole organism	male	BH	GSK343
+SRR5170164	BH male, GSK343 at 20uM	20uM	whole organism	male	BH	GSK343
+SRR5170165	BH male, GSK343 at 20uM	20uM	whole organism	male	BH	GSK343
+SRR5170178	Puerto Rican female		whole organism	female	Puerto Rican	
+SRR5170179	Puerto Rican female		whole organism	female	Puerto Rican	
+SRR5170180	Puerto Rican female		whole organism	female	Puerto Rican	
+SRR5170175	Puerto Rican female, TH65 at 05uM	05uM	whole organism	female	Puerto Rican	TH65
+SRR5170176	Puerto Rican female, TH65 at 05uM	05uM	whole organism	female	Puerto Rican	TH65
+SRR5170177	Puerto Rican female, TH65 at 05uM	05uM	whole organism	female	Puerto Rican	TH65
+SRR5170172	Puerto Rican female, TH65 at 10uM	10uM	whole organism	female	Puerto Rican	TH65
+SRR5170173	Puerto Rican female, TH65 at 10uM	10uM	whole organism	female	Puerto Rican	TH65
+SRR5170174	Puerto Rican female, TH65 at 10uM	10uM	whole organism	female	Puerto Rican	TH65
+SRR5170169	Puerto Rican female, TH65 at 20uM	20uM	whole organism	female	Puerto Rican	TH65
+SRR5170170	Puerto Rican female, TH65 at 20uM	20uM	whole organism	female	Puerto Rican	TH65
+SRR5170171	Puerto Rican female, TH65 at 20uM	20uM	whole organism	female	Puerto Rican	TH65
+SRR5170190	Puerto Rican male		whole organism	male	Puerto Rican	
+SRR5170191	Puerto Rican male		whole organism	male	Puerto Rican	
+SRR5170192	Puerto Rican male		whole organism	male	Puerto Rican	
+SRR5170187	Puerto Rican male, TH65 at 05uM	05uM	whole organism	male	Puerto Rican	TH65
+SRR5170188	Puerto Rican male, TH65 at 05uM	05uM	whole organism	male	Puerto Rican	TH65
+SRR5170189	Puerto Rican male, TH65 at 05uM	05uM	whole organism	male	Puerto Rican	TH65
+SRR5170184	Puerto Rican male, TH65 at 10uM	10uM	whole organism	male	Puerto Rican	TH65
+SRR5170185	Puerto Rican male, TH65 at 10uM	10uM	whole organism	male	Puerto Rican	TH65
+SRR5170186	Puerto Rican male, TH65 at 10uM	10uM	whole organism	male	Puerto Rican	TH65
+SRR5170181	Puerto Rican male, TH65 at 20uM	20uM	whole organism	male	Puerto Rican	TH65
+SRR5170182	Puerto Rican male, TH65 at 20uM	20uM	whole organism	male	Puerto Rican	TH65
+SRR5170183	Puerto Rican male, TH65 at 20uM	20uM	whole organism	male	Puerto Rican	TH65

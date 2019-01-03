@@ -11,6 +11,13 @@ my $curation = {
   heligmosomoides_polygyrus => {
     SRP157940 => [30349532],
   }, 
+  schistosoma_mansoni => {
+    ERP000427 => [22253936],
+    ERP016356 => [27499125],
+    SRP071285 => [27677173],
+    SRP108901 => [28753630],
+    ERP014584 => [28542189],
+  },
 };
 sub _fetch {
     my ( $class, $species, $metadata ) = @_;
@@ -22,7 +29,7 @@ sub _fetch {
           my $geo_pubmed_ids = $metadata->{geo}{$assembly}{$study_id}{pubmed} // [];
           my $curated_ids = $curation->{$species}{$study_id} // [];
           for my $pubmed_id ( uniq(@$ena_study_pubmed_ids, @$ena_bioproject_pubmed_ids, @$geo_pubmed_ids, @$ae_pubmed_ids, @$curated_ids)){
-              next if $pubmed_id eq '2971468'; # Check if PRJNA392315 still refers to this paper in error
+              next if $pubmed_id eq '2971468'; # Summer 2019 or later? Check if PRJNA392315 still refers to this paper in error
               $data{$assembly}{$study_id}{$pubmed_id} = &_short_and_full_paper_description_from_payload($class->get_xml(
                    "https://www.ncbi.nlm.nih.gov/pubmed/$pubmed_id?report=xml&format=text"
               ));

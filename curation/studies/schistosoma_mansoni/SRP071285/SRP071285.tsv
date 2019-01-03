@@ -1,21 +1,21 @@
-Run	Condition	organism_part
-SRR3211868		whole organism
-SRR3216389		whole organism
-SRR3223426		whole organism
-SRR3223427		whole organism
-SRR3223428		whole organism
-SRR3223429		whole organism
-SRR3223430		whole organism
-SRR3223431		whole organism
-SRR3223432		whole organism
-SRR3223433		whole organism
-SRR3223434		whole organism
-SRR3223435		whole organism
-SRR3223436		whole organism
-SRR3223439		whole organism
-SRR3223443		whole organism
-SRR3223444		whole organism
-SRR3223445		whole organism
-SRR3223446		whole organism
-SRR3223447		whole organism
-SRR3223448		whole organism
+Run	Condition	developmental_stage	organism_part	sex
+SRR3223447	adult, female	adult	whole organism	female
+SRR3223448	adult, female	adult	whole organism	female
+SRR3223432	adult, male	adult	whole organism	male
+SRR3223433	adult, male	adult	whole organism	male
+SRR3223434	cercariae, female	cercariae	whole organism	female
+SRR3223435	cercariae, female	cercariae	whole organism	female
+SRR3211868	cercariae, male	cercariae	whole organism	male
+SRR3216389	cercariae, male	cercariae	whole organism	male
+SRR3223436	schistosomule stage 1, female	schistosomule stage 1	whole organism	female
+SRR3223439	schistosomule stage 1, female	schistosomule stage 1	whole organism	female
+SRR3223426	schistosomule stage 1, male	schistosomule stage 1	whole organism	male
+SRR3223427	schistosomule stage 1, male	schistosomule stage 1	whole organism	male
+SRR3223443	schistosomule stage 2, female	schistosomule stage 2	whole organism	female
+SRR3223444	schistosomule stage 2, female	schistosomule stage 2	whole organism	female
+SRR3223428	schistosomule stage 2, male	schistosomule stage 2	whole organism	male
+SRR3223429	schistosomule stage 2, male	schistosomule stage 2	whole organism	male
+SRR3223445	schistosomule stage 3, female	schistosomule stage 3	whole organism	female
+SRR3223446	schistosomule stage 3, female	schistosomule stage 3	whole organism	female
+SRR3223430	schistosomule stage 3, male	schistosomule stage 3	whole organism	male
+SRR3223431	schistosomule stage 3, male	schistosomule stage 3	whole organism	male

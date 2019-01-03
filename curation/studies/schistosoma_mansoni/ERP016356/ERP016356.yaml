@@ -4,19 +4,49 @@ contrasts:
   - name: sex
     values:
       -
-        - whole female
-        - whole male
-        - 'whole: female vs male'
+        - 'whole female, mixed sex infection'
+        - 'whole male, mixed sex infection'
+        - 'whole mixed sex infection: female vs male'
+      -
+        - 'whole female, single sex infection'
+        - 'whole male, single sex infection'
+        - 'whole single sex infection: female vs male'
   - name: organism_part
     values:
       -
-        - ovaries
-        - whole female
-        - ovaries vs whole female
+        - 'ovaries, mixed sex infection'
+        - 'whole female, mixed sex infection'
+        - 'ovaries, mixed sex infection vs whole female, mixed sex infection'
       -
-        - testes
-        - whole male
-        - testes vs whole male
+        - 'ovaries, single sex infection'
+        - 'whole female, single sex infection'
+        - 'ovaries, single sex infection vs whole female, single sex infection'
+      -
+        - 'testes, mixed sex infection'
+        - 'whole male, mixed sex infection'
+        - 'testes, mixed sex infection vs whole male, mixed sex infection'
+      -
+        - 'testes, single sex infection'
+        - 'whole male, single sex infection'
+        - 'testes, single sex infection vs whole male, single sex infection'
+  - name: infection
+    values:
+      -
+        - 'ovaries, mixed sex infection'
+        - 'ovaries, single sex infection'
+        - 'ovaries, infection: mixed sex vs single sex'
+      -
+        - 'testes, mixed sex infection'
+        - 'testes, single sex infection'
+        - 'testes, infection: mixed sex vs single sex'
+      -
+        - 'whole female, mixed sex infection'
+        - 'whole female, single sex infection'
+        - 'whole female, infection: mixed sex vs single sex'
+      -
+        - 'whole male, mixed sex infection'
+        - 'whole male, single sex infection'
+        - 'whole male, infection: mixed sex vs single sex'
 description: S mansoni male and female adult worm reproductive organs pre and post pairing
 pubmed: ~
 title: S mansoni male and female adult worm reproductive organs pre and post pairing

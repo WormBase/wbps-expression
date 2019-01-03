@@ -1,5 +1,6 @@
 #!/bin/bash
-column_name=$1
-shift 
+array=( "$@" )
+file="${@: -1}"
+unset "array[${#array[@]}-1]"
 ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
-$ROOT_DIR/scripts/transpose "$@" | grep $column_name | $ROOT_DIR/scripts/transpose
+$ROOT_DIR/scripts/transpose "$file" | grep "${array[@]}" | $ROOT_DIR/scripts/transpose
