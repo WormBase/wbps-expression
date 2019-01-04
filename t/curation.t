@@ -186,7 +186,7 @@ design_ok($tsv);
 ok_design_fails_with_wrong_condition_names($tsv);
 ok_design_fails_with_wrong_contrasts($tsv);
 ( my $tsv_no_factors = $tsv ) =~ s/head/tail/g;
-design_ok( $tsv_no_factors,
+tsv_well_formatted_but_fails_checks( $tsv_no_factors,
   "same as before, head -> tail ie no factors at all" );
 ( my $tsv_extra_condition = $tsv ) =~ s/head/2_head/;
 tsv_well_formatted_but_fails_checks( $tsv_extra_condition,

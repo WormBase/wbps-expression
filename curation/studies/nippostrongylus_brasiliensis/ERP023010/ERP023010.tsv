@@ -1,10 +1,10 @@
-Run	Condition	developmental_stage	lat_lon	strain
-ERR2023646	MIMR L3 larva	L3	-41.2909779,174.7661191	MIMR
-ERR2023647	MIMR L3 larva	L3	-41.2909779,174.7661191	MIMR
-ERR2023648	MIMR L3 larva	L3	-41.2909779,174.7661191	MIMR
-ERR2023649	MIMR L3 larva	L3	-41.2909779,174.7661191	MIMR
-ERR2023650	MIMR L3 larva	L3	-41.2909779,174.7661191	MIMR
-ERR2023651	MIMR L3 larva	L3	-41.2909779,174.7661191	MIMR
-ERR2023652	MIMR L3 larva	L3	-41.2909779,174.7661191	MIMR
-ERR2023653	MIMR L3 larva	L3	-41.2909779,174.7661191	MIMR
-ERR2023654	MIMR L3 larva	L3	-41.2909779,174.7661191	MIMR
+Run	Condition	culture_conditions	developmental_stage
+ERR2023649	L3 larvae, activated incubation	activated incubation (37°C)	L3
+ERR2023650	L3 larvae, activated incubation	activated incubation (37°C)	L3
+ERR2023651	L3 larvae, activated incubation	activated incubation (37°C)	L3
+ERR2023646	L3 larvae, infective incubation	infective incubation (20°C)	L3
+ERR2023647	L3 larvae, infective incubation	infective incubation (20°C)	L3
+ERR2023648	L3 larvae, infective incubation	infective incubation (20°C)	L3
+ERR2023652	L3 larvae, red-blood cell feeding	red-blood cell feeding (37°C)	L3
+ERR2023653	L3 larvae, red-blood cell feeding	red-blood cell feeding (37°C)	L3
+ERR2023654	L3 larvae, red-blood cell feeding	red-blood cell feeding (37°C)	L3

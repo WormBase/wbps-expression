@@ -1,6 +1,20 @@
 ---
 condition_names: {}
-contrasts: []
+contrasts:
+  - name: culture_conditions
+    values:
+      -
+        - 'L3 larvae, activated incubation'
+        - 'L3 larvae, infective incubation'
+        - 'L3 larvae, activated incubation vs L3 larvae, infective incubation'
+      -
+        - 'L3 larvae, activated incubation'
+        - 'L3 larvae, red-blood cell feeding'
+        - 'L3 larvae, activated incubation vs L3 larvae, red-blood cell feeding'
+      -
+        - 'L3 larvae, infective incubation'
+        - 'L3 larvae, red-blood cell feeding'
+        - 'L3 larvae, infective incubation vs L3 larvae, red-blood cell feeding'
 description: 'Providing a high-quality reference genome, transcriptome and predicted proteome for Nippostrongylus brasiliensis. The assembly process uses MinION long reads for initial contig generation, with Illumina reads for subsequent error correction.'
 pubmed:
   28491281:
@@ -9,4 +23,5 @@ pubmed:
   29325570:
     - 'Eccles .. Ewbank, 2018'
     - 'De novo assembly of the complex genome of Nippostrongylus brasiliensis using MinION long reads. (Eccles .. Ewbank, 2018)'
+submitting_centre: Malaghan Institute of Medical Research
 title: Nippostrongylus brasiliensis Genome & Transcriptome sequencing and assembly

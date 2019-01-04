@@ -176,10 +176,8 @@ sub data_quality_checks {
        => ( 0 ==  grep {not $_} $self->all_conditions),
     "Conditions should have reasonably short names - below 60 chars",
        => ( 0 ==  grep {length $_ > 60 } $self->all_conditions),
-    "If there are multiple conditions, then some characteristics should vary by condition"
-       => (2 > keys %runs_by_condition or 0 < $self->characteristics_varying_by_condition ),
-    "If there are more than 10 runs, then some characteristics should vary by condition"
-       => (11 > $self->all_runs or 0 < $self->characteristics_varying_by_condition ),
+    "Some characteristics should vary by condition"
+       => (2 > $self->all_runs or 0 < $self->characteristics_varying_by_condition ),
      @conditions_well_defined,
      @conditions_unique,
   ); 
