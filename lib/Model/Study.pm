@@ -7,6 +7,7 @@ use Model::Design;
 use YAML qw/DumpFile LoadFile/;
 use Carp qw/confess/;
 use List::Util qw/all max/;
+use List::MoreUtils qw/duplicates/;
 use open ':encoding(utf8)';
 # use Smart::Comments '###';
 sub new {
@@ -52,12 +53,16 @@ sub list_of_contrasts_checks {
 #### list_of_contrasts_checks: @_
   if ($#values > 55 ){
     return ("$name manageably many contrasts" => 0);
-  } else {
-    return map { 
-      my ($reference, $test, $name) = @{$values[$_]};
-      "$name contrast $_ ok" => $condition_names->{$reference} && $condition_names->{$test} && $name
-    }  (0 .. $#values);
   }
+  my @ds = duplicates map {$_->[2]} @values;
+  if (@ds) {
+    return ("contrast names should be all unique, duplicates: ".join (", ", @ds) => 0);
+  }
+  return map { 
+    my ($reference, $test, $contrast_name) = @{$values[$_]};
+    "$contrast_name contrast $_ ok" => $condition_names->{$reference} && $condition_names->{$test} && $contrast_name
+  }  (0 .. $#values);
+  
 }
 sub config_matches_design_checks {
   my ($config, $design) = @_;
