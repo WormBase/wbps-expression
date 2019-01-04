@@ -1,0 +1,13 @@
+---
+condition_names: {}
+contrasts:
+  - name: developmental_stage
+    values:
+      -
+        - Free-living female
+        - Parasitic female
+        - Free-living female vs Parasitic female
+description: Strongyloides ratti molecular basis of parasitism
+pubmed: ~
+submitting_centre: Wellcome Sanger Institute
+title: Strongyloides ratti molecular basis of parasitism
