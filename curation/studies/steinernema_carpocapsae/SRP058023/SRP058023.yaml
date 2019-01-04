@@ -1,0 +1,33 @@
+---
+condition_names: {}
+contrasts:
+  - name: developmental_stage
+    values:
+      -
+        - IJ
+        - L1
+        - IJ vs L1
+      -
+        - IJ
+        - embryo
+        - IJ vs embryo
+      -
+        - IJ
+        - young adult
+        - IJ vs young adult
+      -
+        - L1
+        - embryo
+        - L1 vs embryo
+      -
+        - L1
+        - young adult
+        - L1 vs young adult
+      -
+        - embryo
+        - young adult
+        - embryo vs young adult
+description: Comparative genomics of Steinernema reveals deeply conserved gene regulatory networks
+pubmed: ~
+submitting_centre: 'University of California, Irvine'
+title: Comparative genomics of Steinernema reveals deeply conserved gene regulatory networks

@@ -1,0 +1,37 @@
+---
+condition_names: {}
+contrasts:
+  - name: timepoint+treatment
+    values:
+      -
+        - 12h in vitro activated IJ
+        - 12h in vivo activated IJ
+        - 'IJ: in vitro activated vs in vivo activated'
+      -
+        - 12h in vitro activated IJ
+        - 15h in vivo activated IJ
+        - 'IJ: 12h, in vitro activated vs 15h, in vivo activated'
+      -
+        - 12h in vitro activated IJ
+        - 9h in vivo activated IJ
+        - 'IJ: 12h, in vitro activated vs 9h, in vivo activated'
+      -
+        - 12h in vitro activated IJ
+        - nonactivated IJ
+        - 'IJ: 12h, in vitro activated vs 0h, nonactivated'
+      -
+        - 12h in vivo activated IJ
+        - nonactivated IJ
+        - 'IJ: 12h, in vivo activated vs 0h, nonactivated'
+      -
+        - 15h in vivo activated IJ
+        - nonactivated IJ
+        - 'IJ: 15h, in vivo activated vs 0h, nonactivated'
+      -
+        - 9h in vivo activated IJ
+        - nonactivated IJ
+        - 'IJ: 9h, in vivo activated vs 0h, nonactivated'
+description: Activated entomopathogenic nematode infective juveniles release lethal venom proteins
+pubmed: ~
+submitting_centre: 'University of California, Irvine'
+title: Activated entomopathogenic nematode infective juveniles release lethal venom proteins

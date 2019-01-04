@@ -1,0 +1,21 @@
+---
+condition_names: {}
+contrasts:
+  - name: geographic_location
+    values:
+      -
+        - Portugal
+        - USA
+        - Portugal vs USA
+      -
+        - Portugal
+        - United Kingdom
+        - Portugal vs United Kingdom
+      -
+        - USA
+        - United Kingdom
+        - USA vs United Kingdom
+description: 'Small RNA and transcriptomic profiles of three isolates (All, Breton, UK1) of Steinernema carpocapsae Infective Juveniles.  Warnock et al.'
+pubmed: ~
+submitting_centre: Queens University Belfast
+title: 'Small RNA and transcriptomic profiles of three isolates (All, Breton, UK1) of Steinernema carpocapsae Infective Juveniles.  Warnock et al.'

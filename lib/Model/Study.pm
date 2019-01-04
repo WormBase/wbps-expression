@@ -50,7 +50,7 @@ sub config_matches_design {
 sub list_of_contrasts_checks {
   my ($condition_names, $name, @values) = @_;
 #### list_of_contrasts_checks: @_
-  if ($#values > 50){
+  if ($#values > 55 ){
     return ("$name manageably many contrasts" => 0);
   } else {
     return map { 
