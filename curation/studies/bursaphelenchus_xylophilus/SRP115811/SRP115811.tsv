@@ -1,13 +1,13 @@
-Run	Condition	collection_date	description_title	geographic_location	host	isolate	organism_part
-SRR5947748	AmA3 strain sample	2017-08	AmA3	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
-SRR5947749	AmA3 strain sample	2017-08	AmA3	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
-SRR5947750	AmA3 strain sample	2017-08	AmA3	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
-SRR5947751	AmA3 strain sample	2017-08	AmA3	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
-SRR5947752	AmA3 strain sample	2017-08	AmA3	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
-SRR5947753	AmA3 strain sample	2017-08	AmA3	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
-SRR5947754	AmA3 strain sample	2017-08	AmA3	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
-SRR5947755	AmA3 strain sample	2017-08	AmA3	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
-SRR5947756	AmA3 strain sample	2017-08	AmA3	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
-SRR5947757	AmA3 strain sample	2017-08	AmA3	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
-SRR5947758	AmA3 strain sample	2017-08	AmA3	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
-SRR5947759	AmA3 strain sample	2017-08	AmA3	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
+Run	Condition	collection_date	description_title	developmental_stage	geographic_location	host	isolate	organism_part
+SRR5947752	mycetophagous stage	2017-08	AmA3	mycetophagous stage	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
+SRR5947753	mycetophagous stage	2017-08	AmA3	mycetophagous stage	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
+SRR5947754	mycetophagous stage	2017-08	AmA3	mycetophagous stage	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
+SRR5947749	phytophagous parasitic stage:12h	2017-08	AmA3	phytophagous parasitic stage:12h	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
+SRR5947758	phytophagous parasitic stage:12h	2017-08	AmA3	phytophagous parasitic stage:12h	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
+SRR5947759	phytophagous parasitic stage:12h	2017-08	AmA3	phytophagous parasitic stage:12h	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
+SRR5947750	phytophagous parasitic stage:24h	2017-08	AmA3	phytophagous parasitic stage:24h	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
+SRR5947756	phytophagous parasitic stage:24h	2017-08	AmA3	phytophagous parasitic stage:24h	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
+SRR5947757	phytophagous parasitic stage:24h	2017-08	AmA3	phytophagous parasitic stage:24h	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
+SRR5947748	phytophagous parasitic stage:6h	2017-08	AmA3	phytophagous parasitic stage:6h	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
+SRR5947751	phytophagous parasitic stage:6h	2017-08	AmA3	phytophagous parasitic stage:6h	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles
+SRR5947755	phytophagous parasitic stage:6h	2017-08	AmA3	phytophagous parasitic stage:6h	China:Maanshan city	Pinus thunbergii	AMA3	a mixture of adults and juveniles

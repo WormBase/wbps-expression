@@ -1,6 +1,33 @@
 ---
 condition_names: {}
-contrasts: []
+contrasts:
+  - name: developmental_stage
+    values:
+      -
+        - mycetophagous stage
+        - phytophagous parasitic stage:12h
+        - mycetophagous stage vs phytophagous parasitic stage:12h
+      -
+        - mycetophagous stage
+        - phytophagous parasitic stage:24h
+        - mycetophagous stage vs phytophagous parasitic stage:24h
+      -
+        - mycetophagous stage
+        - phytophagous parasitic stage:6h
+        - mycetophagous stage vs phytophagous parasitic stage:6h
+      -
+        - phytophagous parasitic stage:12h
+        - phytophagous parasitic stage:24h
+        - phytophagous parasitic stage:12h vs phytophagous parasitic stage:24h
+      -
+        - phytophagous parasitic stage:12h
+        - phytophagous parasitic stage:6h
+        - phytophagous parasitic stage:12h vs phytophagous parasitic stage:6h
+      -
+        - phytophagous parasitic stage:24h
+        - phytophagous parasitic stage:6h
+        - phytophagous parasitic stage:24h vs phytophagous parasitic stage:6h
 description: Bursaphelenchus xylophilus strain:AMA3 Transcriptome or Gene expression
 pubmed: ~
+submitting_centre: College of Forestry
 title: Bursaphelenchus xylophilus strain:AMA3 Transcriptome or Gene expression
