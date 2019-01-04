@@ -1,0 +1,148 @@
+---
+condition_names: {}
+contrasts:
+  - name: timepoint+treatment
+    values:
+      -
+        - whole organism
+        - 'whole organism, 0hr, amputation'
+        - "whole organism: '' vs 0hr, amputation"
+      -
+        - whole organism
+        - 'whole organism, 10day, amputation'
+        - "whole organism: '' vs 10day, amputation"
+      -
+        - whole organism
+        - 'whole organism, 12hr, amputation'
+        - "whole organism: '' vs 12hr, amputation"
+      -
+        - whole organism
+        - 'whole organism, 14day, amputation'
+        - "whole organism: '' vs 14day, amputation"
+      -
+        - whole organism
+        - 'whole organism, 1hr, amputation'
+        - "whole organism: '' vs 1hr, amputation"
+      -
+        - whole organism
+        - 'whole organism, 24hr, amputation'
+        - "whole organism: '' vs 24hr, amputation"
+      -
+        - whole organism
+        - 'whole organism, 36hr, amputation'
+        - "whole organism: '' vs 36hr, amputation"
+      -
+        - whole organism
+        - 'whole organism, 3hr, amputation'
+        - "whole organism: '' vs 3hr, amputation"
+      -
+        - whole organism
+        - 'whole organism, 48hr, amputation'
+        - "whole organism: '' vs 48hr, amputation"
+      -
+        - whole organism
+        - 'whole organism, 4day, amputation'
+        - "whole organism: '' vs 4day, amputation"
+      -
+        - whole organism
+        - 'whole organism, 5day, amputation'
+        - "whole organism: '' vs 5day, amputation"
+      -
+        - whole organism
+        - 'whole organism, 60hr, amputation'
+        - "whole organism: '' vs 60hr, amputation"
+      -
+        - whole organism
+        - 'whole organism, 6day, amputation'
+        - "whole organism: '' vs 6day, amputation"
+      -
+        - whole organism
+        - 'whole organism, 6hr, amputation'
+        - "whole organism: '' vs 6hr, amputation"
+      -
+        - whole organism
+        - 'whole organism, 72hr, amputation'
+        - "whole organism: '' vs 72hr, amputation"
+      -
+        - whole organism
+        - 'whole organism, 7day, amputation'
+        - "whole organism: '' vs 7day, amputation"
+      -
+        - whole organism
+        - 'whole organism, 9hr, amputation'
+        - "whole organism: '' vs 9hr, amputation"
+  - name: irradiation
+    values:
+      -
+        - '24hours after 10K irradiation, whole organism'
+        - whole organism
+        - "whole organism: 24hours after 10K irradiation vs ''"
+  - name: cell_type
+    values:
+      -
+        - sorted piwi-1 high cells
+        - sorted piwi-1 low cells
+        - sorted piwi-1 high cells vs sorted piwi-1 low cells
+      -
+        - sorted piwi-1 high cells
+        - sorted piwi-1 negative cells
+        - sorted piwi-1 high cells vs sorted piwi-1 negative cells
+      -
+        - sorted piwi-1 high cells
+        - sorted x1 cells
+        - sorted piwi-1 high cells vs sorted x1 cells
+      -
+        - sorted piwi-1 high cells
+        - sorted x2 cells
+        - sorted piwi-1 high cells vs sorted x2 cells
+      -
+        - sorted piwi-1 high cells
+        - sorted xins cells
+        - sorted piwi-1 high cells vs sorted xins cells
+      -
+        - sorted piwi-1 low cells
+        - sorted piwi-1 negative cells
+        - sorted piwi-1 low cells vs sorted piwi-1 negative cells
+      -
+        - sorted piwi-1 low cells
+        - sorted x1 cells
+        - sorted piwi-1 low cells vs sorted x1 cells
+      -
+        - sorted piwi-1 low cells
+        - sorted x2 cells
+        - sorted piwi-1 low cells vs sorted x2 cells
+      -
+        - sorted piwi-1 low cells
+        - sorted xins cells
+        - sorted piwi-1 low cells vs sorted xins cells
+      -
+        - sorted piwi-1 negative cells
+        - sorted x1 cells
+        - sorted piwi-1 negative cells vs sorted x1 cells
+      -
+        - sorted piwi-1 negative cells
+        - sorted x2 cells
+        - sorted piwi-1 negative cells vs sorted x2 cells
+      -
+        - sorted piwi-1 negative cells
+        - sorted xins cells
+        - sorted piwi-1 negative cells vs sorted xins cells
+      -
+        - sorted x1 cells
+        - sorted x2 cells
+        - sorted x1 cells vs sorted x2 cells
+      -
+        - sorted x1 cells
+        - sorted xins cells
+        - sorted x1 cells vs sorted xins cells
+      -
+        - sorted x2 cells
+        - sorted xins cells
+        - sorted x2 cells vs sorted xins cells
+description: A tetraspanin family member functionally resolves and facilitates the purification of adult pluripotent stem cells used for whole-body regeneration (Bulk)
+pubmed:
+  29906446:
+    - 'Zeng .. Sánchez Alvarado, 2018'
+    - 'Prospectively Isolated Tetraspanin<sup>+</sup> Neoblasts Are Adult Pluripotent Stem Cells Underlying Planaria Regeneration. (Zeng .. Sánchez Alvarado, 2018)'
+submitting_centre: Stowers Institute for Medical Research
+title: A tetraspanin family member functionally resolves and facilitates the purification of adult pluripotent stem cells used for whole-body regeneration (Bulk)

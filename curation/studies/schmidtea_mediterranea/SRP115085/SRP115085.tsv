@@ -1,0 +1,19 @@
+Run	Condition	organism_part	strain	timepoint	treatment
+SRR5917956	1 days, APC RNAi	regenerating trunk fragments	Asexual CIW4	1 days	APC RNAi
+SRR5917962	1 days, Bcat RNAi	regenerating trunk fragments	Asexual CIW4	1 days	Bcat RNAi
+SRR5917968	1 days, Control RNAi	regenerating trunk fragments	Asexual CIW4	1 days	Control RNAi
+SRR5917957	2 days, APC RNAi	regenerating trunk fragments	Asexual CIW4	2 days	APC RNAi
+SRR5917963	2 days, Bcat RNAi	regenerating trunk fragments	Asexual CIW4	2 days	Bcat RNAi
+SRR5917969	2 days, Control RNAi	regenerating trunk fragments	Asexual CIW4	2 days	Control RNAi
+SRR5917958	3 days, APC RNAi	regenerating trunk fragments	Asexual CIW4	3 days	APC RNAi
+SRR5917964	3 days, Bcat RNAi	regenerating trunk fragments	Asexual CIW4	3 days	Bcat RNAi
+SRR5917970	3 days, Control RNAi	regenerating trunk fragments	Asexual CIW4	3 days	Control RNAi
+SRR5917959	4 days, APC RNAi	regenerating trunk fragments	Asexual CIW4	4 days	APC RNAi
+SRR5917965	4 days, Bcat RNAi	regenerating trunk fragments	Asexual CIW4	4 days	Bcat RNAi
+SRR5917971	4 days, Control RNAi	regenerating trunk fragments	Asexual CIW4	4 days	Control RNAi
+SRR5917960	5 days, APC RNAi	regenerating trunk fragments	Asexual CIW4	5 days	APC RNAi
+SRR5917966	5 days, Bcat RNAi	regenerating trunk fragments	Asexual CIW4	5 days	Bcat RNAi
+SRR5917972	5 days, Control RNAi	regenerating trunk fragments	Asexual CIW4	5 days	Control RNAi
+SRR5917961	6 days, APC RNAi	regenerating trunk fragments	Asexual CIW4	6 days	APC RNAi
+SRR5917967	6 days, Bcat RNAi	regenerating trunk fragments	Asexual CIW4	6 days	Bcat RNAi
+SRR5917973	6 days, Control RNAi	regenerating trunk fragments	Asexual CIW4	6 days	Control RNAi

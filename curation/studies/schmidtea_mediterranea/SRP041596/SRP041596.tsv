@@ -1,0 +1,10 @@
+Run	Condition	cell_isolation_method	cell_type	strain	timepoint	treatment
+SRR1266967	0hr, control	FACS Isolated	pre-pharyngeal X1 cells	Asexual	0hr	control
+SRR1266968	0hr, control	FACS Isolated	pre-pharyngeal X1 cells	Asexual	0hr	control
+SRR1266969	0hr, control	FACS Isolated	pre-pharyngeal X1 cells	Asexual	0hr	control
+SRR1266970	48hr, anterior wound	FACS Isolated	pre-pharyngeal X1 cells	Asexual	48hr	anterior wound
+SRR1266971	48hr, anterior wound	FACS Isolated	pre-pharyngeal X1 cells	Asexual	48hr	anterior wound
+SRR1266972	48hr, anterior wound	FACS Isolated	pre-pharyngeal X1 cells	Asexual	48hr	anterior wound
+SRR1266973	48hr, posterior wound	FACS Isolated	pre-pharyngeal X1 cells	Asexual	48hr	posterior wound
+SRR1266974	48hr, posterior wound	FACS Isolated	pre-pharyngeal X1 cells	Asexual	48hr	posterior wound
+SRR1266975	48hr, posterior wound	FACS Isolated	pre-pharyngeal X1 cells	Asexual	48hr	posterior wound

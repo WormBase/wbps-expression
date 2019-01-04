@@ -1,0 +1,39 @@
+---
+condition_names: {}
+contrasts:
+  - name: timepoint
+    values:
+      -
+        - 12h regenerate
+        - 36h regenerate
+        - 'regenerate: 12h vs 36h'
+      -
+        - 12h regenerate
+        - 72h regenerate
+        - 'regenerate: 12h vs 72h'
+      -
+        - 12h regenerate
+        - Cut control
+        - 12h regenerate vs Cut control
+      -
+        - 36h regenerate
+        - 72h regenerate
+        - 'regenerate: 36h vs 72h'
+      -
+        - 36h regenerate
+        - Cut control
+        - 36h regenerate vs Cut control
+      -
+        - 72h regenerate
+        - Cut control
+        - 72h regenerate vs Cut control
+  - name: organism_part
+    values:
+      -
+        - Cut control
+        - Whole control
+        - Cut control vs Whole control
+description: Schmidtea mediterranea isolate:CIW4 Raw sequence reads
+pubmed: ~
+submitting_centre: University of Illinois at Urbana-Champaign
+title: Schmidtea mediterranea isolate:CIW4 Raw sequence reads

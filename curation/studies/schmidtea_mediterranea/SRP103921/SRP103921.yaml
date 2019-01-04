@@ -1,0 +1,30 @@
+---
+condition_names: {}
+contrasts:
+  - name: treatment
+    values:
+      -
+        - 'tail, Control RNAi'
+        - 'tail, Yki RNAi'
+        - 'tail: Control RNAi vs Yki RNAi'
+      -
+        - 'whole organism, Control RNAi'
+        - 'whole organism, Yki RNAi'
+        - 'whole organism: Control RNAi vs Yki RNAi'
+  - name: organism_part
+    values:
+      -
+        - 'tail, Control RNAi'
+        - 'whole organism, Control RNAi'
+        - 'Control RNAi: tail vs whole organism'
+      -
+        - 'tail, Yki RNAi'
+        - 'whole organism, Yki RNAi'
+        - 'Yki RNAi: tail vs whole organism'
+description: Yorkie is required to restrict the injury responses in planarians
+pubmed:
+  28686611:
+    - 'Lin .. Pearson, 2017'
+    - 'Yorkie is required to restrict the injury responses in planarians. (Lin .. Pearson, 2017)'
+submitting_centre: 'Pearson, Molecular Genetics, Hospital for Sick Children'
+title: Yorkie is required to restrict the injury responses in planarians

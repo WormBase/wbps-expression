@@ -1,0 +1,33 @@
+---
+condition_names: {}
+contrasts:
+  - name: timepoint
+    values:
+      -
+        - 'trunk fragments, day 0'
+        - 'trunk fragments, day 3'
+        - 'trunk fragments: day 0 vs day 3'
+      -
+        - 'trunk fragments, day 0'
+        - 'trunk fragments, day 5'
+        - 'trunk fragments: day 0 vs day 5'
+      -
+        - 'trunk fragments, day 0'
+        - 'trunk fragments, day 7'
+        - 'trunk fragments: day 0 vs day 7'
+      -
+        - 'trunk fragments, day 3'
+        - 'trunk fragments, day 5'
+        - 'trunk fragments: day 3 vs day 5'
+      -
+        - 'trunk fragments, day 3'
+        - 'trunk fragments, day 7'
+        - 'trunk fragments: day 3 vs day 7'
+      -
+        - 'trunk fragments, day 5'
+        - 'trunk fragments, day 7'
+        - 'trunk fragments: day 5 vs day 7'
+description: Sexual Regeneration RNAseq
+pubmed: ~
+submitting_centre: 'Sanchez Alvarado Lab, Stowers Institute for Medical Research'
+title: Sexual Regeneration RNAseq

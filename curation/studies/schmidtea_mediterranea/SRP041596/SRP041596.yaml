@@ -1,0 +1,24 @@
+---
+condition_names: {}
+contrasts:
+  - name: timepoint+treatment
+    values:
+      -
+        - '0hr, control'
+        - '48hr, anterior wound'
+        - '0hr, control vs 48hr, anterior wound'
+      -
+        - '0hr, control'
+        - '48hr, posterior wound'
+        - '0hr, control vs 48hr, posterior wound'
+      -
+        - '48hr, anterior wound'
+        - '48hr, posterior wound'
+        - '48hr: anterior wound vs posterior wound'
+description: Wound-induced neoblast specialization in S. mediterranea
+pubmed:
+  25254346:
+    - 'Scimone .. Reddien, 2014'
+    - 'Neoblast specialization in regeneration of the planarian Schmidtea mediterranea. (Scimone .. Reddien, 2014)'
+submitting_centre: 'Reddien Lab, Biology Department, Whitehead Institute, MIT'
+title: Wound-induced neoblast specialization in S. mediterranea

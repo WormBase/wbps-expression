@@ -1,0 +1,62 @@
+---
+condition_names: {}
+contrasts:
+  - name: experiment
+    values:
+      -
+        - X1 fraction from Mbnl knocked down worms
+        - X1 fraction from bruli knocked down worms
+        - X1 fraction from Mbnl knocked down worms vs X1 fraction from bruli knocked down worms
+      -
+        - X1 fraction from Mbnl knocked down worms
+        - X1 fraction from control worms
+        - X1 fraction from Mbnl knocked down worms vs X1 fraction from control worms
+      -
+        - X1 fraction from bruli knocked down worms
+        - X1 fraction from control worms
+        - X1 fraction from bruli knocked down worms vs X1 fraction from control worms
+      -
+        - Xins fraction from Mbnl knocked down worms
+        - Xins fraction from bruli knocked down worms
+        - Xins fraction from Mbnl knocked down worms vs Xins fraction from bruli knocked down worms
+      -
+        - Xins fraction from Mbnl knocked down worms
+        - Xins fraction from control worms
+        - Xins fraction from Mbnl knocked down worms vs Xins fraction from control worms
+      -
+        - Xins fraction from Mbnl knocked down worms
+        - Xins fraction from wild type worms
+        - Xins fraction from Mbnl knocked down worms vs Xins fraction from wild type worms
+      -
+        - Xins fraction from bruli knocked down worms
+        - Xins fraction from control worms
+        - Xins fraction from bruli knocked down worms vs Xins fraction from control worms
+      -
+        - Xins fraction from bruli knocked down worms
+        - Xins fraction from wild type worms
+        - Xins fraction from bruli knocked down worms vs Xins fraction from wild type worms
+      -
+        - Xins fraction from control worms
+        - Xins fraction from wild type worms
+        - Xins fraction from control worms vs Xins fraction from wild type worms
+  - name: cellular_fraction
+    values:
+      -
+        - X1 fraction from Mbnl knocked down worms
+        - Xins fraction from Mbnl knocked down worms
+        - X1 fraction from Mbnl knocked down worms vs Xins fraction from Mbnl knocked down worms
+      -
+        - X1 fraction from bruli knocked down worms
+        - Xins fraction from bruli knocked down worms
+        - X1 fraction from bruli knocked down worms vs Xins fraction from bruli knocked down worms
+      -
+        - X1 fraction from control worms
+        - Xins fraction from control worms
+        - X1 fraction from control worms vs Xins fraction from control worms
+description: Conserved functional antagonism between CELF and MBNL proteins regulates stem cell-specific alternative splicing and regeneration in planarians (dataset 3)
+pubmed:
+  27502555:
+    - 'Solana .. Rajewsky, 2016'
+    - 'Conserved functional antagonism of CELF and MBNL proteins controls stem cell-specific alternative splicing in planarians. (Solana .. Rajewsky, 2016)'
+submitting_centre: 'Systems Biology Unit, Centre for Genomic Regulation'
+title: Conserved functional antagonism between CELF and MBNL proteins regulates stem cell-specific alternative splicing and regeneration in planarians (dataset 3)

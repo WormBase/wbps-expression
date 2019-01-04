@@ -1,0 +1,16 @@
+---
+condition_names: {}
+contrasts:
+  - name: rnai
+    values:
+      -
+        - unc22 (control)
+        - yorkie
+        - unc22 (control) vs yorkie
+description: 'Planarian yorkie/YAP functions to integrate adult stem cell proliferation, organ homeostasis, and maintenance of axial patterning'
+pubmed:
+  24523458:
+    - 'Lin .. Pearson, 2014'
+    - 'Planarian yorkie/YAP functions to integrate adult stem cell proliferation, organ homeostasis and maintenance of axial patterning. (Lin .. Pearson, 2014)'
+submitting_centre: 'Pearson, Molecular Genetics, Hospital for Sick Children'
+title: 'Planarian yorkie/YAP functions to integrate adult stem cell proliferation, organ homeostasis, and maintenance of axial patterning'

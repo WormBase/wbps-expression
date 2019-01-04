@@ -1,0 +1,29 @@
+Run	Condition	cellular_fraction	experiment	strain
+SRR2968626	Whole worm treated with dsRNA against Celf genes	Whole worm	Celf siRNA	Berlin-1 strain asexual type
+SRR2968628	Whole worm treated with dsRNA against Esrp genes	Whole worm	Esrp siRNA	Berlin-1 strain asexual type
+SRR2968627	Whole worm treated with dsRNA against GFP	Whole worm	Control (GFP siRNA)	Berlin-1 strain asexual type
+SRR2968629	Whole worm treated with dsRNA against Mbnl genes	Whole worm	Mbnl siRNA	Berlin-1 strain asexual type
+SRR2968630	Whole worm treated with dsRNA against Nova genes	Whole worm	Nova siRNA	Berlin-1 strain asexual type
+SRR2968631	Whole worm treated with dsRNA against Ptbp genes	Whole worm	Ptbp siRNA	Berlin-1 strain asexual type
+SRR2968633	Whole worm treated with dsRNA against Rbfox genes	Whole worm	RbfoxS siRNA	Berlin-1 strain asexual type
+SRR2968632	Whole worm treated with dsRNA against Rbfox1	Whole worm	Rbfox1 siRNA	Berlin-1 strain asexual type
+SRR2968625	Whole worm treated with dsRNA against bruli	Whole worm	Bruli siRNA	Berlin-1 strain asexual type
+SRR2968638	X1 fraction from Mbnl knocked down worms	X1 cell fraction	Mbnl siRNA	Berlin-1 strain asexual type
+SRR2968639	X1 fraction from Mbnl knocked down worms	X1 cell fraction	Mbnl siRNA	Berlin-1 strain asexual type
+SRR2968634	X1 fraction from bruli knocked down worms	X1 cell fraction	Bruli siRNA	Berlin-1 strain asexual type
+SRR2968635	X1 fraction from bruli knocked down worms	X1 cell fraction	Bruli siRNA	Berlin-1 strain asexual type
+SRR2968636	X1 fraction from control worms	X1 cell fraction	Control (GFP siRNA)	Berlin-1 strain asexual type
+SRR2968637	X1 fraction from control worms	X1 cell fraction	Control (GFP siRNA)	Berlin-1 strain asexual type
+SRR2968640	X1 fraction from wild type worms	X1 cell fraction	Wild type	Berlin-1 strain asexual type
+SRR2968643	X2 fraction from Mbnl knocked down worms	X2 cell fraction	Mbnl siRNA	Berlin-1 strain asexual type
+SRR2968641	X2 fraction from bruli knocked down worms	X2 cell fraction	Bruli siRNA	Berlin-1 strain asexual type
+SRR2968642	X2 fraction from control worms	X2 cell fraction	Control (GFP siRNA)	Berlin-1 strain asexual type
+SRR2968644	X2 fraction from wild type worms	X2 cell fraction	Wild type	Berlin-1 strain asexual type
+SRR2968649	Xins fraction from Mbnl knocked down worms	Xins cell fraction	Mbnl siRNA	Berlin-1 strain asexual type
+SRR2968650	Xins fraction from Mbnl knocked down worms	Xins cell fraction	Mbnl siRNA	Berlin-1 strain asexual type
+SRR2968645	Xins fraction from bruli knocked down worms	Xins cell fraction	Bruli siRNA	Berlin-1 strain asexual type
+SRR2968646	Xins fraction from bruli knocked down worms	Xins cell fraction	Bruli siRNA	Berlin-1 strain asexual type
+SRR2968647	Xins fraction from control worms	Xins cell fraction	Control (GFP siRNA)	Berlin-1 strain asexual type
+SRR2968648	Xins fraction from control worms	Xins cell fraction	Control (GFP siRNA)	Berlin-1 strain asexual type
+SRR2968651	Xins fraction from wild type worms	Xins cell fraction	Wild type	Berlin-1 strain asexual type
+SRR2968652	Xins fraction from wild type worms	Xins cell fraction	Wild type	Berlin-1 strain asexual type

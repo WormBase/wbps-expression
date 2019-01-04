@@ -1,0 +1,10 @@
+Run	Condition	organism_part	strain	treatment
+SRR867386	control(RNAi)	whole organism	asexual ciw4	control(RNAi)
+SRR867387	control(RNAi)	whole organism	asexual ciw4	control(RNAi)
+SRR867388	control(RNAi)	whole organism	asexual ciw4	control(RNAi)
+SRR867380	lhx1/5-1(RNAi)	whole organism	asexual ciw4	lhx1/5-1(RNAi)
+SRR867381	lhx1/5-1(RNAi)	whole organism	asexual ciw4	lhx1/5-1(RNAi)
+SRR867382	lhx1/5-1(RNAi)	whole organism	asexual ciw4	lhx1/5-1(RNAi)
+SRR867383	pitx(RNAi)	whole organism	asexual ciw4	pitx(RNAi)
+SRR867384	pitx(RNAi)	whole organism	asexual ciw4	pitx(RNAi)
+SRR867385	pitx(RNAi)	whole organism	asexual ciw4	pitx(RNAi)

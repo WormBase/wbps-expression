@@ -1,0 +1,65 @@
+Run	Condition	cell_type	organism_part	rnai	timepoint
+SRR2658078	X1, mll1/2, 12 days	X1		mll1/2	12 days
+SRR2658079	X1, mll1/2, 12 days	X1		mll1/2	12 days
+SRR2658080	X1, mll1/2, 12 days	X1		mll1/2	12 days
+SRR2658081	X1, mll1/2, 12 days	X1		mll1/2	12 days
+SRR2658082	X1, mll1/2, 9 days	X1		mll1/2	9 days
+SRR2658083	X1, mll1/2, 9 days	X1		mll1/2	9 days
+SRR2658084	X1, mll1/2, 9 days	X1		mll1/2	9 days
+SRR2658085	X1, mll1/2, 9 days	X1		mll1/2	9 days
+SRR2658090	X1, set1, 6 days	X1		set1	6 days
+SRR2658091	X1, set1, 6 days	X1		set1	6 days
+SRR2658092	X1, set1, 6 days	X1		set1	6 days
+SRR2658093	X1, set1, 6 days	X1		set1	6 days
+SRR2658098	X1, set1, 9 days	X1		set1	9 days
+SRR2658099	X1, set1, 9 days	X1		set1	9 days
+SRR2658100	X1, set1, 9 days	X1		set1	9 days
+SRR2658101	X1, set1, 9 days	X1		set1	9 days
+SRR2658118	X1, unc22, 12 days	X1		unc22	12 days
+SRR2658119	X1, unc22, 12 days	X1		unc22	12 days
+SRR2658120	X1, unc22, 12 days	X1		unc22	12 days
+SRR2658121	X1, unc22, 12 days	X1		unc22	12 days
+SRR2658106	X1, unc22, 6 days	X1		unc22	6 days
+SRR2658107	X1, unc22, 6 days	X1		unc22	6 days
+SRR2658108	X1, unc22, 6 days	X1		unc22	6 days
+SRR2658109	X1, unc22, 6 days	X1		unc22	6 days
+SRR2658114	X1, unc22, 9 days	X1		unc22	9 days
+SRR2658115	X1, unc22, 9 days	X1		unc22	9 days
+SRR2658116	X1, unc22, 9 days	X1		unc22	9 days
+SRR2658117	X1, unc22, 9 days	X1		unc22	9 days
+SRR2658122	X1, unc22, 9 days	X1		unc22	9 days
+SRR2658123	X1, unc22, 9 days	X1		unc22	9 days
+SRR2658124	X1, unc22, 9 days	X1		unc22	9 days
+SRR2658125	X1, unc22, 9 days	X1		unc22	9 days
+SRR2658126	whole organism, mll1/2, 12 days		whole organism	mll1/2	12 days
+SRR2658127	whole organism, mll1/2, 12 days		whole organism	mll1/2	12 days
+SRR2658128	whole organism, mll1/2, 12 days		whole organism	mll1/2	12 days
+SRR2658129	whole organism, mll1/2, 12 days		whole organism	mll1/2	12 days
+SRR2658130	whole organism, mll1/2, 9 days		whole organism	mll1/2	9 days
+SRR2658131	whole organism, mll1/2, 9 days		whole organism	mll1/2	9 days
+SRR2658132	whole organism, mll1/2, 9 days		whole organism	mll1/2	9 days
+SRR2658133	whole organism, mll1/2, 9 days		whole organism	mll1/2	9 days
+SRR2658086	whole organism, set1, 6 days		whole organism	set1	6 days
+SRR2658087	whole organism, set1, 6 days		whole organism	set1	6 days
+SRR2658088	whole organism, set1, 6 days		whole organism	set1	6 days
+SRR2658089	whole organism, set1, 6 days		whole organism	set1	6 days
+SRR2658094	whole organism, set1, 9 days		whole organism	set1	9 days
+SRR2658095	whole organism, set1, 9 days		whole organism	set1	9 days
+SRR2658096	whole organism, set1, 9 days		whole organism	set1	9 days
+SRR2658097	whole organism, set1, 9 days		whole organism	set1	9 days
+SRR2658134	whole organism, unc22, 12 days		whole organism	unc22	12 days
+SRR2658135	whole organism, unc22, 12 days		whole organism	unc22	12 days
+SRR2658136	whole organism, unc22, 12 days		whole organism	unc22	12 days
+SRR2658137	whole organism, unc22, 12 days		whole organism	unc22	12 days
+SRR2658102	whole organism, unc22, 6 days		whole organism	unc22	6 days
+SRR2658103	whole organism, unc22, 6 days		whole organism	unc22	6 days
+SRR2658104	whole organism, unc22, 6 days		whole organism	unc22	6 days
+SRR2658105	whole organism, unc22, 6 days		whole organism	unc22	6 days
+SRR2658110	whole organism, unc22, 9 days		whole organism	unc22	9 days
+SRR2658111	whole organism, unc22, 9 days		whole organism	unc22	9 days
+SRR2658112	whole organism, unc22, 9 days		whole organism	unc22	9 days
+SRR2658113	whole organism, unc22, 9 days		whole organism	unc22	9 days
+SRR2658138	whole organism, unc22, 9 days		whole organism	unc22	9 days
+SRR2658139	whole organism, unc22, 9 days		whole organism	unc22	9 days
+SRR2658140	whole organism, unc22, 9 days		whole organism	unc22	9 days
+SRR2658141	whole organism, unc22, 9 days		whole organism	unc22	9 days

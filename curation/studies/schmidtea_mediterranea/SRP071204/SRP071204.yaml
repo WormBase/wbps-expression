@@ -1,0 +1,72 @@
+---
+condition_names: {}
+contrasts:
+  - name: plane_of_amputation+sample_name+zone
+    values:
+      -
+        - Wildtype zone 1
+        - Wildtype zone 2
+        - 'posterior extent of the photoreceptors, Wildtype zone 1, 1 vs posterior extent of the brain, Wildtype zone 2, 2'
+      -
+        - Wildtype zone 1
+        - Wildtype zone 3
+        - 'posterior extent of the photoreceptors, Wildtype zone 1, 1 vs anterior extent of the pharynx, Wildtype zone 3, 3'
+      -
+        - Wildtype zone 1
+        - Wildtype zone 4
+        - 'posterior extent of the photoreceptors, Wildtype zone 1, 1 vs posterior extent of the pharynx, Wildtype zone 4, 4'
+      -
+        - Wildtype zone 1
+        - Wildtype zone 5
+        - 'posterior extent of the photoreceptors, Wildtype zone 1, 1 vs midpoint between posterior pharynx and tail tip, Wildtype zone 5, 5'
+      -
+        - Wildtype zone 1
+        - Wildtype zone 6
+        - 'posterior extent of the photoreceptors, Wildtype zone 1, 1 vs last remaining piece of tail tip, Wildtype zone 6, 6'
+      -
+        - Wildtype zone 2
+        - Wildtype zone 3
+        - 'posterior extent of the brain, Wildtype zone 2, 2 vs anterior extent of the pharynx, Wildtype zone 3, 3'
+      -
+        - Wildtype zone 2
+        - Wildtype zone 4
+        - 'posterior extent of the brain, Wildtype zone 2, 2 vs posterior extent of the pharynx, Wildtype zone 4, 4'
+      -
+        - Wildtype zone 2
+        - Wildtype zone 5
+        - 'posterior extent of the brain, Wildtype zone 2, 2 vs midpoint between posterior pharynx and tail tip, Wildtype zone 5, 5'
+      -
+        - Wildtype zone 2
+        - Wildtype zone 6
+        - 'posterior extent of the brain, Wildtype zone 2, 2 vs last remaining piece of tail tip, Wildtype zone 6, 6'
+      -
+        - Wildtype zone 3
+        - Wildtype zone 4
+        - 'anterior extent of the pharynx, Wildtype zone 3, 3 vs posterior extent of the pharynx, Wildtype zone 4, 4'
+      -
+        - Wildtype zone 3
+        - Wildtype zone 5
+        - 'anterior extent of the pharynx, Wildtype zone 3, 3 vs midpoint between posterior pharynx and tail tip, Wildtype zone 5, 5'
+      -
+        - Wildtype zone 3
+        - Wildtype zone 6
+        - 'anterior extent of the pharynx, Wildtype zone 3, 3 vs last remaining piece of tail tip, Wildtype zone 6, 6'
+      -
+        - Wildtype zone 4
+        - Wildtype zone 5
+        - 'posterior extent of the pharynx, Wildtype zone 4, 4 vs midpoint between posterior pharynx and tail tip, Wildtype zone 5, 5'
+      -
+        - Wildtype zone 4
+        - Wildtype zone 6
+        - 'posterior extent of the pharynx, Wildtype zone 4, 4 vs last remaining piece of tail tip, Wildtype zone 6, 6'
+      -
+        - Wildtype zone 5
+        - Wildtype zone 6
+        - 'midpoint between posterior pharynx and tail tip, Wildtype zone 5, 5 vs last remaining piece of tail tip, Wildtype zone 6, 6'
+description: HOX gene complement and expression in the planarian Schmidtea mediterranea
+pubmed:
+  27034770:
+    - 'Currie .. Pearson, 2016'
+    - 'HOX gene complement and expression in the planarian Schmidtea mediterranea. (Currie .. Pearson, 2016)'
+submitting_centre: 'Pearson, Molecular Genetics, Hospital for Sick Children'
+title: HOX gene complement and expression in the planarian Schmidtea mediterranea

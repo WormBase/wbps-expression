@@ -1,0 +1,25 @@
+Run	Condition	organism_part	rnai	rnai_feedings	strain
+SRR5573164	myoD, 10	whole organism	myoD	10	CIW4
+SRR5573165	myoD, 10	whole organism	myoD	10	CIW4
+SRR5573166	myoD, 10	whole organism	myoD	10	CIW4
+SRR5573167	myoD, 10	whole organism	myoD	10	CIW4
+SRR5573168	myoD, 10	whole organism	myoD	10	CIW4
+SRR5573169	myoD, 10	whole organism	myoD	10	CIW4
+SRR5573151	nkx1-1, 12	whole organism	nkx1-1	12	CIW4
+SRR5573152	nkx1-1, 12	whole organism	nkx1-1	12	CIW4
+SRR5573153	nkx1-1, 12	whole organism	nkx1-1	12	CIW4
+SRR5573154	nkx1-1, 12	whole organism	nkx1-1	12	CIW4
+SRR5573155	nkx1-1, 12	whole organism	nkx1-1	12	CIW4
+SRR5573156	nkx1-1, 12	whole organism	nkx1-1	12	CIW4
+SRR5573157	nkx1-1, 12	whole organism	nkx1-1	12	CIW4
+SRR5573158	unc-22 (control), 10	whole organism	unc-22 (control)	10	CIW4
+SRR5573159	unc-22 (control), 10	whole organism	unc-22 (control)	10	CIW4
+SRR5573160	unc-22 (control), 10	whole organism	unc-22 (control)	10	CIW4
+SRR5573161	unc-22 (control), 10	whole organism	unc-22 (control)	10	CIW4
+SRR5573162	unc-22 (control), 10	whole organism	unc-22 (control)	10	CIW4
+SRR5573163	unc-22 (control), 10	whole organism	unc-22 (control)	10	CIW4
+SRR5573146	unc-22 (control), 12	whole organism	unc-22 (control)	12	CIW4
+SRR5573147	unc-22 (control), 12	whole organism	unc-22 (control)	12	CIW4
+SRR5573148	unc-22 (control), 12	whole organism	unc-22 (control)	12	CIW4
+SRR5573149	unc-22 (control), 12	whole organism	unc-22 (control)	12	CIW4
+SRR5573150	unc-22 (control), 12	whole organism	unc-22 (control)	12	CIW4

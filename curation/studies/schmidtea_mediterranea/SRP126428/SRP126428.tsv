@@ -1,0 +1,228 @@
+Run	Condition	cell_type	genotype	irradiation	organism_part	timepoint	treatment
+SRR6363946	24hours after 10K irradiation, whole organism		wild type	24hours after 10K irradiation	whole organism		
+SRR6363947	24hours after 10K irradiation, whole organism		wild type	24hours after 10K irradiation	whole organism		
+SRR6363948	24hours after 10K irradiation, whole organism		wild type	24hours after 10K irradiation	whole organism		
+SRR6363949	24hours after 10K irradiation, whole organism		wild type	24hours after 10K irradiation	whole organism		
+SRR6363950	24hours after 10K irradiation, whole organism		wild type	24hours after 10K irradiation	whole organism		
+SRR6363951	24hours after 10K irradiation, whole organism		wild type	24hours after 10K irradiation	whole organism		
+SRR6363952	24hours after 10K irradiation, whole organism		wild type	24hours after 10K irradiation	whole organism		
+SRR6363953	24hours after 10K irradiation, whole organism		wild type	24hours after 10K irradiation	whole organism		
+SRR6363954	24hours after 10K irradiation, whole organism		wild type	24hours after 10K irradiation	whole organism		
+SRR6363955	sorted piwi-1 high cells	sorted piwi-1 high cells	wild type				
+SRR6363956	sorted piwi-1 high cells	sorted piwi-1 high cells	wild type				
+SRR6363961	sorted piwi-1 high cells	sorted piwi-1 high cells	wild type				
+SRR6363963	sorted piwi-1 high cells	sorted piwi-1 high cells	wild type				
+SRR6363975	sorted piwi-1 high cells	sorted piwi-1 high cells	wild type				
+SRR6363976	sorted piwi-1 high cells	sorted piwi-1 high cells	wild type				
+SRR6363981	sorted piwi-1 high cells	sorted piwi-1 high cells	wild type				
+SRR6363982	sorted piwi-1 high cells	sorted piwi-1 high cells	wild type				
+SRR6363957	sorted piwi-1 low cells	sorted piwi-1 low cells	wild type				
+SRR6363958	sorted piwi-1 low cells	sorted piwi-1 low cells	wild type				
+SRR6363966	sorted piwi-1 low cells	sorted piwi-1 low cells	wild type				
+SRR6363969	sorted piwi-1 low cells	sorted piwi-1 low cells	wild type				
+SRR6363977	sorted piwi-1 low cells	sorted piwi-1 low cells	wild type				
+SRR6363978	sorted piwi-1 low cells	sorted piwi-1 low cells	wild type				
+SRR6363983	sorted piwi-1 low cells	sorted piwi-1 low cells	wild type				
+SRR6363984	sorted piwi-1 low cells	sorted piwi-1 low cells	wild type				
+SRR6363972	sorted piwi-1 negative cells	sorted piwi-1 negative cells	wild type				
+SRR6363974	sorted piwi-1 negative cells	sorted piwi-1 negative cells	wild type				
+SRR6363979	sorted piwi-1 negative cells	sorted piwi-1 negative cells	wild type				
+SRR6363980	sorted piwi-1 negative cells	sorted piwi-1 negative cells	wild type				
+SRR6363985	sorted piwi-1 negative cells	sorted piwi-1 negative cells	wild type				
+SRR6363986	sorted piwi-1 negative cells	sorted piwi-1 negative cells	wild type				
+SRR6363919	sorted x1 cells	sorted x1 cells	wild type				
+SRR6363920	sorted x1 cells	sorted x1 cells	wild type				
+SRR6363921	sorted x1 cells	sorted x1 cells	wild type				
+SRR6363922	sorted x1 cells	sorted x1 cells	wild type				
+SRR6363923	sorted x1 cells	sorted x1 cells	wild type				
+SRR6363924	sorted x1 cells	sorted x1 cells	wild type				
+SRR6363925	sorted x1 cells	sorted x1 cells	wild type				
+SRR6363926	sorted x1 cells	sorted x1 cells	wild type				
+SRR6363927	sorted x1 cells	sorted x1 cells	wild type				
+SRR6363928	sorted x2 cells	sorted x2 cells	wild type				
+SRR6363929	sorted x2 cells	sorted x2 cells	wild type				
+SRR6363930	sorted x2 cells	sorted x2 cells	wild type				
+SRR6363931	sorted x2 cells	sorted x2 cells	wild type				
+SRR6363932	sorted x2 cells	sorted x2 cells	wild type				
+SRR6363933	sorted x2 cells	sorted x2 cells	wild type				
+SRR6363934	sorted x2 cells	sorted x2 cells	wild type				
+SRR6363935	sorted x2 cells	sorted x2 cells	wild type				
+SRR6363936	sorted x2 cells	sorted x2 cells	wild type				
+SRR6363937	sorted xins cells	sorted xins cells	wild type				
+SRR6363938	sorted xins cells	sorted xins cells	wild type				
+SRR6363939	sorted xins cells	sorted xins cells	wild type				
+SRR6363940	sorted xins cells	sorted xins cells	wild type				
+SRR6363941	sorted xins cells	sorted xins cells	wild type				
+SRR6363942	sorted xins cells	sorted xins cells	wild type				
+SRR6363943	sorted xins cells	sorted xins cells	wild type				
+SRR6363944	sorted xins cells	sorted xins cells	wild type				
+SRR6363945	sorted xins cells	sorted xins cells	wild type				
+SRR6363910	whole organism		wild type		whole organism		
+SRR6363911	whole organism		wild type		whole organism		
+SRR6363912	whole organism		wild type		whole organism		
+SRR6363913	whole organism		wild type		whole organism		
+SRR6363914	whole organism		wild type		whole organism		
+SRR6363915	whole organism		wild type		whole organism		
+SRR6363916	whole organism		wild type		whole organism		
+SRR6363917	whole organism		wild type		whole organism		
+SRR6363918	whole organism		wild type		whole organism		
+SRR6363989	whole organism, 0hr, amputation		wild type		whole organism	0hr	amputation
+SRR6363990	whole organism, 0hr, amputation		wild type		whole organism	0hr	amputation
+SRR6363991	whole organism, 0hr, amputation		wild type		whole organism	0hr	amputation
+SRR6363992	whole organism, 0hr, amputation		wild type		whole organism	0hr	amputation
+SRR6363993	whole organism, 0hr, amputation		wild type		whole organism	0hr	amputation
+SRR6363994	whole organism, 0hr, amputation		wild type		whole organism	0hr	amputation
+SRR6363995	whole organism, 0hr, amputation		wild type		whole organism	0hr	amputation
+SRR6363996	whole organism, 0hr, amputation		wild type		whole organism	0hr	amputation
+SRR6363997	whole organism, 0hr, amputation		wild type		whole organism	0hr	amputation
+SRR6363998	whole organism, 0hr, amputation		wild type		whole organism	0hr	amputation
+SRR6363999	whole organism, 0hr, amputation		wild type		whole organism	0hr	amputation
+SRR6364000	whole organism, 0hr, amputation		wild type		whole organism	0hr	amputation
+SRR6364001	whole organism, 10day, amputation		wild type		whole organism	10day	amputation
+SRR6364002	whole organism, 10day, amputation		wild type		whole organism	10day	amputation
+SRR6364003	whole organism, 10day, amputation		wild type		whole organism	10day	amputation
+SRR6364004	whole organism, 10day, amputation		wild type		whole organism	10day	amputation
+SRR6364005	whole organism, 10day, amputation		wild type		whole organism	10day	amputation
+SRR6364006	whole organism, 10day, amputation		wild type		whole organism	10day	amputation
+SRR6364007	whole organism, 10day, amputation		wild type		whole organism	10day	amputation
+SRR6364008	whole organism, 10day, amputation		wild type		whole organism	10day	amputation
+SRR6364009	whole organism, 12hr, amputation		wild type		whole organism	12hr	amputation
+SRR6364010	whole organism, 12hr, amputation		wild type		whole organism	12hr	amputation
+SRR6364011	whole organism, 12hr, amputation		wild type		whole organism	12hr	amputation
+SRR6364012	whole organism, 12hr, amputation		wild type		whole organism	12hr	amputation
+SRR6364013	whole organism, 12hr, amputation		wild type		whole organism	12hr	amputation
+SRR6364014	whole organism, 12hr, amputation		wild type		whole organism	12hr	amputation
+SRR6364015	whole organism, 12hr, amputation		wild type		whole organism	12hr	amputation
+SRR6364016	whole organism, 12hr, amputation		wild type		whole organism	12hr	amputation
+SRR6364017	whole organism, 12hr, amputation		wild type		whole organism	12hr	amputation
+SRR6364018	whole organism, 12hr, amputation		wild type		whole organism	12hr	amputation
+SRR6364019	whole organism, 12hr, amputation		wild type		whole organism	12hr	amputation
+SRR6364020	whole organism, 12hr, amputation		wild type		whole organism	12hr	amputation
+SRR6364021	whole organism, 14day, amputation		wild type		whole organism	14day	amputation
+SRR6364022	whole organism, 14day, amputation		wild type		whole organism	14day	amputation
+SRR6364023	whole organism, 14day, amputation		wild type		whole organism	14day	amputation
+SRR6364024	whole organism, 14day, amputation		wild type		whole organism	14day	amputation
+SRR6364025	whole organism, 14day, amputation		wild type		whole organism	14day	amputation
+SRR6364026	whole organism, 14day, amputation		wild type		whole organism	14day	amputation
+SRR6364027	whole organism, 14day, amputation		wild type		whole organism	14day	amputation
+SRR6364028	whole organism, 14day, amputation		wild type		whole organism	14day	amputation
+SRR6364029	whole organism, 1hr, amputation		wild type		whole organism	1hr	amputation
+SRR6364030	whole organism, 1hr, amputation		wild type		whole organism	1hr	amputation
+SRR6364031	whole organism, 1hr, amputation		wild type		whole organism	1hr	amputation
+SRR6364032	whole organism, 1hr, amputation		wild type		whole organism	1hr	amputation
+SRR6364033	whole organism, 1hr, amputation		wild type		whole organism	1hr	amputation
+SRR6364034	whole organism, 1hr, amputation		wild type		whole organism	1hr	amputation
+SRR6364035	whole organism, 1hr, amputation		wild type		whole organism	1hr	amputation
+SRR6364036	whole organism, 1hr, amputation		wild type		whole organism	1hr	amputation
+SRR6364037	whole organism, 1hr, amputation		wild type		whole organism	1hr	amputation
+SRR6364038	whole organism, 1hr, amputation		wild type		whole organism	1hr	amputation
+SRR6364039	whole organism, 1hr, amputation		wild type		whole organism	1hr	amputation
+SRR6364040	whole organism, 1hr, amputation		wild type		whole organism	1hr	amputation
+SRR6364041	whole organism, 24hr, amputation		wild type		whole organism	24hr	amputation
+SRR6364042	whole organism, 24hr, amputation		wild type		whole organism	24hr	amputation
+SRR6364043	whole organism, 24hr, amputation		wild type		whole organism	24hr	amputation
+SRR6364044	whole organism, 24hr, amputation		wild type		whole organism	24hr	amputation
+SRR6364045	whole organism, 24hr, amputation		wild type		whole organism	24hr	amputation
+SRR6364046	whole organism, 24hr, amputation		wild type		whole organism	24hr	amputation
+SRR6364047	whole organism, 24hr, amputation		wild type		whole organism	24hr	amputation
+SRR6364048	whole organism, 24hr, amputation		wild type		whole organism	24hr	amputation
+SRR6364049	whole organism, 36hr, amputation		wild type		whole organism	36hr	amputation
+SRR6364050	whole organism, 36hr, amputation		wild type		whole organism	36hr	amputation
+SRR6364051	whole organism, 36hr, amputation		wild type		whole organism	36hr	amputation
+SRR6364052	whole organism, 36hr, amputation		wild type		whole organism	36hr	amputation
+SRR6364053	whole organism, 36hr, amputation		wild type		whole organism	36hr	amputation
+SRR6364054	whole organism, 36hr, amputation		wild type		whole organism	36hr	amputation
+SRR6364055	whole organism, 36hr, amputation		wild type		whole organism	36hr	amputation
+SRR6364056	whole organism, 36hr, amputation		wild type		whole organism	36hr	amputation
+SRR6364057	whole organism, 3hr, amputation		wild type		whole organism	3hr	amputation
+SRR6364058	whole organism, 3hr, amputation		wild type		whole organism	3hr	amputation
+SRR6364059	whole organism, 3hr, amputation		wild type		whole organism	3hr	amputation
+SRR6364060	whole organism, 3hr, amputation		wild type		whole organism	3hr	amputation
+SRR6364061	whole organism, 3hr, amputation		wild type		whole organism	3hr	amputation
+SRR6364062	whole organism, 3hr, amputation		wild type		whole organism	3hr	amputation
+SRR6364063	whole organism, 3hr, amputation		wild type		whole organism	3hr	amputation
+SRR6364064	whole organism, 3hr, amputation		wild type		whole organism	3hr	amputation
+SRR6364065	whole organism, 3hr, amputation		wild type		whole organism	3hr	amputation
+SRR6364066	whole organism, 3hr, amputation		wild type		whole organism	3hr	amputation
+SRR6364067	whole organism, 3hr, amputation		wild type		whole organism	3hr	amputation
+SRR6364068	whole organism, 3hr, amputation		wild type		whole organism	3hr	amputation
+SRR6364069	whole organism, 48hr, amputation		wild type		whole organism	48hr	amputation
+SRR6364070	whole organism, 48hr, amputation		wild type		whole organism	48hr	amputation
+SRR6364071	whole organism, 48hr, amputation		wild type		whole organism	48hr	amputation
+SRR6364072	whole organism, 48hr, amputation		wild type		whole organism	48hr	amputation
+SRR6364073	whole organism, 48hr, amputation		wild type		whole organism	48hr	amputation
+SRR6364074	whole organism, 48hr, amputation		wild type		whole organism	48hr	amputation
+SRR6364075	whole organism, 48hr, amputation		wild type		whole organism	48hr	amputation
+SRR6364076	whole organism, 48hr, amputation		wild type		whole organism	48hr	amputation
+SRR6364077	whole organism, 4day, amputation		wild type		whole organism	4day	amputation
+SRR6364078	whole organism, 4day, amputation		wild type		whole organism	4day	amputation
+SRR6364079	whole organism, 4day, amputation		wild type		whole organism	4day	amputation
+SRR6364080	whole organism, 4day, amputation		wild type		whole organism	4day	amputation
+SRR6364081	whole organism, 4day, amputation		wild type		whole organism	4day	amputation
+SRR6364082	whole organism, 4day, amputation		wild type		whole organism	4day	amputation
+SRR6364083	whole organism, 4day, amputation		wild type		whole organism	4day	amputation
+SRR6364084	whole organism, 4day, amputation		wild type		whole organism	4day	amputation
+SRR6364085	whole organism, 5day, amputation		wild type		whole organism	5day	amputation
+SRR6364086	whole organism, 5day, amputation		wild type		whole organism	5day	amputation
+SRR6364087	whole organism, 5day, amputation		wild type		whole organism	5day	amputation
+SRR6364088	whole organism, 5day, amputation		wild type		whole organism	5day	amputation
+SRR6364089	whole organism, 5day, amputation		wild type		whole organism	5day	amputation
+SRR6364090	whole organism, 5day, amputation		wild type		whole organism	5day	amputation
+SRR6364091	whole organism, 5day, amputation		wild type		whole organism	5day	amputation
+SRR6364092	whole organism, 5day, amputation		wild type		whole organism	5day	amputation
+SRR6364093	whole organism, 60hr, amputation		wild type		whole organism	60hr	amputation
+SRR6364094	whole organism, 60hr, amputation		wild type		whole organism	60hr	amputation
+SRR6364095	whole organism, 60hr, amputation		wild type		whole organism	60hr	amputation
+SRR6364096	whole organism, 60hr, amputation		wild type		whole organism	60hr	amputation
+SRR6364097	whole organism, 60hr, amputation		wild type		whole organism	60hr	amputation
+SRR6364098	whole organism, 60hr, amputation		wild type		whole organism	60hr	amputation
+SRR6364099	whole organism, 60hr, amputation		wild type		whole organism	60hr	amputation
+SRR6364100	whole organism, 60hr, amputation		wild type		whole organism	60hr	amputation
+SRR6364101	whole organism, 6day, amputation		wild type		whole organism	6day	amputation
+SRR6364102	whole organism, 6day, amputation		wild type		whole organism	6day	amputation
+SRR6364103	whole organism, 6day, amputation		wild type		whole organism	6day	amputation
+SRR6364104	whole organism, 6day, amputation		wild type		whole organism	6day	amputation
+SRR6364105	whole organism, 6day, amputation		wild type		whole organism	6day	amputation
+SRR6364106	whole organism, 6day, amputation		wild type		whole organism	6day	amputation
+SRR6364107	whole organism, 6day, amputation		wild type		whole organism	6day	amputation
+SRR6364108	whole organism, 6day, amputation		wild type		whole organism	6day	amputation
+SRR6364109	whole organism, 6hr, amputation		wild type		whole organism	6hr	amputation
+SRR6364110	whole organism, 6hr, amputation		wild type		whole organism	6hr	amputation
+SRR6364111	whole organism, 6hr, amputation		wild type		whole organism	6hr	amputation
+SRR6364112	whole organism, 6hr, amputation		wild type		whole organism	6hr	amputation
+SRR6364113	whole organism, 6hr, amputation		wild type		whole organism	6hr	amputation
+SRR6364114	whole organism, 6hr, amputation		wild type		whole organism	6hr	amputation
+SRR6364115	whole organism, 6hr, amputation		wild type		whole organism	6hr	amputation
+SRR6364116	whole organism, 6hr, amputation		wild type		whole organism	6hr	amputation
+SRR6364117	whole organism, 6hr, amputation		wild type		whole organism	6hr	amputation
+SRR6364118	whole organism, 6hr, amputation		wild type		whole organism	6hr	amputation
+SRR6364119	whole organism, 6hr, amputation		wild type		whole organism	6hr	amputation
+SRR6364120	whole organism, 6hr, amputation		wild type		whole organism	6hr	amputation
+SRR6364121	whole organism, 72hr, amputation		wild type		whole organism	72hr	amputation
+SRR6364122	whole organism, 72hr, amputation		wild type		whole organism	72hr	amputation
+SRR6364123	whole organism, 72hr, amputation		wild type		whole organism	72hr	amputation
+SRR6364124	whole organism, 72hr, amputation		wild type		whole organism	72hr	amputation
+SRR6364125	whole organism, 72hr, amputation		wild type		whole organism	72hr	amputation
+SRR6364126	whole organism, 72hr, amputation		wild type		whole organism	72hr	amputation
+SRR6364127	whole organism, 72hr, amputation		wild type		whole organism	72hr	amputation
+SRR6364128	whole organism, 72hr, amputation		wild type		whole organism	72hr	amputation
+SRR6364129	whole organism, 7day, amputation		wild type		whole organism	7day	amputation
+SRR6364130	whole organism, 7day, amputation		wild type		whole organism	7day	amputation
+SRR6364131	whole organism, 7day, amputation		wild type		whole organism	7day	amputation
+SRR6364132	whole organism, 7day, amputation		wild type		whole organism	7day	amputation
+SRR6364133	whole organism, 7day, amputation		wild type		whole organism	7day	amputation
+SRR6364134	whole organism, 7day, amputation		wild type		whole organism	7day	amputation
+SRR6364135	whole organism, 7day, amputation		wild type		whole organism	7day	amputation
+SRR6364136	whole organism, 7day, amputation		wild type		whole organism	7day	amputation
+SRR6364137	whole organism, 9hr, amputation		wild type		whole organism	9hr	amputation
+SRR6364138	whole organism, 9hr, amputation		wild type		whole organism	9hr	amputation
+SRR6364139	whole organism, 9hr, amputation		wild type		whole organism	9hr	amputation
+SRR6364140	whole organism, 9hr, amputation		wild type		whole organism	9hr	amputation
+SRR6364141	whole organism, 9hr, amputation		wild type		whole organism	9hr	amputation
+SRR6364142	whole organism, 9hr, amputation		wild type		whole organism	9hr	amputation
+SRR6364143	whole organism, 9hr, amputation		wild type		whole organism	9hr	amputation
+SRR6364144	whole organism, 9hr, amputation		wild type		whole organism	9hr	amputation
+SRR6364145	whole organism, 9hr, amputation		wild type		whole organism	9hr	amputation
+SRR6364146	whole organism, 9hr, amputation		wild type		whole organism	9hr	amputation
+SRR6364147	whole organism, 9hr, amputation		wild type		whole organism	9hr	amputation
+SRR6364148	whole organism, 9hr, amputation		wild type		whole organism	9hr	amputation

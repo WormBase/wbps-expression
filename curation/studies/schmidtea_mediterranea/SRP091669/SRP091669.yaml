@@ -1,0 +1,13 @@
+---
+condition_names: {}
+contrasts:
+  - name: organism_part
+    values:
+      -
+        - control dissociated cells
+        - npy-8-internalizing dissociated cells
+        - control dissociated cells vs npy-8-internalizing dissociated cells
+description: NPY-8-internalizing cells transcriptome in Schmidtea mediterranea
+pubmed: ~
+submitting_centre: University of Illinois at Urbana-Champaign
+title: NPY-8-internalizing cells transcriptome in Schmidtea mediterranea

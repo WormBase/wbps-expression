@@ -1,0 +1,21 @@
+---
+condition_names: {}
+contrasts:
+  - name: organism_part
+    values:
+      -
+        - differentiated tissues
+        - stem cell progeny
+        - differentiated tissues vs stem cell progeny
+      -
+        - differentiated tissues
+        - stem cells
+        - differentiated tissues vs stem cells
+      -
+        - stem cell progeny
+        - stem cells
+        - stem cell progeny vs stem cells
+description: Planarian stem cell transcriptome
+pubmed: ~
+submitting_centre: 'Pearson, Molecular Genetics, Hospital for Sick Children'
+title: Planarian stem cell transcriptome

@@ -1,0 +1,27 @@
+---
+condition_names: {}
+contrasts:
+  - name: treatment
+    values:
+      -
+        - control(RNAi)
+        - lhx1/5-1(RNAi)
+        - control(RNAi) vs lhx1/5-1(RNAi)
+      -
+        - control(RNAi)
+        - pitx(RNAi)
+        - control(RNAi) vs pitx(RNAi)
+      -
+        - lhx1/5-1(RNAi)
+        - pitx(RNAi)
+        - lhx1/5-1(RNAi) vs pitx(RNAi)
+description: Schmidtea mediterranea strain:CIW4 Transcriptome or Gene expression
+pubmed:
+  23903188:
+    - 'Currie .. Pearson, 2013'
+    - 'Transcription factors lhx1/5-1 and pitx are required for the maintenance and regeneration of serotonergic neurons in planarians. (Currie .. Pearson, 2013)'
+  24523458:
+    - 'Lin .. Pearson, 2014'
+    - 'Planarian yorkie/YAP functions to integrate adult stem cell proliferation, organ homeostasis and maintenance of axial patterning. (Lin .. Pearson, 2014)'
+submitting_centre: Hospital for Sick Children
+title: Schmidtea mediterranea strain:CIW4 Transcriptome or Gene expression

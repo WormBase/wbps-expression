@@ -1,0 +1,25 @@
+---
+condition_names: {}
+contrasts:
+  - name: timepoint+treatment
+    values:
+      -
+        - 0 hours
+        - '24 hours, 6000 rads'
+        - '0 hours vs 24 hours, 6000 rads'
+      -
+        - 0 hours
+        - '48 hours, 6000 rads'
+        - '0 hours vs 48 hours, 6000 rads'
+      -
+        - 0 hours
+        - '72 hours, 6000 rads'
+        - '0 hours vs 72 hours, 6000 rads'
+      -
+        - 0 hours
+        - '96 hours, 6000 rads'
+        - '0 hours vs 96 hours, 6000 rads'
+description: 'RNA Seq analysis of gene expression in Planaria at 24, 48, 72, and 96 hours after exposure to 6k rad of gamma irradiation.'
+pubmed: ~
+submitting_centre: 'Seidel, Genomics, Stowers Institute'
+title: 'RNA Seq analysis of gene expression in Planaria at 24, 48, 72, and 96 hours after exposure to 6k rad of gamma irradiation.'

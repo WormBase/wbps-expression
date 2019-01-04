@@ -1,0 +1,42 @@
+---
+condition_names:
+  'Asexual CIW10, myb-1 RNAi': 'strain Asexual CIW10, myb-1 RNAi'
+  'Asexual CIW12, myb-1 RNAi': 'strain Asexual CIW12, myb-1 RNAi'
+  'Asexual CIW14, myb-1 RNAi': 'strain Asexual CIW14, myb-1 RNAi'
+  'Asexual CIW4, control RNAi': 'strain Asexual CIW4, control RNAi'
+  'Asexual CIW6, control RNAi': 'strain Asexual CIW6, control RNAi'
+  'Asexual CIW8, control RNAi': 'strain Asexual CIW8, control RNAi'
+contrasts:
+  - name: strain
+    values:
+      -
+        - 'Asexual CIW10, myb-1 RNAi'
+        - 'Asexual CIW12, myb-1 RNAi'
+        - 'myb-1 RNAi: Asexual CIW10 vs Asexual CIW12'
+      -
+        - 'Asexual CIW10, myb-1 RNAi'
+        - 'Asexual CIW14, myb-1 RNAi'
+        - 'myb-1 RNAi: Asexual CIW10 vs Asexual CIW14'
+      -
+        - 'Asexual CIW12, myb-1 RNAi'
+        - 'Asexual CIW14, myb-1 RNAi'
+        - 'myb-1 RNAi: Asexual CIW12 vs Asexual CIW14'
+      -
+        - 'Asexual CIW4, control RNAi'
+        - 'Asexual CIW6, control RNAi'
+        - 'control RNAi: Asexual CIW4 vs Asexual CIW6'
+      -
+        - 'Asexual CIW4, control RNAi'
+        - 'Asexual CIW8, control RNAi'
+        - 'control RNAi: Asexual CIW4 vs Asexual CIW8'
+      -
+        - 'Asexual CIW6, control RNAi'
+        - 'Asexual CIW8, control RNAi'
+        - 'control RNAi: Asexual CIW6 vs Asexual CIW8'
+description: Smed-myb-1 specifies early temporal identity during planarian epidermal differentiation
+pubmed:
+  30282036:
+    - 'Zhu .. Pearson, 2018'
+    - 'Smed-myb-1 Specifies Early Temporal Identity during Planarian Epidermal Differentiation. (Zhu .. Pearson, 2018)'
+submitting_centre: 'Pearson, Molecular Genetics, Hospital for Sick Children'
+title: Smed-myb-1 specifies early temporal identity during planarian epidermal differentiation

@@ -1,0 +1,121 @@
+---
+condition_names: {}
+contrasts:
+  - name: timepoint
+    values:
+      -
+        - 'X1, mll1/2, 12 days'
+        - 'X1, mll1/2, 9 days'
+        - 'X1, mll1/2: 12 days vs 9 days'
+      -
+        - 'X1, set1, 6 days'
+        - 'X1, set1, 9 days'
+        - 'X1, set1: 6 days vs 9 days'
+      -
+        - 'X1, unc22, 12 days'
+        - 'X1, unc22, 6 days'
+        - 'X1, unc22: 12 days vs 6 days'
+      -
+        - 'X1, unc22, 12 days'
+        - 'X1, unc22, 9 days'
+        - 'X1, unc22: 12 days vs 9 days'
+      -
+        - 'X1, unc22, 6 days'
+        - 'X1, unc22, 9 days'
+        - 'X1, unc22: 6 days vs 9 days'
+      -
+        - 'whole organism, mll1/2, 12 days'
+        - 'whole organism, mll1/2, 9 days'
+        - 'whole organism, mll1/2: 12 days vs 9 days'
+      -
+        - 'whole organism, set1, 6 days'
+        - 'whole organism, set1, 9 days'
+        - 'whole organism, set1: 6 days vs 9 days'
+      -
+        - 'whole organism, unc22, 12 days'
+        - 'whole organism, unc22, 6 days'
+        - 'whole organism, unc22: 12 days vs 6 days'
+      -
+        - 'whole organism, unc22, 12 days'
+        - 'whole organism, unc22, 9 days'
+        - 'whole organism, unc22: 12 days vs 9 days'
+      -
+        - 'whole organism, unc22, 6 days'
+        - 'whole organism, unc22, 9 days'
+        - 'whole organism, unc22: 6 days vs 9 days'
+  - name: rnai
+    values:
+      -
+        - 'X1, mll1/2, 12 days'
+        - 'X1, unc22, 12 days'
+        - 'X1, 12 days: mll1/2 vs unc22'
+      -
+        - 'X1, mll1/2, 9 days'
+        - 'X1, set1, 9 days'
+        - 'X1, 9 days: mll1/2 vs set1'
+      -
+        - 'X1, mll1/2, 9 days'
+        - 'X1, unc22, 9 days'
+        - 'X1, 9 days: mll1/2 vs unc22'
+      -
+        - 'X1, set1, 9 days'
+        - 'X1, unc22, 9 days'
+        - 'X1, 9 days: set1 vs unc22'
+      -
+        - 'X1, set1, 6 days'
+        - 'X1, unc22, 6 days'
+        - 'X1, 6 days: set1 vs unc22'
+      -
+        - 'whole organism, mll1/2, 12 days'
+        - 'whole organism, unc22, 12 days'
+        - 'whole organism, 12 days: mll1/2 vs unc22'
+      -
+        - 'whole organism, mll1/2, 9 days'
+        - 'whole organism, set1, 9 days'
+        - 'whole organism, 9 days: mll1/2 vs set1'
+      -
+        - 'whole organism, mll1/2, 9 days'
+        - 'whole organism, unc22, 9 days'
+        - 'whole organism, 9 days: mll1/2 vs unc22'
+      -
+        - 'whole organism, set1, 9 days'
+        - 'whole organism, unc22, 9 days'
+        - 'whole organism, 9 days: set1 vs unc22'
+      -
+        - 'whole organism, set1, 6 days'
+        - 'whole organism, unc22, 6 days'
+        - 'whole organism, 6 days: set1 vs unc22'
+  - name: cell_type+organism_part
+    values:
+      -
+        - 'X1, mll1/2, 12 days'
+        - 'whole organism, mll1/2, 12 days'
+        - 'mll1/2, 12 days: X1 vs whole organism'
+      -
+        - 'X1, mll1/2, 9 days'
+        - 'whole organism, mll1/2, 9 days'
+        - 'mll1/2, 9 days: X1 vs whole organism'
+      -
+        - 'X1, set1, 6 days'
+        - 'whole organism, set1, 6 days'
+        - 'X1, set1, 6 days vs whole organism, set1, 6 days'
+      -
+        - 'X1, set1, 9 days'
+        - 'whole organism, set1, 9 days'
+        - 'X1, set1, 9 days vs whole organism, set1, 9 days'
+      -
+        - 'X1, unc22, 12 days'
+        - 'whole organism, unc22, 12 days'
+        - 'unc22, 12 days: X1 vs whole organism'
+      -
+        - 'X1, unc22, 6 days'
+        - 'whole organism, unc22, 6 days'
+        - 'unc22, 6 days: X1 vs whole organism'
+      -
+        - 'X1, unc22, 9 days'
+        - 'whole organism, unc22, 9 days'
+        - 'unc22, 9 days: X1 vs whole organism'
+description: 'Set1 and MLL1/2 target distinct sets of functionally different genomic loci in vivo: An in depth RNA-seq analysis of H3K4me3 targets in vivo and upon Set1 and mll1 knockdown'
+pubmed: ~
+submitting_centre: Stowers Institute For Medical Research
+title: 'Set1 and MLL1/2 target distinct sets of functionally different genomic loci in vivo: An in depth RNA-seq analysis of H3K4me3 targets in vivo and upon Set1 and mll1 knockdown'

@@ -1,0 +1,131 @@
+---
+condition_names: {}
+contrasts:
+  - name: timepoint
+    values:
+      -
+        - 'pax5, 12 days'
+        - 'pax5, 18 days'
+        - 'pax5: 12 days vs 18 days'
+      -
+        - 'pax5, 12 days'
+        - 'pax5, 6 days'
+        - 'pax5: 12 days vs 6 days'
+      -
+        - 'pax5, 18 days'
+        - 'pax5, 6 days'
+        - 'pax5: 18 days vs 6 days'
+      -
+        - 'sox8, 12 days'
+        - 'sox8, 18 days'
+        - 'sox8: 12 days vs 18 days'
+      -
+        - 'sox8, 12 days'
+        - 'sox8, 6 days'
+        - 'sox8: 12 days vs 6 days'
+      -
+        - 'sox8, 18 days'
+        - 'sox8, 6 days'
+        - 'sox8: 18 days vs 6 days'
+      -
+        - 'unc22, 12 days'
+        - 'unc22, 18 days'
+        - 'unc22: 12 days vs 18 days'
+      -
+        - 'unc22, 12 days'
+        - 'unc22, 6 days'
+        - 'unc22: 12 days vs 6 days'
+      -
+        - 'unc22, 18 days'
+        - 'unc22, 6 days'
+        - 'unc22: 18 days vs 6 days'
+      -
+        - 'zfp1, 12 days'
+        - 'zfp1, 18 days'
+        - 'zfp1: 12 days vs 18 days'
+      -
+        - 'zfp1, 12 days'
+        - 'zfp1, 6 days'
+        - 'zfp1: 12 days vs 6 days'
+      -
+        - 'zfp1, 18 days'
+        - 'zfp1, 6 days'
+        - 'zfp1: 18 days vs 6 days'
+  - name: rnai
+    values:
+      -
+        - 'pax5, 12 days'
+        - 'sox8, 12 days'
+        - '12 days: pax5 vs sox8'
+      -
+        - 'pax5, 12 days'
+        - 'unc22, 12 days'
+        - '12 days: pax5 vs unc22'
+      -
+        - 'pax5, 12 days'
+        - 'zfp1, 12 days'
+        - '12 days: pax5 vs zfp1'
+      -
+        - 'sox8, 12 days'
+        - 'unc22, 12 days'
+        - '12 days: sox8 vs unc22'
+      -
+        - 'sox8, 12 days'
+        - 'zfp1, 12 days'
+        - '12 days: sox8 vs zfp1'
+      -
+        - 'unc22, 12 days'
+        - 'zfp1, 12 days'
+        - '12 days: unc22 vs zfp1'
+      -
+        - 'pax5, 18 days'
+        - 'sox8, 18 days'
+        - '18 days: pax5 vs sox8'
+      -
+        - 'pax5, 18 days'
+        - 'unc22, 18 days'
+        - '18 days: pax5 vs unc22'
+      -
+        - 'pax5, 18 days'
+        - 'zfp1, 18 days'
+        - '18 days: pax5 vs zfp1'
+      -
+        - 'sox8, 18 days'
+        - 'unc22, 18 days'
+        - '18 days: sox8 vs unc22'
+      -
+        - 'sox8, 18 days'
+        - 'zfp1, 18 days'
+        - '18 days: sox8 vs zfp1'
+      -
+        - 'unc22, 18 days'
+        - 'zfp1, 18 days'
+        - '18 days: unc22 vs zfp1'
+      -
+        - 'pax5, 6 days'
+        - 'sox8, 6 days'
+        - '6 days: pax5 vs sox8'
+      -
+        - 'pax5, 6 days'
+        - 'unc22, 6 days'
+        - '6 days: pax5 vs unc22'
+      -
+        - 'pax5, 6 days'
+        - 'zfp1, 6 days'
+        - '6 days: pax5 vs zfp1'
+      -
+        - 'sox8, 6 days'
+        - 'unc22, 6 days'
+        - '6 days: sox8 vs unc22'
+      -
+        - 'sox8, 6 days'
+        - 'zfp1, 6 days'
+        - '6 days: sox8 vs zfp1'
+      -
+        - 'unc22, 6 days'
+        - 'zfp1, 6 days'
+        - '6 days: unc22 vs zfp1'
+description: 'RNA Seq analysis in flatworm following 6, 12, or 18 day treatment with RNAi against Pax5, Sox8, or Zfp1, relative to unc22 to identify transcriptional targets.'
+pubmed: ~
+submitting_centre: 'Seidel, Genomics, Stowers Institute'
+title: 'RNA Seq analysis in flatworm following 6, 12, or 18 day treatment with RNAi against Pax5, Sox8, or Zfp1, relative to unc22 to identify transcriptional targets.'

@@ -1,0 +1,49 @@
+Run	Condition	organism_part	rnai	rnai_feedings	strain
+SRR5573197	fst, 6	tail fragment	fst	6	CIW4
+SRR5573198	fst, 6	tail fragment	fst	6	CIW4
+SRR5573199	fst, 6	tail fragment	fst	6	CIW4
+SRR5573203	fst, 6	tail fragment	fst	6	CIW4
+SRR5573204	fst, 6	tail fragment	fst	6	CIW4
+SRR5573205	fst, 6	tail fragment	fst	6	CIW4
+SRR5573209	fst, 6	tail fragment	fst	6	CIW4
+SRR5573210	fst, 6	tail fragment	fst	6	CIW4
+SRR5573211	fst, 6	tail fragment	fst	6	CIW4
+SRR5573215	fst, 6	tail fragment	fst	6	CIW4
+SRR5573216	fst, 6	tail fragment	fst	6	CIW4
+SRR5573217	fst, 6	tail fragment	fst	6	CIW4
+SRR5573170	myoD, 10	tail fragment	myoD	10	CIW4
+SRR5573171	myoD, 10	tail fragment	myoD	10	CIW4
+SRR5573172	myoD, 10	tail fragment	myoD	10	CIW4
+SRR5573176	myoD, 10	tail fragment	myoD	10	CIW4
+SRR5573177	myoD, 10	tail fragment	myoD	10	CIW4
+SRR5573178	myoD, 10	tail fragment	myoD	10	CIW4
+SRR5573182	myoD, 10	tail fragment	myoD	10	CIW4
+SRR5573183	myoD, 10	tail fragment	myoD	10	CIW4
+SRR5573184	myoD, 10	tail fragment	myoD	10	CIW4
+SRR5573188	myoD, 10	tail fragment	myoD	10	CIW4
+SRR5573189	myoD, 10	tail fragment	myoD	10	CIW4
+SRR5573190	myoD, 10	tail fragment	myoD	10	CIW4
+SRR5573173	unc-22 (control), 10	tail fragment	unc-22 (control)	10	CIW4
+SRR5573174	unc-22 (control), 10	tail fragment	unc-22 (control)	10	CIW4
+SRR5573175	unc-22 (control), 10	tail fragment	unc-22 (control)	10	CIW4
+SRR5573179	unc-22 (control), 10	tail fragment	unc-22 (control)	10	CIW4
+SRR5573180	unc-22 (control), 10	tail fragment	unc-22 (control)	10	CIW4
+SRR5573181	unc-22 (control), 10	tail fragment	unc-22 (control)	10	CIW4
+SRR5573185	unc-22 (control), 10	tail fragment	unc-22 (control)	10	CIW4
+SRR5573186	unc-22 (control), 10	tail fragment	unc-22 (control)	10	CIW4
+SRR5573187	unc-22 (control), 10	tail fragment	unc-22 (control)	10	CIW4
+SRR5573191	unc-22 (control), 10	tail fragment	unc-22 (control)	10	CIW4
+SRR5573192	unc-22 (control), 10	tail fragment	unc-22 (control)	10	CIW4
+SRR5573193	unc-22 (control), 10	tail fragment	unc-22 (control)	10	CIW4
+SRR5573194	unc-22 (control), 6	tail fragment	unc-22 (control)	6	CIW4
+SRR5573195	unc-22 (control), 6	tail fragment	unc-22 (control)	6	CIW4
+SRR5573196	unc-22 (control), 6	tail fragment	unc-22 (control)	6	CIW4
+SRR5573200	unc-22 (control), 6	tail fragment	unc-22 (control)	6	CIW4
+SRR5573201	unc-22 (control), 6	tail fragment	unc-22 (control)	6	CIW4
+SRR5573202	unc-22 (control), 6	tail fragment	unc-22 (control)	6	CIW4
+SRR5573206	unc-22 (control), 6	tail fragment	unc-22 (control)	6	CIW4
+SRR5573207	unc-22 (control), 6	tail fragment	unc-22 (control)	6	CIW4
+SRR5573208	unc-22 (control), 6	tail fragment	unc-22 (control)	6	CIW4
+SRR5573212	unc-22 (control), 6	tail fragment	unc-22 (control)	6	CIW4
+SRR5573213	unc-22 (control), 6	tail fragment	unc-22 (control)	6	CIW4
+SRR5573214	unc-22 (control), 6	tail fragment	unc-22 (control)	6	CIW4

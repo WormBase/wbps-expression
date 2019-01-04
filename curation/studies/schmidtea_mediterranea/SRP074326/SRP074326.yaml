@@ -1,0 +1,24 @@
+---
+condition_names:
+  sexual CPEB1(RNAi): strain sexual CPEB1(RNAi)
+  sexual CPEB2(RNAi): strain sexual CPEB2(RNAi)
+  sexual control(RNAi): strain sexual control(RNAi)
+contrasts:
+  - name: strain
+    values:
+      -
+        - sexual CPEB1(RNAi)
+        - sexual CPEB2(RNAi)
+        - sexual CPEB1(RNAi) vs sexual CPEB2(RNAi)
+      -
+        - sexual CPEB1(RNAi)
+        - sexual control(RNAi)
+        - sexual CPEB1(RNAi) vs sexual control(RNAi)
+      -
+        - sexual CPEB2(RNAi)
+        - sexual control(RNAi)
+        - sexual CPEB2(RNAi) vs sexual control(RNAi)
+description: Schmidtea mediterranea Raw sequence reads (sexual strain and CPEB knockdowns)
+pubmed: ~
+submitting_centre: Wright State University
+title: Schmidtea mediterranea Raw sequence reads (sexual strain and CPEB knockdowns)

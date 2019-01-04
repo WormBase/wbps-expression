@@ -1,0 +1,28 @@
+---
+condition_names: {}
+contrasts:
+  - name: organism_part
+    values:
+      -
+        - 'whole organism, Egfr3 8 feedings NT, 30 days'
+        - 'x1, Egfr3 8 feedings NT, 30 days'
+        - 'Egfr3 8 feedings NT, 30 days: whole organism vs x1'
+      -
+        - 'whole organism, Unc22 8 feedings NT, 30 days'
+        - 'x1, Unc22 8 feedings NT, 30 days'
+        - 'Unc22 8 feedings NT, 30 days: whole organism vs x1'
+      -
+        - 'whole organism, nrg6 8 feedings NT, 30 days'
+        - 'x1, nrg6 8 feedings NT, 30 days'
+        - 'nrg6 8 feedings NT, 30 days: whole organism vs x1'
+      -
+        - 'whole organism, nrg7 8 feedings NT, 30 days'
+        - 'x1, nrg7 8 feedings NT, 30 days'
+        - 'nrg7 8 feedings NT, 30 days: whole organism vs x1'
+description: Egf signaling directs neoblast repopulation by regulating asymmetric cell division in planarians
+pubmed:
+  27523733:
+    - 'Lei .. Sánchez Alvarado, 2016'
+    - 'Egf Signaling Directs Neoblast Repopulation by Regulating Asymmetric Cell Division in Planarians. (Lei .. Sánchez Alvarado, 2016)'
+submitting_centre: 'Seidel, Genomics, Stowers Institute'
+title: Egf signaling directs neoblast repopulation by regulating asymmetric cell division in planarians

@@ -1,0 +1,10 @@
+---
+condition_names: {}
+contrasts: []
+description: Smed-hippo(RNAi) RNA-Seq
+pubmed:
+  29357350:
+    - 'de Sousa .. Adell, 2018'
+    - 'Hippo signaling controls cell cycle and restricts cell plasticity in planarians. (de Sousa .. Adell, 2018)'
+submitting_centre: 'Single Cell Genomics, Development, Centro Nacional de Análisis Genómico'
+title: Smed-hippo(RNAi) RNA-Seq

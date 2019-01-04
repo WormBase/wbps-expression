@@ -1,0 +1,21 @@
+---
+condition_names: {}
+contrasts:
+  - name: rnai
+    values:
+      -
+        - p53
+        - unc22
+        - p53 vs unc22
+      -
+        - p53
+        - zfp1
+        - p53 vs zfp1
+      -
+        - unc22
+        - zfp1
+        - unc22 vs zfp1
+description: 'RNA Seq analysis of neoblasts from Schmidtea mediterranea treated with RNAi against zfp1, p53, or unc22 to identify factors involved in neoblast differentiation.'
+pubmed: ~
+submitting_centre: 'Seidel, Genomics, Stowers Institute'
+title: 'RNA Seq analysis of neoblasts from Schmidtea mediterranea treated with RNAi against zfp1, p53, or unc22 to identify factors involved in neoblast differentiation.'

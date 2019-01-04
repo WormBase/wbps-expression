@@ -1,0 +1,26 @@
+---
+condition_names: {}
+contrasts:
+  - name: rnai_feedings
+    values:
+      -
+        - 'unc-22 (control), 10'
+        - 'unc-22 (control), 6'
+        - 'unc-22 (control): 10 vs 6'
+  - name: rnai
+    values:
+      -
+        - 'fst, 6'
+        - 'unc-22 (control), 6'
+        - '6: fst vs unc-22 (control)'
+      -
+        - 'myoD, 10'
+        - 'unc-22 (control), 10'
+        - '10: myoD vs unc-22 (control)'
+description: Gene expression profiling of regenerating planarian tails after inhibition of myoD and follistatin
+pubmed:
+  29168507:
+    - 'Scimone .. Reddien, 2017'
+    - 'Orthogonal muscle fibres have different instructive roles in planarian regeneration. (Scimone .. Reddien, 2017)'
+submitting_centre: Whitehead Institute for Biomedical Research
+title: Gene expression profiling of regenerating planarian tails after inhibition of myoD and follistatin

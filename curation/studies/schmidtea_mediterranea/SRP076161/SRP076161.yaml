@@ -1,0 +1,16 @@
+---
+condition_names: {}
+contrasts:
+  - name: developmental_stage
+    values:
+      -
+        - 'sexual, Yolk'
+        - 'sexual, virgin, sexuallly mature adult'
+        - 'sexual: Yolk vs virgin, sexuallly mature adult'
+description: 'RNA Seq analysis of gene expression during Schmidtea mediterranea embryogenesis, including yolk and adult samples'
+pubmed:
+  28072387:
+    - 'Davies .. Alvarado, 2017'
+    - 'Embryonic origin of adult stem cells required for tissue homeostasis and regeneration. (Davies .. Alvarado, 2017)'
+submitting_centre: 'Seidel, Genomics, Stowers Institute'
+title: 'RNA Seq analysis of gene expression during Schmidtea mediterranea embryogenesis, including yolk and adult samples'

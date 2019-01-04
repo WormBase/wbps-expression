@@ -1,0 +1,13 @@
+---
+condition_names: {}
+contrasts:
+  - name: cell_type
+    values:
+      -
+        - X1
+        - Xins
+        - X1 vs Xins
+description: RNA Seq analysis of sorted Schmidtea mediterranea X1 and Xins cells to identify factors specific to neoblasts
+pubmed: ~
+submitting_centre: Stowers Institute For Medical Research
+title: RNA Seq analysis of sorted Schmidtea mediterranea X1 and Xins cells to identify factors specific to neoblasts

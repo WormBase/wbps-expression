@@ -1,0 +1,37 @@
+---
+condition_names:
+  'Asexual, Irradiated': 'strain Asexual, Irradiated'
+  'Asexual, Non-irradiated': 'strain Asexual, Non-irradiated'
+  'Sexual, Irradiated': 'strain Sexual, Irradiated'
+  'Sexual, Non-irradiated': 'strain Sexual, Non-irradiated'
+  'X1 neoblast, Sexual, Non-irradiated': 'X1 neoblast, strain Sexual, Non-irradiated'
+  'X2 neoblast, Sexual, Non-irradiated': 'X2 neoblast, strain Sexual, Non-irradiated'
+  'Xins differentiated cells, Sexual, Non-irradiated': 'Xins differentiated cells, strain Sexual, Non-irradiated'
+contrasts:
+  - name: treatment
+    values:
+      -
+        - 'Asexual, Irradiated'
+        - 'Asexual, Non-irradiated'
+        - 'Asexual: Irradiated vs Non-irradiated'
+      -
+        - 'Sexual, Irradiated'
+        - 'Sexual, Non-irradiated'
+        - 'Sexual: Irradiated vs Non-irradiated'
+  - name: strain
+    values:
+      -
+        - 'Asexual, Irradiated'
+        - 'Sexual, Irradiated'
+        - 'Irradiated: Asexual vs Sexual'
+      -
+        - 'Asexual, Non-irradiated'
+        - 'Sexual, Non-irradiated'
+        - 'Non-irradiated: Asexual vs Sexual'
+description: Transcriptome analysis reveals strain-specific and conserved stemness genes in Schmidtea mediterranea
+pubmed:
+  22496805:
+    - 'Resch .. Graveley, 2012'
+    - 'Transcriptome analysis reveals strain-specific and conserved stemness genes in Schmidtea mediterranea. (Resch .. Graveley, 2012)'
+submitting_centre: 'Genetics and Developmental Biology, University of Connecticut Health Center'
+title: Transcriptome analysis reveals strain-specific and conserved stemness genes in Schmidtea mediterranea
