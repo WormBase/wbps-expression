@@ -1,0 +1,101 @@
+---
+condition_names: {}
+contrasts:
+  - name: timepoint+treatment
+    values:
+      -
+        - Infective Juvenile
+        - 'activated in a live waxworm, 12 hours'
+        - 'Infective Juvenile vs activated in a live waxworm, 12 hours'
+      -
+        - Infective Juvenile
+        - 'activated in a live waxworm, 15 hours'
+        - 'Infective Juvenile vs activated in a live waxworm, 15 hours'
+      -
+        - Infective Juvenile
+        - 'activated in a live waxworm, 3 hours'
+        - 'Infective Juvenile vs activated in a live waxworm, 3 hours'
+      -
+        - Infective Juvenile
+        - 'activated in a live waxworm, 6 hours'
+        - 'Infective Juvenile vs activated in a live waxworm, 6 hours'
+      -
+        - Infective Juvenile
+        - 'activated in a live waxworm, 9 hours'
+        - 'Infective Juvenile vs activated in a live waxworm, 9 hours'
+      -
+        - Infective Juvenile
+        - 'activated in waxworm homogenate, 3 hours'
+        - 'Infective Juvenile vs activated in waxworm homogenate, 3 hours'
+      -
+        - Infective Juvenile
+        - 'activated in waxworm homogenate, 6 hours'
+        - 'Infective Juvenile vs activated in waxworm homogenate, 6 hours'
+      -
+        - Infective Juvenile
+        - 'activated in waxworm homogenate, 9 hours'
+        - 'Infective Juvenile vs activated in waxworm homogenate, 9 hours'
+      -
+        - 'activated in a live waxworm, 12 hours'
+        - 'activated in waxworm homogenate, 3 hours'
+        - 'activated in a live waxworm, 12 hours vs activated in waxworm homogenate, 3 hours'
+      -
+        - 'activated in a live waxworm, 12 hours'
+        - 'activated in waxworm homogenate, 6 hours'
+        - 'activated in a live waxworm, 12 hours vs activated in waxworm homogenate, 6 hours'
+      -
+        - 'activated in a live waxworm, 12 hours'
+        - 'activated in waxworm homogenate, 9 hours'
+        - 'activated in a live waxworm, 12 hours vs activated in waxworm homogenate, 9 hours'
+      -
+        - 'activated in a live waxworm, 15 hours'
+        - 'activated in waxworm homogenate, 3 hours'
+        - 'activated in a live waxworm, 15 hours vs activated in waxworm homogenate, 3 hours'
+      -
+        - 'activated in a live waxworm, 15 hours'
+        - 'activated in waxworm homogenate, 6 hours'
+        - 'activated in a live waxworm, 15 hours vs activated in waxworm homogenate, 6 hours'
+      -
+        - 'activated in a live waxworm, 15 hours'
+        - 'activated in waxworm homogenate, 9 hours'
+        - 'activated in a live waxworm, 15 hours vs activated in waxworm homogenate, 9 hours'
+      -
+        - 'activated in a live waxworm, 3 hours'
+        - 'activated in waxworm homogenate, 3 hours'
+        - '3 hours: activated in a live waxworm vs activated in waxworm homogenate'
+      -
+        - 'activated in a live waxworm, 3 hours'
+        - 'activated in waxworm homogenate, 6 hours'
+        - 'activated in a live waxworm, 3 hours vs activated in waxworm homogenate, 6 hours'
+      -
+        - 'activated in a live waxworm, 3 hours'
+        - 'activated in waxworm homogenate, 9 hours'
+        - 'activated in a live waxworm, 3 hours vs activated in waxworm homogenate, 9 hours'
+      -
+        - 'activated in a live waxworm, 6 hours'
+        - 'activated in waxworm homogenate, 3 hours'
+        - 'activated in a live waxworm, 6 hours vs activated in waxworm homogenate, 3 hours'
+      -
+        - 'activated in a live waxworm, 6 hours'
+        - 'activated in waxworm homogenate, 6 hours'
+        - '6 hours: activated in a live waxworm vs activated in waxworm homogenate'
+      -
+        - 'activated in a live waxworm, 6 hours'
+        - 'activated in waxworm homogenate, 9 hours'
+        - 'activated in a live waxworm, 6 hours vs activated in waxworm homogenate, 9 hours'
+      -
+        - 'activated in a live waxworm, 9 hours'
+        - 'activated in waxworm homogenate, 3 hours'
+        - 'activated in a live waxworm, 9 hours vs activated in waxworm homogenate, 3 hours'
+      -
+        - 'activated in a live waxworm, 9 hours'
+        - 'activated in waxworm homogenate, 6 hours'
+        - 'activated in a live waxworm, 9 hours vs activated in waxworm homogenate, 6 hours'
+      -
+        - 'activated in a live waxworm, 9 hours'
+        - 'activated in waxworm homogenate, 9 hours'
+        - '9 hours: activated in a live waxworm vs activated in waxworm homogenate'
+description: A core set of venom proteins are secreted by entomopathogenic nematodes in the genus Steinernema
+pubmed: ~
+submitting_centre: University of California Irvine
+title: A core set of venom proteins are secreted by entomopathogenic nematodes in the genus Steinernema
