@@ -1,0 +1,61 @@
+<div class="round-box home-box">
+	<h2 class="expandable">	
+		<span class="exp-key-plus" style="display: none;"> [+] </span>
+		<span class="exp-key-minus"> [-] </span>
+		<TMPL_VAR NAME=STUDYID>: <TMPL_VAR NAME=STUDYTITLE>
+	</h2>
+	<div class="studycontent">
+		<h3><TMPL_VAR NAME=STUDYCENTRE></h3>
+		<p><em><TMPL_VAR NAME=STUDYDESCRIPTION></em></p>
+		<div class="column-wrapper">
+			<div class="column-40">
+				<div class="column-padding">
+					<div class="round-box home-box">
+						<h2> Data </h2>
+						<ul>
+							<TMPL_LOOP NAME=ANALYSES>
+     							<li><h4><TMPL_VAR NAME=ANALYSIS> <a href="<TMPL_VAR NAME=ANALYSISLINK>">Download</a></h4></li>
+   							</TMPL_LOOP>
+   							<TMPL_LOOP NAME=FAILEDANALYSES>
+     							<li><strike><h4><TMPL_VAR NAME=FAILEDANALYSIS></h4></strike></li>
+   							</TMPL_LOOP>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="column-60">
+				<div class="column-padding">
+					<div class="round-box home-box design-box">
+						<h2><TMPL_VAR NAME=DESIGNSUMMARY></h2>
+						<table class="table table-striped table-bordered">
+							<thead>
+							<tr>
+								<TMPL_LOOP NAME=DESIGNCOLUMNS>
+									<th><TMPL_VAR NAME=COLUMN></th>
+								</TMPL_LOOP>
+							</tr>
+							</thead>
+							<tbody>								
+								<TMPL_LOOP NAME=DESIGNROWS>
+									<tr>
+										<TMPL_LOOP NAME=DESIGNROW>
+											<td><TMPL_VAR NAME=ROW></td>
+										</TMPL_LOOP>
+									</tr>
+								</TMPL_LOOP>																
+							</tbody>
+						</table>
+					</div>
+
+					<TMPL_IF NAME="HASSKIPS">
+					<div class="round-box home-box">
+						<h2>Skipped Runs: <TMPL_VAR NAME=SKIPPEDCOUNT></h2>
+						<p><TMPL_VAR NAME=SKIPPEDRUNS></p>
+					</div>
+					</TMPL_IF>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -3,6 +3,8 @@ use warnings;
 package View::StudiesPage;
 use View::Study;
 use View::SkippedRuns;
+use open ':std', ':encoding(UTF-8)';
+
 sub new {
   my ($class, $species, $studies) = @_;
   return bless {species => $species, studies => $studies}, $class;
@@ -10,36 +12,41 @@ sub new {
 
 sub to_html {
   my ($self) = @_;
-  my $result = "";
-  open(my $fh, ">:utf8", \$result);
-  print $fh sprintf("<h2> %s - public RNASeq studies</h2>\n", do {
+  my $studies_tmpl = HTML::Template->new(filename => 'studies.tmpl');
+
+  $studies_tmpl->param(SPECIES => do {
     my $species = $self->{species};
     $species =~ s/_/ /g;
     ucfirst($species)
   });
 
-  
-  print $fh "<h3>Studies</h3>\n";
-  print $fh "<h4>Analysed</h4>\n";
+  my $studies;
+
   for my $study (@{$self->{studies}{passing_checks}}){
-     print $fh View::Study->new($study)->to_html . "\n";
+    my ($skip) = grep {$_->{study_id} eq $study->{study_id}} @{$self->{studies}{skipped_runs}};
+    if ($skip) {
+      $study->{SKIPPED_RUNS} = $skip->{runs};
+    }
+     $studies .= View::Study->new($study)->to_html . "\n";
   }
+
   for my $study (@{$self->{studies}{failing_checks}}){
-     print $fh View::Study->new($study)->to_html . "\n";
+     $studies .= View::Study->new($study)->to_html . "\n";
   }
-  print $fh "<h4>Other</h4>\n";
-  for my $skipped_runs (@{$self->{studies}{skipped_runs}}){
-     print $fh View::SkippedRuns->new($skipped_runs)->to_html . "\n";
+
+  $studies_tmpl->param(RUNSTUDIES => $studies);
+
+  my $skip_studies;
+  for my $skipped_r (@{$self->{studies}{skipped_runs}}){
+    my $found = grep {$_->{study_id} eq $skipped_r->{study_id}} @{$self->{studies}{passing_checks}};
+    if (!$found) {
+      $skip_studies .= View::SkippedRuns->new($skipped_r)->to_html . "\n";
+    }
   }
-  close $fh; 
-  return sprintf('
-   <html>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
-    <body>
-      %s
-    </body>
-   </html>
-',
-   $result);
+
+  $studies_tmpl->param(OTHERSTUDIES => $skip_studies);
+
+  print $studies_tmpl->output;
 }
+
 1;

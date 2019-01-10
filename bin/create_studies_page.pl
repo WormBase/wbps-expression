@@ -14,6 +14,9 @@ use Model::SkippedRuns;
 my ($species) = @ARGV;
 die "Usage: $0 species" unless $species;
 
+#Set the location of template files
+$ENV{HTML_TEMPLATE_ROOT} = "$FindBin::Bin/../lib/View/template";
+
 my @studies;
 find(
   sub {
@@ -30,6 +33,8 @@ find(
   },
   "$FindBin::Bin/../curation/skipped_runs/$species"
 );
+
+
 print View::StudiesPage->new($species, {
   passing_checks => \@studies,
   failing_checks => [],

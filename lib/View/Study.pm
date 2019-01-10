@@ -1,40 +1,81 @@
 use strict;
 use warnings;
 package View::Study;
-use Text::MultiMarkdown qw/markdown/;
-use View::Design;
+use HTML::Template;
+use Data::Dumper;
+
 sub new {
   my ($class, $study) = @_;
   return bless {study => $study}, $class;
 }
-sub to_markdown {
-   my ($study) = @_;
-   my $result = "";
-   open (my $fh, ">:utf8", \$result);
-   print $fh sprintf("### %s: %s\n", $study->{study_id}, $study->{config}{title} // "<title>" );
-   print $fh sprintf("**%s**\n\n", $study->{config}{submitting_centre}) if $study->{config}{submitting_centre};
-   print $fh sprintf("*%s*\n\n", $study->{config}{description}) if $study->{config}{description} and $study->{config}{description} ne $study->{config}{title};
-   while (my ($k, $v) = each %{$study->{config}{pubmed} //{}}){
-     print $fh sprintf("[%s](https://www.ncbi.nlm.nih.gov/pubmed/%s)\n\n", $v->[1], $k);
-   }
-   my $fails_checks = not $study->passes_checks;
-   print $fh "*Not analysed - needs curation*\n" if $fails_checks;
-   print $fh "#### Data\n";
-   for my $analysis($study->analyses_required){
-     print $fh sprintf("##### %s\n", $analysis->{title});
-     if($fails_checks){
-        print $fh sprintf( "<strike>%s</strike>\n", $analysis->{description});
-     } else {
-        print $fh  sprintf("[%s](%s/%s)\n", $analysis->{description}, $study->{study_id}, $analysis->{file_name});
-     }
-   }
-  # print $fh $study->{design}->to_markdown;
-   close $result;
-   return $result;
-}
+
 sub to_html {
   my ($self) = @_;
-  return markdown(to_markdown($self->{study})) . "\n" . View::Design->new($self->{study}->{design})->to_html;
+  my $study = $self->{study};
+  my $study_tmpl = HTML::Template->new(filename => 'study.tmpl');
+   
+   
+  $study_tmpl->param(STUDYID =>  $study->{study_id});
+  $study_tmpl->param(STUDYTITLE =>  $study->{config}{title} // "NO TITLE" );
+  $study_tmpl->param(STUDYCENTRE => $study->{config}{submitting_centre}) if $study->{config}{submitting_centre};
+
+  ### WHY?, if not declare `my $description;`, its value is reused among multiple calls?
+  my $description;
+  $description = $study->{config}{description} if $study->{config}{description} and $study->{config}{description} ne $study->{config}{title};
+  while (my ($k, $v) = each %{$study->{config}{pubmed} //{}}){
+     $description .= sprintf ("<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/%s\">%s</a> ", $k, $v->[1]);
+  }
+  $study_tmpl->param(STUDYDESCRIPTION => $description);
+
+  my @analyses;
+  my $fails_checks = not $study->passes_checks;
+  for my $analysis($study->analyses_required){
+    my %item;
+    if($fails_checks){
+        $item{FAILEDANALYSIS} = $analysis->{description};
+        push(@analyses, \%item);
+    } else {
+        $item{ANALYSIS}     = $analysis->{description};
+        $item{ANALYSISLINK} = $analysis->{file_name};
+        push(@analyses, \%item);
+    }
+  }
+
+  if($fails_checks) {    
+    $study_tmpl->param(FAILEDANALYSES => \@analyses);
+  } else {
+    $study_tmpl->param(ANALYSES => \@analyses);
+  }
+
+  my $design = $study->{design};
+  my $design_summary = sprintf("Design: %s conditions across %s runs\n", scalar $design->all_conditions, scalar $design->all_runs);
+  $study_tmpl->param(DESIGNSUMMARY => $design_summary);
+
+  my @a = ('Run', 'Condition');
+  push (@a, map { ucfirst $_ } @{$design->{characteristics_in_order}});
+  my @columns_name = map {{'COLUMN' => ucfirst $_}} @a;
+  $study_tmpl->param(DESIGNCOLUMNS => \@columns_name);
+  
+
+  my @rows;
+  for my $p ($design->condition_run_ordered_pairs){
+     my @b = ($p->[1], $p->[0]);
+     push (@b, map {$design->value_in_run($p->[1], $_)} @{$design->{characteristics_in_order}});
+     my @row;
+     push (@row, map {{'ROW' => $_}} @b);
+     push (@rows, {'DESIGNROW' => \@row});
+  }   
+  $study_tmpl->param(DESIGNROWS => \@rows);
+  
+  if ($study->{SKIPPED_RUNS}) {
+    $study_tmpl->param(HASSKIPS => 1);
+    $study_tmpl->param(SKIPPEDCOUNT => scalar @{$study->{SKIPPED_RUNS}});
+    my $skr = join ', ' , @{$study->{SKIPPED_RUNS}};
+    $study_tmpl->param(SKIPPEDRUNS => $skr);
+  }
+  
+  return $study_tmpl->output;   
 }
+
 1;
 
