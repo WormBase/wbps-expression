@@ -10,6 +10,7 @@ requires 'Text::CSV';
 requires 'XML::Simple';
 requires 'YAML';
 requires 'Text::MultiMarkdown';
+requires 'HTML::Template';
 
 test_requires 'File::Temp';
 test_requires 'Test::MockModule';
