@@ -1,0 +1,65 @@
+---
+condition_names: {}
+contrasts:
+  - name: treatment
+    values:
+      -
+        - Female Control 'Rest'
+        - Female Irradiated 'Rest'
+        - Female Control 'Rest' vs Female Irradiated 'Rest'
+      -
+        - Male Control 'Rest'
+        - Male Irradiated 'Rest'
+        - Male Control 'Rest' vs Male Irradiated 'Rest'
+  - name: sex
+    values:
+      -
+        - Female Control 'Rest'
+        - Male Control 'Rest'
+        - Female Control 'Rest' vs Male Control 'Rest'
+      -
+        - Female Irradiated 'Rest'
+        - Male Irradiated 'Rest'
+        - Female Irradiated 'Rest' vs Male Irradiated 'Rest'
+  - name: cell_type
+    values:
+      -
+        - Female Control 'Rest'
+        - Female Control S1
+        - "Female Control: 'Rest' vs S1"
+      -
+        - Female Control 'Rest'
+        - Female Control S2-4
+        - "Female Control: 'Rest' vs S2-4"
+      -
+        - Female Control S1
+        - Female Control S2-4
+        - 'Female Control: S1 vs S2-4'
+      -
+        - Male Control 'Rest'
+        - Male Control Neoblast
+        - "Male Control: 'Rest' vs Neoblast"
+      -
+        - Male Control 'Rest'
+        - Male Control TSP2 High
+        - "Male Control: 'Rest' vs TSP2 High"
+      -
+        - Male Control 'Rest'
+        - Male Control TSP2 Low
+        - "Male Control: 'Rest' vs TSP2 Low"
+      -
+        - Male Control Neoblast
+        - Male Control TSP2 High
+        - 'Male Control: Neoblast vs TSP2 High'
+      -
+        - Male Control Neoblast
+        - Male Control TSP2 Low
+        - 'Male Control: Neoblast vs TSP2 Low'
+      -
+        - Male Control TSP2 High
+        - Male Control TSP2 Low
+        - 'Male Control: TSP2 High vs TSP2 Low'
+description: 'Using RNAseq to characterise bulk preparations from different Schistosoma mansoni cells and somatic (control) cells to find new markers and putative factors involved in controlling their growth and differentiation. '
+pubmed: ~
+submitting_centre: Wellcome Sanger Institute
+title: Characterising Schistosoma mansoni stem cell populations
