@@ -46,7 +46,7 @@ sub to_html {
 
   $studies_tmpl->param(OTHERSTUDIES => $skip_studies);
 
-  print $studies_tmpl->output;
+  return $studies_tmpl->output;
 }
 
 1;
