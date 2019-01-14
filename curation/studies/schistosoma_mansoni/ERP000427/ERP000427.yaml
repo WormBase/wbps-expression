@@ -3,7 +3,7 @@ condition_names:
   Somule 24hrs: Somule 24hrs post-infection
   Somule 3hrs: Somule 3hrs post-infection
 contrasts:
-  - name: Condition
+  - name: developmental_stage
     values:
       -
         - Cercariae

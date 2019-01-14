@@ -5,22 +5,22 @@ contrasts:
     values:
       -
         - BH female
-        - Puerto Rican female
-        - 'female: BH vs Puerto Rican'
+        - NMRI female
+        - 'female: BH vs NMRI'
       -
         - BH male
-        - Puerto Rican male
-        - 'male: BH vs Puerto Rican'
+        - NMRI male
+        - 'male: BH vs NMRI'
   - name: strain+treatment
     values:
       -
         - 'BH female, GSK343 at 20uM'
-        - 'Puerto Rican female, TH65 at 20uM'
-        - 'female, at 20uM: BH, GSK343 vs Puerto Rican, TH65'
+        - 'NMRI female, TH65 at 20uM'
+        - 'female, at 20uM: BH, GSK343 vs NMRI, TH65'
       -
         - 'BH male, GSK343 at 20uM'
-        - 'Puerto Rican male, TH65 at 20uM'
-        - 'male, at 20uM: BH, GSK343 vs Puerto Rican, TH65'
+        - 'NMRI male, TH65 at 20uM'
+        - 'male, at 20uM: BH, GSK343 vs NMRI, TH65'
   - name: sex
     values:
       -
@@ -32,47 +32,47 @@ contrasts:
         - BH male
         - 'BH: female vs male'
       -
-        - 'Puerto Rican female, TH65 at 05uM'
-        - 'Puerto Rican male, TH65 at 05uM'
-        - 'Puerto Rican TH65 at 05uM: female vs male'
+        - 'NMRI female, TH65 at 05uM'
+        - 'NMRI male, TH65 at 05uM'
+        - 'NMRI TH65 at 05uM: female vs male'
       -
-        - 'Puerto Rican female, TH65 at 10uM'
-        - 'Puerto Rican male, TH65 at 10uM'
-        - 'Puerto Rican TH65 at 10uM: female vs male'
+        - 'NMRI female, TH65 at 10uM'
+        - 'NMRI male, TH65 at 10uM'
+        - 'NMRI TH65 at 10uM: female vs male'
       -
-        - 'Puerto Rican female, TH65 at 20uM'
-        - 'Puerto Rican male, TH65 at 20uM'
-        - 'Puerto Rican TH65 at 20uM: female vs male'
+        - 'NMRI female, TH65 at 20uM'
+        - 'NMRI male, TH65 at 20uM'
+        - 'NMRI TH65 at 20uM: female vs male'
       -
-        - Puerto Rican female
-        - Puerto Rican male
-        - 'Puerto Rican: female vs male'
+        - NMRI female
+        - NMRI male
+        - 'NMRI: female vs male'
   - name: concentration
     values:
       -
-        - 'Puerto Rican female, TH65 at 05uM'
-        - 'Puerto Rican female, TH65 at 10uM'
-        - 'Puerto Rican female, TH65 at: 05uM vs 10uM'
+        - 'NMRI female, TH65 at 05uM'
+        - 'NMRI female, TH65 at 10uM'
+        - 'NMRI female, TH65 at: 05uM vs 10uM'
       -
-        - 'Puerto Rican female, TH65 at 05uM'
-        - 'Puerto Rican female, TH65 at 20uM'
-        - 'Puerto Rican female, TH65 at: 05uM vs 20uM'
+        - 'NMRI female, TH65 at 05uM'
+        - 'NMRI female, TH65 at 20uM'
+        - 'NMRI female, TH65 at: 05uM vs 20uM'
       -
-        - 'Puerto Rican female, TH65 at 10uM'
-        - 'Puerto Rican female, TH65 at 20uM'
-        - 'Puerto Rican female, TH65 at: 10uM vs 20uM'
+        - 'NMRI female, TH65 at 10uM'
+        - 'NMRI female, TH65 at 20uM'
+        - 'NMRI female, TH65 at: 10uM vs 20uM'
       -
-        - 'Puerto Rican male, TH65 at 05uM'
-        - 'Puerto Rican male, TH65 at 10uM'
-        - 'Puerto Rican male, TH65 at: 05uM vs 10uM'
+        - 'NMRI male, TH65 at 05uM'
+        - 'NMRI male, TH65 at 10uM'
+        - 'NMRI male, TH65 at: 05uM vs 10uM'
       -
-        - 'Puerto Rican male, TH65 at 05uM'
-        - 'Puerto Rican male, TH65 at 20uM'
-        - 'Puerto Rican male, TH65 at: 05uM vs 20uM'
+        - 'NMRI male, TH65 at 05uM'
+        - 'NMRI male, TH65 at 20uM'
+        - 'NMRI male, TH65 at: 05uM vs 20uM'
       -
-        - 'Puerto Rican male, TH65 at 10uM'
-        - 'Puerto Rican male, TH65 at 20uM'
-        - 'Puerto Rican male, TH65 at: 10uM vs 20uM'
+        - 'NMRI male, TH65 at 10uM'
+        - 'NMRI male, TH65 at 20uM'
+        - 'NMRI male, TH65 at: 10uM vs 20uM'
   - name: concentration+treatment
     values:
       -
