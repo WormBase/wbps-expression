@@ -110,7 +110,16 @@ sub run_checks {
 sub do_everything {
   my ($self, $species, $assembly) = @_;
   unlink $self->{sheets}->path("ignore_studies", "$species.tsv");
-  my @public_study_records = $self->{public_rnaseq_studies}->get($species, $assembly);  
+  my @public_study_records = sort {$a->{study_id} cmp $b->{study_id} } $self->{public_rnaseq_studies}->get($species, $assembly);  
+  my %files;
+  for my $public_study_record (@public_study_records){
+     for my $run (@{$public_study_record->{runs}}){
+        $files{$public_study_record->{study_id}}{$run->{run_id}} = { 
+          %{$run->{data_files}},
+          qc_issues => $_->{qc_issues},
+        };
+     }
+  }
   my %current_studies = map {$_->{study_id}=> $_} $self->get_studies_in_sheets($species);
   my %current_skipped_runs_per_study_id  = map {$_->{study_id}=> $_} $self->get_skipped_runs_in_sheets($species);
 
@@ -125,16 +134,6 @@ sub do_everything {
   
   my ($studies_failing_checks, $studies_passing_checks) = $self->run_checks(@{$incoming_studies->{SAVE}});
 
-  my %files;
-  for my $study (@{$studies_passing_checks}){
-     my $public_study_record = first {$_->{study_id} eq $study->{study_id}} @public_study_records; 
-     for my $run (@{$public_study_record->{runs}}){
-        $files{$study->{study_id}}{$run->{run_id}} = { 
-          %{$run->{data_files}},
-          qc_issues => $_->{qc_issues},
-        };
-     }
-  }
   $self->{analysis}->run_all(
     species => $species,
     assembly => $assembly,
