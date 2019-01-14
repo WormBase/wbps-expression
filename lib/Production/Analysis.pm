@@ -175,6 +175,6 @@ sub run_all {
     $self->run($output_dir, $study, $args{files}{$study->{study_id}}) unless $ENV{ANALYSIS_SKIP_ALL};
   }
   print STDERR "Writing page: $output_dir/index.html\n" if $ENV{ANALYSIS_VERBOSE};
-  write_file("$output_dir/index.html", View::StudiesPage->new($args{species}, $args{studies})->to_html);
+  write_file("$output_dir/index.html", { binmode => ":utf8" }, View::StudiesPage->new($args{species}, $args{studies})->to_html );
 }
 1;
