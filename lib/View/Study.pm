@@ -3,7 +3,7 @@ use warnings;
 package View::Study;
 use HTML::Template;
 use Data::Dumper;
-
+use File::Basename;
 sub new {
   my ($class, $study) = @_;
   return bless {study => $study}, $class;
@@ -12,16 +12,15 @@ sub new {
 sub to_html {
   my ($self) = @_;
   my $study = $self->{study};
-  my $study_tmpl = HTML::Template->new(filename => 'study.tmpl');
+  my $study_tmpl = HTML::Template->new(path => [dirname (__FILE__) ], filename => 'templates/study.tmpl');
    
    
   $study_tmpl->param(STUDYID =>  $study->{study_id});
   $study_tmpl->param(STUDYTITLE =>  $study->{config}{title} // "NO TITLE" );
   $study_tmpl->param(STUDYCENTRE => $study->{config}{submitting_centre}) if $study->{config}{submitting_centre};
 
-  ### WHY?, if not declare `my $description;`, its value is reused among multiple calls?
-  my $description;
-  $description = $study->{config}{description} if $study->{config}{description} and $study->{config}{description} ne $study->{config}{title};
+  my $description = "";
+  $description .= $study->{config}{description} if $study->{config}{description} and $study->{config}{description} ne $study->{config}{title};
   while (my ($k, $v) = each %{$study->{config}{pubmed} //{}}){
      $description .= sprintf ("<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/%s\">%s</a> ", $k, $v->[1]);
   }

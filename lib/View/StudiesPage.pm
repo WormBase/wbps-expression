@@ -4,6 +4,7 @@ package View::StudiesPage;
 use View::Study;
 use View::SkippedRuns;
 use open ':std', ':encoding(UTF-8)';
+use File::Basename;
 
 sub new {
   my ($class, $species, $studies) = @_;
@@ -12,7 +13,7 @@ sub new {
 
 sub to_html {
   my ($self) = @_;
-  my $studies_tmpl = HTML::Template->new(filename => 'studies.tmpl');
+  my $studies_tmpl = HTML::Template->new(path => [dirname (__FILE__) ], filename => "templates/studies.tmpl");
 
   $studies_tmpl->param(SPECIES => do {
     my $species = $self->{species};

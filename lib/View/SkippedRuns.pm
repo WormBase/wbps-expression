@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package View::SkippedRuns;
 use HTML::Template;
-
+use File::Basename;
 sub new {
   my ($class, $study) = @_;
   return bless {study => $study}, $class;
@@ -12,7 +12,7 @@ sub to_html {
   my ($self) = @_;
   my $study = $self->{study};
 
-  my $skip_tmpl = HTML::Template->new(filename => 'skip.tmpl');
+  my $skip_tmpl = HTML::Template->new(path => [dirname (__FILE__) ], filename => 'templates/skip.tmpl');
 
   $skip_tmpl->param(STUDYID =>  $study->{study_id});
   $skip_tmpl->param(STUDYTITLE =>  $study->{config}{title} // "NO TITLE" );
