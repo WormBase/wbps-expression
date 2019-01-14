@@ -35,7 +35,7 @@ sub to_html {
         push(@analyses, \%item);
     } else {
         $item{ANALYSIS}     = $analysis->{description};
-        $item{ANALYSISLINK} = $analysis->{file_name};
+        $item{ANALYSISLINK} = join("/", $study->{study_id}, $analysis->{file_name});
         push(@analyses, \%item);
     }
   }
