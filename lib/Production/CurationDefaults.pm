@@ -12,11 +12,13 @@ sub design_from_runs {
   my (@runs) = @_;
   my %conditions_per_run =
     map { ( $_->{run_id}, $_->{run_description_short} ) } @runs;
+  my %replicates_per_run = 
+    map { ( $_->{run_id}, $_->{sample_id})} @runs;
   my %characteristics_per_run =
     map { ( $_->{run_id}, $_->{characteristics} ) } @runs;
   my @characteristics_in_order =
     uniq sort { $a cmp $b } map { keys %{ $_->{characteristics} } } @runs;
-  return Model::Design::from_data_by_run( \%conditions_per_run,
+  return Model::Design::from_data_by_run( \%replicates_per_run, \%conditions_per_run,
     \%characteristics_per_run, \@characteristics_in_order );
 }
 

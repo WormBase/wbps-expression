@@ -46,34 +46,42 @@ sub get {
        print STDERR "Study $study_id not in ENA, skipping\n";
        next;
     }
-    my %characteristics_per_run = map {my $run_id = $_; 
-      $run_id => ($stored_characteristics{$study_id}{$run_id} // $rnaseqer_metadata->access_characteristics($assembly, $study_id, $run_id) // {})
-    } @{$rnaseqer_metadata->access($assembly, $study_id)};
-    
+    my %characteristics_per_run;
+    for my $sample_id (@{$rnaseqer_metadata->access($assembly, $study_id)}){
+       for my $run_id (@{$rnaseqer_metadata->access($assembly, $study_id, $sample_id)}) {
+           $characteristics_per_run{$run_id} 
+               = $stored_characteristics{$study_id}{$run_id}
+                 // $rnaseqer_metadata->access_characteristics($assembly, $study_id, $sample_id, $run_id) 
+                 // {};
+       }
+    }
     my @characteristic_types_varying_in_study = do {
        my %flattened = map {pairmap {"$a\t$b" => $a} %{$_}} values %characteristics_per_run;
        duplicates values %flattened
     };
 
     my @runs;
-    for my $run_id (@{$rnaseqer_metadata->access($assembly, $study_id)}){
+    for my $sample_id (@{$rnaseqer_metadata->access($assembly, $study_id)}){
+      for my $run_id (@{$rnaseqer_metadata->access($assembly, $study_id, $sample_id)}){
 ### $run_id
-       my $stats = $rnaseqer_ftp->get_formatted_stats($run_id);
-       my $data_location = $rnaseqer_metadata->data_location($run_id);
-       my $links = $self->{links}->misc_links($study_id,$run_id, $data_location);
-       my %characteristics = %{$characteristics_per_run{$run_id}};
-       my %characteristics_varying_in_study = map {$_ => $characteristics{$_}} @characteristic_types_varying_in_study;
-       my ($run_description_short, $run_description_full) =
+        my $stats = $rnaseqer_ftp->get_formatted_stats($run_id);
+        my $data_location = $rnaseqer_metadata->data_location($run_id);
+        my $links = $self->{links}->misc_links($study_id,$run_id, $data_location);
+        my %characteristics = %{$characteristics_per_run{$run_id}};
+        my %characteristics_varying_in_study = map {$_ => $characteristics{$_}} @characteristic_types_varying_in_study;
+        my ($run_description_short, $run_description_full) =
           $descriptions->run_description( $study_id, $run_id, \%characteristics_varying_in_study || \%characteristics);
-       push @runs, {
+        push @runs, {
           run_id => $run_id,
+          sample_id => $sample_id,
           qc_issues => $rnaseqer_ftp->get_qc_issues($run_id),
           data_files => $rnaseqer_ftp->{$run_id}{files},
           characteristics => \%characteristics,
           attributes => {%$stats, %$links, %characteristics},
           run_description_short => $run_description_short,
           run_description_full => $run_description_full,
-       };
+        };
+      }
     }
     my ($study_description_short, $study_description_full) =
          $descriptions->study_description($study_id, $ena_metadata->{$assembly}{$study_id});

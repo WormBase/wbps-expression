@@ -9,7 +9,8 @@ use FindBin;
 use Model::Design;
 use Model::Study;
 use Model::SkippedRuns;
-use List::Util qw/sum pairs/;
+use List::Util qw/sum pairs pairmap/;
+use List::MoreUtils qw/uniq/;
 
 sub describe_tsv {
   my ( $header, @lines ) = split "\n", shift;
@@ -22,15 +23,17 @@ sub design_dumps_to_tsv {
   my $tabs  = $tsv =~ tr/\t//;
   my $lines = $tsv =~ tr/\n//;
   subtest $test_name => sub {
+
+    my $has_replicates = grep {$_} pairmap {$a ne $b } %{ $subject->{replicates_per_run} } ;
     is(
-      1+ keys %{ $subject->{conditions_per_run} },
+      1 + keys %{ $subject->{replicates_per_run} },
       $lines,
 "Dimension check: header + one line per run expected to be number of newlines"
     );
     is(
-      $lines * ( @{ $subject->{characteristics_in_order} } + 1 ),
+      $lines * ( @{ $subject->{characteristics_in_order} } + ($has_replicates ? 2 : 1)),
       $tabs,
-"Dimension check: number of newlines * ( num characteristics + two header fields - one for no tab at EOL) expected to be number of tabs"
+"Dimension check: number of newlines * ( num characteristics + two or three header fields - one for no tab at EOL) expected to be number of tabs"
     );
     my $tmp = "";
     $subject->to_tsv( \$tmp );
@@ -42,11 +45,13 @@ sub design_dumps_to_tsv {
 sub design_remakes_itself_from_data_by_run {
   my ( $subject, $test_name ) = @_;
   my @a = (
-    $subject->{conditions_per_run},
+    $subject->{replicates_per_run},
+    $subject->conditions_per_run,
     $subject->characteristics_per_run,
     $subject->{characteristics_in_order}
   );
-  is_deeply( Model::Design::from_data_by_run(@a), $subject, $test_name );
+  my $subject_remade = Model::Design::from_data_by_run(@a);
+  is_deeply( $subject_remade, $subject, $test_name ) or diag explain $subject_remade, $subject;
 }
 
 sub some_checks_fail {
@@ -166,13 +171,19 @@ sub skipped_runs_ok {
 tsv_well_formatted_but_fails_checks("Run\tCondition\n");
 tsv_well_formatted_but_fails_checks("Run\tCondition\torganism part\n");
 design_ok("Run\tCondition\torganism part\nSRR3209257\thead\thead\n");
+design_ok("Run\tSample\tCondition\torganism part\nSRR3209257\tSRS1327198\thead\thead\n");
 design_ok(
 "Run\tCondition\torganism part\nSRR3209257\thead\thead\nSRR3209258\ttail\ttail\n"
+);
+design_ok(
+"Run\tSample\tCondition\torganism part\nSRR3209257\tSRS1327198\thead\thead\nSRR3209258\tSRS1327197\ttail\ttail\n"
 );
 tsv_well_formatted_but_fails_checks(
   "Run\tCondition\tstrain\nSRR3209257\thead\tLE\nSRR3209258\ttail\tLE\n",
   "condition head/tail but organism part missing" );
-
+tsv_well_formatted_but_fails_checks(
+  "Run\tSample\tCondition\tstrain\nSRR3209257\tSRS1327198\thead\tLE\nSRR3209258\tSRS1327197\ttail\tLE\n",
+  "condition head/tail but organism part missing" );
 my $tsv = <<EOF;
 Run	Condition	organism	developmental stage	sex	organism part
 SRR3209257	head	Schistosoma mansoni	adult	female	head
@@ -196,6 +207,21 @@ tsv_well_formatted_but_fails_checks( $tsv_extra_condition,
 tsv_well_formatted_but_fails_checks( $tsv_incoherent_per_run,
   "data not assembling by condition" );
 
+my $replicates_tsv = <<EOF;
+Run	Sample	Condition	organism	developmental stage	sex	organism part
+SRR3209257	head_1	head	Schistosoma mansoni	adult	female	head
+SRR3209258	head_1	head	Schistosoma mansoni	adult	female	head
+SRR3209259	head_2	head	Schistosoma mansoni	adult	female	head
+SRR3209260	tail_1	tail	Schistosoma mansoni	adult	female	tail
+SRR3209261	tail_2	tail	Schistosoma mansoni	adult	female	tail
+SRR3209262	tail_3	tail	Schistosoma mansoni	adult	female	tail
+EOF
+design_ok($replicates_tsv);
+ok_design_fails_with_wrong_condition_names($replicates_tsv);
+ok_design_fails_with_wrong_contrasts($replicates_tsv);
+( my $replicates_tsv_incoherent_per_run = $replicates_tsv ) =~ s/Schistosoma mansoni/other wormie/;
+tsv_well_formatted_but_fails_checks( $replicates_tsv_incoherent_per_run,
+  "data not assembling by replicate" );
 my $two_factor_tsv = <<EOF;
 Run	Condition	organism	developmental stage	sex	organism part
 SRR3209257	hf	Schistosoma mansoni	adult	female	head

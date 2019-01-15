@@ -9,20 +9,22 @@ sub _fetch {
     my %data;
     for my $assembly( @{$rnaseqer_metadata->access}){
       for my $study_id ( @{ $rnaseqer_metadata->access($assembly) } ) {
-        for my $run_id (@{ $rnaseqer_metadata->access($assembly, $study_id) } ) {
-          my $location = $rnaseqer_metadata->data_location($run_id); 
-          my $listing = $class->get_text($location);
-          my @files = $listing =~ /($run_id\..*)/g;
-          my $stats = _get_pairs($class->get_csv(join ("/", $location,pick_by_name("stats.csv", @files))));
-          my $a = $stats->{All_entries};
-          my $u = $stats->{UniquelyMappedReads};
-          $data{$run_id}{library_size} = $a || 0 ;
-          $data{$run_id}{fraction_reads_uniquely_mapped} = $a ? sprintf("%.3f", ($u || 0) / $a) : 0;
-          $data{$run_id}{files} = {
-             counts_htseq2 => join ("/", $location, pick_by_name("genes.raw.htseq2.tsv", @files)),
-             tpm_htseq2 => join ("/", $location, pick_by_name("genes.tpm.htseq2.irap.tsv", @files)),
-             bigwig => join ("/", $location, pick_by_name("nospliced.bw", @files)),
-          };
+        for my $sample_id ( @{ $rnaseqer_metadata->access($assembly, $study_id) } ) {
+		  for my $run_id (@{ $rnaseqer_metadata->access($assembly, $study_id, $sample_id) } ) {
+			my $location = $rnaseqer_metadata->data_location($run_id); 
+			my $listing = $class->get_text($location);
+			my @files = $listing =~ /($run_id\..*)/g;
+			my $stats = _get_pairs($class->get_csv(join ("/", $location,pick_by_name("stats.csv", @files))));
+			my $a = $stats->{All_entries};
+			my $u = $stats->{UniquelyMappedReads};
+			$data{$run_id}{library_size} = $a || 0 ;
+			$data{$run_id}{fraction_reads_uniquely_mapped} = $a ? sprintf("%.3f", ($u || 0) / $a) : 0;
+			$data{$run_id}{files} = {
+			   counts_htseq2 => join ("/", $location, pick_by_name("genes.raw.htseq2.tsv", @files)),
+			   tpm_htseq2 => join ("/", $location, pick_by_name("genes.tpm.htseq2.irap.tsv", @files)),
+			   bigwig => join ("/", $location, pick_by_name("nospliced.bw", @files)),
+			};
+		  }
         }
       }
     }

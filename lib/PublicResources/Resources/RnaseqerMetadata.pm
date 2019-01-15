@@ -19,8 +19,8 @@ sub access {
 }
 
 sub access_characteristics {
-  my ($self, $assembly, $study_id, $run_id) = @_;
-  return $self->{metadata}{$assembly}{$study_id}{$run_id};
+  my ($self, $assembly, $study_id, $sample_id, $run_id) = @_;
+  return $self->{metadata}{$assembly}{$study_id}{$sample_id}{$run_id};
 }
 
 sub data_location {
@@ -56,6 +56,7 @@ sub _fetch {
       $data
         {$run_record->{ASSEMBLY_USED}}
         {$run_record->{STUDY_ID}}
+        {$run_record->{SAMPLE_IDS}}
         {$run_record->{RUN_IDS}}
         = $run_attributes{$run_record->{RUN_IDS}}; 
   }

@@ -8,11 +8,11 @@ use List::MoreUtils qw/zip/;
 
 sub do_analysis {
   my ($design_path, $counts_path, $contrasts, $out_path, @frontmatter) = @_;
-
   my @name_to_data_pairs;
   my @analysis_warnings;
   my $R = Statistics::R->new();
   my $r_version = $R->get('getRversion()');
+
   $R->set('colPath', $design_path);
   $R->run(q`colData = read.csv(colPath, header=TRUE, sep="\t", row.names=1)`);
   $R->set('countsPath', $counts_path);
@@ -21,6 +21,9 @@ sub do_analysis {
   $R->run(q`suppressPackageStartupMessages(library(DESeq2))`);
   my $deseq_version = $R->get('packageVersion("DESeq2")');
   $R->run(q`dataSet = DESeqDataSetFromMatrix(countData = countData, colData = colData, design = ~ Condition)`);
+# TODO this should handle the two-or-three runs case
+# If there are no samples, do not collapse the replicates
+  $R->run(q`collapseReplicates(dataSet, ~ Sample)`);
   $R->run(q`dds = DESeq(dataSet)`);
   for my $contrast (@{$contrasts}){
      my ($reference, $test, $contrast_name) = @{$contrast};
