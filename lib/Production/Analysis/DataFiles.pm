@@ -43,18 +43,21 @@ sub read_file_into_hash {
 sub read_files_into_averaged_hash {
   my (@paths) = @_;
   my %result;
-  for my $path (@paths) {
+  for (my $i = 0; i < $#paths; i++){
+    for my $path (@{$paths[i]}) {
 	my $fh = open_read_fh($path);
 	my $header = <$fh>;
 	while(<$fh>){
       chomp;
 	  my ($k, $v) = split "\t";
-	  push @{$result{$k}},$v;
+	  push @{@{$result{$k}}[$i]},$v;
 	}
-    close $fh;
+      close $fh;
+    }
   }
   for my $k (keys %result){
-    $result{$k} = sprintf("%.1f", calculate_median($result{$k})); 
+    my @vs = map { calculate_median( @{$_})} @{$result{$k}};
+    $result{$k} = sprintf("%.1f", calculate_median(@vs)); 
   }
   return \%result;
 }

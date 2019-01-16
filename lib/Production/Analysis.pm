@@ -83,9 +83,9 @@ my %ANALYSES = (
   },
   average_by_condition => sub {
     my($study, $files, $output_path, %analysis_args) = @_; 
-    my $runs_by_condition = $study->{design}->runs_by_condition;
+    my $runs_by_condition_then_replicate = $study->{design}->runs_by_condition_then_replicate;
     my @conditions_ordered = $study->{design}->all_conditions; 
-    my %qc_issues_per_run = map {$_ => $files->{$_}{qc_issues}} map {@{$_}} values %{$runs_by_condition};
+    my %qc_issues_per_run = map {$_ => $files->{$_}{qc_issues}} map {@{$_}} map {values %{$_}} values %{$runs_by_condition_then_replicate};
     my $low_qc_by_condition = low_qc_by_condition($runs_by_condition, \%qc_issues_per_run);
     my $low_replicate_by_condition = low_replicate_by_condition($runs_by_condition);
 ### $low_qc_by_condition
@@ -102,7 +102,8 @@ my %ANALYSES = (
        if($analysis_args{decorate_files} && ($low_qc_by_condition->{$_} || $low_replicate_by_condition->{$_})){
           $name = "!$name";
        }
-       my @paths = map {$files->{$_}{$analysis_args{source}}} @{$runs_by_condition->{$_}};
+       
+       my @paths = map {[map {$files->{$_}{$analysis_args{source}}}]} values %{$runs_by_condition_then_replicate->{$_}};
        [$name, \@paths]
     } @conditions_ordered;
 ### @name_to_pathlist_pairs 
