@@ -50,16 +50,21 @@ sub to_html {
   my $design_summary = sprintf("Design: %s conditions across %s runs\n", scalar $design->all_conditions, scalar $design->all_runs);
   $study_tmpl->param(DESIGNSUMMARY => $design_summary);
 
-  my @a = ('Run', 'Condition');
+  my @a = ('Condition', 'num. replicates');
   push (@a, map { ucfirst $_ } @{$design->{characteristics_in_order}});
-  my @columns_name = map {{'COLUMN' => ucfirst $_}} @a;
+  my @columns_name = map {
+     my $label = $_;
+     $label =~ s/_/ /;
+     # Also: ucfirst?
+     {'COLUMN' => $label }
+  } @a;
+
   $study_tmpl->param(DESIGNCOLUMNS => \@columns_name);
   
-
   my @rows;
-  for my $p ($design->condition_run_ordered_pairs){
-     my @b = ($p->[1], $p->[0]);
-     push (@b, map {$design->value_in_run($p->[1], $_)} @{$design->{characteristics_in_order}});
+  for my $c (sort $design->all_conditions){
+     my @b = ($c);
+     push (@b, map {$design->value_in_condition($c, $_) // "" } @{$design->{characteristics_in_order}});
      my @row;
      push (@row, map {{'ROW' => $_}} @b);
      push (@rows, {'DESIGNROW' => \@row});

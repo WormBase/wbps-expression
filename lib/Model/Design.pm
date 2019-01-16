@@ -162,7 +162,8 @@ sub runs_by_replicate {
   return \%result;
 }
 sub runs_by_condition {
-  return pairmap {$a => [ map { @$_ } values %{$b} ]} %{shift->runs_by_condition_then_replicate};
+  my %result = pairmap {$a => [ map { @$_ } values %{$b} ]} %{shift->runs_by_condition_then_replicate};
+  return \%result;
 }
 sub conditions_per_run {
   my ($self) = @_;

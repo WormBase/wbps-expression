@@ -23,7 +23,7 @@ sub do_analysis {
   $R->run(q`dataSet = DESeqDataSetFromMatrix(countData = countData, colData = colData, design = ~ Condition)`);
 # TODO this should handle the two-or-three runs case
 # If there are no samples, do not collapse the replicates
-  $R->run(q`collapseReplicates(dataSet, ~ Sample)`);
+  $R->run(q`if (exists("dataSet.Sample")) { collapseReplicates(dataSet, dataSet.Sample) }`);
   $R->run(q`dds = DESeq(dataSet)`);
   for my $contrast (@{$contrasts}){
      my ($reference, $test, $contrast_name) = @{$contrast};
