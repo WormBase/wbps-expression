@@ -6,6 +6,7 @@ use PublicResources::Rnaseq;
 use List::MoreUtils qw/uniq/;
 use Model::Study;
 use Model::Design;
+use Data::Compare;
 
 #use Smart::Comments '###';
 sub design_from_runs {
@@ -14,6 +15,10 @@ sub design_from_runs {
     map { ( $_->{run_id}, $_->{run_description_short} ) } @runs;
   my %replicates_per_run = 
     map { ( $_->{run_id}, $_->{sample_id})} @runs;
+  # If no extra information in the samples, skip them
+  if (Compare([keys %replicates_per_run] , [ values %replicates_per_run ]){
+    %replicates_per_run = map { ( $_->{run_id}, $_->{run_id}) } @runs;
+  }
   my %characteristics_per_run =
     map { ( $_->{run_id}, $_->{characteristics} ) } @runs;
   my @characteristics_in_order =

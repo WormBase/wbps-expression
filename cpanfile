@@ -1,4 +1,5 @@
 requires 'Data::Dumper';
+requires 'Data::Compare';
 requires 'File::Basename';
 requires 'File::Path';
 requires 'File::Slurp';

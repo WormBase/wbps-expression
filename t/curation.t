@@ -222,6 +222,12 @@ ok_design_fails_with_wrong_contrasts($replicates_tsv);
 ( my $replicates_tsv_incoherent_per_run = $replicates_tsv ) =~ s/Schistosoma mansoni/other wormie/;
 tsv_well_formatted_but_fails_checks( $replicates_tsv_incoherent_per_run,
   "data not assembling by replicate" );
+( my $replicates_tsv_conditions_not_assembling_by_replicate = $replicates_tsv ) =~ s/tail_1/head_2/;
+eval {
+  Model::Design::from_tsv($replicates_tsv_conditions_not_assembling_by_replicate)
+};
+like($@, "/head_2/", "conditions not grouping by replicate - death");
+
 my $two_factor_tsv = <<EOF;
 Run	Condition	organism	developmental stage	sex	organism part
 SRR3209257	hf	Schistosoma mansoni	adult	female	head

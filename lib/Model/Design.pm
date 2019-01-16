@@ -57,8 +57,7 @@ sub from_data_by_run {
   my $conditions_per_replicate = {};
   for my $replicate (keys %runs_by_replicate){
      my ($condition, @others) = uniq map {$conditions_per_run->{$_}} @{$runs_by_replicate{$replicate}};
-### require: defined $condition
-### require: not @others
+     die "$replicate ambiguous condition: $condition @others" if @others; 
      $conditions_per_replicate->{$replicate} = $condition;
   }
   my %replicates_by_condition =  %{reverse_hoa($conditions_per_replicate)};
