@@ -31,10 +31,10 @@ sub to_html {
   for my $analysis($study->analyses_required){
     my %item;
     if($fails_checks){
-        $item{FAILEDANALYSIS} = $analysis->{description};
+        $item{FAILEDANALYSIS} = $analysis->{title};
         push(@analyses, \%item);
     } else {
-        $item{ANALYSIS}     = $analysis->{description};
+        $item{ANALYSIS}     = $analysis->{title};
         $item{ANALYSISLINK} = join("/", $study->{study_id}, $analysis->{file_name});
         push(@analyses, \%item);
     }

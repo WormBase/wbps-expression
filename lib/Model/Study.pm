@@ -7,7 +7,7 @@ use Model::Design;
 use YAML qw/DumpFile LoadFile/;
 use Carp qw/confess/;
 use List::Util qw/all max/;
-use List::MoreUtils qw/duplicates/;
+use List::MoreUtils qw/duplicates uniq/;
 use open ':encoding(utf8)';
 # use Smart::Comments '###';
 sub new {
@@ -105,11 +105,13 @@ sub analyses_required {
   my $study_id = $self->{study_id};
   my $max_reps = max map {scalar @{$_}} values %{$self->{design}->runs_by_condition};
   my $counts_file_name = "$study_id.counts_per_run.tsv";
+  my %h = %{$self->{design}{replicates_per_run}};
+  my $has_technical_replicates = keys %h > uniq values %h;
   return (
     {
       type => "aggregate_by_run",
       file_name => $counts_file_name,
-      title => "Counts per run",
+      title => "Raw data (counts of aligned reads) per run",
       description => "Raw data (counts of aligned reads) for study $study_id",
       source => "counts_htseq2",
       decorate_files => 0,
@@ -117,16 +119,16 @@ sub analyses_required {
     {
       type => "aggregate_by_run",
       file_name => "$study_id.tpm_per_run.tsv",
-      title => "Expression per run (TPM)",
-      description => "Gene expression in TPM for each run in  study $study_id",
+      title => "Gene expression (TPM) per run",
+      description => "Gene expression in TPM for each run in study $study_id",
       source => "tpm_htseq2",
       decorate_files => 1,
     }, 
     ($max_reps >= 3 ? {
       type => "average_by_condition",
       file_name => "$study_id.tpm.tsv",
-      title => "Expression per condition (TPM)",
-      description => "Gene expression in TPM - median across runs per condition for study $study_id",
+      title => "Gene expression (TPM) per condition as median across ".($has_technical_replicates ? "replicates" : "runs"),
+      description => sprintf ("Gene expression in TPM - %s per condition for study $study_id", $has_technical_replicates ? "technical, then biological replicates" : "runs"),
       source => "tpm_htseq2",
       decorate_files => 1,
     } :()),

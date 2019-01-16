@@ -8,13 +8,22 @@ use Model::Study;
 use Model::Design;
 use Data::Compare;
 
+my @bad_sample_ids = qw/
+SAMN04493423
+SAMN02905866
+/;
+
 #use Smart::Comments '###';
 sub design_from_runs {
   my (@runs) = @_;
   my %conditions_per_run =
     map { ( $_->{run_id}, $_->{run_description_short} ) } @runs;
-  my %replicates_per_run = 
-    map { ( $_->{run_id}, $_->{sample_id})} @runs;
+  my %replicates_per_run = map { 
+    my $run_id = $_->{run_id};
+    my $replicate = $_->{sample_id};
+    $replicate = $run_id if grep { $_ eq $replicate } @bad_sample_ids;
+    ($run_id, $replicate) } @runs;
+
   # If no extra information in the samples, skip them
   if (Compare([values %replicates_per_run] , [ uniq values %replicates_per_run ])){
     %replicates_per_run = map { ( $_->{run_id}, $_->{run_id}) } @runs;
