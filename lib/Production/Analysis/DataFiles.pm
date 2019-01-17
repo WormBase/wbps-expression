@@ -4,6 +4,7 @@ package Production::Analysis::DataFiles;
 use File::Slurp qw/read_dir/;
 use Production::Analysis::Common;
 use LWP;
+# use Smart::Comments '###';
 my $CAN_SEE_EBI_FILESYSTEM = -d "/nfs/ftp";
 
 sub open_read_fh {
@@ -28,6 +29,7 @@ sub open_read_fh {
 
 sub read_file_into_hash {
   my ($path) = @_;
+#### read_file_into_hash: $path
   my %result;
   my $fh = open_read_fh($path);
   my $header = <$fh>;
@@ -43,21 +45,24 @@ sub read_file_into_hash {
 sub read_files_into_averaged_hash {
   my (@paths) = @_;
   my %result;
-  for (my $i = 0; i < $#paths; i++){
-    for my $path (@{$paths[i]}) {
+  for my $i (0 .. $#paths){
+    for my $path (@{$paths[$i]}) {
 	my $fh = open_read_fh($path);
-	my $header = <$fh>;
+	my $header = <$fh>; 
+#### $header
 	while(<$fh>){
       chomp;
+#### $_
 	  my ($k, $v) = split "\t";
-	  push @{@{$result{$k}}[$i]},$v;
+	  push @{$result{$k}[$i]},$v;
 	}
       close $fh;
     }
   }
+#### %result
   for my $k (keys %result){
-    my @vs = map { calculate_median( @{$_})} @{$result{$k}};
-    $result{$k} = sprintf("%.1f", calculate_median(@vs)); 
+    my @vs = map { calculate_median( $_)} @{$result{$k}};
+    $result{$k} = sprintf("%.1f", calculate_median(\@vs)); 
   }
   return \%result;
 }
