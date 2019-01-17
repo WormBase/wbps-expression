@@ -133,7 +133,8 @@ my %ANALYSES = (
     if(keys %{$low_replicate_by_condition} == @conditions_ordered){
        push @qc_warnings, "! Contrasts based on conditions with low (2) replicates";
     } elsif (%{$low_replicate_by_condition}){
-       push @qc_warnings, sprintf("! Conditions with low (2) replicates used in %s/%s contrasts:",  $contrasts_low_replicates, scalar @contrasts_amended_names); 
+       push @qc_warnings, sprintf("! Conditions with low (2) replicates used in %s/%s contrasts:",  $contrasts_low_replicates, scalar @contrasts_amended_names)
+         if $contrasts_low_replicates; 
        push @qc_warnings, "! - $_" for keys %{$low_replicate_by_condition} ;
     }
 
