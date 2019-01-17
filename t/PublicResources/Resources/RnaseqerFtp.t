@@ -33,11 +33,14 @@ my $root_dir          = tempdir( CLEANUP => 1 );
 my $species           = "ancylostoma_ceylanicum";
 my $assembly          = "acey_assembly";
 my $study_id          = "SRP035476";
+my $sample_id         = "SRS535572";
 my $rnaseqer_metadata = bless {
     metadata => {
         $assembly => {
             $study_id => {
-                $run_id => {}
+                $sample_id => {
+				  $run_id => {},
+                },
             },
         },
     },

@@ -46,10 +46,14 @@ is_deeply(
   [],
   "No studies for wrong assembly"
 );
-
 is_deeply(
    $subject->access("ASM23792v2","SRP026308"),
-   ["SRR922067", "SRR922068"],
+   ["SAMN02213660", "SAMN02213661"],
+   "Runs for assembly and study"
+) or diag explain $subject;
+is_deeply(
+   $subject->access("ASM23792v2","SRP026308", "SAMN02213661"),
+   ["SRR922068"],
    "Runs for assembly and study"
 ) or diag explain $subject;
 
@@ -65,17 +69,17 @@ is_deeply(
 ) or diag explain $subject;
 
 is_deeply(
-   $subject->access("ASM23792v2","SRP026308", "SRR922067"), 
+   $subject->access("ASM23792v2","SRP026308", "SAMN02213660", "SRR922067"), 
    ['developmental_stage','organism_part','source_name','strain'],
    "Property types for assembly, study, and run. Normalise values. Skip sample_name because it's of the form ERS\d+. Skip dummy type with bad value of 'not applicable'. Skip type replicate because it's blacklisted."
 ) or diag explain $subject;
 is_deeply(
-   $subject->access("ASM23792v2","SRP026308", "SRR922067","strain"), 
+   $subject->access("ASM23792v2","SRP026308", "SAMN02213660", "SRR922067","strain"), 
    "NMRI",
    "Single property value for assembly, study, run, and study"
 ) or diag explain $subject;
 is_deeply(
-   $subject->access("ASM23792v2","SRP026308", "SRR922068"), 
+   $subject->access("ASM23792v2","SRP026308","SAMN02213661", "SRR922068"), 
    ['developmental_stage','organism_part','sample_name', 'source_name','strain'],
   "Property types for assembly, study, and run - canned as they are in ENA" 
 ) or diag explain $subject;
