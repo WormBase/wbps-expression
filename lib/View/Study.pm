@@ -47,7 +47,7 @@ sub to_html {
   }
 
   my $design = $study->{design};
-  my $design_summary = sprintf("Design: %s conditions across %s runs\n", scalar $design->all_conditions, scalar $design->all_runs);
+  my $design_summary = sprintf("Design: %s conditions\n", scalar $design->all_conditions);
   $study_tmpl->param(DESIGNSUMMARY => $design_summary);
 
   my @a = ('Condition', 'num. replicates');

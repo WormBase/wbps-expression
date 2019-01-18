@@ -11,10 +11,10 @@
 			<div class="column-40">
 				<div class="column-padding">
 					<div class="round-box home-box">
-						<h2> Data </h2>
+						<h2 data-functional-icon="="> Downloads </h2>
 						<ul>
 							<TMPL_LOOP NAME=ANALYSES>
-     							<li><h4><TMPL_VAR NAME=ANALYSIS> <a href="<TMPL_VAR NAME=ANALYSISLINK>">Download</a></h4></li>
+     							<li><h4><a href="<TMPL_VAR NAME=ANALYSISLINK>"><TMPL_VAR NAME=ANALYSIS></a></h4></li>
    							</TMPL_LOOP>
    							<TMPL_LOOP NAME=FAILEDANALYSES>
      							<li><strike><h4><TMPL_VAR NAME=FAILEDANALYSIS></h4></strike></li>
