@@ -1,0 +1,22 @@
+Run	Condition	developmental_stage	strain
+ERR146941	Free-living females	Young gravid females	PV001
+ERR146942	Free-living females	Young gravid females	PV001
+ERR146943	Free-living females	Young gravid females	PV001
+ERR146944	L3+	Tissue migrating third stage larvae	PV001
+ERR146945	L3+	Tissue migrating third stage larvae	PV001
+ERR146946	L3+	Tissue migrating third stage larvae	PV001
+ERR146947	L3i	Infectious third stage larvae	PV001
+ERR146948	L3i	Infectious third stage larvae	PV001
+ERR146949	L3i	Infectious third stage larvae	PV001
+ERR146959	Parasitic females	Gravid parasitic females	PV001
+ERR146960	Parasitic females	Gravid parasitic females	PV001
+ERR146961	Parasitic females	Gravid parasitic females	PV001
+ERR146950	Post free-living L1	Post free living first stage larvae	PV001
+ERR146951	Post free-living L1	Post free living first stage larvae	PV001
+ERR146952	Post free-living L1	Post free living first stage larvae	PV001
+ERR146953	Post parasitic L1	Post parasitic first stage larvae	PV001
+ERR146954	Post parasitic L1	Post parasitic first stage larvae	PV001
+ERR146955	Post parasitic L1	Post parasitic first stage larvae	PV001
+ERR146956	Post parasitic L3	Post parasitic heterogonically developing ~third stage larvae	PV001
+ERR146957	Post parasitic L3	Post parasitic heterogonically developing ~third stage larvae	PV001
+ERR146958	Post parasitic L3	Post parasitic heterogonically developing ~third stage larvae	PV001
