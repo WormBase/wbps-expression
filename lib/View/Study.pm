@@ -62,9 +62,11 @@ sub to_html {
   $study_tmpl->param(DESIGNCOLUMNS => \@columns_name);
   
   my @rows;
-  for my $c (sort $design->all_conditions){
+  my %h = %{$design->runs_by_condition_then_replicate};
+  for my $c (sort keys %h){
      my @b = ($c);
-     push (@b, map {$design->value_in_condition($c, $_) // "" } @{$design->{characteristics_in_order}});
+     push @b, scalar keys $h{$c};
+     push @b, map {$design->value_in_condition($c, $_) // "" } @{$design->{characteristics_in_order}};
      my @row;
      push (@row, map {{'ROW' => $_}} @b);
      push (@rows, {'DESIGNROW' => \@row});
