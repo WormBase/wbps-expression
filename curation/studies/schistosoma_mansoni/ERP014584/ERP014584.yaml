@@ -204,6 +204,9 @@ contrasts:
         - '38 days post infection, mixed sex, male'
         - 'mixed sex, male: 35 days post infection vs 38 days post infection'
 description: Analysis of gene expression levels between male and female Schistosoma mansoni worms.
-pubmed: ~
+pubmed:
+  28542189:
+    - 'Protasio .. Berriman, 2017'
+    - 'MiR-277/4989 regulate transcriptional landscape during juvenile to adult transition in the parasitic helminth Schistosoma mansoni. (Protasio .. Berriman, 2017)'
 submitting_centre: Wellcome Sanger Institute
 title: Schistosoma mansoni RNASeq male and female characterisation

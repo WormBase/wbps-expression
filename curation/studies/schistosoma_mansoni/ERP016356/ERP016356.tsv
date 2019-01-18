@@ -1,139 +1,139 @@
-Run	Condition	developmental_stage	infection	organism_part	sex	strain
-ERR506073	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
-ERR506074	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
-ERR506075	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
-ERR506097	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
-ERR506098	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
-ERR506099	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
-ERR667051	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
-ERR667052	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
-ERR667053	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
-ERR667075	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
-ERR667076	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
-ERR667077	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
-ERR667099	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
-ERR667100	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
-ERR667101	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
-ERR667123	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
-ERR667124	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
-ERR667125	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
-ERR506071	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
-ERR506072	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
-ERR506095	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
-ERR506096	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
-ERR667049	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
-ERR667050	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
-ERR667073	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
-ERR667074	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
-ERR667097	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
-ERR667098	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
-ERR667121	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
-ERR667122	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
-ERR506079	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
-ERR506080	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
-ERR506081	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
-ERR506103	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
-ERR506104	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
-ERR506105	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
-ERR667057	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
-ERR667058	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
-ERR667059	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
-ERR667081	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
-ERR667082	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
-ERR667083	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
-ERR667105	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
-ERR667106	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
-ERR667107	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
-ERR667129	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
-ERR667130	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
-ERR667131	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
-ERR506077	testes, single sex infection	adult	single sex	testes	male	Liberia
-ERR506078	testes, single sex infection	adult	single sex	testes	male	Liberia
-ERR506085	testes, single sex infection	adult	single sex	testes	male	Liberia
-ERR506101	testes, single sex infection	adult	single sex	testes	male	Liberia
-ERR506102	testes, single sex infection	adult	single sex	testes	male	Liberia
-ERR506109	testes, single sex infection	adult	single sex	testes	male	Liberia
-ERR667055	testes, single sex infection	adult	single sex	testes	male	Liberia
-ERR667056	testes, single sex infection	adult	single sex	testes	male	Liberia
-ERR667063	testes, single sex infection	adult	single sex	testes	male	Liberia
-ERR667079	testes, single sex infection	adult	single sex	testes	male	Liberia
-ERR667080	testes, single sex infection	adult	single sex	testes	male	Liberia
-ERR667087	testes, single sex infection	adult	single sex	testes	male	Liberia
-ERR667103	testes, single sex infection	adult	single sex	testes	male	Liberia
-ERR667104	testes, single sex infection	adult	single sex	testes	male	Liberia
-ERR667111	testes, single sex infection	adult	single sex	testes	male	Liberia
-ERR667127	testes, single sex infection	adult	single sex	testes	male	Liberia
-ERR667128	testes, single sex infection	adult	single sex	testes	male	Liberia
-ERR667135	testes, single sex infection	adult	single sex	testes	male	Liberia
-ERR506082	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
-ERR506083	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
-ERR506084	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
-ERR506106	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
-ERR506107	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
-ERR506108	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
-ERR667060	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
-ERR667061	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
-ERR667062	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
-ERR667084	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
-ERR667085	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
-ERR667086	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
-ERR667108	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
-ERR667109	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
-ERR667110	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
-ERR667132	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
-ERR667133	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
-ERR667134	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
-ERR506091	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
-ERR506092	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
-ERR506093	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
-ERR506115	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
-ERR506116	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
-ERR506117	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
-ERR667069	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
-ERR667070	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
-ERR667071	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
-ERR667093	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
-ERR667094	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
-ERR667095	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
-ERR667117	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
-ERR667118	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
-ERR667119	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
-ERR667141	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
-ERR667142	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
-ERR667143	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
-ERR506076	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
-ERR506088	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
-ERR506090	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
-ERR506100	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
-ERR506112	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
-ERR506114	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
-ERR667054	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
-ERR667066	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
-ERR667068	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
-ERR667078	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
-ERR667090	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
-ERR667092	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
-ERR667102	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
-ERR667114	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
-ERR667116	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
-ERR667126	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
-ERR667138	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
-ERR667140	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
-ERR506086	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
-ERR506087	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
-ERR506089	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
-ERR506110	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
-ERR506111	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
-ERR506113	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
-ERR667064	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
-ERR667065	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
-ERR667067	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
-ERR667088	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
-ERR667089	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
-ERR667091	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
-ERR667112	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
-ERR667113	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
-ERR667115	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
-ERR667136	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
-ERR667137	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
-ERR667139	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
+Run	Sample	Condition	developmental_stage	infection	organism_part	sex	strain
+ERR506073	SAMEA2395933	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
+ERR506097	SAMEA2395933	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
+ERR667051	SAMEA2395933	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
+ERR667075	SAMEA2395933	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
+ERR667099	SAMEA2395933	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
+ERR667123	SAMEA2395933	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
+ERR506074	SAMEA2395934	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
+ERR506098	SAMEA2395934	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
+ERR667052	SAMEA2395934	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
+ERR667076	SAMEA2395934	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
+ERR667100	SAMEA2395934	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
+ERR667124	SAMEA2395934	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
+ERR506075	SAMEA2395935	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
+ERR506099	SAMEA2395935	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
+ERR667053	SAMEA2395935	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
+ERR667077	SAMEA2395935	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
+ERR667101	SAMEA2395935	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
+ERR667125	SAMEA2395935	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
+ERR506071	SAMEA2395931	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
+ERR506095	SAMEA2395931	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
+ERR667049	SAMEA2395931	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
+ERR667073	SAMEA2395931	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
+ERR667097	SAMEA2395931	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
+ERR667121	SAMEA2395931	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
+ERR506072	SAMEA2395932	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
+ERR506096	SAMEA2395932	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
+ERR667050	SAMEA2395932	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
+ERR667074	SAMEA2395932	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
+ERR667098	SAMEA2395932	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
+ERR667122	SAMEA2395932	ovaries, single sex infection	adult	single sex	ovaries	female	Liberia
+ERR506079	SAMEA2395939	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
+ERR506103	SAMEA2395939	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
+ERR667057	SAMEA2395939	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
+ERR667081	SAMEA2395939	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
+ERR667105	SAMEA2395939	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
+ERR667129	SAMEA2395939	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
+ERR506080	SAMEA2395940	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
+ERR506104	SAMEA2395940	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
+ERR667058	SAMEA2395940	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
+ERR667082	SAMEA2395940	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
+ERR667106	SAMEA2395940	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
+ERR667130	SAMEA2395940	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
+ERR506081	SAMEA2395941	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
+ERR506105	SAMEA2395941	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
+ERR667059	SAMEA2395941	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
+ERR667083	SAMEA2395941	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
+ERR667107	SAMEA2395941	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
+ERR667131	SAMEA2395941	testes, mixed sex infection	adult	mixed sex	testes	male	Liberia
+ERR506077	SAMEA2395937	testes, single sex infection	adult	single sex	testes	male	Liberia
+ERR506101	SAMEA2395937	testes, single sex infection	adult	single sex	testes	male	Liberia
+ERR667055	SAMEA2395937	testes, single sex infection	adult	single sex	testes	male	Liberia
+ERR667079	SAMEA2395937	testes, single sex infection	adult	single sex	testes	male	Liberia
+ERR667103	SAMEA2395937	testes, single sex infection	adult	single sex	testes	male	Liberia
+ERR667127	SAMEA2395937	testes, single sex infection	adult	single sex	testes	male	Liberia
+ERR506078	SAMEA2395938	testes, single sex infection	adult	single sex	testes	male	Liberia
+ERR506102	SAMEA2395938	testes, single sex infection	adult	single sex	testes	male	Liberia
+ERR667056	SAMEA2395938	testes, single sex infection	adult	single sex	testes	male	Liberia
+ERR667080	SAMEA2395938	testes, single sex infection	adult	single sex	testes	male	Liberia
+ERR667104	SAMEA2395938	testes, single sex infection	adult	single sex	testes	male	Liberia
+ERR667128	SAMEA2395938	testes, single sex infection	adult	single sex	testes	male	Liberia
+ERR506085	SAMEA2395945	testes, single sex infection	adult	single sex	testes	male	Liberia
+ERR506109	SAMEA2395945	testes, single sex infection	adult	single sex	testes	male	Liberia
+ERR667063	SAMEA2395945	testes, single sex infection	adult	single sex	testes	male	Liberia
+ERR667087	SAMEA2395945	testes, single sex infection	adult	single sex	testes	male	Liberia
+ERR667111	SAMEA2395945	testes, single sex infection	adult	single sex	testes	male	Liberia
+ERR667135	SAMEA2395945	testes, single sex infection	adult	single sex	testes	male	Liberia
+ERR506082	SAMEA2395942	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
+ERR506106	SAMEA2395942	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
+ERR667060	SAMEA2395942	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
+ERR667084	SAMEA2395942	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
+ERR667108	SAMEA2395942	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
+ERR667132	SAMEA2395942	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
+ERR506083	SAMEA2395943	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
+ERR506107	SAMEA2395943	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
+ERR667061	SAMEA2395943	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
+ERR667085	SAMEA2395943	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
+ERR667109	SAMEA2395943	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
+ERR667133	SAMEA2395943	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
+ERR506084	SAMEA2395944	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
+ERR506108	SAMEA2395944	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
+ERR667062	SAMEA2395944	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
+ERR667086	SAMEA2395944	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
+ERR667110	SAMEA2395944	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
+ERR667134	SAMEA2395944	whole female, mixed sex infection	adult	mixed sex	whole organism	female	Liberia
+ERR506091	SAMEA2395951	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
+ERR506115	SAMEA2395951	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
+ERR667069	SAMEA2395951	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
+ERR667093	SAMEA2395951	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
+ERR667117	SAMEA2395951	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
+ERR667141	SAMEA2395951	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
+ERR506092	SAMEA2395952	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
+ERR506116	SAMEA2395952	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
+ERR667070	SAMEA2395952	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
+ERR667094	SAMEA2395952	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
+ERR667118	SAMEA2395952	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
+ERR667142	SAMEA2395952	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
+ERR506093	SAMEA2395953	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
+ERR506117	SAMEA2395953	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
+ERR667071	SAMEA2395953	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
+ERR667095	SAMEA2395953	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
+ERR667119	SAMEA2395953	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
+ERR667143	SAMEA2395953	whole female, single sex infection	adult	single sex	whole organism	female	Liberia
+ERR506076	SAMEA2395936	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
+ERR506100	SAMEA2395936	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
+ERR667054	SAMEA2395936	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
+ERR667078	SAMEA2395936	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
+ERR667102	SAMEA2395936	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
+ERR667126	SAMEA2395936	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
+ERR506088	SAMEA2395949	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
+ERR506112	SAMEA2395949	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
+ERR667066	SAMEA2395949	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
+ERR667090	SAMEA2395949	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
+ERR667114	SAMEA2395949	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
+ERR667138	SAMEA2395949	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
+ERR506090	SAMEA2395950	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
+ERR506114	SAMEA2395950	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
+ERR667068	SAMEA2395950	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
+ERR667092	SAMEA2395950	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
+ERR667116	SAMEA2395950	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
+ERR667140	SAMEA2395950	whole male, mixed sex infection	adult	mixed sex	whole organism	male	Liberia
+ERR506086	SAMEA2395946	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
+ERR506110	SAMEA2395946	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
+ERR667064	SAMEA2395946	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
+ERR667088	SAMEA2395946	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
+ERR667112	SAMEA2395946	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
+ERR667136	SAMEA2395946	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
+ERR506087	SAMEA2395947	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
+ERR506111	SAMEA2395947	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
+ERR667065	SAMEA2395947	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
+ERR667089	SAMEA2395947	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
+ERR667113	SAMEA2395947	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
+ERR667137	SAMEA2395947	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
+ERR506089	SAMEA2395948	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
+ERR506113	SAMEA2395948	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
+ERR667067	SAMEA2395948	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
+ERR667091	SAMEA2395948	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
+ERR667115	SAMEA2395948	whole male, single sex infection	adult	single sex	whole organism	male	Liberia
+ERR667139	SAMEA2395948	whole male, single sex infection	adult	single sex	whole organism	male	Liberia

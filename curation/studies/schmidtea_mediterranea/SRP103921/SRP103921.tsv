@@ -1,49 +1,49 @@
-Run	Condition	organism_part	strain	treatment
-SRR5448290	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
-SRR5448291	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
-SRR5448292	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
-SRR5448293	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
-SRR5448294	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
-SRR5448295	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
-SRR5448302	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
-SRR5448303	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
-SRR5448304	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
-SRR5448305	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
-SRR5448306	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
-SRR5448307	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
-SRR5448314	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
-SRR5448315	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
-SRR5448316	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
-SRR5448317	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
-SRR5448318	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
-SRR5448319	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
-SRR5448296	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
-SRR5448297	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
-SRR5448298	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
-SRR5448299	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
-SRR5448300	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
-SRR5448301	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
-SRR5448308	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
-SRR5448309	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
-SRR5448310	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
-SRR5448311	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
-SRR5448312	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
-SRR5448313	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
-SRR5448320	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
-SRR5448321	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
-SRR5448322	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
-SRR5448323	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
-SRR5448324	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
-SRR5448325	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
-SRR5448278	whole organism, Control RNAi	whole organism	Asexual CIW4	Control RNAi
-SRR5448279	whole organism, Control RNAi	whole organism	Asexual CIW4	Control RNAi
-SRR5448280	whole organism, Control RNAi	whole organism	Asexual CIW4	Control RNAi
-SRR5448281	whole organism, Control RNAi	whole organism	Asexual CIW4	Control RNAi
-SRR5448282	whole organism, Control RNAi	whole organism	Asexual CIW4	Control RNAi
-SRR5448283	whole organism, Control RNAi	whole organism	Asexual CIW4	Control RNAi
-SRR5448284	whole organism, Yki RNAi	whole organism	Asexual CIW4	Yki RNAi
-SRR5448285	whole organism, Yki RNAi	whole organism	Asexual CIW4	Yki RNAi
-SRR5448286	whole organism, Yki RNAi	whole organism	Asexual CIW4	Yki RNAi
-SRR5448287	whole organism, Yki RNAi	whole organism	Asexual CIW4	Yki RNAi
-SRR5448288	whole organism, Yki RNAi	whole organism	Asexual CIW4	Yki RNAi
-SRR5448289	whole organism, Yki RNAi	whole organism	Asexual CIW4	Yki RNAi
+Run	Sample	Condition	organism_part	strain	treatment
+SRR5448318	SAMN06756478	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
+SRR5448319	SAMN06756478	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
+SRR5448316	SAMN06756479	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
+SRR5448317	SAMN06756479	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
+SRR5448314	SAMN06756480	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
+SRR5448315	SAMN06756480	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
+SRR5448306	SAMN06756484	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
+SRR5448307	SAMN06756484	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
+SRR5448304	SAMN06756485	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
+SRR5448305	SAMN06756485	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
+SRR5448302	SAMN06756486	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
+SRR5448303	SAMN06756486	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
+SRR5448294	SAMN06756490	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
+SRR5448295	SAMN06756490	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
+SRR5448292	SAMN06756491	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
+SRR5448293	SAMN06756491	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
+SRR5448290	SAMN06756492	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
+SRR5448291	SAMN06756492	tail, Control RNAi	tail	Asexual CIW4	Control RNAi
+SRR5448324	SAMN06756475	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
+SRR5448325	SAMN06756475	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
+SRR5448322	SAMN06756476	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
+SRR5448323	SAMN06756476	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
+SRR5448320	SAMN06756477	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
+SRR5448321	SAMN06756477	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
+SRR5448312	SAMN06756481	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
+SRR5448313	SAMN06756481	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
+SRR5448310	SAMN06756482	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
+SRR5448311	SAMN06756482	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
+SRR5448308	SAMN06756483	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
+SRR5448309	SAMN06756483	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
+SRR5448300	SAMN06756487	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
+SRR5448301	SAMN06756487	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
+SRR5448298	SAMN06756488	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
+SRR5448299	SAMN06756488	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
+SRR5448296	SAMN06756489	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
+SRR5448297	SAMN06756489	tail, Yki RNAi	tail	Asexual CIW4	Yki RNAi
+SRR5448282	SAMN06756496	whole organism, Control RNAi	whole organism	Asexual CIW4	Control RNAi
+SRR5448283	SAMN06756496	whole organism, Control RNAi	whole organism	Asexual CIW4	Control RNAi
+SRR5448280	SAMN06756497	whole organism, Control RNAi	whole organism	Asexual CIW4	Control RNAi
+SRR5448281	SAMN06756497	whole organism, Control RNAi	whole organism	Asexual CIW4	Control RNAi
+SRR5448278	SAMN06756498	whole organism, Control RNAi	whole organism	Asexual CIW4	Control RNAi
+SRR5448279	SAMN06756498	whole organism, Control RNAi	whole organism	Asexual CIW4	Control RNAi
+SRR5448288	SAMN06756493	whole organism, Yki RNAi	whole organism	Asexual CIW4	Yki RNAi
+SRR5448289	SAMN06756493	whole organism, Yki RNAi	whole organism	Asexual CIW4	Yki RNAi
+SRR5448286	SAMN06756494	whole organism, Yki RNAi	whole organism	Asexual CIW4	Yki RNAi
+SRR5448287	SAMN06756494	whole organism, Yki RNAi	whole organism	Asexual CIW4	Yki RNAi
+SRR5448284	SAMN06756495	whole organism, Yki RNAi	whole organism	Asexual CIW4	Yki RNAi
+SRR5448285	SAMN06756495	whole organism, Yki RNAi	whole organism	Asexual CIW4	Yki RNAi

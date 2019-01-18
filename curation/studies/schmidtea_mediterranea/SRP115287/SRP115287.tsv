@@ -1,10 +1,10 @@
-Run	Condition	developmental_stage	isolate	organism_part	strain	treatment
-SRR7070906	x1 cells, gfp RNAi	adult	BCN-10	x1 cells	asexual	gfp RNAi
-SRR7070907	x1 cells, gfp RNAi	adult	BCN-10	x1 cells	asexual	gfp RNAi
-SRR7070908	x1 cells, gfp RNAi	adult	BCN-10	x1 cells	asexual	gfp RNAi
-SRR7070909	x1 cells, ints3 RNAi	adult	BCN-10	x1 cells	asexual	ints3 RNAi
-SRR7070910	x1 cells, ints3 RNAi	adult	BCN-10	x1 cells	asexual	ints3 RNAi
-SRR7070911	x1 cells, ints3 RNAi	adult	BCN-10	x1 cells	asexual	ints3 RNAi
-SRR7070912	x1 cells, ints9 RNAi	adult	BCN-10	x1 cells	asexual	ints9 RNAi
-SRR7070913	x1 cells, ints9 RNAi	adult	BCN-10	x1 cells	asexual	ints9 RNAi
-SRR7070914	x1 cells, ints9 RNAi	adult	BCN-10	x1 cells	asexual	ints9 RNAi
+Run	Sample	Condition	developmental_stage	isolate	organism_part	strain	treatment
+SRR7070906	SAMN07490271	x1 cells, gfp RNAi	adult	BCN-10	x1 cells	asexual	gfp RNAi
+SRR7070907	SAMN07490271	x1 cells, gfp RNAi	adult	BCN-10	x1 cells	asexual	gfp RNAi
+SRR7070908	SAMN07490271	x1 cells, gfp RNAi	adult	BCN-10	x1 cells	asexual	gfp RNAi
+SRR7070909	SAMN07490272	x1 cells, ints3 RNAi	adult	BCN-10	x1 cells	asexual	ints3 RNAi
+SRR7070910	SAMN07490272	x1 cells, ints3 RNAi	adult	BCN-10	x1 cells	asexual	ints3 RNAi
+SRR7070911	SAMN07490272	x1 cells, ints3 RNAi	adult	BCN-10	x1 cells	asexual	ints3 RNAi
+SRR7070912	SAMN07490273	x1 cells, ints9 RNAi	adult	BCN-10	x1 cells	asexual	ints9 RNAi
+SRR7070913	SAMN07490273	x1 cells, ints9 RNAi	adult	BCN-10	x1 cells	asexual	ints9 RNAi
+SRR7070914	SAMN07490273	x1 cells, ints9 RNAi	adult	BCN-10	x1 cells	asexual	ints9 RNAi

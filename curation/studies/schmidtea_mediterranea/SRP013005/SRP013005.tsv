@@ -1,7 +1,7 @@
-Run	Condition	organism_part
-SRR496280	differentiated tissues	all tissues minus stem cells and progeny
-SRR496281	differentiated tissues	all tissues minus stem cells and progeny
-SRR496278	stem cell progeny	stem cell progeny
-SRR496279	stem cell progeny	stem cell progeny
-SRR496276	stem cells	stem cells, neoblasts
-SRR496277	stem cells	stem cells, neoblasts
+Run	Sample	Condition	organism_part
+SRR496280	SAMN00993130	differentiated tissues	all tissues minus stem cells and progeny
+SRR496281	SAMN00993130	differentiated tissues	all tissues minus stem cells and progeny
+SRR496278	SAMN00993129	stem cell progeny	stem cell progeny
+SRR496279	SAMN00993129	stem cell progeny	stem cell progeny
+SRR496276	SAMN00993128	stem cells	stem cells, neoblasts
+SRR496277	SAMN00993128	stem cells	stem cells, neoblasts

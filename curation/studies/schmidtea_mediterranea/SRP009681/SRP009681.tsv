@@ -1,14 +1,14 @@
-Run	Condition	cell_type	strain	treatment
-SRR388701	Asexual, Irradiated		Asexual	Irradiated
-SRR388702	Asexual, Irradiated		Asexual	Irradiated
-SRR388703	Asexual, Non-irradiated		Asexual	Non-irradiated
-SRR388704	Asexual, Non-irradiated		Asexual	Non-irradiated
-SRR388705	Asexual, Non-irradiated		Asexual	Non-irradiated
-SRR388706	Sexual, Irradiated		Sexual	Irradiated
-SRR388707	Sexual, Irradiated		Sexual	Irradiated
-SRR388708	Sexual, Non-irradiated		Sexual	Non-irradiated
-SRR388709	Sexual, Non-irradiated		Sexual	Non-irradiated
-SRR514126	Sexual, Non-irradiated		Sexual	Non-irradiated
-SRR388711	X1 neoblast, Sexual, Non-irradiated	X1 neoblast	Sexual	Non-irradiated
-SRR388713	X2 neoblast, Sexual, Non-irradiated	X2 neoblast	Sexual	Non-irradiated
-SRR388712	Xins differentiated cells, Sexual, Non-irradiated	Xins differentiated cells	Sexual	Non-irradiated
+Run	Sample	Condition	cell_type	strain	treatment
+SRR388701	SAMN00765126	Asexual, Irradiated		Asexual	Irradiated
+SRR388702	SAMN00765126	Asexual, Irradiated		Asexual	Irradiated
+SRR388703	SAMN00765127	Asexual, Non-irradiated		Asexual	Non-irradiated
+SRR388704	SAMN00765127	Asexual, Non-irradiated		Asexual	Non-irradiated
+SRR388705	SAMN00765128	Asexual, Non-irradiated		Asexual	Non-irradiated
+SRR388706	SAMN00765129	Sexual, Irradiated		Sexual	Irradiated
+SRR388707	SAMN00765129	Sexual, Irradiated		Sexual	Irradiated
+SRR388708	SAMN00765130	Sexual, Non-irradiated		Sexual	Non-irradiated
+SRR388709	SAMN00765130	Sexual, Non-irradiated		Sexual	Non-irradiated
+SRR514126	SAMN00765130	Sexual, Non-irradiated		Sexual	Non-irradiated
+SRR388711	SAMN00765132	X1 neoblast, Sexual, Non-irradiated	X1 neoblast	Sexual	Non-irradiated
+SRR388713	SAMN00765134	X2 neoblast, Sexual, Non-irradiated	X2 neoblast	Sexual	Non-irradiated
+SRR388712	SAMN00765133	Xins differentiated cells, Sexual, Non-irradiated	Xins differentiated cells	Sexual	Non-irradiated

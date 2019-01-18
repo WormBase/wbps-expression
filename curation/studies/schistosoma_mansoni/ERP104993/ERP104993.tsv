@@ -1,82 +1,82 @@
-Run	Condition	cell_separation_method	cell_type	developmental_stage	sex	strain	treatment
-ERR2185292	Female Control 'Rest'	FACS	'Rest'	adult	female	NMRI	
-ERR2185301	Female Control 'Rest'	FACS	'Rest'	adult	female	NMRI	
-ERR2185310	Female Control 'Rest'	FACS	'Rest'	adult	female	NMRI	
-ERR2185319	Female Control 'Rest'	FACS	'Rest'	adult	female	NMRI	
-ERR2185328	Female Control 'Rest'	FACS	'Rest'	adult	female	NMRI	
-ERR2185337	Female Control 'Rest'	FACS	'Rest'	adult	female	NMRI	
-ERR2185346	Female Control 'Rest'	FACS	'Rest'	adult	female	NMRI	
-ERR2185355	Female Control 'Rest'	FACS	'Rest'	adult	female	NMRI	
-ERR2185364	Female Control 'Rest'	FACS	'Rest'	adult	female	NMRI	
-ERR2185291	Female Control S1	FACS	S1	adult	female	NMRI	
-ERR2185300	Female Control S1	FACS	S1	adult	female	NMRI	
-ERR2185311	Female Control S1	FACS	S1	adult	female	NMRI	
-ERR2185318	Female Control S1	FACS	S1	adult	female	NMRI	
-ERR2185327	Female Control S1	FACS	S1	adult	female	NMRI	
-ERR2185338	Female Control S1	FACS	S1	adult	female	NMRI	
-ERR2185345	Female Control S1	FACS	S1	adult	female	NMRI	
-ERR2185354	Female Control S1	FACS	S1	adult	female	NMRI	
-ERR2185365	Female Control S1	FACS	S1	adult	female	NMRI	
-ERR2185290	Female Control S2-4	FACS	S2-4	adult	female	NMRI	
-ERR2185299	Female Control S2-4	FACS	S2-4	adult	female	NMRI	
-ERR2185308	Female Control S2-4	FACS	S2-4	adult	female	NMRI	
-ERR2185317	Female Control S2-4	FACS	S2-4	adult	female	NMRI	
-ERR2185326	Female Control S2-4	FACS	S2-4	adult	female	NMRI	
-ERR2185335	Female Control S2-4	FACS	S2-4	adult	female	NMRI	
-ERR2185344	Female Control S2-4	FACS	S2-4	adult	female	NMRI	
-ERR2185353	Female Control S2-4	FACS	S2-4	adult	female	NMRI	
-ERR2185362	Female Control S2-4	FACS	S2-4	adult	female	NMRI	
-ERR2185293	Female Irradiated 'Rest'	FACS	'Rest'	adult	female	NMRI	irradiation
-ERR2185302	Female Irradiated 'Rest'	FACS	'Rest'	adult	female	NMRI	irradiation
-ERR2185309	Female Irradiated 'Rest'	FACS	'Rest'	adult	female	NMRI	irradiation
-ERR2185320	Female Irradiated 'Rest'	FACS	'Rest'	adult	female	NMRI	irradiation
-ERR2185329	Female Irradiated 'Rest'	FACS	'Rest'	adult	female	NMRI	irradiation
-ERR2185336	Female Irradiated 'Rest'	FACS	'Rest'	adult	female	NMRI	irradiation
-ERR2185347	Female Irradiated 'Rest'	FACS	'Rest'	adult	female	NMRI	irradiation
-ERR2185356	Female Irradiated 'Rest'	FACS	'Rest'	adult	female	NMRI	irradiation
-ERR2185363	Female Irradiated 'Rest'	FACS	'Rest'	adult	female	NMRI	irradiation
-ERR2185288	Male Control 'Rest'	FACS	'Rest'	adult	male	NMRI	
-ERR2185297	Male Control 'Rest'	FACS	'Rest'	adult	male	NMRI	
-ERR2185306	Male Control 'Rest'	FACS	'Rest'	adult	male	NMRI	
-ERR2185315	Male Control 'Rest'	FACS	'Rest'	adult	male	NMRI	
-ERR2185324	Male Control 'Rest'	FACS	'Rest'	adult	male	NMRI	
-ERR2185333	Male Control 'Rest'	FACS	'Rest'	adult	male	NMRI	
-ERR2185342	Male Control 'Rest'	FACS	'Rest'	adult	male	NMRI	
-ERR2185351	Male Control 'Rest'	FACS	'Rest'	adult	male	NMRI	
-ERR2185360	Male Control 'Rest'	FACS	'Rest'	adult	male	NMRI	
-ERR2185285	Male Control Neoblast	FACS	Neoblast	adult	male	NMRI	
-ERR2185294	Male Control Neoblast	FACS	Neoblast	adult	male	NMRI	
-ERR2185303	Male Control Neoblast	FACS	Neoblast	adult	male	NMRI	
-ERR2185312	Male Control Neoblast	FACS	Neoblast	adult	male	NMRI	
-ERR2185321	Male Control Neoblast	FACS	Neoblast	adult	male	NMRI	
-ERR2185330	Male Control Neoblast	FACS	Neoblast	adult	male	NMRI	
-ERR2185339	Male Control Neoblast	FACS	Neoblast	adult	male	NMRI	
-ERR2185348	Male Control Neoblast	FACS	Neoblast	adult	male	NMRI	
-ERR2185357	Male Control Neoblast	FACS	Neoblast	adult	male	NMRI	
-ERR2185287	Male Control TSP2 High	FACS	TSP2 High	adult	male	NMRI	
-ERR2185296	Male Control TSP2 High	FACS	TSP2 High	adult	male	NMRI	
-ERR2185305	Male Control TSP2 High	FACS	TSP2 High	adult	male	NMRI	
-ERR2185314	Male Control TSP2 High	FACS	TSP2 High	adult	male	NMRI	
-ERR2185323	Male Control TSP2 High	FACS	TSP2 High	adult	male	NMRI	
-ERR2185332	Male Control TSP2 High	FACS	TSP2 High	adult	male	NMRI	
-ERR2185341	Male Control TSP2 High	FACS	TSP2 High	adult	male	NMRI	
-ERR2185350	Male Control TSP2 High	FACS	TSP2 High	adult	male	NMRI	
-ERR2185359	Male Control TSP2 High	FACS	TSP2 High	adult	male	NMRI	
-ERR2185286	Male Control TSP2 Low	FACS	TSP2 Low	adult	male	NMRI	
-ERR2185295	Male Control TSP2 Low	FACS	TSP2 Low	adult	male	NMRI	
-ERR2185304	Male Control TSP2 Low	FACS	TSP2 Low	adult	male	NMRI	
-ERR2185313	Male Control TSP2 Low	FACS	TSP2 Low	adult	male	NMRI	
-ERR2185322	Male Control TSP2 Low	FACS	TSP2 Low	adult	male	NMRI	
-ERR2185331	Male Control TSP2 Low	FACS	TSP2 Low	adult	male	NMRI	
-ERR2185340	Male Control TSP2 Low	FACS	TSP2 Low	adult	male	NMRI	
-ERR2185349	Male Control TSP2 Low	FACS	TSP2 Low	adult	male	NMRI	
-ERR2185358	Male Control TSP2 Low	FACS	TSP2 Low	adult	male	NMRI	
-ERR2185289	Male Irradiated 'Rest'	FACS	'Rest'	adult	male	NMRI	irradiation
-ERR2185298	Male Irradiated 'Rest'	FACS	'Rest'	adult	male	NMRI	irradiation
-ERR2185307	Male Irradiated 'Rest'	FACS	'Rest'	adult	male	NMRI	irradiation
-ERR2185316	Male Irradiated 'Rest'	FACS	'Rest'	adult	male	NMRI	irradiation
-ERR2185325	Male Irradiated 'Rest'	FACS	'Rest'	adult	male	NMRI	irradiation
-ERR2185334	Male Irradiated 'Rest'	FACS	'Rest'	adult	male	NMRI	irradiation
-ERR2185343	Male Irradiated 'Rest'	FACS	'Rest'	adult	male	NMRI	irradiation
-ERR2185352	Male Irradiated 'Rest'	FACS	'Rest'	adult	male	NMRI	irradiation
-ERR2185361	Male Irradiated 'Rest'	FACS	'Rest'	adult	male	NMRI	irradiation
+Run	Sample	Condition	cell_separation_method	cell_type	developmental_stage	sex	strain	treatment
+ERR2185292	SAMEA104362963	Female Control 'Rest'	FACS	'Rest'	adult	female	NMRI	
+ERR2185319	SAMEA104362963	Female Control 'Rest'	FACS	'Rest'	adult	female	NMRI	
+ERR2185346	SAMEA104362963	Female Control 'Rest'	FACS	'Rest'	adult	female	NMRI	
+ERR2185301	SAMEA104362977	Female Control 'Rest'	FACS	'Rest'	adult	female	NMRI	
+ERR2185328	SAMEA104362977	Female Control 'Rest'	FACS	'Rest'	adult	female	NMRI	
+ERR2185355	SAMEA104362977	Female Control 'Rest'	FACS	'Rest'	adult	female	NMRI	
+ERR2185310	SAMEA104362987	Female Control 'Rest'	FACS	'Rest'	adult	female	NMRI	
+ERR2185337	SAMEA104362987	Female Control 'Rest'	FACS	'Rest'	adult	female	NMRI	
+ERR2185364	SAMEA104362987	Female Control 'Rest'	FACS	'Rest'	adult	female	NMRI	
+ERR2185291	SAMEA104362962	Female Control S1	FACS	S1	adult	female	NMRI	
+ERR2185318	SAMEA104362962	Female Control S1	FACS	S1	adult	female	NMRI	
+ERR2185345	SAMEA104362962	Female Control S1	FACS	S1	adult	female	NMRI	
+ERR2185300	SAMEA104362975	Female Control S1	FACS	S1	adult	female	NMRI	
+ERR2185327	SAMEA104362975	Female Control S1	FACS	S1	adult	female	NMRI	
+ERR2185354	SAMEA104362975	Female Control S1	FACS	S1	adult	female	NMRI	
+ERR2185311	SAMEA104362988	Female Control S1	FACS	S1	adult	female	NMRI	
+ERR2185338	SAMEA104362988	Female Control S1	FACS	S1	adult	female	NMRI	
+ERR2185365	SAMEA104362988	Female Control S1	FACS	S1	adult	female	NMRI	
+ERR2185290	SAMEA104362972	Female Control S2-4	FACS	S2-4	adult	female	NMRI	
+ERR2185317	SAMEA104362972	Female Control S2-4	FACS	S2-4	adult	female	NMRI	
+ERR2185344	SAMEA104362972	Female Control S2-4	FACS	S2-4	adult	female	NMRI	
+ERR2185299	SAMEA104362973	Female Control S2-4	FACS	S2-4	adult	female	NMRI	
+ERR2185326	SAMEA104362973	Female Control S2-4	FACS	S2-4	adult	female	NMRI	
+ERR2185353	SAMEA104362973	Female Control S2-4	FACS	S2-4	adult	female	NMRI	
+ERR2185308	SAMEA104362976	Female Control S2-4	FACS	S2-4	adult	female	NMRI	
+ERR2185335	SAMEA104362976	Female Control S2-4	FACS	S2-4	adult	female	NMRI	
+ERR2185362	SAMEA104362976	Female Control S2-4	FACS	S2-4	adult	female	NMRI	
+ERR2185293	SAMEA104362965	Female Irradiated 'Rest'	FACS	'Rest'	adult	female	NMRI	irradiation
+ERR2185320	SAMEA104362965	Female Irradiated 'Rest'	FACS	'Rest'	adult	female	NMRI	irradiation
+ERR2185347	SAMEA104362965	Female Irradiated 'Rest'	FACS	'Rest'	adult	female	NMRI	irradiation
+ERR2185302	SAMEA104362978	Female Irradiated 'Rest'	FACS	'Rest'	adult	female	NMRI	irradiation
+ERR2185329	SAMEA104362978	Female Irradiated 'Rest'	FACS	'Rest'	adult	female	NMRI	irradiation
+ERR2185356	SAMEA104362978	Female Irradiated 'Rest'	FACS	'Rest'	adult	female	NMRI	irradiation
+ERR2185309	SAMEA104362986	Female Irradiated 'Rest'	FACS	'Rest'	adult	female	NMRI	irradiation
+ERR2185336	SAMEA104362986	Female Irradiated 'Rest'	FACS	'Rest'	adult	female	NMRI	irradiation
+ERR2185363	SAMEA104362986	Female Irradiated 'Rest'	FACS	'Rest'	adult	female	NMRI	irradiation
+ERR2185288	SAMEA104362970	Male Control 'Rest'	FACS	'Rest'	adult	male	NMRI	
+ERR2185315	SAMEA104362970	Male Control 'Rest'	FACS	'Rest'	adult	male	NMRI	
+ERR2185342	SAMEA104362970	Male Control 'Rest'	FACS	'Rest'	adult	male	NMRI	
+ERR2185297	SAMEA104362982	Male Control 'Rest'	FACS	'Rest'	adult	male	NMRI	
+ERR2185324	SAMEA104362982	Male Control 'Rest'	FACS	'Rest'	adult	male	NMRI	
+ERR2185351	SAMEA104362982	Male Control 'Rest'	FACS	'Rest'	adult	male	NMRI	
+ERR2185306	SAMEA104362985	Male Control 'Rest'	FACS	'Rest'	adult	male	NMRI	
+ERR2185333	SAMEA104362985	Male Control 'Rest'	FACS	'Rest'	adult	male	NMRI	
+ERR2185360	SAMEA104362985	Male Control 'Rest'	FACS	'Rest'	adult	male	NMRI	
+ERR2185285	SAMEA104362964	Male Control Neoblast	FACS	Neoblast	adult	male	NMRI	
+ERR2185312	SAMEA104362964	Male Control Neoblast	FACS	Neoblast	adult	male	NMRI	
+ERR2185339	SAMEA104362964	Male Control Neoblast	FACS	Neoblast	adult	male	NMRI	
+ERR2185294	SAMEA104362967	Male Control Neoblast	FACS	Neoblast	adult	male	NMRI	
+ERR2185321	SAMEA104362967	Male Control Neoblast	FACS	Neoblast	adult	male	NMRI	
+ERR2185348	SAMEA104362967	Male Control Neoblast	FACS	Neoblast	adult	male	NMRI	
+ERR2185303	SAMEA104362979	Male Control Neoblast	FACS	Neoblast	adult	male	NMRI	
+ERR2185330	SAMEA104362979	Male Control Neoblast	FACS	Neoblast	adult	male	NMRI	
+ERR2185357	SAMEA104362979	Male Control Neoblast	FACS	Neoblast	adult	male	NMRI	
+ERR2185287	SAMEA104362968	Male Control TSP2 High	FACS	TSP2 High	adult	male	NMRI	
+ERR2185314	SAMEA104362968	Male Control TSP2 High	FACS	TSP2 High	adult	male	NMRI	
+ERR2185341	SAMEA104362968	Male Control TSP2 High	FACS	TSP2 High	adult	male	NMRI	
+ERR2185296	SAMEA104362980	Male Control TSP2 High	FACS	TSP2 High	adult	male	NMRI	
+ERR2185323	SAMEA104362980	Male Control TSP2 High	FACS	TSP2 High	adult	male	NMRI	
+ERR2185350	SAMEA104362980	Male Control TSP2 High	FACS	TSP2 High	adult	male	NMRI	
+ERR2185305	SAMEA104362983	Male Control TSP2 High	FACS	TSP2 High	adult	male	NMRI	
+ERR2185332	SAMEA104362983	Male Control TSP2 High	FACS	TSP2 High	adult	male	NMRI	
+ERR2185359	SAMEA104362983	Male Control TSP2 High	FACS	TSP2 High	adult	male	NMRI	
+ERR2185286	SAMEA104362966	Male Control TSP2 Low	FACS	TSP2 Low	adult	male	NMRI	
+ERR2185313	SAMEA104362966	Male Control TSP2 Low	FACS	TSP2 Low	adult	male	NMRI	
+ERR2185340	SAMEA104362966	Male Control TSP2 Low	FACS	TSP2 Low	adult	male	NMRI	
+ERR2185295	SAMEA104362969	Male Control TSP2 Low	FACS	TSP2 Low	adult	male	NMRI	
+ERR2185322	SAMEA104362969	Male Control TSP2 Low	FACS	TSP2 Low	adult	male	NMRI	
+ERR2185349	SAMEA104362969	Male Control TSP2 Low	FACS	TSP2 Low	adult	male	NMRI	
+ERR2185304	SAMEA104362981	Male Control TSP2 Low	FACS	TSP2 Low	adult	male	NMRI	
+ERR2185331	SAMEA104362981	Male Control TSP2 Low	FACS	TSP2 Low	adult	male	NMRI	
+ERR2185358	SAMEA104362981	Male Control TSP2 Low	FACS	TSP2 Low	adult	male	NMRI	
+ERR2185289	SAMEA104362971	Male Irradiated 'Rest'	FACS	'Rest'	adult	male	NMRI	irradiation
+ERR2185316	SAMEA104362971	Male Irradiated 'Rest'	FACS	'Rest'	adult	male	NMRI	irradiation
+ERR2185343	SAMEA104362971	Male Irradiated 'Rest'	FACS	'Rest'	adult	male	NMRI	irradiation
+ERR2185307	SAMEA104362974	Male Irradiated 'Rest'	FACS	'Rest'	adult	male	NMRI	irradiation
+ERR2185334	SAMEA104362974	Male Irradiated 'Rest'	FACS	'Rest'	adult	male	NMRI	irradiation
+ERR2185361	SAMEA104362974	Male Irradiated 'Rest'	FACS	'Rest'	adult	male	NMRI	irradiation
+ERR2185298	SAMEA104362984	Male Irradiated 'Rest'	FACS	'Rest'	adult	male	NMRI	irradiation
+ERR2185325	SAMEA104362984	Male Irradiated 'Rest'	FACS	'Rest'	adult	male	NMRI	irradiation
+ERR2185352	SAMEA104362984	Male Irradiated 'Rest'	FACS	'Rest'	adult	male	NMRI	irradiation

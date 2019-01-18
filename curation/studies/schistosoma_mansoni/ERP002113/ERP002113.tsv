@@ -1,289 +1,289 @@
-Run	Condition	developmental_stage	organism_part	sex	strain	timepoint	treatment
-ERR572964	adult females LE	adult	whole organism	female	LE		
-ERR572988	adult females LE	adult	whole organism	female	LE		
-ERR573061	adult females LE	adult	whole organism	female	LE		
-ERR573085	adult females LE	adult	whole organism	female	LE		
-ERR578163	adult females LE	adult	whole organism	female	LE		
-ERR578187	adult females LE	adult	whole organism	female	LE		
-ERR572962	adult females LE, 1 hour	adult	whole organism	female	LE	1 hour	Praziquantel
-ERR572986	adult females LE, 1 hour	adult	whole organism	female	LE	1 hour	Praziquantel
-ERR573065	adult females LE, 1 hour	adult	whole organism	female	LE	1 hour	Praziquantel
-ERR573089	adult females LE, 1 hour	adult	whole organism	female	LE	1 hour	Praziquantel
-ERR578161	adult females LE, 1 hour	adult	whole organism	female	LE	1 hour	Praziquantel
-ERR578185	adult females LE, 1 hour	adult	whole organism	female	LE	1 hour	Praziquantel
-ERR572963	adult females LE, 12 hours	adult	whole organism	female	LE	12 hours	Praziquantel
-ERR572987	adult females LE, 12 hours	adult	whole organism	female	LE	12 hours	Praziquantel
-ERR573063	adult females LE, 12 hours	adult	whole organism	female	LE	12 hours	Praziquantel
-ERR573087	adult females LE, 12 hours	adult	whole organism	female	LE	12 hours	Praziquantel
-ERR578162	adult females LE, 12 hours	adult	whole organism	female	LE	12 hours	Praziquantel
-ERR578186	adult females LE, 12 hours	adult	whole organism	female	LE	12 hours	Praziquantel
-ERR572971	adult females LE, 24 hours	adult	whole organism	female	LE	24 hours	Praziquantel
-ERR572995	adult females LE, 24 hours	adult	whole organism	female	LE	24 hours	Praziquantel
-ERR573062	adult females LE, 24 hours	adult	whole organism	female	LE	24 hours	Praziquantel
-ERR573086	adult females LE, 24 hours	adult	whole organism	female	LE	24 hours	Praziquantel
-ERR582493	adult females LE, 24 hours	adult	whole organism	female	LE	24 hours	Praziquantel
-ERR582517	adult females LE, 24 hours	adult	whole organism	female	LE	24 hours	Praziquantel
-ERR572970	adult females LE, 3 hours	adult	whole organism	female	LE	3 hours	Praziquantel
-ERR572994	adult females LE, 3 hours	adult	whole organism	female	LE	3 hours	Praziquantel
-ERR573064	adult females LE, 3 hours	adult	whole organism	female	LE	3 hours	Praziquantel
-ERR573088	adult females LE, 3 hours	adult	whole organism	female	LE	3 hours	Praziquantel
-ERR582492	adult females LE, 3 hours	adult	whole organism	female	LE	3 hours	Praziquantel
-ERR582516	adult females LE, 3 hours	adult	whole organism	female	LE	3 hours	Praziquantel
-ERR570493	adult females LEPZQ	adult	whole organism	female	LEPZQ		
-ERR570517	adult females LEPZQ	adult	whole organism	female	LEPZQ		
-ERR573053	adult females LEPZQ	adult	whole organism	female	LEPZQ		
-ERR573077	adult females LEPZQ	adult	whole organism	female	LEPZQ		
-ERR582509	adult females LEPZQ	adult	whole organism	female	LEPZQ		
-ERR582533	adult females LEPZQ	adult	whole organism	female	LEPZQ		
-ERR570491	adult females LEPZQ, 1 hour	adult	whole organism	female	LEPZQ	1 hour	Praziquantel
-ERR570515	adult females LEPZQ, 1 hour	adult	whole organism	female	LEPZQ	1 hour	Praziquantel
-ERR573051	adult females LEPZQ, 1 hour	adult	whole organism	female	LEPZQ	1 hour	Praziquantel
-ERR573075	adult females LEPZQ, 1 hour	adult	whole organism	female	LEPZQ	1 hour	Praziquantel
-ERR582507	adult females LEPZQ, 1 hour	adult	whole organism	female	LEPZQ	1 hour	Praziquantel
-ERR582531	adult females LEPZQ, 1 hour	adult	whole organism	female	LEPZQ	1 hour	Praziquantel
-ERR570492	adult females LEPZQ, 12 hours	adult	whole organism	female	LEPZQ	12 hours	Praziquantel
-ERR570516	adult females LEPZQ, 12 hours	adult	whole organism	female	LEPZQ	12 hours	Praziquantel
-ERR573052	adult females LEPZQ, 12 hours	adult	whole organism	female	LEPZQ	12 hours	Praziquantel
-ERR573076	adult females LEPZQ, 12 hours	adult	whole organism	female	LEPZQ	12 hours	Praziquantel
-ERR582508	adult females LEPZQ, 12 hours	adult	whole organism	female	LEPZQ	12 hours	Praziquantel
-ERR582532	adult females LEPZQ, 12 hours	adult	whole organism	female	LEPZQ	12 hours	Praziquantel
-ERR570485	adult females LEPZQ, 24 hours	adult	whole organism	female	LEPZQ	24 hours	Praziquantel
-ERR570509	adult females LEPZQ, 24 hours	adult	whole organism	female	LEPZQ	24 hours	Praziquantel
-ERR573021	adult females LEPZQ, 24 hours	adult	whole organism	female	LEPZQ	24 hours	Praziquantel
-ERR573045	adult females LEPZQ, 24 hours	adult	whole organism	female	LEPZQ	24 hours	Praziquantel
-ERR582501	adult females LEPZQ, 24 hours	adult	whole organism	female	LEPZQ	24 hours	Praziquantel
-ERR582525	adult females LEPZQ, 24 hours	adult	whole organism	female	LEPZQ	24 hours	Praziquantel
-ERR570484	adult females LEPZQ, 3 hours	adult	whole organism	female	LEPZQ	3 hours	Praziquantel
-ERR570508	adult females LEPZQ, 3 hours	adult	whole organism	female	LEPZQ	3 hours	Praziquantel
-ERR573020	adult females LEPZQ, 3 hours	adult	whole organism	female	LEPZQ	3 hours	Praziquantel
-ERR573044	adult females LEPZQ, 3 hours	adult	whole organism	female	LEPZQ	3 hours	Praziquantel
-ERR582500	adult females LEPZQ, 3 hours	adult	whole organism	female	LEPZQ	3 hours	Praziquantel
-ERR582524	adult females LEPZQ, 3 hours	adult	whole organism	female	LEPZQ	3 hours	Praziquantel
-ERR570502	adult females NMRI	adult	whole organism	female	NMRI		
-ERR570526	adult females NMRI	adult	whole organism	female	NMRI		
-ERR573005	adult females NMRI	adult	whole organism	female	NMRI		
-ERR573029	adult females NMRI	adult	whole organism	female	NMRI		
-ERR578146	adult females NMRI	adult	whole organism	female	NMRI		
-ERR578170	adult females NMRI	adult	whole organism	female	NMRI		
-ERR570501	adult females NMRI, 12 hours	adult	whole organism	female	NMRI	12 hours	Praziquantel
-ERR570525	adult females NMRI, 12 hours	adult	whole organism	female	NMRI	12 hours	Praziquantel
-ERR573004	adult females NMRI, 12 hours	adult	whole organism	female	NMRI	12 hours	Praziquantel
-ERR573028	adult females NMRI, 12 hours	adult	whole organism	female	NMRI	12 hours	Praziquantel
-ERR578148	adult females NMRI, 12 hours	adult	whole organism	female	NMRI	12 hours	Praziquantel
-ERR578172	adult females NMRI, 12 hours	adult	whole organism	female	NMRI	12 hours	Praziquantel
-ERR572956	adult females NMRI, 24 hours	adult	whole organism	female	NMRI	24 hours	Praziquantel
-ERR572980	adult females NMRI, 24 hours	adult	whole organism	female	NMRI	24 hours	Praziquantel
-ERR573013	adult females NMRI, 24 hours	adult	whole organism	female	NMRI	24 hours	Praziquantel
-ERR573037	adult females NMRI, 24 hours	adult	whole organism	female	NMRI	24 hours	Praziquantel
-ERR578147	adult females NMRI, 24 hours	adult	whole organism	female	NMRI	24 hours	Praziquantel
-ERR578171	adult females NMRI, 24 hours	adult	whole organism	female	NMRI	24 hours	Praziquantel
-ERR572955	adult females NMRI, 3 hours	adult	whole organism	female	NMRI	3 hours	Praziquantel
-ERR572979	adult females NMRI, 3 hours	adult	whole organism	female	NMRI	3 hours	Praziquantel
-ERR573012	adult females NMRI, 3 hours	adult	whole organism	female	NMRI	3 hours	Praziquantel
-ERR573036	adult females NMRI, 3 hours	adult	whole organism	female	NMRI	3 hours	Praziquantel
-ERR578149	adult females NMRI, 3 hours	adult	whole organism	female	NMRI	3 hours	Praziquantel
-ERR578173	adult females NMRI, 3 hours	adult	whole organism	female	NMRI	3 hours	Praziquantel
-ERR572969	adult males LE	adult	whole organism	male	LE		
-ERR572993	adult males LE	adult	whole organism	male	LE		
-ERR573066	adult males LE	adult	whole organism	male	LE		
-ERR573090	adult males LE	adult	whole organism	male	LE		
-ERR582491	adult males LE	adult	whole organism	male	LE		
-ERR582515	adult males LE	adult	whole organism	male	LE		
-ERR572967	adult males LE, 1 hour	adult	whole organism	male	LE	1 hour	Praziquantel
-ERR572991	adult males LE, 1 hour	adult	whole organism	male	LE	1 hour	Praziquantel
-ERR573070	adult males LE, 1 hour	adult	whole organism	male	LE	1 hour	Praziquantel
-ERR573094	adult males LE, 1 hour	adult	whole organism	male	LE	1 hour	Praziquantel
-ERR582489	adult males LE, 1 hour	adult	whole organism	male	LE	1 hour	Praziquantel
-ERR582513	adult males LE, 1 hour	adult	whole organism	male	LE	1 hour	Praziquantel
-ERR572968	adult males LE, 12 hours	adult	whole organism	male	LE	12 hours	Praziquantel
-ERR572992	adult males LE, 12 hours	adult	whole organism	male	LE	12 hours	Praziquantel
-ERR573068	adult males LE, 12 hours	adult	whole organism	male	LE	12 hours	Praziquantel
-ERR573092	adult males LE, 12 hours	adult	whole organism	male	LE	12 hours	Praziquantel
-ERR582490	adult males LE, 12 hours	adult	whole organism	male	LE	12 hours	Praziquantel
-ERR582514	adult males LE, 12 hours	adult	whole organism	male	LE	12 hours	Praziquantel
-ERR572961	adult males LE, 24 hours	adult	whole organism	male	LE	24 hours	Praziquantel
-ERR572985	adult males LE, 24 hours	adult	whole organism	male	LE	24 hours	Praziquantel
-ERR573067	adult males LE, 24 hours	adult	whole organism	male	LE	24 hours	Praziquantel
-ERR573091	adult males LE, 24 hours	adult	whole organism	male	LE	24 hours	Praziquantel
-ERR578160	adult males LE, 24 hours	adult	whole organism	male	LE	24 hours	Praziquantel
-ERR578184	adult males LE, 24 hours	adult	whole organism	male	LE	24 hours	Praziquantel
-ERR572960	adult males LE, 3 hours	adult	whole organism	male	LE	3 hours	Praziquantel
-ERR572984	adult males LE, 3 hours	adult	whole organism	male	LE	3 hours	Praziquantel
-ERR573069	adult males LE, 3 hours	adult	whole organism	male	LE	3 hours	Praziquantel
-ERR573093	adult males LE, 3 hours	adult	whole organism	male	LE	3 hours	Praziquantel
-ERR578159	adult males LE, 3 hours	adult	whole organism	male	LE	3 hours	Praziquantel
-ERR578183	adult males LE, 3 hours	adult	whole organism	male	LE	3 hours	Praziquantel
-ERR570483	adult males LEPZQ	adult	whole organism	male	LEPZQ		
-ERR570507	adult males LEPZQ	adult	whole organism	male	LEPZQ		
-ERR573019	adult males LEPZQ	adult	whole organism	male	LEPZQ		
-ERR573043	adult males LEPZQ	adult	whole organism	male	LEPZQ		
-ERR582499	adult males LEPZQ	adult	whole organism	male	LEPZQ		
-ERR582523	adult males LEPZQ	adult	whole organism	male	LEPZQ		
-ERR570481	adult males LEPZQ, 1 hour	adult	whole organism	male	LEPZQ	1 hour	Praziquantel
-ERR570505	adult males LEPZQ, 1 hour	adult	whole organism	male	LEPZQ	1 hour	Praziquantel
-ERR573017	adult males LEPZQ, 1 hour	adult	whole organism	male	LEPZQ	1 hour	Praziquantel
-ERR573041	adult males LEPZQ, 1 hour	adult	whole organism	male	LEPZQ	1 hour	Praziquantel
-ERR582497	adult males LEPZQ, 1 hour	adult	whole organism	male	LEPZQ	1 hour	Praziquantel
-ERR582521	adult males LEPZQ, 1 hour	adult	whole organism	male	LEPZQ	1 hour	Praziquantel
-ERR570482	adult males LEPZQ, 12 hours	adult	whole organism	male	LEPZQ	12 hours	Praziquantel
-ERR570506	adult males LEPZQ, 12 hours	adult	whole organism	male	LEPZQ	12 hours	Praziquantel
-ERR573018	adult males LEPZQ, 12 hours	adult	whole organism	male	LEPZQ	12 hours	Praziquantel
-ERR573042	adult males LEPZQ, 12 hours	adult	whole organism	male	LEPZQ	12 hours	Praziquantel
-ERR582498	adult males LEPZQ, 12 hours	adult	whole organism	male	LEPZQ	12 hours	Praziquantel
-ERR582522	adult males LEPZQ, 12 hours	adult	whole organism	male	LEPZQ	12 hours	Praziquantel
-ERR570490	adult males LEPZQ, 24 hours	adult	whole organism	male	LEPZQ	24 hours	Praziquantel
-ERR570514	adult males LEPZQ, 24 hours	adult	whole organism	male	LEPZQ	24 hours	Praziquantel
-ERR573050	adult males LEPZQ, 24 hours	adult	whole organism	male	LEPZQ	24 hours	Praziquantel
-ERR573074	adult males LEPZQ, 24 hours	adult	whole organism	male	LEPZQ	24 hours	Praziquantel
-ERR582506	adult males LEPZQ, 24 hours	adult	whole organism	male	LEPZQ	24 hours	Praziquantel
-ERR582530	adult males LEPZQ, 24 hours	adult	whole organism	male	LEPZQ	24 hours	Praziquantel
-ERR570489	adult males LEPZQ, 3 hours	adult	whole organism	male	LEPZQ	3 hours	Praziquantel
-ERR570513	adult males LEPZQ, 3 hours	adult	whole organism	male	LEPZQ	3 hours	Praziquantel
-ERR573049	adult males LEPZQ, 3 hours	adult	whole organism	male	LEPZQ	3 hours	Praziquantel
-ERR573073	adult males LEPZQ, 3 hours	adult	whole organism	male	LEPZQ	3 hours	Praziquantel
-ERR582505	adult males LEPZQ, 3 hours	adult	whole organism	male	LEPZQ	3 hours	Praziquantel
-ERR582529	adult males LEPZQ, 3 hours	adult	whole organism	male	LEPZQ	3 hours	Praziquantel
-ERR570500	adult males NMRI	adult	whole organism	male	NMRI		
-ERR570524	adult males NMRI	adult	whole organism	male	NMRI		
-ERR573003	adult males NMRI	adult	whole organism	male	NMRI		
-ERR573027	adult males NMRI	adult	whole organism	male	NMRI		
-ERR578150	adult males NMRI	adult	whole organism	male	NMRI		
-ERR578174	adult males NMRI	adult	whole organism	male	NMRI		
-ERR570499	adult males NMRI, 12 hours	adult	whole organism	male	NMRI	12 hours	Praziquantel
-ERR570523	adult males NMRI, 12 hours	adult	whole organism	male	NMRI	12 hours	Praziquantel
-ERR573002	adult males NMRI, 12 hours	adult	whole organism	male	NMRI	12 hours	Praziquantel
-ERR573026	adult males NMRI, 12 hours	adult	whole organism	male	NMRI	12 hours	Praziquantel
-ERR578152	adult males NMRI, 12 hours	adult	whole organism	male	NMRI	12 hours	Praziquantel
-ERR578176	adult males NMRI, 12 hours	adult	whole organism	male	NMRI	12 hours	Praziquantel
-ERR572954	adult males NMRI, 24 hours	adult	whole organism	male	NMRI	24 hours	Praziquantel
-ERR572978	adult males NMRI, 24 hours	adult	whole organism	male	NMRI	24 hours	Praziquantel
-ERR573011	adult males NMRI, 24 hours	adult	whole organism	male	NMRI	24 hours	Praziquantel
-ERR573035	adult males NMRI, 24 hours	adult	whole organism	male	NMRI	24 hours	Praziquantel
-ERR578151	adult males NMRI, 24 hours	adult	whole organism	male	NMRI	24 hours	Praziquantel
-ERR578175	adult males NMRI, 24 hours	adult	whole organism	male	NMRI	24 hours	Praziquantel
-ERR572953	adult males NMRI, 3 hours	adult	whole organism	male	NMRI	3 hours	Praziquantel
-ERR572977	adult males NMRI, 3 hours	adult	whole organism	male	NMRI	3 hours	Praziquantel
-ERR573010	adult males NMRI, 3 hours	adult	whole organism	male	NMRI	3 hours	Praziquantel
-ERR573034	adult males NMRI, 3 hours	adult	whole organism	male	NMRI	3 hours	Praziquantel
-ERR578153	adult males NMRI, 3 hours	adult	whole organism	male	NMRI	3 hours	Praziquantel
-ERR578177	adult males NMRI, 3 hours	adult	whole organism	male	NMRI	3 hours	Praziquantel
-ERR572974	adult males and females LE	adult	whole organism	pooled male and female	LE		
-ERR572998	adult males and females LE	adult	whole organism	pooled male and female	LE		
-ERR573056	adult males and females LE	adult	whole organism	pooled male and female	LE		
-ERR573080	adult males and females LE	adult	whole organism	pooled male and female	LE		
-ERR582496	adult males and females LE	adult	whole organism	pooled male and female	LE		
-ERR582520	adult males and females LE	adult	whole organism	pooled male and female	LE		
-ERR572972	adult males and females LE, 1 hour	adult	whole organism	pooled male and female	LE	1 hour	Praziquantel
-ERR572996	adult males and females LE, 1 hour	adult	whole organism	pooled male and female	LE	1 hour	Praziquantel
-ERR573060	adult males and females LE, 1 hour	adult	whole organism	pooled male and female	LE	1 hour	Praziquantel
-ERR573084	adult males and females LE, 1 hour	adult	whole organism	pooled male and female	LE	1 hour	Praziquantel
-ERR582494	adult males and females LE, 1 hour	adult	whole organism	pooled male and female	LE	1 hour	Praziquantel
-ERR582518	adult males and females LE, 1 hour	adult	whole organism	pooled male and female	LE	1 hour	Praziquantel
-ERR572973	adult males and females LE, 12 hours	adult	whole organism	pooled male and female	LE	12 hours	Praziquantel
-ERR572997	adult males and females LE, 12 hours	adult	whole organism	pooled male and female	LE	12 hours	Praziquantel
-ERR573058	adult males and females LE, 12 hours	adult	whole organism	pooled male and female	LE	12 hours	Praziquantel
-ERR573082	adult males and females LE, 12 hours	adult	whole organism	pooled male and female	LE	12 hours	Praziquantel
-ERR582495	adult males and females LE, 12 hours	adult	whole organism	pooled male and female	LE	12 hours	Praziquantel
-ERR582519	adult males and females LE, 12 hours	adult	whole organism	pooled male and female	LE	12 hours	Praziquantel
-ERR572966	adult males and females LE, 24 hours	adult	whole organism	pooled male and female	LE	24 hours	Praziquantel
-ERR572990	adult males and females LE, 24 hours	adult	whole organism	pooled male and female	LE	24 hours	Praziquantel
-ERR573057	adult males and females LE, 24 hours	adult	whole organism	pooled male and female	LE	24 hours	Praziquantel
-ERR573081	adult males and females LE, 24 hours	adult	whole organism	pooled male and female	LE	24 hours	Praziquantel
-ERR582488	adult males and females LE, 24 hours	adult	whole organism	pooled male and female	LE	24 hours	Praziquantel
-ERR582512	adult males and females LE, 24 hours	adult	whole organism	pooled male and female	LE	24 hours	Praziquantel
-ERR572965	adult males and females LE, 3 hours	adult	whole organism	pooled male and female	LE	3 hours	Praziquantel
-ERR572989	adult males and females LE, 3 hours	adult	whole organism	pooled male and female	LE	3 hours	Praziquantel
-ERR573059	adult males and females LE, 3 hours	adult	whole organism	pooled male and female	LE	3 hours	Praziquantel
-ERR573083	adult males and females LE, 3 hours	adult	whole organism	pooled male and female	LE	3 hours	Praziquantel
-ERR578164	adult males and females LE, 3 hours	adult	whole organism	pooled male and female	LE	3 hours	Praziquantel
-ERR578188	adult males and females LE, 3 hours	adult	whole organism	pooled male and female	LE	3 hours	Praziquantel
-ERR570488	adult males and females LEPZQ	adult	whole organism	pooled male and female	LEPZQ		
-ERR570512	adult males and females LEPZQ	adult	whole organism	pooled male and female	LEPZQ		
-ERR573048	adult males and females LEPZQ	adult	whole organism	pooled male and female	LEPZQ		
-ERR573072	adult males and females LEPZQ	adult	whole organism	pooled male and female	LEPZQ		
-ERR582504	adult males and females LEPZQ	adult	whole organism	pooled male and female	LEPZQ		
-ERR582528	adult males and females LEPZQ	adult	whole organism	pooled male and female	LEPZQ		
-ERR570486	adult males and females LEPZQ, 1 hour	adult	whole organism	pooled male and female	LEPZQ	1 hour	Praziquantel
-ERR570510	adult males and females LEPZQ, 1 hour	adult	whole organism	pooled male and female	LEPZQ	1 hour	Praziquantel
-ERR573022	adult males and females LEPZQ, 1 hour	adult	whole organism	pooled male and female	LEPZQ	1 hour	Praziquantel
-ERR573046	adult males and females LEPZQ, 1 hour	adult	whole organism	pooled male and female	LEPZQ	1 hour	Praziquantel
-ERR582502	adult males and females LEPZQ, 1 hour	adult	whole organism	pooled male and female	LEPZQ	1 hour	Praziquantel
-ERR582526	adult males and females LEPZQ, 1 hour	adult	whole organism	pooled male and female	LEPZQ	1 hour	Praziquantel
-ERR570487	adult males and females LEPZQ, 12 hours	adult	whole organism	pooled male and female	LEPZQ	12 hours	Praziquantel
-ERR570511	adult males and females LEPZQ, 12 hours	adult	whole organism	pooled male and female	LEPZQ	12 hours	Praziquantel
-ERR573047	adult males and females LEPZQ, 12 hours	adult	whole organism	pooled male and female	LEPZQ	12 hours	Praziquantel
-ERR573071	adult males and females LEPZQ, 12 hours	adult	whole organism	pooled male and female	LEPZQ	12 hours	Praziquantel
-ERR582503	adult males and females LEPZQ, 12 hours	adult	whole organism	pooled male and female	LEPZQ	12 hours	Praziquantel
-ERR582527	adult males and females LEPZQ, 12 hours	adult	whole organism	pooled male and female	LEPZQ	12 hours	Praziquantel
-ERR570495	adult males and females LEPZQ, 24 hours	adult	whole organism	pooled male and female	LEPZQ	24 hours	Praziquantel
-ERR570519	adult males and females LEPZQ, 24 hours	adult	whole organism	pooled male and female	LEPZQ	24 hours	Praziquantel
-ERR573055	adult males and females LEPZQ, 24 hours	adult	whole organism	pooled male and female	LEPZQ	24 hours	Praziquantel
-ERR573079	adult males and females LEPZQ, 24 hours	adult	whole organism	pooled male and female	LEPZQ	24 hours	Praziquantel
-ERR582511	adult males and females LEPZQ, 24 hours	adult	whole organism	pooled male and female	LEPZQ	24 hours	Praziquantel
-ERR582535	adult males and females LEPZQ, 24 hours	adult	whole organism	pooled male and female	LEPZQ	24 hours	Praziquantel
-ERR570494	adult males and females LEPZQ, 3 hours	adult	whole organism	pooled male and female	LEPZQ	3 hours	Praziquantel
-ERR570518	adult males and females LEPZQ, 3 hours	adult	whole organism	pooled male and female	LEPZQ	3 hours	Praziquantel
-ERR573054	adult males and females LEPZQ, 3 hours	adult	whole organism	pooled male and female	LEPZQ	3 hours	Praziquantel
-ERR573078	adult males and females LEPZQ, 3 hours	adult	whole organism	pooled male and female	LEPZQ	3 hours	Praziquantel
-ERR582510	adult males and females LEPZQ, 3 hours	adult	whole organism	pooled male and female	LEPZQ	3 hours	Praziquantel
-ERR582534	adult males and females LEPZQ, 3 hours	adult	whole organism	pooled male and female	LEPZQ	3 hours	Praziquantel
-ERR572959	adult males and females NMRI	adult	whole organism	pooled male and female	NMRI		
-ERR572983	adult males and females NMRI	adult	whole organism	pooled male and female	NMRI		
-ERR573016	adult males and females NMRI	adult	whole organism	pooled male and female	NMRI		
-ERR573040	adult males and females NMRI	adult	whole organism	pooled male and female	NMRI		
-ERR578141	adult males and females NMRI	adult	whole organism	pooled male and female	NMRI		
-ERR578165	adult males and females NMRI	adult	whole organism	pooled male and female	NMRI		
-ERR572958	adult males and females NMRI, 12 hours	adult	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
-ERR572982	adult males and females NMRI, 12 hours	adult	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
-ERR573015	adult males and females NMRI, 12 hours	adult	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
-ERR573039	adult males and females NMRI, 12 hours	adult	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
-ERR578143	adult males and females NMRI, 12 hours	adult	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
-ERR578167	adult males and females NMRI, 12 hours	adult	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
-ERR570504	adult males and females NMRI, 24 hours	adult	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
-ERR570528	adult males and females NMRI, 24 hours	adult	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
-ERR573007	adult males and females NMRI, 24 hours	adult	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
-ERR573031	adult males and females NMRI, 24 hours	adult	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
-ERR578142	adult males and females NMRI, 24 hours	adult	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
-ERR578166	adult males and females NMRI, 24 hours	adult	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
-ERR570503	adult males and females NMRI, 3 hours	adult	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
-ERR570527	adult males and females NMRI, 3 hours	adult	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
-ERR573006	adult males and females NMRI, 3 hours	adult	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
-ERR573030	adult males and females NMRI, 3 hours	adult	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
-ERR578144	adult males and females NMRI, 3 hours	adult	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
-ERR578168	adult males and females NMRI, 3 hours	adult	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
-ERR572957	adult males and females NMRI, 30 minutes	adult	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
-ERR572981	adult males and females NMRI, 30 minutes	adult	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
-ERR573014	adult males and females NMRI, 30 minutes	adult	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
-ERR573038	adult males and females NMRI, 30 minutes	adult	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
-ERR578145	adult males and females NMRI, 30 minutes	adult	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
-ERR578169	adult males and females NMRI, 30 minutes	adult	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
-ERR570498	juvenile males and females NMRI	juvenile	whole organism	pooled male and female	NMRI		
-ERR570522	juvenile males and females NMRI	juvenile	whole organism	pooled male and female	NMRI		
-ERR573001	juvenile males and females NMRI	juvenile	whole organism	pooled male and female	NMRI		
-ERR573025	juvenile males and females NMRI	juvenile	whole organism	pooled male and female	NMRI		
-ERR578154	juvenile males and females NMRI	juvenile	whole organism	pooled male and female	NMRI		
-ERR578178	juvenile males and females NMRI	juvenile	whole organism	pooled male and female	NMRI		
-ERR570497	juvenile males and females NMRI, 12 hours	juvenile	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
-ERR570521	juvenile males and females NMRI, 12 hours	juvenile	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
-ERR573000	juvenile males and females NMRI, 12 hours	juvenile	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
-ERR573024	juvenile males and females NMRI, 12 hours	juvenile	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
-ERR578156	juvenile males and females NMRI, 12 hours	juvenile	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
-ERR578180	juvenile males and females NMRI, 12 hours	juvenile	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
-ERR572952	juvenile males and females NMRI, 24 hours	juvenile	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
-ERR572976	juvenile males and females NMRI, 24 hours	juvenile	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
-ERR573009	juvenile males and females NMRI, 24 hours	juvenile	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
-ERR573033	juvenile males and females NMRI, 24 hours	juvenile	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
-ERR578155	juvenile males and females NMRI, 24 hours	juvenile	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
-ERR578179	juvenile males and females NMRI, 24 hours	juvenile	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
-ERR572951	juvenile males and females NMRI, 3 hours	juvenile	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
-ERR572975	juvenile males and females NMRI, 3 hours	juvenile	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
-ERR573008	juvenile males and females NMRI, 3 hours	juvenile	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
-ERR573032	juvenile males and females NMRI, 3 hours	juvenile	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
-ERR578157	juvenile males and females NMRI, 3 hours	juvenile	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
-ERR578181	juvenile males and females NMRI, 3 hours	juvenile	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
-ERR570496	juvenile males and females NMRI, 30 minutes	juvenile	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
-ERR570520	juvenile males and females NMRI, 30 minutes	juvenile	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
-ERR572999	juvenile males and females NMRI, 30 minutes	juvenile	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
-ERR573023	juvenile males and females NMRI, 30 minutes	juvenile	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
-ERR578158	juvenile males and females NMRI, 30 minutes	juvenile	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
-ERR578182	juvenile males and females NMRI, 30 minutes	juvenile	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
+Run	Sample	Condition	developmental_stage	organism_part	sex	strain	timepoint	treatment
+ERR572964	SAMEA2464882	adult females LE	adult	whole organism	female	LE		
+ERR572988	SAMEA2464882	adult females LE	adult	whole organism	female	LE		
+ERR573061	SAMEA2465083	adult females LE	adult	whole organism	female	LE		
+ERR573085	SAMEA2465083	adult females LE	adult	whole organism	female	LE		
+ERR578163	SAMEA2465140	adult females LE	adult	whole organism	female	LE		
+ERR578187	SAMEA2465140	adult females LE	adult	whole organism	female	LE		
+ERR572962	SAMEA2464880	adult females LE, 1 hour	adult	whole organism	female	LE	1 hour	Praziquantel
+ERR572986	SAMEA2464880	adult females LE, 1 hour	adult	whole organism	female	LE	1 hour	Praziquantel
+ERR573065	SAMEA2465087	adult females LE, 1 hour	adult	whole organism	female	LE	1 hour	Praziquantel
+ERR573089	SAMEA2465087	adult females LE, 1 hour	adult	whole organism	female	LE	1 hour	Praziquantel
+ERR578161	SAMEA2465138	adult females LE, 1 hour	adult	whole organism	female	LE	1 hour	Praziquantel
+ERR578185	SAMEA2465138	adult females LE, 1 hour	adult	whole organism	female	LE	1 hour	Praziquantel
+ERR572963	SAMEA2464881	adult females LE, 12 hours	adult	whole organism	female	LE	12 hours	Praziquantel
+ERR572987	SAMEA2464881	adult females LE, 12 hours	adult	whole organism	female	LE	12 hours	Praziquantel
+ERR573063	SAMEA2465085	adult females LE, 12 hours	adult	whole organism	female	LE	12 hours	Praziquantel
+ERR573087	SAMEA2465085	adult females LE, 12 hours	adult	whole organism	female	LE	12 hours	Praziquantel
+ERR578162	SAMEA2465139	adult females LE, 12 hours	adult	whole organism	female	LE	12 hours	Praziquantel
+ERR578186	SAMEA2465139	adult females LE, 12 hours	adult	whole organism	female	LE	12 hours	Praziquantel
+ERR572971	SAMEA2464889	adult females LE, 24 hours	adult	whole organism	female	LE	24 hours	Praziquantel
+ERR572995	SAMEA2464889	adult females LE, 24 hours	adult	whole organism	female	LE	24 hours	Praziquantel
+ERR573062	SAMEA2465084	adult females LE, 24 hours	adult	whole organism	female	LE	24 hours	Praziquantel
+ERR573086	SAMEA2465084	adult females LE, 24 hours	adult	whole organism	female	LE	24 hours	Praziquantel
+ERR582493	SAMEA2465224	adult females LE, 24 hours	adult	whole organism	female	LE	24 hours	Praziquantel
+ERR582517	SAMEA2465224	adult females LE, 24 hours	adult	whole organism	female	LE	24 hours	Praziquantel
+ERR572970	SAMEA2464888	adult females LE, 3 hours	adult	whole organism	female	LE	3 hours	Praziquantel
+ERR572994	SAMEA2464888	adult females LE, 3 hours	adult	whole organism	female	LE	3 hours	Praziquantel
+ERR573064	SAMEA2465086	adult females LE, 3 hours	adult	whole organism	female	LE	3 hours	Praziquantel
+ERR573088	SAMEA2465086	adult females LE, 3 hours	adult	whole organism	female	LE	3 hours	Praziquantel
+ERR582492	SAMEA2465223	adult females LE, 3 hours	adult	whole organism	female	LE	3 hours	Praziquantel
+ERR582516	SAMEA2465223	adult females LE, 3 hours	adult	whole organism	female	LE	3 hours	Praziquantel
+ERR570493	SAMEA2464736	adult females LEPZQ	adult	whole organism	female	LEPZQ		
+ERR570517	SAMEA2464736	adult females LEPZQ	adult	whole organism	female	LEPZQ		
+ERR573053	SAMEA2465075	adult females LEPZQ	adult	whole organism	female	LEPZQ		
+ERR573077	SAMEA2465075	adult females LEPZQ	adult	whole organism	female	LEPZQ		
+ERR582509	SAMEA2465240	adult females LEPZQ	adult	whole organism	female	LEPZQ		
+ERR582533	SAMEA2465240	adult females LEPZQ	adult	whole organism	female	LEPZQ		
+ERR570491	SAMEA2464734	adult females LEPZQ, 1 hour	adult	whole organism	female	LEPZQ	1 hour	Praziquantel
+ERR570515	SAMEA2464734	adult females LEPZQ, 1 hour	adult	whole organism	female	LEPZQ	1 hour	Praziquantel
+ERR573051	SAMEA2465073	adult females LEPZQ, 1 hour	adult	whole organism	female	LEPZQ	1 hour	Praziquantel
+ERR573075	SAMEA2465073	adult females LEPZQ, 1 hour	adult	whole organism	female	LEPZQ	1 hour	Praziquantel
+ERR582507	SAMEA2465238	adult females LEPZQ, 1 hour	adult	whole organism	female	LEPZQ	1 hour	Praziquantel
+ERR582531	SAMEA2465238	adult females LEPZQ, 1 hour	adult	whole organism	female	LEPZQ	1 hour	Praziquantel
+ERR570492	SAMEA2464735	adult females LEPZQ, 12 hours	adult	whole organism	female	LEPZQ	12 hours	Praziquantel
+ERR570516	SAMEA2464735	adult females LEPZQ, 12 hours	adult	whole organism	female	LEPZQ	12 hours	Praziquantel
+ERR573052	SAMEA2465074	adult females LEPZQ, 12 hours	adult	whole organism	female	LEPZQ	12 hours	Praziquantel
+ERR573076	SAMEA2465074	adult females LEPZQ, 12 hours	adult	whole organism	female	LEPZQ	12 hours	Praziquantel
+ERR582508	SAMEA2465239	adult females LEPZQ, 12 hours	adult	whole organism	female	LEPZQ	12 hours	Praziquantel
+ERR582532	SAMEA2465239	adult females LEPZQ, 12 hours	adult	whole organism	female	LEPZQ	12 hours	Praziquantel
+ERR570485	SAMEA2464728	adult females LEPZQ, 24 hours	adult	whole organism	female	LEPZQ	24 hours	Praziquantel
+ERR570509	SAMEA2464728	adult females LEPZQ, 24 hours	adult	whole organism	female	LEPZQ	24 hours	Praziquantel
+ERR573021	SAMEA2465043	adult females LEPZQ, 24 hours	adult	whole organism	female	LEPZQ	24 hours	Praziquantel
+ERR573045	SAMEA2465043	adult females LEPZQ, 24 hours	adult	whole organism	female	LEPZQ	24 hours	Praziquantel
+ERR582501	SAMEA2465232	adult females LEPZQ, 24 hours	adult	whole organism	female	LEPZQ	24 hours	Praziquantel
+ERR582525	SAMEA2465232	adult females LEPZQ, 24 hours	adult	whole organism	female	LEPZQ	24 hours	Praziquantel
+ERR570484	SAMEA2464727	adult females LEPZQ, 3 hours	adult	whole organism	female	LEPZQ	3 hours	Praziquantel
+ERR570508	SAMEA2464727	adult females LEPZQ, 3 hours	adult	whole organism	female	LEPZQ	3 hours	Praziquantel
+ERR573020	SAMEA2465042	adult females LEPZQ, 3 hours	adult	whole organism	female	LEPZQ	3 hours	Praziquantel
+ERR573044	SAMEA2465042	adult females LEPZQ, 3 hours	adult	whole organism	female	LEPZQ	3 hours	Praziquantel
+ERR582500	SAMEA2465231	adult females LEPZQ, 3 hours	adult	whole organism	female	LEPZQ	3 hours	Praziquantel
+ERR582524	SAMEA2465231	adult females LEPZQ, 3 hours	adult	whole organism	female	LEPZQ	3 hours	Praziquantel
+ERR570502	SAMEA2464745	adult females NMRI	adult	whole organism	female	NMRI		
+ERR570526	SAMEA2464745	adult females NMRI	adult	whole organism	female	NMRI		
+ERR573005	SAMEA2465027	adult females NMRI	adult	whole organism	female	NMRI		
+ERR573029	SAMEA2465027	adult females NMRI	adult	whole organism	female	NMRI		
+ERR578146	SAMEA2465123	adult females NMRI	adult	whole organism	female	NMRI		
+ERR578170	SAMEA2465123	adult females NMRI	adult	whole organism	female	NMRI		
+ERR570501	SAMEA2464744	adult females NMRI, 12 hours	adult	whole organism	female	NMRI	12 hours	Praziquantel
+ERR570525	SAMEA2464744	adult females NMRI, 12 hours	adult	whole organism	female	NMRI	12 hours	Praziquantel
+ERR573004	SAMEA2465026	adult females NMRI, 12 hours	adult	whole organism	female	NMRI	12 hours	Praziquantel
+ERR573028	SAMEA2465026	adult females NMRI, 12 hours	adult	whole organism	female	NMRI	12 hours	Praziquantel
+ERR578148	SAMEA2465125	adult females NMRI, 12 hours	adult	whole organism	female	NMRI	12 hours	Praziquantel
+ERR578172	SAMEA2465125	adult females NMRI, 12 hours	adult	whole organism	female	NMRI	12 hours	Praziquantel
+ERR572956	SAMEA2464874	adult females NMRI, 24 hours	adult	whole organism	female	NMRI	24 hours	Praziquantel
+ERR572980	SAMEA2464874	adult females NMRI, 24 hours	adult	whole organism	female	NMRI	24 hours	Praziquantel
+ERR573013	SAMEA2465035	adult females NMRI, 24 hours	adult	whole organism	female	NMRI	24 hours	Praziquantel
+ERR573037	SAMEA2465035	adult females NMRI, 24 hours	adult	whole organism	female	NMRI	24 hours	Praziquantel
+ERR578147	SAMEA2465124	adult females NMRI, 24 hours	adult	whole organism	female	NMRI	24 hours	Praziquantel
+ERR578171	SAMEA2465124	adult females NMRI, 24 hours	adult	whole organism	female	NMRI	24 hours	Praziquantel
+ERR572955	SAMEA2464873	adult females NMRI, 3 hours	adult	whole organism	female	NMRI	3 hours	Praziquantel
+ERR572979	SAMEA2464873	adult females NMRI, 3 hours	adult	whole organism	female	NMRI	3 hours	Praziquantel
+ERR573012	SAMEA2465034	adult females NMRI, 3 hours	adult	whole organism	female	NMRI	3 hours	Praziquantel
+ERR573036	SAMEA2465034	adult females NMRI, 3 hours	adult	whole organism	female	NMRI	3 hours	Praziquantel
+ERR578149	SAMEA2465126	adult females NMRI, 3 hours	adult	whole organism	female	NMRI	3 hours	Praziquantel
+ERR578173	SAMEA2465126	adult females NMRI, 3 hours	adult	whole organism	female	NMRI	3 hours	Praziquantel
+ERR572969	SAMEA2464887	adult males LE	adult	whole organism	male	LE		
+ERR572993	SAMEA2464887	adult males LE	adult	whole organism	male	LE		
+ERR573066	SAMEA2465088	adult males LE	adult	whole organism	male	LE		
+ERR573090	SAMEA2465088	adult males LE	adult	whole organism	male	LE		
+ERR582491	SAMEA2465222	adult males LE	adult	whole organism	male	LE		
+ERR582515	SAMEA2465222	adult males LE	adult	whole organism	male	LE		
+ERR572967	SAMEA2464885	adult males LE, 1 hour	adult	whole organism	male	LE	1 hour	Praziquantel
+ERR572991	SAMEA2464885	adult males LE, 1 hour	adult	whole organism	male	LE	1 hour	Praziquantel
+ERR573070	SAMEA2465092	adult males LE, 1 hour	adult	whole organism	male	LE	1 hour	Praziquantel
+ERR573094	SAMEA2465092	adult males LE, 1 hour	adult	whole organism	male	LE	1 hour	Praziquantel
+ERR582489	SAMEA2465220	adult males LE, 1 hour	adult	whole organism	male	LE	1 hour	Praziquantel
+ERR582513	SAMEA2465220	adult males LE, 1 hour	adult	whole organism	male	LE	1 hour	Praziquantel
+ERR572968	SAMEA2464886	adult males LE, 12 hours	adult	whole organism	male	LE	12 hours	Praziquantel
+ERR572992	SAMEA2464886	adult males LE, 12 hours	adult	whole organism	male	LE	12 hours	Praziquantel
+ERR573068	SAMEA2465090	adult males LE, 12 hours	adult	whole organism	male	LE	12 hours	Praziquantel
+ERR573092	SAMEA2465090	adult males LE, 12 hours	adult	whole organism	male	LE	12 hours	Praziquantel
+ERR582490	SAMEA2465221	adult males LE, 12 hours	adult	whole organism	male	LE	12 hours	Praziquantel
+ERR582514	SAMEA2465221	adult males LE, 12 hours	adult	whole organism	male	LE	12 hours	Praziquantel
+ERR572961	SAMEA2464879	adult males LE, 24 hours	adult	whole organism	male	LE	24 hours	Praziquantel
+ERR572985	SAMEA2464879	adult males LE, 24 hours	adult	whole organism	male	LE	24 hours	Praziquantel
+ERR573067	SAMEA2465089	adult males LE, 24 hours	adult	whole organism	male	LE	24 hours	Praziquantel
+ERR573091	SAMEA2465089	adult males LE, 24 hours	adult	whole organism	male	LE	24 hours	Praziquantel
+ERR578160	SAMEA2465137	adult males LE, 24 hours	adult	whole organism	male	LE	24 hours	Praziquantel
+ERR578184	SAMEA2465137	adult males LE, 24 hours	adult	whole organism	male	LE	24 hours	Praziquantel
+ERR572960	SAMEA2464878	adult males LE, 3 hours	adult	whole organism	male	LE	3 hours	Praziquantel
+ERR572984	SAMEA2464878	adult males LE, 3 hours	adult	whole organism	male	LE	3 hours	Praziquantel
+ERR573069	SAMEA2465091	adult males LE, 3 hours	adult	whole organism	male	LE	3 hours	Praziquantel
+ERR573093	SAMEA2465091	adult males LE, 3 hours	adult	whole organism	male	LE	3 hours	Praziquantel
+ERR578159	SAMEA2465136	adult males LE, 3 hours	adult	whole organism	male	LE	3 hours	Praziquantel
+ERR578183	SAMEA2465136	adult males LE, 3 hours	adult	whole organism	male	LE	3 hours	Praziquantel
+ERR570483	SAMEA2464726	adult males LEPZQ	adult	whole organism	male	LEPZQ		
+ERR570507	SAMEA2464726	adult males LEPZQ	adult	whole organism	male	LEPZQ		
+ERR573019	SAMEA2465041	adult males LEPZQ	adult	whole organism	male	LEPZQ		
+ERR573043	SAMEA2465041	adult males LEPZQ	adult	whole organism	male	LEPZQ		
+ERR582499	SAMEA2465230	adult males LEPZQ	adult	whole organism	male	LEPZQ		
+ERR582523	SAMEA2465230	adult males LEPZQ	adult	whole organism	male	LEPZQ		
+ERR570481	SAMEA2464724	adult males LEPZQ, 1 hour	adult	whole organism	male	LEPZQ	1 hour	Praziquantel
+ERR570505	SAMEA2464724	adult males LEPZQ, 1 hour	adult	whole organism	male	LEPZQ	1 hour	Praziquantel
+ERR573017	SAMEA2465039	adult males LEPZQ, 1 hour	adult	whole organism	male	LEPZQ	1 hour	Praziquantel
+ERR573041	SAMEA2465039	adult males LEPZQ, 1 hour	adult	whole organism	male	LEPZQ	1 hour	Praziquantel
+ERR582497	SAMEA2465228	adult males LEPZQ, 1 hour	adult	whole organism	male	LEPZQ	1 hour	Praziquantel
+ERR582521	SAMEA2465228	adult males LEPZQ, 1 hour	adult	whole organism	male	LEPZQ	1 hour	Praziquantel
+ERR570482	SAMEA2464725	adult males LEPZQ, 12 hours	adult	whole organism	male	LEPZQ	12 hours	Praziquantel
+ERR570506	SAMEA2464725	adult males LEPZQ, 12 hours	adult	whole organism	male	LEPZQ	12 hours	Praziquantel
+ERR573018	SAMEA2465040	adult males LEPZQ, 12 hours	adult	whole organism	male	LEPZQ	12 hours	Praziquantel
+ERR573042	SAMEA2465040	adult males LEPZQ, 12 hours	adult	whole organism	male	LEPZQ	12 hours	Praziquantel
+ERR582498	SAMEA2465229	adult males LEPZQ, 12 hours	adult	whole organism	male	LEPZQ	12 hours	Praziquantel
+ERR582522	SAMEA2465229	adult males LEPZQ, 12 hours	adult	whole organism	male	LEPZQ	12 hours	Praziquantel
+ERR570490	SAMEA2464733	adult males LEPZQ, 24 hours	adult	whole organism	male	LEPZQ	24 hours	Praziquantel
+ERR570514	SAMEA2464733	adult males LEPZQ, 24 hours	adult	whole organism	male	LEPZQ	24 hours	Praziquantel
+ERR573050	SAMEA2465072	adult males LEPZQ, 24 hours	adult	whole organism	male	LEPZQ	24 hours	Praziquantel
+ERR573074	SAMEA2465072	adult males LEPZQ, 24 hours	adult	whole organism	male	LEPZQ	24 hours	Praziquantel
+ERR582506	SAMEA2465237	adult males LEPZQ, 24 hours	adult	whole organism	male	LEPZQ	24 hours	Praziquantel
+ERR582530	SAMEA2465237	adult males LEPZQ, 24 hours	adult	whole organism	male	LEPZQ	24 hours	Praziquantel
+ERR570489	SAMEA2464732	adult males LEPZQ, 3 hours	adult	whole organism	male	LEPZQ	3 hours	Praziquantel
+ERR570513	SAMEA2464732	adult males LEPZQ, 3 hours	adult	whole organism	male	LEPZQ	3 hours	Praziquantel
+ERR573049	SAMEA2465071	adult males LEPZQ, 3 hours	adult	whole organism	male	LEPZQ	3 hours	Praziquantel
+ERR573073	SAMEA2465071	adult males LEPZQ, 3 hours	adult	whole organism	male	LEPZQ	3 hours	Praziquantel
+ERR582505	SAMEA2465236	adult males LEPZQ, 3 hours	adult	whole organism	male	LEPZQ	3 hours	Praziquantel
+ERR582529	SAMEA2465236	adult males LEPZQ, 3 hours	adult	whole organism	male	LEPZQ	3 hours	Praziquantel
+ERR570500	SAMEA2464743	adult males NMRI	adult	whole organism	male	NMRI		
+ERR570524	SAMEA2464743	adult males NMRI	adult	whole organism	male	NMRI		
+ERR573003	SAMEA2465025	adult males NMRI	adult	whole organism	male	NMRI		
+ERR573027	SAMEA2465025	adult males NMRI	adult	whole organism	male	NMRI		
+ERR578150	SAMEA2465127	adult males NMRI	adult	whole organism	male	NMRI		
+ERR578174	SAMEA2465127	adult males NMRI	adult	whole organism	male	NMRI		
+ERR570499	SAMEA2464742	adult males NMRI, 12 hours	adult	whole organism	male	NMRI	12 hours	Praziquantel
+ERR570523	SAMEA2464742	adult males NMRI, 12 hours	adult	whole organism	male	NMRI	12 hours	Praziquantel
+ERR573002	SAMEA2465024	adult males NMRI, 12 hours	adult	whole organism	male	NMRI	12 hours	Praziquantel
+ERR573026	SAMEA2465024	adult males NMRI, 12 hours	adult	whole organism	male	NMRI	12 hours	Praziquantel
+ERR578152	SAMEA2465129	adult males NMRI, 12 hours	adult	whole organism	male	NMRI	12 hours	Praziquantel
+ERR578176	SAMEA2465129	adult males NMRI, 12 hours	adult	whole organism	male	NMRI	12 hours	Praziquantel
+ERR572954	SAMEA2464872	adult males NMRI, 24 hours	adult	whole organism	male	NMRI	24 hours	Praziquantel
+ERR572978	SAMEA2464872	adult males NMRI, 24 hours	adult	whole organism	male	NMRI	24 hours	Praziquantel
+ERR573011	SAMEA2465033	adult males NMRI, 24 hours	adult	whole organism	male	NMRI	24 hours	Praziquantel
+ERR573035	SAMEA2465033	adult males NMRI, 24 hours	adult	whole organism	male	NMRI	24 hours	Praziquantel
+ERR578151	SAMEA2465128	adult males NMRI, 24 hours	adult	whole organism	male	NMRI	24 hours	Praziquantel
+ERR578175	SAMEA2465128	adult males NMRI, 24 hours	adult	whole organism	male	NMRI	24 hours	Praziquantel
+ERR572953	SAMEA2464871	adult males NMRI, 3 hours	adult	whole organism	male	NMRI	3 hours	Praziquantel
+ERR572977	SAMEA2464871	adult males NMRI, 3 hours	adult	whole organism	male	NMRI	3 hours	Praziquantel
+ERR573010	SAMEA2465032	adult males NMRI, 3 hours	adult	whole organism	male	NMRI	3 hours	Praziquantel
+ERR573034	SAMEA2465032	adult males NMRI, 3 hours	adult	whole organism	male	NMRI	3 hours	Praziquantel
+ERR578153	SAMEA2465130	adult males NMRI, 3 hours	adult	whole organism	male	NMRI	3 hours	Praziquantel
+ERR578177	SAMEA2465130	adult males NMRI, 3 hours	adult	whole organism	male	NMRI	3 hours	Praziquantel
+ERR572974	SAMEA2464892	adult males and females LE	adult	whole organism	pooled male and female	LE		
+ERR572998	SAMEA2464892	adult males and females LE	adult	whole organism	pooled male and female	LE		
+ERR573056	SAMEA2465078	adult males and females LE	adult	whole organism	pooled male and female	LE		
+ERR573080	SAMEA2465078	adult males and females LE	adult	whole organism	pooled male and female	LE		
+ERR582496	SAMEA2465227	adult males and females LE	adult	whole organism	pooled male and female	LE		
+ERR582520	SAMEA2465227	adult males and females LE	adult	whole organism	pooled male and female	LE		
+ERR572972	SAMEA2464890	adult males and females LE, 1 hour	adult	whole organism	pooled male and female	LE	1 hour	Praziquantel
+ERR572996	SAMEA2464890	adult males and females LE, 1 hour	adult	whole organism	pooled male and female	LE	1 hour	Praziquantel
+ERR573060	SAMEA2465082	adult males and females LE, 1 hour	adult	whole organism	pooled male and female	LE	1 hour	Praziquantel
+ERR573084	SAMEA2465082	adult males and females LE, 1 hour	adult	whole organism	pooled male and female	LE	1 hour	Praziquantel
+ERR582494	SAMEA2465225	adult males and females LE, 1 hour	adult	whole organism	pooled male and female	LE	1 hour	Praziquantel
+ERR582518	SAMEA2465225	adult males and females LE, 1 hour	adult	whole organism	pooled male and female	LE	1 hour	Praziquantel
+ERR572973	SAMEA2464891	adult males and females LE, 12 hours	adult	whole organism	pooled male and female	LE	12 hours	Praziquantel
+ERR572997	SAMEA2464891	adult males and females LE, 12 hours	adult	whole organism	pooled male and female	LE	12 hours	Praziquantel
+ERR573058	SAMEA2465080	adult males and females LE, 12 hours	adult	whole organism	pooled male and female	LE	12 hours	Praziquantel
+ERR573082	SAMEA2465080	adult males and females LE, 12 hours	adult	whole organism	pooled male and female	LE	12 hours	Praziquantel
+ERR582495	SAMEA2465226	adult males and females LE, 12 hours	adult	whole organism	pooled male and female	LE	12 hours	Praziquantel
+ERR582519	SAMEA2465226	adult males and females LE, 12 hours	adult	whole organism	pooled male and female	LE	12 hours	Praziquantel
+ERR572966	SAMEA2464884	adult males and females LE, 24 hours	adult	whole organism	pooled male and female	LE	24 hours	Praziquantel
+ERR572990	SAMEA2464884	adult males and females LE, 24 hours	adult	whole organism	pooled male and female	LE	24 hours	Praziquantel
+ERR573057	SAMEA2465079	adult males and females LE, 24 hours	adult	whole organism	pooled male and female	LE	24 hours	Praziquantel
+ERR573081	SAMEA2465079	adult males and females LE, 24 hours	adult	whole organism	pooled male and female	LE	24 hours	Praziquantel
+ERR582488	SAMEA2465219	adult males and females LE, 24 hours	adult	whole organism	pooled male and female	LE	24 hours	Praziquantel
+ERR582512	SAMEA2465219	adult males and females LE, 24 hours	adult	whole organism	pooled male and female	LE	24 hours	Praziquantel
+ERR572965	SAMEA2464883	adult males and females LE, 3 hours	adult	whole organism	pooled male and female	LE	3 hours	Praziquantel
+ERR572989	SAMEA2464883	adult males and females LE, 3 hours	adult	whole organism	pooled male and female	LE	3 hours	Praziquantel
+ERR573059	SAMEA2465081	adult males and females LE, 3 hours	adult	whole organism	pooled male and female	LE	3 hours	Praziquantel
+ERR573083	SAMEA2465081	adult males and females LE, 3 hours	adult	whole organism	pooled male and female	LE	3 hours	Praziquantel
+ERR578164	SAMEA2465141	adult males and females LE, 3 hours	adult	whole organism	pooled male and female	LE	3 hours	Praziquantel
+ERR578188	SAMEA2465141	adult males and females LE, 3 hours	adult	whole organism	pooled male and female	LE	3 hours	Praziquantel
+ERR570488	SAMEA2464731	adult males and females LEPZQ	adult	whole organism	pooled male and female	LEPZQ		
+ERR570512	SAMEA2464731	adult males and females LEPZQ	adult	whole organism	pooled male and female	LEPZQ		
+ERR573048	SAMEA2465070	adult males and females LEPZQ	adult	whole organism	pooled male and female	LEPZQ		
+ERR573072	SAMEA2465070	adult males and females LEPZQ	adult	whole organism	pooled male and female	LEPZQ		
+ERR582504	SAMEA2465235	adult males and females LEPZQ	adult	whole organism	pooled male and female	LEPZQ		
+ERR582528	SAMEA2465235	adult males and females LEPZQ	adult	whole organism	pooled male and female	LEPZQ		
+ERR570486	SAMEA2464729	adult males and females LEPZQ, 1 hour	adult	whole organism	pooled male and female	LEPZQ	1 hour	Praziquantel
+ERR570510	SAMEA2464729	adult males and females LEPZQ, 1 hour	adult	whole organism	pooled male and female	LEPZQ	1 hour	Praziquantel
+ERR573022	SAMEA2465044	adult males and females LEPZQ, 1 hour	adult	whole organism	pooled male and female	LEPZQ	1 hour	Praziquantel
+ERR573046	SAMEA2465044	adult males and females LEPZQ, 1 hour	adult	whole organism	pooled male and female	LEPZQ	1 hour	Praziquantel
+ERR582502	SAMEA2465233	adult males and females LEPZQ, 1 hour	adult	whole organism	pooled male and female	LEPZQ	1 hour	Praziquantel
+ERR582526	SAMEA2465233	adult males and females LEPZQ, 1 hour	adult	whole organism	pooled male and female	LEPZQ	1 hour	Praziquantel
+ERR570487	SAMEA2464730	adult males and females LEPZQ, 12 hours	adult	whole organism	pooled male and female	LEPZQ	12 hours	Praziquantel
+ERR570511	SAMEA2464730	adult males and females LEPZQ, 12 hours	adult	whole organism	pooled male and female	LEPZQ	12 hours	Praziquantel
+ERR573047	SAMEA2465069	adult males and females LEPZQ, 12 hours	adult	whole organism	pooled male and female	LEPZQ	12 hours	Praziquantel
+ERR573071	SAMEA2465069	adult males and females LEPZQ, 12 hours	adult	whole organism	pooled male and female	LEPZQ	12 hours	Praziquantel
+ERR582503	SAMEA2465234	adult males and females LEPZQ, 12 hours	adult	whole organism	pooled male and female	LEPZQ	12 hours	Praziquantel
+ERR582527	SAMEA2465234	adult males and females LEPZQ, 12 hours	adult	whole organism	pooled male and female	LEPZQ	12 hours	Praziquantel
+ERR570495	SAMEA2464738	adult males and females LEPZQ, 24 hours	adult	whole organism	pooled male and female	LEPZQ	24 hours	Praziquantel
+ERR570519	SAMEA2464738	adult males and females LEPZQ, 24 hours	adult	whole organism	pooled male and female	LEPZQ	24 hours	Praziquantel
+ERR573055	SAMEA2465077	adult males and females LEPZQ, 24 hours	adult	whole organism	pooled male and female	LEPZQ	24 hours	Praziquantel
+ERR573079	SAMEA2465077	adult males and females LEPZQ, 24 hours	adult	whole organism	pooled male and female	LEPZQ	24 hours	Praziquantel
+ERR582511	SAMEA2465242	adult males and females LEPZQ, 24 hours	adult	whole organism	pooled male and female	LEPZQ	24 hours	Praziquantel
+ERR582535	SAMEA2465242	adult males and females LEPZQ, 24 hours	adult	whole organism	pooled male and female	LEPZQ	24 hours	Praziquantel
+ERR570494	SAMEA2464737	adult males and females LEPZQ, 3 hours	adult	whole organism	pooled male and female	LEPZQ	3 hours	Praziquantel
+ERR570518	SAMEA2464737	adult males and females LEPZQ, 3 hours	adult	whole organism	pooled male and female	LEPZQ	3 hours	Praziquantel
+ERR573054	SAMEA2465076	adult males and females LEPZQ, 3 hours	adult	whole organism	pooled male and female	LEPZQ	3 hours	Praziquantel
+ERR573078	SAMEA2465076	adult males and females LEPZQ, 3 hours	adult	whole organism	pooled male and female	LEPZQ	3 hours	Praziquantel
+ERR582510	SAMEA2465241	adult males and females LEPZQ, 3 hours	adult	whole organism	pooled male and female	LEPZQ	3 hours	Praziquantel
+ERR582534	SAMEA2465241	adult males and females LEPZQ, 3 hours	adult	whole organism	pooled male and female	LEPZQ	3 hours	Praziquantel
+ERR572959	SAMEA2464877	adult males and females NMRI	adult	whole organism	pooled male and female	NMRI		
+ERR572983	SAMEA2464877	adult males and females NMRI	adult	whole organism	pooled male and female	NMRI		
+ERR573016	SAMEA2465038	adult males and females NMRI	adult	whole organism	pooled male and female	NMRI		
+ERR573040	SAMEA2465038	adult males and females NMRI	adult	whole organism	pooled male and female	NMRI		
+ERR578141	SAMEA2465118	adult males and females NMRI	adult	whole organism	pooled male and female	NMRI		
+ERR578165	SAMEA2465118	adult males and females NMRI	adult	whole organism	pooled male and female	NMRI		
+ERR572958	SAMEA2464876	adult males and females NMRI, 12 hours	adult	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
+ERR572982	SAMEA2464876	adult males and females NMRI, 12 hours	adult	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
+ERR573015	SAMEA2465037	adult males and females NMRI, 12 hours	adult	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
+ERR573039	SAMEA2465037	adult males and females NMRI, 12 hours	adult	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
+ERR578143	SAMEA2465120	adult males and females NMRI, 12 hours	adult	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
+ERR578167	SAMEA2465120	adult males and females NMRI, 12 hours	adult	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
+ERR570504	SAMEA2464747	adult males and females NMRI, 24 hours	adult	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
+ERR570528	SAMEA2464747	adult males and females NMRI, 24 hours	adult	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
+ERR573007	SAMEA2465029	adult males and females NMRI, 24 hours	adult	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
+ERR573031	SAMEA2465029	adult males and females NMRI, 24 hours	adult	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
+ERR578142	SAMEA2465119	adult males and females NMRI, 24 hours	adult	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
+ERR578166	SAMEA2465119	adult males and females NMRI, 24 hours	adult	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
+ERR570503	SAMEA2464746	adult males and females NMRI, 3 hours	adult	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
+ERR570527	SAMEA2464746	adult males and females NMRI, 3 hours	adult	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
+ERR573006	SAMEA2465028	adult males and females NMRI, 3 hours	adult	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
+ERR573030	SAMEA2465028	adult males and females NMRI, 3 hours	adult	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
+ERR578144	SAMEA2465121	adult males and females NMRI, 3 hours	adult	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
+ERR578168	SAMEA2465121	adult males and females NMRI, 3 hours	adult	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
+ERR572957	SAMEA2464875	adult males and females NMRI, 30 minutes	adult	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
+ERR572981	SAMEA2464875	adult males and females NMRI, 30 minutes	adult	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
+ERR573014	SAMEA2465036	adult males and females NMRI, 30 minutes	adult	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
+ERR573038	SAMEA2465036	adult males and females NMRI, 30 minutes	adult	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
+ERR578145	SAMEA2465122	adult males and females NMRI, 30 minutes	adult	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
+ERR578169	SAMEA2465122	adult males and females NMRI, 30 minutes	adult	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
+ERR570498	SAMEA2464741	juvenile males and females NMRI	juvenile	whole organism	pooled male and female	NMRI		
+ERR570522	SAMEA2464741	juvenile males and females NMRI	juvenile	whole organism	pooled male and female	NMRI		
+ERR573001	SAMEA2465023	juvenile males and females NMRI	juvenile	whole organism	pooled male and female	NMRI		
+ERR573025	SAMEA2465023	juvenile males and females NMRI	juvenile	whole organism	pooled male and female	NMRI		
+ERR578154	SAMEA2465131	juvenile males and females NMRI	juvenile	whole organism	pooled male and female	NMRI		
+ERR578178	SAMEA2465131	juvenile males and females NMRI	juvenile	whole organism	pooled male and female	NMRI		
+ERR570497	SAMEA2464740	juvenile males and females NMRI, 12 hours	juvenile	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
+ERR570521	SAMEA2464740	juvenile males and females NMRI, 12 hours	juvenile	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
+ERR573000	SAMEA2465022	juvenile males and females NMRI, 12 hours	juvenile	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
+ERR573024	SAMEA2465022	juvenile males and females NMRI, 12 hours	juvenile	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
+ERR578156	SAMEA2465133	juvenile males and females NMRI, 12 hours	juvenile	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
+ERR578180	SAMEA2465133	juvenile males and females NMRI, 12 hours	juvenile	whole organism	pooled male and female	NMRI	12 hours	Praziquantel
+ERR572952	SAMEA2464870	juvenile males and females NMRI, 24 hours	juvenile	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
+ERR572976	SAMEA2464870	juvenile males and females NMRI, 24 hours	juvenile	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
+ERR573009	SAMEA2465031	juvenile males and females NMRI, 24 hours	juvenile	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
+ERR573033	SAMEA2465031	juvenile males and females NMRI, 24 hours	juvenile	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
+ERR578155	SAMEA2465132	juvenile males and females NMRI, 24 hours	juvenile	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
+ERR578179	SAMEA2465132	juvenile males and females NMRI, 24 hours	juvenile	whole organism	pooled male and female	NMRI	24 hours	Praziquantel
+ERR572951	SAMEA2464869	juvenile males and females NMRI, 3 hours	juvenile	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
+ERR572975	SAMEA2464869	juvenile males and females NMRI, 3 hours	juvenile	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
+ERR573008	SAMEA2465030	juvenile males and females NMRI, 3 hours	juvenile	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
+ERR573032	SAMEA2465030	juvenile males and females NMRI, 3 hours	juvenile	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
+ERR578157	SAMEA2465134	juvenile males and females NMRI, 3 hours	juvenile	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
+ERR578181	SAMEA2465134	juvenile males and females NMRI, 3 hours	juvenile	whole organism	pooled male and female	NMRI	3 hours	Praziquantel
+ERR570496	SAMEA2464739	juvenile males and females NMRI, 30 minutes	juvenile	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
+ERR570520	SAMEA2464739	juvenile males and females NMRI, 30 minutes	juvenile	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
+ERR572999	SAMEA2465021	juvenile males and females NMRI, 30 minutes	juvenile	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
+ERR573023	SAMEA2465021	juvenile males and females NMRI, 30 minutes	juvenile	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
+ERR578158	SAMEA2465135	juvenile males and females NMRI, 30 minutes	juvenile	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel
+ERR578182	SAMEA2465135	juvenile males and females NMRI, 30 minutes	juvenile	whole organism	pooled male and female	NMRI	30 minutes	Praziquantel

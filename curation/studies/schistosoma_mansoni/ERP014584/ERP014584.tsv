@@ -1,131 +1,131 @@
-Run	Condition	age	infection	sex
-ERR1328136	18 days post infection, single sex, female	18 days post infection	single sex	female
-ERR1328159	18 days post infection, single sex, female	18 days post infection	single sex	female
-ERR1328174	18 days post infection, single sex, female	18 days post infection	single sex	female
-ERR1328198	18 days post infection, single sex, female	18 days post infection	single sex	female
-ERR1328137	18 days post infection, single sex, male	18 days post infection	single sex	male
-ERR1328160	18 days post infection, single sex, male	18 days post infection	single sex	male
-ERR1328175	18 days post infection, single sex, male	18 days post infection	single sex	male
-ERR1328199	18 days post infection, single sex, male	18 days post infection	single sex	male
-ERR1328236	18 days post infection, single sex, male	18 days post infection	single sex	male
-ERR1328259	18 days post infection, single sex, male	18 days post infection	single sex	male
-ERR1328141	21 days post infection, mixed sex, female	21 days post infection	mixed sex	female
-ERR1328164	21 days post infection, mixed sex, female	21 days post infection	mixed sex	female
-ERR1328179	21 days post infection, mixed sex, female	21 days post infection	mixed sex	female
-ERR1328180	21 days post infection, mixed sex, female	21 days post infection	mixed sex	female
-ERR1328203	21 days post infection, mixed sex, female	21 days post infection	mixed sex	female
-ERR1328204	21 days post infection, mixed sex, female	21 days post infection	mixed sex	female
-ERR1328240	21 days post infection, mixed sex, female	21 days post infection	mixed sex	female
-ERR1328263	21 days post infection, mixed sex, female	21 days post infection	mixed sex	female
-ERR1328142	21 days post infection, mixed sex, male	21 days post infection	mixed sex	male
-ERR1328143	21 days post infection, mixed sex, male	21 days post infection	mixed sex	male
-ERR1328165	21 days post infection, mixed sex, male	21 days post infection	mixed sex	male
-ERR1328166	21 days post infection, mixed sex, male	21 days post infection	mixed sex	male
-ERR1328181	21 days post infection, mixed sex, male	21 days post infection	mixed sex	male
-ERR1328205	21 days post infection, mixed sex, male	21 days post infection	mixed sex	male
-ERR1328241	21 days post infection, mixed sex, male	21 days post infection	mixed sex	male
-ERR1328264	21 days post infection, mixed sex, male	21 days post infection	mixed sex	male
-ERR1328138	21 days post infection, single sex, female	21 days post infection	single sex	female
-ERR1328139	21 days post infection, single sex, female	21 days post infection	single sex	female
-ERR1328161	21 days post infection, single sex, female	21 days post infection	single sex	female
-ERR1328162	21 days post infection, single sex, female	21 days post infection	single sex	female
-ERR1328176	21 days post infection, single sex, female	21 days post infection	single sex	female
-ERR1328177	21 days post infection, single sex, female	21 days post infection	single sex	female
-ERR1328200	21 days post infection, single sex, female	21 days post infection	single sex	female
-ERR1328201	21 days post infection, single sex, female	21 days post infection	single sex	female
-ERR1328237	21 days post infection, single sex, female	21 days post infection	single sex	female
-ERR1328260	21 days post infection, single sex, female	21 days post infection	single sex	female
-ERR1328140	21 days post infection, single sex, male	21 days post infection	single sex	male
-ERR1328163	21 days post infection, single sex, male	21 days post infection	single sex	male
-ERR1328178	21 days post infection, single sex, male	21 days post infection	single sex	male
-ERR1328202	21 days post infection, single sex, male	21 days post infection	single sex	male
-ERR1328238	21 days post infection, single sex, male	21 days post infection	single sex	male
-ERR1328239	21 days post infection, single sex, male	21 days post infection	single sex	male
-ERR1328261	21 days post infection, single sex, male	21 days post infection	single sex	male
-ERR1328262	21 days post infection, single sex, male	21 days post infection	single sex	male
-ERR1328146	28 days post infection, mixed sex, female	28 days post infection	mixed sex	female
-ERR1328169	28 days post infection, mixed sex, female	28 days post infection	mixed sex	female
-ERR1328184	28 days post infection, mixed sex, female	28 days post infection	mixed sex	female
-ERR1328208	28 days post infection, mixed sex, female	28 days post infection	mixed sex	female
-ERR1328222	28 days post infection, mixed sex, female	28 days post infection	mixed sex	female
-ERR1328244	28 days post infection, mixed sex, female	28 days post infection	mixed sex	female
-ERR1328245	28 days post infection, mixed sex, female	28 days post infection	mixed sex	female
-ERR1328267	28 days post infection, mixed sex, female	28 days post infection	mixed sex	female
-ERR1328147	28 days post infection, mixed sex, male	28 days post infection	mixed sex	male
-ERR1328170	28 days post infection, mixed sex, male	28 days post infection	mixed sex	male
-ERR1328185	28 days post infection, mixed sex, male	28 days post infection	mixed sex	male
-ERR1328186	28 days post infection, mixed sex, male	28 days post infection	mixed sex	male
-ERR1328209	28 days post infection, mixed sex, male	28 days post infection	mixed sex	male
-ERR1328210	28 days post infection, mixed sex, male	28 days post infection	mixed sex	male
-ERR1328223	28 days post infection, mixed sex, male	28 days post infection	mixed sex	male
-ERR1328246	28 days post infection, mixed sex, male	28 days post infection	mixed sex	male
-ERR1328144	28 days post infection, single sex, female	28 days post infection	single sex	female
-ERR1328167	28 days post infection, single sex, female	28 days post infection	single sex	female
-ERR1328182	28 days post infection, single sex, female	28 days post infection	single sex	female
-ERR1328206	28 days post infection, single sex, female	28 days post infection	single sex	female
-ERR1328242	28 days post infection, single sex, female	28 days post infection	single sex	female
-ERR1328265	28 days post infection, single sex, female	28 days post infection	single sex	female
-ERR1328145	28 days post infection, single sex, male	28 days post infection	single sex	male
-ERR1328168	28 days post infection, single sex, male	28 days post infection	single sex	male
-ERR1328183	28 days post infection, single sex, male	28 days post infection	single sex	male
-ERR1328207	28 days post infection, single sex, male	28 days post infection	single sex	male
-ERR1328243	28 days post infection, single sex, male	28 days post infection	single sex	male
-ERR1328266	28 days post infection, single sex, male	28 days post infection	single sex	male
-ERR1328128	35 days post infection, mixed sex, female	35 days post infection	mixed sex	female
-ERR1328151	35 days post infection, mixed sex, female	35 days post infection	mixed sex	female
-ERR1328189	35 days post infection, mixed sex, female	35 days post infection	mixed sex	female
-ERR1328213	35 days post infection, mixed sex, female	35 days post infection	mixed sex	female
-ERR1328226	35 days post infection, mixed sex, female	35 days post infection	mixed sex	female
-ERR1328249	35 days post infection, mixed sex, female	35 days post infection	mixed sex	female
-ERR1328129	35 days post infection, mixed sex, male	35 days post infection	mixed sex	male
-ERR1328152	35 days post infection, mixed sex, male	35 days post infection	mixed sex	male
-ERR1328190	35 days post infection, mixed sex, male	35 days post infection	mixed sex	male
-ERR1328214	35 days post infection, mixed sex, male	35 days post infection	mixed sex	male
-ERR1328227	35 days post infection, mixed sex, male	35 days post infection	mixed sex	male
-ERR1328250	35 days post infection, mixed sex, male	35 days post infection	mixed sex	male
-ERR1328148	35 days post infection, single sex, female	35 days post infection	single sex	female
-ERR1328171	35 days post infection, single sex, female	35 days post infection	single sex	female
-ERR1328187	35 days post infection, single sex, female	35 days post infection	single sex	female
-ERR1328211	35 days post infection, single sex, female	35 days post infection	single sex	female
-ERR1328224	35 days post infection, single sex, female	35 days post infection	single sex	female
-ERR1328247	35 days post infection, single sex, female	35 days post infection	single sex	female
-ERR1328149	35 days post infection, single sex, male	35 days post infection	single sex	male
-ERR1328150	35 days post infection, single sex, male	35 days post infection	single sex	male
-ERR1328172	35 days post infection, single sex, male	35 days post infection	single sex	male
-ERR1328173	35 days post infection, single sex, male	35 days post infection	single sex	male
-ERR1328188	35 days post infection, single sex, male	35 days post infection	single sex	male
-ERR1328212	35 days post infection, single sex, male	35 days post infection	single sex	male
-ERR1328225	35 days post infection, single sex, male	35 days post infection	single sex	male
-ERR1328248	35 days post infection, single sex, male	35 days post infection	single sex	male
-ERR1328133	38 days post infection, mixed sex, female	38 days post infection	mixed sex	female
-ERR1328156	38 days post infection, mixed sex, female	38 days post infection	mixed sex	female
-ERR1328194	38 days post infection, mixed sex, female	38 days post infection	mixed sex	female
-ERR1328218	38 days post infection, mixed sex, female	38 days post infection	mixed sex	female
-ERR1328232	38 days post infection, mixed sex, female	38 days post infection	mixed sex	female
-ERR1328255	38 days post infection, mixed sex, female	38 days post infection	mixed sex	female
-ERR1328134	38 days post infection, mixed sex, male	38 days post infection	mixed sex	male
-ERR1328157	38 days post infection, mixed sex, male	38 days post infection	mixed sex	male
-ERR1328195	38 days post infection, mixed sex, male	38 days post infection	mixed sex	male
-ERR1328219	38 days post infection, mixed sex, male	38 days post infection	mixed sex	male
-ERR1328233	38 days post infection, mixed sex, male	38 days post infection	mixed sex	male
-ERR1328256	38 days post infection, mixed sex, male	38 days post infection	mixed sex	male
-ERR1328130	38 days post infection, single sex, female	38 days post infection	single sex	female
-ERR1328153	38 days post infection, single sex, female	38 days post infection	single sex	female
-ERR1328191	38 days post infection, single sex, female	38 days post infection	single sex	female
-ERR1328215	38 days post infection, single sex, female	38 days post infection	single sex	female
-ERR1328228	38 days post infection, single sex, female	38 days post infection	single sex	female
-ERR1328229	38 days post infection, single sex, female	38 days post infection	single sex	female
-ERR1328251	38 days post infection, single sex, female	38 days post infection	single sex	female
-ERR1328252	38 days post infection, single sex, female	38 days post infection	single sex	female
-ERR1328131	38 days post infection, single sex, male	38 days post infection	single sex	male
-ERR1328132	38 days post infection, single sex, male	38 days post infection	single sex	male
-ERR1328154	38 days post infection, single sex, male	38 days post infection	single sex	male
-ERR1328155	38 days post infection, single sex, male	38 days post infection	single sex	male
-ERR1328192	38 days post infection, single sex, male	38 days post infection	single sex	male
-ERR1328193	38 days post infection, single sex, male	38 days post infection	single sex	male
-ERR1328216	38 days post infection, single sex, male	38 days post infection	single sex	male
-ERR1328217	38 days post infection, single sex, male	38 days post infection	single sex	male
-ERR1328230	38 days post infection, single sex, male	38 days post infection	single sex	male
-ERR1328231	38 days post infection, single sex, male	38 days post infection	single sex	male
-ERR1328253	38 days post infection, single sex, male	38 days post infection	single sex	male
-ERR1328254	38 days post infection, single sex, male	38 days post infection	single sex	male
+Run	Sample	Condition	age	infection	sex
+ERR1328174	SAMEA3898065	18 days post infection, single sex, female	18 days post infection	single sex	female
+ERR1328198	SAMEA3898065	18 days post infection, single sex, female	18 days post infection	single sex	female
+ERR1328136	SAMEA3898097	18 days post infection, single sex, female	18 days post infection	single sex	female
+ERR1328159	SAMEA3898097	18 days post infection, single sex, female	18 days post infection	single sex	female
+ERR1328175	SAMEA3898066	18 days post infection, single sex, male	18 days post infection	single sex	male
+ERR1328199	SAMEA3898066	18 days post infection, single sex, male	18 days post infection	single sex	male
+ERR1328137	SAMEA3898098	18 days post infection, single sex, male	18 days post infection	single sex	male
+ERR1328160	SAMEA3898098	18 days post infection, single sex, male	18 days post infection	single sex	male
+ERR1328236	SAMEA3898126	18 days post infection, single sex, male	18 days post infection	single sex	male
+ERR1328259	SAMEA3898126	18 days post infection, single sex, male	18 days post infection	single sex	male
+ERR1328179	SAMEA3898070	21 days post infection, mixed sex, female	21 days post infection	mixed sex	female
+ERR1328203	SAMEA3898070	21 days post infection, mixed sex, female	21 days post infection	mixed sex	female
+ERR1328180	SAMEA3898071	21 days post infection, mixed sex, female	21 days post infection	mixed sex	female
+ERR1328204	SAMEA3898071	21 days post infection, mixed sex, female	21 days post infection	mixed sex	female
+ERR1328141	SAMEA3898102	21 days post infection, mixed sex, female	21 days post infection	mixed sex	female
+ERR1328164	SAMEA3898102	21 days post infection, mixed sex, female	21 days post infection	mixed sex	female
+ERR1328240	SAMEA3898130	21 days post infection, mixed sex, female	21 days post infection	mixed sex	female
+ERR1328263	SAMEA3898130	21 days post infection, mixed sex, female	21 days post infection	mixed sex	female
+ERR1328181	SAMEA3898072	21 days post infection, mixed sex, male	21 days post infection	mixed sex	male
+ERR1328205	SAMEA3898072	21 days post infection, mixed sex, male	21 days post infection	mixed sex	male
+ERR1328142	SAMEA3898103	21 days post infection, mixed sex, male	21 days post infection	mixed sex	male
+ERR1328165	SAMEA3898103	21 days post infection, mixed sex, male	21 days post infection	mixed sex	male
+ERR1328143	SAMEA3898104	21 days post infection, mixed sex, male	21 days post infection	mixed sex	male
+ERR1328166	SAMEA3898104	21 days post infection, mixed sex, male	21 days post infection	mixed sex	male
+ERR1328241	SAMEA3898131	21 days post infection, mixed sex, male	21 days post infection	mixed sex	male
+ERR1328264	SAMEA3898131	21 days post infection, mixed sex, male	21 days post infection	mixed sex	male
+ERR1328176	SAMEA3898067	21 days post infection, single sex, female	21 days post infection	single sex	female
+ERR1328200	SAMEA3898067	21 days post infection, single sex, female	21 days post infection	single sex	female
+ERR1328177	SAMEA3898068	21 days post infection, single sex, female	21 days post infection	single sex	female
+ERR1328201	SAMEA3898068	21 days post infection, single sex, female	21 days post infection	single sex	female
+ERR1328138	SAMEA3898099	21 days post infection, single sex, female	21 days post infection	single sex	female
+ERR1328161	SAMEA3898099	21 days post infection, single sex, female	21 days post infection	single sex	female
+ERR1328139	SAMEA3898100	21 days post infection, single sex, female	21 days post infection	single sex	female
+ERR1328162	SAMEA3898100	21 days post infection, single sex, female	21 days post infection	single sex	female
+ERR1328237	SAMEA3898127	21 days post infection, single sex, female	21 days post infection	single sex	female
+ERR1328260	SAMEA3898127	21 days post infection, single sex, female	21 days post infection	single sex	female
+ERR1328178	SAMEA3898069	21 days post infection, single sex, male	21 days post infection	single sex	male
+ERR1328202	SAMEA3898069	21 days post infection, single sex, male	21 days post infection	single sex	male
+ERR1328140	SAMEA3898101	21 days post infection, single sex, male	21 days post infection	single sex	male
+ERR1328163	SAMEA3898101	21 days post infection, single sex, male	21 days post infection	single sex	male
+ERR1328238	SAMEA3898128	21 days post infection, single sex, male	21 days post infection	single sex	male
+ERR1328261	SAMEA3898128	21 days post infection, single sex, male	21 days post infection	single sex	male
+ERR1328239	SAMEA3898129	21 days post infection, single sex, male	21 days post infection	single sex	male
+ERR1328262	SAMEA3898129	21 days post infection, single sex, male	21 days post infection	single sex	male
+ERR1328184	SAMEA3898075	28 days post infection, mixed sex, female	28 days post infection	mixed sex	female
+ERR1328208	SAMEA3898075	28 days post infection, mixed sex, female	28 days post infection	mixed sex	female
+ERR1328146	SAMEA3898107	28 days post infection, mixed sex, female	28 days post infection	mixed sex	female
+ERR1328169	SAMEA3898107	28 days post infection, mixed sex, female	28 days post infection	mixed sex	female
+ERR1328222	SAMEA3898112	28 days post infection, mixed sex, female	28 days post infection	mixed sex	female
+ERR1328245	SAMEA3898112	28 days post infection, mixed sex, female	28 days post infection	mixed sex	female
+ERR1328244	SAMEA3898134	28 days post infection, mixed sex, female	28 days post infection	mixed sex	female
+ERR1328267	SAMEA3898134	28 days post infection, mixed sex, female	28 days post infection	mixed sex	female
+ERR1328185	SAMEA3898076	28 days post infection, mixed sex, male	28 days post infection	mixed sex	male
+ERR1328209	SAMEA3898076	28 days post infection, mixed sex, male	28 days post infection	mixed sex	male
+ERR1328186	SAMEA3898077	28 days post infection, mixed sex, male	28 days post infection	mixed sex	male
+ERR1328210	SAMEA3898077	28 days post infection, mixed sex, male	28 days post infection	mixed sex	male
+ERR1328147	SAMEA3898108	28 days post infection, mixed sex, male	28 days post infection	mixed sex	male
+ERR1328170	SAMEA3898108	28 days post infection, mixed sex, male	28 days post infection	mixed sex	male
+ERR1328223	SAMEA3898113	28 days post infection, mixed sex, male	28 days post infection	mixed sex	male
+ERR1328246	SAMEA3898113	28 days post infection, mixed sex, male	28 days post infection	mixed sex	male
+ERR1328182	SAMEA3898073	28 days post infection, single sex, female	28 days post infection	single sex	female
+ERR1328206	SAMEA3898073	28 days post infection, single sex, female	28 days post infection	single sex	female
+ERR1328144	SAMEA3898105	28 days post infection, single sex, female	28 days post infection	single sex	female
+ERR1328167	SAMEA3898105	28 days post infection, single sex, female	28 days post infection	single sex	female
+ERR1328242	SAMEA3898132	28 days post infection, single sex, female	28 days post infection	single sex	female
+ERR1328265	SAMEA3898132	28 days post infection, single sex, female	28 days post infection	single sex	female
+ERR1328183	SAMEA3898074	28 days post infection, single sex, male	28 days post infection	single sex	male
+ERR1328207	SAMEA3898074	28 days post infection, single sex, male	28 days post infection	single sex	male
+ERR1328145	SAMEA3898106	28 days post infection, single sex, male	28 days post infection	single sex	male
+ERR1328168	SAMEA3898106	28 days post infection, single sex, male	28 days post infection	single sex	male
+ERR1328243	SAMEA3898133	28 days post infection, single sex, male	28 days post infection	single sex	male
+ERR1328266	SAMEA3898133	28 days post infection, single sex, male	28 days post infection	single sex	male
+ERR1328189	SAMEA3898080	35 days post infection, mixed sex, female	35 days post infection	mixed sex	female
+ERR1328213	SAMEA3898080	35 days post infection, mixed sex, female	35 days post infection	mixed sex	female
+ERR1328128	SAMEA3898089	35 days post infection, mixed sex, female	35 days post infection	mixed sex	female
+ERR1328151	SAMEA3898089	35 days post infection, mixed sex, female	35 days post infection	mixed sex	female
+ERR1328226	SAMEA3898116	35 days post infection, mixed sex, female	35 days post infection	mixed sex	female
+ERR1328249	SAMEA3898116	35 days post infection, mixed sex, female	35 days post infection	mixed sex	female
+ERR1328190	SAMEA3898081	35 days post infection, mixed sex, male	35 days post infection	mixed sex	male
+ERR1328214	SAMEA3898081	35 days post infection, mixed sex, male	35 days post infection	mixed sex	male
+ERR1328129	SAMEA3898090	35 days post infection, mixed sex, male	35 days post infection	mixed sex	male
+ERR1328152	SAMEA3898090	35 days post infection, mixed sex, male	35 days post infection	mixed sex	male
+ERR1328227	SAMEA3898117	35 days post infection, mixed sex, male	35 days post infection	mixed sex	male
+ERR1328250	SAMEA3898117	35 days post infection, mixed sex, male	35 days post infection	mixed sex	male
+ERR1328187	SAMEA3898078	35 days post infection, single sex, female	35 days post infection	single sex	female
+ERR1328211	SAMEA3898078	35 days post infection, single sex, female	35 days post infection	single sex	female
+ERR1328148	SAMEA3898109	35 days post infection, single sex, female	35 days post infection	single sex	female
+ERR1328171	SAMEA3898109	35 days post infection, single sex, female	35 days post infection	single sex	female
+ERR1328224	SAMEA3898114	35 days post infection, single sex, female	35 days post infection	single sex	female
+ERR1328247	SAMEA3898114	35 days post infection, single sex, female	35 days post infection	single sex	female
+ERR1328188	SAMEA3898079	35 days post infection, single sex, male	35 days post infection	single sex	male
+ERR1328212	SAMEA3898079	35 days post infection, single sex, male	35 days post infection	single sex	male
+ERR1328149	SAMEA3898110	35 days post infection, single sex, male	35 days post infection	single sex	male
+ERR1328172	SAMEA3898110	35 days post infection, single sex, male	35 days post infection	single sex	male
+ERR1328150	SAMEA3898111	35 days post infection, single sex, male	35 days post infection	single sex	male
+ERR1328173	SAMEA3898111	35 days post infection, single sex, male	35 days post infection	single sex	male
+ERR1328225	SAMEA3898115	35 days post infection, single sex, male	35 days post infection	single sex	male
+ERR1328248	SAMEA3898115	35 days post infection, single sex, male	35 days post infection	single sex	male
+ERR1328194	SAMEA3898085	38 days post infection, mixed sex, female	38 days post infection	mixed sex	female
+ERR1328218	SAMEA3898085	38 days post infection, mixed sex, female	38 days post infection	mixed sex	female
+ERR1328133	SAMEA3898094	38 days post infection, mixed sex, female	38 days post infection	mixed sex	female
+ERR1328156	SAMEA3898094	38 days post infection, mixed sex, female	38 days post infection	mixed sex	female
+ERR1328232	SAMEA3898122	38 days post infection, mixed sex, female	38 days post infection	mixed sex	female
+ERR1328255	SAMEA3898122	38 days post infection, mixed sex, female	38 days post infection	mixed sex	female
+ERR1328195	SAMEA3898086	38 days post infection, mixed sex, male	38 days post infection	mixed sex	male
+ERR1328219	SAMEA3898086	38 days post infection, mixed sex, male	38 days post infection	mixed sex	male
+ERR1328134	SAMEA3898095	38 days post infection, mixed sex, male	38 days post infection	mixed sex	male
+ERR1328157	SAMEA3898095	38 days post infection, mixed sex, male	38 days post infection	mixed sex	male
+ERR1328233	SAMEA3898123	38 days post infection, mixed sex, male	38 days post infection	mixed sex	male
+ERR1328256	SAMEA3898123	38 days post infection, mixed sex, male	38 days post infection	mixed sex	male
+ERR1328191	SAMEA3898082	38 days post infection, single sex, female	38 days post infection	single sex	female
+ERR1328215	SAMEA3898082	38 days post infection, single sex, female	38 days post infection	single sex	female
+ERR1328130	SAMEA3898091	38 days post infection, single sex, female	38 days post infection	single sex	female
+ERR1328153	SAMEA3898091	38 days post infection, single sex, female	38 days post infection	single sex	female
+ERR1328228	SAMEA3898118	38 days post infection, single sex, female	38 days post infection	single sex	female
+ERR1328251	SAMEA3898118	38 days post infection, single sex, female	38 days post infection	single sex	female
+ERR1328229	SAMEA3898119	38 days post infection, single sex, female	38 days post infection	single sex	female
+ERR1328252	SAMEA3898119	38 days post infection, single sex, female	38 days post infection	single sex	female
+ERR1328192	SAMEA3898083	38 days post infection, single sex, male	38 days post infection	single sex	male
+ERR1328216	SAMEA3898083	38 days post infection, single sex, male	38 days post infection	single sex	male
+ERR1328193	SAMEA3898084	38 days post infection, single sex, male	38 days post infection	single sex	male
+ERR1328217	SAMEA3898084	38 days post infection, single sex, male	38 days post infection	single sex	male
+ERR1328131	SAMEA3898092	38 days post infection, single sex, male	38 days post infection	single sex	male
+ERR1328154	SAMEA3898092	38 days post infection, single sex, male	38 days post infection	single sex	male
+ERR1328132	SAMEA3898093	38 days post infection, single sex, male	38 days post infection	single sex	male
+ERR1328155	SAMEA3898093	38 days post infection, single sex, male	38 days post infection	single sex	male
+ERR1328230	SAMEA3898120	38 days post infection, single sex, male	38 days post infection	single sex	male
+ERR1328253	SAMEA3898120	38 days post infection, single sex, male	38 days post infection	single sex	male
+ERR1328231	SAMEA3898121	38 days post infection, single sex, male	38 days post infection	single sex	male
+ERR1328254	SAMEA3898121	38 days post infection, single sex, male	38 days post infection	single sex	male
