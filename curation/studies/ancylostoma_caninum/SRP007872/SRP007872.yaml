@@ -1,0 +1,33 @@
+---
+condition_names: {}
+contrasts:
+  - name: developmental_stage
+    values:
+      -
+        - L1
+        - L2
+        - L1 vs L2
+      -
+        - L1
+        - L3 (Activated)
+        - L1 vs L3 (Activated)
+      -
+        - L1
+        - eggs
+        - L1 vs eggs
+      -
+        - L2
+        - L3 (Activated)
+        - L2 vs L3 (Activated)
+      -
+        - L2
+        - eggs
+        - L2 vs eggs
+      -
+        - L3 (Activated)
+        - eggs
+        - L3 (Activated) vs eggs
+description: Ancylostoma caninum Genome Sequencing
+pubmed: ~
+submitting_centre: The Genome Institute
+title: Ancylostoma caninum Genome Sequencing
