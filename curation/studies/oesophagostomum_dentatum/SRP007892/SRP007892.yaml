@@ -1,0 +1,15 @@
+---
+condition_names:
+  'mixed, drug resistant': 'mixed, strain drug resistant'
+  'mixed, drug susceptible': 'mixed, strain drug susceptible'
+contrasts:
+  - name: strain
+    values:
+      -
+        - 'mixed, drug resistant'
+        - 'mixed, drug susceptible'
+        - 'mixed: drug resistant vs drug susceptible'
+description: Oesophagostomum dentatum Genome Sequencing
+pubmed: ~
+submitting_centre: The Genome Institute
+title: Oesophagostomum dentatum Genome Sequencing

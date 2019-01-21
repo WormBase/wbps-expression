@@ -1,0 +1,8 @@
+Run	Sample	Condition	sex	strain
+SRR393669	SAMN00767631	female, levamisole resistant	female	levamisole resistant
+SRR873853	SAMN00767631	female, levamisole resistant	female	levamisole resistant
+SRR393671	SAMN00769053	female, levamisole sensitive	female	levamisole sensitive
+SRR873857	SAMN00769053	female, levamisole sensitive	female	levamisole sensitive
+SRR393668	SAMN00767630	male, levamisole resistant	male	levamisole resistant
+SRR873843	SAMN00767630	male, levamisole resistant	male	levamisole resistant
+SRR873856	SAMN00769052	male, levamisole sensitive	male	levamisole sensitive
