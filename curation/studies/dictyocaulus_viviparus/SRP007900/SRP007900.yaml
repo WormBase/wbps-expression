@@ -1,0 +1,192 @@
+---
+condition_names: {}
+contrasts:
+  - name: developmental_stage+sex
+    values:
+      -
+        - Hypobiotic larvae (Lhyp)
+        - L1 larvae
+        - Hypobiotic larvae (Lhyp) vs L1 larvae
+      -
+        - Hypobiotic larvae (Lhyp)
+        - L2 larvae
+        - Hypobiotic larvae (Lhyp) vs L2 larvae
+      -
+        - Hypobiotic larvae (Lhyp)
+        - L3 larvae
+        - Hypobiotic larvae (Lhyp) vs L3 larvae
+      -
+        - Hypobiotic larvae (Lhyp)
+        - L4 larvae
+        - Hypobiotic larvae (Lhyp) vs L4 larvae
+      -
+        - Hypobiotic larvae (Lhyp)
+        - L5 (adult female)
+        - Hypobiotic larvae (Lhyp) vs L5 (adult female)
+      -
+        - Hypobiotic larvae (Lhyp)
+        - L5 (adult male)
+        - Hypobiotic larvae (Lhyp) vs L5 (adult male)
+      -
+        - Hypobiotic larvae (Lhyp)
+        - adult female
+        - 'Hypobiotic larvae (Lhyp) vs adult, female'
+      -
+        - Hypobiotic larvae (Lhyp)
+        - adult male
+        - 'Hypobiotic larvae (Lhyp) vs adult, male'
+      -
+        - Hypobiotic larvae (Lhyp)
+        - egg
+        - Hypobiotic larvae (Lhyp) vs egg
+      -
+        - L1 larvae
+        - L2 larvae
+        - L1 larvae vs L2 larvae
+      -
+        - L1 larvae
+        - L3 larvae
+        - L1 larvae vs L3 larvae
+      -
+        - L1 larvae
+        - L4 larvae
+        - L1 larvae vs L4 larvae
+      -
+        - L1 larvae
+        - L5 (adult female)
+        - L1 larvae vs L5 (adult female)
+      -
+        - L1 larvae
+        - L5 (adult male)
+        - L1 larvae vs L5 (adult male)
+      -
+        - L1 larvae
+        - adult female
+        - 'L1 larvae vs adult, female'
+      -
+        - L1 larvae
+        - adult male
+        - 'L1 larvae vs adult, male'
+      -
+        - L1 larvae
+        - egg
+        - L1 larvae vs egg
+      -
+        - L2 larvae
+        - L3 larvae
+        - L2 larvae vs L3 larvae
+      -
+        - L2 larvae
+        - L4 larvae
+        - L2 larvae vs L4 larvae
+      -
+        - L2 larvae
+        - L5 (adult female)
+        - L2 larvae vs L5 (adult female)
+      -
+        - L2 larvae
+        - L5 (adult male)
+        - L2 larvae vs L5 (adult male)
+      -
+        - L2 larvae
+        - adult female
+        - 'L2 larvae vs adult, female'
+      -
+        - L2 larvae
+        - adult male
+        - 'L2 larvae vs adult, male'
+      -
+        - L2 larvae
+        - egg
+        - L2 larvae vs egg
+      -
+        - L3 larvae
+        - L4 larvae
+        - L3 larvae vs L4 larvae
+      -
+        - L3 larvae
+        - L5 (adult female)
+        - L3 larvae vs L5 (adult female)
+      -
+        - L3 larvae
+        - L5 (adult male)
+        - L3 larvae vs L5 (adult male)
+      -
+        - L3 larvae
+        - adult female
+        - 'L3 larvae vs adult, female'
+      -
+        - L3 larvae
+        - adult male
+        - 'L3 larvae vs adult, male'
+      -
+        - L3 larvae
+        - egg
+        - L3 larvae vs egg
+      -
+        - L4 larvae
+        - L5 (adult female)
+        - L4 larvae vs L5 (adult female)
+      -
+        - L4 larvae
+        - L5 (adult male)
+        - L4 larvae vs L5 (adult male)
+      -
+        - L4 larvae
+        - adult female
+        - 'L4 larvae vs adult, female'
+      -
+        - L4 larvae
+        - adult male
+        - 'L4 larvae vs adult, male'
+      -
+        - L4 larvae
+        - egg
+        - L4 larvae vs egg
+      -
+        - L5 (adult female)
+        - L5 (adult male)
+        - 'adult ): female vs male'
+      -
+        - L5 (adult female)
+        - adult female
+        - L5 (adult female) vs adult female
+      -
+        - L5 (adult female)
+        - adult male
+        - L5 (adult female) vs adult male
+      -
+        - L5 (adult female)
+        - egg
+        - L5 (adult female) vs egg
+      -
+        - L5 (adult male)
+        - adult female
+        - L5 (adult male) vs adult female
+      -
+        - L5 (adult male)
+        - adult male
+        - L5 (adult male) vs adult male
+      -
+        - L5 (adult male)
+        - egg
+        - L5 (adult male) vs egg
+      -
+        - adult female
+        - adult male
+        - 'adult: female vs male'
+      -
+        - adult female
+        - egg
+        - 'adult, female vs egg'
+      -
+        - adult male
+        - egg
+        - 'adult, male vs egg'
+description: Dictyocaulus viviparus Genome Sequencing
+pubmed:
+  26856411:
+    - 'McNulty .. Mitreva, 2016'
+    - 'Dictyocaulus viviparus genome, variome and transcriptome elucidate lungworm biology and support future intervention. (McNulty .. Mitreva, 2016)'
+submitting_centre: The Genome Institute
+title: Dictyocaulus viviparus Genome Sequencing
