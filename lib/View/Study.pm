@@ -16,15 +16,18 @@ sub to_html {
    
    
   $study_tmpl->param(STUDYID =>  $study->{study_id});
-  $study_tmpl->param(STUDYTITLE =>  $study->{config}{title} // "NO TITLE" );
+  $study_tmpl->param(STUDYTITLE =>  $study->{config}{title} // "" );
   $study_tmpl->param(STUDYCENTRE => $study->{config}{submitting_centre}) if $study->{config}{submitting_centre};
 
-  my $description = "";
-  $description .= $study->{config}{description} if $study->{config}{description} and $study->{config}{description} ne $study->{config}{title};
-  while (my ($k, $v) = each %{$study->{config}{pubmed} //{}}){
-     $description .= sprintf ("<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/%s\">%s</a> ", $k, $v->[1]);
+  my @description;
+  if ($study->{config}{description} and $study->{config}{description} ne $study->{config}{title}){
+      push @description, $study->{config}{description};
   }
-  $study_tmpl->param(STUDYDESCRIPTION => $description);
+  while (my ($k, $v) = each %{$study->{config}{pubmed} //{}}){
+     push @description, sprintf ("<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/%s\">%s</a> ", $k, $v->[1]);
+  }
+
+  $study_tmpl->param(STUDYDESCRIPTION => join("\n<br>", @description));
 
   my @analyses;
   my $fails_checks = not $study->passes_checks;
@@ -72,13 +75,6 @@ sub to_html {
      push (@rows, {'DESIGNROW' => \@row});
   }   
   $study_tmpl->param(DESIGNROWS => \@rows);
-  
-  if ($study->{SKIPPED_RUNS}) {
-    $study_tmpl->param(HASSKIPS => 1);
-    $study_tmpl->param(SKIPPEDCOUNT => scalar @{$study->{SKIPPED_RUNS}});
-    my $skr = join ', ' , @{$study->{SKIPPED_RUNS}};
-    $study_tmpl->param(SKIPPEDRUNS => $skr);
-  }
   
   return $study_tmpl->output;   
 }

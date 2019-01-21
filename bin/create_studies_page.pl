@@ -5,7 +5,7 @@ use FindBin;
 #unless (-d "$FindBin::Bin/../local"){
 #  print STDERR `carton`;
 #}
-#use lib "$FindBin::Bin/../local";
+use lib "$FindBin::Bin/../local/lib/perl5";
 use lib "$FindBin::Bin/../lib";
 use View::StudiesPage;
 use Model::Study;
