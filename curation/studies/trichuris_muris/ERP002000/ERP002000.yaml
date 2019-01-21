@@ -10,7 +10,7 @@ condition_names:
   L2: L2 stage
   L3: L3 stage
 contrasts:
-  - name: ''
+  - name: organism_part
     values:
       -
         - Adult female
@@ -24,6 +24,36 @@ contrasts:
         - Adult mixed anteriors
         - Adult mixed sex
         - Adult mixed anteriors vs Adult mixed sex
+  - name: developmental_stage+sex
+    values:
+      -
+        - Adult female posteriors
+        - Adult male posteriors
+        - 'Adult posteriors: female vs male'
+      -
+        - Adult female
+        - Adult male
+        - 'Adult: female vs male'
+      -
+        - Adult female
+        - Adult mixed sex
+        - Adult female vs Adult mixed sex
+      -
+        - Adult female
+        - L3
+        - Adult female vs L3
+      -
+        - Adult male
+        - Adult mixed sex
+        - Adult male vs Adult mixed sex
+      -
+        - Adult male
+        - L3
+        - Adult male vs L3
+      -
+        - Adult mixed sex
+        - L3
+        - Adult mixed sex vs L3
 description: Trichuris muris transcriptomics
 pubmed: ~
 submitting_centre: Wellcome Sanger Institute
