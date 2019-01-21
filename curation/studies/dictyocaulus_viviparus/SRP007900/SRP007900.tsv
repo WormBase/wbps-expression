@@ -1,8 +1,8 @@
 Run	Sample	Condition	developmental_stage	sex
-SRR332582	SAMN00710413	Dictyocaulus viviparus stage L1 L2	L1 L2	
-SRR332586	SAMN00710413	Dictyocaulus viviparus stage L1 L2	L1 L2	
 SRR1022505	SAMN02389078	Hypobiotic larvae (Lhyp)	Hypobiotic larvae (Lhyp)	
 SRR1566554	SAMN02389078	Hypobiotic larvae (Lhyp)	Hypobiotic larvae (Lhyp)	
+SRR332582	SAMN00710413	L1 L2	L1 L2	
+SRR332586	SAMN00710413	L1 L2	L1 L2	
 SRR1566550	SAMN03022356	L1 larvae	L1 larvae	
 SRR1566552	SAMN03022360	L1 larvae	L1 larvae	
 SRR1568783	SAMN03022362	L1 larvae	L1 larvae	

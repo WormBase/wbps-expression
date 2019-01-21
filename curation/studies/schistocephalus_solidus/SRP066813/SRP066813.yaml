@@ -1,0 +1,21 @@
+---
+condition_names: {}
+contrasts:
+  - name: developmental_stage
+    values:
+      -
+        - adult
+        - infective plerocercoid
+        - adult vs infective plerocercoid
+      -
+        - adult
+        - non-infective plerocercoid
+        - adult vs non-infective plerocercoid
+      -
+        - infective plerocercoid
+        - non-infective plerocercoid
+        - infective plerocercoid vs non-infective plerocercoid
+description: 'Transcriptome sequence for non-infective, infective and adult Schistocephalus solidus worms.'
+pubmed: ~
+submitting_centre: Laval University
+title: 'Transcriptome sequence for non-infective, infective and adult Schistocephalus solidus worms.'
