@@ -1,0 +1,21 @@
+---
+condition_names: {}
+contrasts:
+  - name: developmental_stage+sex
+    values:
+      -
+        - Adult female
+        - L3
+        - Adult female vs L3
+      -
+        - Adult female
+        - Microfilariae
+        - Adult female vs Microfilariae
+      -
+        - L3
+        - Microfilariae
+        - L3 vs Microfilariae
+description: 'Onchocerca volvulus is a filarial nematode parasite of humans, causing Onchocerciasis, or River Blindness, which affects over 37 million people, mainly in Africa. It is a severely debilitating disease, which is transmitted to humans by black fly. This project aims to undertake high-throughput sequencing of Onchocerca volvulus transcriptome for de novo assembly of transcripts. The main objective of this project is to recognize genes expressed in given life stages.'
+pubmed: ~
+submitting_centre: Wellcome Sanger Institute
+title: Onchocerca volvulus transcriptomics

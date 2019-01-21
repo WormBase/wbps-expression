@@ -1,0 +1,13 @@
+Run	Sample	Condition	developmental_stage	organism_part	sex
+ERR485008	SAMEA2299409	Adult female	adult	whole organism	female
+ERR570055	SAMEA2299409	Adult female	adult	whole organism	female
+ERR485009	SAMEA2299410	Adult female	adult	whole organism	female
+ERR485010	SAMEA2299411	Adult female	adult	whole organism	female
+ERR570056	SAMEA2299411	Adult female	adult	whole organism	female
+ERR225734	SAMEA1689816	Adult male	adult	whole organism	male
+ERR225735	SAMEA1689818	L2	L2	whole organism	
+ERR225731	SAMEA1689814	L3	L3	whole organism	
+ERR225733	SAMEA1689819	L3	L3	whole organism	
+ERR225732	SAMEA1689820	L3	L3	whole organism	
+ERR225736	SAMEA1689815	Microfilariae	microfilariae	whole organism	
+ERR225737	SAMEA1689817	Microfilariae	microfilariae	whole organism	
