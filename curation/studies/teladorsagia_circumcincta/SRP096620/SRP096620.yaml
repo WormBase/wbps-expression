@@ -1,0 +1,13 @@
+---
+condition_names: {}
+contrasts:
+  - name: host_niche
+    values:
+      -
+        - Lumenal-derived larvae
+        - Mucosal-derived larvae
+        - Lumenal-derived larvae vs Mucosal-derived larvae
+description: Teladorsagia circumcincta niche specific expression
+pubmed: ~
+submitting_centre: Moredun Research Institute
+title: Teladorsagia circumcincta niche specific expression

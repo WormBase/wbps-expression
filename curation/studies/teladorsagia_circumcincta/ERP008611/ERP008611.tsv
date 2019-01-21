@@ -1,0 +1,19 @@
+Run	Sample	Condition	developmental_stage	organism_part	sex	strain
+ERR949595	SAMEA3110507	L3	L3	whole organism		Tci2
+ERR949604	SAMEA3110507	L3	L3	whole organism		Tci2
+ERR949596	SAMEA3110508	L3	L3	whole organism		Tci2
+ERR949605	SAMEA3110508	L3	L3	whole organism		Tci2
+ERR949597	SAMEA3110509	L3	L3	whole organism		Tci2
+ERR949606	SAMEA3110509	L3	L3	whole organism		Tci2
+ERR949589	SAMEA3110501	adult, female	adult	whole organism	female	Tci2
+ERR949598	SAMEA3110501	adult, female	adult	whole organism	female	Tci2
+ERR949590	SAMEA3110502	adult, female	adult	whole organism	female	Tci2
+ERR949599	SAMEA3110502	adult, female	adult	whole organism	female	Tci2
+ERR949591	SAMEA3110503	adult, female	adult	whole organism	female	Tci2
+ERR949600	SAMEA3110503	adult, female	adult	whole organism	female	Tci2
+ERR949592	SAMEA3110504	adult, male	adult	whole organism	male	Tci2
+ERR949601	SAMEA3110504	adult, male	adult	whole organism	male	Tci2
+ERR949593	SAMEA3110505	adult, male	adult	whole organism	male	Tci2
+ERR949602	SAMEA3110505	adult, male	adult	whole organism	male	Tci2
+ERR949594	SAMEA3110506	adult, male	adult	whole organism	male	Tci2
+ERR949603	SAMEA3110506	adult, male	adult	whole organism	male	Tci2

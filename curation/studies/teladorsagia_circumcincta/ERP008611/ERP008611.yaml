@@ -1,0 +1,21 @@
+---
+condition_names: {}
+contrasts:
+  - name: developmental_stage+sex
+    values:
+      -
+        - L3
+        - 'adult, female'
+        - 'L3 vs adult, female'
+      -
+        - L3
+        - 'adult, male'
+        - 'L3 vs adult, male'
+      -
+        - 'adult, female'
+        - 'adult, male'
+        - 'adult: female vs male'
+description: Teladorsagia circumcincta transcriptomics
+pubmed: ~
+submitting_centre: Wellcome Sanger Institute
+title: Teladorsagia circumcincta transcriptomics
