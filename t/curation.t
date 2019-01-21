@@ -247,16 +247,18 @@ design_ok($two_factor_tsv);
 ok_design_fails_with_wrong_condition_names($two_factor_tsv);
 ok_design_fails_with_wrong_contrasts($two_factor_tsv);
 my %studies;
+my $arg = $ARGV[0] // "";
+my $study_folder_pattern = qr/$arg.*\w+\d+$/;
 find(
   sub {
-    $studies{basename $File::Find::name} = $File::Find::name if -d $File::Find::name and $File::Find::name =~ /\w+\d+$/;
+    $studies{basename $File::Find::name} = $File::Find::name if -d $File::Find::name and $File::Find::name =~ $study_folder_pattern;
   },
   "$FindBin::Bin/../curation/studies"
 );
 my %skipped_runs;
 find(
   sub {
-    $skipped_runs{basename $File::Find::name} = $File::Find::name if -d $File::Find::name and $File::Find::name =~ /\w+\d+$/;
+    $skipped_runs{basename $File::Find::name} = $File::Find::name if -d $File::Find::name and $File::Find::name =~ $study_folder_pattern;
   },
   "$FindBin::Bin/../curation/skipped_runs"
 );

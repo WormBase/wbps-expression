@@ -1,0 +1,9 @@
+Run	Sample	Condition	developmental_stage	organism_part
+SRR1041654	SAMN02423286	adult	adult	
+SRR1041656	SAMN02423286	adult	adult	
+SRR1041655	SAMN02423287	adult	adult	
+SRR1041657	SAMN02423287	adult	adult	
+SRR1041658	SAMN02423288	adult, large intestine	adult	large intestine
+SRR1041651	SAMN02423289	large intestine		large intestine
+SRR1041652	SAMN02423290	large intestine		large intestine
+SRR1041653	SAMN02423291	large intestine		large intestine

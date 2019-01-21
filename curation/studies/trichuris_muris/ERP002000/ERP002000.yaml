@@ -1,0 +1,30 @@
+---
+condition_names:
+  Adult female: 'Adult female, whole'
+  Adult female anteriors: Adult female anteriors (intestinal phase)
+  Adult female posteriors: Adult female posteriors (lumenal phase)
+  Adult male: 'Adult male, whole'
+  Adult male posteriors: Adult male posteriors (lumenal phase)
+  Adult mixed anteriors: Adult mixed sex anteriors (intestinal phase)
+  Adult mixed sex: 'Adult mixed sex, whole'
+  L2: L2 stage
+  L3: L3 stage
+contrasts:
+  - name: ''
+    values:
+      -
+        - Adult female
+        - Adult female posteriors
+        - Adult female vs Adult female posteriors
+      -
+        - Adult male
+        - Adult male posteriors
+        - Adult male vs Adult male posteriors
+      -
+        - Adult mixed anteriors
+        - Adult mixed sex
+        - Adult mixed anteriors vs Adult mixed sex
+description: Trichuris muris transcriptomics
+pubmed: ~
+submitting_centre: Wellcome Sanger Institute
+title: Trichuris muris transcriptomics
