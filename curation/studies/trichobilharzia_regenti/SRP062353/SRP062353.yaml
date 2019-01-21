@@ -1,0 +1,16 @@
+---
+condition_names: {}
+contrasts:
+  - name: developmental_stage
+    values:
+      -
+        - Cercaria
+        - Schistosomule
+        - Cercaria vs Schistosomule
+description: Trichobilharzia regenti  transcriptome
+pubmed:
+  26863542:
+    - 'Leontovyč .. Gasser, 2016'
+    - 'Comparative Transcriptomic Exploration Reveals Unique Molecular Adaptations of Neuropathogenic Trichobilharzia to Invade and Parasitize Its Avian Definitive Host. (Leontovyč .. Gasser, 2016)'
+submitting_centre: The University of Melbourne
+title: Trichobilharzia regenti  transcriptome
