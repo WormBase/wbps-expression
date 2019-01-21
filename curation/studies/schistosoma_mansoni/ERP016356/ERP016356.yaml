@@ -11,6 +11,14 @@ contrasts:
         - 'whole female, single sex infection'
         - 'whole male, single sex infection'
         - 'whole single sex infection: female vs male'
+      -
+        - 'ovaries, mixed sex infection'
+        - 'testes, mixed sex infection'
+        - 'mixed sex infection: ovaries vs testes'
+      -
+        - 'ovaries, single sex infection'
+        - 'ovaries, single sex infection'
+        - 'single sex infection: ovaries vs testes'
   - name: organism_part
     values:
       -
@@ -29,7 +37,7 @@ contrasts:
         - 'testes, single sex infection'
         - 'whole male, single sex infection'
         - 'testes, single sex infection vs whole male, single sex infection'
-  - name: infection
+  - name: host_infection
     values:
       -
         - 'ovaries, mixed sex infection'

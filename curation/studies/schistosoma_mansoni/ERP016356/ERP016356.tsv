@@ -1,4 +1,4 @@
-Run	Sample	Condition	developmental_stage	infection	organism_part	sex	strain
+Run	Sample	Condition	developmental_stage	host_infection	organism_part	sex	strain
 ERR506073	SAMEA2395933	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
 ERR506097	SAMEA2395933	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia
 ERR667051	SAMEA2395933	ovaries, mixed sex infection	adult	mixed sex	ovaries	female	Liberia

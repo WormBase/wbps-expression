@@ -1,4 +1,4 @@
-Run	Sample	Condition	age	infection	sex
+Run	Sample	Condition	age	host_infection	sex
 ERR1328174	SAMEA3898065	18 days post infection, single sex, female	18 days post infection	single sex	female
 ERR1328198	SAMEA3898065	18 days post infection, single sex, female	18 days post infection	single sex	female
 ERR1328136	SAMEA3898097	18 days post infection, single sex, female	18 days post infection	single sex	female

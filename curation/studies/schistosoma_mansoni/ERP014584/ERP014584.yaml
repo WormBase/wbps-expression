@@ -39,7 +39,7 @@ contrasts:
         - '38 days post infection, single sex, female'
         - '38 days post infection, single sex, male'
         - '38 days post infection, single sex: female vs male'
-  - name: infection
+  - name: host_infection
     values:
       -
         - '21 days post infection, mixed sex, female'
