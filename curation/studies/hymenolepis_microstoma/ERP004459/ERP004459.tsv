@@ -1,20 +1,19 @@
-Run	Condition	developmental_stage	organism_part	strain
-ERR225722	Adult, mid-section	adult	mid strobila region	Nottingham
-ERR225723	Adult, mid-section	adult	mid strobila region	Nottingham
-ERR225724	Adult, mid-section	adult	mid strobila region	Nottingham
-ERR225725	Adult, posterior	adult	posterior strobila region	Nottingham
-ERR225726	Adult, posterior	adult	posterior strobila region	Nottingham
-ERR225727	Adult, posterior	adult	posterior strobila region	Nottingham
-ERR225719	Adult, scolex	adult	neck/scolex region	Nottingham
-ERR225720	Adult, scolex	adult	neck/scolex region	Nottingham
-ERR225721	Adult, scolex	adult	neck/scolex region	Nottingham
-ERR225728	Adult, whole	adult	whole organism	Nottingham
-ERR225729	Adult, whole	adult	whole organism	Nottingham
-ERR225730	Adult, whole	adult	whole organism	Nottingham
-ERR233392	Unannotated			Nottingham
-ERR337915	mid-metamorphosis larvae	larva	whole organism	Nottingham
-ERR337928	mid-metamorphosis larvae	larva	whole organism	Nottingham
-ERR337940	mid-metamorphosis larvae	larva	whole organism	Nottingham
-ERR337952	mid-metamorphosis larvae	larva	whole organism	Nottingham
-ERR337964	mid-metamorphosis larvae	larva	whole organism	Nottingham
-ERR337976	mid-metamorphosis larvae	larva	whole organism	Nottingham
+Run	Sample	Condition	developmental_stage	organism_part	strain
+ERR225722	SAMEA1689316	Adult, mid-section	adult	mid strobila region	Nottingham
+ERR225724	SAMEA1689318	Adult, mid-section	adult	mid strobila region	Nottingham
+ERR225723	SAMEA1689325	Adult, mid-section	adult	mid strobila region	Nottingham
+ERR225726	SAMEA1689313	Adult, posterior	adult	posterior strobila region	Nottingham
+ERR225725	SAMEA1689314	Adult, posterior	adult	posterior strobila region	Nottingham
+ERR225727	SAMEA1689315	Adult, posterior	adult	posterior strobila region	Nottingham
+ERR225719	SAMEA1689312	Adult, scolex	adult	neck/scolex region	Nottingham
+ERR225721	SAMEA1689324	Adult, scolex	adult	neck/scolex region	Nottingham
+ERR225720	SAMEA1689326	Adult, scolex	adult	neck/scolex region	Nottingham
+ERR225729	SAMEA1689317	Adult, whole	adult	whole organism	Nottingham
+ERR225728	SAMEA1689319	Adult, whole	adult	whole organism	Nottingham
+ERR225730	SAMEA1689322	Adult, whole	adult	whole organism	Nottingham
+ERR337915	SAMEA2066269	mid-metamorphosis larvae	larva	whole organism	Nottingham
+ERR337928	SAMEA2066269	mid-metamorphosis larvae	larva	whole organism	Nottingham
+ERR337964	SAMEA2066433	mid-metamorphosis larvae	larva	whole organism	Nottingham
+ERR337976	SAMEA2066433	mid-metamorphosis larvae	larva	whole organism	Nottingham
+ERR337940	SAMEA2066438	mid-metamorphosis larvae	larva	whole organism	Nottingham
+ERR337952	SAMEA2066438	mid-metamorphosis larvae	larva	whole organism	Nottingham

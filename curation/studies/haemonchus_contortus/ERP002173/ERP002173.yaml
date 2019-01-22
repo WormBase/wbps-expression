@@ -5,7 +5,6 @@ condition_names:
   'L1, inbred ISE': 'L1, strain inbred ISE'
   'L4, inbred ISE': 'L4, strain inbred ISE'
   MHco3(ISE): strain MHco3(ISE)
-  Unannotated: strain Unannotated
   WRS: strain WRS
   'adult, female, inbred ISE': 'adult, female, strain inbred ISE'
   'adult, male, inbred ISE': 'adult, male, strain inbred ISE'
@@ -121,4 +120,5 @@ contrasts:
         - 'inbred ISE: eggs vs sheathed L3'
 description: Haemonchus contortus transcriptome
 pubmed: ~
+submitting_centre: Wellcome Sanger Institute
 title: Haemonchus contortus transcriptome
