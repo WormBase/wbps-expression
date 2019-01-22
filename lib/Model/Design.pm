@@ -255,19 +255,24 @@ sub data_quality_checks {
       my $s = join("\t", map {$self->value_in_condition($c, $_)} @characteristics_varying_by_condition );
       $c => $s
    } $self->all_conditions})};
+  my $num_runs = scalar $self->all_runs;
+  my $num_replicates = scalar $self->all_replicates;
+  my $num_conditions = scalar $self->all_conditions;
   return (
-    "Study should have some runs",
-       => scalar $self->all_runs,
+    "Study should have some runs"
+       => $num_runs,
     "Study should have some characteristics" 
        => 0+@{$self->{characteristics_in_order}},
     "Characteristics should have non-blank names"
        => ( 0 ==  grep {not $_} @{$self->{characteristics_in_order}}),
     "Conditions should have non-blank names",
        => ( 0 ==  grep {not $_} $self->all_conditions),
-    "Conditions should have reasonably short names - below 60 chars",
+    "Conditions should have reasonably short names - below 60 chars"
        => ( 0 ==  grep {length $_ > 60 } $self->all_conditions),
     "Some characteristics should vary by condition"
        => (2 > $self->all_runs or 0 < $self->characteristics_varying_by_condition ),
+     "If the study has fewer samples than replicates, it should have fewer conditions than samples"
+       => ($num_runs == $num_replicates || $num_conditions < $num_replicates ),
      @replicates_well_defined,
      @conditions_well_defined,
      @conditions_unique,
