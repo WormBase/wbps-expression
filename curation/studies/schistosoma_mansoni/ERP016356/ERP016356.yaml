@@ -17,7 +17,7 @@ contrasts:
         - 'mixed sex infection: ovaries vs testes'
       -
         - 'ovaries, single sex infection'
-        - 'ovaries, single sex infection'
+        - 'testes, single sex infection'
         - 'single sex infection: ovaries vs testes'
   - name: organism_part
     values:
