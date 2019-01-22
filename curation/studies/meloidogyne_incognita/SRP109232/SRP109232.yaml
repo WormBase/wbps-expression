@@ -1,0 +1,49 @@
+---
+condition_names: {}
+contrasts:
+  - name: developmental_stage
+    values:
+      -
+        - Egg
+        - J2 juveniles
+        - Egg vs J2 juveniles
+      -
+        - Egg
+        - J3
+        - Egg vs J3
+      -
+        - Egg
+        - J4
+        - Egg vs J4
+      -
+        - Egg
+        - adult female
+        - Egg vs adult female
+      -
+        - J2 juveniles
+        - J3
+        - J2 juveniles vs J3
+      -
+        - J2 juveniles
+        - J4
+        - J2 juveniles vs J4
+      -
+        - J2 juveniles
+        - adult female
+        - J2 juveniles vs adult female
+      -
+        - J3
+        - J4
+        - J3 vs J4
+      -
+        - J3
+        - adult female
+        - J3 vs adult female
+      -
+        - J4
+        - adult female
+        - J4 vs adult female
+description: RNA-Seq analysis at various developmental stages of the Meloidogyne incognita life cycle
+pubmed: ~
+submitting_centre: Rural Development Administration
+title: RNA-Seq analysis at various developmental stages of the Meloidogyne incognita life cycle
