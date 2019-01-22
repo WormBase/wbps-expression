@@ -1,59 +1,59 @@
-Run	Condition	culture_conditions	developmental_stage	strain
-ERR337963	Activated protoscolex, GH09		Activated protoscolex	GH09
-ERR337975	Activated protoscolex, GH09		Activated protoscolex	GH09
-ERR337939	Activated protoscolex, Ingrid		Activated protoscolex	Ingrid
-ERR337951	Activated protoscolex, Ingrid		Activated protoscolex	Ingrid
-ERR337914	Activated protoscolex, MS10		Activated protoscolex	MS10
-ERR337927	Activated protoscolex, MS10		Activated protoscolex	MS10
-ERR337962	Non-activated protoscolex, GH09		Non-activated protoscolex	GH09
-ERR337974	Non-activated protoscolex, GH09		Non-activated protoscolex	GH09
-ERR337938	Non-activated protoscolex, Ingrid		Non-activated protoscolex	Ingrid
-ERR337950	Non-activated protoscolex, Ingrid		Non-activated protoscolex	Ingrid
-ERR337913	Non-activated protoscolex, MS10		Non-activated protoscolex	MS10
-ERR337926	Non-activated protoscolex, MS10		Non-activated protoscolex	MS10
-ERR337954	Primary cells 11 days (stage 2), G8065	Primary cells 11 days (stage 2)		G8065
-ERR337966	Primary cells 11 days (stage 2), G8065	Primary cells 11 days (stage 2)		G8065
-ERR337931	Primary cells 16 days (stage 3), H95	Primary cells 16 days (stage 3)		H95
-ERR337943	Primary cells 16 days (stage 3), H95	Primary cells 16 days (stage 3)		H95
-ERR337955	Primary cells 21 days (stage 3), Ingrid	Primary cells 21 days (stage 3)		Ingrid
-ERR337967	Primary cells 21 days (stage 3), Ingrid	Primary cells 21 days (stage 3)		Ingrid
-ERR337905	Primary cells 22 days (stage 3), 7030	Primary cells 22 days (stage 3)		7030
-ERR337918	Primary cells 22 days (stage 3), 7030	Primary cells 22 days (stage 3)		7030
-ERR337953	Primary cells 48 h  (stage 1), G8065	Primary cells 48 h  (stage 1)		G8065
-ERR337965	Primary cells 48 h  (stage 1), G8065	Primary cells 48 h  (stage 1)		G8065
-ERR337903	Primary cells 48 h (stage 1), H95	Primary cells 48 h (stage 1)		H95
-ERR337916	Primary cells 48 h (stage 1), H95	Primary cells 48 h (stage 1)		H95
-ERR337929	Primary cells 48 h (stage 1), Ingrid	Primary cells 48 h (stage 1)		Ingrid
-ERR337941	Primary cells 48 h (stage 1), Ingrid	Primary cells 48 h (stage 1)		Ingrid
-ERR337904	Primary cells 7 days (stage 2), 7030	Primary cells 7 days (stage 2)		7030
-ERR337917	Primary cells 7 days (stage 2), 7030	Primary cells 7 days (stage 2)		7030
-ERR337930	Primary cells 9 days (stage 2), H95	Primary cells 9 days (stage 2)		H95
-ERR337942	Primary cells 9 days (stage 2), H95	Primary cells 9 days (stage 2)		H95
-ERR337933	aerobic co-culture with Rh feeder cells, Metacestode, H95	aerobic co-culture with Rh feeder cells	Metacestode	H95
-ERR337945	aerobic co-culture with Rh feeder cells, Metacestode, H95	aerobic co-culture with Rh feeder cells	Metacestode	H95
-ERR337957	aerobic co-culture with Rh feeder cells, Metacestode, H95	aerobic co-culture with Rh feeder cells	Metacestode	H95
-ERR337969	aerobic co-culture with Rh feeder cells, Metacestode, H95	aerobic co-culture with Rh feeder cells	Metacestode	H95
-ERR337907	aerobic co-culture with Rh feeder cells, Metacestode, Ingrid	aerobic co-culture with Rh feeder cells	Metacestode	Ingrid
-ERR337920	aerobic co-culture with Rh feeder cells, Metacestode, Ingrid	aerobic co-culture with Rh feeder cells	Metacestode	Ingrid
-ERR337911	axenic culture with hydroxyurea, Metacestode, Ingrid	axenic culture with hydroxyurea	Metacestode	Ingrid
-ERR337924	axenic culture with hydroxyurea, Metacestode, Ingrid	axenic culture with hydroxyurea	Metacestode	Ingrid
-ERR337936	axenic culture with hydroxyurea, Metacestode, Ingrid	axenic culture with hydroxyurea	Metacestode	Ingrid
-ERR337948	axenic culture with hydroxyurea, Metacestode, Ingrid	axenic culture with hydroxyurea	Metacestode	Ingrid
-ERR337960	axenic culture with hydroxyurea, Metacestode, Ingrid	axenic culture with hydroxyurea	Metacestode	Ingrid
-ERR337972	axenic culture with hydroxyurea, Metacestode, Ingrid	axenic culture with hydroxyurea	Metacestode	Ingrid
-ERR337910	axenic culture, Metacestode, Ingrid	axenic culture	Metacestode	Ingrid
-ERR337923	axenic culture, Metacestode, Ingrid	axenic culture	Metacestode	Ingrid
-ERR337935	axenic culture, Metacestode, Ingrid	axenic culture	Metacestode	Ingrid
-ERR337947	axenic culture, Metacestode, Ingrid	axenic culture	Metacestode	Ingrid
-ERR337959	axenic culture, Metacestode, Ingrid	axenic culture	Metacestode	Ingrid
-ERR337971	axenic culture, Metacestode, Ingrid	axenic culture	Metacestode	Ingrid
-ERR337934	extracted from jird, Metacestode, H95	extracted from jird	Metacestode	H95
-ERR337946	extracted from jird, Metacestode, H95	extracted from jird	Metacestode	H95
-ERR337958	extracted from jird, Metacestode, H95	extracted from jird	Metacestode	H95
-ERR337970	extracted from jird, Metacestode, H95	extracted from jird	Metacestode	H95
-ERR337956	vesicle without brood chambers, Metacestode, GT10	vesicle without brood chambers	Metacestode	GT10
-ERR337968	vesicle without brood chambers, Metacestode, GT10	vesicle without brood chambers	Metacestode	GT10
-ERR337932	vesicle without brood chambers, Metacestode, H95	vesicle without brood chambers	Metacestode	H95
-ERR337944	vesicle without brood chambers, Metacestode, H95	vesicle without brood chambers	Metacestode	H95
-ERR337906	vesicle without brood chambers, Metacestode, Ingrid	vesicle without brood chambers	Metacestode	Ingrid
-ERR337919	vesicle without brood chambers, Metacestode, Ingrid	vesicle without brood chambers	Metacestode	Ingrid
+Run	Sample	Condition	culture_conditions	developmental_stage	strain
+ERR337963	SAMEA2066116	Activated protoscolex, GH09		Activated protoscolex	GH09
+ERR337975	SAMEA2066116	Activated protoscolex, GH09		Activated protoscolex	GH09
+ERR337939	SAMEA2066119	Activated protoscolex, Ingrid		Activated protoscolex	Ingrid
+ERR337951	SAMEA2066119	Activated protoscolex, Ingrid		Activated protoscolex	Ingrid
+ERR337914	SAMEA2066112	Activated protoscolex, MS10		Activated protoscolex	MS10
+ERR337927	SAMEA2066112	Activated protoscolex, MS10		Activated protoscolex	MS10
+ERR337962	SAMEA2066432	Non-activated protoscolex, GH09		Non-activated protoscolex	GH09
+ERR337974	SAMEA2066432	Non-activated protoscolex, GH09		Non-activated protoscolex	GH09
+ERR337938	SAMEA2066437	Non-activated protoscolex, Ingrid		Non-activated protoscolex	Ingrid
+ERR337950	SAMEA2066437	Non-activated protoscolex, Ingrid		Non-activated protoscolex	Ingrid
+ERR337913	SAMEA2066268	Non-activated protoscolex, MS10		Non-activated protoscolex	MS10
+ERR337926	SAMEA2066268	Non-activated protoscolex, MS10		Non-activated protoscolex	MS10
+ERR337954	SAMEA2066113	Primary cells 11 days (stage 2), G8065	Primary cells 11 days (stage 2)		G8065
+ERR337966	SAMEA2066113	Primary cells 11 days (stage 2), G8065	Primary cells 11 days (stage 2)		G8065
+ERR337931	SAMEA2066440	Primary cells 16 days (stage 3), H95	Primary cells 16 days (stage 3)		H95
+ERR337943	SAMEA2066440	Primary cells 16 days (stage 3), H95	Primary cells 16 days (stage 3)		H95
+ERR337955	SAMEA2066271	Primary cells 21 days (stage 3), Ingrid	Primary cells 21 days (stage 3)		Ingrid
+ERR337967	SAMEA2066271	Primary cells 21 days (stage 3), Ingrid	Primary cells 21 days (stage 3)		Ingrid
+ERR337905	SAMEA2065933	Primary cells 22 days (stage 3), 7030	Primary cells 22 days (stage 3)		7030
+ERR337918	SAMEA2065933	Primary cells 22 days (stage 3), 7030	Primary cells 22 days (stage 3)		7030
+ERR337953	SAMEA2066270	Primary cells 48 h  (stage 1), G8065	Primary cells 48 h  (stage 1)		G8065
+ERR337965	SAMEA2066270	Primary cells 48 h  (stage 1), G8065	Primary cells 48 h  (stage 1)		G8065
+ERR337903	SAMEA2058370	Primary cells 48 h (stage 1), H95	Primary cells 48 h (stage 1)		H95
+ERR337916	SAMEA2058370	Primary cells 48 h (stage 1), H95	Primary cells 48 h (stage 1)		H95
+ERR337929	SAMEA2066439	Primary cells 48 h (stage 1), Ingrid	Primary cells 48 h (stage 1)		Ingrid
+ERR337941	SAMEA2066439	Primary cells 48 h (stage 1), Ingrid	Primary cells 48 h (stage 1)		Ingrid
+ERR337904	SAMEA2058371	Primary cells 7 days (stage 2), 7030	Primary cells 7 days (stage 2)		7030
+ERR337917	SAMEA2058371	Primary cells 7 days (stage 2), 7030	Primary cells 7 days (stage 2)		7030
+ERR337930	SAMEA2066120	Primary cells 9 days (stage 2), H95	Primary cells 9 days (stage 2)		H95
+ERR337942	SAMEA2066120	Primary cells 9 days (stage 2), H95	Primary cells 9 days (stage 2)		H95
+ERR337957	SAMEA2066114	aerobic co-culture with Rh feeder cells, Metacestode, H95	aerobic co-culture with Rh feeder cells	Metacestode	H95
+ERR337969	SAMEA2066114	aerobic co-culture with Rh feeder cells, Metacestode, H95	aerobic co-culture with Rh feeder cells	Metacestode	H95
+ERR337933	SAMEA2066117	aerobic co-culture with Rh feeder cells, Metacestode, H95	aerobic co-culture with Rh feeder cells	Metacestode	H95
+ERR337945	SAMEA2066117	aerobic co-culture with Rh feeder cells, Metacestode, H95	aerobic co-culture with Rh feeder cells	Metacestode	H95
+ERR337907	SAMEA2066265	aerobic co-culture with Rh feeder cells, Metacestode, Ingrid	aerobic co-culture with Rh feeder cells	Metacestode	Ingrid
+ERR337920	SAMEA2066265	aerobic co-culture with Rh feeder cells, Metacestode, Ingrid	aerobic co-culture with Rh feeder cells	Metacestode	Ingrid
+ERR337911	SAMEA2065935	axenic culture with hydroxyurea, Metacestode, Ingrid	axenic culture with hydroxyurea	Metacestode	Ingrid
+ERR337924	SAMEA2065935	axenic culture with hydroxyurea, Metacestode, Ingrid	axenic culture with hydroxyurea	Metacestode	Ingrid
+ERR337960	SAMEA2066115	axenic culture with hydroxyurea, Metacestode, Ingrid	axenic culture with hydroxyurea	Metacestode	Ingrid
+ERR337972	SAMEA2066115	axenic culture with hydroxyurea, Metacestode, Ingrid	axenic culture with hydroxyurea	Metacestode	Ingrid
+ERR337936	SAMEA2066118	axenic culture with hydroxyurea, Metacestode, Ingrid	axenic culture with hydroxyurea	Metacestode	Ingrid
+ERR337948	SAMEA2066118	axenic culture with hydroxyurea, Metacestode, Ingrid	axenic culture with hydroxyurea	Metacestode	Ingrid
+ERR337910	SAMEA2066267	axenic culture, Metacestode, Ingrid	axenic culture	Metacestode	Ingrid
+ERR337923	SAMEA2066267	axenic culture, Metacestode, Ingrid	axenic culture	Metacestode	Ingrid
+ERR337959	SAMEA2066430	axenic culture, Metacestode, Ingrid	axenic culture	Metacestode	Ingrid
+ERR337971	SAMEA2066430	axenic culture, Metacestode, Ingrid	axenic culture	Metacestode	Ingrid
+ERR337935	SAMEA2066435	axenic culture, Metacestode, Ingrid	axenic culture	Metacestode	Ingrid
+ERR337947	SAMEA2066435	axenic culture, Metacestode, Ingrid	axenic culture	Metacestode	Ingrid
+ERR337958	SAMEA2066429	extracted from jird, Metacestode, H95	extracted from jird	Metacestode	H95
+ERR337970	SAMEA2066429	extracted from jird, Metacestode, H95	extracted from jird	Metacestode	H95
+ERR337934	SAMEA2066434	extracted from jird, Metacestode, H95	extracted from jird	Metacestode	H95
+ERR337946	SAMEA2066434	extracted from jird, Metacestode, H95	extracted from jird	Metacestode	H95
+ERR337956	SAMEA1968152	vesicle without brood chambers, Metacestode, GT10	vesicle without brood chambers	Metacestode	GT10
+ERR337968	SAMEA1968152	vesicle without brood chambers, Metacestode, GT10	vesicle without brood chambers	Metacestode	GT10
+ERR337932	SAMEA2066441	vesicle without brood chambers, Metacestode, H95	vesicle without brood chambers	Metacestode	H95
+ERR337944	SAMEA2066441	vesicle without brood chambers, Metacestode, H95	vesicle without brood chambers	Metacestode	H95
+ERR337906	SAMEA2066264	vesicle without brood chambers, Metacestode, Ingrid	vesicle without brood chambers	Metacestode	Ingrid
+ERR337919	SAMEA2066264	vesicle without brood chambers, Metacestode, Ingrid	vesicle without brood chambers	Metacestode	Ingrid

@@ -1,8 +1,8 @@
-Run	Condition	developmental_stage	sex	strain
-SRR1056304	female	J4 young adult	female	PS312
-SRR1056305	female	J4 young adult	female	PS312
-SRR1056306	female	J4 young adult	female	PS312
-SRR1056300	male	J4 young adult	male	PS312
-SRR1056301	male	J4 young adult	male	PS312
-SRR1056302	male	J4 young adult	male	PS312
-SRR1056303	male	J4 young adult	male	PS312
+Run	Sample	Condition	developmental_stage	sex	strain
+SRR1056304	SAMN02484500	female	J4 young adult	female	PS312
+SRR1056306	SAMN02484504	female	J4 young adult	female	PS312
+SRR1056305	SAMN02484506	female	J4 young adult	female	PS312
+SRR1056301	SAMN02484499	male	J4 young adult	male	PS312
+SRR1056302	SAMN02484499	male	J4 young adult	male	PS312
+SRR1056303	SAMN02484501	male	J4 young adult	male	PS312
+SRR1056300	SAMN02484502	male	J4 young adult	male	PS312
