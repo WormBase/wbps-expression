@@ -1,0 +1,153 @@
+---
+condition_names: {}
+contrasts:
+  - name: treatment
+    values:
+      -
+        - dry cysts
+        - hatched J2 larvea
+        - dry cysts vs hatched J2 larvea
+      -
+        - dry cysts
+        - hydrated cysts
+        - dry cysts vs hydrated cysts
+      -
+        - dry cysts
+        - hydrated cysts soaked 15m in PRD
+        - dry cysts vs hydrated cysts soaked 15m in PRD
+      -
+        - dry cysts
+        - hydrated cysts soaked 1h in PRD
+        - dry cysts vs hydrated cysts soaked 1h in PRD
+      -
+        - dry cysts
+        - hydrated cysts soaked 24h in PRD
+        - dry cysts vs hydrated cysts soaked 24h in PRD
+      -
+        - dry cysts
+        - hydrated cysts soaked 48h in PRD
+        - dry cysts vs hydrated cysts soaked 48h in PRD
+      -
+        - dry cysts
+        - hydrated cysts soaked 7d in PRD
+        - dry cysts vs hydrated cysts soaked 7d in PRD
+      -
+        - dry cysts
+        - hydrated cysts soaked 8h in PRD
+        - dry cysts vs hydrated cysts soaked 8h in PRD
+      -
+        - hatched J2 larvea
+        - hydrated cysts
+        - hatched J2 larvea vs hydrated cysts
+      -
+        - hatched J2 larvea
+        - hydrated cysts soaked 15m in PRD
+        - hatched J2 larvea vs hydrated cysts soaked 15m in PRD
+      -
+        - hatched J2 larvea
+        - hydrated cysts soaked 1h in PRD
+        - hatched J2 larvea vs hydrated cysts soaked 1h in PRD
+      -
+        - hatched J2 larvea
+        - hydrated cysts soaked 24h in PRD
+        - hatched J2 larvea vs hydrated cysts soaked 24h in PRD
+      -
+        - hatched J2 larvea
+        - hydrated cysts soaked 48h in PRD
+        - hatched J2 larvea vs hydrated cysts soaked 48h in PRD
+      -
+        - hatched J2 larvea
+        - hydrated cysts soaked 7d in PRD
+        - hatched J2 larvea vs hydrated cysts soaked 7d in PRD
+      -
+        - hatched J2 larvea
+        - hydrated cysts soaked 8h in PRD
+        - hatched J2 larvea vs hydrated cysts soaked 8h in PRD
+      -
+        - hydrated cysts
+        - hydrated cysts soaked 15m in PRD
+        - hydrated cysts vs hydrated cysts soaked 15m in PRD
+      -
+        - hydrated cysts
+        - hydrated cysts soaked 1h in PRD
+        - hydrated cysts vs hydrated cysts soaked 1h in PRD
+      -
+        - hydrated cysts
+        - hydrated cysts soaked 24h in PRD
+        - hydrated cysts vs hydrated cysts soaked 24h in PRD
+      -
+        - hydrated cysts
+        - hydrated cysts soaked 48h in PRD
+        - hydrated cysts vs hydrated cysts soaked 48h in PRD
+      -
+        - hydrated cysts
+        - hydrated cysts soaked 7d in PRD
+        - hydrated cysts vs hydrated cysts soaked 7d in PRD
+      -
+        - hydrated cysts
+        - hydrated cysts soaked 8h in PRD
+        - hydrated cysts vs hydrated cysts soaked 8h in PRD
+      -
+        - hydrated cysts soaked 15m in PRD
+        - hydrated cysts soaked 1h in PRD
+        - hydrated cysts soaked 15m in PRD vs hydrated cysts soaked 1h in PRD
+      -
+        - hydrated cysts soaked 15m in PRD
+        - hydrated cysts soaked 24h in PRD
+        - hydrated cysts soaked 15m in PRD vs hydrated cysts soaked 24h in PRD
+      -
+        - hydrated cysts soaked 15m in PRD
+        - hydrated cysts soaked 48h in PRD
+        - hydrated cysts soaked 15m in PRD vs hydrated cysts soaked 48h in PRD
+      -
+        - hydrated cysts soaked 15m in PRD
+        - hydrated cysts soaked 7d in PRD
+        - hydrated cysts soaked 15m in PRD vs hydrated cysts soaked 7d in PRD
+      -
+        - hydrated cysts soaked 15m in PRD
+        - hydrated cysts soaked 8h in PRD
+        - hydrated cysts soaked 15m in PRD vs hydrated cysts soaked 8h in PRD
+      -
+        - hydrated cysts soaked 1h in PRD
+        - hydrated cysts soaked 24h in PRD
+        - hydrated cysts soaked 1h in PRD vs hydrated cysts soaked 24h in PRD
+      -
+        - hydrated cysts soaked 1h in PRD
+        - hydrated cysts soaked 48h in PRD
+        - hydrated cysts soaked 1h in PRD vs hydrated cysts soaked 48h in PRD
+      -
+        - hydrated cysts soaked 1h in PRD
+        - hydrated cysts soaked 7d in PRD
+        - hydrated cysts soaked 1h in PRD vs hydrated cysts soaked 7d in PRD
+      -
+        - hydrated cysts soaked 1h in PRD
+        - hydrated cysts soaked 8h in PRD
+        - hydrated cysts soaked 1h in PRD vs hydrated cysts soaked 8h in PRD
+      -
+        - hydrated cysts soaked 24h in PRD
+        - hydrated cysts soaked 48h in PRD
+        - hydrated cysts soaked 24h in PRD vs hydrated cysts soaked 48h in PRD
+      -
+        - hydrated cysts soaked 24h in PRD
+        - hydrated cysts soaked 7d in PRD
+        - hydrated cysts soaked 24h in PRD vs hydrated cysts soaked 7d in PRD
+      -
+        - hydrated cysts soaked 24h in PRD
+        - hydrated cysts soaked 8h in PRD
+        - hydrated cysts soaked 24h in PRD vs hydrated cysts soaked 8h in PRD
+      -
+        - hydrated cysts soaked 48h in PRD
+        - hydrated cysts soaked 7d in PRD
+        - hydrated cysts soaked 48h in PRD vs hydrated cysts soaked 7d in PRD
+      -
+        - hydrated cysts soaked 48h in PRD
+        - hydrated cysts soaked 8h in PRD
+        - hydrated cysts soaked 48h in PRD vs hydrated cysts soaked 8h in PRD
+      -
+        - hydrated cysts soaked 7d in PRD
+        - hydrated cysts soaked 8h in PRD
+        - hydrated cysts soaked 7d in PRD vs hydrated cysts soaked 8h in PRD
+description: Globodera rostochiensis transcriptome evolution during hatching.
+pubmed: ~
+submitting_centre: Agriculture and Agri-Food Canada
+title: Globodera rostochiensis transcriptome evolution during hatching.
