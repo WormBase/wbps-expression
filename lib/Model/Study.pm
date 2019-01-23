@@ -6,7 +6,7 @@ use File::Basename;
 use Model::Design;
 use YAML qw/DumpFile LoadFile/;
 use Carp qw/confess/;
-use List::Util qw/all max/;
+use List::Util qw/all max pairmap/;
 use List::MoreUtils qw/duplicates uniq/;
 use open ':encoding(utf8)';
 # use Smart::Comments '###';
@@ -49,7 +49,7 @@ sub config_matches_design {
   return all {$_} values %checks; 
 }
 sub list_of_contrasts_checks {
-  my ($condition_names, $name, @values) = @_;
+  my ($num_replicates_by_condition, $name, @values) = @_;
 #### list_of_contrasts_checks: @_
   if ($#values > 55 ){
     return ("$name manageably many contrasts" => 0);
@@ -60,18 +60,24 @@ sub list_of_contrasts_checks {
   }
   return map { 
     my ($reference, $test, $contrast_name) = @{$values[$_]};
-    "$contrast_name contrast $_ ok" => $condition_names->{$reference} && $condition_names->{$test} && $contrast_name
+    my $nrr = $num_replicates_by_condition->{$reference};
+    my $nrt = $num_replicates_by_condition->{$reference};
+    $contrast_name && $nrr && $nrt
+      ? ("$contrast_name should have enough replicates, is: $nrr ref $nrt test"
+            => not ($nrr < 3 && $nrt < 3))
+      : ("contrast $reference/$test/$contrast_name not matching the design" 
+            => 0 )
   }  (0 .. $#values);
   
 }
 sub config_matches_design_checks {
   my ($config, $design) = @_;
 #### contrasts: $config->{contrasts}
-  my %conditions_design = map {$_=>1} $design->all_conditions;
+  my %num_replicates_by_condition = pairmap { $a => scalar @$b } %{$design->replicates_by_condition};
   my @conditions_config = keys %{$config->{condition_names}};
-  my @conditions_match = map {("Condition $_ in config present in design" => $conditions_design{$_})} @conditions_config; 
+  my @conditions_match = map {("Condition $_ in config present in design" => $num_replicates_by_condition{$_})} @conditions_config; 
   my @contrasts_match = map {
-    list_of_contrasts_checks(\%conditions_design, $_->{name}, @{$_->{values}})
+    list_of_contrasts_checks(\%num_replicates_by_condition, $_->{name}, @{$_->{values}})
   } @{$config->{contrasts}};
 #### @contrasts_match
   return @conditions_match, @contrasts_match;

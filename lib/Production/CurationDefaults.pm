@@ -3,6 +3,7 @@ use warnings;
 
 package Production::CurationDefaults;
 use PublicResources::Rnaseq;
+use List::Util qw/pairmap/;
 use List::MoreUtils qw/uniq/;
 use Model::Study;
 use Model::Design;
@@ -207,9 +208,10 @@ sub is_drug_assay {
 }
 sub contrasts {
   my ($design)   = @_;
-  my %replicates = %{$design->runs_by_condition};
-  my @conditions = grep {@{$replicates{$_}} >= 2 } $design->all_conditions;
-  return [] unless @conditions;
+  my %replicates = pairmap {$a => scalar @$b } %{$design->replicates_by_condition};
+  # Soft minimum of replicates is 3, but we also allow 2 vs 3
+  my @conditions = grep {$replicates{$_} >= 2 } $design->all_conditions;
+  return [] unless grep { $replicates{$_} >= 3 } @conditions;
   my @chs        = $design->characteristics_varying_by_condition;
 #### All characteristics varying by conditions somewhere in the design: @chs
   my @result;
@@ -246,6 +248,9 @@ sub contrasts {
       }
       grep {
         ! is_drug_assay(@subset_chs) || is_contrast_across_characteristic("treatment", $design, @{$_}) 
+      }
+      grep {
+         not ($replicates{$_->[0]} < 3 and $replicates{$_->[1]} < 3)
       }
       map { n_choose_two( @{$_} ) }
       sort { join( "", @{$a} ) cmp join( "", @{$b} ) }
