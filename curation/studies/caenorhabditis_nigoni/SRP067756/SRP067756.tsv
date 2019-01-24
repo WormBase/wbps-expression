@@ -1,10 +1,10 @@
 Run	Condition	developmental_stage	genotype	phenotype	strain
-SRR3052006	Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae X chromosome (from 16.4 M to the end), sterile, ZZY10330	young adult male	Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae X chromosome (from 16.4 M to the end)	sterile	ZZY10330
-SRR3052007	Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae X chromosome (from 16.4 M to the end), sterile, ZZY10330	young adult male	Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae X chromosome (from 16.4 M to the end)	sterile	ZZY10330
-SRR3052008	Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae X chromosome (from 16.4 M to the end), sterile, ZZY10330	young adult male	Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae X chromosome (from 16.4 M to the end)	sterile	ZZY10330
-SRR3052003	Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae chromosome X (from 4.5M to 12.2M), sterile, ZZY10307	young adult male	Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae chromosome X (from 4.5M to 12.2M)	sterile	ZZY10307
-SRR3052004	Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae chromosome X (from 4.5M to 12.2M), sterile, ZZY10307	young adult male	Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae chromosome X (from 4.5M to 12.2M)	sterile	ZZY10307
-SRR3052005	Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae chromosome X (from 4.5M to 12.2M), sterile, ZZY10307	young adult male	Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae chromosome X (from 4.5M to 12.2M)	sterile	ZZY10307
-SRR3051997	wild type C. nigoni, fertile, JU1421	young adult male	wild type C. nigoni	fertile	JU1421
-SRR3051998	wild type C. nigoni, fertile, JU1421	young adult male	wild type C. nigoni	fertile	JU1421
-SRR3051999	wild type C. nigoni, fertile, JU1421	young adult male	wild type C. nigoni	fertile	JU1421
+SRR3052006	C.briggsae mutant 1	young adult male	Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae X chromosome (from 16.4 M to the end)	sterile	ZZY10330
+SRR3052007	C.briggsae mutant 1	young adult male	Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae X chromosome (from 16.4 M to the end)	sterile	ZZY10330
+SRR3052008	C.briggsae mutant 1	young adult male	Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae X chromosome (from 16.4 M to the end)	sterile	ZZY10330
+SRR3052003	C.briggsae mutant 2	young adult male	Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae chromosome X (from 4.5M to 12.2M)	sterile	ZZY10307
+SRR3052004	C.briggsae mutant 2	young adult male	Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae chromosome X (from 4.5M to 12.2M)	sterile	ZZY10307
+SRR3052005	C.briggsae mutant 2	young adult male	Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae chromosome X (from 4.5M to 12.2M)	sterile	ZZY10307
+SRR3051997	wild type	young adult male	wild type C. nigoni	fertile	JU1421
+SRR3051998	wild type	young adult male	wild type C. nigoni	fertile	JU1421
+SRR3051999	wild type	young adult male	wild type C. nigoni	fertile	JU1421

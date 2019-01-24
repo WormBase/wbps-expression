@@ -272,7 +272,7 @@ sub data_quality_checks {
     "Some characteristics should vary by condition"
        => (2 > $self->all_runs or 0 < $self->characteristics_varying_by_condition ),
      "If the study has fewer samples than replicates, it should have fewer conditions than samples"
-       => ($num_runs == $num_replicates || $num_conditions < $num_replicates ),
+       => ($num_runs < 2*$num_replicates || $num_conditions < $num_replicates ),
      @replicates_well_defined,
      @conditions_well_defined,
      @conditions_unique,

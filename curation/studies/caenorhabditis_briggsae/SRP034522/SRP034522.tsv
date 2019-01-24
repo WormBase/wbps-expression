@@ -1,14 +1,7 @@
-Run	Sample	Condition	developmental_stage	sex	strain	organism_part
-SRR1050781	SRS515696		embryo Ce	hermaphrodite	AF16	organism
-SRR1050782	SRS515697		embryo Ce	hermaphrodite	AF16	organism
-SRR1050783	SRS515698		embryo Ce	hermaphrodite	AF16	organism
-SRR1050784	SRS515699		L1 larva Ce	hermaphrodite	AF16	organism
-SRR1050785	SRS515700		L1 larva Ce	hermaphrodite	AF16	organism
-SRR1050786	SRS515701		L1 larva Ce	hermaphrodite	AF16	organism
-SRR1050787	SRS515702		L2 larva Ce	hermaphrodite	AF16	organism
-SRR1050788	SRS515703		L3 larva Ce	hermaphrodite	AF16	organism
-SRR1050790	SRS515704		L4 larva Ce	hermaphrodite	AF16	organism
-SRR1050789	SRS515705		L4 larva Ce	hermaphrodite	AF16	organism
-SRR1050791	SRS515706		adult	hermaphrodite	AF16	organism
-SRR1050792	SRS515707		all stages Ce	hermaphrodite	AF16	organism
-SRR1050793	SRS515708		all stages Ce	hermaphrodite	AF16	organism
+Run	Condition	developmental_stage	organism_part	sex	strain
+SRR1050785	L1 larva Ce	L1 larva Ce	organism	hermaphrodite	AF16
+SRR1050786	L1 larva Ce	L1 larva Ce	organism	hermaphrodite	AF16
+SRR1050791	adult	adult	organism	hermaphrodite	AF16
+SRR1050793	all stages Ce	all stages Ce	organism	hermaphrodite	AF16
+SRR1050782	embryo Ce	embryo Ce	organism	hermaphrodite	AF16
+SRR1050783	embryo Ce	embryo Ce	organism	hermaphrodite	AF16

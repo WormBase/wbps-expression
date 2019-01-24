@@ -1,19 +1,19 @@
-Run	Sample	Condition	depth	geographic_location	host	strain	treatment
-SRR1873812	SAMN03393004	dry cysts	0-20cm	Canada: St-Amable, QC	potato	Ro1	dry cysts
-SRR1873821	SAMN03393004	dry cysts	0-20cm	Canada: St-Amable, QC	potato	Ro1	dry cysts
-SRR1873820	SAMN03393012	hatched J2 larvea	0-20cm	Canada: St-Amable, QC	potato	Ro1	hatched J2 larvea
-SRR1873829	SAMN03393012	hatched J2 larvea	0-20cm	Canada: St-Amable, QC	potato	Ro1	hatched J2 larvea
-SRR1873813	SAMN03393005	hydrated cysts	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts
-SRR1873822	SAMN03393005	hydrated cysts	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts
-SRR1873814	SAMN03393006	hydrated cysts soaked 15m in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 15m in PRD
-SRR1873823	SAMN03393006	hydrated cysts soaked 15m in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 15m in PRD
-SRR1873815	SAMN03393007	hydrated cysts soaked 1h in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 1h in PRD
-SRR1873824	SAMN03393007	hydrated cysts soaked 1h in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 1h in PRD
-SRR1873817	SAMN03393009	hydrated cysts soaked 24h in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 24h in PRD
-SRR1873826	SAMN03393009	hydrated cysts soaked 24h in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 24h in PRD
-SRR1873818	SAMN03393010	hydrated cysts soaked 48h in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 48h in PRD
-SRR1873827	SAMN03393010	hydrated cysts soaked 48h in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 48h in PRD
-SRR1873819	SAMN03393011	hydrated cysts soaked 7d in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 7d in PRD
-SRR1873828	SAMN03393011	hydrated cysts soaked 7d in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 7d in PRD
-SRR1873816	SAMN03393008	hydrated cysts soaked 8h in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 8h in PRD
-SRR1873825	SAMN03393008	hydrated cysts soaked 8h in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 8h in PRD
+Run	Condition	depth	geographic_location	host	strain	treatment
+SRR1873812	dry cysts	0-20cm	Canada: St-Amable, QC	potato	Ro1	dry cysts
+SRR1873821	dry cysts	0-20cm	Canada: St-Amable, QC	potato	Ro1	dry cysts
+SRR1873820	hatched J2 larvea	0-20cm	Canada: St-Amable, QC	potato	Ro1	hatched J2 larvea
+SRR1873829	hatched J2 larvea	0-20cm	Canada: St-Amable, QC	potato	Ro1	hatched J2 larvea
+SRR1873813	hydrated cysts	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts
+SRR1873822	hydrated cysts	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts
+SRR1873814	hydrated cysts soaked 15m in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 15m in PRD
+SRR1873823	hydrated cysts soaked 15m in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 15m in PRD
+SRR1873815	hydrated cysts soaked 1h in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 1h in PRD
+SRR1873824	hydrated cysts soaked 1h in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 1h in PRD
+SRR1873817	hydrated cysts soaked 24h in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 24h in PRD
+SRR1873826	hydrated cysts soaked 24h in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 24h in PRD
+SRR1873818	hydrated cysts soaked 48h in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 48h in PRD
+SRR1873827	hydrated cysts soaked 48h in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 48h in PRD
+SRR1873819	hydrated cysts soaked 7d in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 7d in PRD
+SRR1873828	hydrated cysts soaked 7d in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 7d in PRD
+SRR1873816	hydrated cysts soaked 8h in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 8h in PRD
+SRR1873825	hydrated cysts soaked 8h in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 8h in PRD
