@@ -1,13 +1,13 @@
-Run	Sample	Condition	plane_of_amputation	sample_name	source_name	strain	treatment	zone
-SRR3206870	SAMN04535280	Wildtype zone 1	posterior extent of the photoreceptors	Wildtype zone 1	Wildtype animals	Asexual CIW4	Amputation fragment	1
-SRR3206871	SAMN04535280	Wildtype zone 1	posterior extent of the photoreceptors	Wildtype zone 1	Wildtype animals	Asexual CIW4	Amputation fragment	1
-SRR3206872	SAMN04535281	Wildtype zone 2	posterior extent of the brain	Wildtype zone 2	Wildtype animals	Asexual CIW4	Amputation fragment	2
-SRR3206873	SAMN04535281	Wildtype zone 2	posterior extent of the brain	Wildtype zone 2	Wildtype animals	Asexual CIW4	Amputation fragment	2
-SRR3206874	SAMN04535282	Wildtype zone 3	anterior extent of the pharynx	Wildtype zone 3	Wildtype animals	Asexual CIW4	Amputation fragment	3
-SRR3206875	SAMN04535282	Wildtype zone 3	anterior extent of the pharynx	Wildtype zone 3	Wildtype animals	Asexual CIW4	Amputation fragment	3
-SRR3206876	SAMN04535283	Wildtype zone 4	posterior extent of the pharynx	Wildtype zone 4	Wildtype animals	Asexual CIW4	Amputation fragment	4
-SRR3206877	SAMN04535283	Wildtype zone 4	posterior extent of the pharynx	Wildtype zone 4	Wildtype animals	Asexual CIW4	Amputation fragment	4
-SRR3206878	SAMN04535284	Wildtype zone 5	midpoint between posterior pharynx and tail tip	Wildtype zone 5	Wildtype animals	Asexual CIW4	Amputation fragment	5
-SRR3206879	SAMN04535284	Wildtype zone 5	midpoint between posterior pharynx and tail tip	Wildtype zone 5	Wildtype animals	Asexual CIW4	Amputation fragment	5
-SRR3206880	SAMN04535285	Wildtype zone 6	last remaining piece of tail tip	Wildtype zone 6	Wildtype animals	Asexual CIW4	Amputation fragment	6
-SRR3206881	SAMN04535285	Wildtype zone 6	last remaining piece of tail tip	Wildtype zone 6	Wildtype animals	Asexual CIW4	Amputation fragment	6
+Run	Condition	plane_of_amputation	sample_name	source_name	strain	treatment	zone
+SRR3206870	Wildtype zone 1	posterior extent of the photoreceptors	Wildtype zone 1	Wildtype animals	Asexual CIW4	Amputation fragment	1
+SRR3206871	Wildtype zone 1	posterior extent of the photoreceptors	Wildtype zone 1	Wildtype animals	Asexual CIW4	Amputation fragment	1
+SRR3206872	Wildtype zone 2	posterior extent of the brain	Wildtype zone 2	Wildtype animals	Asexual CIW4	Amputation fragment	2
+SRR3206873	Wildtype zone 2	posterior extent of the brain	Wildtype zone 2	Wildtype animals	Asexual CIW4	Amputation fragment	2
+SRR3206874	Wildtype zone 3	anterior extent of the pharynx	Wildtype zone 3	Wildtype animals	Asexual CIW4	Amputation fragment	3
+SRR3206875	Wildtype zone 3	anterior extent of the pharynx	Wildtype zone 3	Wildtype animals	Asexual CIW4	Amputation fragment	3
+SRR3206876	Wildtype zone 4	posterior extent of the pharynx	Wildtype zone 4	Wildtype animals	Asexual CIW4	Amputation fragment	4
+SRR3206877	Wildtype zone 4	posterior extent of the pharynx	Wildtype zone 4	Wildtype animals	Asexual CIW4	Amputation fragment	4
+SRR3206878	Wildtype zone 5	midpoint between posterior pharynx and tail tip	Wildtype zone 5	Wildtype animals	Asexual CIW4	Amputation fragment	5
+SRR3206879	Wildtype zone 5	midpoint between posterior pharynx and tail tip	Wildtype zone 5	Wildtype animals	Asexual CIW4	Amputation fragment	5
+SRR3206880	Wildtype zone 6	last remaining piece of tail tip	Wildtype zone 6	Wildtype animals	Asexual CIW4	Amputation fragment	6
+SRR3206881	Wildtype zone 6	last remaining piece of tail tip	Wildtype zone 6	Wildtype animals	Asexual CIW4	Amputation fragment	6

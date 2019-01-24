@@ -1,13 +1,13 @@
-Run	Sample	Condition	source_name	strain	treatment
-SRR7704560	SAMN09845970	Asexual CIW10, myb-1 RNAi	Wildtype animals (30 animals)	Asexual CIW10	myb-1 RNAi
-SRR7704561	SAMN09845970	Asexual CIW10, myb-1 RNAi	Wildtype animals (30 animals)	Asexual CIW10	myb-1 RNAi
-SRR7704562	SAMN09845969	Asexual CIW12, myb-1 RNAi	Wildtype animals (30 animals)	Asexual CIW12	myb-1 RNAi
-SRR7704563	SAMN09845969	Asexual CIW12, myb-1 RNAi	Wildtype animals (30 animals)	Asexual CIW12	myb-1 RNAi
-SRR7704564	SAMN09845968	Asexual CIW14, myb-1 RNAi	Wildtype animals (30 animals)	Asexual CIW14	myb-1 RNAi
-SRR7704565	SAMN09845968	Asexual CIW14, myb-1 RNAi	Wildtype animals (30 animals)	Asexual CIW14	myb-1 RNAi
-SRR7704554	SAMN09845973	Asexual CIW4, control RNAi	Wildtype animals (30 animals)	Asexual CIW4	control RNAi
-SRR7704555	SAMN09845973	Asexual CIW4, control RNAi	Wildtype animals (30 animals)	Asexual CIW4	control RNAi
-SRR7704556	SAMN09845972	Asexual CIW6, control RNAi	Wildtype animals (30 animals)	Asexual CIW6	control RNAi
-SRR7704557	SAMN09845972	Asexual CIW6, control RNAi	Wildtype animals (30 animals)	Asexual CIW6	control RNAi
-SRR7704558	SAMN09845971	Asexual CIW8, control RNAi	Wildtype animals (30 animals)	Asexual CIW8	control RNAi
-SRR7704559	SAMN09845971	Asexual CIW8, control RNAi	Wildtype animals (30 animals)	Asexual CIW8	control RNAi
+Run	Condition	source_name	strain	treatment
+SRR7704560	Asexual CIW10, myb-1 RNAi	Wildtype animals (30 animals)	Asexual CIW10	myb-1 RNAi
+SRR7704561	Asexual CIW10, myb-1 RNAi	Wildtype animals (30 animals)	Asexual CIW10	myb-1 RNAi
+SRR7704562	Asexual CIW12, myb-1 RNAi	Wildtype animals (30 animals)	Asexual CIW12	myb-1 RNAi
+SRR7704563	Asexual CIW12, myb-1 RNAi	Wildtype animals (30 animals)	Asexual CIW12	myb-1 RNAi
+SRR7704564	Asexual CIW14, myb-1 RNAi	Wildtype animals (30 animals)	Asexual CIW14	myb-1 RNAi
+SRR7704565	Asexual CIW14, myb-1 RNAi	Wildtype animals (30 animals)	Asexual CIW14	myb-1 RNAi
+SRR7704554	Asexual CIW4, control RNAi	Wildtype animals (30 animals)	Asexual CIW4	control RNAi
+SRR7704555	Asexual CIW4, control RNAi	Wildtype animals (30 animals)	Asexual CIW4	control RNAi
+SRR7704556	Asexual CIW6, control RNAi	Wildtype animals (30 animals)	Asexual CIW6	control RNAi
+SRR7704557	Asexual CIW6, control RNAi	Wildtype animals (30 animals)	Asexual CIW6	control RNAi
+SRR7704558	Asexual CIW8, control RNAi	Wildtype animals (30 animals)	Asexual CIW8	control RNAi
+SRR7704559	Asexual CIW8, control RNAi	Wildtype animals (30 animals)	Asexual CIW8	control RNAi

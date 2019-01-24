@@ -1,6 +1,20 @@
 ---
 condition_names: {}
-contrasts: []
+contrasts:
+  - name: treatment
+    values:
+      -
+        - 'x1 cells, gfp RNAi'
+        - 'x1 cells, ints3 RNAi'
+        - 'x1 cells: gfp RNAi vs ints3 RNAi'
+      -
+        - 'x1 cells, gfp RNAi'
+        - 'x1 cells, ints9 RNAi'
+        - 'x1 cells: gfp RNAi vs ints9 RNAi'
+      -
+        - 'x1 cells, ints3 RNAi'
+        - 'x1 cells, ints9 RNAi'
+        - 'x1 cells: ints3 RNAi vs ints9 RNAi'
 description: Schmidtea mediterranea Integrator complex subunit knockdown and small RNA sequencing
 pubmed: ~
 submitting_centre: Max Planck Institute for Molecular Biomedicine

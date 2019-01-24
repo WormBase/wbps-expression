@@ -61,7 +61,7 @@ sub list_of_contrasts_checks {
   return map { 
     my ($reference, $test, $contrast_name) = @{$values[$_]};
     my $nrr = $num_replicates_by_condition->{$reference};
-    my $nrt = $num_replicates_by_condition->{$reference};
+    my $nrt = $num_replicates_by_condition->{$test};
     $contrast_name && $nrr && $nrt
       ? ("$contrast_name should have enough replicates, is: $nrr ref $nrt test"
             => not ($nrr < 3 && $nrt < 3))
