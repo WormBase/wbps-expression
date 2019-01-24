@@ -4,19 +4,7 @@ condition_names:
   'female, levamisole sensitive': 'female, strain levamisole sensitive'
   'male, levamisole resistant': 'male, strain levamisole resistant'
   'male, levamisole sensitive': 'male, strain levamisole sensitive'
-contrasts:
-  - name: strain
-    values:
-      -
-        - 'female, levamisole resistant'
-        - 'female, levamisole sensitive'
-        - 'female: levamisole resistant vs levamisole sensitive'
-  - name: sex
-    values:
-      -
-        - 'female, levamisole resistant'
-        - 'male, levamisole resistant'
-        - 'levamisole resistant: female vs male'
+contrasts: []
 description: mRNA-seq analysis of Levamisole resistance in Oesophagostomum dentatum
 pubmed: ~
 submitting_centre: Iowa State University

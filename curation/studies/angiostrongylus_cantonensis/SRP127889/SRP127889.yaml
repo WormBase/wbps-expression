@@ -1,12 +1,6 @@
 ---
 condition_names: {}
-contrasts:
-  - name: developmental_host+host_organism_part
-    values:
-      -
-        - 'L3, Biomphalaria glabrata'
-        - 'L4 (21 d.p.i), Rattus norvegicus'
-        - 'L3, Biomphalaria glabrata vs L4 (21 d.p.i), Rattus norvegicus'
+contrasts: []
 description: Angiostrongylus cantonensis Transcriptome
 pubmed: ~
 submitting_centre: Sun Yat-sen University

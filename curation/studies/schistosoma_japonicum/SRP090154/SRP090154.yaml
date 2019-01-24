@@ -4,37 +4,263 @@ contrasts:
   - name: sex
     values:
       -
-        - '14day, female'
-        - '14day, male'
-        - '14day: female vs male'
+        - '14 days, female'
+        - '14 days, male'
+        - '14 days: female vs male'
       -
-        - '16day, female'
-        - '16day, male'
-        - '16day: female vs male'
+        - '16 days, female'
+        - '16 days, male'
+        - '16 days: female vs male'
       -
-        - '18day, female'
-        - '18day, male'
-        - '18day: female vs male'
+        - '18 days, female'
+        - '18 days, male'
+        - '18 days: female vs male'
       -
-        - '20day, female'
-        - '20day, male'
-        - '20day: female vs male'
+        - '20 days, female'
+        - '20 days, male'
+        - '20 days: female vs male'
       -
-        - '22day, female'
-        - '22day, male'
-        - '22day: female vs male'
+        - '22 days, female'
+        - '22 days, male'
+        - '22 days: female vs male'
       -
-        - '24day, female'
-        - '24day, male'
-        - '24day: female vs male'
+        - '24 days, female'
+        - '24 days, male'
+        - '24 days: female vs male'
       -
-        - '26day, female'
-        - '26day, male'
-        - '26day: female vs male'
+        - '26 days, female'
+        - '26 days, male'
+        - '26 days: female vs male'
       -
-        - '28day, female'
-        - '28day, male'
-        - '28day: female vs male'
+        - '28 days, female'
+        - '28 days, male'
+        - '28 days: female vs male'
+  - name: age
+    values:
+      -
+        - '14 days, female'
+        - '16 days, female'
+        - 'female: 14 days vs 16 days'
+      -
+        - '14 days, female'
+        - '18 days, female'
+        - 'female: 14 days vs 18 days'
+      -
+        - '14 days, female'
+        - '20 days, female'
+        - 'female: 14 days vs 20 days'
+      -
+        - '14 days, female'
+        - '22 days, female'
+        - 'female: 14 days vs 22 days'
+      -
+        - '14 days, female'
+        - '24 days, female'
+        - 'female: 14 days vs 24 days'
+      -
+        - '14 days, female'
+        - '26 days, female'
+        - 'female: 14 days vs 26 days'
+      -
+        - '14 days, female'
+        - '28 days, female'
+        - 'female: 14 days vs 28 days'
+      -
+        - '16 days, female'
+        - '18 days, female'
+        - 'female: 16 days vs 18 days'
+      -
+        - '16 days, female'
+        - '20 days, female'
+        - 'female: 16 days vs 20 days'
+      -
+        - '16 days, female'
+        - '22 days, female'
+        - 'female: 16 days vs 22 days'
+      -
+        - '16 days, female'
+        - '24 days, female'
+        - 'female: 16 days vs 24 days'
+      -
+        - '16 days, female'
+        - '26 days, female'
+        - 'female: 16 days vs 26 days'
+      -
+        - '16 days, female'
+        - '28 days, female'
+        - 'female: 16 days vs 28 days'
+      -
+        - '18 days, female'
+        - '20 days, female'
+        - 'female: 18 days vs 20 days'
+      -
+        - '18 days, female'
+        - '22 days, female'
+        - 'female: 18 days vs 22 days'
+      -
+        - '18 days, female'
+        - '24 days, female'
+        - 'female: 18 days vs 24 days'
+      -
+        - '18 days, female'
+        - '26 days, female'
+        - 'female: 18 days vs 26 days'
+      -
+        - '18 days, female'
+        - '28 days, female'
+        - 'female: 18 days vs 28 days'
+      -
+        - '20 days, female'
+        - '22 days, female'
+        - 'female: 20 days vs 22 days'
+      -
+        - '20 days, female'
+        - '24 days, female'
+        - 'female: 20 days vs 24 days'
+      -
+        - '20 days, female'
+        - '26 days, female'
+        - 'female: 20 days vs 26 days'
+      -
+        - '20 days, female'
+        - '28 days, female'
+        - 'female: 20 days vs 28 days'
+      -
+        - '22 days, female'
+        - '24 days, female'
+        - 'female: 22 days vs 24 days'
+      -
+        - '22 days, female'
+        - '26 days, female'
+        - 'female: 22 days vs 26 days'
+      -
+        - '22 days, female'
+        - '28 days, female'
+        - 'female: 22 days vs 28 days'
+      -
+        - '24 days, female'
+        - '26 days, female'
+        - 'female: 24 days vs 26 days'
+      -
+        - '24 days, female'
+        - '28 days, female'
+        - 'female: 24 days vs 28 days'
+      -
+        - '26 days, female'
+        - '28 days, female'
+        - 'female: 26 days vs 28 days'
+      -
+        - '14 days, male'
+        - '16 days, male'
+        - 'male: 14 days vs 16 days'
+      -
+        - '14 days, male'
+        - '18 days, male'
+        - 'male: 14 days vs 18 days'
+      -
+        - '14 days, male'
+        - '20 days, male'
+        - 'male: 14 days vs 20 days'
+      -
+        - '14 days, male'
+        - '22 days, male'
+        - 'male: 14 days vs 22 days'
+      -
+        - '14 days, male'
+        - '24 days, male'
+        - 'male: 14 days vs 24 days'
+      -
+        - '14 days, male'
+        - '26 days, male'
+        - 'male: 14 days vs 26 days'
+      -
+        - '14 days, male'
+        - '28 days, male'
+        - 'male: 14 days vs 28 days'
+      -
+        - '16 days, male'
+        - '18 days, male'
+        - 'male: 16 days vs 18 days'
+      -
+        - '16 days, male'
+        - '20 days, male'
+        - 'male: 16 days vs 20 days'
+      -
+        - '16 days, male'
+        - '22 days, male'
+        - 'male: 16 days vs 22 days'
+      -
+        - '16 days, male'
+        - '24 days, male'
+        - 'male: 16 days vs 24 days'
+      -
+        - '16 days, male'
+        - '26 days, male'
+        - 'male: 16 days vs 26 days'
+      -
+        - '16 days, male'
+        - '28 days, male'
+        - 'male: 16 days vs 28 days'
+      -
+        - '18 days, male'
+        - '20 days, male'
+        - 'male: 18 days vs 20 days'
+      -
+        - '18 days, male'
+        - '22 days, male'
+        - 'male: 18 days vs 22 days'
+      -
+        - '18 days, male'
+        - '24 days, male'
+        - 'male: 18 days vs 24 days'
+      -
+        - '18 days, male'
+        - '26 days, male'
+        - 'male: 18 days vs 26 days'
+      -
+        - '18 days, male'
+        - '28 days, male'
+        - 'male: 18 days vs 28 days'
+      -
+        - '20 days, male'
+        - '22 days, male'
+        - 'male: 20 days vs 22 days'
+      -
+        - '20 days, male'
+        - '24 days, male'
+        - 'male: 20 days vs 24 days'
+      -
+        - '20 days, male'
+        - '26 days, male'
+        - 'male: 20 days vs 26 days'
+      -
+        - '20 days, male'
+        - '28 days, male'
+        - 'male: 20 days vs 28 days'
+      -
+        - '22 days, male'
+        - '24 days, male'
+        - 'male: 22 days vs 24 days'
+      -
+        - '22 days, male'
+        - '26 days, male'
+        - 'male: 22 days vs 26 days'
+      -
+        - '22 days, male'
+        - '28 days, male'
+        - 'male: 22 days vs 28 days'
+      -
+        - '24 days, male'
+        - '26 days, male'
+        - 'male: 24 days vs 26 days'
+      -
+        - '24 days, male'
+        - '28 days, male'
+        - 'male: 24 days vs 28 days'
+      -
+        - '26 days, male'
+        - '28 days, male'
+        - 'male: 26 days vs 28 days'
 description: Dynamic transcriptome surveys revealed that biogenic amines and insect-like hormonal regulation are involved in Schistosoma japonicum pairing and reproductive development
 pubmed: ~
 submitting_centre: 'National Institute of Parasitic Diseases, Chinese Center for Disease Control and Prevention'

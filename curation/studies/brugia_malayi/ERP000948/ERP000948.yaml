@@ -1,20 +1,6 @@
 ---
 condition_names: {}
-contrasts:
-  - name: developmental_stage+sex
-    values:
-      -
-        - Adult female
-        - Eggs/embryos
-        - Adult female vs Eggs/embryos
-      -
-        - Adult female
-        - L4
-        - Adult female vs L4
-      -
-        - Eggs/embryos
-        - L4
-        - Eggs/embryos vs L4
+contrasts: []
 description: 'High-throughput sequencing to profile the transcriptome of the human filarial nematode Brugia malayi, the causative agent of lymphatic filariasis, across multiple life-cycle stages.'
 pubmed: ~
 submitting_centre: Wellcome Sanger Institute

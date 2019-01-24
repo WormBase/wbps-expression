@@ -1,32 +1,6 @@
 ---
 condition_names: {}
-contrasts:
-  - name: developmental_stage
-    values:
-      -
-        - RNA IJ
-        - RNA L1
-        - RNA IJ vs RNA L1
-      -
-        - RNA IJ
-        - RNA embryo
-        - RNA IJ vs RNA embryo
-      -
-        - RNA IJ
-        - RNA young adult
-        - RNA IJ vs RNA young adult
-      -
-        - RNA L1
-        - RNA embryo
-        - RNA L1 vs RNA embryo
-      -
-        - RNA L1
-        - RNA young adult
-        - RNA L1 vs RNA young adult
-      -
-        - RNA embryo
-        - RNA young adult
-        - RNA embryo vs RNA young adult
+contrasts: []
 description: Comparative genomics of Steinernema reveals deeply conserved gene regulatory networks
 pubmed: ~
 submitting_centre: 'University of California, Irvine'

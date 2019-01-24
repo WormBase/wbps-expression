@@ -1,26 +1,6 @@
 ---
 condition_names: {}
-contrasts:
-  - name: timepoint
-    values:
-      -
-        - 'FoxD, 0d'
-        - 'FoxD, 3d'
-        - 'FoxD: 0d vs 3d'
-      -
-        - 'GFP, 0d'
-        - 'GFP, 3d'
-        - 'GFP: 0d vs 3d'
-  - name: rnai
-    values:
-      -
-        - 'FoxD, 0d'
-        - 'GFP, 0d'
-        - '0d: FoxD vs GFP'
-      -
-        - 'FoxD, 3d'
-        - 'GFP, 3d'
-        - '3d: FoxD vs GFP'
+contrasts: []
 description: Schmidtea mediterranea FoxD-GFP RNAi Differential Expression Analysis
 pubmed:
   24704339:

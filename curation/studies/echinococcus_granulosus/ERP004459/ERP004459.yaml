@@ -1,12 +1,6 @@
 ---
 condition_names: {}
-contrasts:
-  - name: developmental_stage+organism_part
-    values:
-      -
-        - 'Metacestode, cyst wall'
-        - Non-activated protoscolex
-        - 'Metacestode, cyst wall vs Non-activated protoscolex'
+contrasts: []
 description: 'Project to investigate gene and small RNA expression of tapeworms (including Echinococcus multilocularis, E. granulosus, Hymenolepis microstoma). '
 pubmed: ~
 submitting_centre: Wellcome Sanger Institute

@@ -1,20 +1,6 @@
 ---
 condition_names: {}
-contrasts:
-  - name: culture_conditions
-    values:
-      -
-        - OP50
-        - Yeast C3
-        - OP50 vs Yeast C3
-      -
-        - OP50
-        - Yeast C5
-        - OP50 vs Yeast C5
-      -
-        - Yeast C3
-        - Yeast C5
-        - Yeast C3 vs Yeast C5
+contrasts: []
 description: Life history responses and gene expression profiles of the nematode Pristionchus pacificus cultured on Cryptococcus yeasts
 pubmed: ~
 submitting_centre: Max planck institute for developmental biology

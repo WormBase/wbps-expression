@@ -1,7 +1,4 @@
 ---
-condition_names:
-  '': sample from Acrobeloides nanus
-contrasts: []
 description: Comparing gene pathways between different modes of development in Nematoda
 pubmed: ~
 submitting_centre: New York University

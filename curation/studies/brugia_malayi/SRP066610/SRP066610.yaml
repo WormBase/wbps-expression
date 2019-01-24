@@ -7,59 +7,7 @@ condition_names:
   'Ivermectin 100nM, 24 h': 'Ivermectin 100nM, RNA extraction at 24 h'
   'Ivermectin 100nM, 48 h': 'Ivermectin 100nM, RNA extraction at 48 h'
   'Ivermectin 100nM, 72 h': 'Ivermectin 100nM, RNA extraction at 72 h'
-contrasts:
-  - name: timepoint
-    values:
-      -
-        - 0h
-        - 24 h
-        - 0h vs 24 h
-      -
-        - 0h
-        - 48 h
-        - 0h vs 48 h
-      -
-        - 0h
-        - 72 h
-        - 0h vs 72 h
-      -
-        - 24 h
-        - 48 h
-        - 24 h vs 48 h
-      -
-        - 24 h
-        - 72 h
-        - 24 h vs 72 h
-      -
-        - 48 h
-        - 72 h
-        - 48 h vs 72 h
-      -
-        - 'Ivermectin 100nM, 24 h'
-        - 'Ivermectin 100nM, 48 h'
-        - 'Ivermectin 100nM, 24 h vs Ivermectin 100nM, 48 h'
-      -
-        - 'Ivermectin 100nM, 24 h'
-        - 'Ivermectin 100nM, 72 h'
-        - 'Ivermectin 100nM, 24 h vs Ivermectin 100nM, 72 h'
-      -
-        - 'Ivermectin 100nM, 48 h'
-        - 'Ivermectin 100nM, 72 h'
-        - 'Ivermectin 100nM, 48 h vs Ivermectin 100nM, 72 h'
-  - name: ivm_concentration
-    values:
-      -
-        - 24 h
-        - 'Ivermectin 100nM, 24 h'
-        - '24 h vs Ivermectin 100nM, 24 h'
-      -
-        - 48 h
-        - 'Ivermectin 100nM, 48 h'
-        - '48 h vs Ivermectin 100nM, 48 h'
-      -
-        - 72 h
-        - 'Ivermectin 100nM, 72 h'
-        - '72 h vs Ivermectin 100nM, 72 h'
+contrasts: []
 description: 'Deciphering the loss of fertility in ivermectin-treated Brugia malayi females in vitro: a transcriptomic approach [Study I]'
 pubmed:
   27529747:

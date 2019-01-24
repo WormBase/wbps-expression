@@ -1,16 +1,6 @@
 ---
 condition_names: {}
-contrasts:
-  - name: individual
-    values:
-      -
-        - Adult female individual 1
-        - Adult female individual 2
-        - 'Adult female individual: 1 vs 2'
-      -
-        - Adult male individual 3
-        - Adult male individual 4
-        - 'Adult male individual: 3 vs 4'
+contrasts: []
 description: Ascaris suum Genome sequencing
 pubmed:
   22031327:

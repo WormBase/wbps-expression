@@ -1,6 +1,6 @@
 ---
 condition_names:
-  Free-living females: Young gravid free-living females with 1-6 eggs per gonadal arm
+  Free-living females: Young gravid free-living females
   L3+: 'In vivo activated third-stage larvae, female'
   L3i: Infectious female third stage larvae
   Parasitic females: Gravid parasitic female
@@ -8,36 +8,92 @@ condition_names:
   Post parasitic L1: 'Post parasitic first stage larvae, mixed sex'
   Post parasitic L3: 'Post parasitic heterogonically developing third stage larvae, female enriched'
 contrasts:
-  - name: ''
+  - name: developmental_stage
     values:
+      -
+        - Free-living females
+        - L3+
+        - Free-living females vs L3+
       -
         - Free-living females
         - L3i
         - Free-living females vs L3i
       -
         - Free-living females
+        - Parasitic females
+        - Free-living females vs Parasitic females
+      -
+        - Free-living females
         - Post free-living L1
         - Free-living females vs Post free-living L1
       -
         - Free-living females
+        - Post parasitic L1
+        - Free-living females vs Post parasitic L1
+      -
+        - Free-living females
         - Post parasitic L3
         - Free-living females vs Post parasitic L3
+      -
+        - L3+
+        - L3i
+        - L3+ vs L3i
+      -
+        - L3+
+        - Parasitic females
+        - L3+ vs Parasitic females
+      -
+        - L3+
+        - Post free-living L1
+        - L3+ vs Post free-living L1
+      -
+        - L3+
+        - Post parasitic L1
+        - L3+ vs Post parasitic L1
+      -
+        - L3+
+        - Post parasitic L3
+        - L3+ vs Post parasitic L3
+      -
+        - L3i
+        - Parasitic females
+        - L3i vs Parasitic females
       -
         - L3i
         - Post free-living L1
         - L3i vs Post free-living L1
       -
         - L3i
+        - Post parasitic L1
+        - L3i vs Post parasitic L1
+      -
+        - L3i
         - Post parasitic L3
         - L3i vs Post parasitic L3
+      -
+        - Parasitic females
+        - Post free-living L1
+        - Parasitic females vs Post free-living L1
+      -
+        - Parasitic females
+        - Post parasitic L1
+        - Parasitic females vs Post parasitic L1
+      -
+        - Parasitic females
+        - Post parasitic L3
+        - Parasitic females vs Post parasitic L3
+      -
+        - Post free-living L1
+        - Post parasitic L1
+        - Post free-living L1 vs Post parasitic L1
       -
         - Post free-living L1
         - Post parasitic L3
         - Post free-living L1 vs Post parasitic L3
       -
-        - L3+
-        - Parasitic females
-        - L3+ vs Parasitic females
+        - Post parasitic L1
+        - Post parasitic L3
+        - Post parasitic L1 vs Post parasitic L3
 description: RNAseq study to examine developmental regulation of S. stercoralis transcripts with a focus on infectious third-stage larvae
 pubmed: ~
 submitting_centre: Penn Genome Frontiers Institute
