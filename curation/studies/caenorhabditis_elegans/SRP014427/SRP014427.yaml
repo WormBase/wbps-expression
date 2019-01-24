@@ -1,0 +1,17 @@
+---
+condition_names: {}
+contrasts:
+  - name: developmental_stage
+    values:
+      -
+        - L1 larva Ce
+        - L2 larva Ce
+        - L1 larva Ce vs L2 larva Ce
+      -
+        - L2 larva Ce
+        - L4 larva Ce
+        - L2 larva Ce vs L4 larva Ce
+description: Caenorhabditis elegans ribosome profiling of miRNA targets
+pubmed: ~
+submitting_centre: Stanford University
+title: Caenorhabditis elegans ribosome profiling of miRNA targets

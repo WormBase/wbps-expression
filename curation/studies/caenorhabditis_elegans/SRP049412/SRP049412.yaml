@@ -1,4 +1,6 @@
 ---
+condition_names: {}
+contrasts: []
 description: Defining soma-specific/enriched and germline-specific/enriched transcripts
 pubmed:
   25378320:

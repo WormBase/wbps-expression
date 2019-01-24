@@ -1,0 +1,506 @@
+---
+condition_names: {}
+contrasts:
+  - name: organism_part
+    values:
+      -
+        - '110 min post first-cleavage Ce, AB'
+        - '110 min post first-cleavage Ce, MS'
+        - '110 min post first-cleavage Ce: AB vs MS'
+      -
+        - '110 min post first-cleavage Ce, C'
+        - '110 min post first-cleavage Ce, MS'
+        - '110 min post first-cleavage Ce, C vs 110 min post first-cleavage Ce, MS'
+      -
+        - '140 min post first-cleavage Ce, E'
+        - '140 min post first-cleavage Ce, ventral cord blast cell'
+        - '140 min post first-cleavage Ce: E vs ventral cord blast cell'
+      -
+        - '180 min post first-cleavage Ce, AB'
+        - '180 min post first-cleavage Ce, C'
+        - '180 min post first-cleavage Ce, AB vs 180 min post first-cleavage Ce, C'
+      -
+        - '180 min post first-cleavage Ce, AB'
+        - '180 min post first-cleavage Ce, E'
+        - '180 min post first-cleavage Ce: AB vs E'
+      -
+        - '180 min post first-cleavage Ce, AB'
+        - '180 min post first-cleavage Ce, MS'
+        - '180 min post first-cleavage Ce: AB vs MS'
+      -
+        - '180 min post first-cleavage Ce, AB'
+        - '180 min post first-cleavage Ce, ventral cord blast cell'
+        - '180 min post first-cleavage Ce: AB vs ventral cord blast cell'
+      -
+        - '180 min post first-cleavage Ce, C'
+        - '180 min post first-cleavage Ce, E'
+        - '180 min post first-cleavage Ce, C vs 180 min post first-cleavage Ce, E'
+      -
+        - '180 min post first-cleavage Ce, E'
+        - '180 min post first-cleavage Ce, MS'
+        - '180 min post first-cleavage Ce: E vs MS'
+      -
+        - '180 min post first-cleavage Ce, E'
+        - '180 min post first-cleavage Ce, ventral cord blast cell'
+        - '180 min post first-cleavage Ce: E vs ventral cord blast cell'
+      -
+        - '20 min post first-cleavage Ce, AB'
+        - '20 min post first-cleavage Ce, EMS'
+        - '20 min post first-cleavage Ce: AB vs EMS'
+      -
+        - '20 min post first-cleavage Ce, AB'
+        - '20 min post first-cleavage Ce, P2'
+        - '20 min post first-cleavage Ce: AB vs P2'
+      -
+        - '20 min post first-cleavage Ce, EMS'
+        - '20 min post first-cleavage Ce, P2'
+        - '20 min post first-cleavage Ce: EMS vs P2'
+      -
+        - '270 min post first-cleavage Ce, AB'
+        - '270 min post first-cleavage Ce, E'
+        - '270 min post first-cleavage Ce: AB vs E'
+      -
+        - '270 min post first-cleavage Ce, E'
+        - '270 min post first-cleavage Ce, MS'
+        - '270 min post first-cleavage Ce: E vs MS'
+      -
+        - '40 min post first-cleavage Ce, AB'
+        - '40 min post first-cleavage Ce, E'
+        - '40 min post first-cleavage Ce: AB vs E'
+      -
+        - '40 min post first-cleavage Ce, AB'
+        - '40 min post first-cleavage Ce, MS'
+        - '40 min post first-cleavage Ce: AB vs MS'
+      -
+        - '40 min post first-cleavage Ce, AB'
+        - '40 min post first-cleavage Ce, ventral cord blast cell'
+        - '40 min post first-cleavage Ce: AB vs ventral cord blast cell'
+      -
+        - '40 min post first-cleavage Ce, E'
+        - '40 min post first-cleavage Ce, MS'
+        - '40 min post first-cleavage Ce: E vs MS'
+      -
+        - '40 min post first-cleavage Ce, E'
+        - '40 min post first-cleavage Ce, ventral cord blast cell'
+        - '40 min post first-cleavage Ce: E vs ventral cord blast cell'
+      -
+        - '40 min post first-cleavage Ce, MS'
+        - '40 min post first-cleavage Ce, ventral cord blast cell'
+        - '40 min post first-cleavage Ce: MS vs ventral cord blast cell'
+      -
+        - '60 min post first-cleavage Ce, AB'
+        - '60 min post first-cleavage Ce, C'
+        - '60 min post first-cleavage Ce, AB vs 60 min post first-cleavage Ce, C'
+      -
+        - '60 min post first-cleavage Ce, AB'
+        - '60 min post first-cleavage Ce, E'
+        - '60 min post first-cleavage Ce: AB vs E'
+      -
+        - '60 min post first-cleavage Ce, AB'
+        - '60 min post first-cleavage Ce, MS'
+        - '60 min post first-cleavage Ce: AB vs MS'
+      -
+        - '60 min post first-cleavage Ce, AB'
+        - '60 min post first-cleavage Ce, ventral cord blast cell'
+        - '60 min post first-cleavage Ce: AB vs ventral cord blast cell'
+      -
+        - '60 min post first-cleavage Ce, C'
+        - '60 min post first-cleavage Ce, E'
+        - '60 min post first-cleavage Ce, C vs 60 min post first-cleavage Ce, E'
+      -
+        - '60 min post first-cleavage Ce, C'
+        - '60 min post first-cleavage Ce, MS'
+        - '60 min post first-cleavage Ce, C vs 60 min post first-cleavage Ce, MS'
+      -
+        - '60 min post first-cleavage Ce, C'
+        - '60 min post first-cleavage Ce, ventral cord blast cell'
+        - '60 min post first-cleavage Ce, C vs 60 min post first-cleavage Ce, ventral cord blast cell'
+      -
+        - '60 min post first-cleavage Ce, E'
+        - '60 min post first-cleavage Ce, MS'
+        - '60 min post first-cleavage Ce: E vs MS'
+      -
+        - '60 min post first-cleavage Ce, E'
+        - '60 min post first-cleavage Ce, ventral cord blast cell'
+        - '60 min post first-cleavage Ce: E vs ventral cord blast cell'
+      -
+        - '60 min post first-cleavage Ce, MS'
+        - '60 min post first-cleavage Ce, ventral cord blast cell'
+        - '60 min post first-cleavage Ce: MS vs ventral cord blast cell'
+      -
+        - '90 min post first-cleavage Ce, AB'
+        - '90 min post first-cleavage Ce, E'
+        - '90 min post first-cleavage Ce: AB vs E'
+      -
+        - '90 min post first-cleavage Ce, AB'
+        - '90 min post first-cleavage Ce, MS'
+        - '90 min post first-cleavage Ce: AB vs MS'
+      -
+        - '90 min post first-cleavage Ce, C'
+        - '90 min post first-cleavage Ce, E'
+        - '90 min post first-cleavage Ce, C vs 90 min post first-cleavage Ce, E'
+      -
+        - '90 min post first-cleavage Ce, C'
+        - '90 min post first-cleavage Ce, MS'
+        - '90 min post first-cleavage Ce, C vs 90 min post first-cleavage Ce, MS'
+      -
+        - '90 min post first-cleavage Ce, E'
+        - '90 min post first-cleavage Ce, MS'
+        - '90 min post first-cleavage Ce: E vs MS'
+      -
+        - '90 min post first-cleavage Ce, E'
+        - '90 min post first-cleavage Ce, ventral cord blast cell'
+        - '90 min post first-cleavage Ce: E vs ventral cord blast cell'
+      -
+        - '90 min post first-cleavage Ce, MS'
+        - '90 min post first-cleavage Ce, ventral cord blast cell'
+        - '90 min post first-cleavage Ce: MS vs ventral cord blast cell'
+  - name: developmental_stage
+    values:
+      -
+        - '110 min post first-cleavage Ce, AB'
+        - '180 min post first-cleavage Ce, AB'
+        - 'AB: 110 min post first-cleavage Ce vs 180 min post first-cleavage Ce'
+      -
+        - '110 min post first-cleavage Ce, AB'
+        - '20 min post first-cleavage Ce, AB'
+        - 'AB: 110 min post first-cleavage Ce vs 20 min post first-cleavage Ce'
+      -
+        - '110 min post first-cleavage Ce, AB'
+        - '360 min post first-cleavage Ce, AB'
+        - 'AB: 110 min post first-cleavage Ce vs 360 min post first-cleavage Ce'
+      -
+        - '110 min post first-cleavage Ce, AB'
+        - '40 min post first-cleavage Ce, AB'
+        - 'AB: 110 min post first-cleavage Ce vs 40 min post first-cleavage Ce'
+      -
+        - '110 min post first-cleavage Ce, AB'
+        - '60 min post first-cleavage Ce, AB'
+        - 'AB: 110 min post first-cleavage Ce vs 60 min post first-cleavage Ce'
+      -
+        - '180 min post first-cleavage Ce, AB'
+        - '2-cell embryo Ce, AB'
+        - 'AB: 180 min post first-cleavage Ce vs 2-cell embryo Ce'
+      -
+        - '180 min post first-cleavage Ce, AB'
+        - '20 min post first-cleavage Ce, AB'
+        - 'AB: 180 min post first-cleavage Ce vs 20 min post first-cleavage Ce'
+      -
+        - '180 min post first-cleavage Ce, AB'
+        - '270 min post first-cleavage Ce, AB'
+        - 'AB: 180 min post first-cleavage Ce vs 270 min post first-cleavage Ce'
+      -
+        - '180 min post first-cleavage Ce, AB'
+        - '360 min post first-cleavage Ce, AB'
+        - 'AB: 180 min post first-cleavage Ce vs 360 min post first-cleavage Ce'
+      -
+        - '180 min post first-cleavage Ce, AB'
+        - '40 min post first-cleavage Ce, AB'
+        - 'AB: 180 min post first-cleavage Ce vs 40 min post first-cleavage Ce'
+      -
+        - '180 min post first-cleavage Ce, AB'
+        - '60 min post first-cleavage Ce, AB'
+        - 'AB: 180 min post first-cleavage Ce vs 60 min post first-cleavage Ce'
+      -
+        - '180 min post first-cleavage Ce, AB'
+        - '90 min post first-cleavage Ce, AB'
+        - 'AB: 180 min post first-cleavage Ce vs 90 min post first-cleavage Ce'
+      -
+        - '180 min post first-cleavage Ce, AB'
+        - 'comma embryo Ce, AB'
+        - 'AB: 180 min post first-cleavage Ce vs comma embryo Ce'
+      -
+        - '2-cell embryo Ce, AB'
+        - '20 min post first-cleavage Ce, AB'
+        - 'AB: 2-cell embryo Ce vs 20 min post first-cleavage Ce'
+      -
+        - '2-cell embryo Ce, AB'
+        - '360 min post first-cleavage Ce, AB'
+        - 'AB: 2-cell embryo Ce vs 360 min post first-cleavage Ce'
+      -
+        - '2-cell embryo Ce, AB'
+        - '40 min post first-cleavage Ce, AB'
+        - 'AB: 2-cell embryo Ce vs 40 min post first-cleavage Ce'
+      -
+        - '2-cell embryo Ce, AB'
+        - '60 min post first-cleavage Ce, AB'
+        - 'AB: 2-cell embryo Ce vs 60 min post first-cleavage Ce'
+      -
+        - '20 min post first-cleavage Ce, AB'
+        - '270 min post first-cleavage Ce, AB'
+        - 'AB: 20 min post first-cleavage Ce vs 270 min post first-cleavage Ce'
+      -
+        - '20 min post first-cleavage Ce, AB'
+        - '360 min post first-cleavage Ce, AB'
+        - 'AB: 20 min post first-cleavage Ce vs 360 min post first-cleavage Ce'
+      -
+        - '20 min post first-cleavage Ce, AB'
+        - '40 min post first-cleavage Ce, AB'
+        - 'AB: 20 min post first-cleavage Ce vs 40 min post first-cleavage Ce'
+      -
+        - '20 min post first-cleavage Ce, AB'
+        - '60 min post first-cleavage Ce, AB'
+        - 'AB: 20 min post first-cleavage Ce vs 60 min post first-cleavage Ce'
+      -
+        - '20 min post first-cleavage Ce, AB'
+        - '90 min post first-cleavage Ce, AB'
+        - 'AB: 20 min post first-cleavage Ce vs 90 min post first-cleavage Ce'
+      -
+        - '20 min post first-cleavage Ce, AB'
+        - 'comma embryo Ce, AB'
+        - 'AB: 20 min post first-cleavage Ce vs comma embryo Ce'
+      -
+        - '270 min post first-cleavage Ce, AB'
+        - '360 min post first-cleavage Ce, AB'
+        - 'AB: 270 min post first-cleavage Ce vs 360 min post first-cleavage Ce'
+      -
+        - '270 min post first-cleavage Ce, AB'
+        - '40 min post first-cleavage Ce, AB'
+        - 'AB: 270 min post first-cleavage Ce vs 40 min post first-cleavage Ce'
+      -
+        - '270 min post first-cleavage Ce, AB'
+        - '60 min post first-cleavage Ce, AB'
+        - 'AB: 270 min post first-cleavage Ce vs 60 min post first-cleavage Ce'
+      -
+        - '360 min post first-cleavage Ce, AB'
+        - '40 min post first-cleavage Ce, AB'
+        - 'AB: 360 min post first-cleavage Ce vs 40 min post first-cleavage Ce'
+      -
+        - '360 min post first-cleavage Ce, AB'
+        - '60 min post first-cleavage Ce, AB'
+        - 'AB: 360 min post first-cleavage Ce vs 60 min post first-cleavage Ce'
+      -
+        - '360 min post first-cleavage Ce, AB'
+        - '90 min post first-cleavage Ce, AB'
+        - 'AB: 360 min post first-cleavage Ce vs 90 min post first-cleavage Ce'
+      -
+        - '360 min post first-cleavage Ce, AB'
+        - 'comma embryo Ce, AB'
+        - 'AB: 360 min post first-cleavage Ce vs comma embryo Ce'
+      -
+        - '40 min post first-cleavage Ce, AB'
+        - '60 min post first-cleavage Ce, AB'
+        - 'AB: 40 min post first-cleavage Ce vs 60 min post first-cleavage Ce'
+      -
+        - '40 min post first-cleavage Ce, AB'
+        - '90 min post first-cleavage Ce, AB'
+        - 'AB: 40 min post first-cleavage Ce vs 90 min post first-cleavage Ce'
+      -
+        - '40 min post first-cleavage Ce, AB'
+        - 'comma embryo Ce, AB'
+        - 'AB: 40 min post first-cleavage Ce vs comma embryo Ce'
+      -
+        - '60 min post first-cleavage Ce, AB'
+        - '90 min post first-cleavage Ce, AB'
+        - 'AB: 60 min post first-cleavage Ce vs 90 min post first-cleavage Ce'
+      -
+        - '60 min post first-cleavage Ce, AB'
+        - 'comma embryo Ce, AB'
+        - 'AB: 60 min post first-cleavage Ce vs comma embryo Ce'
+      -
+        - '110 min post first-cleavage Ce, C'
+        - '60 min post first-cleavage Ce, C'
+        - 'C: 110 min post first-cleavage Ce vs 60 min post first-cleavage Ce'
+      -
+        - '180 min post first-cleavage Ce, C'
+        - '60 min post first-cleavage Ce, C'
+        - 'C: 180 min post first-cleavage Ce vs 60 min post first-cleavage Ce'
+      -
+        - '60 min post first-cleavage Ce, C'
+        - '90 min post first-cleavage Ce, C'
+        - 'C: 60 min post first-cleavage Ce vs 90 min post first-cleavage Ce'
+      -
+        - '60 min post first-cleavage Ce, C'
+        - 'comma embryo Ce, C'
+        - 'C: 60 min post first-cleavage Ce vs comma embryo Ce'
+      -
+        - '110 min post first-cleavage Ce, MS'
+        - '180 min post first-cleavage Ce, MS'
+        - 'MS: 110 min post first-cleavage Ce vs 180 min post first-cleavage Ce'
+      -
+        - '110 min post first-cleavage Ce, MS'
+        - '270 min post first-cleavage Ce, MS'
+        - 'MS: 110 min post first-cleavage Ce vs 270 min post first-cleavage Ce'
+      -
+        - '110 min post first-cleavage Ce, MS'
+        - '40 min post first-cleavage Ce, MS'
+        - 'MS: 110 min post first-cleavage Ce vs 40 min post first-cleavage Ce'
+      -
+        - '110 min post first-cleavage Ce, MS'
+        - '60 min post first-cleavage Ce, MS'
+        - 'MS: 110 min post first-cleavage Ce vs 60 min post first-cleavage Ce'
+      -
+        - '110 min post first-cleavage Ce, MS'
+        - '90 min post first-cleavage Ce, MS'
+        - 'MS: 110 min post first-cleavage Ce vs 90 min post first-cleavage Ce'
+      -
+        - '110 min post first-cleavage Ce, MS'
+        - 'comma embryo Ce, MS'
+        - 'MS: 110 min post first-cleavage Ce vs comma embryo Ce'
+      -
+        - '180 min post first-cleavage Ce, MS'
+        - '40 min post first-cleavage Ce, MS'
+        - 'MS: 180 min post first-cleavage Ce vs 40 min post first-cleavage Ce'
+      -
+        - '180 min post first-cleavage Ce, MS'
+        - '60 min post first-cleavage Ce, MS'
+        - 'MS: 180 min post first-cleavage Ce vs 60 min post first-cleavage Ce'
+      -
+        - '180 min post first-cleavage Ce, MS'
+        - '90 min post first-cleavage Ce, MS'
+        - 'MS: 180 min post first-cleavage Ce vs 90 min post first-cleavage Ce'
+      -
+        - '270 min post first-cleavage Ce, MS'
+        - '40 min post first-cleavage Ce, MS'
+        - 'MS: 270 min post first-cleavage Ce vs 40 min post first-cleavage Ce'
+      -
+        - '270 min post first-cleavage Ce, MS'
+        - '60 min post first-cleavage Ce, MS'
+        - 'MS: 270 min post first-cleavage Ce vs 60 min post first-cleavage Ce'
+      -
+        - '270 min post first-cleavage Ce, MS'
+        - '90 min post first-cleavage Ce, MS'
+        - 'MS: 270 min post first-cleavage Ce vs 90 min post first-cleavage Ce'
+      -
+        - '40 min post first-cleavage Ce, MS'
+        - '60 min post first-cleavage Ce, MS'
+        - 'MS: 40 min post first-cleavage Ce vs 60 min post first-cleavage Ce'
+      -
+        - '40 min post first-cleavage Ce, MS'
+        - '90 min post first-cleavage Ce, MS'
+        - 'MS: 40 min post first-cleavage Ce vs 90 min post first-cleavage Ce'
+      -
+        - '40 min post first-cleavage Ce, MS'
+        - 'comma embryo Ce, MS'
+        - 'MS: 40 min post first-cleavage Ce vs comma embryo Ce'
+      -
+        - '60 min post first-cleavage Ce, MS'
+        - '90 min post first-cleavage Ce, MS'
+        - 'MS: 60 min post first-cleavage Ce vs 90 min post first-cleavage Ce'
+      -
+        - '60 min post first-cleavage Ce, MS'
+        - 'comma embryo Ce, MS'
+        - 'MS: 60 min post first-cleavage Ce vs comma embryo Ce'
+      -
+        - '90 min post first-cleavage Ce, MS'
+        - 'comma embryo Ce, MS'
+        - 'MS: 90 min post first-cleavage Ce vs comma embryo Ce'
+      -
+        - '140 min post first-cleavage Ce, E'
+        - '180 min post first-cleavage Ce, E'
+        - 'E: 140 min post first-cleavage Ce vs 180 min post first-cleavage Ce'
+      -
+        - '140 min post first-cleavage Ce, E'
+        - '270 min post first-cleavage Ce, E'
+        - 'E: 140 min post first-cleavage Ce vs 270 min post first-cleavage Ce'
+      -
+        - '140 min post first-cleavage Ce, E'
+        - '40 min post first-cleavage Ce, E'
+        - 'E: 140 min post first-cleavage Ce vs 40 min post first-cleavage Ce'
+      -
+        - '140 min post first-cleavage Ce, E'
+        - '60 min post first-cleavage Ce, E'
+        - 'E: 140 min post first-cleavage Ce vs 60 min post first-cleavage Ce'
+      -
+        - '140 min post first-cleavage Ce, E'
+        - '90 min post first-cleavage Ce, E'
+        - 'E: 140 min post first-cleavage Ce vs 90 min post first-cleavage Ce'
+      -
+        - '140 min post first-cleavage Ce, E'
+        - 'comma embryo Ce, E'
+        - 'E: 140 min post first-cleavage Ce vs comma embryo Ce'
+      -
+        - '180 min post first-cleavage Ce, E'
+        - '270 min post first-cleavage Ce, E'
+        - 'E: 180 min post first-cleavage Ce vs 270 min post first-cleavage Ce'
+      -
+        - '180 min post first-cleavage Ce, E'
+        - '40 min post first-cleavage Ce, E'
+        - 'E: 180 min post first-cleavage Ce vs 40 min post first-cleavage Ce'
+      -
+        - '180 min post first-cleavage Ce, E'
+        - '60 min post first-cleavage Ce, E'
+        - 'E: 180 min post first-cleavage Ce vs 60 min post first-cleavage Ce'
+      -
+        - '180 min post first-cleavage Ce, E'
+        - '90 min post first-cleavage Ce, E'
+        - 'E: 180 min post first-cleavage Ce vs 90 min post first-cleavage Ce'
+      -
+        - '180 min post first-cleavage Ce, E'
+        - 'comma embryo Ce, E'
+        - 'E: 180 min post first-cleavage Ce vs comma embryo Ce'
+      -
+        - '270 min post first-cleavage Ce, E'
+        - '40 min post first-cleavage Ce, E'
+        - 'E: 270 min post first-cleavage Ce vs 40 min post first-cleavage Ce'
+      -
+        - '270 min post first-cleavage Ce, E'
+        - '60 min post first-cleavage Ce, E'
+        - 'E: 270 min post first-cleavage Ce vs 60 min post first-cleavage Ce'
+      -
+        - '270 min post first-cleavage Ce, E'
+        - '90 min post first-cleavage Ce, E'
+        - 'E: 270 min post first-cleavage Ce vs 90 min post first-cleavage Ce'
+      -
+        - '270 min post first-cleavage Ce, E'
+        - 'comma embryo Ce, E'
+        - 'E: 270 min post first-cleavage Ce vs comma embryo Ce'
+      -
+        - '40 min post first-cleavage Ce, E'
+        - '60 min post first-cleavage Ce, E'
+        - 'E: 40 min post first-cleavage Ce vs 60 min post first-cleavage Ce'
+      -
+        - '40 min post first-cleavage Ce, E'
+        - '90 min post first-cleavage Ce, E'
+        - 'E: 40 min post first-cleavage Ce vs 90 min post first-cleavage Ce'
+      -
+        - '40 min post first-cleavage Ce, E'
+        - 'comma embryo Ce, E'
+        - 'E: 40 min post first-cleavage Ce vs comma embryo Ce'
+      -
+        - '60 min post first-cleavage Ce, E'
+        - '90 min post first-cleavage Ce, E'
+        - 'E: 60 min post first-cleavage Ce vs 90 min post first-cleavage Ce'
+      -
+        - '60 min post first-cleavage Ce, E'
+        - 'comma embryo Ce, E'
+        - 'E: 60 min post first-cleavage Ce vs comma embryo Ce'
+      -
+        - '90 min post first-cleavage Ce, E'
+        - 'comma embryo Ce, E'
+        - 'E: 90 min post first-cleavage Ce vs comma embryo Ce'
+      -
+        - '140 min post first-cleavage Ce, ventral cord blast cell'
+        - '180 min post first-cleavage Ce, ventral cord blast cell'
+        - 'ventral cord blast cell: 140 min post first-cleavage Ce vs 180 min post first-cleavage Ce'
+      -
+        - '140 min post first-cleavage Ce, ventral cord blast cell'
+        - '40 min post first-cleavage Ce, ventral cord blast cell'
+        - 'ventral cord blast cell: 140 min post first-cleavage Ce vs 40 min post first-cleavage Ce'
+      -
+        - '140 min post first-cleavage Ce, ventral cord blast cell'
+        - '60 min post first-cleavage Ce, ventral cord blast cell'
+        - 'ventral cord blast cell: 140 min post first-cleavage Ce vs 60 min post first-cleavage Ce'
+      -
+        - '140 min post first-cleavage Ce, ventral cord blast cell'
+        - '90 min post first-cleavage Ce, ventral cord blast cell'
+        - 'ventral cord blast cell: 140 min post first-cleavage Ce vs 90 min post first-cleavage Ce'
+      -
+        - '180 min post first-cleavage Ce, ventral cord blast cell'
+        - '40 min post first-cleavage Ce, ventral cord blast cell'
+        - 'ventral cord blast cell: 180 min post first-cleavage Ce vs 40 min post first-cleavage Ce'
+      -
+        - '40 min post first-cleavage Ce, ventral cord blast cell'
+        - '60 min post first-cleavage Ce, ventral cord blast cell'
+        - 'ventral cord blast cell: 40 min post first-cleavage Ce vs 60 min post first-cleavage Ce'
+      -
+        - '40 min post first-cleavage Ce, ventral cord blast cell'
+        - '90 min post first-cleavage Ce, ventral cord blast cell'
+        - 'ventral cord blast cell: 40 min post first-cleavage Ce vs 90 min post first-cleavage Ce'
+description: Spatiotemporal embryonic transcriptomics reveals the evolutionary history of the endoderm germ layer
+pubmed:
+  25487147:
+    - 'Hashimshony .. Yanai, 2015'
+    - 'Spatiotemporal transcriptomics reveals the evolutionary history of the endoderm germ layer. (Hashimshony .. Yanai, 2015)'
+submitting_centre: 'Yanai, Biology, Technion - Israel Institute of Technology'
+title: Spatiotemporal embryonic transcriptomics reveals the evolutionary history of the endoderm germ layer

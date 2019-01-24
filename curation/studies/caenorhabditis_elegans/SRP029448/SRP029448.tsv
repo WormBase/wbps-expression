@@ -1,155 +1,138 @@
-Run	Sample	Condition	developmental_stage	sex	strain	organism_part
-SRR962092	SRS475728		30 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962093	SRS475729		40 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962094	SRS475730		60 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962095	SRS475731		70 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962096	SRS475732		80 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962098	SRS475734		120 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962099	SRS475735		140 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962100	SRS475736		150 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962101	SRS475737		170 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962102	SRS475738		180 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962103	SRS475739		190 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962104	SRS475740		200 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962105	SRS475741		210 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962106	SRS475742		220 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962107	SRS475743		220 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962109	SRS475745		240 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962111	SRS475746		250 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962110	SRS475747		240 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962112	SRS475748		280 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962113	SRS475749		290 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962115	SRS475751		310 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962116	SRS475752		320 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962117	SRS475753		340 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962118	SRS475754		350 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962120	SRS475755		360 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962122	SRS475758		380 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962123	SRS475759		390 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962125	SRS475761		400 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962126	SRS475762		410 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962127	SRS475763		420 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962128	SRS475764		420 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962129	SRS475765		430 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962130	SRS475766		430 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962131	SRS475767		440 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962132	SRS475768		450 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962133	SRS475769		470 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962134	SRS475770		510 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962136	SRS475772		570 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962137	SRS475773		640 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962138	SRS475774		650 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962139	SRS475775		660 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962141	SRS475777		770 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962143	SRS475778		820 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962142	SRS475779		780 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962144	SRS475780		830 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962145	SRS475781		850 min post first-cleavage Ce	hermaphrodite	N2	organism
-SRR962147	SRS475782		2-cell embryo Ce	hermaphrodite	N2	organism
-SRR962146	SRS475783		2-cell embryo Ce	hermaphrodite	N2	organism
-SRR962149	SRS475785		2-cell embryo Ce	hermaphrodite	N2	AB
-SRR962150	SRS475786		2-cell embryo Ce	hermaphrodite	N2	AB
-SRR962151	SRS475787		20 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962152	SRS475788		20 min post first-cleavage Ce	hermaphrodite	N2	EMS
-SRR962153	SRS475789		20 min post first-cleavage Ce	hermaphrodite	N2	EMS
-SRR962154	SRS475790		20 min post first-cleavage Ce	hermaphrodite	N2	EMS
-SRR962156	SRS475792		20 min post first-cleavage Ce	hermaphrodite	N2	P2
-SRR962157	SRS475793		20 min post first-cleavage Ce	hermaphrodite	N2	P2
-SRR962158	SRS475794		20 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962159	SRS475795		20 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962160	SRS475796		20 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962161	SRS475797		40 min post first-cleavage Ce	hermaphrodite	N2	E
-SRR962162	SRS475798		40 min post first-cleavage Ce	hermaphrodite	N2	E
-SRR962163	SRS475799		40 min post first-cleavage Ce	hermaphrodite	N2	E
-SRR962164	SRS475800		60 min post first-cleavage Ce	hermaphrodite	N2	E
-SRR962165	SRS475801		60 min post first-cleavage Ce	hermaphrodite	N2	E
-SRR962166	SRS475802		60 min post first-cleavage Ce	hermaphrodite	N2	E
-SRR962168	SRS475803		90 min post first-cleavage Ce	hermaphrodite	N2	E
-SRR962167	SRS475804		90 min post first-cleavage Ce	hermaphrodite	N2	E
-SRR962169	SRS475805		90 min post first-cleavage Ce	hermaphrodite	N2	E
-SRR962172	SRS475808		110 min post first-cleavage Ce	hermaphrodite	N2	E
-SRR962173	SRS475809		140 min post first-cleavage Ce	hermaphrodite	N2	E
-SRR962174	SRS475810		140 min post first-cleavage Ce	hermaphrodite	N2	E
-SRR962175	SRS475811		140 min post first-cleavage Ce	hermaphrodite	N2	E
-SRR962176	SRS475812		180 min post first-cleavage Ce	hermaphrodite	N2	E
-SRR962177	SRS475813		180 min post first-cleavage Ce	hermaphrodite	N2	E
-SRR962178	SRS475814		180 min post first-cleavage Ce	hermaphrodite	N2	E
-SRR962179	SRS475815		270 min post first-cleavage Ce	hermaphrodite	N2	E
-SRR962180	SRS475816		270 min post first-cleavage Ce	hermaphrodite	N2	E
-SRR962181	SRS475817		270 min post first-cleavage Ce	hermaphrodite	N2	E
-SRR962182	SRS475818		360 min post first-cleavage Ce	hermaphrodite	N2	E
-SRR962183	SRS475819		comma embryo Ce	hermaphrodite	N2	E
-SRR962185	SRS475820		comma embryo Ce	hermaphrodite	N2	E
-SRR962184	SRS475821		comma embryo Ce	hermaphrodite	N2	E
-SRR962186	SRS475822		40 min post first-cleavage Ce	hermaphrodite	N2	MS
-SRR962187	SRS475823		40 min post first-cleavage Ce	hermaphrodite	N2	MS
-SRR962188	SRS475824		40 min post first-cleavage Ce	hermaphrodite	N2	MS
-SRR962189	SRS475825		60 min post first-cleavage Ce	hermaphrodite	N2	MS
-SRR962190	SRS475826		60 min post first-cleavage Ce	hermaphrodite	N2	MS
-SRR962191	SRS475827		60 min post first-cleavage Ce	hermaphrodite	N2	MS
-SRR962192	SRS475828		90 min post first-cleavage Ce	hermaphrodite	N2	MS
-SRR962193	SRS475829		90 min post first-cleavage Ce	hermaphrodite	N2	MS
-SRR962195	SRS475830		110 min post first-cleavage Ce	hermaphrodite	N2	MS
-SRR962194	SRS475831		90 min post first-cleavage Ce	hermaphrodite	N2	MS
-SRR962196	SRS475832		110 min post first-cleavage Ce	hermaphrodite	N2	MS
-SRR962197	SRS475834		110 min post first-cleavage Ce	hermaphrodite	N2	MS
-SRR962199	SRS475835		140 min post first-cleavage Ce	hermaphrodite	N2	MS
-SRR962202	SRS475838		180 min post first-cleavage Ce	hermaphrodite	N2	MS
-SRR962203	SRS475839		180 min post first-cleavage Ce	hermaphrodite	N2	MS
-SRR962205	SRS475841		270 min post first-cleavage Ce	hermaphrodite	N2	MS
-SRR962206	SRS475842		270 min post first-cleavage Ce	hermaphrodite	N2	MS
-SRR962207	SRS475843		360 min post first-cleavage Ce	hermaphrodite	N2	MS
-SRR962208	SRS475844		comma embryo Ce	hermaphrodite	N2	MS
-SRR962209	SRS475845		comma embryo Ce	hermaphrodite	N2	MS
-SRR962211	SRS475847		40 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962212	SRS475848		40 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962213	SRS475849		40 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962214	SRS475850		60 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962215	SRS475851		60 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962216	SRS475852		60 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962218	SRS475854		90 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962219	SRS475855		90 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962221	SRS475857		110 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962222	SRS475858		110 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962223	SRS475859		140 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962225	SRS475861		180 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962226	SRS475862		180 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962227	SRS475863		180 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962228	SRS475864		270 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962230	SRS475866		270 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962231	SRS475867		360 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962232	SRS475868		360 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962233	SRS475869		360 min post first-cleavage Ce	hermaphrodite	N2	AB
-SRR962235	SRS475871		comma embryo Ce	hermaphrodite	N2	AB
-SRR962236	SRS475872		comma embryo Ce	hermaphrodite	N2	AB
-SRR962239	SRS475875		40 min post first-cleavage Ce	hermaphrodite	N2	C
-SRR962240	SRS475876		60 min post first-cleavage Ce	hermaphrodite	N2	C
-SRR962242	SRS475878		60 min post first-cleavage Ce	hermaphrodite	N2	C
-SRR962241	SRS475879		60 min post first-cleavage Ce	hermaphrodite	N2	C
-SRR962244	SRS475880		90 min post first-cleavage Ce	hermaphrodite	N2	C
-SRR962243	SRS475881		90 min post first-cleavage Ce	hermaphrodite	N2	C
-SRR962246	SRS475882		110 min post first-cleavage Ce	hermaphrodite	N2	C
-SRR962245	SRS475883		110 min post first-cleavage Ce	hermaphrodite	N2	C
-SRR962248	SRS475885		140 min post first-cleavage Ce	hermaphrodite	N2	C
-SRR962249	SRS475886		180 min post first-cleavage Ce	hermaphrodite	N2	C
-SRR962251	SRS475887		270 min post first-cleavage Ce	hermaphrodite	N2	C
-SRR962250	SRS475888		180 min post first-cleavage Ce	hermaphrodite	N2	C
-SRR962255	SRS475892		comma embryo Ce	hermaphrodite	N2	C
-SRR962256	SRS475893		comma embryo Ce	hermaphrodite	N2	C
-SRR962257	SRS475894		40 min post first-cleavage Ce	hermaphrodite	N2	ventral cord blast cell
-SRR962258	SRS475895		40 min post first-cleavage Ce	hermaphrodite	N2	ventral cord blast cell
-SRR962259	SRS475896		40 min post first-cleavage Ce	hermaphrodite	N2	ventral cord blast cell
-SRR962260	SRS475897		60 min post first-cleavage Ce	hermaphrodite	N2	ventral cord blast cell
-SRR962261	SRS475898		60 min post first-cleavage Ce	hermaphrodite	N2	ventral cord blast cell
-SRR962262	SRS475899		90 min post first-cleavage Ce	hermaphrodite	N2	ventral cord blast cell
-SRR962264	SRS475900		110 min post first-cleavage Ce	hermaphrodite	N2	ventral cord blast cell
-SRR962263	SRS475901		90 min post first-cleavage Ce	hermaphrodite	N2	ventral cord blast cell
-SRR962265	SRS475902		110 min post first-cleavage Ce	hermaphrodite	N2	ventral cord blast cell
-SRR962266	SRS475903		140 min post first-cleavage Ce	hermaphrodite	N2	ventral cord blast cell
-SRR962267	SRS475904		140 min post first-cleavage Ce	hermaphrodite	N2	ventral cord blast cell
-SRR962268	SRS475905		140 min post first-cleavage Ce	hermaphrodite	N2	ventral cord blast cell
-SRR962269	SRS475906		180 min post first-cleavage Ce	hermaphrodite	N2	ventral cord blast cell
-SRR962270	SRS475907		180 min post first-cleavage Ce	hermaphrodite	N2	ventral cord blast cell
-SRR962271	SRS475908		270 min post first-cleavage Ce	hermaphrodite	N2	ventral cord blast cell
-SRR962272	SRS475909		360 min post first-cleavage Ce	hermaphrodite	N2	ventral cord blast cell
-SRR962273	SRS475910		comma embryo Ce	hermaphrodite	N2	ventral cord blast cell
+Run	Condition	developmental_stage	organism_part	sex	strain
+SRR962221	110 min post first-cleavage Ce, AB	110 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962222	110 min post first-cleavage Ce, AB	110 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962245	110 min post first-cleavage Ce, C	110 min post first-cleavage Ce	C	hermaphrodite	N2
+SRR962246	110 min post first-cleavage Ce, C	110 min post first-cleavage Ce	C	hermaphrodite	N2
+SRR962172	110 min post first-cleavage Ce, E	110 min post first-cleavage Ce	E	hermaphrodite	N2
+SRR962195	110 min post first-cleavage Ce, MS	110 min post first-cleavage Ce	MS	hermaphrodite	N2
+SRR962196	110 min post first-cleavage Ce, MS	110 min post first-cleavage Ce	MS	hermaphrodite	N2
+SRR962197	110 min post first-cleavage Ce, MS	110 min post first-cleavage Ce	MS	hermaphrodite	N2
+SRR962264	110 min post first-cleavage Ce, ventral cord blast cell	110 min post first-cleavage Ce	ventral cord blast cell	hermaphrodite	N2
+SRR962098	120 min post first-cleavage Ce, organism	120 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962223	140 min post first-cleavage Ce, AB	140 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962248	140 min post first-cleavage Ce, C	140 min post first-cleavage Ce	C	hermaphrodite	N2
+SRR962173	140 min post first-cleavage Ce, E	140 min post first-cleavage Ce	E	hermaphrodite	N2
+SRR962174	140 min post first-cleavage Ce, E	140 min post first-cleavage Ce	E	hermaphrodite	N2
+SRR962175	140 min post first-cleavage Ce, E	140 min post first-cleavage Ce	E	hermaphrodite	N2
+SRR962099	140 min post first-cleavage Ce, organism	140 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962266	140 min post first-cleavage Ce, ventral cord blast cell	140 min post first-cleavage Ce	ventral cord blast cell	hermaphrodite	N2
+SRR962267	140 min post first-cleavage Ce, ventral cord blast cell	140 min post first-cleavage Ce	ventral cord blast cell	hermaphrodite	N2
+SRR962268	140 min post first-cleavage Ce, ventral cord blast cell	140 min post first-cleavage Ce	ventral cord blast cell	hermaphrodite	N2
+SRR962100	150 min post first-cleavage Ce, organism	150 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962101	170 min post first-cleavage Ce, organism	170 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962225	180 min post first-cleavage Ce, AB	180 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962226	180 min post first-cleavage Ce, AB	180 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962227	180 min post first-cleavage Ce, AB	180 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962249	180 min post first-cleavage Ce, C	180 min post first-cleavage Ce	C	hermaphrodite	N2
+SRR962250	180 min post first-cleavage Ce, C	180 min post first-cleavage Ce	C	hermaphrodite	N2
+SRR962176	180 min post first-cleavage Ce, E	180 min post first-cleavage Ce	E	hermaphrodite	N2
+SRR962177	180 min post first-cleavage Ce, E	180 min post first-cleavage Ce	E	hermaphrodite	N2
+SRR962178	180 min post first-cleavage Ce, E	180 min post first-cleavage Ce	E	hermaphrodite	N2
+SRR962202	180 min post first-cleavage Ce, MS	180 min post first-cleavage Ce	MS	hermaphrodite	N2
+SRR962203	180 min post first-cleavage Ce, MS	180 min post first-cleavage Ce	MS	hermaphrodite	N2
+SRR962102	180 min post first-cleavage Ce, organism	180 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962269	180 min post first-cleavage Ce, ventral cord blast cell	180 min post first-cleavage Ce	ventral cord blast cell	hermaphrodite	N2
+SRR962270	180 min post first-cleavage Ce, ventral cord blast cell	180 min post first-cleavage Ce	ventral cord blast cell	hermaphrodite	N2
+SRR962103	190 min post first-cleavage Ce, organism	190 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962149	2-cell embryo Ce, AB	2-cell embryo Ce	AB	hermaphrodite	N2
+SRR962150	2-cell embryo Ce, AB	2-cell embryo Ce	AB	hermaphrodite	N2
+SRR962146	2-cell embryo Ce, organism	2-cell embryo Ce	organism	hermaphrodite	N2
+SRR962147	2-cell embryo Ce, organism	2-cell embryo Ce	organism	hermaphrodite	N2
+SRR962151	20 min post first-cleavage Ce, AB	20 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962158	20 min post first-cleavage Ce, AB	20 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962159	20 min post first-cleavage Ce, AB	20 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962160	20 min post first-cleavage Ce, AB	20 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962152	20 min post first-cleavage Ce, EMS	20 min post first-cleavage Ce	EMS	hermaphrodite	N2
+SRR962153	20 min post first-cleavage Ce, EMS	20 min post first-cleavage Ce	EMS	hermaphrodite	N2
+SRR962154	20 min post first-cleavage Ce, EMS	20 min post first-cleavage Ce	EMS	hermaphrodite	N2
+SRR962156	20 min post first-cleavage Ce, P2	20 min post first-cleavage Ce	P2	hermaphrodite	N2
+SRR962157	20 min post first-cleavage Ce, P2	20 min post first-cleavage Ce	P2	hermaphrodite	N2
+SRR962104	200 min post first-cleavage Ce, organism	200 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962105	210 min post first-cleavage Ce, organism	210 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962106	220 min post first-cleavage Ce, organism	220 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962107	220 min post first-cleavage Ce, organism	220 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962109	240 min post first-cleavage Ce, organism	240 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962110	240 min post first-cleavage Ce, organism	240 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962111	250 min post first-cleavage Ce, organism	250 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962228	270 min post first-cleavage Ce, AB	270 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962230	270 min post first-cleavage Ce, AB	270 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962251	270 min post first-cleavage Ce, C	270 min post first-cleavage Ce	C	hermaphrodite	N2
+SRR962179	270 min post first-cleavage Ce, E	270 min post first-cleavage Ce	E	hermaphrodite	N2
+SRR962180	270 min post first-cleavage Ce, E	270 min post first-cleavage Ce	E	hermaphrodite	N2
+SRR962181	270 min post first-cleavage Ce, E	270 min post first-cleavage Ce	E	hermaphrodite	N2
+SRR962205	270 min post first-cleavage Ce, MS	270 min post first-cleavage Ce	MS	hermaphrodite	N2
+SRR962206	270 min post first-cleavage Ce, MS	270 min post first-cleavage Ce	MS	hermaphrodite	N2
+SRR962271	270 min post first-cleavage Ce, ventral cord blast cell	270 min post first-cleavage Ce	ventral cord blast cell	hermaphrodite	N2
+SRR962112	280 min post first-cleavage Ce, organism	280 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962113	290 min post first-cleavage Ce, organism	290 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962092	30 min post first-cleavage Ce, organism	30 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962115	310 min post first-cleavage Ce, organism	310 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962116	320 min post first-cleavage Ce, organism	320 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962117	340 min post first-cleavage Ce, organism	340 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962118	350 min post first-cleavage Ce, organism	350 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962231	360 min post first-cleavage Ce, AB	360 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962232	360 min post first-cleavage Ce, AB	360 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962233	360 min post first-cleavage Ce, AB	360 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962182	360 min post first-cleavage Ce, E	360 min post first-cleavage Ce	E	hermaphrodite	N2
+SRR962207	360 min post first-cleavage Ce, MS	360 min post first-cleavage Ce	MS	hermaphrodite	N2
+SRR962120	360 min post first-cleavage Ce, organism	360 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962272	360 min post first-cleavage Ce, ventral cord blast cell	360 min post first-cleavage Ce	ventral cord blast cell	hermaphrodite	N2
+SRR962122	380 min post first-cleavage Ce, organism	380 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962123	390 min post first-cleavage Ce, organism	390 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962211	40 min post first-cleavage Ce, AB	40 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962212	40 min post first-cleavage Ce, AB	40 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962213	40 min post first-cleavage Ce, AB	40 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962239	40 min post first-cleavage Ce, C	40 min post first-cleavage Ce	C	hermaphrodite	N2
+SRR962161	40 min post first-cleavage Ce, E	40 min post first-cleavage Ce	E	hermaphrodite	N2
+SRR962162	40 min post first-cleavage Ce, E	40 min post first-cleavage Ce	E	hermaphrodite	N2
+SRR962163	40 min post first-cleavage Ce, E	40 min post first-cleavage Ce	E	hermaphrodite	N2
+SRR962186	40 min post first-cleavage Ce, MS	40 min post first-cleavage Ce	MS	hermaphrodite	N2
+SRR962187	40 min post first-cleavage Ce, MS	40 min post first-cleavage Ce	MS	hermaphrodite	N2
+SRR962188	40 min post first-cleavage Ce, MS	40 min post first-cleavage Ce	MS	hermaphrodite	N2
+SRR962093	40 min post first-cleavage Ce, organism	40 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962257	40 min post first-cleavage Ce, ventral cord blast cell	40 min post first-cleavage Ce	ventral cord blast cell	hermaphrodite	N2
+SRR962258	40 min post first-cleavage Ce, ventral cord blast cell	40 min post first-cleavage Ce	ventral cord blast cell	hermaphrodite	N2
+SRR962259	40 min post first-cleavage Ce, ventral cord blast cell	40 min post first-cleavage Ce	ventral cord blast cell	hermaphrodite	N2
+SRR962125	400 min post first-cleavage Ce, organism	400 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962126	410 min post first-cleavage Ce, organism	410 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962127	420 min post first-cleavage Ce, organism	420 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962129	430 min post first-cleavage Ce, organism	430 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962131	440 min post first-cleavage Ce, organism	440 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962214	60 min post first-cleavage Ce, AB	60 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962215	60 min post first-cleavage Ce, AB	60 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962216	60 min post first-cleavage Ce, AB	60 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962240	60 min post first-cleavage Ce, C	60 min post first-cleavage Ce	C	hermaphrodite	N2
+SRR962241	60 min post first-cleavage Ce, C	60 min post first-cleavage Ce	C	hermaphrodite	N2
+SRR962242	60 min post first-cleavage Ce, C	60 min post first-cleavage Ce	C	hermaphrodite	N2
+SRR962164	60 min post first-cleavage Ce, E	60 min post first-cleavage Ce	E	hermaphrodite	N2
+SRR962165	60 min post first-cleavage Ce, E	60 min post first-cleavage Ce	E	hermaphrodite	N2
+SRR962166	60 min post first-cleavage Ce, E	60 min post first-cleavage Ce	E	hermaphrodite	N2
+SRR962189	60 min post first-cleavage Ce, MS	60 min post first-cleavage Ce	MS	hermaphrodite	N2
+SRR962190	60 min post first-cleavage Ce, MS	60 min post first-cleavage Ce	MS	hermaphrodite	N2
+SRR962191	60 min post first-cleavage Ce, MS	60 min post first-cleavage Ce	MS	hermaphrodite	N2
+SRR962094	60 min post first-cleavage Ce, organism	60 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962260	60 min post first-cleavage Ce, ventral cord blast cell	60 min post first-cleavage Ce	ventral cord blast cell	hermaphrodite	N2
+SRR962261	60 min post first-cleavage Ce, ventral cord blast cell	60 min post first-cleavage Ce	ventral cord blast cell	hermaphrodite	N2
+SRR962095	70 min post first-cleavage Ce, organism	70 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962096	80 min post first-cleavage Ce, organism	80 min post first-cleavage Ce	organism	hermaphrodite	N2
+SRR962218	90 min post first-cleavage Ce, AB	90 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962219	90 min post first-cleavage Ce, AB	90 min post first-cleavage Ce	AB	hermaphrodite	N2
+SRR962243	90 min post first-cleavage Ce, C	90 min post first-cleavage Ce	C	hermaphrodite	N2
+SRR962244	90 min post first-cleavage Ce, C	90 min post first-cleavage Ce	C	hermaphrodite	N2
+SRR962167	90 min post first-cleavage Ce, E	90 min post first-cleavage Ce	E	hermaphrodite	N2
+SRR962168	90 min post first-cleavage Ce, E	90 min post first-cleavage Ce	E	hermaphrodite	N2
+SRR962169	90 min post first-cleavage Ce, E	90 min post first-cleavage Ce	E	hermaphrodite	N2
+SRR962192	90 min post first-cleavage Ce, MS	90 min post first-cleavage Ce	MS	hermaphrodite	N2
+SRR962193	90 min post first-cleavage Ce, MS	90 min post first-cleavage Ce	MS	hermaphrodite	N2
+SRR962194	90 min post first-cleavage Ce, MS	90 min post first-cleavage Ce	MS	hermaphrodite	N2
+SRR962262	90 min post first-cleavage Ce, ventral cord blast cell	90 min post first-cleavage Ce	ventral cord blast cell	hermaphrodite	N2
+SRR962263	90 min post first-cleavage Ce, ventral cord blast cell	90 min post first-cleavage Ce	ventral cord blast cell	hermaphrodite	N2
+SRR962235	comma embryo Ce, AB	comma embryo Ce	AB	hermaphrodite	N2
+SRR962236	comma embryo Ce, AB	comma embryo Ce	AB	hermaphrodite	N2
+SRR962255	comma embryo Ce, C	comma embryo Ce	C	hermaphrodite	N2
+SRR962256	comma embryo Ce, C	comma embryo Ce	C	hermaphrodite	N2
+SRR962184	comma embryo Ce, E	comma embryo Ce	E	hermaphrodite	N2
+SRR962185	comma embryo Ce, E	comma embryo Ce	E	hermaphrodite	N2
+SRR962208	comma embryo Ce, MS	comma embryo Ce	MS	hermaphrodite	N2
+SRR962209	comma embryo Ce, MS	comma embryo Ce	MS	hermaphrodite	N2
+SRR962273	comma embryo Ce, ventral cord blast cell	comma embryo Ce	ventral cord blast cell	hermaphrodite	N2

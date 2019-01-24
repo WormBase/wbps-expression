@@ -1,4 +1,6 @@
 ---
+condition_names: {}
+contrasts: []
 description: Wobble Base-pairing Slows in vivo Translation Elongation in Metazoans
 pubmed:
   22045228:

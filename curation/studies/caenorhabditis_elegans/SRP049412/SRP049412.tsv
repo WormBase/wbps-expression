@@ -1,7 +1,7 @@
-Run	Sample	Condition	developmental_stage	sex	strain	organism_part
-SRR1635369	SRS734034		adult	hermaphrodite	SS104	gonad
-SRR1635368	SRS734035		adult	hermaphrodite	SS104	gonad
-SRR1635370	SRS734036		adult	hermaphrodite	SS104	germ line
-SRR1635371	SRS734036		adult	hermaphrodite	SS104	germ line
-SRR1635372	SRS734037		adult	hermaphrodite	SS104	germ line
-SRR1635373	SRS734037		adult	hermaphrodite	SS104	germ line
+Run	Sample	Condition	developmental_stage	organism_part	sex	strain
+SRR1635370	SAMN03153512	germ line	adult	germ line	hermaphrodite	SS104
+SRR1635371	SAMN03153512	germ line	adult	germ line	hermaphrodite	SS104
+SRR1635372	SAMN03153514	germ line	adult	germ line	hermaphrodite	SS104
+SRR1635373	SAMN03153514	germ line	adult	germ line	hermaphrodite	SS104
+SRR1635369	SAMN03153511	gonad	adult	gonad	hermaphrodite	SS104
+SRR1635368	SAMN03153513	gonad	adult	gonad	hermaphrodite	SS104

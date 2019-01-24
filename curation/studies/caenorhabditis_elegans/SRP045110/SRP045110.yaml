@@ -1,4 +1,12 @@
 ---
+condition_names: {}
+contrasts:
+  - name: organism_part
+    values:
+      -
+        - AB
+        - P1
+        - AB vs P1
 description: Blastomere-specific transcriptome sequencing reveals a determinant of anterior specification in C. elegans
 pubmed:
   25875092:

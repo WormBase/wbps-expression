@@ -1,20 +1,20 @@
-Run	Sample	Condition	developmental_stage	sex	strain	organism_part
-SRR400287	SRS287333		L1 larva Ce	hermaphrodite	N2	organism
-SRR400289	SRS287333		L1 larva Ce	hermaphrodite	N2	organism
-SRR405088	SRS287333		L1 larva Ce	hermaphrodite	N2	organism
-SRR405089	SRS287333		L1 larva Ce	hermaphrodite	N2	organism
-SRR405091	SRS287333		L1 larva Ce	hermaphrodite	N2	organism
-SRR405092	SRS287333		L1 larva Ce	hermaphrodite	N2	organism
-SRR405093	SRS290749		L2 larva Ce	hermaphrodite	N2	organism
-SRR407625	SRS290749		L2 larva Ce	hermaphrodite	N2	organism
-SRR405094	SRS290750		L3 larva Ce	hermaphrodite	N2	organism
-SRR407624	SRS290750		L3 larva Ce	hermaphrodite	N2	organism
-SRR407626	SRS290750		L3 larva Ce	hermaphrodite	N2	organism
-SRR407629	SRS290750		L3 larva Ce	hermaphrodite	N2	organism
-SRR407631	SRS290750		L3 larva Ce	hermaphrodite	N2	organism
-SRR407633	SRS290750		L3 larva Ce	hermaphrodite	N2	organism
-SRR407634	SRS290750		L3 larva Ce	hermaphrodite	N2	organism
-SRR407628	SRS290751		L4 larva Ce	hermaphrodite	N2	organism
-SRR407630	SRS290751		L4 larva Ce	hermaphrodite	N2	organism
-SRR407632	SRS290751		L4 larva Ce	hermaphrodite	N2	organism
-SRR407645	SRS290751		L4 larva Ce	hermaphrodite	N2	organism
+Run	Sample	Condition	developmental_stage	organism_part	sex	strain
+SRR400287	SAMN00773780	L1 larva Ce	L1 larva Ce	organism	hermaphrodite	N2
+SRR400289	SAMN00773780	L1 larva Ce	L1 larva Ce	organism	hermaphrodite	N2
+SRR405088	SAMN00773780	L1 larva Ce	L1 larva Ce	organism	hermaphrodite	N2
+SRR405089	SAMN00773780	L1 larva Ce	L1 larva Ce	organism	hermaphrodite	N2
+SRR405091	SAMN00773780	L1 larva Ce	L1 larva Ce	organism	hermaphrodite	N2
+SRR405092	SAMN00773780	L1 larva Ce	L1 larva Ce	organism	hermaphrodite	N2
+SRR405093	SAMN00779726	L2 larva Ce	L2 larva Ce	organism	hermaphrodite	N2
+SRR407625	SAMN00779726	L2 larva Ce	L2 larva Ce	organism	hermaphrodite	N2
+SRR405094	SAMN00779727	L3 larva Ce	L3 larva Ce	organism	hermaphrodite	N2
+SRR407624	SAMN00779727	L3 larva Ce	L3 larva Ce	organism	hermaphrodite	N2
+SRR407626	SAMN00779727	L3 larva Ce	L3 larva Ce	organism	hermaphrodite	N2
+SRR407629	SAMN00779727	L3 larva Ce	L3 larva Ce	organism	hermaphrodite	N2
+SRR407631	SAMN00779727	L3 larva Ce	L3 larva Ce	organism	hermaphrodite	N2
+SRR407633	SAMN00779727	L3 larva Ce	L3 larva Ce	organism	hermaphrodite	N2
+SRR407634	SAMN00779727	L3 larva Ce	L3 larva Ce	organism	hermaphrodite	N2
+SRR407628	SAMN00779728	L4 larva Ce	L4 larva Ce	organism	hermaphrodite	N2
+SRR407630	SAMN00779728	L4 larva Ce	L4 larva Ce	organism	hermaphrodite	N2
+SRR407632	SAMN00779728	L4 larva Ce	L4 larva Ce	organism	hermaphrodite	N2
+SRR407645	SAMN00779728	L4 larva Ce	L4 larva Ce	organism	hermaphrodite	N2

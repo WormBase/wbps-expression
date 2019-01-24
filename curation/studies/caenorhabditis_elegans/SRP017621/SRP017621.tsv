@@ -1,27 +1,27 @@
-Run	Sample	Condition	developmental_stage	sex	strain	organism_part
-SRR638942	SRS380989		L1 larva Ce	hermaphrodite	LE2544	organism
-SRR638946	SRS380989		L1 larva Ce	hermaphrodite	LE2544	organism
-SRR638971	SRS380989		L1 larva Ce	hermaphrodite	LE2544	organism
-SRR639015	SRS380989		L1 larva Ce	hermaphrodite	LE2544	organism
-SRR639020	SRS380989		L1 larva Ce	hermaphrodite	LE2544	organism
-SRR639021	SRS380989		L1 larva Ce	hermaphrodite	LE2544	organism
-SRR639022	SRS380989		L1 larva Ce	hermaphrodite	LE2544	organism
-SRR639023	SRS380989		L1 larva Ce	hermaphrodite	LE2544	organism
-SRR639082	SRS380992		L1 larva Ce	hermaphrodite	LE2962	organism
-SRR639084	SRS380992		L1 larva Ce	hermaphrodite	LE2962	organism
-SRR639087	SRS380992		L1 larva Ce	hermaphrodite	LE2962	organism
-SRR639088	SRS380992		L1 larva Ce	hermaphrodite	LE2962	organism
-SRR639089	SRS380992		L1 larva Ce	hermaphrodite	LE2962	organism
-SRR639090	SRS380992		L1 larva Ce	hermaphrodite	LE2962	organism
-SRR639091	SRS380994		L1 larva Ce	hermaphrodite	LE2963	organism
-SRR639092	SRS380994		L1 larva Ce	hermaphrodite	LE2963	organism
-SRR639093	SRS380994		L1 larva Ce	hermaphrodite	LE2963	organism
-SRR639094	SRS380994		L1 larva Ce	hermaphrodite	LE2963	organism
-SRR639095	SRS380994		L1 larva Ce	hermaphrodite	LE2963	organism
-SRR639096	SRS380994		L1 larva Ce	hermaphrodite	LE2963	organism
-SRR639097	SRS380996		L1 larva Ce	hermaphrodite	LE3037	organism
-SRR639098	SRS380996		L1 larva Ce	hermaphrodite	LE3037	organism
-SRR639099	SRS380996		L1 larva Ce	hermaphrodite	LE3037	organism
-SRR639101	SRS380996		L1 larva Ce	hermaphrodite	LE3037	organism
-SRR639102	SRS380996		L1 larva Ce	hermaphrodite	LE3037	organism
-SRR639105	SRS380996		L1 larva Ce	hermaphrodite	LE3037	organism
+Run	Sample	Condition	developmental_stage	organism_part	sex	strain
+SRR638942	SAMN01831633	LE2544	L1 larva Ce	organism	hermaphrodite	LE2544
+SRR638946	SAMN01831633	LE2544	L1 larva Ce	organism	hermaphrodite	LE2544
+SRR638971	SAMN01831633	LE2544	L1 larva Ce	organism	hermaphrodite	LE2544
+SRR639015	SAMN01831633	LE2544	L1 larva Ce	organism	hermaphrodite	LE2544
+SRR639020	SAMN01831633	LE2544	L1 larva Ce	organism	hermaphrodite	LE2544
+SRR639021	SAMN01831633	LE2544	L1 larva Ce	organism	hermaphrodite	LE2544
+SRR639022	SAMN01831633	LE2544	L1 larva Ce	organism	hermaphrodite	LE2544
+SRR639023	SAMN01831633	LE2544	L1 larva Ce	organism	hermaphrodite	LE2544
+SRR639082	SAMN01831652	LE2962	L1 larva Ce	organism	hermaphrodite	LE2962
+SRR639084	SAMN01831652	LE2962	L1 larva Ce	organism	hermaphrodite	LE2962
+SRR639087	SAMN01831652	LE2962	L1 larva Ce	organism	hermaphrodite	LE2962
+SRR639088	SAMN01831652	LE2962	L1 larva Ce	organism	hermaphrodite	LE2962
+SRR639089	SAMN01831652	LE2962	L1 larva Ce	organism	hermaphrodite	LE2962
+SRR639090	SAMN01831652	LE2962	L1 larva Ce	organism	hermaphrodite	LE2962
+SRR639091	SAMN01831653	LE2963	L1 larva Ce	organism	hermaphrodite	LE2963
+SRR639092	SAMN01831653	LE2963	L1 larva Ce	organism	hermaphrodite	LE2963
+SRR639093	SAMN01831653	LE2963	L1 larva Ce	organism	hermaphrodite	LE2963
+SRR639094	SAMN01831653	LE2963	L1 larva Ce	organism	hermaphrodite	LE2963
+SRR639095	SAMN01831653	LE2963	L1 larva Ce	organism	hermaphrodite	LE2963
+SRR639096	SAMN01831653	LE2963	L1 larva Ce	organism	hermaphrodite	LE2963
+SRR639097	SAMN01831654	LE3037	L1 larva Ce	organism	hermaphrodite	LE3037
+SRR639098	SAMN01831654	LE3037	L1 larva Ce	organism	hermaphrodite	LE3037
+SRR639099	SAMN01831654	LE3037	L1 larva Ce	organism	hermaphrodite	LE3037
+SRR639101	SAMN01831654	LE3037	L1 larva Ce	organism	hermaphrodite	LE3037
+SRR639102	SAMN01831654	LE3037	L1 larva Ce	organism	hermaphrodite	LE3037
+SRR639105	SAMN01831654	LE3037	L1 larva Ce	organism	hermaphrodite	LE3037

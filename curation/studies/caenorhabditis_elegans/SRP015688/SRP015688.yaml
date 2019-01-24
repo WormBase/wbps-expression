@@ -1,0 +1,17 @@
+---
+condition_names:
+  'L3 larva Ce, linker cell, male, PS4730': 'L3 larva Ce, linker cell, male, strain PS4730'
+  'L4 larva Ce, linker cell, male, PS4730': 'L4 larva Ce, linker cell, male, strain PS4730'
+  'all stages Ce, organism, hermaphrodite, N2': 'all stages Ce, organism, hermaphrodite, strain N2'
+  'larva Ce, organism, hermaphrodite, N2': 'larva Ce, organism, hermaphrodite, strain N2'
+contrasts:
+  - name: developmental_stage
+    values:
+      -
+        - 'L3 larva Ce, linker cell, male, PS4730'
+        - 'L4 larva Ce, linker cell, male, PS4730'
+        - 'linker cell, male, PS4730: L3 larva Ce vs L4 larva Ce'
+description: C. elegans linker cell transcriptome
+pubmed: ~
+submitting_centre: California Institute of Technology
+title: C. elegans linker cell transcriptome
