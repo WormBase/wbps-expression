@@ -11,6 +11,9 @@ my $curation = {
   heligmosomoides_polygyrus => {
     SRP157940 => [30349532],
   }, 
+  meloidogyne_incognita => {
+    ERP009887 => [28594822],
+  },
   schistosoma_mansoni => {
     ERP000427 => [22253936],
     ERP016356 => [27499125],
