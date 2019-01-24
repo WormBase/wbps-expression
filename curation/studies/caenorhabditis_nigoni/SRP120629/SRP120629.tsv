@@ -1,25 +1,25 @@
-Run	Sample	Condition	biomaterial_provider	breed	description_title	developmental_stage	organism_part	sample_name	sex
-SRR6197730	SAMN07759027	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
-SRR6197731	SAMN07759027	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
-SRR6197732	SAMN07759027	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
-SRR6197733	SAMN07759027	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
-SRR6197736	SAMN07759027	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
-SRR6197737	SAMN07759027	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
-SRR6197738	SAMN07759027	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
-SRR6197739	SAMN07759027	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
-SRR6197750	SAMN07759027	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
-SRR6197751	SAMN07759027	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
-SRR6197752	SAMN07759027	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
-SRR6197753	SAMN07759027	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
-SRR6197734	SAMN07759026	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
-SRR6197735	SAMN07759026	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
-SRR6197740	SAMN07759026	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
-SRR6197741	SAMN07759026	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
-SRR6197742	SAMN07759026	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
-SRR6197743	SAMN07759026	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
-SRR6197744	SAMN07759026	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
-SRR6197745	SAMN07759026	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
-SRR6197746	SAMN07759026	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
-SRR6197747	SAMN07759026	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
-SRR6197748	SAMN07759026	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
-SRR6197749	SAMN07759026	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
+Run	Condition	biomaterial_provider	breed	description_title	developmental_stage	organism_part	sample_name	sex
+SRR6197730	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
+SRR6197731	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
+SRR6197732	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
+SRR6197733	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
+SRR6197736	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
+SRR6197737	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
+SRR6197738	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
+SRR6197739	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
+SRR6197750	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
+SRR6197751	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
+SRR6197752	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
+SRR6197753	C. nigoni adult females	Asher Cutter	JU1421	Caenorhabditis nigoni adult females	adult	whole organism	C. nigoni adult females	female
+SRR6197734	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
+SRR6197735	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
+SRR6197740	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
+SRR6197741	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
+SRR6197742	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
+SRR6197743	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
+SRR6197744	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
+SRR6197745	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
+SRR6197746	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
+SRR6197747	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
+SRR6197748	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male
+SRR6197749	C. nigoni adult males	Asher Cutter	JU1421	Caenorhabditis nigoni adult males	adult	whole organism	C. nigoni adult males	male

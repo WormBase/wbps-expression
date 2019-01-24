@@ -1,6 +1,32 @@
 ---
 condition_names: {}
-contrasts: []
+contrasts:
+  - name: developmental_stage
+    values:
+      -
+        - L1 larva Ce
+        - L2 larva Ce
+        - L1 larva Ce vs L2 larva Ce
+      -
+        - L1 larva Ce
+        - L3 larva Ce
+        - L1 larva Ce vs L3 larva Ce
+      -
+        - L1 larva Ce
+        - L4 larva Ce
+        - L1 larva Ce vs L4 larva Ce
+      -
+        - L2 larva Ce
+        - L3 larva Ce
+        - L2 larva Ce vs L3 larva Ce
+      -
+        - L2 larva Ce
+        - L4 larva Ce
+        - L2 larva Ce vs L4 larva Ce
+      -
+        - L3 larva Ce
+        - L4 larva Ce
+        - L3 larva Ce vs L4 larva Ce
 description: Wobble Base-pairing Slows in vivo Translation Elongation in Metazoans
 pubmed:
   22045228:

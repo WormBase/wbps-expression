@@ -1,6 +1,12 @@
 ---
 condition_names: {}
-contrasts: []
+contrasts:
+  - name: description_title+sample_name+sex
+    values:
+      -
+        - C. nigoni adult females
+        - C. nigoni adult males
+        - 'Caenorhabditis nigoni adult females, C. nigoni adult females, female vs Caenorhabditis nigoni adult males, C. nigoni adult males, male'
 description: Caenorhabditis nigoni male and female transcriptomes
 pubmed:
   29302007:
