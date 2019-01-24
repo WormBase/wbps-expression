@@ -1,18 +1,6 @@
 ---
 condition_names: {}
-contrasts:
-  - name: treatment
-    values:
-      -
-        - male
-        - 'male, E. milli latex'
-        - "male: '' vs E. milli latex"
-  - name: sex
-    values:
-      -
-        - 'female, E. milli latex'
-        - 'male, E. milli latex'
-        - 'E. milli latex: female vs male'
+contrasts: []
 description: 'Schistosoma mansoni strain LE - Transcriptome or Gene expression'
 pubmed:
   28753630:
