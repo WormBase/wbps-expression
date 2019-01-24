@@ -1,0 +1,19 @@
+---
+condition_names:
+  'Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae X chromosome (from 16.4 M to the end), sterile, ZZY10330': 'Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae X chromosome (from 16.4 M to the end), sterile, strain ZZY10330'
+  'Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae chromosome X (from 4.5M to 12.2M), sterile, ZZY10307': 'Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae chromosome X (from 4.5M to 12.2M), sterile, strain ZZY10307'
+  'wild type C. nigoni, fertile, JU1421': 'wild type C. nigoni, fertile, strain JU1421'
+contrasts:
+  - name: genotype+strain
+    values:
+      -
+        - 'Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae X chromosome (from 16.4 M to the end), sterile, ZZY10330'
+        - 'Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae chromosome X (from 4.5M to 12.2M), sterile, ZZY10307'
+        - 'sterile: Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae X chromosome (from 16.4 M to the end), ZZY10330 vs Mostly C. nigoni genome, with X chromosome syntenic region replaced by C. briggsae chromosome X (from 4.5M to 12.2M), ZZY10307'
+description: Analysis of Hybrid Incompatability between C nigoni and C briggsae by mRNA sequencing
+pubmed:
+  27197225:
+    - 'Li .. Zhao, 2016'
+    - 'Specific down-regulation of spermatogenesis genes targeted by 22G RNAs in hybrid sterile males associated with an X-Chromosome introgression. (Li .. Zhao, 2016)'
+submitting_centre: Hong Kong Baptist University
+title: Analysis of Hybrid Incompatability between C nigoni and C briggsae by mRNA sequencing

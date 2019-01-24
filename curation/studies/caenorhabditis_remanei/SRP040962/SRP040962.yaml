@@ -1,0 +1,56 @@
+---
+condition_names:
+  'Control selected, derived from PX443, 20°C': 'strain Control selected, derived from PX443, 20°C'
+  'Control selected, derived from PX443, 30°C': 'strain Control selected, derived from PX443, 30°C'
+  'Heat-selected, derived from PX443, 20°C': 'strain Heat-selected, derived from PX443, 20°C'
+  'Heat-selected, derived from PX443, 30°C': 'strain Heat-selected, derived from PX443, 30°C'
+  'PX443, 20°C': 'strain PX443, 20°C'
+  'PX443, 30°C': 'strain PX443, 30°C'
+contrasts:
+  - name: temperature
+    values:
+      -
+        - 'Control selected, derived from PX443, 20°C'
+        - 'Control selected, derived from PX443, 30°C'
+        - 'Control selected, derived from PX443: 20°C vs 30°C'
+      -
+        - 'Heat-selected, derived from PX443, 20°C'
+        - 'Heat-selected, derived from PX443, 30°C'
+        - 'Heat-selected, derived from PX443: 20°C vs 30°C'
+      -
+        - 'PX443, 20°C'
+        - 'PX443, 30°C'
+        - 'PX443: 20°C vs 30°C'
+  - name: strain
+    values:
+      -
+        - 'Control selected, derived from PX443, 20°C'
+        - 'Heat-selected, derived from PX443, 20°C'
+        - '20°C: Control selected, derived from PX443 vs Heat-selected, derived from PX443'
+      -
+        - 'Control selected, derived from PX443, 20°C'
+        - 'PX443, 20°C'
+        - '20°C: Control selected, derived from PX443 vs PX443'
+      -
+        - 'Heat-selected, derived from PX443, 20°C'
+        - 'PX443, 20°C'
+        - '20°C: Heat-selected, derived from PX443 vs PX443'
+      -
+        - 'Control selected, derived from PX443, 30°C'
+        - 'Heat-selected, derived from PX443, 30°C'
+        - '30°C: Control selected, derived from PX443 vs Heat-selected, derived from PX443'
+      -
+        - 'Control selected, derived from PX443, 30°C'
+        - 'PX443, 30°C'
+        - '30°C: Control selected, derived from PX443 vs PX443'
+      -
+        - 'Heat-selected, derived from PX443, 30°C'
+        - 'PX443, 30°C'
+        - '30°C: Heat-selected, derived from PX443 vs PX443'
+description: Rapid evolution of phenotypic plasticity and shifting thresholds of genetic assimilation in the nematode Caenorhabditis remanei
+pubmed:
+  24727288:
+    - 'Sikkink .. Phillips, 2014'
+    - 'Rapid evolution of phenotypic plasticity and shifting thresholds of genetic assimilation in the nematode Caenorhabditis remanei. (Sikkink .. Phillips, 2014)'
+submitting_centre: 'Institute of Ecology and Evolution, University of Oregon'
+title: Rapid evolution of phenotypic plasticity and shifting thresholds of genetic assimilation in the nematode Caenorhabditis remanei

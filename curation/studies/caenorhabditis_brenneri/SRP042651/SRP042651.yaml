@@ -1,0 +1,13 @@
+---
+condition_names: {}
+contrasts: []
+description: Comparative population genomics in 76 metazoan species (popphyl project)
+pubmed:
+  25141177:
+    - 'Romiguier .. Galtier, 2014'
+    - 'Comparative population genomics in animals uncovers the determinants of genetic diversity. (Romiguier .. Galtier, 2014)'
+  27427999:
+    - 'Whitelaw .. Cooke, 2016'
+    - 'Combined Transcriptomic and Proteomic Analysis of the Posterior Salivary Gland from the Southern Blue-Ringed Octopus and the Southern Sand Octopus. (Whitelaw .. Cooke, 2016)'
+submitting_centre: University of Montpellier 2
+title: Comparative population genomics in 76 metazoan species (popphyl project)

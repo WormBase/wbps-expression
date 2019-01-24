@@ -1,0 +1,37 @@
+---
+condition_names:
+  'Control selected, derived from PX443': 'strain Control selected, derived from PX443'
+  'Heat-selected, derived from PX443': 'strain Heat-selected, derived from PX443'
+  'Oxidative-selected, derived from PX443': 'strain Oxidative-selected, derived from PX443'
+  PX443: strain PX443
+contrasts:
+  - name: strain
+    values:
+      -
+        - 'Control selected, derived from PX443'
+        - 'Heat-selected, derived from PX443'
+        - 'Control selected, derived from PX443 vs Heat-selected, derived from PX443'
+      -
+        - 'Control selected, derived from PX443'
+        - 'Oxidative-selected, derived from PX443'
+        - 'Control selected, derived from PX443 vs Oxidative-selected, derived from PX443'
+      -
+        - 'Control selected, derived from PX443'
+        - PX443
+        - 'Control selected, derived from PX443 vs PX443'
+      -
+        - 'Heat-selected, derived from PX443'
+        - 'Oxidative-selected, derived from PX443'
+        - 'Heat-selected, derived from PX443 vs Oxidative-selected, derived from PX443'
+      -
+        - 'Heat-selected, derived from PX443'
+        - PX443
+        - 'Heat-selected, derived from PX443 vs PX443'
+      -
+        - 'Oxidative-selected, derived from PX443'
+        - PX443
+        - 'Oxidative-selected, derived from PX443 vs PX443'
+description: Dissecting the genetic basis of an evolved acute heat stress and oxidative stress resistance in the nematode Caenorhabditis remanei reveals a complex and unique genetic architecture
+pubmed: ~
+submitting_centre: 'Biology, University of Oregon'
+title: Dissecting the genetic basis of an evolved acute heat stress and oxidative stress resistance in the nematode Caenorhabditis remanei reveals a complex and unique genetic architecture

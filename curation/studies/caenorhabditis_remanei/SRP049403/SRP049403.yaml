@@ -1,0 +1,16 @@
+---
+condition_names:
+  '20°C, Control-selected, derived from PX443': '20°C, strain Control-selected, derived from PX443'
+  '20°C, Heat-selected, derived from PX443': '20°C, strain Heat-selected, derived from PX443'
+  '20°C, PX443': '20°C, strain PX443'
+  '30°C, Control-selected, derived from PX443': '30°C, strain Control-selected, derived from PX443'
+  '30°C, Heat-selected, derived from PX443': '30°C, strain Heat-selected, derived from PX443'
+  '30°C, PX443': '30°C, strain PX443'
+contrasts: []
+description: Evolution of phenotypic plasticity and transgenerational effects of heat stress in the nematode Caenorhabditis remanei
+pubmed:
+  25283346:
+    - 'Sikkink .. Phillips, 2014'
+    - 'The transgenerational effects of heat stress in the nematode Caenorhabditis remanei are negative and rapidly eliminated under direct selection for increased stress resistance in larvae. (Sikkink .. Phillips, 2014)'
+submitting_centre: 'Institute of Ecology and Evolution, University of Oregon'
+title: Evolution of phenotypic plasticity and transgenerational effects of heat stress in the nematode Caenorhabditis remanei

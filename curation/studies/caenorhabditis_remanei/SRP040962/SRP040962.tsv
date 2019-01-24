@@ -1,0 +1,45 @@
+Run	Sample	Condition	developmental_stage	strain	temperature
+SRR1217016	SAMN02719381	Control selected, derived from PX443, 20°C	L1	Control selected, derived from PX443	20°C
+SRR1217017	SAMN02719381	Control selected, derived from PX443, 20°C	L1	Control selected, derived from PX443	20°C
+SRR1217021	SAMN02719395	Control selected, derived from PX443, 20°C	L1	Control selected, derived from PX443	20°C
+SRR1217018	SAMN02719396	Control selected, derived from PX443, 20°C	L1	Control selected, derived from PX443	20°C
+SRR1217019	SAMN02719396	Control selected, derived from PX443, 20°C	L1	Control selected, derived from PX443	20°C
+SRR1217020	SAMN02719397	Control selected, derived from PX443, 20°C	L1	Control selected, derived from PX443	20°C
+SRR1217022	SAMN02719398	Control selected, derived from PX443, 20°C	L1	Control selected, derived from PX443	20°C
+SRR1217023	SAMN02719402	Control selected, derived from PX443, 20°C	L1	Control selected, derived from PX443	20°C
+SRR1217031	SAMN02719399	Control selected, derived from PX443, 30°C	L1	Control selected, derived from PX443	30°C
+SRR1217028	SAMN02719401	Control selected, derived from PX443, 30°C	L1	Control selected, derived from PX443	30°C
+SRR1217029	SAMN02719404	Control selected, derived from PX443, 30°C	L1	Control selected, derived from PX443	30°C
+SRR1217024	SAMN02719405	Control selected, derived from PX443, 30°C	L1	Control selected, derived from PX443	30°C
+SRR1217025	SAMN02719405	Control selected, derived from PX443, 30°C	L1	Control selected, derived from PX443	30°C
+SRR1217026	SAMN02719411	Control selected, derived from PX443, 30°C	L1	Control selected, derived from PX443	30°C
+SRR1217027	SAMN02719411	Control selected, derived from PX443, 30°C	L1	Control selected, derived from PX443	30°C
+SRR1217030	SAMN02719412	Control selected, derived from PX443, 30°C	L1	Control selected, derived from PX443	30°C
+SRR1217036	SAMN02719400	Heat-selected, derived from PX443, 20°C	L1	Heat-selected, derived from PX443	20°C
+SRR1217039	SAMN02719403	Heat-selected, derived from PX443, 20°C	L1	Heat-selected, derived from PX443	20°C
+SRR1217032	SAMN02719406	Heat-selected, derived from PX443, 20°C	L1	Heat-selected, derived from PX443	20°C
+SRR1217033	SAMN02719406	Heat-selected, derived from PX443, 20°C	L1	Heat-selected, derived from PX443	20°C
+SRR1217037	SAMN02719407	Heat-selected, derived from PX443, 20°C	L1	Heat-selected, derived from PX443	20°C
+SRR1217038	SAMN02719409	Heat-selected, derived from PX443, 20°C	L1	Heat-selected, derived from PX443	20°C
+SRR1217034	SAMN02719415	Heat-selected, derived from PX443, 20°C	L1	Heat-selected, derived from PX443	20°C
+SRR1217035	SAMN02719415	Heat-selected, derived from PX443, 20°C	L1	Heat-selected, derived from PX443	20°C
+SRR1217040	SAMN02719380	Heat-selected, derived from PX443, 30°C	L1	Heat-selected, derived from PX443	30°C
+SRR1217041	SAMN02719380	Heat-selected, derived from PX443, 30°C	L1	Heat-selected, derived from PX443	30°C
+SRR1217045	SAMN02719383	Heat-selected, derived from PX443, 30°C	L1	Heat-selected, derived from PX443	30°C
+SRR1217044	SAMN02719387	Heat-selected, derived from PX443, 30°C	L1	Heat-selected, derived from PX443	30°C
+SRR1217047	SAMN02719392	Heat-selected, derived from PX443, 30°C	L1	Heat-selected, derived from PX443	30°C
+SRR1217042	SAMN02719413	Heat-selected, derived from PX443, 30°C	L1	Heat-selected, derived from PX443	30°C
+SRR1217043	SAMN02719413	Heat-selected, derived from PX443, 30°C	L1	Heat-selected, derived from PX443	30°C
+SRR1217046	SAMN02719414	Heat-selected, derived from PX443, 30°C	L1	Heat-selected, derived from PX443	30°C
+SRR1217004	SAMN02719384	PX443, 20°C	L1	PX443	20°C
+SRR1217007	SAMN02719386	PX443, 20°C	L1	PX443	20°C
+SRR1217006	SAMN02719388	PX443, 20°C	L1	PX443	20°C
+SRR1217009	SAMN02719389	PX443, 20°C	L1	PX443	20°C
+SRR1217005	SAMN02719390	PX443, 20°C	L1	PX443	20°C
+SRR1217008	SAMN02719408	PX443, 20°C	L1	PX443	20°C
+SRR1217010	SAMN02719382	PX443, 30°C	L1	PX443	30°C
+SRR1217013	SAMN02719385	PX443, 30°C	L1	PX443	30°C
+SRR1217015	SAMN02719391	PX443, 30°C	L1	PX443	30°C
+SRR1217012	SAMN02719393	PX443, 30°C	L1	PX443	30°C
+SRR1217011	SAMN02719394	PX443, 30°C	L1	PX443	30°C
+SRR1217014	SAMN02719410	PX443, 30°C	L1	PX443	30°C
