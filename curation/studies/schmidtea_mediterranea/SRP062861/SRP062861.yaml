@@ -4,34 +4,6 @@ contrasts:
   - name: timepoint
     values:
       -
-        - 'CHD4, 12 days'
-        - 'CHD4, 15 days'
-        - 'CHD4: 12 days vs 15 days'
-      -
-        - 'CHD4, 12 days'
-        - 'CHD4, 3 days'
-        - 'CHD4: 12 days vs 3 days'
-      -
-        - 'CHD4, 12 days'
-        - 'CHD4, 6 days'
-        - 'CHD4: 12 days vs 6 days'
-      -
-        - 'CHD4, 12 days'
-        - 'CHD4, 9 days'
-        - 'CHD4: 12 days vs 9 days'
-      -
-        - 'CHD4, 15 days'
-        - 'CHD4, 3 days'
-        - 'CHD4: 15 days vs 3 days'
-      -
-        - 'CHD4, 15 days'
-        - 'CHD4, 6 days'
-        - 'CHD4: 15 days vs 6 days'
-      -
-        - 'CHD4, 15 days'
-        - 'CHD4, 9 days'
-        - 'CHD4: 15 days vs 9 days'
-      -
         - 'CHD4, 3 days'
         - 'CHD4, 6 days'
         - 'CHD4: 3 days vs 6 days'
@@ -40,57 +12,13 @@ contrasts:
         - 'CHD4, 9 days'
         - 'CHD4: 3 days vs 9 days'
       -
-        - 'CHD4, 6 days'
-        - 'CHD4, 9 days'
-        - 'CHD4: 6 days vs 9 days'
+        - 'CHD4, 3 days'
+        - 'CHD4, 12 days'
+        - 'CHD4: 3 days vs 12 days'
       -
-        - 'p53, 12 days'
-        - 'p53, 15 days'
-        - 'p53: 12 days vs 15 days'
-      -
-        - 'p53, 12 days'
-        - 'p53, 18 days'
-        - 'p53: 12 days vs 18 days'
-      -
-        - 'p53, 12 days'
-        - 'p53, 3 days'
-        - 'p53: 12 days vs 3 days'
-      -
-        - 'p53, 12 days'
-        - 'p53, 6 days'
-        - 'p53: 12 days vs 6 days'
-      -
-        - 'p53, 12 days'
-        - 'p53, 9 days'
-        - 'p53: 12 days vs 9 days'
-      -
-        - 'p53, 15 days'
-        - 'p53, 18 days'
-        - 'p53: 15 days vs 18 days'
-      -
-        - 'p53, 15 days'
-        - 'p53, 3 days'
-        - 'p53: 15 days vs 3 days'
-      -
-        - 'p53, 15 days'
-        - 'p53, 6 days'
-        - 'p53: 15 days vs 6 days'
-      -
-        - 'p53, 15 days'
-        - 'p53, 9 days'
-        - 'p53: 15 days vs 9 days'
-      -
-        - 'p53, 18 days'
-        - 'p53, 3 days'
-        - 'p53: 18 days vs 3 days'
-      -
-        - 'p53, 18 days'
-        - 'p53, 6 days'
-        - 'p53: 18 days vs 6 days'
-      -
-        - 'p53, 18 days'
-        - 'p53, 9 days'
-        - 'p53: 18 days vs 9 days'
+        - 'CHD4, 3 days'
+        - 'CHD4, 15 days'
+        - 'CHD4: 3 days vs 15 days'
       -
         - 'p53, 3 days'
         - 'p53, 6 days'
@@ -100,57 +28,17 @@ contrasts:
         - 'p53, 9 days'
         - 'p53: 3 days vs 9 days'
       -
-        - 'p53, 6 days'
-        - 'p53, 9 days'
-        - 'p53: 6 days vs 9 days'
+        - 'p53, 3 days'
+        - 'p53, 12 days'
+        - 'p53: 3 days vs 12 days'
       -
-        - 'unc22, 12 days'
-        - 'unc22, 15 days'
-        - 'unc22: 12 days vs 15 days'
+        - 'p53, 3 days'
+        - 'p53, 15 days'
+        - 'p53: 3 days vs 15 days'
       -
-        - 'unc22, 12 days'
-        - 'unc22, 18 days'
-        - 'unc22: 12 days vs 18 days'
-      -
-        - 'unc22, 12 days'
-        - 'unc22, 3 days'
-        - 'unc22: 12 days vs 3 days'
-      -
-        - 'unc22, 12 days'
-        - 'unc22, 6 days'
-        - 'unc22: 12 days vs 6 days'
-      -
-        - 'unc22, 12 days'
-        - 'unc22, 9 days'
-        - 'unc22: 12 days vs 9 days'
-      -
-        - 'unc22, 15 days'
-        - 'unc22, 18 days'
-        - 'unc22: 15 days vs 18 days'
-      -
-        - 'unc22, 15 days'
-        - 'unc22, 3 days'
-        - 'unc22: 15 days vs 3 days'
-      -
-        - 'unc22, 15 days'
-        - 'unc22, 6 days'
-        - 'unc22: 15 days vs 6 days'
-      -
-        - 'unc22, 15 days'
-        - 'unc22, 9 days'
-        - 'unc22: 15 days vs 9 days'
-      -
-        - 'unc22, 18 days'
-        - 'unc22, 3 days'
-        - 'unc22: 18 days vs 3 days'
-      -
-        - 'unc22, 18 days'
-        - 'unc22, 6 days'
-        - 'unc22: 18 days vs 6 days'
-      -
-        - 'unc22, 18 days'
-        - 'unc22, 9 days'
-        - 'unc22: 18 days vs 9 days'
+        - 'p53, 3 days'
+        - 'p53, 18 days'
+        - 'p53: 3 days vs 18 days'
       -
         - 'unc22, 3 days'
         - 'unc22, 6 days'
@@ -160,9 +48,17 @@ contrasts:
         - 'unc22, 9 days'
         - 'unc22: 3 days vs 9 days'
       -
-        - 'unc22, 6 days'
-        - 'unc22, 9 days'
-        - 'unc22: 6 days vs 9 days'
+        - 'unc22, 3 days'
+        - 'unc22, 12 days'
+        - 'unc22: 3 days vs 12 days'
+      -
+        - 'unc22, 3 days'
+        - 'unc22, 15 days'
+        - 'unc22: 3 days vs 15 days'
+      -
+        - 'unc22, 3 days'
+        - 'unc22, 18 days'
+        - 'unc22: 3 days vs 18 days'
   - name: rnai
     values:
       -

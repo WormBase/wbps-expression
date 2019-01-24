@@ -4,10 +4,11 @@ use warnings;
 package Production::CurationDefaults;
 use PublicResources::Rnaseq;
 use List::Util qw/pairmap/;
-use List::MoreUtils qw/uniq/;
+use List::MoreUtils qw/uniq all/;
 use Model::Study;
 use Model::Design;
 use Data::Compare;
+# use Smart::Comments '###';
 
 my @bad_sample_ids = qw/
 SAMN04493423
@@ -40,7 +41,6 @@ SAMEA3317218
 SAMN07445501
 /;
 
-#use Smart::Comments '###';
 sub design_from_runs {
   my (@runs) = @_;
   my %conditions_per_run =
@@ -208,6 +208,24 @@ sub is_drug_assay {
   my ($x, $y, @others) = sort @_;
   return $x && $y && $x eq "timepoint" && $y eq "treatment" && not @others; 
 }
+sub try_make_time_series {
+   my ($subset_chs, @conditions) = @_;
+   return () unless @conditions >=5;
+   my ($ch, @other_chs) = @{$subset_chs};
+   return () unless $ch eq 'timepoint' and not @other_chs;
+   return () unless all {$_ =~ /.*, ?\d+ \w+$/} @conditions;
+   return () unless 1 == scalar uniq map {$_ =~ s/^(.*, )?\d+ (\w+)$/$1\t$2/ and $_} map {$_} @conditions;
+   my ($first_c, @other_cs) = sort {
+     (my $aa = $a) =~ s/^.*, ?(\d+) \w+$/$1/;
+     (my $bb = $b) =~ s/^.*, ?(\d+) \w+$/$1/;
+     $aa <=> $bb
+   } @conditions;
+   my @result = map {[$first_c, $_] } @other_cs;
+#### try_make_time_series in: $subset_chs, @conditions
+#### try_make_time_series result: @result
+   return @result;
+}
+
 sub contrasts {
   my ($design)   = @_;
   my %replicates = pairmap {$a => scalar @$b } %{$design->replicates_by_condition};
@@ -241,6 +259,14 @@ sub contrasts {
     } @partition unless is_life_cycle(@subset_chs) || is_drug_assay(@subset_chs);
 #### Filter further to those that differ in all values chosen characteristics: @partition
     next unless @partition;
+    my @pairs =
+       map { 
+        my @as = try_make_time_series(\@subset_chs, @{$_});
+        my @bs = n_choose_two( @{$_} );
+        @as ? @as : @bs
+      }
+      sort { join( "", @{$a} ) cmp join( "", @{$b} ) }
+      map { [ sort @{$_} ] } @partition;
     my @contrasts =
       map {
       [ $_->[0], $_->[1], contrast_name( $design, \@subset_chs, @{$_} ) ]
@@ -253,10 +279,7 @@ sub contrasts {
       }
       grep {
          not ($replicates{$_->[0]} < 3 and $replicates{$_->[1]} < 3)
-      }
-      map { n_choose_two( @{$_} ) }
-      sort { join( "", @{$a} ) cmp join( "", @{$b} ) }
-      map { [ sort @{$_} ] } @partition;
+      } @pairs;
     
     push @result,
       {
