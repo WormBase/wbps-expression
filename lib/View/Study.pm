@@ -68,7 +68,7 @@ sub to_html {
   my %h = %{$design->runs_by_condition_then_replicate};
   for my $c (sort keys %h){
      my @b = ($c);
-     push @b, scalar keys $h{$c};
+     push @b, scalar keys %{$h{$c}};
      push @b, map {$design->value_in_condition($c, $_) // "" } @{$design->{characteristics_in_order}};
      my @row;
      push (@row, map {{'ROW' => $_}} @b);

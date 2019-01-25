@@ -44,7 +44,6 @@ sub to_html {
       $skip_studies .= View::SkippedRuns->new($skipped_r)->to_html . "\n";
     }
   }
-
   $studies_tmpl->param(OTHERSTUDIES => $skip_studies);
 
   return $studies_tmpl->output;
