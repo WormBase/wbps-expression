@@ -65,6 +65,10 @@ sub low_replicate_warnings {
 }
 
 my %ANALYSES = (  
+  study_design => sub {
+    my($study, $files, $output_path, %analysis_args) = @_; 
+    $study->{design}->to_tsv($output_path);
+  },
   aggregate_by_run => sub { 
     my($study, $files, $output_path, %analysis_args) = @_; 
     my @runs = $study->{design}->all_runs;
