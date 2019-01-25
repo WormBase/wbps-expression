@@ -20,14 +20,24 @@ sub to_html {
     $species =~ s/_/ /g;
     ucfirst($species)
   });
+  
+  my @studies_skipped_whole = grep {
+     my $skipped_study_id = $_->{study_id};
+     my $found = grep {$skipped_study_id eq $_->{study_id}} @{$self->{studies}{passing_checks}};
+     not $found
+  } @{$self->{studies}{skipped_runs}};
 
+  my @toc = map {{
+    ID => $_->{study_id},
+    NAME => $_->{title},
+  }} @{$self->{studies}{passing_checks}};
+  push @toc, {
+    ID => "wbps_expression_other",
+    NAME => sprintf("%s other studies (not analysed)", scalar @studies_skipped_whole),
+  } if @studies_skipped_whole;
   my $studies;
 
   for my $study (@{$self->{studies}{passing_checks}}){
-    my ($skip) = grep {$_->{study_id} eq $study->{study_id}} @{$self->{studies}{skipped_runs}};
-    if ($skip) {
-      $study->{SKIPPED_RUNS} = $skip->{runs};
-    }
      $studies .= View::Study->new($study)->to_html . "\n";
   }
 
@@ -38,11 +48,8 @@ sub to_html {
   $studies_tmpl->param(RUNSTUDIES => $studies);
 
   my $skip_studies;
-  for my $skipped_r (@{$self->{studies}{skipped_runs}}){
-    my $found = grep {$_->{study_id} eq $skipped_r->{study_id}} @{$self->{studies}{passing_checks}};
-    if (!$found) {
-      $skip_studies .= View::SkippedRuns->new($skipped_r)->to_html . "\n";
-    }
+  for my $skipped_r (@studies_skipped_whole){
+    $skip_studies .= View::SkippedRuns->new($skipped_r)->to_html . "\n";
   }
   $studies_tmpl->param(OTHERSTUDIES => $skip_studies);
 
