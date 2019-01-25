@@ -4,7 +4,33 @@ condition_names:
   LE2962: strain LE2962
   LE2963: strain LE2963
   LE3037: strain LE3037
-contrasts: []
+contrasts:
+  - name: strain
+    values:
+      -
+        - LE2544
+        - LE2962
+        - LE2544 vs LE2962
+      -
+        - LE2544
+        - LE2963
+        - LE2544 vs LE2963
+      -
+        - LE2544
+        - LE3037
+        - LE2544 vs LE3037
+      -
+        - LE2962
+        - LE2963
+        - LE2962 vs LE2963
+      -
+        - LE2962
+        - LE3037
+        - LE2962 vs LE3037
+      -
+        - LE2963
+        - LE3037
+        - LE2963 vs LE3037
 description: Using RNA-seq to identify transcriptional targets of MAB-5 in C. elegans
 pubmed: ~
 submitting_centre: University of Kansas

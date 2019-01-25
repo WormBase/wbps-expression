@@ -1,6 +1,14 @@
 ---
-condition_names: {}
-contrasts: []
+condition_names:
+  'L4 & adult males, AF16 (WT)': 'L4 & adult males, strain AF16 (WT)'
+  'L4 & adult pseudo-females, she-1(v47)': 'L4 & adult pseudo-females, strain she-1(v47)'
+contrasts:
+  - name: developmental_stage+strain
+    values:
+      -
+        - 'L4 & adult males, AF16 (WT)'
+        - 'L4 & adult pseudo-females, she-1(v47)'
+        - 'L4 & adult males, AF16 (WT) vs L4 & adult pseudo-females, she-1(v47)'
 description: Caenorhabditis sex-specific RNAseq
 pubmed:
   23103191:

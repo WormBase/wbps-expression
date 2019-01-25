@@ -2,7 +2,7 @@ use strict;
 use warnings;
 use Test::More;
 use File::Temp qw/tempdir/;
-use File::Basename qw/basename/;
+use File::Basename qw/basename dirname/;
 use File::Find;
 use File::Slurp qw/read_file/;
 use FindBin;
@@ -251,14 +251,18 @@ my $arg = $ARGV[0] // "";
 my $study_folder_pattern = $arg =~ /^[A-Z]+\d+$/ ? qr/$arg$/ : qr/$arg.*[A-Z]+\d+$/;
 find(
   sub {
-    $studies{basename $File::Find::name} = $File::Find::name if -d $File::Find::name and $File::Find::name =~ $study_folder_pattern;
+    my $bn = basename $File::Find::name;
+    my $bbn = basename (dirname $File::Find::name);
+    $studies{"$bbn\t$bn"} = $File::Find::name if -d $File::Find::name and $File::Find::name =~ $study_folder_pattern;
   },
   "$FindBin::Bin/../curation/studies"
 );
 my %skipped_runs;
 find(
   sub {
-    $skipped_runs{basename $File::Find::name} = $File::Find::name if -d $File::Find::name and $File::Find::name =~ $study_folder_pattern;
+    my $bn = basename $File::Find::name;
+    my $bbn = basename (dirname $File::Find::name);
+    $skipped_runs{"$bbn\t$bn"} = $File::Find::name if -d $File::Find::name and $File::Find::name =~ $study_folder_pattern;
   },
   "$FindBin::Bin/../curation/skipped_runs"
 );

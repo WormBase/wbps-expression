@@ -1,7 +1,7 @@
-Run	Condition	developmental_stage	rna	sample_name	source_name	strain
-SRR580392	C. briggsae XO 1	L4 & adult males	poly-A RNA	C. briggsae XO 1	whole animal	AF16 (WT)
-SRR580393	C. briggsae XO 2	L4 & adult males	poly-A RNA	C. briggsae XO 2	whole animal	AF16 (WT)
-SRR580394	C. briggsae XO 3	L4 & adult males	poly-A RNA	C. briggsae XO 3	whole animal	AF16 (WT)
-SRR580389	C. briggsae XX 1	L4 & adult pseudo-females	poly-A RNA	C. briggsae XX 1	whole animal	she-1(v47)
-SRR580390	C. briggsae XX 2	L4 & adult pseudo-females	poly-A RNA	C. briggsae XX 2	whole animal	she-1(v47)
-SRR580391	C. briggsae XX 3	L4 & adult pseudo-females	poly-A RNA	C. briggsae XX 3	whole animal	she-1(v47)
+Run	Condition	developmental_stage	rna	strain
+SRR580392	L4 & adult males, AF16 (WT)	L4 & adult males	poly-A RNA	AF16 (WT)
+SRR580393	L4 & adult males, AF16 (WT)	L4 & adult males	poly-A RNA	AF16 (WT)
+SRR580394	L4 & adult males, AF16 (WT)	L4 & adult males	poly-A RNA	AF16 (WT)
+SRR580389	L4 & adult pseudo-females, she-1(v47)	L4 & adult pseudo-females	poly-A RNA	she-1(v47)
+SRR580390	L4 & adult pseudo-females, she-1(v47)	L4 & adult pseudo-females	poly-A RNA	she-1(v47)
+SRR580391	L4 & adult pseudo-females, she-1(v47)	L4 & adult pseudo-females	poly-A RNA	she-1(v47)
