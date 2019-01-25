@@ -28,13 +28,15 @@ sub to_html {
   } @{$self->{studies}{skipped_runs}};
 
   my @toc = map {{
-    ID => $_->{study_id},
-    NAME => $_->{title},
+    TOC_ITEM_ID => $_->{study_id},
+    TOC_ITEM_NAME => $_->{title},
   }} @{$self->{studies}{passing_checks}};
   push @toc, {
-    ID => "wbps_expression_other",
-    NAME => sprintf("%s other studies (not analysed)", scalar @studies_skipped_whole),
+    TOC_ITEM_ID => "wbps_expression_other",
+    TOC_ITEM_NAME => sprintf("%s other studies (not analysed)", scalar @studies_skipped_whole),
   } if @studies_skipped_whole;
+  $studies_tmpl->param(TOC => \@toc);
+
   my $studies;
 
   for my $study (@{$self->{studies}{passing_checks}}){
