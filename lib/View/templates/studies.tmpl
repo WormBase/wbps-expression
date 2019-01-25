@@ -8,12 +8,14 @@
 	<div class="species-badge">
 		<h1><em><TMPL_VAR NAME=SPECIES> - public RNASeq studies</em></h1>
 	</div>
-	<h2 class="exp-group">Analysed</h2>
+	<h2 id="wbps_expression_studies" class="exp-group">Analysed</h2>
 	<TMPL_VAR NAME=RUNSTUDIES>
-
-	<h2 class="exp-group">Not Analysed</h2>
-	<TMPL_VAR NAME=OTHERSTUDIES>
-
+    <TMPL_IF NAME="OTHERSTUDIES">
+	  <h2 id="wbps_expression_other" class="exp-group">Other</h2>
+      <i>These studies are available in ENA, and <a href="https://www.ebi.ac.uk/fg/rnaseq/api">Our collaborators</a> could successfully align the reads to our genomes, but we did not include the results because they were deemed to have too few replicates or because we could not find sufficient metadata. If one of these studies would be valuable to include, let us know!
+      </i>
+	  <TMPL_VAR NAME=OTHERSTUDIES>
+    </TMPL_IF>
 </div>
 
 </body>
