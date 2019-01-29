@@ -115,6 +115,11 @@ sub analyses_required {
   my $has_technical_replicates = keys %h > uniq values %h;
   return (
     {
+      type => "study_design",
+      file_name => "$study_id.metadata_per_run.tsv",
+      title => "Characteristics and conditions per run",
+    },
+    {
       type => "aggregate_by_run",
       file_name => $counts_file_name,
       title => "Raw data (counts of aligned reads) per run",

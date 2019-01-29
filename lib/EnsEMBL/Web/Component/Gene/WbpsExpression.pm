@@ -10,6 +10,9 @@ package EnsEMBL::Web::Component::Gene::WbpsExpression;
 sub new {
    # location of the data files to read from, passed in as config
 }
+sub from_folder {
+
+}
 
 sub get_data {
   my ($species, $gene_id) = @_;
