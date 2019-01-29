@@ -32,5 +32,5 @@ for my $core_db (@core_dbs) {
   next unless "$data_dir/Resources/${spe}_${cies}";
   my $assembly = ProductionMysql->staging->meta_value($core_db, "assembly.name");
   $processing->do_everything ("${spe}_${cies}", $assembly);
-  $ENV{DO_DEPLOY_WEB} and print `sudo -u wormbase rsync -av $work_dir/${spe}_${cies}/$assembly/  /ebi/ftp/pub/databases/wormbase/parasite/web_data/rnaseq_studies/releases/next/${spe}_${cies}_${bp}/`;
+  $ENV{DO_DEPLOY_WEB} and print `sudo -u wormbase rsync --delete -av $work_dir/${spe}_${cies}/$assembly/  /ebi/ftp/pub/databases/wormbase/parasite/web_data/rnaseq_studies/releases/next/${spe}_${cies}_${bp}/`;
 } 

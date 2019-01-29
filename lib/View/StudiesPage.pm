@@ -29,11 +29,11 @@ sub to_html {
 
   my @toc = map {{
     TOC_ITEM_ID => $_->{study_id},
-    TOC_ITEM_NAME => $_->{title},
+    TOC_ITEM_NAME => $_->{config}{title},
   }} @{$self->{studies}{passing_checks}};
   push @toc, {
     TOC_ITEM_ID => "wbps_expression_other",
-    TOC_ITEM_NAME => sprintf("%s other studies (not analysed)", scalar @studies_skipped_whole),
+    TOC_ITEM_NAME => sprintf("%s other studies", scalar @studies_skipped_whole),
   } if @studies_skipped_whole;
   $studies_tmpl->param(TOC => \@toc);
 
