@@ -57,8 +57,8 @@ sub to_html {
   push (@a, map { ucfirst $_ } @{$design->{characteristics_in_order}});
   my @columns_name = map {
      my $label = $_;
-     $label =~ s/_/ /;
-     # Also: ucfirst?
+     $label =~ s/_/ /g;
+     $label =~ s/Rnai/RNAi/;
      {'COLUMN' => $label }
   } @a;
 
