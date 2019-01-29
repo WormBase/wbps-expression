@@ -1,5 +1,11 @@
 ---
-condition_names: {}
+condition_names:
+  Wildtype zone 1: posterior extent of the photoreceptors
+  Wildtype zone 2: posterior extent of the brain
+  Wildtype zone 3: anterior extent of the pharynx
+  Wildtype zone 4: posterior extent of the pharynx
+  Wildtype zone 5: midpoint between posterior pharynx and tail tip
+  Wildtype zone 6: last remaining piece of tail tip
 contrasts: []
 description: HOX gene complement and expression in the planarian Schmidtea mediterranea
 pubmed:
