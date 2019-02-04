@@ -245,7 +245,7 @@ sub is_life_cycle {
 }
 sub is_drug_assay {
   my ($x, $y, @others) = sort @_;
-  return $x && $y && $x eq "timepoint" && $y eq "treatment" && not @others; 
+  return $x && $y && ($x eq "concentration" || $x eq "timepoint")  && $y eq "treatment" && not @others; 
 }
 sub try_make_time_series {
    my ($subset_chs, @conditions) = @_;

@@ -83,6 +83,30 @@ contrasts:
         - BH male
         - 'BH male, GSK343 at 20uM'
         - 'BH male vs BH male, GSK343 at 20uM'
+      -
+        - NMRI female
+        - 'NMRI female, TH65 at 05uM'
+        - 'NMRI female vs NMRI female, TH65 at 05uM'
+      -
+        - NMRI female
+        - 'NMRI female, TH65 at 10uM'
+        - 'NMRI female vs NMRI female, TH65 at 10uM'
+      -
+        - NMRI female
+        - 'NMRI female, TH65 at 20uM'
+        - 'NMRI female vs NMRI female, TH65 at 20uM'
+      -
+        - NMRI male
+        - 'NMRI male, TH65 at 05uM'
+        - 'NMRI male vs NMRI male, TH65 at 05uM'
+      -
+        - NMRI male
+        - 'NMRI male, TH65 at 10uM'
+        - 'NMRI male vs NMRI male, TH65 at 10uM'
+      -
+        - NMRI male
+        - 'NMRI male, TH65 at 20uM'
+        - 'NMRI male vs NMRI male, TH65 at 20uM'
 description: RNA-seq for the study of the effect of histone modifying enzymes (HMEs) inhibitors on gene expression in Schistosoma mansoni
 pubmed: ~
 submitting_centre: 'University of Sao Paulo - Institute of Chemistry'
