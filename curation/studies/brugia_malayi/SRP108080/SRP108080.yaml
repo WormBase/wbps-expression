@@ -1,276 +1,174 @@
 ---
 condition_names: {}
 contrasts:
-  - name: timepoint
+  - name: timepoint+treatment
     values:
       -
-        - 'Microfilaria, Albendazole, 1 day'
-        - 'Microfilaria, Albendazole, 7 days'
-        - 'Microfilaria, Albendazole: 1 day vs 7 days'
+        - 'Microfilaria, 1 day, Control (DMSO)'
+        - 'Microfilaria, 1 day, Albendazole'
+        - 'Microfilaria, 1 day: Control (DMSO) vs Albendazole'
       -
-        - 'Microfilaria, Control (DMSO), 1 day'
-        - 'Microfilaria, Control (DMSO), 7 days'
-        - 'Microfilaria, Control (DMSO): 1 day vs 7 days'
+        - 'Microfilaria, 7 days, Control (DMSO)'
+        - 'Microfilaria, 1 day, Albendazole'
+        - 'Microfilaria: 7 days, Control (DMSO) vs 1 day, Albendazole'
       -
-        - 'Microfilaria, Diethylcarbamazine, 1 day'
-        - 'Microfilaria, Diethylcarbamazine, 7 days'
-        - 'Microfilaria, Diethylcarbamazine: 1 day vs 7 days'
-      -
-        - 'Microfilaria, Ivermectin, 1 day'
-        - 'Microfilaria, Ivermectin, 7 days'
-        - 'Microfilaria, Ivermectin: 1 day vs 7 days'
-      -
-        - 'adult, Albendazole, female, 1 day'
-        - 'adult, Albendazole, female, 7 days'
-        - 'adult, Albendazole, female: 1 day vs 7 days'
-      -
-        - 'adult, Albendazole, male, 1 day'
-        - 'adult, Albendazole, male, 7 days'
-        - 'adult, Albendazole, male: 1 day vs 7 days'
-      -
-        - 'adult, Control (DMSO), female, 1 day'
-        - 'adult, Control (DMSO), female, 7 days'
-        - 'adult, Control (DMSO), female: 1 day vs 7 days'
-      -
-        - 'adult, Control (DMSO), male, 1 day'
-        - 'adult, Control (DMSO), male, 7 days'
-        - 'adult, Control (DMSO), male: 1 day vs 7 days'
-      -
-        - 'adult, Diethylcarbamazine, female, 1 day'
-        - 'adult, Diethylcarbamazine, female, 7 days'
-        - 'adult, Diethylcarbamazine, female: 1 day vs 7 days'
-      -
-        - 'adult, Diethylcarbamazine, male, 1 day'
-        - 'adult, Diethylcarbamazine, male, 7 days'
-        - 'adult, Diethylcarbamazine, male: 1 day vs 7 days'
-      -
-        - 'adult, Ivermectin, female, 1 day'
-        - 'adult, Ivermectin, female, 7 days'
-        - 'adult, Ivermectin, female: 1 day vs 7 days'
-      -
-        - 'adult, Ivermectin, male, 1 day'
-        - 'adult, Ivermectin, male, 7 days'
-        - 'adult, Ivermectin, male: 1 day vs 7 days'
-  - name: drug_treatment
-    values:
-      -
-        - 'Microfilaria, Albendazole, 1 day'
-        - 'Microfilaria, Control (DMSO), 1 day'
-        - 'Microfilaria, 1 day: Albendazole vs Control (DMSO)'
-      -
-        - 'Microfilaria, Albendazole, 1 day'
-        - 'Microfilaria, Diethylcarbamazine, 1 day'
-        - 'Microfilaria, 1 day: Albendazole vs Diethylcarbamazine'
-      -
-        - 'Microfilaria, Albendazole, 1 day'
-        - 'Microfilaria, Ivermectin, 1 day'
-        - 'Microfilaria, 1 day: Albendazole vs Ivermectin'
-      -
-        - 'Microfilaria, Control (DMSO), 1 day'
-        - 'Microfilaria, Diethylcarbamazine, 1 day'
+        - 'Microfilaria, 1 day, Control (DMSO)'
+        - 'Microfilaria, 1 day, Diethylcarbamazine'
         - 'Microfilaria, 1 day: Control (DMSO) vs Diethylcarbamazine'
       -
-        - 'Microfilaria, Control (DMSO), 1 day'
-        - 'Microfilaria, Ivermectin, 1 day'
+        - 'Microfilaria, 1 day, Control (DMSO)'
+        - 'Microfilaria, 1 day, Ivermectin'
         - 'Microfilaria, 1 day: Control (DMSO) vs Ivermectin'
       -
-        - 'Microfilaria, Diethylcarbamazine, 1 day'
-        - 'Microfilaria, Ivermectin, 1 day'
-        - 'Microfilaria, 1 day: Diethylcarbamazine vs Ivermectin'
+        - 'Microfilaria, 1 day, Control (DMSO)'
+        - 'Microfilaria, 7 days, Albendazole'
+        - 'Microfilaria: 1 day, Control (DMSO) vs 7 days, Albendazole'
       -
-        - 'adult, Albendazole, female, 1 day'
-        - 'adult, Control (DMSO), female, 1 day'
-        - 'adult, female, 1 day: Albendazole vs Control (DMSO)'
+        - 'Microfilaria, 1 day, Control (DMSO)'
+        - 'Microfilaria, 7 days, Diethylcarbamazine'
+        - 'Microfilaria: 1 day, Control (DMSO) vs 7 days, Diethylcarbamazine'
       -
-        - 'adult, Albendazole, female, 1 day'
-        - 'adult, Diethylcarbamazine, female, 1 day'
-        - 'adult, female, 1 day: Albendazole vs Diethylcarbamazine'
+        - 'Microfilaria, 1 day, Control (DMSO)'
+        - 'Microfilaria, 7 days, Ivermectin'
+        - 'Microfilaria: 1 day, Control (DMSO) vs 7 days, Ivermectin'
       -
-        - 'adult, Albendazole, female, 1 day'
-        - 'adult, Ivermectin, female, 1 day'
-        - 'adult, female, 1 day: Albendazole vs Ivermectin'
+        - 'Microfilaria, 7 days, Control (DMSO)'
+        - 'Microfilaria, 1 day, Diethylcarbamazine'
+        - 'Microfilaria: 7 days, Control (DMSO) vs 1 day, Diethylcarbamazine'
       -
-        - 'adult, Control (DMSO), female, 1 day'
-        - 'adult, Diethylcarbamazine, female, 1 day'
+        - 'Microfilaria, 7 days, Control (DMSO)'
+        - 'Microfilaria, 1 day, Ivermectin'
+        - 'Microfilaria: 7 days, Control (DMSO) vs 1 day, Ivermectin'
+      -
+        - 'adult, female, 1 day, Control (DMSO)'
+        - 'adult, female, 1 day, Albendazole'
+        - 'adult, female, 1 day: Control (DMSO) vs Albendazole'
+      -
+        - 'adult, female, 7 days, Control (DMSO)'
+        - 'adult, female, 1 day, Albendazole'
+        - 'adult, female: 7 days, Control (DMSO) vs 1 day, Albendazole'
+      -
+        - 'adult, female, 1 day, Control (DMSO)'
+        - 'adult, female, 1 day, Diethylcarbamazine'
         - 'adult, female, 1 day: Control (DMSO) vs Diethylcarbamazine'
       -
-        - 'adult, Control (DMSO), female, 1 day'
-        - 'adult, Ivermectin, female, 1 day'
+        - 'adult, female, 1 day, Control (DMSO)'
+        - 'adult, female, 1 day, Ivermectin'
         - 'adult, female, 1 day: Control (DMSO) vs Ivermectin'
       -
-        - 'adult, Diethylcarbamazine, female, 1 day'
-        - 'adult, Ivermectin, female, 1 day'
-        - 'adult, female, 1 day: Diethylcarbamazine vs Ivermectin'
+        - 'adult, female, 1 day, Control (DMSO)'
+        - 'adult, female, 7 days, Albendazole'
+        - 'adult, female: 1 day, Control (DMSO) vs 7 days, Albendazole'
       -
-        - 'adult, Albendazole, female, 7 days'
-        - 'adult, Control (DMSO), female, 7 days'
-        - 'adult, female, 7 days: Albendazole vs Control (DMSO)'
+        - 'adult, female, 1 day, Control (DMSO)'
+        - 'adult, female, 7 days, Diethylcarbamazine'
+        - 'adult, female: 1 day, Control (DMSO) vs 7 days, Diethylcarbamazine'
       -
-        - 'adult, Albendazole, female, 7 days'
-        - 'adult, Diethylcarbamazine, female, 7 days'
-        - 'adult, female, 7 days: Albendazole vs Diethylcarbamazine'
+        - 'adult, female, 1 day, Control (DMSO)'
+        - 'adult, female, 7 days, Ivermectin'
+        - 'adult, female: 1 day, Control (DMSO) vs 7 days, Ivermectin'
       -
-        - 'adult, Albendazole, female, 7 days'
-        - 'adult, Ivermectin, female, 7 days'
-        - 'adult, female, 7 days: Albendazole vs Ivermectin'
+        - 'adult, female, 7 days, Control (DMSO)'
+        - 'adult, female, 1 day, Diethylcarbamazine'
+        - 'adult, female: 7 days, Control (DMSO) vs 1 day, Diethylcarbamazine'
       -
-        - 'adult, Control (DMSO), female, 7 days'
-        - 'adult, Diethylcarbamazine, female, 7 days'
+        - 'adult, female, 7 days, Control (DMSO)'
+        - 'adult, female, 1 day, Ivermectin'
+        - 'adult, female: 7 days, Control (DMSO) vs 1 day, Ivermectin'
+      -
+        - 'adult, female, 7 days, Control (DMSO)'
+        - 'adult, female, 7 days, Albendazole'
+        - 'adult, female, 7 days: Control (DMSO) vs Albendazole'
+      -
+        - 'adult, female, 7 days, Control (DMSO)'
+        - 'adult, female, 7 days, Diethylcarbamazine'
         - 'adult, female, 7 days: Control (DMSO) vs Diethylcarbamazine'
       -
-        - 'adult, Control (DMSO), female, 7 days'
-        - 'adult, Ivermectin, female, 7 days'
+        - 'adult, female, 7 days, Control (DMSO)'
+        - 'adult, female, 7 days, Ivermectin'
         - 'adult, female, 7 days: Control (DMSO) vs Ivermectin'
       -
-        - 'adult, Diethylcarbamazine, female, 7 days'
-        - 'adult, Ivermectin, female, 7 days'
-        - 'adult, female, 7 days: Diethylcarbamazine vs Ivermectin'
+        - 'adult, male, 1 day, Control (DMSO)'
+        - 'adult, male, 1 day, Albendazole'
+        - 'adult, male, 1 day: Control (DMSO) vs Albendazole'
       -
-        - 'adult, Albendazole, male, 1 day'
-        - 'adult, Control (DMSO), male, 1 day'
-        - 'adult, male, 1 day: Albendazole vs Control (DMSO)'
+        - 'adult, male, 7 days, Control (DMSO)'
+        - 'adult, male, 1 day, Albendazole'
+        - 'adult, male: 7 days, Control (DMSO) vs 1 day, Albendazole'
       -
-        - 'adult, Albendazole, male, 1 day'
-        - 'adult, Diethylcarbamazine, male, 1 day'
-        - 'adult, male, 1 day: Albendazole vs Diethylcarbamazine'
-      -
-        - 'adult, Albendazole, male, 1 day'
-        - 'adult, Ivermectin, male, 1 day'
-        - 'adult, male, 1 day: Albendazole vs Ivermectin'
-      -
-        - 'adult, Control (DMSO), male, 1 day'
-        - 'adult, Diethylcarbamazine, male, 1 day'
+        - 'adult, male, 1 day, Control (DMSO)'
+        - 'adult, male, 1 day, Diethylcarbamazine'
         - 'adult, male, 1 day: Control (DMSO) vs Diethylcarbamazine'
       -
-        - 'adult, Control (DMSO), male, 1 day'
-        - 'adult, Ivermectin, male, 1 day'
+        - 'adult, male, 1 day, Control (DMSO)'
+        - 'adult, male, 1 day, Ivermectin'
         - 'adult, male, 1 day: Control (DMSO) vs Ivermectin'
       -
-        - 'adult, Diethylcarbamazine, male, 1 day'
-        - 'adult, Ivermectin, male, 1 day'
-        - 'adult, male, 1 day: Diethylcarbamazine vs Ivermectin'
+        - 'adult, male, 1 day, Control (DMSO)'
+        - 'adult, male, 7 days, Albendazole'
+        - 'adult, male: 1 day, Control (DMSO) vs 7 days, Albendazole'
       -
-        - 'adult, Albendazole, male, 7 days'
-        - 'adult, Control (DMSO), male, 7 days'
-        - 'adult, male, 7 days: Albendazole vs Control (DMSO)'
+        - 'adult, male, 1 day, Control (DMSO)'
+        - 'adult, male, 7 days, Diethylcarbamazine'
+        - 'adult, male: 1 day, Control (DMSO) vs 7 days, Diethylcarbamazine'
       -
-        - 'adult, Albendazole, male, 7 days'
-        - 'adult, Diethylcarbamazine, male, 7 days'
-        - 'adult, male, 7 days: Albendazole vs Diethylcarbamazine'
+        - 'adult, male, 1 day, Control (DMSO)'
+        - 'adult, male, 7 days, Ivermectin'
+        - 'adult, male: 1 day, Control (DMSO) vs 7 days, Ivermectin'
       -
-        - 'adult, Albendazole, male, 7 days'
-        - 'adult, Ivermectin, male, 7 days'
-        - 'adult, male, 7 days: Albendazole vs Ivermectin'
+        - 'adult, male, 7 days, Control (DMSO)'
+        - 'adult, male, 1 day, Diethylcarbamazine'
+        - 'adult, male: 7 days, Control (DMSO) vs 1 day, Diethylcarbamazine'
       -
-        - 'adult, Control (DMSO), male, 7 days'
-        - 'adult, Diethylcarbamazine, male, 7 days'
+        - 'adult, male, 7 days, Control (DMSO)'
+        - 'adult, male, 1 day, Ivermectin'
+        - 'adult, male: 7 days, Control (DMSO) vs 1 day, Ivermectin'
+      -
+        - 'adult, male, 7 days, Control (DMSO)'
+        - 'adult, male, 7 days, Albendazole'
+        - 'adult, male, 7 days: Control (DMSO) vs Albendazole'
+      -
+        - 'adult, male, 7 days, Control (DMSO)'
+        - 'adult, male, 7 days, Diethylcarbamazine'
         - 'adult, male, 7 days: Control (DMSO) vs Diethylcarbamazine'
       -
-        - 'adult, Control (DMSO), male, 7 days'
-        - 'adult, Ivermectin, male, 7 days'
+        - 'adult, male, 7 days, Control (DMSO)'
+        - 'adult, male, 7 days, Ivermectin'
         - 'adult, male, 7 days: Control (DMSO) vs Ivermectin'
-      -
-        - 'adult, Diethylcarbamazine, male, 7 days'
-        - 'adult, Ivermectin, male, 7 days'
-        - 'adult, male, 7 days: Diethylcarbamazine vs Ivermectin'
-  - name: developmental_stage+sex
+  - name: sex
     values:
       -
-        - 'Microfilaria, Albendazole, 1 day'
-        - 'adult, Albendazole, female, 1 day'
-        - 'Albendazole, 1 day: Microfilaria vs adult, female'
+        - 'adult, female, 1 day, Albendazole'
+        - 'adult, male, 1 day, Albendazole'
+        - 'adult, 1 day, Albendazole: female vs male'
       -
-        - 'Microfilaria, Albendazole, 1 day'
-        - 'adult, Albendazole, male, 1 day'
-        - 'Albendazole, 1 day: Microfilaria vs adult, male'
+        - 'adult, female, 1 day, Control (DMSO)'
+        - 'adult, male, 1 day, Control (DMSO)'
+        - 'adult, 1 day, Control (DMSO): female vs male'
       -
-        - 'adult, Albendazole, female, 1 day'
-        - 'adult, Albendazole, male, 1 day'
-        - 'Albendazole, 1 day: female vs male'
+        - 'adult, female, 1 day, Diethylcarbamazine'
+        - 'adult, male, 1 day, Diethylcarbamazine'
+        - 'adult, 1 day, Diethylcarbamazine: female vs male'
       -
-        - 'Microfilaria, Albendazole, 7 days'
-        - 'adult, Albendazole, female, 7 days'
-        - 'Albendazole, 7 days: Microfilaria vs adult, female'
+        - 'adult, female, 1 day, Ivermectin'
+        - 'adult, male, 1 day, Ivermectin'
+        - 'adult, 1 day, Ivermectin: female vs male'
       -
-        - 'Microfilaria, Albendazole, 7 days'
-        - 'adult, Albendazole, male, 7 days'
-        - 'Albendazole, 7 days: Microfilaria vs adult, male'
+        - 'adult, female, 7 days, Albendazole'
+        - 'adult, male, 7 days, Albendazole'
+        - 'adult, 7 days, Albendazole: female vs male'
       -
-        - 'adult, Albendazole, female, 7 days'
-        - 'adult, Albendazole, male, 7 days'
-        - 'Albendazole, 7 days: female vs male'
+        - 'adult, female, 7 days, Control (DMSO)'
+        - 'adult, male, 7 days, Control (DMSO)'
+        - 'adult, 7 days, Control (DMSO): female vs male'
       -
-        - 'Microfilaria, Control (DMSO), 1 day'
-        - 'adult, Control (DMSO), female, 1 day'
-        - 'Control (DMSO), 1 day: Microfilaria vs adult, female'
+        - 'adult, female, 7 days, Diethylcarbamazine'
+        - 'adult, male, 7 days, Diethylcarbamazine'
+        - 'adult, 7 days, Diethylcarbamazine: female vs male'
       -
-        - 'Microfilaria, Control (DMSO), 1 day'
-        - 'adult, Control (DMSO), male, 1 day'
-        - 'Control (DMSO), 1 day: Microfilaria vs adult, male'
-      -
-        - 'adult, Control (DMSO), female, 1 day'
-        - 'adult, Control (DMSO), male, 1 day'
-        - 'Control (DMSO), 1 day: female vs male'
-      -
-        - 'Microfilaria, Control (DMSO), 7 days'
-        - 'adult, Control (DMSO), female, 7 days'
-        - 'Control (DMSO), 7 days: Microfilaria vs adult, female'
-      -
-        - 'Microfilaria, Control (DMSO), 7 days'
-        - 'adult, Control (DMSO), male, 7 days'
-        - 'Control (DMSO), 7 days: Microfilaria vs adult, male'
-      -
-        - 'adult, Control (DMSO), female, 7 days'
-        - 'adult, Control (DMSO), male, 7 days'
-        - 'Control (DMSO), 7 days: female vs male'
-      -
-        - 'Microfilaria, Diethylcarbamazine, 1 day'
-        - 'adult, Diethylcarbamazine, female, 1 day'
-        - 'Diethylcarbamazine, 1 day: Microfilaria vs adult, female'
-      -
-        - 'Microfilaria, Diethylcarbamazine, 1 day'
-        - 'adult, Diethylcarbamazine, male, 1 day'
-        - 'Diethylcarbamazine, 1 day: Microfilaria vs adult, male'
-      -
-        - 'adult, Diethylcarbamazine, female, 1 day'
-        - 'adult, Diethylcarbamazine, male, 1 day'
-        - 'Diethylcarbamazine, 1 day: female vs male'
-      -
-        - 'Microfilaria, Diethylcarbamazine, 7 days'
-        - 'adult, Diethylcarbamazine, female, 7 days'
-        - 'Diethylcarbamazine, 7 days: Microfilaria vs adult, female'
-      -
-        - 'Microfilaria, Diethylcarbamazine, 7 days'
-        - 'adult, Diethylcarbamazine, male, 7 days'
-        - 'Diethylcarbamazine, 7 days: Microfilaria vs adult, male'
-      -
-        - 'adult, Diethylcarbamazine, female, 7 days'
-        - 'adult, Diethylcarbamazine, male, 7 days'
-        - 'Diethylcarbamazine, 7 days: female vs male'
-      -
-        - 'Microfilaria, Ivermectin, 1 day'
-        - 'adult, Ivermectin, female, 1 day'
-        - 'Ivermectin, 1 day: Microfilaria vs adult, female'
-      -
-        - 'Microfilaria, Ivermectin, 1 day'
-        - 'adult, Ivermectin, male, 1 day'
-        - 'Ivermectin, 1 day: Microfilaria vs adult, male'
-      -
-        - 'adult, Ivermectin, female, 1 day'
-        - 'adult, Ivermectin, male, 1 day'
-        - 'Ivermectin, 1 day: female vs male'
-      -
-        - 'Microfilaria, Ivermectin, 7 days'
-        - 'adult, Ivermectin, female, 7 days'
-        - 'Ivermectin, 7 days: Microfilaria vs adult, female'
-      -
-        - 'Microfilaria, Ivermectin, 7 days'
-        - 'adult, Ivermectin, male, 7 days'
-        - 'Ivermectin, 7 days: Microfilaria vs adult, male'
-      -
-        - 'adult, Ivermectin, female, 7 days'
-        - 'adult, Ivermectin, male, 7 days'
-        - 'Ivermectin, 7 days: female vs male'
+        - 'adult, female, 7 days, Ivermectin'
+        - 'adult, male, 7 days, Ivermectin'
+        - 'adult, 7 days, Ivermectin: female vs male'
 description: The effect on anthelmintic drugs on Brugia malayi gene expression in vivo
 pubmed: ~
 submitting_centre: 'Infectious Diseases, University of Georgia'

@@ -4,7 +4,7 @@ use warnings;
 package Production::CurationDefaults;
 use PublicResources::Rnaseq;
 use List::Util qw/pairmap/;
-use List::MoreUtils qw/uniq all/;
+use List::MoreUtils qw/uniq all any/;
 use Model::Study;
 use Model::Design;
 use Data::Compare;
@@ -206,10 +206,11 @@ sub venn {
 }
 
 sub contrast_name {
-  my ( $design, $factors, $reference, $test ) = @_;
-  my @reference_values = map {$design->value_in_condition($reference, $_) } @{$factors};
+  my ( $design, $subset_chs, $reference, $test ) = @_;
+  my @factors = grep {$design->value_in_condition($reference, $_) ne $design->value_in_condition($test, $_)} @{$subset_chs};
+  my @reference_values = map {$design->value_in_condition($reference, $_) } @factors;
   my $reference_short = trim_values($reference, @reference_values);
-  my @test_values = map {$design->value_in_condition($test, $_) } @{$factors}; 
+  my @test_values = map {$design->value_in_condition($test, $_) } @factors; 
   my $test_short = trim_values($test,@test_values); 
   if($reference_short eq $test_short){
     my ($ref_only, $intersection, $test_only) = venn(\@reference_values, \@test_values);
@@ -252,7 +253,7 @@ sub try_make_time_series {
    my ($ch, @other_chs) = @{$subset_chs};
    return () unless $ch eq 'timepoint' and not @other_chs;
    return () unless all {$_ =~ /.*, ?\d+ \w+$/} @conditions;
-   return () unless 1 == scalar uniq map {$_ =~ s/^(.*, )?\d+ (\w+)$/$1\t$2/ and $_} map {$_} @conditions;
+   return () unless 1 == scalar uniq map {$_ =~ s/^(.*, )?\d+ (\w+)s?$/$1\t$2/ and $_} map {$_} @conditions;
    my ($first_c, @other_cs) = sort {
      (my $aa = $a) =~ s/^.*, ?(\d+) \w+$/$1/;
      (my $bb = $b) =~ s/^.*, ?(\d+) \w+$/$1/;
@@ -263,7 +264,19 @@ sub try_make_time_series {
 #### try_make_time_series result: @result
    return @result;
 }
-
+sub if_clear_control_value_then_use_as_reference {
+  my ($subset_chs, $design, $c1, $c2) = @_;
+  return [$c1, $c2] unless is_drug_assay(@{$subset_chs});
+  my ($control_value, @other_control_values) = uniq grep {not $_ or $_ =~ /control/i } map {$design->value_in_condition($_, 'treatment') } $design->all_conditions;
+  return [$c1, $c2] unless $control_value and not @other_control_values;
+  if ($design->value_in_condition($c1, 'treatment') eq $control_value) {
+    return [$c1, $c2];
+  } elsif ($design->value_in_condition($c2, 'treatment') eq $control_value) {
+    return [$c2, $c1];
+  } else {
+    return ();
+  }
+}
 sub contrasts {
   my ($design)   = @_;
   my %replicates = pairmap {$a => scalar @$b } %{$design->replicates_by_condition};
@@ -312,6 +325,9 @@ sub contrasts {
       grep {
         ! is_life_cycle(@subset_chs) || if_value_defined_then_empty("treatment", $design, @{$_})
       }
+      map {
+        if_clear_control_value_then_use_as_reference(\@subset_chs, $design, @{$_})
+      }
       grep {
         ! is_drug_assay(@subset_chs) || is_contrast_across_characteristic("treatment", $design, @{$_}) 
       }
@@ -323,7 +339,7 @@ sub contrasts {
       {
       name   => join( "+", @subset_chs ),
       values => \@contrasts,
-      };
+      } if @contrasts;
   }
   if(grep {$_->{name} eq "developmental_stage+sex"} @result){
      @result = grep {$_->{name} ne "developmental_stage" && $_->{name} ne "sex"} @result;

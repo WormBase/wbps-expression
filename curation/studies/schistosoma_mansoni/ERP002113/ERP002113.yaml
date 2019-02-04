@@ -356,7 +356,7 @@ contrasts:
       -
         - adult females LEPZQ
         - adult males LEPZQ
-        - 'LEPZQ: female vs male'
+        - 'adult LEPZQ: female vs male'
       -
         - adult females LEPZQ
         - adult males and females LEPZQ
@@ -368,7 +368,7 @@ contrasts:
       -
         - adult females LE
         - adult males LE
-        - 'LE: female vs male'
+        - 'adult LE: female vs male'
       -
         - adult females LE
         - adult males and females LE
@@ -380,7 +380,7 @@ contrasts:
       -
         - adult females NMRI
         - adult males NMRI
-        - 'NMRI: female vs male'
+        - 'adult NMRI: female vs male'
       -
         - adult females NMRI
         - adult males and females NMRI

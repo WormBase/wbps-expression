@@ -11,10 +11,6 @@ contrasts:
         - '0hr, control'
         - '48hr, posterior wound'
         - '0hr, control vs 48hr, posterior wound'
-      -
-        - '48hr, anterior wound'
-        - '48hr, posterior wound'
-        - '48hr: anterior wound vs posterior wound'
 description: Wound-induced neoblast specialization in S. mediterranea
 pubmed:
   25254346:

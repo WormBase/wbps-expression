@@ -27,7 +27,7 @@ contrasts:
         - 72h regenerate
         - Cut control
         - 72h regenerate vs Cut control
-  - name: organism_part
+  - name: organism_part+treatment
     values:
       -
         - Cut control
