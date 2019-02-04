@@ -359,6 +359,47 @@ sub config_base {
       submitting_centre => $args{attributes}{submitting_centre},
   };
 }
+my %life_stage_categories = (
+  developmental_stage => 1,
+  age => 1,
+  sex => 1,
+  host_infection => 1,
+);
+my %treatment_categories = (
+  treatment => 1,
+  rnai => 1,
+  irradiation => 1,
+  plane_of_amputation => 1,
+  rnai_feedings => 1,
+);
+sub category {
+  my ($design, $title) = @_;
+  my @chs        = $design->characteristics_varying_by_condition;
+  return "No replicates" if (
+    all {@{$_} < 2 } values %{ $design->replicates_by_condition}
+  );
+  return "Life stages" if (
+     all { $life_stage_categories{$_}} @chs
+  );
+  return "Body parts" if (
+     all { $_ eq "organism_part" || $life_stage_categories{$_}} @chs
+  );
+  return "Variation within species" if (
+     all { $_ eq "isolate" || $_ eq "strain" || $life_stage_categories{$_}} @chs
+  );
+  my $mentions_treatment = grep {$treatment_categories{$_}} @chs;
+  my $mentions_cell_type = grep { $_ eq "cell_type"} @chs;
+  return "Response to treatment" if (
+    $mentions_treatment && ! $mentions_cell_type
+  );
+  return "Cell types" if (
+   $mentions_cell_type && ! $mentions_treatment
+  );
+  return "Exploratory" if (
+   $mentions_cell_type || $mentions_treatment
+  );
+  return "Miscellaneous";
+}
 sub study {
   my (%args) = @_;
   my $design = design_from_runs( @{ $args{runs} } );
@@ -367,6 +408,7 @@ sub study {
     $design,
     {
       %{ config_base(%args) },
+#      category => category($design, $args{study_description_short}),
       condition_names => condition_names( @{ $args{runs} } ),
       contrasts       => contrasts($design),
     }
