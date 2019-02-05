@@ -375,13 +375,13 @@ my %treatment_categories = (
 sub category {
   my ($design, $title) = @_;
   my @chs        = $design->characteristics_varying_by_condition;
-  return "No replicates" if (
-    all {@{$_} < 2 } values %{ $design->replicates_by_condition}
+  return "" if (
+    any {@{$_} < 2 } values %{ $design->replicates_by_condition}
   );
   return "Life stages" if (
      all { $life_stage_categories{$_}} @chs
   );
-  return "Body parts" if (
+  return "Organism parts" if (
      all { $_ eq "organism_part" || $life_stage_categories{$_}} @chs
   );
   return "Variation within species" if (
@@ -395,10 +395,7 @@ sub category {
   return "Cell types" if (
    $mentions_cell_type && ! $mentions_treatment
   );
-  return "Exploratory" if (
-   $mentions_cell_type || $mentions_treatment
-  );
-  return "Miscellaneous";
+  return "";
 }
 sub study {
   my (%args) = @_;
@@ -408,7 +405,7 @@ sub study {
     $design,
     {
       %{ config_base(%args) },
-#      category => category($design, $args{study_description_short}),
+      category => category($design, $args{study_description_short}),
       condition_names => condition_names( @{ $args{runs} } ),
       contrasts       => contrasts($design),
     }
