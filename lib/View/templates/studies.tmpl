@@ -9,22 +9,19 @@
 		<h1><em><TMPL_VAR NAME=SPECIES> - public RNASeq studies</em></h1>
 	</div>
     <div>
-      <h3 id="wbps_expression_toc" class="exp-group">Table of Contents</h3>
+      <h2 id="wbps_expression_toc" class="exp-group">Table of Contents</h2>
        <ul>
            <TMPL_LOOP NAME="TOC">
               <li><a href="#<TMPL_VAR NAME="TOC_ITEM_ID">"><TMPL_VAR NAME="TOC_ITEM_NAME"></a></li>
            </TMPL_LOOP>
        </ul>
     </div>
-	<h3 id="wbps_expression_studies" class="exp-group">Analysed</h3>
+	<h2 id="wbps_expression_studies" class="exp-group">Analysed</h2>
 	<TMPL_VAR NAME=RUNSTUDIES>
     <TMPL_IF NAME="OTHERSTUDIES">
-	  <h3 id="wbps_expression_other" class="exp-group">Other</h3>
-     <p>
-      <i>These studies are available in ENA, and the reads successfully align to our genomes. 
-<br>
-If you would like some of them included in the analysis, please let us know!
-      </i>
+	  <h2 id="wbps_expression_other" class="exp-group">Other</h2>
+     <p class="other_descs">These studies are available in ENA, and the reads successfully align to our genomes. 
+<br>If you would like some of them included in the analysis, please let us know!
      </p>
 	  <TMPL_VAR NAME=OTHERSTUDIES>
     </TMPL_IF>
