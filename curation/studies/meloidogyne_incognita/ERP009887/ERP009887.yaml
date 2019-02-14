@@ -1,4 +1,5 @@
 ---
+category: ''
 condition_names: {}
 contrasts: []
 description: As part of the Meloidogyne incognita (root-knot nematode) genome sequencing project we have profiled the transcriptome of this plant parasite across its life cycle using RNA-Seq. The ensemble of transcriptomic data has been used to provide evidence for gene prediction. Genome assembly and accompanying transcriptome data is available at http://meloidogyne.inra.fr

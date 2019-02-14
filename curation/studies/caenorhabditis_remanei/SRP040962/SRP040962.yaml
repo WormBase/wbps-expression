@@ -1,4 +1,5 @@
 ---
+category: ''
 condition_names:
   'Control selected, derived from PX443, 20°C': 'strain Control selected, derived from PX443, 20°C'
   'Control selected, derived from PX443, 30°C': 'strain Control selected, derived from PX443, 30°C'

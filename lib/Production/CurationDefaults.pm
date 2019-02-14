@@ -379,13 +379,13 @@ sub category {
     any {@{$_} < 2 } values %{ $design->replicates_by_condition}
   );
   return "Life stages" if (
-     all { $life_stage_categories{$_}} @chs
+     all { $life_stage_categories{$_}} @chs and scalar $design->all_conditions > 2
   );
   return "Organism parts" if (
-     all { $_ eq "organism_part" || $life_stage_categories{$_}} @chs
+     all { $_ eq "organism_part" || $life_stage_categories{$_}} @chs and any { $_ eq "organism_part"} @chs
   );
   return "Variation within species" if (
-     all { $_ eq "isolate" || $_ eq "strain" || $life_stage_categories{$_}} @chs
+     all { $_ eq "isolate" || $_ eq "strain" || $life_stage_categories{$_}} @chs and any { $_ eq "isolate" || $_ eq "strain" } @chs
   );
   my $mentions_treatment = grep {$treatment_categories{$_}} @chs;
   my $mentions_cell_type = grep { $_ eq "cell_type"} @chs;
