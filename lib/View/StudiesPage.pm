@@ -33,7 +33,7 @@ sub to_html {
   }} @{$self->{studies}{passing_checks}};
   push @toc, {
     TOC_ITEM_ID => "wbps_expression_other",
-    TOC_ITEM_NAME => sprintf("%s other studies", scalar @studies_skipped_whole),
+    TOC_ITEM_NAME => @studies_skipped_whole == 1 ? "1 other study" : sprintf("%s other studies", scalar @studies_skipped_whole),
   } if @studies_skipped_whole;
   $studies_tmpl->param(TOC => \@toc);
 
