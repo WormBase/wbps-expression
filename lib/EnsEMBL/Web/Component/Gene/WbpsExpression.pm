@@ -19,8 +19,9 @@ sub from_folder {
   open (my $fh, "<", $studies_file) or return;
   while(<$fh>){
     chomp;
-    my ($accession, $title) = split "\t";
+    my ($accession, $category, $title) = split "\t";
     $metadata{$accession}{title} = $title;
+    $metadata{$accession}{category} = $category;
   }
   my @studies;
   for my $study_path (grep {-d $_}  glob("$studies_path/*")){
@@ -29,15 +30,16 @@ sub from_folder {
         tpms_per_condition => "$study_path/$study_id.tpm.tsv",
         study_id => $study_id,
         study_title => $metadata{$study_id}{title},
+        study_category => $metadata{$study_id}{category},
      };
   }
   return &new(__PACKAGE__, {studies => \@studies});
 }
 
-sub get_data {
-  my ($self, $gene_id) = @_;
+sub expression_for_gene_in_category {
+  my ($self, $gene_id, $category) = @_;
   my @result;
-  for my $study (@{$self->{studies}}){
+  for my $study (grep {$_->{study_category} eq $category} @{$self->{studies}}){
      my ($conditions, $expression_tpm) = search_in_file($study->{tpms_per_condition}, $gene_id);
      push @result, {
        study_id => $study->{study_id},
