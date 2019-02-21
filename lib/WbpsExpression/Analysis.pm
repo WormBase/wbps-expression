@@ -1,22 +1,16 @@
 use strict;
 use warnings;
-package Production::Analysis;
+package WbpsExpression::Analysis;
 use File::Slurp qw/read_dir write_file/;
 use Text::MultiMarkdown qw/markdown/;
 use File::Basename;
-use Production::Analysis::DataFiles;
-use Production::Analysis::DESeq2;
-use Model::Design;
+use WbpsExpression::Analysis::DataFiles;
+use WbpsExpression::Analysis::DESeq2;
+use WbpsExpression::Model::Design;
 use List::Util qw/pairmap pairs pairgrep/;
 use File::Path qw/make_path/;
-use View::StudiesPage;
 # use Smart::Comments '###';
-sub new {
-  my ($class, $dir) = @_;
-  return bless {
-    dir => $dir,
-  }, $class;
-}
+
 sub low_qc_by_condition {
    my ($runs_by_condition, $qc_issues_per_run) = @_;
    my %result = ();
@@ -83,7 +77,7 @@ my %ANALYSES = (
       my $path = $files->{$_}{$analysis_args{source}};
       [$name, $path]
     } @runs;
-    Production::Analysis::DataFiles::aggregate(\@name_to_path_pairs, $output_path, @frontmatter);
+    WbpsExpression::Analysis::DataFiles::aggregate(\@name_to_path_pairs, $output_path, @frontmatter);
   },
   average_by_condition => sub {
     my($study, $files, $output_path, %analysis_args) = @_; 
@@ -113,7 +107,7 @@ my %ANALYSES = (
        [$name, \@paths]
     } @conditions_ordered;
 ### @name_to_pathlist_pairs 
-    Production::Analysis::DataFiles::average_and_aggregate(\@name_to_pathlist_pairs, $output_path, @frontmatter);
+    WbpsExpression::Analysis::DataFiles::average_and_aggregate(\@name_to_pathlist_pairs, $output_path, @frontmatter);
   },
   differential_expression => sub {
     my($study, $files, $output_path, %analysis_args) = @_;
@@ -150,7 +144,7 @@ my %ANALYSES = (
     $study->{design}->to_tsv($design_dump_file);
     my @frontmatter = ($analysis_args{description}, @qc_warnings);
     eval {
-      Production::Analysis::DESeq2::do_analysis(
+      WbpsExpression::Analysis::DESeq2::do_analysis(
         $design_dump_file, $source_file, \@contrasts_amended_names, $output_path, @frontmatter
       );
     };
@@ -159,7 +153,7 @@ my %ANALYSES = (
   },
 );
 sub run {
-  my ($self, $output_dir, $study, $files) = @_;
+  my ($output_dir, $study, $files) = @_;
   my @analyses = $study->analyses_required;
   make_path join("/", $output_dir, $study->{study_id});
   my %done = map { $_=>1 } read_dir join("/", $output_dir, $study->{study_id}); 
@@ -175,18 +169,11 @@ sub run {
   return @analyses_to_do;
 }
 sub run_all {
-  my ($self, %args) = @_;
-  my $output_dir = join("/", $self->{dir}, $args{species} , $args{assembly});
+  my ($studies, $data_files, $output_dir) = @_;
   make_path $output_dir;
-  for my $study (@{$args{studies}{passing_checks}}){
+  for my $study (@{$studies}){
      print STDERR sprintf("Running: %s\n", $study->{study_id}) if $ENV{ANALYSIS_VERBOSE};
-    $self->run($output_dir, $study, $args{files}{$study->{study_id}}) unless $ENV{ANALYSIS_SKIP_ALL};
-  }
-  if (@{$args{studies}{passing_checks}} or @{$args{studies}{failing_checks}}){
-    print STDERR "Writing page: $output_dir/index.html\n" if $ENV{ANALYSIS_VERBOSE};
-    write_file("$output_dir/index.html", { binmode => ":utf8" }, View::StudiesPage->new($args{species}, $args{studies})->to_html );
-  } else {
-    print STDERR "Skipping, no studies:  $output_dir/index.html\n" if $ENV{ANALYSIS_VERBOSE};
+    run($output_dir, $study, $data_files->{$study->{study_id}}) unless $ENV{ANALYSIS_SKIP_ALL};
   }
 }
 1;

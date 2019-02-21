@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-package Model::Design;
+package WbpsExpression::Model::Design;
 use Text::CSV qw/csv/;
 use List::Util qw/pairmap all/;
 use List::MoreUtils qw/uniq /;

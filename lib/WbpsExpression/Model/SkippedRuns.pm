@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-package Model::SkippedRuns;
+package WbpsExpression::Model::SkippedRuns;
 use File::Path qw/make_path/;
 use File::Basename;
 use File::Slurp qw/read_file write_file/;

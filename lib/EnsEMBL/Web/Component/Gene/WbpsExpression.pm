@@ -13,8 +13,8 @@ sub new {
   return bless $args, $class;
 }
 sub from_folder {
-  my ($species, $assembly, $studies_path) = @_;
-  my $studies_file = "$studies_path/$species.$assembly.studies.tsv";
+  my ($species, $studies_path) = @_;
+  my $studies_file = "$studies_path/$species.studies.tsv";
   my %metadata;
   open (my $fh, "<", $studies_file) or return;
   while(<$fh>){

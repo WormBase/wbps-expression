@@ -9,15 +9,15 @@ use PublicResources::Resources::RnaseqerFtp;
 use PublicResources::Resources::PubMed;
 use PublicResources::Descriptions;
 use PublicResources::Links;
-use Production::Sheets;
-use Model::Design;
+use WbpsExpression::IncomingStudies::Sheets;
+use WbpsExpression::Model::Design;
 use File::Basename qw/dirname/;
 use List::Util qw/pairmap/;
 use List::MoreUtils qw/duplicates/;
 #use Smart::Comments;
 sub new {
   my ($class, $root_dir, $sheets) = @_;
-  $sheets //= Production::Sheets->new(dirname(dirname(dirname(__FILE__))));
+  $sheets //= WbpsExpression::IncomingStudies::Sheets->new(dirname(dirname(dirname(__FILE__))));
   bless {
     root_dir => $root_dir,
     sheets => $sheets,
@@ -39,7 +39,7 @@ sub get {
      geo=>$geo_metadata,
   });
   my $descriptions = PublicResources::Descriptions->new($species, $self->{sheets}->double_hash('run_descriptions', $species));
-  my %stored_characteristics = pairmap {$a => Model::Design::from_tsv($b)->characteristics_per_run } %{$self->{sheets}->tsvs_in_folders('studies', $species)};
+  my %stored_characteristics = pairmap {$a => WbpsExpression::Model::Design::from_tsv($b)->characteristics_per_run } %{$self->{sheets}->tsvs_in_folders('studies', $species)};
   my @studies;
   for my $study_id (@{$rnaseqer_metadata->access($assembly)}){
     unless ($ena_metadata->{$assembly}{$study_id}){

@@ -1,15 +1,33 @@
 use strict;
 use warnings;
-package Production::Sheets;
+package WbpsExpression::IncomingStudies::Sheets;
 use Text::CSV qw/csv/;
 use File::Slurp qw/read_dir/;
 use File::Path qw/remove_tree/;
+use WbpsExpression::Model::Study;
+use WbpsExpression::Model::SkippedRuns;
+
 #use Smart::Comments;
 sub new {
   my ($class, $src_dir) = @_;
   return bless {
      dir => "$src_dir/curation",
   }, $class;
+}
+
+sub read_directories {
+  my ($self, $species) = @_;
+  my @our_studies = map {WbpsExpression::Model::Study->from_folder($_)} $self->dir_content_paths("studies", $species);
+  my @skipped_runs_in_our_studies;
+  my @other_studies;
+  for my $skipped_runs (map {WbpsExpression::Model::SkippedRuns->from_folder($_)} $self->dir_content_paths("skipped_runs", $species)){
+    if(grep {$skipped_runs->{study_id} eq $_->{study_id}} @our_studies){
+       push @skipped_runs_in_our_studies, $skipped_runs;
+    } else {
+       push @other_studies, $skipped_runs;
+    }
+  }
+  return \@our_studies, \@skipped_runs_in_our_studies, \@other_studies; 
 }
 
 sub path {

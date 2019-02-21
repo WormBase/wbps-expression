@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-package Production::Analysis::Common;
+package WbpsExpression::Analysis::Common;
 
 sub write_named_hashes {
   my ($name_to_data_pairs, $out_path, @frontmatter) = @_;

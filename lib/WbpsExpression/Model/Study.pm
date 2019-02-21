@@ -1,9 +1,9 @@
 use strict;
 use warnings;
-package Model::Study;
+package WbpsExpression::Model::Study;
 use File::Path qw/make_path/;
 use File::Basename;
-use Model::Design;
+use WbpsExpression::Model::Design;
 use YAML qw/DumpFile LoadFile/;
 use Carp qw/confess/;
 use List::Util qw/all max pairmap/;
@@ -22,7 +22,7 @@ sub new {
 sub from_paths {
    my ($class, $study_id, $design_path, $config_or_path) = @_;
    return $class->new($study_id, 
-      Model::Design::from_tsv($design_path), 
+      WbpsExpression::Model::Design::from_tsv($design_path), 
       ref $config_or_path eq "HASH" ? $config_or_path : LoadFile($config_or_path)
    );
 }

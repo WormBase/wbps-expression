@@ -20,7 +20,6 @@ my $file_name = "$study_id.tpm.tsv";
 my $file_path = join("/", $dir, $study_id, $file_name);
 
 my $species = "schistosoma_mansoni";
-my $assembly = "Smansoni_v7";
 make_path(join("/", $dir, $study_id));
 write_file($file_path, $file);
 
@@ -59,10 +58,10 @@ $second_study_id\t$second_category\t$second_study_title
 $third_study_id\t$third_category\t$third_study_title
 EOF
 
-write_file(join("/", $dir, "$species.$assembly.studies.tsv"), $studies_file);
+write_file(join("/", $dir, "$species.studies.tsv"), $studies_file);
 
 my $subject = EnsEMBL::Web::Component::Gene::WbpsExpression::from_folder(
-   $species, $assembly, $dir
+   $species, $dir
 );
 
 is_deeply($subject, bless({

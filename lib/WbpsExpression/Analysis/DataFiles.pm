@@ -1,8 +1,8 @@
 use strict;
 use warnings;
-package Production::Analysis::DataFiles;
+package WbpsExpression::Analysis::DataFiles;
 use File::Slurp qw/read_dir/;
-use Production::Analysis::Common;
+use WbpsExpression::Analysis::Common;
 use LWP;
 # use Smart::Comments '###';
 my $CAN_SEE_EBI_FILESYSTEM = -d "/nfs/ftp";
@@ -88,7 +88,7 @@ sub aggregate {
    my $data = read_file_into_hash($_->[1]);
    [$name, $data]
   }  @{$name_to_path_pairs};
-  Production::Analysis::Common::write_named_hashes(\@name_to_data_pairs, $out_path, @frontmatter);
+  WbpsExpression::Analysis::Common::write_named_hashes(\@name_to_data_pairs, $out_path, @frontmatter);
 }
 sub average_and_aggregate {
   my ($name_to_pathlist_pairs, $out_path, @frontmatter) = @_;
@@ -97,6 +97,6 @@ sub average_and_aggregate {
     my $data = read_files_into_averaged_hash(@{$_->[1]});
     [$name, $data]
   } @{$name_to_pathlist_pairs};
-  Production::Analysis::Common::write_named_hashes(\@name_to_data_pairs, $out_path, @frontmatter);
+  WbpsExpression::Analysis::Common::write_named_hashes(\@name_to_data_pairs, $out_path, @frontmatter);
 }
 1;

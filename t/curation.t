@@ -1,14 +1,13 @@
 use strict;
 use warnings;
 use Test::More;
-use File::Temp qw/tempdir/;
 use File::Basename qw/basename dirname/;
 use File::Find;
 use File::Slurp qw/read_file/;
 use FindBin;
-use Model::Design;
-use Model::Study;
-use Model::SkippedRuns;
+use WbpsExpression::Model::Design;
+use WbpsExpression::Model::Study;
+use WbpsExpression::Model::SkippedRuns;
 use List::Util qw/sum pairs pairmap/;
 use List::MoreUtils qw/uniq/;
 
@@ -50,7 +49,7 @@ sub design_remakes_itself_from_data_by_run {
     $subject->characteristics_per_run,
     $subject->{characteristics_in_order}
   );
-  my $subject_remade = Model::Design::from_data_by_run(@a);
+  my $subject_remade = WbpsExpression::Model::Design::from_data_by_run(@a);
   is_deeply( $subject_remade, $subject, $test_name ) or diag explain $subject_remade, $subject;
 }
 
@@ -114,7 +113,7 @@ sub test_tsv_and_config {
   my ( $tsv, $config, $test_name, $design_checks_should_pass,
     $config_checks_should_pass )
     = @_;
-  test_study( Model::Study->from_paths( "study_id", \$tsv, $config ),
+  test_study( WbpsExpression::Model::Study->from_paths( "study_id", \$tsv, $config ),
     $tsv, $test_name, $design_checks_should_pass, $config_checks_should_pass, );
 }
 
@@ -125,7 +124,7 @@ sub test_folder {
   ok( -f "$path/$study_id.yaml", "$path config exists" );
   my $tsv = read_file "$path/$study_id.tsv";
   test_study(
-    Model::Study->from_folder($path),
+    WbpsExpression::Model::Study->from_folder($path),
     $tsv, "test_folder $path",
     1, 1
   );
@@ -155,12 +154,12 @@ sub ok_design_fails_with_wrong_contrasts {
 
 sub skipped_runs_ok {
   my ($skipped_runs_path, $study_path) = @_;
-  my $subject = Model::SkippedRuns->from_folder($skipped_runs_path);
+  my $subject = WbpsExpression::Model::SkippedRuns->from_folder($skipped_runs_path);
   subtest "$skipped_runs_path" => sub {
     cmp_ok (scalar @{$subject->{runs}}, '>', 0 , "Some runs");
     if($study_path){
       ok (not (keys %{$subject->{config}}), "Study config should go with curated runs");
-      my @curated_runs = Model::Study->from_folder($study_path)->{design}->all_runs;
+      my @curated_runs = WbpsExpression::Model::Study->from_folder($study_path)->{design}->all_runs;
       my @overlap = grep {my $x = $_; grep {$x eq $_ } @curated_runs } @{$subject->{runs}};
       is_deeply(\@overlap, [], "Skipped and curated runs shouldn't overlap");
     } else {
@@ -224,7 +223,7 @@ tsv_well_formatted_but_fails_checks( $replicates_tsv_incoherent_per_run,
   "data not assembling by replicate" );
 ( my $replicates_tsv_conditions_not_assembling_by_replicate = $replicates_tsv ) =~ s/tail_1/head_2/;
 eval {
-  Model::Design::from_tsv($replicates_tsv_conditions_not_assembling_by_replicate)
+  WbpsExpression::Model::Design::from_tsv($replicates_tsv_conditions_not_assembling_by_replicate)
 };
 like($@, "/head_2/", "conditions not grouping by replicate - death");
 

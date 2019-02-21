@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-package View::SkippedRuns;
+package WbpsExpression::StudiesPage::SkippedRuns;
 use HTML::Template;
 use File::Basename;
 sub new {

@@ -1,40 +1,27 @@
 use strict;
 use warnings;
-package Production::Workflow;
-use Production::Sheets;
-use Production::CurationDefaults;
-use Production::Analysis;
+package WbpsExpression::IncomingStudies;
+use WbpsExpression::IncomingStudies::Sheets;
+use WbpsExpression::IncomingStudies::CurationDefaults;
+use WbpsExpression::Model::Study;
+use WbpsExpression::Model::SkippedRuns;
 use PublicResources::Rnaseq;
 use File::Basename qw/dirname/;
 use File::Slurp qw/read_dir write_file/;
 use File::Path qw/make_path/;
 use List::Util qw/first/;
 use List::MoreUtils qw/uniq/;
-use Text::MultiMarkdown qw/markdown/;
-use Model::Study;
-use Model::SkippedRuns;
-use View::StudiesPage;
-#use Smart::Comments '###';
+# use Smart::Comments '###';
 sub new {
-  my ($class, $root_dir, $src_dir, $work_dir) = @_;
-  my $sheets = Production::Sheets->new($src_dir);
+  my ($class, $sheets, $public_rnaseq_studies) = @_;
   return bless {
-     processing_path => "$root_dir/curation",
      sheets => $sheets,
-     public_rnaseq_studies => PublicResources::Rnaseq->new($root_dir, $sheets),
-     analysis => Production::Analysis->new($work_dir),
+     public_rnaseq_studies => $public_rnaseq_studies,
   }, $class;
 }
-sub get_studies_in_sheets {
-  my ($self, $species) = @_;
-  return map {Model::Study->from_folder($_)} $self->{sheets}->dir_content_paths("studies", $species);
-}
-sub get_skipped_runs_in_sheets {
-  my ($self, $species) = @_;
-  return map {Model::SkippedRuns->from_folder($_)} $self->{sheets}->dir_content_paths("skipped_runs", $species);
-}
 
-my %exceptions = (
+#Add to me for unit testing
+our %exceptions = (
   "ERP006987" => "C. sinensis: four runs, but the tpms could be meaningful",
   "SRP013211" => "O. viverrini: two runs, juvenile vs adult, from 2012",
   "DRP003063" => "Emu study, four runs",
@@ -52,11 +39,12 @@ sub should_reject_run {
   return not(grep {$_} values %{$run->{characteristics}});
 }
 
-sub fetch_incoming_studies {
+sub fetch_studies {
   my ($self, $public_study_records, $current_studies, $current_skipped_runs_per_study_id) = @_;
-
-  my %result = (NEW_SKIPPED_RUNS => [], SAVE => []); 
+  my @studies;
+  my @skipped_runs;
   for my $study (@{$public_study_records}){
+#### fetch_studies: $study
     my $current_record = $current_studies->{$study->{study_id}};
     my $should_reject_all = $self->should_reject_study($study);
     my @should_reject_runs = map {
@@ -76,22 +64,22 @@ sub fetch_incoming_studies {
     my @remaining_runs = grep {not $runs_to_skip{$_->{run_id}}} @{$study->{runs}};
 
     if (%runs_to_skip){
-      my $config = @remaining_runs ? {} : &Production::CurationDefaults::config_base(%$study);
-      push @{$result{NEW_SKIPPED_RUNS}}, Model::SkippedRuns->new($study->{study_id}, $config, [keys %runs_to_skip]);
+      my $config = @remaining_runs ? {} : &WbpsExpression::IncomingStudies::CurationDefaults::config_base(%$study);
+      push @skipped_runs, WbpsExpression::Model::SkippedRuns->new($study->{study_id}, $config, [keys %runs_to_skip]);
     }
     if (@remaining_runs){
       $study->{runs} = \@remaining_runs; 
-      $study = &Production::CurationDefaults::study(%$study);
-      if ($current_record and Model::Study::config_matches_design_checks($current_record->{config}, $study->{design}) and not $ENV{RECREATE_ALL_CONFIGS}){
+      $study = &WbpsExpression::IncomingStudies::CurationDefaults::study(%$study);
+      if ($current_record and WbpsExpression::Model::Study::config_matches_design_checks($current_record->{config}, $study->{design}) and not $ENV{RECREATE_ALL_CONFIGS}){
         $study->{config}{contrasts} = $current_record->{config}{contrasts};
         $study->{config}{condition_names} = $current_record->{config}{condition_names};
         # Additionally, characteristics in the current record were already reused
         # because they provided sources of attributes for the runs - see PublicResources::Rnaseq
       }
-      push @{$result{SAVE}}, $study;
+      push @studies, $study;
     }
   };
-  return \%result;
+  return \@studies, \@skipped_runs;
 }
 sub run_checks {
   my ($self, @studies) = @_;
@@ -107,42 +95,38 @@ sub run_checks {
   return \@failed_checks, \@passed_checks;
 }
 
-sub do_everything {
+sub fetch_all {
   my ($self, $species, $assembly) = @_;
   unlink $self->{sheets}->path("ignore_studies", "$species.tsv");
   my @public_study_records = sort {$a->{study_id} cmp $b->{study_id} } $self->{public_rnaseq_studies}->get($species, $assembly);  
-  my %files;
+  my %data_files;
   for my $public_study_record (@public_study_records){
      for my $run (@{$public_study_record->{runs}}){
-        $files{$public_study_record->{study_id}}{$run->{run_id}} = { 
+        $data_files{$public_study_record->{study_id}}{$run->{run_id}} = { 
           %{$run->{data_files}},
           qc_issues => $_->{qc_issues},
         };
      }
   }
-  my %current_studies = map {$_->{study_id}=> $_} $self->get_studies_in_sheets($species);
-  my %current_skipped_runs_per_study_id  = map {$_->{study_id}=> $_} $self->get_skipped_runs_in_sheets($species);
+  my ($our_studies, $skipped_runs_in_our_studies, $other_studies) = $self->{sheets}->read_directories($species);
+  my %current_studies = map {$_->{study_id}=> $_} @{$our_studies};
+  my %current_skipped_runs_per_study_id  = map {$_->{study_id}=> $_} (@{$skipped_runs_in_our_studies}, @{$other_studies});
 
-  my $incoming_studies = $self->fetch_incoming_studies(\@public_study_records, \%current_studies, \%current_skipped_runs_per_study_id);
+  my ($selected_studies, $skipped_runs_in_studies)  = $self->fetch_studies(\@public_study_records, \%current_studies, \%current_skipped_runs_per_study_id);
 
-  for my $study (@{$incoming_studies->{SAVE}}){
+  for my $study (@{$selected_studies}){
      $study->to_folder($self->{sheets}->path("studies", $species, $study->{study_id}));
   }
-  for my $skipped_runs (@{$incoming_studies->{NEW_SKIPPED_RUNS}}){
-     $skipped_runs->to_folder($self->{sheets}->path("skipped_runs", $species, $skipped_runs->{study_id}));
+  for my $skipped_runs_in_study (@{$skipped_runs_in_studies}){
+     $skipped_runs_in_study->to_folder($self->{sheets}->path("skipped_runs", $species, $skipped_runs_in_study->{study_id}));
   }
-  
-  my ($studies_failing_checks, $studies_passing_checks) = $self->run_checks(@{$incoming_studies->{SAVE}});
 
-  $self->{analysis}->run_all(
-    species => $species,
-    assembly => $assembly,
-    studies => {
-      passing_checks => $studies_passing_checks,
-      failing_checks => $studies_failing_checks,
-      skipped_runs => $incoming_studies->{NEW_SKIPPED_RUNS},
-    },
-    files => \%files,
-  );
+  my @other_studies = grep {
+     my $skipped_study_id = $_->{study_id};
+     my $found = grep {$skipped_study_id eq $_->{study_id}} @{$selected_studies};
+     not $found
+  } @{$skipped_runs_in_studies};
+
+  return ($selected_studies, \@other_studies, \%data_files);
 }
 1;

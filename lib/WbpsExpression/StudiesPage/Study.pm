@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-package View::Study;
+package WbpsExpression::StudiesPage::Study;
 use HTML::Template;
 use Data::Dumper;
 use File::Basename;

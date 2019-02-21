@@ -1,13 +1,13 @@
 use strict;
 use warnings;
-use Production::Analysis::DataFiles;
+use WbpsExpression::Analysis::DataFiles;
 use Test::More;
 
 sub test_average_and_aggregate {
   my ($name_to_pathlist_pairs, $frontmatter, $expected, $test_name) = @_;
 
   my $output = "";
-  Production::Analysis::DataFiles::average_and_aggregate($name_to_pathlist_pairs, \$output, @{$frontmatter});
+  WbpsExpression::Analysis::DataFiles::average_and_aggregate($name_to_pathlist_pairs, \$output, @{$frontmatter});
   is($output, $expected, $test_name); 
 }
 

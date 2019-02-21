@@ -1,8 +1,8 @@
 use Test::More;
-use Production::CurationDefaults;
-use Model::Design;
+use WbpsExpression::IncomingStudies::CurationDefaults;
+use WbpsExpression::Model::Design;
 sub test_subsets {
-  my @actual = Production::CurationDefaults::subsets(@_);
+  my @actual = WbpsExpression::IncomingStudies::CurationDefaults::subsets(@_);
   ok(@actual == 2**@_, "Subsets: @_") or diag explain \@actual;
 }
 test_subsets();
@@ -12,7 +12,7 @@ test_subsets("apple", "banana", "pear");
 
 sub contrasts_as_expected {
   my ($design_tsv, $expected, $test_name) = @_;
-  my $actual = Production::CurationDefaults::contrasts(Model::Design::from_tsv(\$design_tsv));
+  my $actual = WbpsExpression::IncomingStudies::CurationDefaults::contrasts(WbpsExpression::Model::Design::from_tsv(\$design_tsv));
   is_deeply($actual, $expected, $test_name) or warn explain $actual, $expected;
 }
 contrasts_as_expected("Run\tCondition\n", [], "null case");
@@ -78,6 +78,6 @@ contrasts_as_expected($two_factor_tsv, [
   }
 ], "two characteristics example");
 
-is(Production::CurationDefaults::trim_values("3rd stage dispersal juvenile, pooled male and female", "3rd stage dispersal juvenile", "pooled male and female"), "", "trim values");
+is(WbpsExpression::IncomingStudies::CurationDefaults::trim_values("3rd stage dispersal juvenile, pooled male and female", "3rd stage dispersal juvenile", "pooled male and female"), "", "trim values");
 
 done_testing;

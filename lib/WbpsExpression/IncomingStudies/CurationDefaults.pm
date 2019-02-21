@@ -1,12 +1,12 @@
 use strict;
 use warnings;
 
-package Production::CurationDefaults;
+package WbpsExpression::IncomingStudies::CurationDefaults;
 use PublicResources::Rnaseq;
 use List::Util qw/pairmap/;
 use List::MoreUtils qw/uniq all any/;
-use Model::Study;
-use Model::Design;
+use WbpsExpression::Model::Study;
+use WbpsExpression::Model::Design;
 use Data::Compare;
 # use Smart::Comments '###';
 
@@ -97,7 +97,7 @@ sub design_from_runs {
     map { ( $_->{run_id}, $_->{characteristics} ) } @runs;
   my @characteristics_in_order =
     uniq sort { $a cmp $b } map { keys %{ $_->{characteristics} } } @runs;
-  return Model::Design::from_data_by_run( \%replicates_per_run, \%conditions_per_run,
+  return WbpsExpression::Model::Design::from_data_by_run( \%replicates_per_run, \%conditions_per_run,
     \%characteristics_per_run, \@characteristics_in_order );
 }
 
@@ -375,7 +375,7 @@ my %treatment_categories = (
 sub category {
   my ($design, $title) = @_;
   my @chs        = $design->characteristics_varying_by_condition;
-  return "" if (
+  return "Other" if (
     any {@{$_} < 2 } values %{ $design->replicates_by_condition}
   );
   return "Life stages" if (
@@ -395,12 +395,12 @@ sub category {
   return "Cell types" if (
    $mentions_cell_type && ! $mentions_treatment
   );
-  return "";
+  return "Other";
 }
 sub study {
   my (%args) = @_;
   my $design = design_from_runs( @{ $args{runs} } );
-  return Model::Study->new(
+  return WbpsExpression::Model::Study->new(
     $args{study_id},
     $design,
     {

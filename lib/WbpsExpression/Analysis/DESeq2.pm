@@ -1,8 +1,8 @@
 use strict;
 use warnings;
-package Production::Analysis::DESeq2;
+package WbpsExpression::Analysis::DESeq2;
 use Statistics::R; 
-use Production::Analysis::Common;
+use WbpsExpression::Analysis::Common;
 use List::MoreUtils qw/zip/;
 #use Smart::Comments '###';
 
@@ -49,7 +49,7 @@ sub do_analysis {
      }
   }
   $R->stop;
-  Production::Analysis::Common::write_named_hashes(\@name_to_data_pairs, $out_path,
+  WbpsExpression::Analysis::Common::write_named_hashes(\@name_to_data_pairs, $out_path,
     shift @frontmatter,
     "R version: $r_version", "DESeq2 version: $deseq_version",
     @frontmatter, @analysis_warnings,
