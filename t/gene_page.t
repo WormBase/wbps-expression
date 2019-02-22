@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 use EnsEMBL::Web::Component::Gene::WbpsExpression;
-use Test::More skip_all => "TODO";
+use Test::More;
 use File::Temp qw/tempdir/;
 use File::Slurp qw/write_file/;
 use File::Path qw/make_path/;
@@ -19,7 +19,7 @@ my $study_title = "Comparison of gene expression between female Schistosoma mans
 my $file_name = "$study_id.tpm.tsv";
 my $file_path = join("/", $dir, $study_id, $file_name);
 
-my $species = "schistosoma_mansoni";
+my $species = "schistosoma_mansoni_prjea36577";
 make_path(join("/", $dir, $study_id));
 write_file($file_path, $file);
 
@@ -34,21 +34,21 @@ my $second_study_id ="SRP130864";
 my $second_category = "Response to treatment";
 my $second_study_title = "5-AzaC effect on Schistosoma mansoni Transcriptome";
 my $second_file_name = "$second_study_id.de.treatment.tsv";
-my $second_file_path = join("/", $dir, $study_id, $second_file_name);
+my $second_file_path = join("/", $dir, $second_study_id, $second_file_name);
 make_path(join("/", $dir, $second_study_id));
 write_file($second_file_path, $second_file);
 
 my $third_file = <<EOF;
-        SRR5664530      SRR5664533      SRR5664534      SRR5664531      SRR5664532      SRR5664529      SRR5664535
-g1	0.8     1.3     3.54    35.85   41.03   41.95   48.82
-g2      11.61   11.32   13.32   120.31  128.8   140.44  148.89
+	SRR5664530	SRR5664533	SRR5664534	SRR5664531	SRR5664532	SRR5664529	SRR5664535
+g1	0.8	1.3	3.54	35.85	41.03	41.95	48.82
+g2	11.61	11.32	13.32	120.31	128.8	140.44	148.89
 EOF
 
 my $third_study_id ="SRP108901";
 my $third_category = "Other";
 my $third_study_title = "Schistosoma mansoni strain LE - Transcriptome or Gene expression";
 my $third_file_name = "$third_study_id.tpm_per_run.tsv";
-my $third_file_path = join("/", $dir, $study_id, $third_file_name);
+my $third_file_path = join("/", $dir, $third_study_id, $third_file_name);
 make_path(join("/", $dir, $third_study_id));
 write_file($third_file_path, $third_file);
 
@@ -63,55 +63,32 @@ write_file(join("/", $dir, "$species.studies.tsv"), $studies_file);
 my $subject = EnsEMBL::Web::Component::Gene::WbpsExpression::from_folder(
    $species, $dir
 );
+is( scalar @{$subject->{studies}}, 3, "Read in three studies");
 
-is_deeply($subject, bless({
-  studies => [{
-     study_id => $study_id,
-     study_title => $study_title,
-     study_category => $category,
-     tpms_per_condition => $file_path,
-  }, {
-     study_id => $second_study_id,
-     study_title => $second_study_title,
-     study_category => $second_category,
-     contrasts => {
-         treatment => $second_file_path
-       }
-  }, {
-     study_id => $third_study_id,
-     study_title => $third_study_title,
-     study_category => $third_category,
-     tpms_per_run => $third_file_name,
-  } ]
-}, 'EnsEMBL::Web::Component::Gene::WbpsExpression'), "Create reads in the config");
+sub is_empty_response {
+  my ($payload, $test_name) = @_;
+  subtest $test_name => sub {
+     like($payload, qr{<html>.*</html>}, "is html");
+     like($payload, qr{no results}i,  "no results");
+  };
+}
+sub is_tables {
+  my ($payload, $num_tables, $num_rows_per_table, $num_columns_per_row, $test_name) = @_;
+  subtest $test_name => sub {
+    my @table_tags = $payload =~ /<table>/g;
+    my @th_tags = $payload =~ /<th>/g;
+    my @tr_tags = $payload =~ /<tr>/g;
+    my @td_tags = $payload =~ /<td>/g;
+    is(scalar @table_tags, $num_tables, "num tables");
+    is(scalar @th_tags, $num_tables, "each table has header");
+    is(scalar @tr_tags, $num_tables * ($num_rows_per_table) , "num rows per table");
+    is(scalar @td_tags, $num_tables * ($num_rows_per_table +1) * $num_columns_per_row, "num columns per row");
+  } or diag explain $payload;
+}
 
-is_deeply($subject->tpms_in_tables("invalid ID", $category), [], "Null case - gene");
-is_deeply($subject->tpms_in_tables("g1", "Different category"), [], "Null case - category");
-
-is_deeply($subject->tpms_in_tables("g1", $category), [{
-  study_id => $study_id,
-  study_title => $study_title,
-  column_headers => ["heads", "tails"],
-  values => [1.1, 1.2],
-}] , "One line - $category");
-
-
-is_deeply([$subject->list_of_fold_changes_in_studies_and_studies_with_no_results("invalid ID", $second_category)], [[],[]], "Null case - no data anywhere");
-is_deeply([$subject->list_of_fold_changes_in_studies_and_studies_with_no_results("g2", $second_category)], [[],[]], "Null case - gene, no data for the category");
-is_deeply([$subject->list_of_fold_changes_in_studies_and_studies_with_no_results("g1", "Different category")], [[],[]], "Null case - category");
-
-is_deeply([$subject->list_of_fold_changes_in_studies_and_studies_with_no_results("g1", $second_category)], [[{
-  study_id => $second_study_id,
-  study_title => $second_study_title,
-  contrast => "5-AzaC vs untreated",
-  fold_change => 1.1,
-}],[]] , "One line - $second_category");
-
-
-is_deeply($subject->summary_stats_in_tables("g1", $third_category), [{
-  study_id => $third_study_id,
-  study_title => $third_study_title,
-  column_headers => ["N", "min", "Q1", "Q2", "Q3", "max"],
-  values => [6,7,8,9,10],
-}] , "One line - $third_category");
+is_empty_response($subject->render_page("g0", $_), "Invalid gene, category $_") for ($category, $second_category, $third_category, "invalid category");
+is_empty_response($subject->render_page("g1", "invalid category"), "g1 invalid category");
+is_tables($subject->render_page("g1", $category), 1, 1, 2, "$category - one row in a flat table");
+is_tables($subject->render_page("g1", $second_category), 1, 1, 4, "$second_category ");
+is_tables($subject->render_page("g1", $third_category), 1, 1, 6, "$third_category - six stats");
 done_testing;

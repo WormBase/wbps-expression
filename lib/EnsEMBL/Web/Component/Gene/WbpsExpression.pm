@@ -7,13 +7,15 @@ use warnings;
 
 package EnsEMBL::Web::Component::Gene::WbpsExpression;
 use File::Basename;
-
+# use Smart::Comments '###';
 sub new {
   my ($class, $args) = @_;
   return bless $args, $class;
 }
 sub from_folder {
   my ($species, $studies_path) = @_;
+  my ($spe, $cies, $bp) = split "_", $species;
+  
   my $studies_file = "$studies_path/$species.studies.tsv";
   my %metadata;
   open (my $fh, "<", $studies_file) or return;
@@ -35,7 +37,7 @@ sub from_folder {
       my @files = glob("$study_path/$study_id.de.*.tsv");
       next unless @files;
       for my $file_path (@files){
-        my ($type) = m{$study_path/$study_id\.de\.(.*)\.tsv};
+        my ($type) = $file_path =~ m{$study_path/$study_id\.de\.(.*)\.tsv};
         $study->{de}{$type} = $file_path;
       }
     } elsif ($metadata{$study_id}{category} eq "Other" ) {
@@ -49,44 +51,44 @@ sub from_folder {
     }
     push @studies, $study;
   }
-  return &new(__PACKAGE__, {studies => \@studies});
+  return &new(__PACKAGE__, {
+    studies => \@studies,
+    species_display_name => sprintf("%s %s (%s)", ucfirst($spe), $cies, uc($bp)),
+    species_url_name => join("_", map {lc($_)} ($spe, $cies, $bp)),
+  });
 }
 
 
 sub render_page {
   my ($self, $gene_id, $category) = @_;
-  my $species = "TODO - from request, or from \$self?";
   my @studies = grep {$_->{study_category} eq $category} @{$self->{studies}};
-  return html_no_studies_for_category($gene_id, $category) unless @studies;
-  my $header = html_header($gene_id, $category);
+  my @html_panes = response_as_html_panes($self->{species_url_name}, $gene_id, $category, \@studies);
   return (
     "<html><body>"
-    . html_header($gene_id, $category)
-    . "<br>"
-    . join("<br>", response_as_html_panes($gene_id, $category, \@studies)) 
+    . (join("<br>", @html_panes) || html_no_results($self->{species_display_name}, $gene_id, $category) )
     . "</body></html>"
   );
 }
 sub response_as_html_panes {
-  my ($gene_id, $category, $studies) = @_;
+  my ($species, $gene_id, $category, $studies) = @_;
+  return unless @$studies;
+### response_as_html_panes: join("\t", $species , $gene_id , $category,  map {$_->{study_id}} @{$studies})
   if ($category eq  "Response to treatment"){
-    my ($fold_changes, $studies_with_no_results) = list_of_fold_changes_in_studies_and_studies_with_no_results($gene_id, $studies);
-    return (
-       (@{$fold_changes} ? html_fold_changes_table($fold_changes) : ()),
-       (@{$studies_with_no_results} ? html_studies_with_no_results($studies_with_no_results) : ()),
-    );
+    my ($fold_changes, $studies_with_no_results) = list_of_fold_changes_in_studies_and_studies_with_no_results($species, $gene_id, $studies);
+    return (@{$fold_changes} ? (html_fold_changes_table($fold_changes), @{$studies_with_no_results} ? html_studies_with_no_results($studies_with_no_results) : ()): ());
   } elsif ($category eq "Other") {
-    return map {html_flat_horizontal_table($_)} summary_stats_in_tables($gene_id, $studies);
+    return map {html_flat_horizontal_table($_->{column_headers}, $_->{values})} summary_stats_in_tables($species, $gene_id, $studies);
   } else {
-    return map {html_flat_horizontal_table($_)} tpms_in_tables($gene_id, $studies);
+    return map {html_flat_horizontal_table($_->{column_headers}, $_->{values})} tpms_in_tables($species, $gene_id, $studies);
   }
+
 }
-sub html_no_studies_for_category {
-  my ($gene_id, $category) = @_;
-  return "<p> No results for gene $gene_id in category $category </p>";
+sub html_no_results {
+  my ($species, $gene_id, $category) = @_;
+  return "<p> $species: no results for gene $gene_id in category $category </p>";
 }
 sub html_header {
-  my ($gene_id, $category) = @_;
+  my ($species, $gene_id, $category) = @_;
   return "<h2> Gene expression - $category </h2>"; 
 }
 sub html_fold_changes_table {
@@ -99,6 +101,7 @@ sub html_fold_changes_table {
        . "<td>Contrast name</td>"
        . "<td>Log<sub>2</sub>-fold change</td>"
      . "</th>"
+     . "<tbody>"
      . join ("\n", map {
        "<tr>"
          . "<td>" . html_study_link($_) . "</td>"
@@ -107,8 +110,44 @@ sub html_fold_changes_table {
          . "<td>" . $_->{fold_change} . "</td>"
        . "</tr>"
      } @{$fold_changes})
+     . "</tbody>"
      . "</table>"
   );
+}
+sub html_flat_horizontal_table {
+  my ($column_headers, $values) = @_;
+  return (
+      "<table>"
+     . "<th>"
+     . join("\n", map {
+        "<td>$_</td>"
+     } @{$column_headers})
+     . "</th>"
+     . "<tbody>"
+     . "<tr>"
+     . join("\n", map {
+       "<td>$_</td>"
+     } @{$values})
+     . "</tr>"
+     . "</tbody>"
+     . "</table>"
+  );
+}
+sub html_studies_with_no_results {
+  my ($studies) = @_;
+  return "<ul>" . join ("<br>",
+    map { "<li>$_</li>" }
+    map { html_study_link($_) }
+    @{$studies}
+   ) . "</ul>";
+}
+sub html_study_link {
+  my ($study) = @_;
+  return sprintf("<a href=\"%s\">%s</a>", $study->{study_url}, $study->{study_title});
+}
+sub study_url {
+  my ($species, $study_id) = @_;
+  return "/expression/$species/index.html#$study_id";
 }
 sub list_of_fold_changes_in_studies_and_studies_with_no_results {
   my ($species, $gene_id, $studies) = @_;
@@ -121,8 +160,7 @@ sub list_of_fold_changes_in_studies_and_studies_with_no_results {
         my ($contrasts, $fold_changes) = search_in_file($path, $gene_id);
         for my $i (0..$#$contrasts){
            push @fold_changes_for_study, {
-              species => $species,
-              study_id => $study->{study_id},
+              study_url => study_url($species,$study->{study_id}),
               study_title => $study->{study_title},
               contrast_type => $type,
               contrast_name => $contrasts->[$i],
@@ -139,7 +177,6 @@ sub list_of_fold_changes_in_studies_and_studies_with_no_results {
 # Adapted from: https://metacpan.org/source/SHLOMIF/Statistics-Descriptive-3.0612/lib/Statistics/Descriptive.pm#L620
 sub quantile {
     my ( $data_sorted, $QuantileNumber ) = @_;
- 
     return $data_sorted->[0] if ( $QuantileNumber == 0 );
     my $count = @{$data_sorted};
     return $data_sorted->[ $count - 1 ] if ( $QuantileNumber == 4 );
@@ -159,45 +196,56 @@ sub quantile {
 }
 sub summary_stats_in_tables {
   my ($species, $gene_id, $studies) = @_;
+### summary_stats_in_tables: $studies
   my @result;
   for my $study (@{$studies}){
      my ($runs, $expression_tpm) = search_in_file($study->{tpms_per_run}, $gene_id);
+### $expression_tpm
      my @expression_tpm_sorted = sort @{$expression_tpm //[]};
      push @result, {
-       species => $species,
-       study_id => $study->{study_id},
+       study_url => study_url($species,$study->{study_id}),
        study_title => $study->{study_title},
        column_headers => ["N", "min", "Q1", "Q2", "Q3", "max"],
-       values => [ scalar @expression_tpm_sorted, map {quantile(\@expression_tpm_sorted, $_)} (0..4)],
+       values => [ 
+          scalar @expression_tpm_sorted,
+          quantile(\@expression_tpm_sorted, 0),
+          sprintf("%.1f",quantile(\@expression_tpm_sorted, 1)),
+          sprintf("%.1f",quantile(\@expression_tpm_sorted, 2)),
+          sprintf("%.1f",quantile(\@expression_tpm_sorted, 3)),
+          quantile(\@expression_tpm_sorted, 4),
+       ],
      } if $runs and $expression_tpm;
   }
-  return \@result;
+  return @result;
 }
 sub tpms_in_tables {
   my ($species, $gene_id, $studies) = @_;
+### tpms_in_tables: join("\t", $species , $gene_id , map {$_->{study_id}} @{$studies})
   my @result;  
   for my $study (@{$studies}){
      my ($conditions, $expression_tpm) = search_in_file($study->{tpms_per_condition}, $gene_id);
      push @result, {
-       species => $species,
-       study_id => $study->{study_id},
+       study_url => study_url($species,$study->{study_id}),
        study_title => $study->{study_title},
        column_headers => $conditions,
        values => $expression_tpm,
      } if $conditions and $expression_tpm;
   }
-  return \@result;
+  return @result;
 }
 
 
 sub search_in_file {
   my ($path, $gene_id) = @_;
+### search_in_file: $path . " " . $gene_id
   my $l = `grep --max-count=1 "^$gene_id" $path`;
+### $l
   chomp $l;
   return unless $l;
   my ($id, @xs) = split "\t", $l;
   return unless $id eq $gene_id and @xs;
   my $h = `grep --max-count=1 "^\t" $path`;
+### $h
   chomp $h;
   return unless $h;
   my ($blank, @hs) = split "\t", $h;
