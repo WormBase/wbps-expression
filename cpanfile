@@ -1,4 +1,3 @@
-requires 'Data::Dumper';
 requires 'Data::Compare';
 requires 'File::Basename';
 requires 'File::Path';
@@ -10,7 +9,6 @@ requires 'List::Util';
 requires 'Text::CSV';
 requires 'XML::Simple';
 requires 'YAML';
-requires 'Text::MultiMarkdown';
 requires 'HTML::Template';
 requires 'Statistics::R';
 

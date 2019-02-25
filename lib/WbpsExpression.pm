@@ -6,7 +6,7 @@ use WbpsExpression::Analysis;
 use WbpsExpression::StudiesPage;
 use File::Slurp qw/write_file/;
 use File::Path qw/make_path/;
-use Smart::Comments '###';
+# use Smart::Comments '###';
 sub new {
   my ($class, $root_dir, $src_dir) = @_;
 

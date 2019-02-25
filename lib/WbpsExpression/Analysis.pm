@@ -2,7 +2,6 @@ use strict;
 use warnings;
 package WbpsExpression::Analysis;
 use File::Slurp qw/read_dir write_file/;
-use Text::MultiMarkdown qw/markdown/;
 use File::Basename;
 use WbpsExpression::Analysis::DataFiles;
 use WbpsExpression::Analysis::DESeq2;

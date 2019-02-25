@@ -1,7 +1,7 @@
 package PublicResources::Resources::GeoMetadata;
 
 use parent PublicResources::Resources::LocallyCachedResource;
-use Data::Dumper;
+use YAML;
 my $EUTILS_URL = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils';
 
 sub _fetch {
@@ -29,7 +29,7 @@ sub _session_bits_from_esearch_payload {
    my $web = $payload->{WebEnv};
    my $key = $payload->{QueryKey};
    
-   die Data::Dumper::Dumper( $payload) unless $web and $key;
+   die Dump($payload) unless $web and $key;
    return $web, $key;
 }
 

@@ -2,7 +2,6 @@ use strict;
 use warnings;
 package WbpsExpression::StudiesPage::Study;
 use HTML::Template;
-use Data::Dumper;
 use File::Basename;
 sub new {
   my ($class, $study) = @_;
