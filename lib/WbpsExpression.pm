@@ -51,7 +51,7 @@ sub run_web_only {
 sub listing_tsv {
   my ($studies) = @_;
   return map {
-    join("\t", $_->{study_id}, $_->{config}{category}, $_->{config}{title})
+    join("\t", $_->{study_id}, $_->{config}{category}, $_->{config}{title})."\n"
   } @{$studies};
 }
 sub create_listing_and_webpage {

@@ -19,18 +19,19 @@ $ENV{LOCALLY_CACHED_RESOURCE_VERBOSE} //= 1;
 use ProductionMysql;
 my @core_dbs = ProductionMysql->staging->core_databases(@ARGV);
 
-use Production::Workflow;
+use WbpsExpression;
 my $data_dir = "/nfs/nobackup/ensemblgenomes/wormbase/parasite/production/jbrowse/WBPS$ENV{PARASITE_VERSION}";
 my $src_dir = "$FindBin::Bin/..";
 my $work_dir = "$data_dir/Production-".`whoami`;
 chomp $work_dir;
 
-my $processing = Production::Workflow->new("$data_dir/Resources",$src_dir, $work_dir );
+my $processing = WbpsExpression->new("$data_dir/Resources",$src_dir);
 for my $core_db (@core_dbs) {
   my ($spe, $cies, $bp ) = split "_", $core_db;
   next if $bp eq 'core';
   next unless "$data_dir/Resources/${spe}_${cies}";
   my $assembly = ProductionMysql->staging->meta_value($core_db, "assembly.name");
-  $processing->do_everything ("${spe}_${cies}", $assembly);
-  $ENV{DO_DEPLOY_WEB} and print `sudo -u wormbase rsync --delete -av $work_dir/${spe}_${cies}/$assembly/  /ebi/ftp/pub/databases/wormbase/parasite/web_data/rnaseq_studies/releases/next/${spe}_${cies}_${bp}/`;
+  my $species = join ("_", $spe, $cies, $bp);
+  $processing->run("${spe}_${cies}", $assembly, "$work_dir/$species");
+  $ENV{DO_DEPLOY_WEB} and print `sudo -u wormbase rsync --delete -av $work_dir/$species/  /ebi/ftp/pub/databases/wormbase/parasite/web_data/rnaseq_studies/releases/next/$species/`;
 } 
