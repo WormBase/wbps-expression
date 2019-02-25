@@ -3,6 +3,9 @@ language: perl
 perl:
 - '5.26'
 
+r:
+- release
+
 sudo: false
 
 before_install:

@@ -12,12 +12,13 @@ requires 'XML::Simple';
 requires 'YAML';
 requires 'Text::MultiMarkdown';
 requires 'HTML::Template';
+requires 'Statistics::R';
 
 test_requires 'File::Temp';
 test_requires 'Test::MockModule';
 test_requires 'Test::More';
 
+
 on 'develop' => sub {
-    requires 'Statistics::R';
     suggests 'Smart::Comments';
 };
