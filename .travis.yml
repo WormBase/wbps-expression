@@ -13,14 +13,7 @@ before_install:
 - chmod +x travisci/harness.sh
 
 install:
+- sudo apt-get install -y r-base
 - cpanm -v --installdeps --notest .
 
 script: ./travisci/harness.sh
-
-notifications:
-  email:
-    recipients:
-       - tuanle@ebi.ac.uk
-       - wojtek.bazant@sanger.ac.uk
-    on_success: change
-    on_failure: always
