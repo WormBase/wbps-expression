@@ -147,7 +147,7 @@ sub analyses_required {
       type => "differential_expression",
       file_name => sprintf("$study_id.de%s%s.tsv" , $_->{name} ? ".": "" , $_->{name}),
       title => sprintf("Differential expression%s%s" , $_->{name} ? ": ": "", $_->{name} =~ tr/_/ /r),
-      description => sprintf("Differential expression analysis for study $study_id%s. Values are base 2 log of maximum likelihood estimate of fold change, where adjusted p-value < 0.05 by Wald test", ($_->{name} ? ", comparing across ".$_->{name} =~ tr/_/ /r : "")),
+      description => sprintf("Differential expression analysis for study $study_id%s. Values are base 2 log of maximum likelihood estimate of fold change and adjusted p-value by Wald test, given to 2 s.f., where adj_pval < 0.05 and abs(log2fc) > 0.5", ($_->{name} ? ", comparing across ".$_->{name} =~ tr/_/ /r : "")),
       source_file_name => $counts_file_name,
       contrasts => $_->{values}, 
    }} @{$self->{config}{contrasts}}),

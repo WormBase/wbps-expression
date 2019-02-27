@@ -79,8 +79,8 @@ sub response_as_html_panes {
   return unless @$studies;
 ### response_as_html_panes: join("\t", $species , $gene_id , $category,  map {$_->{study_id}} @{$studies})
   if ($category eq  "Response to treatment"){
-    my ($fold_changes, $studies_with_no_results) = list_of_fold_changes_in_studies_and_studies_with_no_results($species, $gene_id, $studies);
-    return (@{$fold_changes} ? (html_fold_changes_table($fold_changes), @{$studies_with_no_results} ? html_studies_with_no_results($studies_with_no_results) : ()): ());
+    my ($differential_expression_values, $studies_with_no_results) = list_of_differential_expression_values_in_studies_and_studies_with_no_results($species, $gene_id, $studies);
+    return (@{$differential_expression_values} ? (html_differential_expression_values_table($differential_expression_values), @{$studies_with_no_results} ? html_studies_with_no_results($studies_with_no_results) : ()): ());
   } elsif ($category eq "Other") {
     return map {html_flat_horizontal_table($_->{column_headers}, $_->{values})} summary_stats_in_tables($species, $gene_id, $studies);
   } else {
@@ -96,8 +96,8 @@ sub html_header {
   my ($species, $gene_id, $category) = @_;
   return "<h2> Gene expression - $category </h2>"; 
 }
-sub html_fold_changes_table {
-  my ($fold_changes) = @_;
+sub html_differential_expression_values_table {
+  my ($differential_expression_values) = @_;
   return (
      "<table>"
      . "<th>"
@@ -105,6 +105,7 @@ sub html_fold_changes_table {
        . "<td>Contrast type</td>"
        . "<td>Contrast name</td>"
        . "<td>Log<sub>2</sub>-fold change</td>"
+       . "<td>Adjusted p-value</td>"
      . "</th>"
      . "<tbody>"
      . join ("\n", map {
@@ -112,9 +113,10 @@ sub html_fold_changes_table {
          . "<td>" . html_study_link($_) . "</td>"
          . "<td>" . ucfirst($_->{contrast_type}) . "</td>"
          . "<td>" . $_->{contrast_name} . "</td>"
-         . "<td>" . $_->{fold_change} . "</td>"
+         . "<td>" . $_->{log2_fold_change} . "</td>"
+         . "<td>" . $_->{adjusted_p_value} . "</td>"
        . "</tr>"
-     } @{$fold_changes})
+     } @{$differential_expression_values})
      . "</tbody>"
      . "</table>"
   );
@@ -154,29 +156,31 @@ sub study_url {
   my ($species, $study_id) = @_;
   return "/expression/$species/index.html#$study_id";
 }
-sub list_of_fold_changes_in_studies_and_studies_with_no_results {
+sub list_of_differential_expression_values_in_studies_and_studies_with_no_results {
   my ($species, $gene_id, $studies) = @_;
-  my @fold_changes;
+  my @differential_expression_values;
   my @studies_with_no_results;
 
   for my $study (@{$studies}){
-     my @fold_changes_for_study;
+     my @differential_expression_values_for_study;
      while (my ($type, $path) = each %{$study->{de}}) {
-        my ($contrasts, $fold_changes) = search_in_file($path, $gene_id);
+        my ($contrasts, $differential_expression_values) = search_in_file($path, $gene_id);
         for my $i (0..$#$contrasts){
-           push @fold_changes_for_study, {
+           my ($log2_fold_change, $adjusted_p_value) = split(" ", $differential_expression_values->[$i]);
+           push @differential_expression_values_for_study, {
               study_url => study_url($species,$study->{study_id}),
               study_title => $study->{study_title},
               contrast_type => $type,
               contrast_name => $contrasts->[$i],
-              fold_change => $fold_changes->[$i],
+              log2_fold_change => $log2_fold_change,
+              adjusted_p_value => $adjusted_p_value,
            }
         }
      }
-     push @fold_changes, $_ for @fold_changes_for_study;
-     push @studies_with_no_results, $study unless @fold_changes_for_study;
+     push @differential_expression_values, $_ for @differential_expression_values_for_study;
+     push @studies_with_no_results, $study unless @differential_expression_values_for_study;
   }
-  return \@fold_changes, \@studies_with_no_results;
+  return \@differential_expression_values, \@studies_with_no_results;
 }
 
 # Adapted from: https://metacpan.org/source/SHLOMIF/Statistics-Descriptive-3.0612/lib/Statistics/Descriptive.pm#L620

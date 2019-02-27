@@ -3,7 +3,7 @@ use warnings;
 package WbpsExpression::Analysis::DESeq2;
 use Statistics::R; 
 use WbpsExpression::Analysis::Common;
-use List::MoreUtils qw/zip/;
+use List::MoreUtils qw/zip zip_unflatten/;
 #use Smart::Comments '###';
 
 sub do_analysis {
@@ -21,7 +21,6 @@ sub do_analysis {
   $R->run(q`suppressPackageStartupMessages(library(DESeq2))`);
   my $deseq_version = $R->get('packageVersion("DESeq2")');
   $R->run(q`dataSet = DESeqDataSetFromMatrix(countData = countData, colData = colData, design = ~ Condition)`);
-# TODO this should handle the two-or-three runs case
 # If there are no samples, do not collapse the replicates
   $R->run(q`if (exists("dataSet.Sample")) { collapseReplicates(dataSet, dataSet.Sample) }`);
   $R->run(q`dds = DESeq(dataSet)`);
@@ -32,16 +31,22 @@ sub do_analysis {
      $R->run(
       q`res = results(dds, contrast = c("Condition", reference, test), alpha = 0.05)`,
       q`res = subset(res, padj < 0.05)`,
+      q`res = subset(res, log2FoldChange < -0.5 || log2FoldChange > 0.5 )`,
       q`rn = rownames(res)`,
       q`fc = res$log2FoldChange`,
-      q`fc = round(fc, digits=2)`,
+      q`fc = signif(fc, digits=2)`,
+      q`pv = res$padj`,
+      q`pv = signif(pv, digits=2)`,
      );
      my $fc = $R->get('fc');
      my $rn = $R->get('rn');
+     my $pv = $R->get('pv');
      my @fold_changes = ref $fc eq 'ARRAY' ? @{$fc} : ();
      my @row_names = ref $rn eq 'ARRAY' ? @{$rn} : ();
-     die unless @fold_changes == @row_names;
-     my %h = zip @row_names, @fold_changes;
+     my @adjusted_p_values = ref $pv eq 'ARRAY' ? @{$pv} : ();
+     die unless @fold_changes == @row_names and @fold_changes == @adjusted_p_values;
+     my @values = map {join(" ", @$_)} zip_unflatten @fold_changes, @adjusted_p_values;
+     my %h = zip @row_names, @values;
      if(%h){
        push @name_to_data_pairs, [$contrast_name, \%h];
      } else {
