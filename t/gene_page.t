@@ -89,6 +89,6 @@ sub is_tables {
 is_empty_response($subject->render_page("g0", $_), "Invalid gene, category $_") for ($category, $second_category, $third_category, "invalid category");
 is_empty_response($subject->render_page("g1", "invalid category"), "g1 invalid category");
 is_tables($subject->render_page("g1", $category), 1, 1, 2, "$category - one row in a flat table");
-is_tables($subject->render_page("g1", $second_category), 1, 1, 5, "$second_category ");
+is_tables($subject->render_page("g1", $second_category), 1, 1, 4, "$second_category ");
 is_tables($subject->render_page("g1", $third_category), 1, 1, 6, "$third_category - six stats");
 done_testing;

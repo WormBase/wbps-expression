@@ -102,8 +102,7 @@ sub html_differential_expression_values_table {
      "<table>"
      . "<th>"
        . "<td>Study</td>"
-       . "<td>Contrast type</td>"
-       . "<td>Contrast name</td>"
+       . "<td>Contrast</td>"
        . "<td>Log<sub>2</sub>-fold change</td>"
        . "<td>Adjusted p-value</td>"
      . "</th>"
@@ -111,8 +110,7 @@ sub html_differential_expression_values_table {
      . join ("\n", map {
        "<tr>"
          . "<td>" . html_study_link($_) . "</td>"
-         . "<td>" . ucfirst($_->{contrast_type}) . "</td>"
-         . "<td>" . $_->{contrast_name} . "</td>"
+         . "<td>" . $_->{contrast} . "</td>"
          . "<td>" . $_->{log2_fold_change} . "</td>"
          . "<td>" . $_->{adjusted_p_value} . "</td>"
        . "</tr>"
@@ -170,8 +168,7 @@ sub list_of_differential_expression_values_in_studies_and_studies_with_no_result
            push @differential_expression_values_for_study, {
               study_url => study_url($species,$study->{study_id}),
               study_title => $study->{study_title},
-              contrast_type => $type,
-              contrast_name => $contrasts->[$i],
+              contrast => $contrasts->[$i],
               log2_fold_change => $log2_fold_change,
               adjusted_p_value => $adjusted_p_value,
            }
