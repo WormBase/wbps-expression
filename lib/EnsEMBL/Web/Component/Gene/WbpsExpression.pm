@@ -163,7 +163,10 @@ sub list_of_differential_expression_values_in_studies_and_studies_with_no_result
      my @differential_expression_values_for_study;
      while (my ($type, $path) = each %{$study->{de}}) {
         my ($contrasts, $differential_expression_values) = search_in_file($path, $gene_id);
+        C:
         for my $i (0..$#$contrasts){
+           my $contrast = $contrasts->[$i];
+           next C if $contrast =~ /^\!/; # Low replicates or failed QC
            my ($log2_fold_change, $adjusted_p_value) = split(" ", $differential_expression_values->[$i]);
            push @differential_expression_values_for_study, {
               study_url => study_url($species,$study->{study_id}),
@@ -229,13 +232,14 @@ sub tpms_in_tables {
 ### tpms_in_tables: join("\t", $species , $gene_id , map {$_->{study_id}} @{$studies})
   my @result;  
   for my $study (@{$studies}){
-     my ($conditions, $expression_tpm) = search_in_file($study->{tpms_per_condition}, $gene_id);
+     my ($conditions, $expressions_tpm) = search_in_file($study->{tpms_per_condition}, $gene_id);
+     my @conditions_warnings_as_text = map {s{^!\s*(.*)}{$1 <i>(has quality warnings)</i>}; $_} @{$conditions};
      push @result, {
        study_url => study_url($species,$study->{study_id}),
        study_title => $study->{study_title},
-       column_headers => $conditions,
-       values => $expression_tpm,
-     } if $conditions and $expression_tpm;
+       column_headers => \@conditions_warnings_as_text,
+       values => $expressions_tpm,
+     } if @conditions_warnings_as_text and @{$expressions_tpm};
   }
   return @result;
 }
