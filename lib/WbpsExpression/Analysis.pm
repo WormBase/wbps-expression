@@ -6,7 +6,7 @@ use File::Basename;
 use WbpsExpression::Analysis::DataFiles;
 use WbpsExpression::Analysis::DESeq2;
 use WbpsExpression::Model::Design;
-use List::Util qw/pairmap pairs pairgrep/;
+use List::Util qw/pairmap pairs pairgrep uniq/;
 use File::Path qw/make_path/;
 # use Smart::Comments '###';
 
@@ -37,24 +37,6 @@ sub low_replicate_by_condition {
     $result{$c} = $number_runs if $number_runs < 3;
   }
   return \%result;
-}
-sub low_replicate_warnings {
-  my ($runs_by_condition) = @_;
-  my %low_replicates_by_count = ();
-  my %d = %{$runs_by_condition};
-  for my $c (keys %d){
-    my @runs = @{$d{$c}};
-    push @{$low_replicates_by_count{scalar @runs}}, $c if @runs < 3;
-  }
-  return map {
-    my $count = $_->[0];
-    my @conditions = @{$_->[1]};
-    keys %d == @conditions 
-      ? sprintf("low replicates in all conditions (%s)", $count)
-      : sprintf("low replicates (%s) : %s" , $_->[0], join(", " , @conditions))
-  } sort {
-    $b->[0] cmp $a->[0] 
-  } pairs %low_replicates_by_count;
 }
 
 my %ANALYSES = (  
@@ -111,11 +93,13 @@ my %ANALYSES = (
   differential_expression => sub {
     my($study, $files, $output_path, %analysis_args) = @_;
 ### %analysis_args
-    my $runs_by_condition = $study->{design}->runs_by_condition;
-    my @conditions_ordered = $study->{design}->all_conditions; 
-    my %qc_issues_per_run = map {$_ => $files->{$_}{qc_issues}} map {@{$_}} values %{$runs_by_condition};
-    my $low_qc_by_condition = low_qc_by_condition($runs_by_condition, \%qc_issues_per_run);
-    my $low_replicate_by_condition = low_replicate_by_condition($runs_by_condition);
+    my %runs_by_condition_all = %{$study->{design}->runs_by_condition};
+    my @conditions_ordered = uniq map {($_->[0], $_->[1])} @{$analysis_args{contrasts}};
+    my %runs_by_condition;
+    @runs_by_condition{@conditions_ordered} = @runs_by_condition_all{@conditions_ordered};
+    my %qc_issues_per_run = map {$_ => $files->{$_}{qc_issues}} map {@{$_}} values %runs_by_condition;
+    my $low_qc_by_condition = low_qc_by_condition(\%runs_by_condition, \%qc_issues_per_run);
+    my $low_replicate_by_condition = low_replicate_by_condition(\%runs_by_condition);
     my @qc_warnings;
     my @contrasts_amended_names;
     my $contrasts_low_replicates;
