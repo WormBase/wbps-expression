@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-use EnsEMBL::Web::Component::Gene::WbpsExpression;
+use EnsEMBL::Web::Component::Gene::WBPSExpressionHelper;
 use Test::More;
 use File::Temp qw/tempdir/;
 use File::Slurp qw/write_file/;
@@ -60,7 +60,7 @@ EOF
 
 write_file(join("/", $dir, "$species.studies.tsv"), $studies_file);
 
-my $subject = EnsEMBL::Web::Component::Gene::WbpsExpression::from_folder(
+my $subject = EnsEMBL::Web::Component::Gene::WBPSExpressionHelper->from_folder(
    $species, $dir
 );
 is( scalar @{$subject->{studies}}, 3, "Read in three studies");
