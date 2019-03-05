@@ -1,5 +1,18 @@
+use strict;
+use warnings;
+
+# Copied as a single file from https://github.com/wormbase/wbps-expression into WBPS web code
+# Please no dependencies apart from those listed in ensembl-webcode cpanfile:
+# https://github.com/Ensembl/ensembl-webcode/blob/master/cpanfile
+
+# create with: from_folder($species, $studies_path)
+# main method: render_page($gene_id, $category)
+
+# methods that draw html start their names with html_
 package EnsEMBL::Web::Component::Gene::WBPSExpressionHelper;
 use File::Basename;
+use File::Basename;
+# use Smart::Comments '###';
 
 sub new {
   my ($class, $args) = @_;
