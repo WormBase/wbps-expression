@@ -20,6 +20,7 @@ my $file_name = "$study_id.tpm.tsv";
 my $file_path = join("/", $dir, $study_id, $file_name);
 
 my $species = "schistosoma_mansoni_prjea36577";
+my ($spe, $cies, $bp) = split "_", $species;
 make_path(join("/", $dir, $study_id));
 write_file($file_path, $file);
 
@@ -58,7 +59,7 @@ $second_study_id\t$second_category\t$second_study_title
 $third_study_id\t$third_category\t$third_study_title
 EOF
 
-write_file(join("/", $dir, "$species.studies.tsv"), $studies_file);
+write_file(join("/", $dir, "$spe\_$cies.studies.tsv"), $studies_file);
 
 my $subject = EnsEMBL::Web::Component::Gene::WBPSExpressionHelper->from_folder(
    $species, $dir
