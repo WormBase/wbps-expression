@@ -1,27 +1,16 @@
-use strict;
-use warnings;
-
-# Copied as a single file from https://github.com/wormbase/wbps-expression into WBPS web code
-# Please no dependencies apart from those listed in ensembl-webcode cpanfile:
-# https://github.com/Ensembl/ensembl-webcode/blob/master/cpanfile
-
-# create with: from_folder($species, $studies_path)
-# main method: render_page($gene_id, $category)
-
-# methods that draw html start their names with html_
-
-package EnsEMBL::Web::Component::Gene::WbpsExpression;
+package EnsEMBL::Web::Component::Gene::WBPSExpressionHelper;
 use File::Basename;
-# use Smart::Comments '###';
+
 sub new {
   my ($class, $args) = @_;
   return bless $args, $class;
 }
+
 sub from_folder {
-  my ($species, $studies_path) = @_;
+  my ($self, $species, $studies_path) = @_;
   my ($spe, $cies, $bp) = split "_", $species;
   
-  my $studies_file = "$studies_path/$species.studies.tsv";
+  my $studies_file = "$studies_path/$spe"."_"."$cies.studies.tsv";
   my %metadata;
   open (my $fh, "<", $studies_file) or return;
   while(<$fh>){
@@ -69,9 +58,7 @@ sub render_page {
   my @studies = grep {$_->{study_category} eq $category} @{$self->{studies}};
   my @html_panes = response_as_html_panes($self->{species_url_name}, $gene_id, $category, \@studies);
   return (
-    "<html><body>"
-    . (join("<br>", @html_panes) || html_no_results($self->{species_display_name}, $gene_id, $category) )
-    . "</body></html>"
+   join("<br>", @html_panes) || html_no_results($self->{species_display_name}, $gene_id, $category)
   );
 }
 sub response_as_html_panes {
@@ -99,21 +86,23 @@ sub html_header {
 sub html_differential_expression_values_table {
   my ($differential_expression_values) = @_;
   return (
-     "<table>"
-     . "<th>"
-       . "<td>Study</td>"
-       . "<td>Contrast</td>"
-       . "<td>Log<sub>2</sub>-fold change</td>"
-       . "<td>Adjusted p-value</td>"
-     . "</th>"
+       "<table>"
+     . "<thead>"
+     . "<tr>"
+        . "<th>Study</th>"
+        . "<th>Contrast</th>"
+        . "<th>Log<sub>2</sub>-fold change</th>"
+        . "<th>Adjusted p-value</th>"
+     . "</tr>"
+     . "</thead>"
      . "<tbody>"
      . join ("\n", map {
-       "<tr>"
-         . "<td>" . html_study_link($_) . "</td>"
-         . "<td>" . $_->{contrast} . "</td>"
-         . "<td>" . $_->{log2_fold_change} . "</td>"
-         . "<td>" . $_->{adjusted_p_value} . "</td>"
-       . "</tr>"
+      "<tr>"
+        . "<td>" . html_study_link($_) . "</td>"
+        . "<td>" . $_->{contrast} . "</td>"
+        . "<td>" . $_->{log2_fold_change} . "</td>"
+        . "<td>" . $_->{adjusted_p_value} . "</td>"
+      . "</tr>"
      } @{$differential_expression_values})
      . "</tbody>"
      . "</table>"
@@ -122,17 +111,19 @@ sub html_differential_expression_values_table {
 sub html_flat_horizontal_table {
   my ($column_headers, $values) = @_;
   return (
-      "<table>"
-     . "<th>"
-     . join("\n", map {
-        "<td>$_</td>"
-     } @{$column_headers})
-     . "</th>"
+       "<table>"
+     . "<thead>"
+     . "<tr>"
+        . join("\n", map {
+        "<th>$_</th>"
+        } @{$column_headers})
+     . "</tr>"
+     . "</thead>"
      . "<tbody>"
      . "<tr>"
-     . join("\n", map {
-       "<td>$_</td>"
-     } @{$values})
+        . join("\n", map {
+        "<td>$_</td>"
+        } @{$values})
      . "</tr>"
      . "</tbody>"
      . "</table>"
@@ -160,6 +151,7 @@ sub list_of_differential_expression_values_in_studies_and_studies_with_no_result
   my @studies_with_no_results;
 
   for my $study (@{$studies}){
+     $study->{study_url} = study_url($species,$study->{study_id}),
      my @differential_expression_values_for_study;
      while (my ($type, $path) = each %{$study->{de}}) {
         my ($contrasts, $differential_expression_values) = search_in_file($path, $gene_id);
@@ -169,7 +161,7 @@ sub list_of_differential_expression_values_in_studies_and_studies_with_no_result
            next C if $contrast =~ /^\!/; # Low replicates or failed QC
            my ($log2_fold_change, $adjusted_p_value) = split(" ", $differential_expression_values->[$i]);
            push @differential_expression_values_for_study, {
-              study_url => study_url($species,$study->{study_id}),
+              study_url => $study->{study_url},
               study_title => $study->{study_title},
               contrast => $contrasts->[$i],
               log2_fold_change => $log2_fold_change,
@@ -263,4 +255,5 @@ sub search_in_file {
   return unless @hs == @xs;
   return \@hs, \@xs;
 }
+
 1;
