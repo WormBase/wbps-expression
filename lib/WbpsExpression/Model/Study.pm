@@ -6,7 +6,7 @@ use File::Basename;
 use WbpsExpression::Model::Design;
 use YAML qw/DumpFile LoadFile/;
 use Carp qw/confess/;
-use List::Util qw/all max pairmap/;
+use List::Util qw/all min pairmap/;
 use List::MoreUtils qw/duplicates uniq/;
 use open ':encoding(utf8)';
 # use Smart::Comments '###';
@@ -109,7 +109,7 @@ sub passes_checks {
 sub analyses_required {
   my ($self) = @_;
   my $study_id = $self->{study_id};
-  my $max_reps = max map {scalar @{$_}} values %{$self->{design}->runs_by_condition};
+  my $min_reps = min map {scalar @{$_}} values %{$self->{design}->runs_by_condition};
   my $counts_file_name = "$study_id.counts_per_run.tsv";
   my %h = %{$self->{design}{replicates_per_run}};
   my $has_technical_replicates = keys %h > uniq values %h;
@@ -135,7 +135,7 @@ sub analyses_required {
       source => "tpm_htseq2",
       decorate_files => 1,
     }, 
-    ($max_reps >= 3 ? {
+    ($min_reps >= 2 ? {
       type => "average_by_condition",
       file_name => "$study_id.tpm.tsv",
       title => "Gene expression (TPM) per condition as median across ".($has_technical_replicates ? "replicates" : "runs"),
