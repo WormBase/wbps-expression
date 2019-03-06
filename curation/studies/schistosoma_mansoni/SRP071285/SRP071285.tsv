@@ -1,21 +1,21 @@
-Run	Condition	developmental_stage	organism_part	sex
-SRR3223447	adult, female	adult	whole organism	female
-SRR3223448	adult, female	adult	whole organism	female
-SRR3223432	adult, male	adult	whole organism	male
-SRR3223433	adult, male	adult	whole organism	male
-SRR3223434	cercariae, female	cercariae	whole organism	female
-SRR3223435	cercariae, female	cercariae	whole organism	female
-SRR3211868	cercariae, male	cercariae	whole organism	male
-SRR3216389	cercariae, male	cercariae	whole organism	male
-SRR3223436	schistosomule stage 1, female	schistosomule stage 1	whole organism	female
-SRR3223439	schistosomule stage 1, female	schistosomule stage 1	whole organism	female
-SRR3223426	schistosomule stage 1, male	schistosomule stage 1	whole organism	male
-SRR3223427	schistosomule stage 1, male	schistosomule stage 1	whole organism	male
-SRR3223443	schistosomule stage 2, female	schistosomule stage 2	whole organism	female
-SRR3223444	schistosomule stage 2, female	schistosomule stage 2	whole organism	female
-SRR3223428	schistosomule stage 2, male	schistosomule stage 2	whole organism	male
-SRR3223429	schistosomule stage 2, male	schistosomule stage 2	whole organism	male
-SRR3223445	schistosomule stage 3, female	schistosomule stage 3	whole organism	female
-SRR3223446	schistosomule stage 3, female	schistosomule stage 3	whole organism	female
-SRR3223430	schistosomule stage 3, male	schistosomule stage 3	whole organism	male
-SRR3223431	schistosomule stage 3, male	schistosomule stage 3	whole organism	male
+Run	Condition	developmental_stage	host_infection	organism_part	sex
+SRR3223434	cercariae, female	cercariae	single sex	whole organism	female
+SRR3223435	cercariae, female	cercariae	single sex	whole organism	female
+SRR3211868	cercariae, male	cercariae	single sex	whole organism	male
+SRR3216389	cercariae, male	cercariae	single sex	whole organism	male
+SRR3223447	immature adult, female	immature adult	single sex	whole organism	female
+SRR3223448	immature adult, female	immature adult	single sex	whole organism	female
+SRR3223432	immature adult, male	immature adult	single sex	whole organism	male
+SRR3223433	immature adult, male	immature adult	single sex	whole organism	male
+SRR3223436	schistosomule stage 1, female	schistosomule stage 1	single sex	whole organism	female
+SRR3223439	schistosomule stage 1, female	schistosomule stage 1	single sex	whole organism	female
+SRR3223426	schistosomule stage 1, male	schistosomule stage 1	single sex	whole organism	male
+SRR3223427	schistosomule stage 1, male	schistosomule stage 1	single sex	whole organism	male
+SRR3223443	schistosomule stage 2, female	schistosomule stage 2	single sex	whole organism	female
+SRR3223444	schistosomule stage 2, female	schistosomule stage 2	single sex	whole organism	female
+SRR3223428	schistosomule stage 2, male	schistosomule stage 2	single sex	whole organism	male
+SRR3223429	schistosomule stage 2, male	schistosomule stage 2	single sex	whole organism	male
+SRR3223445	schistosomule stage 3, female	schistosomule stage 3	single sex	whole organism	female
+SRR3223446	schistosomule stage 3, female	schistosomule stage 3	single sex	whole organism	female
+SRR3223430	schistosomule stage 3, male	schistosomule stage 3	single sex	whole organism	male
+SRR3223431	schistosomule stage 3, male	schistosomule stage 3	single sex	whole organism	male
