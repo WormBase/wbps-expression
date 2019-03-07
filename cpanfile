@@ -11,6 +11,9 @@ requires 'XML::Simple';
 requires 'YAML';
 requires 'HTML::Template';
 requires 'Statistics::R';
+requires 'Log::Any';
+requires 'Log::Any::Adapter::Log4perl';
+requires 'Log::Log4perl';
 
 test_requires 'File::Temp';
 test_requires 'Test::MockModule';

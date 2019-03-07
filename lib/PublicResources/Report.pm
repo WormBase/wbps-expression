@@ -8,6 +8,7 @@ use PublicResources::Rnaseq;
 use File::Path qw(make_path);
 use File::Slurp qw(write_file);
 use File::Basename qw(dirname);
+use Log::Any '$log', default_adapter => 'Stderr';
 
 sub new {
     my ( $class, %args ) = @_;
@@ -22,7 +23,7 @@ sub new {
 sub path {
     my ( $self, @args ) = @_;
     my $result = join "/", $self->{dir}, @args;
-    print "$result\n" if $ENV{TSV_VERBOSE};
+    $log->info(__PACKAGE__." path $result");
     return $result;
 }
 

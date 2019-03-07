@@ -5,17 +5,22 @@ package WbpsExpression::Analysis::DESeq2;
 use Statistics::R; 
 use WbpsExpression::Analysis::Common;
 use List::MoreUtils qw/zip zip_unflatten/;
+use Log::Any '$log';
 #use Smart::Comments '###';
 
 sub R_dds_for_design_path_and_counts_path {
   my ($R, $design_path, $counts_path) = @_;
   $R->set('colPath', $design_path);
+  $log->info("Reading design $design_path");
   $R->run(q`colData = read.csv(colPath, header=TRUE, sep="\t", row.names=1)`);
   $R->set('countsPath', $counts_path);
+  $log->info("Reading counts $counts_path");
   $R->run(q`countData = read.csv(countsPath, header=TRUE, sep="\t", row.names=1)`);
+  $log->info("DESeqDataSetFromMatrix");
   $R->run(q`dataSet = DESeqDataSetFromMatrix(countData = countData, colData = colData, design = ~ Condition)`);
 # If there are no samples, do not collapse the replicates
   $R->run(q`if (exists("dataSet.Sample")) { collapseReplicates(dataSet, dataSet.Sample) }`);
+  $log->info("DESeq");
   $R->run(q`dds = DESeq(dataSet)`);
 }
 
@@ -75,7 +80,7 @@ sub values_for_contrast {
 
   GET_R_SESSION:
   die "values_for_contrast $current_dds $reference $test: R doesn't seem to work today" if $attempts_to_get_r_for_this_contrast++ > 3;
-  print STDERR __PACKAGE__.": starting new R session with DESeq2 \n" if $ENV{ANALYSIS_VERBOSE};
+  $log->info("starting new R session with DESeq2");
   $R_GLOBAL = Statistics::R->new();
   $R_GLOBAL->run(q`suppressPackageStartupMessages(library(DESeq2))`);
   $r_version //= $R_GLOBAL->get('getRversion()');
@@ -85,12 +90,14 @@ sub values_for_contrast {
   unless (R_has_objects($R_GLOBAL, "DESeqDataSetFromMatrix", "collapseReplicates", "DESeq")){
      goto GET_R_SESSION;
   }
+  $log->info("R_dds_for_design_path_and_counts_path");
   R_dds_for_design_path_and_counts_path($R_GLOBAL, $design_path, $counts_path);
 
   SET_RESULTS:
   unless (R_has_objects($R_GLOBAL, "results", "dds")){
      goto GET_R_SESSION;
   }
+  $log->info("R_results_for_reference_and_test $reference $test");
   R_results_for_reference_and_test($R_GLOBAL, $reference, $test);
 
   GET_VALUES:
@@ -101,7 +108,7 @@ sub values_for_contrast {
 }
 sub do_analysis {
   my ($design_path, $counts_path, $contrasts, $out_path, @frontmatter) = @_;
-  print STDERR "do_analysis $counts_path\n" if $ENV{ANALYSIS_VERBOSE};
+  $log->info("DESeq2::do_analysis $out_path");
   my @name_to_data_pairs;
   my @analysis_warnings;
   for my $contrast (@{$contrasts}){

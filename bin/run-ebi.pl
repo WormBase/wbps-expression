@@ -12,9 +12,11 @@ use lib "$FindBin::Bin/../local/lib/perl5";
 # Statistics::R depends on $PATH to find the R binary
 $ENV{PATH} = "$FindBin::Bin/../local/R-3.5.1/bin:$ENV{PATH}";
 
-# Turn on logs
-$ENV{ANALYSIS_VERBOSE} //= 1;
-$ENV{LOCALLY_CACHED_RESOURCE_VERBOSE} //= 1;
+use Log::Any::Adapter;
+use Log::Log4perl qw(:easy);
+Log::Log4perl->easy_init($DEBUG);
+
+Log::Any::Adapter->set('Log4perl');
 
 use ProductionMysql;
 my @core_dbs = ProductionMysql->staging->core_databases(@ARGV);

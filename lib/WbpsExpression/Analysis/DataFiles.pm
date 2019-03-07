@@ -4,12 +4,13 @@ package WbpsExpression::Analysis::DataFiles;
 use File::Slurp qw/read_dir/;
 use WbpsExpression::Analysis::Common;
 use LWP;
+use Log::Any '$log';
 # use Smart::Comments '###';
 my $CAN_SEE_EBI_FILESYSTEM = -d "/nfs/ftp";
 
 sub open_read_fh {
   my ($path) = @_;
-  print STDERR "open_read_fh $path\n" if $ENV{ANALYSIS_VERBOSE};
+  $log->info("open_read_fh $path");
   my $fh;
   if (not ref $path and $path =~ m{ftp://ftp.ebi.ac.uk}) {
     if( $CAN_SEE_EBI_FILESYSTEM ) {

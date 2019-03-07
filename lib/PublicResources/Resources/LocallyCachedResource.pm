@@ -8,6 +8,7 @@ use JSON;
 use XML::Simple;
 use Text::CSV qw(csv);
 use File::Slurp qw(read_file read_dir);
+use Log::Any '$log', default_adapter => 'Stderr';
 
 my $CAN_SEE_EBI_FILESYSTEM = -d "/nfs/ftp";
 
@@ -33,14 +34,14 @@ sub get_text {
      (my $local = $url) =~ s{ftp://ftp.ebi.ac.uk}{/nfs/ftp};
      if( -d $local){
         #Not exactly the same: EBI's ftp server replies with ls -l output
-        print STDERR "read_dir $local\n" if $ENV{LOCALLY_CACHED_RESOURCE_VERBOSE};
+        $log->info(__PACKAGE__." get_text: read_dir $local");
         return join "\n", read_dir $local;
      }elsif(-f $local){
-        print STDERR "read_file $local\n" if $ENV{LOCALLY_CACHED_RESOURCE_VERBOSE};
+        $log->info(__PACKAGE__." get_text: read_file $local");
         return read_file $local;
      }
   }
-  print STDERR "Retrieving: $url\n" if $ENV{LOCALLY_CACHED_RESOURCE_VERBOSE};
+  $log->info(__PACKAGE__." get_text LWP::get $url");
   my $response = LWP::UserAgent->new->get($url);
   if($response->is_success){
     return $response->decoded_content;

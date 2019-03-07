@@ -8,6 +8,7 @@ use WbpsExpression::Analysis::DESeq2;
 use WbpsExpression::Model::Design;
 use List::Util qw/pairmap pairs pairgrep uniq/;
 use File::Path qw/make_path/;
+use Log::Any '$log';
 # use Smart::Comments '###';
 
 sub low_qc_by_condition {
@@ -154,8 +155,8 @@ sub run {
 sub run_all {
   my ($studies, $data_files, $output_dir) = @_;
   make_path $output_dir;
+  $log->info(sprintf(__PACKAGE__ . " run_all %s studies, output_dir %s", scalar @{$studies}, $output_dir));
   for my $study (@{$studies}){
-     print STDERR sprintf("Running: %s\n", $study->{study_id}) if $ENV{ANALYSIS_VERBOSE};
     run($output_dir, $study, $data_files->{$study->{study_id}}) unless $ENV{ANALYSIS_SKIP_ALL};
   }
 }

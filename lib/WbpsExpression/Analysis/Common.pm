@@ -1,10 +1,11 @@
 use strict;
 use warnings;
 package WbpsExpression::Analysis::Common;
+use Log::Any '$log';
 
 sub write_named_hashes {
   my ($name_to_data_pairs, $out_path, @frontmatter) = @_;
-  print STDERR sprintf("write_named_hashes %s -> %s\n", scalar @{$name_to_data_pairs}, $out_path) if $ENV{ANALYSIS_VERBOSE};
+  $log->info(sprintf("write_named_hashes %s -> %s\n", scalar @{$name_to_data_pairs}, $out_path));
   my %row_labels;
   for my $p (@{$name_to_data_pairs}){
     for my $label(keys %{$p->[1]}){
