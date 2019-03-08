@@ -78,6 +78,11 @@ sub values_for_contrast {
   }
   $current_dds = "$design_path.$counts_path";
 
+  TRY_REUSE_R:
+  if($R_GLOBAL && $R_GLOBAL->is_started){
+    goto LOAD_DDS;
+  }
+
   GET_R_SESSION:
   die "values_for_contrast $current_dds $reference $test: R doesn't seem to work today" if $attempts_to_get_r_for_this_contrast++ > 3;
   $log->info("starting new R session with DESeq2");
