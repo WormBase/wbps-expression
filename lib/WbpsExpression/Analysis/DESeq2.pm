@@ -84,12 +84,22 @@ sub values_for_contrast {
   }
 
   GET_R_SESSION:
-  die "values_for_contrast $current_dds $reference $test: R doesn't seem to work today" if $attempts_to_get_r_for_this_contrast++ > 3;
-  $log->info("starting new R session with DESeq2");
-  $R_GLOBAL = Statistics::R->new();
-  $R_GLOBAL->run(q`suppressPackageStartupMessages(library(DESeq2))`);
-  $r_version //= $R_GLOBAL->get('getRversion()');
-  $deseq_version //= $R_GLOBAL->get('packageVersion("DESeq2")');
+  die "values_for_contrast $reference $test: R doesn't seem to work today" if $attempts_to_get_r_for_this_contrast++ > 3;
+  $log->info("starting a new R session with a DESeq2 package");
+  eval {
+    local $SIG{ALRM} = sub { die "GET_R_SESSION alarm\n" };
+    alarm 180;
+    $R_GLOBAL = Statistics::R->new();
+    $R_GLOBAL->run(q`suppressPackageStartupMessages(library(DESeq2))`);
+    $r_version //= $R_GLOBAL->get('getRversion()');
+    $deseq_version //= $R_GLOBAL->get('packageVersion("DESeq2")');
+    alarm 0;
+  };
+  if($@){
+    die $@ unless $@ eq "GET_R_SESSION alarm\n"; 
+    $R_GLOBAL->stop if $R_GLOBAL;
+    goto GET_R_SESSION;
+  }
 
   LOAD_DDS:
   unless (R_has_objects($R_GLOBAL, "DESeqDataSetFromMatrix", "collapseReplicates", "DESeq")){
