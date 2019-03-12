@@ -141,7 +141,6 @@ sub analyses_required {
       title => "Gene expression (TPM) per condition as median across ".($has_technical_replicates ? "replicates" : "runs"),
       description => sprintf ("Gene expression in TPM - %s per condition for study $study_id", $has_technical_replicates ? "technical, then biological replicates" : "runs"),
       source => "tpm_htseq2",
-      decorate_files => 1,
     } :()),
    (map {{
       type => "differential_expression",

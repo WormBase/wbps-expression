@@ -3,42 +3,14 @@ use warnings;
 package WbpsExpression::Analysis;
 use File::Slurp qw/read_dir write_file/;
 use File::Basename;
+use WbpsExpression::Analysis::QualityWarnings;
 use WbpsExpression::Analysis::DataFiles;
 use WbpsExpression::Analysis::DESeq2;
 use WbpsExpression::Model::Design;
-use List::Util qw/pairmap pairs pairgrep uniq/;
+use List::Util qw/pairgrep/;
 use File::Path qw/make_path/;
 use Log::Any '$log';
 # use Smart::Comments '###';
-
-sub low_qc_by_condition {
-   my ($runs_by_condition, $qc_issues_per_run) = @_;
-   my %result = ();
-   my %d = %{$runs_by_condition};
-    for my $c (keys %d){
-      my @runs = @{$d{$c}};
-      my %qcs;
-      for my $run_id (@runs){
-         for my $qc (@{$qc_issues_per_run->{$run_id}}){
-            push @{$qcs{$qc}}, $run_id;
-         }
-      }
-      for my $qc (keys %qcs){
-         push @{$result{$c}}, sprintf("%s: %s %s", $qc, (@{$qcs{$qc}} > 1 ? "runs" : "run"), join(", ", @{$qcs{$qc}}));
-      }
-   }
-   return \%result;
-}
-sub low_replicate_by_condition {
-  my ($runs_by_condition) = @_;
-  my %result = ();
-  my %d = %{$runs_by_condition};
-  for my $c (keys %d){
-    my $number_runs = @{$d{$c}};
-    $result{$c} = $number_runs if $number_runs < 3;
-  }
-  return \%result;
-}
 
 my %ANALYSES = (  
   study_design => sub {
@@ -63,73 +35,41 @@ my %ANALYSES = (
   },
   average_by_condition => sub {
     my($study, $files, $output_path, %analysis_args) = @_; 
-    my $runs_by_condition = $study->{design}->runs_by_condition;
-    my $runs_by_condition_then_replicate = $study->{design}->runs_by_condition_then_replicate;
-    my @conditions_ordered = $study->{design}->all_conditions; 
-    my %qc_issues_per_run = map {$_ => $files->{$_}{qc_issues}} map {@{$_}} map {values %{$_}} values %{$runs_by_condition_then_replicate};
-    my $low_qc_by_condition = low_qc_by_condition($runs_by_condition, \%qc_issues_per_run);
-    my $low_replicate_by_condition = low_replicate_by_condition($runs_by_condition);
-### $low_qc_by_condition
-### $low_replicate_by_condition
-    my @qc_warnings = map {
-      my @low_qc = sort map {ucfirst $_} @{$low_qc_by_condition->{$_} // []};
-      my $low_rep = $low_replicate_by_condition->{$_} ? sprintf ("Low replicates (%s)", $low_replicate_by_condition->{$_}) : "";
-      @low_qc || $low_rep ? "!$_: ".join(". ", @low_qc, $low_rep || ()) : ()
-    } @conditions_ordered; 
-    my @frontmatter = $analysis_args{decorate_files} ? ($analysis_args{description}, @qc_warnings) : ();
-### @frontmatter
-    my @name_to_pathlist_pairs= map {
-       my $name = $_;
-       
-       if($analysis_args{decorate_files} && ($low_qc_by_condition->{$_} || $low_replicate_by_condition->{$_})){
-          $name = "!$name";
-       }
-       
-       my @paths = map {[map {$files->{$_}{$analysis_args{source}}} @{$_}]} values %{$runs_by_condition_then_replicate->{$_}};
-       [$name, \@paths]
+    my @conditions_ordered = $study->{design}->all_conditions;
+    my %qc_issues_by_run = map {$_ => $files->{$_}{qc_issues}} $study->{design}->all_runs;
+    my ($conditions_amended_names, $warnings) = WbpsExpression::Analysis::QualityWarnings::conditions_amended_names_and_warnings_for_per_condition_analysis(
+      $study->{design},
+      \%qc_issues_by_run,
+      \@conditions_ordered,
+    );
+
+    my @frontmatter = ($analysis_args{description}, @{$warnings});
+    my @name_to_pathlist_pairs = map {
+       my $condition = $_;
+       my $runs_by_replicate = $study->{design}->runs_by_condition_then_replicate->{$condition};
+       my @paths = map {[map {$files->{$_}{$analysis_args{source}}} @{$_}]} values %{$runs_by_replicate};
+       [$conditions_amended_names->{$condition}, \@paths]
     } @conditions_ordered;
-### @name_to_pathlist_pairs 
+
     WbpsExpression::Analysis::DataFiles::average_and_aggregate(\@name_to_pathlist_pairs, $output_path, @frontmatter);
   },
   differential_expression => sub {
     my($study, $files, $output_path, %analysis_args) = @_;
-### %analysis_args
-    my %runs_by_condition_all = %{$study->{design}->runs_by_condition};
-    my @conditions_ordered = uniq map {($_->[0], $_->[1])} @{$analysis_args{contrasts}};
-    my %runs_by_condition;
-    @runs_by_condition{@conditions_ordered} = @runs_by_condition_all{@conditions_ordered};
-    my %qc_issues_per_run = map {$_ => $files->{$_}{qc_issues}} map {@{$_}} values %runs_by_condition;
-    my $low_qc_by_condition = low_qc_by_condition(\%runs_by_condition, \%qc_issues_per_run);
-    my $low_replicate_by_condition = low_replicate_by_condition(\%runs_by_condition);
-    my @qc_warnings;
-    my @contrasts_amended_names;
-    my $contrasts_low_replicates;
-    for (@{$analysis_args{contrasts}}){
-       my ($reference, $test, $name) = @{$_};
-       my @qcs  = ((map {"$reference - $_"} @{$low_qc_by_condition->{$reference} //[]}),( map {"$test - $_"} @{$low_qc_by_condition->{$test} //[]}));
-       my $low_replicates = $low_replicate_by_condition->{$reference} || $low_replicate_by_condition->{$test};
-       push @qc_warnings, "!$name: ".join(". ", sort map {ucfirst $_} @qcs) if @qcs;
-       $contrasts_low_replicates++ if $low_replicates;
-       $name = "!$name" if @qcs || $low_replicates;
-       push @contrasts_amended_names, [$reference, $test, $name ];
-    }  
-    # We don't allow contrasts with 1 replicate. So if low, then 2.
-    if(keys %{$low_replicate_by_condition} == @conditions_ordered){
-       push @qc_warnings, "! Contrasts based on conditions with low (2) replicates";
-    } elsif (%{$low_replicate_by_condition}){
-       push @qc_warnings, sprintf("! Conditions with low (2) replicates used in %s/%s contrasts:",  $contrasts_low_replicates, scalar @contrasts_amended_names)
-         if $contrasts_low_replicates; 
-       push @qc_warnings, "! - $_" for keys %{$low_replicate_by_condition} ;
-    }
-
+    my %qc_issues_by_run = map {$_ => $files->{$_}{qc_issues}} $study->{design}->all_runs;
+    my ($contrasts_amended_names, $warnings) = WbpsExpression::Analysis::QualityWarnings::amended_contrasts_and_warnings_for_per_contrast_analysis(
+      $study->{design},
+      \%qc_issues_by_run,
+      $analysis_args{contrasts},
+    );
+    my @frontmatter = ($analysis_args{description}, @{$warnings});
     my $source_file = join("/", dirname ($output_path), $analysis_args{source_file_name});
     die "Does not exist: $source_file" unless -f $source_file;
     my $design_dump_file = join("/", dirname($output_path), $study->{study_id}.".design.tsv.tmp");
     $study->{design}->to_tsv($design_dump_file);
-    my @frontmatter = ($analysis_args{description}, @qc_warnings);
+
     eval {
       WbpsExpression::Analysis::DESeq2::do_analysis(
-        $design_dump_file, $source_file, \@contrasts_amended_names, $output_path, @frontmatter
+        $design_dump_file, $source_file, $contrasts_amended_names, $output_path, @frontmatter,
       );
     };
     unlink $design_dump_file;
