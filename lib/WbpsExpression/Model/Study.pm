@@ -141,7 +141,7 @@ sub analyses_required {
       title => "Gene expression (TPM) per condition as median across ".($has_technical_replicates ? "replicates" : "runs"),
       description => join("\n",
         $self->study_frontmatter,
-        "Values are transcripts per million units (TPMs) per gene, averaged across ". ($has_technical_replicates ? "technical, then biological replicates" : "runs"),
+        "Values are transcripts per million units (TPMs) per gene, median across ". ($has_technical_replicates ? "technical, then biological replicates" : "runs"),
       ),
       source => "tpm_htseq2",
     } :()),
