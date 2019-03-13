@@ -6,6 +6,7 @@ use WbpsExpression::Analysis;
 use WbpsExpression::StudiesPage;
 use File::Slurp qw/write_file/;
 use File::Path qw/make_path/;
+use Log::Any '$log';
 # use Smart::Comments '###';
 sub new {
   my ($class, $root_dir, $src_dir) = @_;
@@ -34,8 +35,17 @@ sub run {
   #### $other_studies
   #### $data_files
   return unless @$selected_studies or @$other_studies;
-  
-  WbpsExpression::Analysis::run_all([ grep {$_->passes_checks} @$selected_studies], $data_files, $output_dir);
+
+  my @selected_studies_passing_checks;
+  for my $study (@$selected_studies){
+    if ($study->passes_checks){
+      push @selected_studies_passing_checks, $study;
+    } else {
+      $log->info(sprintf(__PACKAGE__ . " Study %s failing checks - see %s",$study->{study_id}, $self->{sheets}->path("studies", $study->{study_id})));
+    }
+  }
+ 
+  WbpsExpression::Analysis::run_all(\@selected_studies_passing_checks, $data_files, $output_dir);
 
   create_listing_and_webpage($species, $selected_studies, $other_studies, $output_dir);
 }
