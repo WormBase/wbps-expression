@@ -25,6 +25,7 @@ our %exceptions = (
   "ERP006987" => "C. sinensis: four runs, but the tpms could be meaningful",
   "SRP013211" => "O. viverrini: two runs, juvenile vs adult, from 2012",
   "DRP003063" => "Emu study, four runs",
+  "SRP131874" => "E. granulosus, four runs but a second study for the species",
 );
 
 sub should_reject_study {

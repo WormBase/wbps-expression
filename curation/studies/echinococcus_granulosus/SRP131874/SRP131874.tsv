@@ -1,0 +1,5 @@
+Run	Condition	developmental_stage	geographic_location	host	host_organism_part	treatment
+SRR6657769	Protoscoleces	metacestode, protoscoleces	Brazil: Rio Grande do Sul	Bos taurus	liver	
+SRR6657767	Protoscoleces, pepsin + biphasic medium, 12h	metacestode, protoscoleces	Brazil: Rio Grande do Sul	Bos taurus	liver	pepsin + biphasic medium, 12h
+SRR6657766	Protoscoleces, pepsin + biphasic medium, 24h	metacestode, protoscoleces	Brazil: Rio Grande do Sul	Bos taurus	liver	pepsin + biphasic medium, 24h
+SRR6657768	Protoscoleces, pepsin, 12h	metacestode, protoscoleces	Brazil: Rio Grande do Sul	Bos taurus	liver	pepsin, 12h
