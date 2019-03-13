@@ -14,9 +14,11 @@ sub write_named_hashes {
   }
   open(my $fh, ">", $out_path) or die "$out_path: $!";
   print $fh "# $_\n" for @frontmatter;
-  print $fh join ("\t", "", map {$_->[0]} @{$name_to_data_pairs})."\n";
-  for my $row (sort keys %row_labels){
-     print $fh join ("\t",$row, map {$_->[1]->{$row} // ""} @{$name_to_data_pairs})."\n";
+  if(@{$name_to_data_pairs}){
+    print $fh join ("\t", "gene_id", map {$_->[0]} @{$name_to_data_pairs})."\n";
+    for my $row (sort keys %row_labels){
+       print $fh join ("\t",$row, map {$_->[1]->{$row} // ""} @{$name_to_data_pairs})."\n";
+    }
   }
   close $fh;
 }

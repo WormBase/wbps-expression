@@ -338,7 +338,7 @@ sub search_in_file {
   return unless $l;
   my ($id, @xs) = split "\t", $l;
   return unless $id eq $gene_id and @xs;
-  my $h = `grep --max-count=1 "^\t" $path`;
+  my $h = `grep --max-count=1 "^gene_id\t" $path`;
 #### $h
   chomp $h;
   return unless $h;
