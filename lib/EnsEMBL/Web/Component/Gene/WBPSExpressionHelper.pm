@@ -342,10 +342,10 @@ sub search_in_file {
 #### $h
   chomp $h;
   return unless $h;
-  my ($blank, @hs) = split "\t", $h;
+  my ($header, @hs) = split "\t", $h;
 #### hs: scalar @hs
 #### xs:  scalar @xs
-  return unless not($blank) and @hs;
+  return unless $header eq "gene_id" and @hs;
   return unless @hs == @xs;
   return \@hs, \@xs;
 }

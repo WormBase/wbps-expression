@@ -9,7 +9,7 @@ use File::Path qw/make_path/;
 my $dir = tempdir(CLEANUP => 1);
 my $file = <<EOF;
 #temp file
-	heads	tails
+gene_id	heads	tails
 g1	1.1	1.2
 EOF
 my $study_id = "SRP071241";
@@ -25,7 +25,7 @@ write_file($file_path, $file);
 
 my $second_file = <<EOF;
 # DESeq2 version: ‘1.22.1’
-	5-AzaC vs untreated
+gene_id	5-AzaC vs untreated
 g2	1.1 0.04
 EOF
 
@@ -38,7 +38,7 @@ make_path(join("/", $dir, $second_study_id));
 write_file($second_file_path, $second_file);
 
 my $third_file = <<EOF;
-	SRR5664530	SRR5664533	SRR5664534	SRR5664531	SRR5664532	SRR5664529	SRR5664535
+gene_id	SRR5664530	SRR5664533	SRR5664534	SRR5664531	SRR5664532	SRR5664529	SRR5664535
 g3	0.8	1.3	3.54	35.85	41.03	41.95	48.82
 EOF
 
@@ -53,7 +53,7 @@ write_file($third_file_path, $third_file);
 
 my $fourth_file = <<EOF;
 # Gene expression in TPM - technical, then biological replicates per condition for study ERP014584
-	18 days post infection, single sex, female	18 days post infection, single sex, male	21 days post infection, mixed sex, female	21 days post infection, mixed sex, male	21 days post infection, single sex, female	21 days post infection, single sex, male	28 days post infection, mixed sex, female	28 days post infection, mixed sex, male	28 days post infection, single sex, female	28 days post infection, single sex, male	35 days post infection, mixed sex, female	35 days post infection, mixed sex, male	35 days post infection, single sex, female	35 days post infection, single sex, male	38 days post infection, mixed sex, female	38 days post infection, mixed sex, male	38 days post infection, single sex, female	38 days post infection, single sex, male
+gene_id	18 days post infection, single sex, female	18 days post infection, single sex, male	21 days post infection, mixed sex, female	21 days post infection, mixed sex, male	21 days post infection, single sex, female	21 days post infection, single sex, male	28 days post infection, mixed sex, female	28 days post infection, mixed sex, male	28 days post infection, single sex, female	28 days post infection, single sex, male	35 days post infection, mixed sex, female	35 days post infection, mixed sex, male	35 days post infection, single sex, female	35 days post infection, single sex, male	38 days post infection, mixed sex, female	38 days post infection, mixed sex, male	38 days post infection, single sex, female	38 days post infection, single sex, male
 g4	57.5	76.6	88.2	92.8	91.6	79.0	71.1	74.1	75.4	67.9	44.0	55.7	56.1	49.3	24.7	61.9	56.6	49.2
 EOF
 

@@ -35,6 +35,9 @@ subtest "run" => sub {
     study_id => "study_id",
     study_description_short => "study_description_short",
     study_description_full => "study_description_full",
+    attributes => {
+      submitting_centre => "submitting_centre",
+    },
     runs => [{
       run_id => "run_id",
       sample_id => "sample_id",
