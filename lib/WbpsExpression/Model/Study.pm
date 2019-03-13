@@ -6,7 +6,7 @@ use File::Basename;
 use WbpsExpression::Model::Design;
 use YAML qw/DumpFile LoadFile/;
 use Carp qw/confess/;
-use List::Util qw/all min pairmap/;
+use List::Util qw/all min pairmap pairs/;
 use List::MoreUtils qw/duplicates uniq/;
 use open ':encoding(utf8)';
 # use Smart::Comments '###';
@@ -90,22 +90,20 @@ sub passes_checks {
   my ($self) = @_;
   return $self->{design}->passes_checks && $self->config_matches_design;
 }
-
-# Currently not part of the config but wondrously inferred
-# Logic: 
-# - Everything should have counts per run
-# - Everything should have TPM per run
-# - Everything with three replicates somewhere should have a TPM per condition
-#   + maybe with a "qc warning" 
-#     #low replicates: egg(1), L3(2)
-#     #low mean mapping quality: egg(56%)
-#     !eggs, !L3 in the header
-# - Every factor corresponds to a DE results file
-
-# This needs to provide enough arguments to determine
-# - which analysis to run (analysis code will have access to both the study and the data files)
-# - how to display analysis results
-# - how to link to the data files
+sub study_frontmatter {
+  my ($self) = @_;
+  my @pubmed_lines = map {sprintf ("%s: https://www.ncbi.nlm.nih.gov/pubmed/%s", $_->[1][0], $_->[0]) } pairs %{$self->{config}{pubmed} // {}};
+  return join ("\n",
+    "",
+    sprintf("Study %s: %s", $self->{study_id}, $self->{config}{title}),
+    (@pubmed_lines
+      ? "See ". join(", ", @pubmed_lines)
+      : sprintf("Submitted to archives by %s", $self->{config}{submitting_centre})
+    ),
+    "Alignment and quantification done by RNASeq-er: https://www.ebi.ac.uk/fg/rnaseq/api",
+    "",
+  );
+}
 sub analyses_required {
   my ($self) = @_;
   my $study_id = $self->{study_id};
@@ -123,7 +121,6 @@ sub analyses_required {
       type => "aggregate_by_run",
       file_name => $counts_file_name,
       title => "Raw data (counts of aligned reads) per run",
-      description => "Raw data (counts of aligned reads) for study $study_id",
       source => "counts_htseq2",
       decorate_files => 0,
     },
@@ -131,7 +128,10 @@ sub analyses_required {
       type => "aggregate_by_run",
       file_name => "$study_id.tpm_per_run.tsv",
       title => "Gene expression (TPM) per run",
-      description => "Gene expression in TPM for each run in study $study_id",
+      description => join("\n",
+        $self->study_frontmatter,
+        "Values are transcripts per million units (TPMs) per gene for each run",
+      ),
       source => "tpm_htseq2",
       decorate_files => 1,
     }, 
@@ -139,14 +139,22 @@ sub analyses_required {
       type => "average_by_condition",
       file_name => "$study_id.tpm.tsv",
       title => "Gene expression (TPM) per condition as median across ".($has_technical_replicates ? "replicates" : "runs"),
-      description => sprintf ("Gene expression in TPM - %s per condition for study $study_id", $has_technical_replicates ? "technical, then biological replicates" : "runs"),
+      description => join("\n",
+        $self->study_frontmatter,
+        "Values are transcripts per million units (TPMs) per gene, averaged across ". ($has_technical_replicates ? "technical, then biological replicates" : "runs"),
+      ),
       source => "tpm_htseq2",
     } :()),
    (map {{
       type => "differential_expression",
       file_name => sprintf("$study_id.de%s%s.tsv" , $_->{name} ? ".": "" , $_->{name}),
       title => sprintf("Differential expression%s%s" , $_->{name} ? ": ": "", $_->{name} =~ tr/_/ /r),
-      description => sprintf("Differential expression analysis for study $study_id%s. Values are base 2 log of maximum likelihood estimate of fold change and adjusted p-value by Wald test, given to 2 s.f., where adj_pval < 0.05 and abs(log2fc) > 0.5", ($_->{name} ? ", comparing across ".$_->{name} =~ tr/_/ /r : "")),
+      description => join("\n",
+        $self->study_frontmatter,
+        "Differential expression analysis, comparing pairs of conditions differing by " . $_->{name} =~ tr/_/ /r,
+        "Values are base 2 logarithm of maximum likelihood estimate of fold change and adjusted p-value by Wald test per gene for each contrast",
+        "Values rounded to 2.s.f., filtered past a significance threshold of adj_pval < 0.05 and abs(log2fc) > 0.5",
+      ),
       source_file_name => $counts_file_name,
       contrasts => $_->{values}, 
    }} @{$self->{config}{contrasts}}),

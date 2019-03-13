@@ -18,9 +18,9 @@ sub conditions_amended_names_and_warnings_for_per_condition_analysis {
         my $low_reps = $low_replicate_by_condition->{$condition};
         my $warning =
           join( ". ", @low_qcs, $low_reps ? "Low replicates ($low_reps)" : () );
-        push @warnings, $warning if $warning;
+        push @warnings, "!$condition: $warning" if $warning;
         $conditions_amended_names{$condition} =
-          ( @low_qcs || $low_reps ) ? "!$condition" : $condition;
+          ( @low_qcs || $low_reps ) ? "!$condition: " : $condition;
     }
     return \%conditions_amended_names, \@warnings;
 }
@@ -60,9 +60,9 @@ sub amended_contrasts_and_warnings_for_per_contrast_analysis {
     if ($contrasts_low_replicates) {
         push @warnings,
           $contrasts_low_replicates == @{$contrasts}
-          ? "All contrasts based on conditions with low (2) replicates"
+          ? "!Data quality warning: all contrasts based on conditions with low (2) replicates"
           : sprintf(
-            "%s/%s contrasts based on conditions with low (2) replicates (marked with !)",
+            "!Data quality warning: %s out of %s contrasts (marked with !) based on conditions with low (2) replicates",
             $contrasts_low_replicates, scalar @{$contrasts} );
     }
     return \@amended_contrasts, \@warnings;

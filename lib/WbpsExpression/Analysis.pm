@@ -19,15 +19,16 @@ my %ANALYSES = (
   },
   aggregate_by_run => sub { 
     my($study, $files, $output_path, %analysis_args) = @_; 
+    my $do_decorate_files = $analysis_args{description} ? 1 : 0;
     my @runs = $study->{design}->all_runs;
     my %qc_issues_per_run = pairgrep {$b} map {$_ => $files->{$_}{qc_issues}} @runs;
     my @qc_warnings = map {
        my $qcs = $qc_issues_per_run{$_};
        $qcs ? "!$_: ".join(". ", sort map {ucfirst $_} @{$qcs}) : ()
      } @runs;
-    my @frontmatter = $analysis_args{decorate_files} ? ($analysis_args{description}, @qc_warnings) : ();
+    my @frontmatter = $do_decorate_files ? (split("\n", $analysis_args{description}), @qc_warnings) : ();
     my @name_to_path_pairs = map {
-      my $name = $analysis_args{decorate_files} && $qc_issues_per_run{$_} ? "!$_" : $_;
+      my $name = $do_decorate_files && $qc_issues_per_run{$_} ? "!$_" : $_;
       my $path = $files->{$_}{$analysis_args{source}};
       [$name, $path]
     } @runs;
@@ -43,7 +44,7 @@ my %ANALYSES = (
       \@conditions_ordered,
     );
 
-    my @frontmatter = ($analysis_args{description}, @{$warnings});
+    my @frontmatter = (split("\n", $analysis_args{description}), @{$warnings});
     my @name_to_pathlist_pairs = map {
        my $condition = $_;
        my $runs_by_replicate = $study->{design}->runs_by_condition_then_replicate->{$condition};
@@ -61,7 +62,7 @@ my %ANALYSES = (
       \%qc_issues_by_run,
       $analysis_args{contrasts},
     );
-    my @frontmatter = ($analysis_args{description}, @{$warnings});
+    my @frontmatter = (split("\n", $analysis_args{description}), @{$warnings});
     my $source_file = join("/", dirname ($output_path), $analysis_args{source_file_name});
     die "Does not exist: $source_file" unless -f $source_file;
     my $design_dump_file = join("/", dirname($output_path), $study->{study_id}.".design.tsv.tmp");

@@ -4,7 +4,7 @@ use feature 'state';
 package WbpsExpression::Analysis::DESeq2;
 use Statistics::R; 
 use WbpsExpression::Analysis::Common;
-use List::MoreUtils qw/zip zip_unflatten/;
+use List::MoreUtils qw/zip zip_unflatten first_index/;
 use Log::Any '$log';
 #use Smart::Comments '###';
 
@@ -91,8 +91,8 @@ sub values_for_contrast {
     alarm 180;
     $R_GLOBAL = Statistics::R->new();
     $R_GLOBAL->run(q`suppressPackageStartupMessages(library(DESeq2))`);
-    $r_version //= $R_GLOBAL->get('getRversion()');
-    $deseq_version //= $R_GLOBAL->get('packageVersion("DESeq2")');
+    $r_version //= ($R_GLOBAL->get('getRversion()') =~ s/[^\d\.]//rg);
+    $deseq_version //= ($R_GLOBAL->get('packageVersion("DESeq2")') =~ s/[^\d\.]//rg);
     alarm 0;
   };
   if($@){
@@ -135,9 +135,10 @@ sub do_analysis {
        push @analysis_warnings, "No differentially expressed genes found in contrast $contrast_name";
      }
   }
+  my $ix = first_index { $_ =~ /Differential expression analysis/ } @frontmatter // scalar @frontmatter;
+  splice @frontmatter, $ix-1, 0, "Using R version $r_version, DESeq2 version $deseq_version";
+
   WbpsExpression::Analysis::Common::write_named_hashes(\@name_to_data_pairs, $out_path,
-    shift @frontmatter,
-    "R version: $r_version", "DESeq2 version: $deseq_version",
     @frontmatter, @analysis_warnings,
   );
 }
