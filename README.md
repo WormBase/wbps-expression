@@ -9,6 +9,7 @@ On a fresh run for a species of interest, the pipeline retrieves:
  - run metadata from [RNASeq-er](https://www.ebi.ac.uk/fg/rnaseq/api/), who retrieve it from [ENA](http://www.ebi.ac.uk/ena)
  - study and publication metadata from [ENA](http://www.ebi.ac.uk/ena), and [GEO](https://www.ncbi.nlm.nih.gov/geo/)
  - publication details from [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/)
+ 
 and preserves the information as YAML, in a format corresponding to [pipeline's internal Perl modules](https://github.com/WormBase/wbps-expression/tree/master/lib/PublicResources/Resources) such that it can then be used on subsequent runs.
 
 This is then used to update the [curation](https://github.com/WormBase/wbps-expression/tree/master/curation) folder, preserved together with source code in this repository. The pipeline makes some guesses on what to accept and reject - with a few exceptions, we only allow studies of at least six runs - and runs consistency checks on the annotation. A curator then amends the files and re-runs iteratively, until the checks pass and they are satisfied with the results.
