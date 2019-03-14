@@ -11,17 +11,16 @@ use lib "$FindBin::Bin/../local/lib/perl5";
 # Check this: `R --slave --no-restore --file=- <<< 'installed.packages()' | grep ^DESeq2`
 # Statistics::R depends on $PATH to find the R binary
 $ENV{PATH} = "$FindBin::Bin/../local/R-3.5.1/bin:$ENV{PATH}";
+use WbpsExpression;
 
 use Log::Any::Adapter;
 use Log::Log4perl qw(:easy);
 Log::Log4perl->easy_init($DEBUG);
-
 Log::Any::Adapter->set('Log4perl');
 
+### This part is WormBase ParaSite specific
 use ProductionMysql;
 my @core_dbs = ProductionMysql->staging->core_databases(@ARGV);
-
-use WbpsExpression;
 my $data_dir = "/nfs/nobackup/ensemblgenomes/wormbase/parasite/production/jbrowse/WBPS$ENV{PARASITE_VERSION}";
 my $src_dir = "$FindBin::Bin/..";
 my $work_dir = "$data_dir/Production-".`whoami`;

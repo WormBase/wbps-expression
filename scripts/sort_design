@@ -1,14 +1,14 @@
 #!/usr/bin/env perl
 use FindBin;
 use lib "$FindBin::Bin/../lib";
-use Model::Design;
+use WbpsExpression::Model::Design;
 use File::Slurp;
 
 my $file = do {local $/ ; <>};
 if(@ARGV){
-  Model::Design::from_tsv(\$file)->to_tsv(@ARGV);
+  WbpsExpression::Model::Design::from_tsv(\$file)->to_tsv(@ARGV);
 } else {
   my $tmp = "";
-  Model::Design::from_tsv(\$file)->to_tsv(\$tmp);
+  WbpsExpression::Model::Design::from_tsv(\$file)->to_tsv(\$tmp);
   print $tmp;
 }
