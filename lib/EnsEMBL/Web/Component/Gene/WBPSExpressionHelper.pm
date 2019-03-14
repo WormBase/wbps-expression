@@ -317,7 +317,7 @@ sub as_2d {
     for my $col (@cols){
        push @header_and_values, $m{$row}{$col} // do {
           $num_gaps++;
-          "-"
+          "n/a"
        };
     }
     push @header_and_values_rows, \@header_and_values;
