@@ -11,7 +11,6 @@ use warnings;
 # methods that draw html start their names with html_
 package EnsEMBL::Web::Component::Gene::WBPSExpressionHelper;
 use File::Basename;
-use File::Basename;
 # use Smart::Comments '###';
 
 sub new {
@@ -20,7 +19,7 @@ sub new {
 }
 
 sub from_folder {
-  my ($self, $species, $studies_path) = @_;
+  my ($class, $species, $studies_path) = @_;
   my ($spe, $cies, $bp) = split "_", $species;
   
   my $studies_file = "$studies_path/$spe"."_"."$cies.studies.tsv";
@@ -95,17 +94,16 @@ sub html_no_results {
 
 sub html_differential_expression_values_table {
   my ($differential_expression_values) = @_;
-  my $class = '"fixed_width data_table exportable ss toggle_table" style="width: auto" cellspacing="0" cellpadding="0"';
-  my $id = "html_differential_expression_values_table";
+  my $tb_class = "result-table-sortable";
   return (
-       "<table id=\"$id\" class=\"$class\">"
+       "<table class=\"$tb_class\">"
      . "<caption>Contrasts where gene is significantly differentially expressed</caption>"
      . "<thead>"
      . "<tr>"
         . "<th scope=\"col\">Study</th>"
         . "<th scope=\"col\">Contrast</th>"
-        . "<th scope=\"col\">Log<sub>2</sub>-fold change</th>"
-        . "<th scope=\"col\">Adjusted p-value</th>"
+        . "<th scope=\"col\" data-dynatable-sorts=\"computedFoldChange\">Log<sub>2</sub>-fold change</th>"
+        . "<th scope=\"col\" data-dynatable-sorts=\"computedPValue\">Adjusted p-value</th>"
      . "</tr>"
      . "</thead>"
      . "<tbody>"
@@ -123,10 +121,9 @@ sub html_differential_expression_values_table {
 }
 sub html_study_results_table {
   my ($study, $column_headers, $header_and_values_rows) = @_;
-  my $class = '"fixed_width data_table exportable ss toggle_table" style="width: auto" cellspacing="0" cellpadding="0"';
-  my $id = $study->{study_url};
+  my $tb_class = "result-table-sortable";
   return (
-       "<table id=\"$id\" class=\"$class\">"
+       "<table class=\"$tb_class\">"
      . "<caption>" . html_study_link($study) . "<br> Expression across conditions, TPM </caption>"
      . "<thead>"
      . "<tr>"
@@ -151,10 +148,9 @@ sub html_study_results_table {
 }
 sub html_stats_table {
   my ($study, $column_headers, $values) = @_;
-  my $class = '"fixed_width data_table exportable ss toggle_table" style="width: auto" cellspacing="0" cellpadding="0"';
-  my $id = $study->{study_url};
+  my $tb_class = "result-table";
   return (
-       "<table id=\"$id\" class=\"$class\">"
+       "<table class=\"$tb_class\">"
      . "<caption>" . html_study_link($study) . "<br> Summary statistics </caption>"
      . "<thead>"
      . "<tr>"
@@ -181,7 +177,7 @@ sub html_studies_with_no_results {
      . "<caption>Studies with no results</caption>"
      . "<tbody>"
      . join ("\n", map {
-        sprintf("<th><td>%s</td></th>", html_study_link($_))
+        sprintf("<tr><td>%s</td></tr>", html_study_link($_))
      } @{$studies})
      . "</tbody>"
      . "</table>"
@@ -314,7 +310,7 @@ sub as_2d {
   }
   return if @rows < 2;
   return if @cols < 2;
-  my $num_gaps;
+  my $num_gaps = 0;
   my @header_and_values_rows;
   for my $row (@rows){
     my @header_and_values = ($row);
@@ -338,14 +334,14 @@ sub search_in_file {
   return unless $l;
   my ($id, @xs) = split "\t", $l;
   return unless $id eq $gene_id and @xs;
-  my $h = `grep --max-count=1 "^gene_id\t" $path`;
+  my $h = `grep --max-count=1 "^\t" $path`;
 #### $h
   chomp $h;
   return unless $h;
-  my ($header, @hs) = split "\t", $h;
+  my ($blank, @hs) = split "\t", $h;
 #### hs: scalar @hs
 #### xs:  scalar @xs
-  return unless $header eq "gene_id" and @hs;
+  return unless not($blank) and @hs;
   return unless @hs == @xs;
   return \@hs, \@xs;
 }
