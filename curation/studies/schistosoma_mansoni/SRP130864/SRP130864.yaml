@@ -11,6 +11,12 @@ contrasts:
         - untreated
         - 5-AzaC vs untreated
 description: 5-AzaC effect on Schistosoma mansoni Transcriptome
-pubmed: ~
+pubmed:
+  29649665:
+    - 'Geyer .. Hoffmann, 2018'
+    - 'The anti-fecundity effect of 5-azacytidine (5-AzaC) on Schistosoma mansoni is linked to dis-regulated transcription, translation and stem cell activities. (Geyer .. Hoffmann, 2018)'
+  30029996:
+    - 'Geyer .. Hoffmann, 2018'
+    - "Corrigendum to 'the anti-fecundity effect of 5-azacytidine (5-AzaC) on Schistosoma mansoni is linked to dis-regulated transcription, translation and stem cell activities' [Int. J. Parasitol. Drugs and Drug Resist. 8 (2018) 213-222]. (Geyer .. Hoffmann, 2018)"
 submitting_centre: Aberystwyth University
 title: 5-AzaC effect on Schistosoma mansoni Transcriptome
