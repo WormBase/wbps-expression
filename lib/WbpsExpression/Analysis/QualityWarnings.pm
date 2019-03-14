@@ -20,7 +20,7 @@ sub conditions_amended_names_and_warnings_for_per_condition_analysis {
           join( ". ", @low_qcs, $low_reps ? "Low replicates ($low_reps)" : () );
         push @warnings, "!$condition: $warning" if $warning;
         $conditions_amended_names{$condition} =
-          ( @low_qcs || $low_reps ) ? "!$condition: " : $condition;
+          ( @low_qcs || $low_reps ) ? "!$condition" : $condition;
     }
     return \%conditions_amended_names, \@warnings;
 }
