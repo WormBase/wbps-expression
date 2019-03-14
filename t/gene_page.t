@@ -91,8 +91,8 @@ sub is_table {
     
     my @empty_td_tags = $payload =~ m{<td></td>}g;
     my @td_tags = $payload =~ m{<td>.+?</td>}g;
-    my @th_rows = $payload =~ m{<th scope="row">}g;
-    my @th_cols = $payload =~ m{<th scope="col">}g;
+    my @th_rows = $payload =~ m{<th scope="row".*?>}g;
+    my @th_cols = $payload =~ m{<th scope="col".*?>}g;
     ok( @empty_td_tags < 2, "at most one empty cell - top left"); 
     is (scalar @th_rows, $num_rows, "num rows");
     is (scalar @th_cols, $num_cols, "num cols");
