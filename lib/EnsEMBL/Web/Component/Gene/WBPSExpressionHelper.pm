@@ -322,7 +322,7 @@ sub as_2d {
     }
     push @header_and_values_rows, \@header_and_values;
   }
-  return if $num_gaps > 0.2 * @rows * @cols;
+  return if $num_gaps > 0.4 * @rows * @cols;
   return (\@cols, \@header_and_values_rows);
 }
 sub search_in_file {
