@@ -28,6 +28,7 @@ For studies where it makes sense to form contrasts from appropriate pairs of con
 - except if conditions differ by multiple types of characteristics, then pick only the pairs that differ by one characteristic
 - except a parasite-specific curation of life stages as two characteristics (developmental stage and sex) should still work
 - except drug treatment assays curated as treatment+concentration or treatment+timepoint should still work
+
 It works slightly better than it sounds.
 
 The analysis uses DESeq2 in a very standard way, with fold changes and p-values extracted and filtered past a significance threshold.
