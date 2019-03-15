@@ -206,7 +206,7 @@ sub list_of_differential_expression_values_in_studies_and_studies_with_no_result
            my $contrast = $contrasts->[$i];
            next C if $contrast =~ /^\!/; # Low replicates or failed QC
            my ($log2_fold_change, $adjusted_p_value) = split(" ", $differential_expression_values->[$i]);
-           ($log2_fold_change, $adjusted_p_value) = ("-", " ") unless $log2_fold_change and $adjusted_p_value;
+           ($log2_fold_change, $adjusted_p_value) = ("-", "-") unless $log2_fold_change and $adjusted_p_value;
            push @differential_expression_values_for_study, {
               study_url => $study->{study_url},
               study_title => $study->{study_title},
