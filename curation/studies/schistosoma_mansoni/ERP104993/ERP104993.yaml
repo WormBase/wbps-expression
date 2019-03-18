@@ -1,65 +1,83 @@
 ---
-category: Other
+category: Cell types
 condition_names: {}
 contrasts:
-  - name: treatment
-    values:
-      -
-        - Female Control 'Rest'
-        - Female Irradiated 'Rest'
-        - Female Control 'Rest' vs Female Irradiated 'Rest'
-      -
-        - Male Control 'Rest'
-        - Male Irradiated 'Rest'
-        - Male Control 'Rest' vs Male Irradiated 'Rest'
   - name: sex
     values:
       -
-        - Female Control 'Rest'
-        - Male Control 'Rest'
-        - Female Control 'Rest' vs Male Control 'Rest'
+        - 'remaining cells after irradiation, female'
+        - 'remaining cells after irradiation, male'
+        - 'remaining cells after irradiation: female vs male'
       -
-        - Female Irradiated 'Rest'
-        - Male Irradiated 'Rest'
-        - Female Irradiated 'Rest' vs Male Irradiated 'Rest'
+        - 'remaining cells, female'
+        - 'remaining cells, male'
+        - 'remaining cells: female vs male'
   - name: cell_type
     values:
       -
-        - Female Control 'Rest'
-        - Female Control S1
-        - "Female Control: 'Rest' vs S1"
+        - 'Neoblast, male'
+        - 'TSP2 High, male'
+        - 'male: Neoblast vs TSP2 High'
       -
-        - Female Control 'Rest'
-        - Female Control S2-4
-        - "Female Control: 'Rest' vs S2-4"
+        - 'Neoblast, male'
+        - 'TSP2 Low, male'
+        - 'male: Neoblast vs TSP2 Low'
       -
-        - Female Control S1
-        - Female Control S2-4
-        - 'Female Control: S1 vs S2-4'
+        - 'Neoblast, male'
+        - 'remaining cells after irradiation, male'
+        - 'male: Neoblast vs remaining cells after irradiation'
       -
-        - Male Control 'Rest'
-        - Male Control Neoblast
-        - "Male Control: 'Rest' vs Neoblast"
+        - 'Neoblast, male'
+        - 'remaining cells, male'
+        - 'male: Neoblast vs remaining cells'
       -
-        - Male Control 'Rest'
-        - Male Control TSP2 High
-        - "Male Control: 'Rest' vs TSP2 High"
+        - 'TSP2 High, male'
+        - 'TSP2 Low, male'
+        - 'male: TSP2 High vs TSP2 Low'
       -
-        - Male Control 'Rest'
-        - Male Control TSP2 Low
-        - "Male Control: 'Rest' vs TSP2 Low"
+        - 'TSP2 High, male'
+        - 'remaining cells after irradiation, male'
+        - 'male: TSP2 High vs remaining cells after irradiation'
       -
-        - Male Control Neoblast
-        - Male Control TSP2 High
-        - 'Male Control: Neoblast vs TSP2 High'
+        - 'TSP2 High, male'
+        - 'remaining cells, male'
+        - 'male: TSP2 High vs remaining cells'
       -
-        - Male Control Neoblast
-        - Male Control TSP2 Low
-        - 'Male Control: Neoblast vs TSP2 Low'
+        - 'TSP2 Low, male'
+        - 'remaining cells after irradiation, male'
+        - 'male: TSP2 Low vs remaining cells after irradiation'
       -
-        - Male Control TSP2 High
-        - Male Control TSP2 Low
-        - 'Male Control: TSP2 High vs TSP2 Low'
+        - 'TSP2 Low, male'
+        - 'remaining cells, male'
+        - 'male: TSP2 Low vs remaining cells'
+      -
+        - 'remaining cells after irradiation, male'
+        - 'remaining cells, male'
+        - 'male: remaining cells after irradiation vs remaining cells'
+      -
+        - 'S1, female'
+        - 'S2-4, female'
+        - 'female: S1 vs S2-4'
+      -
+        - 'S1, female'
+        - 'remaining cells after irradiation, female'
+        - 'female: S1 vs remaining cells after irradiation'
+      -
+        - 'S1, female'
+        - 'remaining cells, female'
+        - 'female: S1 vs remaining cells'
+      -
+        - 'S2-4, female'
+        - 'remaining cells after irradiation, female'
+        - 'female: S2-4 vs remaining cells after irradiation'
+      -
+        - 'S2-4, female'
+        - 'remaining cells, female'
+        - 'female: S2-4 vs remaining cells'
+      -
+        - 'remaining cells after irradiation, female'
+        - 'remaining cells, female'
+        - 'female: remaining cells after irradiation vs remaining cells'
 description: 'Using RNAseq to characterise bulk preparations from different Schistosoma mansoni cells and somatic (control) cells to find new markers and putative factors involved in controlling their growth and differentiation. '
 pubmed: ~
 submitting_centre: Wellcome Sanger Institute
