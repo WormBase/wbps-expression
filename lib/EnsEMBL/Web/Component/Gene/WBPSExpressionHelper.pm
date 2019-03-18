@@ -124,7 +124,7 @@ sub html_study_results_table {
   my $tb_class = "result-table-sortable";
   return (
        "<table class=\"$tb_class\">"
-     . "<caption>" . html_study_link($study) . "<br> Expression across conditions, TPM </caption>"
+     . "<caption>" . html_study_link($study) . "<br> Median expression across replicates (TPM) </caption>"
      . "<thead>"
      . "<tr>"
           . join("\n", "<td></td>", map {
