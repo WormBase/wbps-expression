@@ -264,19 +264,32 @@ sub try_make_time_series {
 #### try_make_time_series result: @result
    return @result;
 }
+sub clear_control_characteristic_in_drug_assay {
+  my ($design, $c1, $c2) = @_;
+  my ($control_value, @other_control_values) = uniq grep {not $_ or $_ =~ /control/i } map {$design->value_in_condition($_, 'treatment') } $design->all_conditions;
+  return @other_control_values ? "" : $control_value;
+}
+
 sub if_clear_control_value_then_use_as_reference {
   my ($subset_chs, $design, $c1, $c2) = @_;
-  return [$c1, $c2] unless is_drug_assay(@{$subset_chs});
-  my ($control_value, @other_control_values) = uniq grep {not $_ or $_ =~ /control/i } map {$design->value_in_condition($_, 'treatment') } $design->all_conditions;
-  return [$c1, $c2] unless $control_value and not @other_control_values;
-  if ($design->value_in_condition($c1, 'treatment') eq $control_value) {
-    return [$c1, $c2];
-  } elsif ($design->value_in_condition($c2, 'treatment') eq $control_value) {
-    return [$c2, $c1];
-  } else {
-    return ();
+  if (is_drug_assay(@{$subset_chs})){
+    my $control_value = clear_control_characteristic_in_drug_assay($design, $c1, $c2);
+    if ($control_value){
+      if ($design->value_in_condition($c1, 'treatment') eq $control_value) {
+        return [$c1, $c2];
+      } elsif ($design->value_in_condition($c2, 'treatment') eq $control_value) {
+        return [$c2, $c1];
+      } else {
+        return ();
+      } 
+    }
   }
+  if ($c2 =~ /control|no treatment/i and $c1 !~ /control|no treatment/i){
+     return [$c2, $c1];
+  }
+  return [$c1, $c2];
 }
+
 sub contrasts {
   my ($design)   = @_;
   my %replicates = pairmap {$a => scalar @$b } %{$design->replicates_by_condition};

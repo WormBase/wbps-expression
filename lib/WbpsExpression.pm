@@ -41,7 +41,7 @@ sub run {
     if ($study->passes_checks){
       push @selected_studies_passing_checks, $study;
     } else {
-      $log->info(sprintf(__PACKAGE__ . " Study %s failing checks - see %s",$study->{study_id}, $self->{sheets}->path("studies", $study->{study_id})));
+      $log->info(sprintf(__PACKAGE__ . " Study %s failing checks - see %s",$study->{study_id}, $self->{sheets}->path("studies", $species, $study->{study_id})));
     }
   }
  

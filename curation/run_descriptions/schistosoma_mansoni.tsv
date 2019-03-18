@@ -38,12 +38,12 @@ SRP032348	SRR1020298	Oxamniquine susceptible
 SRP042222	SRR1346220	Adult virgin females	
 SRP042222	SRR1346221	Adult virgin females	Previously fecund females
 SRP042222	SRR1346222	Adult virgin females	Adult fecund females
-SRP067194	SRR2984282	0 Gy	
-SRP067194	SRR2984283	0 Gy	
-SRP067194	SRR2984284	0 Gy	
-SRP067194	SRR2984285	200 Gy	
-SRP067194	SRR2984286	200 Gy	
-SRP067194	SRR2984287	200 Gy	
+SRP067194	SRR2984282	No treatment	
+SRP067194	SRR2984283	No treatment	
+SRP067194	SRR2984284	No treatment	
+SRP067194	SRR2984285	Irradiation 200 Gy	
+SRP067194	SRR2984286	Irradiation 200 Gy	
+SRP067194	SRR2984287	Irradiation 200 Gy	
 SRP067194	SRR2984288	Control RNAi	
 SRP067194	SRR2984289	Control RNAi	
 SRP067194	SRR2984290	Control RNAi	
@@ -58,7 +58,6 @@ SRP130864	SRR6490484	5-AzaC	5-AzaC treated females
 SRP130864	SRR6490483	untreated	untreated females
 SRP130864	SRR6490482	untreated	untreated females	
 SRP130864	SRR6490481	untreated	untreated females
-ERP002113	Run	developmental_stage sexs strain, timepoint	developmental_stage sexs strain, timepoint after treatment
 ERP002113	ERR572964	adult females LE	adult females LE
 ERP002113	ERR572988	adult females LE	adult females LE
 ERP002113	ERR573061	adult females LE	adult females LE
@@ -527,7 +526,6 @@ SRP124650	SRR6269809	NMRI male
 SRP124650	SRR6269810	NMRI male, zfp-1-1 dsRNA	
 SRP124650	SRR6269811	NMRI male, zfp-1-1 dsRNA	
 SRP124650	SRR6269812	NMRI male, zfp-1-1 dsRNA	
-Run	Condition
 ERP014584	ERR1328174	18 days post infection, single sex infection, female	
 ERP014584	ERR1328198	18 days post infection, single sex infection, female	
 ERP014584	ERR1328136	18 days post infection, single sex infection, female	
