@@ -271,15 +271,16 @@ sub tpms_in_tables {
   my @result;  
   for my $study (@{$studies}){
      my ($conditions, $expressions_tpm) = search_in_file($study->{tpms_per_condition}, $gene_id);
-#### $conditions
-#### $expressions_tpm
      next unless $conditions and $expressions_tpm;
-     my @conditions_warnings_as_text = map {s{^!\s*(.*)}{$1 <i>(has quality warnings)</i>}; $_} @{$conditions};
-     my ($column_headers, $headers_and_values_rows) = as_2d (\@conditions_warnings_as_text, $expressions_tpm);
-#### $column_headers
-#### $headers_and_values_rows
+     for my $ix (0 .. $#$conditions){
+        if ( $conditions->[$ix] =~ m{^!} ) {
+          $conditions->[$ix] =~ s{^!}{};
+          $expressions_tpm->[$ix] .= '<sup title="Low (2) replicates">&#9888;</sup>';
+        }
+     }
+     my ($column_headers, $headers_and_values_rows) = as_2d($conditions, $expressions_tpm);
      unless ($column_headers and $headers_and_values_rows){
-        $column_headers = \@conditions_warnings_as_text;
+        $column_headers = $conditions;
         $headers_and_values_rows = [["Value" , @$expressions_tpm]];
      }
      
