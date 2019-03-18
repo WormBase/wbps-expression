@@ -40,12 +40,9 @@ sub from_folder {
       study_category => $metadata{$study_id}{category},
     };
     if ($metadata{$study_id}{category} eq "Response to treatment"){
-      my @files = glob("$study_path/$study_id.de.*.tsv");
+      my @files = glob("$study_path/$study_id.de.*treatment*.tsv");
       next unless @files;
-      for my $file_path (@files){
-        my ($type) = $file_path =~ m{$study_path/$study_id\.de\.(.*)\.tsv};
-        $study->{de}{$type} = $file_path;
-      }
+      $study->{differential_expression_paths} = \@files;
     } elsif ($metadata{$study_id}{category} eq "Other" ) {
       my $tpms_per_run = "$study_path/$study_id.tpm_per_run.tsv";
       next unless -s $tpms_per_run;
@@ -199,7 +196,7 @@ sub list_of_differential_expression_values_in_studies_and_studies_with_no_result
   for my $study (@{$studies}){
      $study->{study_url} = study_url($species,$study->{study_id}),
      my @differential_expression_values_for_study;
-     while (my ($type, $path) = each %{$study->{de}}) {
+     for my $path (@{$study->{differential_expression_paths}}) {
         my ($contrasts, $differential_expression_values) = search_in_file($path, $gene_id);
         C:
         for my $i (0..$#$contrasts){
