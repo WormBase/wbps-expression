@@ -97,7 +97,7 @@ sub html_differential_expression_values_table {
   my $tb_class = "result-table-sortable";
   return (
        "<table class=\"$tb_class\">"
-     . "<caption>Contrasts where gene is significantly differentially expressed</caption>"
+     . "<caption>Contrasts where gene is significantly differentially expressed: <code>adj. p-value < 0.05 and abs(log<sub>2</sub>fold change) > 0.5</code></caption>"
      . "<thead>"
      . "<tr>"
         . "<th scope=\"col\">Study</th>"
