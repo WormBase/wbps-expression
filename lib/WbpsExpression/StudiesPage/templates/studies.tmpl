@@ -20,8 +20,10 @@
 	<TMPL_VAR NAME=RUNSTUDIES>
     <TMPL_IF NAME="OTHERSTUDIES">
 	  <h2 id="wbps_expression_other" class="exp-group">Other</h2>
-     <p class="other_descs">These studies are available in ENA, and the reads successfully align to our genomes. 
-<br>If you would like some of them included in the analysis, please let us know!
+     <p class="other_descs">
+These studies are available in ENA, and the reads successfully align to our genomes. 
+<br>We have decided not to include them in our analysis.
+<br>Either they failed to meet minimal criteria for inclusion, we've been asked to exclude them for data quality reasons, or we were unable to interpret the metadata.
      </p>
 	  <TMPL_VAR NAME=OTHERSTUDIES>
     </TMPL_IF>
