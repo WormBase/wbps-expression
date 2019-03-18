@@ -250,16 +250,14 @@ sub summary_stats_in_tables {
      push @result, {
        study_url => study_url($species,$study->{study_id}),
        study_title => $study->{study_title},
-       column_headers => ["N", "min", "Q1", "Q2", "Q3", "max"],
+       column_headers => ["N", "min (TPM)", "Q1 (TPM)", "Q2 (TPM)", "Q3 (TPM)", "max (TPM)"],
        values => [ 
           scalar @expression_tpm_sorted,
-          (map {"$_ TPM"}
-            quantile(\@expression_tpm_sorted, 0),
-            sprintf("%.1f",quantile(\@expression_tpm_sorted, 1)),
-            sprintf("%.1f",quantile(\@expression_tpm_sorted, 2)),
-            sprintf("%.1f",quantile(\@expression_tpm_sorted, 3)),
-            quantile(\@expression_tpm_sorted, 4),
-          ),
+          quantile(\@expression_tpm_sorted, 0),
+          sprintf("%.1f",quantile(\@expression_tpm_sorted, 1)),
+          sprintf("%.1f",quantile(\@expression_tpm_sorted, 2)),
+          sprintf("%.1f",quantile(\@expression_tpm_sorted, 3)),
+          quantile(\@expression_tpm_sorted, 4),
        ],
      } if $runs and $expression_tpm;
   }
