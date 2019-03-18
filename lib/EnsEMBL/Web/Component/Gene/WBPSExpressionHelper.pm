@@ -64,7 +64,7 @@ sub from_folder {
 
 sub render_page {
   my ($self, $gene_id, $category) = @_;
-  my @studies = grep {$_->{study_category} eq $category} @{$self->{studies}};
+  my @studies = grep {$_->{study_category} eq $category || ($category eq "Life cycle" and $_->{study_category} eq "Life stages") } @{$self->{studies}};
   my @html_panes = response_as_html_panes($self->{species_url_name}, $gene_id, $category, \@studies);
   return (
    join("<br>", @html_panes) || html_no_results($self->{species_display_name}, $gene_id, $category)
