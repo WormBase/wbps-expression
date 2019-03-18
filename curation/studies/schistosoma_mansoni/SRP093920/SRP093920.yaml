@@ -29,6 +29,9 @@ contrasts:
         - mCherry-dsRNA
         - GFP-dsRNA vs mCherry-dsRNA
 description: Schistosoma mansoni strain:LE Transcriptome or Gene expression
-pubmed: ~
+pubmed:
+  30733716:
+    - 'Avelar .. Mourão, 2019'
+    - 'Smp38 MAP Kinase Regulation in <i>Schistosoma mansoni</i>: Roles in Survival, Oviposition, and Protection Against Oxidative Stress. (Avelar .. Mourão, 2019)'
 submitting_centre: Rene Rachou Research Center
 title: Schistosoma mansoni strain:LE Transcriptome or Gene expression

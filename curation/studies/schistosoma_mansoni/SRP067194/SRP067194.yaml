@@ -17,6 +17,9 @@ contrasts:
         - Irradiation 200 Gy
         - No treatment vs Irradiation 200 Gy
 description: Stem cells rejuvenate the schistosome host-parasite interface
-pubmed: ~
+pubmed:
+  27003592:
+    - 'Collins .. Newmark, 2016'
+    - 'Stem cell progeny contribute to the schistosome host-parasite interface. (Collins .. Newmark, 2016)'
 submitting_centre: 'Pharmacology, UT Southwestern'
 title: Stem cells rejuvenate the schistosome host-parasite interface

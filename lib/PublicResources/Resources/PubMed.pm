@@ -16,10 +16,14 @@ my $curation = {
   },
   schistosoma_mansoni => {
     ERP000427 => [22253936],
-    ERP016356 => [27499125],
-    SRP071285 => [27677173],
-    SRP108901 => [28753630],
     ERP014584 => [28542189],
+    ERP016356 => [27499125],
+    SRP067194 => [27003592],
+    SRP071285 => [27677173],
+    SRP093920 => [30733716],
+    SRP096638 => [30365505],
+    SRP108901 => [28753630],
+    SRP124650 => [29557781],
     SRP130864 => [29649665, 30029996],
   },
 };
@@ -52,7 +56,7 @@ sub _short_and_full_paper_description_from_payload {
     my @authors = @{$payload->{MedlineCitation}{Article}{AuthorList}{Author} || [] };
     # Use regex because XML::Simple is being too simple.
     # E.g. 30049782: <ArticleTitle> Stuff in <i>Caenorhabditis elegans</i>.</ArticleTitle>
-    my ($title) = $payload_string =~ /<ArticleTitle>(.*)<\/ArticleTitle>/;
+    my ($title) = $payload_string =~ m{<ArticleTitle>(.*)</ArticleTitle>};
     my $authors = $payload->{MedlineCitation}{Article}{AuthorList}{Author};
     my @authors = $authors ? ref $authors eq 'ARRAY' ? @$authors : ($authors) : ();
     my $first_author = @authors[0]->{LastName};
