@@ -256,11 +256,13 @@ sub summary_stats_in_tables {
        column_headers => ["N", "min", "Q1", "Q2", "Q3", "max"],
        values => [ 
           scalar @expression_tpm_sorted,
-          quantile(\@expression_tpm_sorted, 0),
-          sprintf("%.1f",quantile(\@expression_tpm_sorted, 1)),
-          sprintf("%.1f",quantile(\@expression_tpm_sorted, 2)),
-          sprintf("%.1f",quantile(\@expression_tpm_sorted, 3)),
-          quantile(\@expression_tpm_sorted, 4),
+          (map {"$_ TPM"}
+            quantile(\@expression_tpm_sorted, 0),
+            sprintf("%.1f",quantile(\@expression_tpm_sorted, 1)),
+            sprintf("%.1f",quantile(\@expression_tpm_sorted, 2)),
+            sprintf("%.1f",quantile(\@expression_tpm_sorted, 3)),
+            quantile(\@expression_tpm_sorted, 4),
+          ),
        ],
      } if $runs and $expression_tpm;
   }
