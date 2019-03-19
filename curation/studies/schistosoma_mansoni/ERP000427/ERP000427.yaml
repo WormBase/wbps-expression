@@ -1,23 +1,23 @@
 ---
 category: Life stages
 condition_names:
-  Somule 24hrs: Somule 24hrs post-infection
-  Somule 3hrs: Somule 3hrs post-infection
+  24 hour schistosomule: 24 hour schistosomule post-infection
+  3 hour schistosomule: 3 hour schistosomule post-infection
 contrasts:
   - name: developmental_stage
     values:
       -
-        - Cercariae
-        - Somule 24hrs
-        - Cercariae vs Somule 24hrs
+        - 24 hour schistosomule
+        - 3 hour schistosomule
+        - 24 hour schistosomule vs 3 hour schistosomule
       -
+        - 24 hour schistosomule
         - Cercariae
-        - Somule 3hrs
-        - Cercariae vs Somule 3hrs
+        - 24 hour schistosomule vs Cercariae
       -
-        - Somule 24hrs
-        - Somule 3hrs
-        - Somule 24hrs vs Somule 3hrs
+        - 3 hour schistosomule
+        - Cercariae
+        - 3 hour schistosomule vs Cercariae
 description: 'High-throughput sequencing of life stages and tissues of the flatworm Schistosoma mansoni to be used for further gene editing, gene finding and transcriptome analysis'
 pubmed:
   22253936:

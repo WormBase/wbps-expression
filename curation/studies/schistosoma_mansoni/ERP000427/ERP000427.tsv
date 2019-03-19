@@ -1,11 +1,11 @@
 Run	Sample	Condition	developmental_stage	strain
+ERR022883	SAMEA988618	24 hour schistosomule	24 hour schistosomule	NMRI
+ERR022882	SAMEA988619	24 hour schistosomule	24 hour schistosomule	NMRI
+ERR022881	SAMEA988622	24 hour schistosomule	24 hour schistosomule	NMRI
+ERR022880	SAMEA988616	3 hour schistosomule	3 hour schistosomule	NMRI
+ERR022879	SAMEA988617	3 hour schistosomule	3 hour schistosomule	NMRI
+ERR022874	SAMEA988621	3 hour schistosomule	3 hour schistosomule	NMRI
+ERR022876	SAMEA988621	3 hour schistosomule	3 hour schistosomule	NMRI
 ERR022878	SAMEA988614	Cercariae	Cercariae	NMRI
 ERR022872	SAMEA988623	Cercariae	Cercariae	NMRI
 ERR022877	SAMEA988624	Cercariae	Cercariae	NMRI
-ERR022883	SAMEA988618	Somule 24hrs	Somule 24 hours	NMRI
-ERR022882	SAMEA988619	Somule 24hrs	Somule 24 hours	NMRI
-ERR022881	SAMEA988622	Somule 24hrs	Somule 24 hours	NMRI
-ERR022880	SAMEA988616	Somule 3hrs	Somule 3 hours	NMRI
-ERR022879	SAMEA988617	Somule 3hrs	Somule 3 hours	NMRI
-ERR022874	SAMEA988621	Somule 3hrs	Somule 3 hours	NMRI
-ERR022876	SAMEA988621	Somule 3hrs	Somule 3 hours	NMRI
