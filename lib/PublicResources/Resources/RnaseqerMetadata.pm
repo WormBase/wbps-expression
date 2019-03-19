@@ -205,13 +205,13 @@ sub _get_rnaseqer_json {
     )
   );
 }
-# Ask for runs that had at least 30% reads mapped
+# Ask for runs that had at least 20% of the reads mapped
 # We want to exclude failures and queued entries
 # RNASeq-er doesn't have complete records anyway!
 sub _get_rnaseqer_runs_for_organism {
   my ($class, $species) = @_;
   my $payload = $class->_get_rnaseqer_json(
-    "30", "getRunsByOrganism", $species
+    "20", "getRunsByOrganism", $species
   );
   my @a = grep {$_->{BIGWIG_LOCATION} ne "NA"} @$payload;
   return \@a;
