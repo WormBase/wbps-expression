@@ -43,6 +43,21 @@ pick_up_paper({
   geo => {assembly_id => {study_id=>{pubmed => [$pubmed_id]}}},
 }, "GEO");
 
+sub fix_species_variation {
+   my ($species_ref, $species_in_title, $expected) = @_;
+   $expected //= "<i>$species_in_title</i>";
+   is(
+     &PublicResources::Resources::PubMed::italicise_species_in_title($species_ref, "prefix $species_in_title suffix"),
+     "prefix $expected suffix",
+     "$species_in_title -> $expected"
+   );
+}
+fix_species_variation($species, "Schistosoma mansoni");
+fix_species_variation($species, "schistosoma_mansoni");
+fix_species_variation($species, "S mansoni");
+fix_species_variation($species, "S. mansoni");
+fix_species_variation($species, "<i>S. mansoni</i>", "<i>S. mansoni</i>");
+
 done_testing();
 __DATA__
 <PubmedArticle>
