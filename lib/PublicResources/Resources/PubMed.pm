@@ -13,6 +13,7 @@ my $curation = {
   }, 
   meloidogyne_incognita => {
     ERP009887 => [28594822],
+    SRP109232 => [29230237],
   },
   schistosoma_mansoni => {
     ERP000427 => [22253936],
