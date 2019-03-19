@@ -1,27 +1,27 @@
 ---
-category: Other
+category: Response to treatment
 condition_names: {}
 contrasts:
+  - name: treatment
+    values:
+      -
+        - female
+        - 'female, Sj-pp1c knockdown'
+        - "female: '' vs Sj-pp1c knockdown"
+      -
+        - male
+        - 'male, Sj-pp1c knockdown'
+        - "male: '' vs Sj-pp1c knockdown"
   - name: sex
     values:
       -
-        - 'Sj-pp1c KD, female'
-        - 'Sj-pp1c KD, male'
-        - 'Sj-pp1c KD: female vs male'
+        - 'female, Sj-pp1c knockdown'
+        - 'male, Sj-pp1c knockdown'
+        - 'Sj-pp1c knockdown: female vs male'
       -
-        - 'wild type, female'
-        - 'wild type, male'
-        - 'wild type: female vs male'
-  - name: genotype
-    values:
-      -
-        - 'Sj-pp1c KD, female'
-        - 'wild type, female'
-        - 'female: Sj-pp1c KD vs wild type'
-      -
-        - 'Sj-pp1c KD, male'
-        - 'wild type, male'
-        - 'male: Sj-pp1c KD vs wild type'
+        - female
+        - male
+        - female vs male
 description: Transcriptome analysis of females and males following knockdown serine/threonine protein phosphatase 1 catalytic subunit encoding genes(Sj-pp1c) in Schistosoma japonicum
 pubmed:
   29879373:
