@@ -29,6 +29,9 @@ contrasts:
         - phytophagous parasitic stage:6h
         - phytophagous parasitic stage:24h vs phytophagous parasitic stage:6h
 description: Bursaphelenchus xylophilus strain:AMA3 Transcriptome or Gene expression
-pubmed: ~
+pubmed:
+  27224277:
+    - 'Ding .. Nian, 2016'
+    - 'Deciphering the Molecular Variations of Pine Wood Nematode <i>Bursaphelenchus xylophilus</i> with Different Virulence. (Ding .. Nian, 2016)'
 submitting_centre: College of Forestry
 title: Bursaphelenchus xylophilus strain:AMA3 Transcriptome or Gene expression

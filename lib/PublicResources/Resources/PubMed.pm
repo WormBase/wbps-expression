@@ -5,6 +5,10 @@ use List::MoreUtils qw(uniq);
 use XML::Simple;
 
 my $curation = {
+  bursaphelenchus_xylophilus => {
+    ERP010245 => [25981957],
+    SRP115811 => [27224277],
+  },
   hymenolepis_microstoma => {
     ERP004459 => [30455861], 
   },

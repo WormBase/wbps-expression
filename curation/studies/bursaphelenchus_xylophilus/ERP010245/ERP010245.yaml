@@ -9,6 +9,9 @@ contrasts:
         - '6 days post infection, maritime pine tree (Pinus pinaster)'
         - 'maritime pine tree (Pinus pinaster): 15 days post infection vs 6 days post infection'
 description: 'Please refer to Espada et al (2015) "Identification and characterization of parasitism genes from the pinewood nematode Bursaphelenchus xylophilus reveals a multi-layered detoxification strategy", Molecular Plant Pathology (in press).'
-pubmed: ~
+pubmed:
+  25981957:
+    - 'Espada .. Jones, 2016'
+    - 'Identification and characterization of parasitism genes from the pinewood nematode <i>Bursaphelenchus xylophilus</i> reveals a multilayered detoxification strategy. (Espada .. Jones, 2016)'
 submitting_centre: James Hutton Institute
 title: Pinewood nematode Bursaphelenchus xylophilus RNA-Seq from phytophagous and mycetophagous life cycle phase.
