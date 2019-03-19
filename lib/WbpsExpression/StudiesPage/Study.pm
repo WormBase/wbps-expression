@@ -20,7 +20,7 @@ sub to_html {
 
   my @description;
   if ($study->{config}{description} and $study->{config}{description} ne $study->{config}{title}){
-      push @description, $study->{config}{description};
+      push @description, sprintf("<em>%s</em>", $study->{config}{description});
   }
   while (my ($k, $v) = each %{$study->{config}{pubmed} //{}}){
      push @description, sprintf ("<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/%s\">%s</a> ", $k, $v->[1]);
