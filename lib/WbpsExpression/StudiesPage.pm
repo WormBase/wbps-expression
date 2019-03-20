@@ -14,6 +14,7 @@ sub html {
   (my $species_param = $species) =~ s/_/ /g;
   $species_param = ucfirst($species_param);
   $studies_tmpl->param(SPECIES => $species_param);
+  $studies_tmpl->param(MORE_WELCOMING_MESSAGE_FOR_SKIPPED_STUDIES => ($species_param =~ /Caenorhabditis elegans|Pristionchus pacificus/));
 
   my @toc = map {{
     TOC_ITEM_ID => $_->{study_id},
