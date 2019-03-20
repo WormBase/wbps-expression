@@ -391,7 +391,7 @@ sub category {
   return "Other" if (
     any {@{$_} < 2 } values %{ $design->replicates_by_condition}
   );
-  return "Life stages" if (
+  return "Life cycle" if (
      all { $life_stage_categories{$_}} @chs and scalar $design->all_conditions > 2
   );
   return "Organism parts" if (
