@@ -26,6 +26,7 @@ our %exceptions = (
   "SRP013211" => "O. viverrini: two runs, juvenile vs adult, from 2012",
   "DRP003063" => "Emu study, four runs",
   "SRP131874" => "E. granulosus, four runs but a second study for the species",
+  "SRP152065" => "M. incognita IARI study, two controls two replicates",
 );
 
 sub should_reject_study {

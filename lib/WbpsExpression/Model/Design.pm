@@ -26,7 +26,7 @@ sub from_tsv {
     $runs_are_by_sample = '';
     @characteristics = $_3 ? ($_3, @characteristics) : ();
   } else {
-    die "Bad header: @$header";
+    die "Bad header at $path: @$header";
   }
   for my $line (@lines){
      my @line = @{$line};
