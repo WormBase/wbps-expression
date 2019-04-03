@@ -389,7 +389,7 @@ my %treatment_categories = (
   rnai_feedings => 1,
 );
 sub category {
-  my ($design, $title) = @_;
+  my ($design, $contrasts, $title) = @_;
   my @chs        = $design->characteristics_varying_by_condition;
   return "Other" if (
     any {@{$_} < 2 } values %{ $design->replicates_by_condition}
@@ -403,6 +403,7 @@ sub category {
   return "Variation within species" if (
      all { $_ eq "isolate" || $_ eq "strain" || $life_stage_categories{$_}} @chs and any { $_ eq "isolate" || $_ eq "strain" } @chs
   );
+  return "Other" if not @{$contrasts};
   my $mentions_treatment = grep {$treatment_categories{$_}} @chs;
   my $mentions_cell_type = grep { $_ eq "cell_type"} @chs;
   return "Response to treatment" if (
@@ -416,14 +417,15 @@ sub category {
 sub study {
   my (%args) = @_;
   my $design = design_from_runs( @{ $args{runs} } );
+  my $contrasts = contrasts($design);
   return WbpsExpression::Model::Study->new(
     $args{study_id},
     $design,
     {
       %{ config_base(%args) },
-      category => category($design, $args{study_description_short}),
+      category => category($design, $contrasts, $args{study_description_short}),
       condition_names => condition_names( @{ $args{runs} } ),
-      contrasts       => contrasts($design),
+      contrasts       => $contrasts,
     }
   );
 }
