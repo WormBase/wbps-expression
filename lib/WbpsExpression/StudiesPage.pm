@@ -14,7 +14,7 @@ sub html {
   (my $species_param = $species) =~ s/_/ /g;
   $species_param = ucfirst($species_param);
   $studies_tmpl->param(SPECIES => $species_param);
-  $studies_tmpl->param(MORE_WELCOMING_MESSAGE_FOR_SKIPPED_STUDIES => ($species_param =~ /Caenorhabditis elegans|Pristionchus pacificus/));
+  $studies_tmpl->param(MORE_WELCOMING_MESSAGE_FOR_SKIPPED_STUDIES => ($species_param =~ /Caenorhabditis elegans|Pristionchus pacificus|Globodera pallida/));
 
   my @toc = map {{
     TOC_ITEM_ID => $_->{study_id},
@@ -22,8 +22,8 @@ sub html {
   }} @{$our_studies};
   push @toc, {
     TOC_ITEM_ID => "wbps_expression_other",
-    TOC_ITEM_NAME => @{$our_studies} == 1 ? "1 other study" : sprintf("%s other studies", scalar @{$our_studies}),
-  } if @{$our_studies};
+    TOC_ITEM_NAME => @{$other_studies} == 1 ? "1 other study" : sprintf("%s other studies", scalar @{$other_studies}),
+  } if @{$other_studies};
   $studies_tmpl->param(TOC => \@toc);
 
   $studies_tmpl->param(RUNSTUDIES => join("\n", map {WbpsExpression::StudiesPage::Study->new($_)->to_html } @{$our_studies} ));
