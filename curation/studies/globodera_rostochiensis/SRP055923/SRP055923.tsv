@@ -1,8 +1,8 @@
 Run	Condition	depth	geographic_location	host	strain	treatment
 SRR1873812	dry cysts	0-20cm	Canada: St-Amable, QC	potato	Ro1	dry cysts
 SRR1873821	dry cysts	0-20cm	Canada: St-Amable, QC	potato	Ro1	dry cysts
-SRR1873820	hatched J2 larvea	0-20cm	Canada: St-Amable, QC	potato	Ro1	hatched J2 larvea
-SRR1873829	hatched J2 larvea	0-20cm	Canada: St-Amable, QC	potato	Ro1	hatched J2 larvea
+SRR1873820	hatched J2 larvae	0-20cm	Canada: St-Amable, QC	potato	Ro1	hatched J2 larvae
+SRR1873829	hatched J2 larvae	0-20cm	Canada: St-Amable, QC	potato	Ro1	hatched J2 larvae
 SRR1873813	hydrated cysts	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts
 SRR1873822	hydrated cysts	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts
 SRR1873814	hydrated cysts soaked 15m in PRD	0-20cm	Canada: St-Amable, QC	potato	Ro1	hydrated cysts soaked 15m in PRD
