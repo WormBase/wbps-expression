@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-package WbpsExpression::Model::Design;
+package WbpsExpression::Study::Design;
 use Text::CSV qw/csv/;
 use List::Util qw/pairmap all/;
 use List::MoreUtils qw/uniq /;
@@ -13,9 +13,9 @@ sub new {
 
 sub from_tsv {
   my ($path) = @_;
-  my %characteristics_per_run = ();
-  my %replicates_per_run = ();
-  my %conditions_per_run = ();
+  my %characteristics_by_run = ();
+  my %replicates_by_run = ();
+  my %conditions_by_run = ();
 
   my ($header, @lines) = @{csv(in=>$path, sep_char => "\t")};
   my $runs_are_by_sample; 
@@ -33,13 +33,13 @@ sub from_tsv {
      my ($run_id, $replicate_id, $condition, @values) = $runs_are_by_sample ? @line : ($line[0], @line); 
 ### require: scalar @values == scalar @characteristics
      $_ =~ s/^\s+|\s+$//g for @values;
-     $replicates_per_run{$run_id} = $replicate_id;
-     $conditions_per_run{$run_id} = $condition;
+     $replicates_by_run{$run_id} = $replicate_id;
+     $conditions_by_run{$run_id} = $condition;
      my %h;
      @h{@characteristics} = @values;
-     $characteristics_per_run{$run_id} = \%h;
+     $characteristics_by_run{$run_id} = \%h;
   }
-  return from_data_by_run(\%replicates_per_run, \%conditions_per_run, \%characteristics_per_run, \@characteristics);
+  return from_data_by_run(\%replicates_by_run, \%conditions_by_run, \%characteristics_by_run, \@characteristics);
 }
 
 sub reverse_hoa {
@@ -50,31 +50,40 @@ sub reverse_hoa {
   return \%inverse;
 }
 
-sub from_data_by_run {
-  my ($replicates_per_run, $conditions_per_run, $characteristics_per_run, $characteristics_in_order) = @_;
+sub empty {
+  return from_data_by_run({},{},{},[]);
+}
 
-  my %runs_by_replicate = %{reverse_hoa($replicates_per_run)};
-  my $conditions_per_replicate = {};
+sub is_empty {
+  my ($self) = @_;
+  return not $self->all_runs;
+}
+
+sub from_data_by_run {
+  my ($replicates_by_run, $conditions_by_run, $characteristics_by_run, $characteristics_in_order) = @_;
+
+  my %runs_by_replicate = %{reverse_hoa($replicates_by_run)};
+  my $conditions_by_replicate = {};
   for my $replicate (keys %runs_by_replicate){
-     my ($condition, @others) = uniq map {$conditions_per_run->{$_}} @{$runs_by_replicate{$replicate}};
+     my ($condition, @others) = uniq map {$conditions_by_run->{$_}} @{$runs_by_replicate{$replicate}};
      die "$replicate ambiguous condition: $condition @others" if @others; 
-     $conditions_per_replicate->{$replicate} = $condition;
+     $conditions_by_replicate->{$replicate} = $condition;
   }
-  my %replicates_by_condition =  %{reverse_hoa($conditions_per_replicate)};
+  my %replicates_by_condition =  %{reverse_hoa($conditions_by_replicate)};
 
   my %characteristics_varying_across_conditions;
   my %characteristics_varying_within_any_condition;
   my %characteristics_varying_within_any_replicate;
   for my $characteristic (@{$characteristics_in_order}){
      $characteristics_varying_across_conditions{$characteristic} 
-          += -1 + uniq map {$characteristics_per_run->{$_}{$characteristic}} keys %{$replicates_per_run};
+          += -1 + uniq map {$characteristics_by_run->{$_}{$characteristic}} keys %{$replicates_by_run};
      for my $replicate (keys %runs_by_replicate){
         $characteristics_varying_within_any_replicate{$characteristic} 
-          += -1 + uniq map {$characteristics_per_run->{$_}{$characteristic}} @{$runs_by_replicate{$replicate}};
+          += -1 + uniq map {$characteristics_by_run->{$_}{$characteristic}} @{$runs_by_replicate{$replicate}};
      }
      for my $condition (keys %replicates_by_condition){
         $characteristics_varying_within_any_condition{$characteristic} 
-          += -1 + uniq map {$characteristics_per_run->{$_}{$characteristic}} map {@{$runs_by_replicate{$_}}} @{$replicates_by_condition{$condition}};
+          += -1 + uniq map {$characteristics_by_run->{$_}{$characteristic}} map {@{$runs_by_replicate{$_}}} @{$replicates_by_condition{$condition}};
      }
   }
   my %characteristics = (by_run => {}, by_replicate => {}, by_condition => {}, common => {});
@@ -82,33 +91,33 @@ sub from_data_by_run {
 #### %characteristics_varying_within_any_condition
 #### %characteristics_varying_within_any_replicate
 #### %characteristics_varying_across_conditions
-#### $characteristics_per_run
+#### $characteristics_by_run
 
   for my $characteristic (@{$characteristics_in_order}){
     if ($characteristics_varying_within_any_replicate{$characteristic}){
-      for my $run_id (keys %{$characteristics_per_run}){
-         $characteristics{by_run}{$run_id}{$characteristic} = $characteristics_per_run->{$run_id}{$characteristic} // ""; 
+      for my $run_id (keys %{$characteristics_by_run}){
+         $characteristics{by_run}{$run_id}{$characteristic} = $characteristics_by_run->{$run_id}{$characteristic} // ""; 
       }
     } elsif ($characteristics_varying_within_any_condition{$characteristic}){
       for my $replicate (keys %runs_by_replicate){
-         my ($value, @others) = uniq map {$characteristics_per_run->{$_}{$characteristic}} @{$runs_by_replicate{$replicate}};
+         my ($value, @others) = uniq map {$characteristics_by_run->{$_}{$characteristic}} @{$runs_by_replicate{$replicate}};
 ### require: not @others
          $characteristics{by_replicate}{$replicate}{$characteristic} = $value // "";
       }
     } elsif($characteristics_varying_across_conditions{$characteristic}) {
       for my $condition (keys %replicates_by_condition){
-         my ($value, @others) = uniq map {$characteristics_per_run->{$_}{$characteristic}} map {@{$runs_by_replicate{$_}}} @{$replicates_by_condition{$condition}};
+         my ($value, @others) = uniq map {$characteristics_by_run->{$_}{$characteristic}} map {@{$runs_by_replicate{$_}}} @{$replicates_by_condition{$condition}};
 ### require: not @others
          $characteristics{by_condition}{$condition}{$characteristic} = $value // ""; 
       }
     } else {
-      my ($value, @others) = uniq map {$characteristics_per_run->{$_}{$characteristic}} keys %{$conditions_per_run};
+      my ($value, @others) = uniq map {$characteristics_by_run->{$_}{$characteristic}} keys %{$conditions_by_run};
 ### require: defined $value
 ### require: not @others
       $characteristics{common}{$characteristic} = $value;
     }
   }
-  return new(__PACKAGE__, conditions_per_replicate => $conditions_per_replicate, replicates_per_run => $replicates_per_run, values => \%characteristics, characteristics_in_order => $characteristics_in_order);
+  return new(__PACKAGE__, conditions_by_replicate => $conditions_by_replicate, replicates_by_run => $replicates_by_run, values => \%characteristics, characteristics_in_order => $characteristics_in_order);
 }
 sub common_value {
    my ($self, $characteristic) = @_;
@@ -128,7 +137,7 @@ sub value_in_condition {
 sub value_in_replicate {
    my ($self, $replicate, $characteristic) = @_;
 #### value in replicate: $replicate, $characteristic
-   my $value_in_replicate = $self->value_in_condition($self->{conditions_per_replicate}{$replicate}, $characteristic);
+   my $value_in_replicate = $self->value_in_condition($self->{conditions_by_replicate}{$replicate}, $characteristic);
    $value_in_replicate //= $self->{values}{by_replicate}{$replicate}{$characteristic} if $self->{values}{by_replicate}{$replicate};
 #### $value_in_replicate
    return $value_in_replicate;
@@ -136,15 +145,15 @@ sub value_in_replicate {
 sub value_in_run {
    my ($self, $run_id, $characteristic) = @_;
 #### value in run: $run_id, $characteristic
-   my $value_in_run = $self->value_in_replicate($self->{replicates_per_run}{$run_id}, $characteristic);
+   my $value_in_run = $self->value_in_replicate($self->{replicates_by_run}{$run_id}, $characteristic);
    $value_in_run //= $self->{values}{by_run}{$run_id}{$characteristic} if $self->{values}{by_run}{$run_id};
 #### $value_in_run
    return $value_in_run;
 }
 sub runs_by_condition_then_replicate {
   my ($self) = @_;
-  my $h = reverse_hoa($self->{replicates_per_run});
-  my $H = reverse_hoa($self->{conditions_per_replicate});
+  my $h = reverse_hoa($self->{replicates_by_run});
+  my $H = reverse_hoa($self->{conditions_by_replicate});
   my %result;
   for my $condition (keys %{$H}){
      for my $replicate (@{$H->{$condition}}){
@@ -165,11 +174,11 @@ sub runs_by_condition {
   my %result = pairmap {$a => [ map { @$_ } values %{$b} ]} %{shift->runs_by_condition_then_replicate};
   return \%result;
 }
-sub conditions_per_run {
+sub conditions_by_run {
   my ($self) = @_;
   my %result;
-  while (my ($run, $replicate) = each %{$self->{replicates_per_run}}){
-    $result{$run} = $self->{conditions_per_replicate}{$replicate};
+  while (my ($run, $replicate) = each %{$self->{replicates_by_run}}){
+    $result{$run} = $self->{conditions_by_replicate}{$replicate};
   } 
   return \%result;
 }
@@ -197,7 +206,7 @@ sub all_conditions {
   my @a = uniq map {$_->[0]} shift->condition_replicate_run_ordered_triples;
   return @a;
 }
-sub characteristics_per_run {
+sub characteristics_by_run {
   my ($self) = @_;
   my @all_runs = $self->all_runs;
   my %result;

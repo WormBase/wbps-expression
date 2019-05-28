@@ -2,19 +2,19 @@ use strict;
 use warnings;
 use Test::More;
 use WbpsExpression::Analysis::QualityWarnings;
-use WbpsExpression::Model::Design;
+use WbpsExpression::Study::Design;
 use List::MoreUtils qw/zip/;
 use List::Util qw/pairs/;
 
 sub test_warnings_per_condition {
-  my ($design_tsv, $qc_issues_by_run, $expected_num_issues, $test_name) = @_;
+  my ($design_tsv, $qc_issues_per_run, $expected_num_issues, $test_name) = @_;
   
-  my $design = WbpsExpression::Model::Design::from_tsv(\$design_tsv);
+  my $design = WbpsExpression::Study::Design::from_tsv(\$design_tsv);
   my $conditions_ordered = [$design->all_conditions];
 
   my ($conditions_amended_names, $warnings) = 
      WbpsExpression::Analysis::QualityWarnings::conditions_amended_names_and_warnings_for_per_condition_analysis(
-     $design, $qc_issues_by_run, $conditions_ordered,
+     $design, $qc_issues_per_run, $conditions_ordered,
   );
   subtest $test_name => sub {
     is_deeply([sort keys %$conditions_amended_names], $conditions_ordered, "All conditions as keys") or diag explain $conditions_amended_names;
@@ -24,9 +24,9 @@ sub test_warnings_per_condition {
   };
 }
 sub test_warnings_per_contrast {
-  my ($design_tsv, $qc_issues_by_run, $expected_num_issues,$expected_warning_lines, $test_name) = @_;
+  my ($design_tsv, $qc_issues_per_run, $expected_num_issues,$expected_warning_lines, $test_name) = @_;
 
-  my $design = WbpsExpression::Model::Design::from_tsv(\$design_tsv);
+  my $design = WbpsExpression::Study::Design::from_tsv(\$design_tsv);
   my $conditions_ordered = [$design->all_conditions];
   my @contrasts = map {
     my ($r, $t) = @{$_};
@@ -34,7 +34,7 @@ sub test_warnings_per_contrast {
   } pairs @{$conditions_ordered};
   my ($amended_contrasts, $warnings) = 
     WbpsExpression::Analysis::QualityWarnings::amended_contrasts_and_warnings_for_per_contrast_analysis(
-      $design, $qc_issues_by_run, \@contrasts 
+      $design, $qc_issues_per_run, \@contrasts 
   );
   subtest $test_name => sub {
     is_deeply([map {$_->[0]} @{$amended_contrasts}], [ map {$_->[0]} @contrasts], "references in contrasts not changed");

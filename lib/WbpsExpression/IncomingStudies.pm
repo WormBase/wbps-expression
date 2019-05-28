@@ -1,24 +1,22 @@
 use strict;
 use warnings;
+
 package WbpsExpression::IncomingStudies;
-use WbpsExpression::IncomingStudies::Sheets;
 use WbpsExpression::IncomingStudies::CurationDefaults;
-use WbpsExpression::Model::Study;
-use WbpsExpression::Model::SkippedRuns;
-use PublicResources::Rnaseq;
+use WbpsExpression::IncomingStudies::RnaseqerResults;
+use WbpsExpression::IncomingStudies::StudyMetadata;
+use WbpsExpression::IncomingStudies::SampleAttributes;
+use WbpsExpression::Study;
 use File::Basename qw/dirname/;
 use File::Slurp qw/read_dir write_file/;
 use File::Path qw/make_path/;
-use List::Util qw/first/;
-use List::MoreUtils qw/uniq/;
+use List::Util qw/first pairmap/;
+use List::MoreUtils qw/uniq singleton duplicates/;
+use Log::Any qw/$log/;
+
+use Data::Compare;
+
 # use Smart::Comments '###';
-sub new {
-  my ($class, $sheets, $public_rnaseq_studies) = @_;
-  return bless {
-     sheets => $sheets,
-     public_rnaseq_studies => $public_rnaseq_studies,
-  }, $class;
-}
 
 #Add to me for unit testing
 our %exceptions = (
@@ -29,106 +27,125 @@ our %exceptions = (
   "SRP152065" => "M. incognita IARI study, two controls two replicates",
 );
 
-sub should_reject_study {
-  my ($self, $public_study_record) = @_;
-  return not ($exceptions{$public_study_record->{study_id}}) && @{$public_study_record->{runs}//[]} < 6;
+sub same_runs {
+  my ( $xs, $ys ) = @_;
+  return Compare( uniq sort $xs, uniq sort $ys);
 }
 
-# I could be more complicated
-# e.g. get the median number of characteristics in a study, reject if three times fewer?
-sub should_reject_run {
-  my ($study, $run) = @_;
-  return not(grep {$_} values %{$run->{characteristics}});
-}
-
-sub fetch_studies {
-  my ($self, $public_study_records, $current_studies, $current_skipped_runs_per_study_id) = @_;
-  my @studies;
-  my @skipped_runs;
-  for my $study (@{$public_study_records}){
-#### fetch_studies: $study
-    my $current_record = $current_studies->{$study->{study_id}};
-    my $should_reject_all = $self->should_reject_study($study);
-    my @should_reject_runs = map {
-      $_->{run_id}
-    } grep {
-      $should_reject_all || should_reject_run($study, $_)
-    } @{$study->{runs}};
-
-    my @current_skipped_runs = @{ $current_skipped_runs_per_study_id->{$study->{study_id}}{runs}//[]};
-    my %runs_to_skip = map {$_ => 1} (@should_reject_runs, @current_skipped_runs);
-#### @current_skipped_runs
-    if ($current_record and not $ENV{RECREATE_ALL_SKIPPED_RUNS}){
-       delete $runs_to_skip{$_} for $current_record->{design}->all_runs;
-    #### Remaining: sort keys %runs_to_skip
-    }
-
-    my @remaining_runs = grep {not $runs_to_skip{$_->{run_id}}} @{$study->{runs}};
-
-    if (%runs_to_skip){
-      my $config = @remaining_runs ? {} : &WbpsExpression::IncomingStudies::CurationDefaults::config_base(%$study);
-      push @skipped_runs, WbpsExpression::Model::SkippedRuns->new($study->{study_id}, $config, [keys %runs_to_skip]);
-    }
-    if (@remaining_runs){
-      $study->{runs} = \@remaining_runs; 
-      $study = &WbpsExpression::IncomingStudies::CurationDefaults::study(%$study);
-      if ($current_record and WbpsExpression::Model::Study::config_matches_design_checks($current_record->{config}, $study->{design}) and not $ENV{RECREATE_ALL_CONFIGS}){
-        $study->{config}{contrasts} = $current_record->{config}{contrasts};
-        $study->{config}{condition_names} = $current_record->{config}{condition_names};
-        # Additionally, characteristics in the current record were already reused
-        # because they provided sources of attributes for the runs - see PublicResources::Rnaseq
-      }
-      push @studies, $study;
-    }
-  };
-  return \@studies, \@skipped_runs;
-}
-sub run_checks {
-  my ($self, @studies) = @_;
-  my @failed_checks;
-  my @passed_checks;
-  for my $study (@studies){
-    if($study->passes_checks){
-       push @passed_checks, $study;
-    } else {
-       push @failed_checks, $study;
-    }
+sub subhash {
+  my ( $h, @keys ) = @_;
+  my %result;
+  for my $key (@keys) {
+    $result{$key} = $h->{$key};
   }
-  return \@failed_checks, \@passed_checks;
+  return \%result;
 }
 
-sub fetch_all {
-  my ($self, $species, $assembly) = @_;
-  unlink $self->{sheets}->path("ignore_studies", "$species.tsv");
-  my @public_study_records = sort {$a->{study_id} cmp $b->{study_id} } $self->{public_rnaseq_studies}->get($species, $assembly);  
-  my %data_files;
-  for my $public_study_record (@public_study_records){
-     for my $run (@{$public_study_record->{runs}}){
-        $data_files{$public_study_record->{study_id}}{$run->{run_id}} = { 
-          %{$run->{data_files}},
-          qc_issues => $_->{qc_issues},
-        };
+sub design_and_skipped_runs_from_data_by_run_and_previous_values {
+  my ($characteristics_by_run, $replicates_by_run, $design_now, $skipped_runs_now) = @_;
+
+  # Skipped runs stay skipped
+  delete $characteristics_by_run->{$_} for @{$skipped_runs_now};
+  
+  my @skipped_runs;
+  for my $run_id (keys %{$replicates_by_run}){
+     unless ($characteristics_by_run->{$run_id}){
+        delete $replicates_by_run->{$run_id};
+        push @skipped_runs, $run_id;
      }
   }
-  my ($our_studies, $skipped_runs_in_our_studies, $other_studies) = $self->{sheets}->read_directories($species);
-  my %current_studies = map {$_->{study_id}=> $_} @{$our_studies};
-  my %current_skipped_runs_per_study_id  = map {$_->{study_id}=> $_} (@{$skipped_runs_in_our_studies}, @{$other_studies});
+  
+  my %flattened = map {pairmap {"$a\t$b" => $a} %{$_}} values %{$characteristics_by_run};
+  my @characteristic_types_varying_in_study = sort {$a cmp $b} duplicates values %flattened;
+  my @characteristic_types_constant_across_study = sort {$a cmp $b} singleton values %flattened;
+  my $characteristics_in_order = [@characteristic_types_varying_in_study, @characteristic_types_constant_across_study];
 
-  my ($selected_studies, $skipped_runs_in_studies)  = $self->fetch_studies(\@public_study_records, \%current_studies, \%current_skipped_runs_per_study_id);
-
-  for my $study (@{$selected_studies}){
-     $study->to_folder($self->{sheets}->path("studies", $species, $study->{study_id}));
+  my $conditions_by_run_now = $design_now->conditions_by_run;
+  my %conditions_by_run;
+  for my $run_id (keys %{$replicates_by_run}){
+    $conditions_by_run{$run_id} = 
+      $conditions_by_run_now->{$run_id}
+      || $characteristics_by_run->{$run_id}{sample_name}
+      || join(", ", grep {$_} map {
+            my $k = $_;
+            my $v = $characteristics_by_run->{$run_id}{$k};
+            $v =~ /^[A-Z0-9]{1,6}$/ && length $k < 10 ? "$k $v" : $v
+         } (@characteristic_types_varying_in_study 
+            || qw/developmental_stage age sex host_infection organism_part strain isolate treatment rnai irradiation plane_of_amputation rnai_feedings/
+         ))
+      || $replicates_by_run->{$run_id};
   }
-  for my $skipped_runs_in_study (@{$skipped_runs_in_studies}){
-     $skipped_runs_in_study->to_folder($self->{sheets}->path("skipped_runs", $species, $skipped_runs_in_study->{study_id}));
+
+  my $design = keys %{$replicates_by_run} ? WbpsExpression::Study::Design::from_data_by_run($replicates_by_run, \%conditions_by_run, $characteristics_by_run, $characteristics_in_order): WbpsExpression::Study::Design::empty;
+  return $design, \@skipped_runs;
+}
+sub update_study_with_results {
+  my ( $path, $species, $study_id, $source_dirs_by_run, $replicates_by_run ) = @_;
+
+  my ( $design, $skipped_runs, $sources);
+  my $study_now = WbpsExpression::Study->from_folder($path);
+  if ( $study_now and same_runs(
+      [ $study_now->all_runs],
+      [ keys %$source_dirs_by_run ]
+    )) {
+    $design       = $study_now->{design};
+    $skipped_runs = $study_now->{skipped_runs};
+  } elsif  ( keys %{$source_dirs_by_run} < 6 and not $exceptions{$study_id} ){
+    $design = WbpsExpression::Study::Design::empty;
+    $skipped_runs = [sort keys %{$source_dirs_by_run}];
+  } else {
+    # New study, or more rarely there were runs added to the study
+    my $design_now = $study_now ? $study_now->{design} : WbpsExpression::Study::Design::empty;
+    my $skipped_runs_now = $study_now ? $study_now->{skipped_runs} : [];
+    my $characteristics_by_run = WbpsExpression::IncomingStudies::SampleAttributes::characteristics_by_run($species, $study_id);
+
+    ( $design, $skipped_runs ) = design_and_skipped_runs_from_data_by_run_and_previous_values(
+      $characteristics_by_run,
+      $replicates_by_run,
+      $design_now, $skipped_runs_now
+    );
   }
+  my $study_metadata =
+    $study_now 
+    ? subhash( $study_now->{config},
+    qw/title description submitting_centre pubmed condition_names/ )
+    : WbpsExpression::IncomingStudies::StudyMetadata::get( $species, $study_id );
 
-  my @other_studies = grep {
-     my $skipped_study_id = $_->{study_id};
-     my $found = grep {$skipped_study_id eq $_->{study_id}} @{$selected_studies};
-     not $found
-  } @{$skipped_runs_in_studies};
+  my $contrasts =
+    WbpsExpression::IncomingStudies::CurationDefaults::contrasts($design);
+  my $category =
+    WbpsExpression::IncomingStudies::CurationDefaults::category( $design, $contrasts );
 
-  return ($selected_studies, \@other_studies, \%data_files);
+  my $config = { %{$study_metadata}, contrasts => $contrasts, category => $category};
+
+  my $study =
+    WbpsExpression::Study->new($study_id, $design, $config, $skipped_runs, $source_dirs_by_run );
+#### $study
+  $study->to_folder($path);
+  return $study;
+}
+
+sub update_studies {
+  my ( $studies_dir, $species, $assembly ) = @_;
+  my @studies;
+  my @other_studies;
+  my $rnaseqer_results_by_study_id = WbpsExpression::IncomingStudies::RnaseqerResults::get_results_by_study($species);
+#### $rnaseqer_results_by_study_id
+  for my $study_id (sort keys %{$rnaseqer_results_by_study_id}){
+    next unless $assembly eq $rnaseqer_results_by_study_id->{$study_id}{assembly_used};
+    my $study_path = join("/", $studies_dir, $species, $study_id);
+    my $study = update_study_with_results($study_path, $species, $study_id,
+       $rnaseqer_results_by_study_id->{$study_id}{source_dirs_by_run},
+       $rnaseqer_results_by_study_id->{$study_id}{replicates_by_run},
+    );
+    my $passes_checks = $study->passes_checks;
+    $log->info( __PACKAGE__ . ": Study failing checks - see $study_path") unless $passes_checks;
+    if ( not $study->{design}->is_empty and $passes_checks) {
+       push @studies, $study;
+    } else {
+      push @other_studies, $study;
+    }
+  }
+  return ( \@studies, \@other_studies );
 }
 1;

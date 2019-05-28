@@ -3,12 +3,12 @@ use warnings;
 
 package WbpsExpression::Analysis::QualityWarnings;
 use List::Util qw/pairmap pairs pairgrep uniq/;
-use WbpsExpression::Model::Design;
+use WbpsExpression::Study::Design;
 
 sub conditions_amended_names_and_warnings_for_per_condition_analysis {
-    my ( $design, $qc_issues_by_run, $conditions_ordered ) = @_;
+    my ( $design, $qc_issues_per_run, $conditions_ordered ) = @_;
     my ( $low_qc_by_condition, $low_replicate_by_condition ) =
-      low_qc_and_replicate_by_condition( $design, $qc_issues_by_run,
+      low_qc_and_replicate_by_condition( $design, $qc_issues_per_run,
         $conditions_ordered );
     my %conditions_amended_names;
     my @warnings;
@@ -26,10 +26,10 @@ sub conditions_amended_names_and_warnings_for_per_condition_analysis {
 }
 
 sub amended_contrasts_and_warnings_for_per_contrast_analysis {
-    my ( $design, $qc_issues_by_run, $contrasts ) = @_;
+    my ( $design, $qc_issues_per_run, $contrasts ) = @_;
     my @conditions_ordered = uniq map { ( $_->[0], $_->[1] ) } @{$contrasts};
     my ( $low_qc_by_condition, $low_replicate_by_condition ) =
-      low_qc_and_replicate_by_condition( $design, $qc_issues_by_run,
+      low_qc_and_replicate_by_condition( $design, $qc_issues_per_run,
         \@conditions_ordered );
 
     my @amended_contrasts;

@@ -28,7 +28,7 @@ sub to_html {
   }
 
   $skip_tmpl->param(STUDYDESCRIPTION => join("\n<br>", @description));
-  $skip_tmpl->param(NUMRUNS => scalar @{$study->{runs}});
+  $skip_tmpl->param(NUMRUNS => scalar keys %{$study->{sources}});
   
   return $skip_tmpl->output;
 }

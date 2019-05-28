@@ -2,118 +2,12 @@ use strict;
 use warnings;
 
 package WbpsExpression::IncomingStudies::CurationDefaults;
-use PublicResources::Rnaseq;
 use List::Util qw/pairmap/;
 use List::MoreUtils qw/uniq all any/;
-use WbpsExpression::Model::Study;
-use WbpsExpression::Model::Design;
+use WbpsExpression::Study;
+use WbpsExpression::Study::Design;
 use Data::Compare;
 # use Smart::Comments '###';
-
-my @bad_sample_ids = qw/
-SAMN04493423
-SAMN02905866
-SAMN07419665
-SAMN07419666
-SAMN07419667
-SAMN07419668
-SAMN07419669
-SAMN07419670
-SAMN07419671
-SAMN07419672
-SAMN07419673
-SAMN07419674
-SAMN07419675
-SAMN07419676
-SAMN07419677
-SAMN07419678
-SAMN07419679
-SAMN07419680
-SAMN07183177
-SAMN07183178
-SAMN07183179
-SAMN07183180
-SAMN07183181
-SAMEA104150061
-SAMEA104150062
-SAMEA104150063
-SAMEA3317218
-SAMN07445501
-SAMN00993128
-SAMN00993129
-SAMN00993130
-SAMN04535280
-SAMN04535281
-SAMN04535282
-SAMN04535283
-SAMN04535284
-SAMN04535285
-SAMN07490271
-SAMN07490272
-SAMN07490273
-SAMN09845968
-SAMN09845969
-SAMN09845970
-SAMN09845971
-SAMN09845972
-SAMN09845973
-SAMN01090422
-SAMN07759026
-SAMN07759027
-SAMN00773780
-SAMN00779726
-SAMN00779727
-SAMN00779728
-SAMN03393004
-SAMN03393005
-SAMN03393006
-SAMN03393007
-SAMN03393008
-SAMN03393009
-SAMN03393010
-SAMN03393011
-SAMN03393012
-SAMN01831633
-SAMN01831652
-SAMN01831653
-SAMN01831654
-SAMN09602973
-SAMN09713929
-SAMN09711864
-/;
-
-sub design_from_runs {
-  my (@runs) = @_;
-  my %conditions_per_run =
-    map { ( $_->{run_id}, $_->{run_description_short} ) } @runs;
-  my %replicates_per_run = map { 
-    my $run_id = $_->{run_id};
-    my $replicate = $_->{sample_id};
-    $replicate = $run_id if grep { $_ eq $replicate } @bad_sample_ids;
-    ($run_id, $replicate) } @runs;
-
-  # If no extra information in the samples, skip them
-  if (Compare([values %replicates_per_run] , [ uniq values %replicates_per_run ])){
-    %replicates_per_run = map { ( $_->{run_id}, $_->{run_id}) } @runs;
-  }
-  my %characteristics_per_run =
-    map { ( $_->{run_id}, $_->{characteristics} ) } @runs;
-  my @characteristics_in_order =
-    uniq sort { $a cmp $b } map { keys %{ $_->{characteristics} } } @runs;
-  return WbpsExpression::Model::Design::from_data_by_run( \%replicates_per_run, \%conditions_per_run,
-    \%characteristics_per_run, \@characteristics_in_order );
-}
-
-sub condition_names {
-  my (@runs) = @_;
-  my %result;
-  for my $run (@runs) {
-    my ( $rs, $rf ) =
-      ( $run->{run_description_short}, $run->{run_description_full} );
-    $result{$rs} = $rf unless $rs eq $rf;
-  }
-  return \%result;
-}
 
 # adapted from Math::Subsets::List 1.008
 sub subsets {
@@ -389,7 +283,7 @@ my %treatment_categories = (
   rnai_feedings => 1,
 );
 sub category {
-  my ($design, $contrasts, $title) = @_;
+  my ($design, $contrasts) = @_;
   my @chs        = $design->characteristics_varying_by_condition;
   return "Other" if (
     any {@{$_} < 2 } values %{ $design->replicates_by_condition}
@@ -413,20 +307,5 @@ sub category {
    $mentions_cell_type && ! $mentions_treatment
   );
   return "Other";
-}
-sub study {
-  my (%args) = @_;
-  my $design = design_from_runs( @{ $args{runs} } );
-  my $contrasts = contrasts($design);
-  return WbpsExpression::Model::Study->new(
-    $args{study_id},
-    $design,
-    {
-      %{ config_base(%args) },
-      category => category($design, $contrasts, $args{study_description_short}),
-      condition_names => condition_names( @{ $args{runs} } ),
-      contrasts       => $contrasts,
-    }
-  );
 }
 1;

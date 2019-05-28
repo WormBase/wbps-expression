@@ -5,6 +5,7 @@ use File::Slurp qw/read_dir/;
 use WbpsExpression::Analysis::Common;
 use LWP;
 use Log::Any '$log';
+use Scalar::Util qw/looks_like_number/;
 # use Smart::Comments '###';
 my $CAN_SEE_EBI_FILESYSTEM = -d "/nfs/ftp";
 
@@ -34,6 +35,9 @@ sub read_file_into_hash {
   my %result;
   my $fh = open_read_fh($path);
   my $header = <$fh>;
+  chomp $header;
+  my ($k, $v) = split "\t", $header;
+  $result{$k} = $v if $k and $v and $k ne 'Gene' and looks_like_number $v;
   while(<$fh>){
     chomp;
     my ($k, $v) = split "\t";

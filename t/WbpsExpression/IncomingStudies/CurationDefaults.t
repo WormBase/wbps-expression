@@ -1,6 +1,6 @@
 use Test::More;
 use WbpsExpression::IncomingStudies::CurationDefaults;
-use WbpsExpression::Model::Design;
+use WbpsExpression::Study::Design;
 sub test_subsets {
   my @actual = WbpsExpression::IncomingStudies::CurationDefaults::subsets(@_);
   ok(@actual == 2**@_, "Subsets: @_") or diag explain \@actual;
@@ -12,7 +12,7 @@ test_subsets("apple", "banana", "pear");
 
 sub contrasts_as_expected {
   my ($design_tsv, $expected, $test_name) = @_;
-  my $actual = WbpsExpression::IncomingStudies::CurationDefaults::contrasts(WbpsExpression::Model::Design::from_tsv(\$design_tsv));
+  my $actual = WbpsExpression::IncomingStudies::CurationDefaults::contrasts(WbpsExpression::Study::Design::from_tsv(\$design_tsv));
   is_deeply($actual, $expected, $test_name) or warn explain $actual, $expected;
 }
 contrasts_as_expected("Run\tCondition\n", [], "null case");
