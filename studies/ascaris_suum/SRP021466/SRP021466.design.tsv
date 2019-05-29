@@ -1,36 +1,37 @@
-Run	Sample	Condition	developmental_stage	sample_name	source_name	strain	timepoint
-SRR833355	SAMN02054496	embryo, 1 day	embryo			North American wild population	1 day
-SRR833356	SAMN02054496	embryo, 1 day	embryo			North American wild population	1 day
-SRR833357	SAMN02054496	embryo, 1 day	embryo			North American wild population	1 day
-SRR833348	SAMN02054491	embryo, 116 hours	embryo			North American wild population	116 hours
-SRR833344	SAMN02054487	embryo, 2h hours	embryo			North American wild population	2h hours
-SRR833358	SAMN02054497	embryo, 3 days	embryo			North American wild population	3 days
-SRR833359	SAMN02054497	embryo, 3 days	embryo			North American wild population	3 days
-SRR833360	SAMN02054497	embryo, 3 days	embryo			North American wild population	3 days
-SRR833345	SAMN02054488	embryo, 46 hours	embryo			North American wild population	46 hours
-SRR833361	SAMN02054498	embryo, 5 days	embryo			North American wild population	5 days
-SRR833362	SAMN02054498	embryo, 5 days	embryo			North American wild population	5 days
-SRR833363	SAMN02054498	embryo, 5 days	embryo			North American wild population	5 days
-SRR833346	SAMN02054489	embryo, 64 hours	embryo			North American wild population	64 hours
-SRR1029600	SAMN02402359	embryo, 64 hours	embryo			North American wild population	64 hours
-SRR1029599	SAMN02402360	embryo, 64 hours	embryo			North American wild population	64 hours
-SRR833349	SAMN02054492	embryo, 7 days	embryo			North American wild population	7 days
-SRR833364	SAMN02054499	embryo, 7 days	embryo			North American wild population	7 days
-SRR833365	SAMN02054499	embryo, 7 days	embryo			North American wild population	7 days
-SRR833366	SAMN02054499	embryo, 7 days	embryo			North American wild population	7 days
-SRR833347	SAMN02054490	embryo, 96 hours	embryo			North American wild population	96 hours
-SRR833350	SAMN02054493	larvae, L1	larvae			North American wild population	L1
-SRR1029596	SAMN02402364	oocyte - ribozero	female germline	oocyte - ribozero	oocyte	North American wild population	
-SRR1029595	SAMN02402366	oocyte - total	female germline	oocyte - total	oocyte	North American wild population	
-SRR833339	SAMN02054482	oocyte with wall	female germline	oocyte with wall	oocyte with wall	North American wild population	
-SRR1029594	SAMN02402361	oocyte with wall - ribozero	female germline	oocyte with wall - ribozero	oocyte with wall	North American wild population	
-SRR1029593	SAMN02402362	oocyte with wall - total	female germline	oocyte with wall - total	oocyte with wall	North American wild population	
-SRR833340	SAMN02054483	zygote	zygote			North American wild population	
-SRR833341	SAMN02054484	zygote	zygote			North American wild population	
-SRR833342	SAMN02054485	zygote	zygote			North American wild population	
-SRR833343	SAMN02054486	zygote	zygote			North American wild population	
-SRR833352	SAMN02054495	zygote	zygote			North American wild population	
-SRR833353	SAMN02054495	zygote	zygote			North American wild population	
-SRR833354	SAMN02054495	zygote	zygote			North American wild population	
-SRR1029597	SAMN02402363	zygote	zygote			North American wild population	
-SRR1029598	SAMN02402365	zygote	zygote			North American wild population	
+Run	Sample	Condition	developmental_stage	sample_name	strain	timepoint
+SRR833355	SAMN02054496	embryo, 1 day	embryo		North American wild population	1 day
+SRR833356	SAMN02054496	embryo, 1 day	embryo		North American wild population	1 day
+SRR833357	SAMN02054496	embryo, 1 day	embryo		North American wild population	1 day
+SRR833348	SAMN02054491	embryo, 116 hours	embryo		North American wild population	116 hours
+SRR833344	SAMN02054487	embryo, 2h hours	embryo		North American wild population	2h hours
+SRR833358	SAMN02054497	embryo, 3 days	embryo		North American wild population	3 days
+SRR833359	SAMN02054497	embryo, 3 days	embryo		North American wild population	3 days
+SRR833360	SAMN02054497	embryo, 3 days	embryo		North American wild population	3 days
+SRR833345	SAMN02054488	embryo, 46 hours	embryo		North American wild population	46 hours
+SRR833361	SAMN02054498	embryo, 5 days	embryo		North American wild population	5 days
+SRR833362	SAMN02054498	embryo, 5 days	embryo		North American wild population	5 days
+SRR833363	SAMN02054498	embryo, 5 days	embryo		North American wild population	5 days
+SRR833346	SAMN02054489	embryo, 64 hours	embryo		North American wild population	64 hours
+SRR1029600	SAMN02402359	embryo, 64 hours	embryo		North American wild population	64 hours
+SRR1029599	SAMN02402360	embryo, 64 hours	embryo		North American wild population	64 hours
+SRR833349	SAMN02054492	embryo, 7 days	embryo		North American wild population	7 days
+SRR833364	SAMN02054499	embryo, 7 days	embryo		North American wild population	7 days
+SRR833365	SAMN02054499	embryo, 7 days	embryo		North American wild population	7 days
+SRR833366	SAMN02054499	embryo, 7 days	embryo		North American wild population	7 days
+SRR833347	SAMN02054490	embryo, 96 hours	embryo		North American wild population	96 hours
+SRR833350	SAMN02054493	L1	larvae		North American wild population	L1
+SRR833351	SRR833351	L2	larvae	L2	North American wild population	L2
+SRR1029596	SAMN02402364	oocyte - ribozero	female germline	oocyte - ribozero	North American wild population	
+SRR1029595	SAMN02402366	oocyte - total	female germline	oocyte - total	North American wild population	
+SRR833339	SAMN02054482	oocyte with wall	female germline	oocyte with wall	North American wild population	
+SRR1029594	SAMN02402361	oocyte with wall - ribozero	female germline	oocyte with wall - ribozero	North American wild population	
+SRR1029593	SAMN02402362	oocyte with wall - total	female germline	oocyte with wall - total	North American wild population	
+SRR833340	SAMN02054483	zygote	zygote		North American wild population	
+SRR833341	SAMN02054484	zygote	zygote		North American wild population	
+SRR833342	SAMN02054485	zygote	zygote		North American wild population	
+SRR833343	SAMN02054486	zygote	zygote		North American wild population	
+SRR833352	SAMN02054495	zygote	zygote		North American wild population	
+SRR833353	SAMN02054495	zygote	zygote		North American wild population	
+SRR833354	SAMN02054495	zygote	zygote		North American wild population	
+SRR1029597	SAMN02402363	zygote	zygote		North American wild population	
+SRR1029598	SAMN02402365	zygote	zygote		North American wild population	
