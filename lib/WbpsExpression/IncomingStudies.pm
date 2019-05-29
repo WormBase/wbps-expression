@@ -119,7 +119,7 @@ sub update_study_with_results {
     $_ => {
       quality => $quality_by_run->{$_},
       location => $location_by_run->{$_},
-      end => $study_now->{sources}{$_}{end} // WbpsExpression::IncomingStudies::RnaseqerFtp::get_end_for_run($_, $location_by_run->{$_}),
+      end => ( $study_now && $study_now->{sources}{$_}{end} ) || WbpsExpression::IncomingStudies::RnaseqerFtp::get_end_for_run($_, $location_by_run->{$_}),
     }
   } @all_runs;
 
