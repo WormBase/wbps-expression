@@ -21,18 +21,14 @@ Log::Any::Adapter->set('Log4perl');
 ### This part is WormBase ParaSite specific
 use ProductionMysql;
 my @core_dbs = ProductionMysql->staging->core_databases(@ARGV);
-my $data_dir = "/nfs/nobackup/ensemblgenomes/wormbase/parasite/production/jbrowse/WBPS$ENV{PARASITE_VERSION}";
-my $src_dir = "$FindBin::Bin/..";
-my $work_dir = "$data_dir/Production-".`whoami`;
+my $work_dir = "/nfs/nobackup/ensemblgenomes/wormbase/parasite/production/jbrowse/WBPS$ENV{PARASITE_VERSION}/Production-".`whoami`;
 chomp $work_dir;
 
-my $processing = WbpsExpression->new("$data_dir/Resources",$src_dir);
 for my $core_db (@core_dbs) {
   my ($spe, $cies, $bp ) = split "_", $core_db;
   next if $bp eq 'core';
-  next unless "$data_dir/Resources/${spe}_${cies}";
   my $assembly = ProductionMysql->staging->meta_value($core_db, "assembly.name");
   my $species = join ("_", $spe, $cies, $bp);
-  $processing->run("${spe}_${cies}", $assembly, "$work_dir/$species");
+  WbpsExpression::run("${spe}_${cies}", $assembly, "$work_dir/$species");
   $ENV{DO_DEPLOY_WEB} and print `sudo -u wormbase rsync --delete -av $work_dir/$species/  /ebi/ftp/pub/databases/wormbase/parasite/web_data/rnaseq_studies/releases/next/$species/`;
 } 

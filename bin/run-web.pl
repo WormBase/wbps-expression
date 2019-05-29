@@ -11,6 +11,4 @@ use WbpsExpression;
 my ($species, $output_dir) = @ARGV;
 die "Usage: $0 species output_dir" unless $species and $output_dir;
 
-my $src_dir = "$FindBin::Bin/..";
-
-WbpsExpression->new("",$src_dir)->run_web_only($species, $output_dir);
+WbpsExpression::run_web_only($species, $output_dir);

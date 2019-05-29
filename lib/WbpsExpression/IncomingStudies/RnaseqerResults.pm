@@ -15,7 +15,8 @@ use File::Slurp qw(read_file read_dir);
 # 
 # { study_id -> {
 #     assembly_used,
-#     source_dirs_by_run :: {location -> URL, end -> "pe|se", quality -> Int},
+#     location_by_run :: {Run -> URL},
+#     quality_by_run :: {Run -> Int},
 #     replicates_by_run :: {Run -> Replicate}
 #   }
 # }
@@ -27,42 +28,6 @@ sub get_json {
   die "$url error:" . $response->status_line . "\n"
     unless $response->is_success;
   return $response->decoded_content && decode_json($response->decoded_content);
-}
-
-my $CAN_SEE_EBI_FILESYSTEM = -d "/nfs/ftp";
-
-sub get_ftp_dir {
-  my ($url) = @_;
- if ($CAN_SEE_EBI_FILESYSTEM and $url =~ m{ftp://ftp.ebi.ac.uk}){
-    # Use a shortcut
-    # Not exactly the same: EBI's ftp server replies with ls -l output
-	(my $local = $url) =~ s{ftp://ftp.ebi.ac.uk}{/nfs/ftp};
-	$log->info("RnaseqerResults::get_ftp_dir read_dir $local");
-	return join "\n", read_dir $local;
-  } else {
-	$log->info("RnaseqerResults::get_ftp_dir LWP::get $url");
-    my $response = LWP::UserAgent->new->get($url);
-	die "$url error:" . $response->status_line . "\n"
-	  unless $response->is_success;
-	return $response->decoded_content;
-  }
-}
-
-sub get_end_for_run {
-  my ($ftp_path, $run_id) = @_;
-  my $listing = get_ftp_dir($ftp_path);
-  my @files = map {basename $_} $listing =~ /($run_id\..*)/g;
-  my $pe = grep { /^$run_id.pe/ } @files;
-  my $se = grep { /^$run_id.se/ } @files;
-  my $end = ($pe xor $se ) 
-    ? $pe ? "pe" : "se"
-    : die $listing;
-#### @files
-#### $end
-  die "No counts: $ftp_path" unless grep {$_ eq "$run_id.$end.genes.raw.htseq2.tsv"} @files;  
-  die "No TPMs: $ftp_path" unless grep {$_ eq "$run_id.$end.genes.tpm.htseq2.irap.tsv"} @files;  
-  die "No bigwig: $ftp_path" unless grep {$_ eq "$run_id.nospliced.bw"} @files;
-  return $end;
 }
 
 sub get_results_by_study {
@@ -77,17 +42,14 @@ sub get_results_by_study {
     my $assembly_used = value_for_newest_key(map {
        $_->{LAST_PROCESSED_DATE} => $_->{ASSEMBLY_USED}
     } @runs);
-    my %source_dirs_by_run;
+    my %location_by_run;
+    my %quality_by_run;
     for my $run (@runs){
 #### $run
       my $run_id = $run->{RUN_IDS};
-      my $ftp_path = dirname ($run->{BIGWIG_LOCATION});
-      $source_dirs_by_run{$run_id} = $run->{ASSEMBLY_USED} eq $assembly_used ? {
-        location => $ftp_path,
-        end => get_end_for_run($ftp_path, $run_id),
-        quality => $run->{MAPPING_QUALITY},
-      } : {};
-    } 
+      $location_by_run{$run_id} = dirname ($run->{BIGWIG_LOCATION});
+      $quality_by_run{$run_id} = $run->{MAPPING_QUALITY};
+    }
     my %runs_by_sample;
     for (@runs){
        push @{$runs_by_sample{$_->{SAMPLE_IDS}}} , $_->{RUN_IDS};
@@ -102,7 +64,8 @@ sub get_results_by_study {
     }
     $result{$study_id} = {
        assembly_used => $assembly_used,
-       source_dirs_by_run => \%source_dirs_by_run,
+       location_by_run=> \%location_by_run,
+       quality_by_run=> \%quality_by_run,
        replicates_by_run => \%replicates_by_run,
     };
   }

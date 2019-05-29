@@ -4,6 +4,7 @@ use warnings;
 package WbpsExpression::IncomingStudies;
 use WbpsExpression::IncomingStudies::CurationDefaults;
 use WbpsExpression::IncomingStudies::RnaseqerResults;
+use WbpsExpression::IncomingStudies::RnaseqerFtp;
 use WbpsExpression::IncomingStudies::StudyMetadata;
 use WbpsExpression::IncomingStudies::SampleAttributes;
 use WbpsExpression::Study;
@@ -69,7 +70,7 @@ sub design_and_skipped_runs_from_data_by_run_and_previous_values {
       || join(", ", grep {$_} map {
             my $k = $_;
             my $v = $characteristics_by_run->{$run_id}{$k};
-            $v =~ /^[A-Z0-9]{1,6}$/ && length $k < 10 ? "$k $v" : $v
+            $v && $v =~ /^[A-Z0-9]{1,6}$/ && length $k < 10 ? "$k $v" : $v
          } (@characteristic_types_varying_in_study 
             || qw/developmental_stage age sex host_infection organism_part strain isolate treatment rnai irradiation plane_of_amputation rnai_feedings/
          ))
@@ -80,19 +81,27 @@ sub design_and_skipped_runs_from_data_by_run_and_previous_values {
   return $design, \@skipped_runs;
 }
 sub update_study_with_results {
-  my ( $path, $species, $study_id, $source_dirs_by_run, $replicates_by_run ) = @_;
-
+  my ( $path, $species, $study_id, $location_by_run, $quality_by_run, $replicates_by_run ) = @_;
+  my @all_runs = sort keys %$location_by_run;
   my ( $design, $skipped_runs, $sources);
   my $study_now = WbpsExpression::Study->from_folder($path);
   if ( $study_now and same_runs(
       [ $study_now->all_runs],
-      [ keys %$source_dirs_by_run ]
+      \@all_runs,
     )) {
     $design       = $study_now->{design};
     $skipped_runs = $study_now->{skipped_runs};
-  } elsif  ( keys %{$source_dirs_by_run} < 6 and not $exceptions{$study_id} ){
+# Original curation used 30 as minimum quality. Take them.
+  } elsif ($study_now and same_runs([$study_now->{design}->all_runs], grep {$quality_by_run->{$_} >= 30 } @all_runs)) {
+    $design = $study_now->{design};
+    $skipped_runs = [grep {my $run= $_; not (grep {$run eq $_} $study_now->{design}->all_runs)} @all_runs]; 
+# Skipped studies stay skipped
+  } elsif  ( $study_now and $study_now->{design}->is_empty){
     $design = WbpsExpression::Study::Design::empty;
-    $skipped_runs = [sort keys %{$source_dirs_by_run}];
+    $skipped_runs = \@all_runs;
+  } elsif  ( keys %{$location_by_run} < 6 and not $exceptions{$study_id} ){
+    $design = WbpsExpression::Study::Design::empty;
+    $skipped_runs = \@all_runs;
   } else {
     # New study, or more rarely there were runs added to the study
     my $design_now = $study_now ? $study_now->{design} : WbpsExpression::Study::Design::empty;
@@ -105,6 +114,16 @@ sub update_study_with_results {
       $design_now, $skipped_runs_now
     );
   }
+
+  my %sources = map {
+    $_ => {
+      quality => $quality_by_run->{$_},
+      location => $location_by_run->{$_},
+      end => $study_now->{sources}{$_}{end} // WbpsExpression::IncomingStudies::RnaseqerFtp::get_end_for_run($_, $location_by_run->{$_}),
+    }
+  } @all_runs;
+
+
   my $study_metadata =
     $study_now 
     ? subhash( $study_now->{config},
@@ -119,7 +138,7 @@ sub update_study_with_results {
   my $config = { %{$study_metadata}, contrasts => $contrasts, category => $category};
 
   my $study =
-    WbpsExpression::Study->new($study_id, $design, $config, $skipped_runs, $source_dirs_by_run );
+    WbpsExpression::Study->new($study_id, $design, $config, $skipped_runs, \%sources);
 #### $study
   $study->to_folder($path);
   return $study;
@@ -135,7 +154,8 @@ sub update_studies {
     next unless $assembly eq $rnaseqer_results_by_study_id->{$study_id}{assembly_used};
     my $study_path = join("/", $studies_dir, $species, $study_id);
     my $study = update_study_with_results($study_path, $species, $study_id,
-       $rnaseqer_results_by_study_id->{$study_id}{source_dirs_by_run},
+       $rnaseqer_results_by_study_id->{$study_id}{location_by_run},
+       $rnaseqer_results_by_study_id->{$study_id}{quality_by_run},
        $rnaseqer_results_by_study_id->{$study_id}{replicates_by_run},
     );
     my $passes_checks = $study->passes_checks;

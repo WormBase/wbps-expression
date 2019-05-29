@@ -86,6 +86,7 @@ sub write_skipped_runs {
 
 sub read_sources {
   my ($path) = @_;
+  return {} unless -s $path;
   open(my $fh, "<", $path) or die "$!: $path";
   my ($header, @xs) = <$fh>;
   warn "Study::read_sources bad header at $path" if $header ne "Run\tLocation\tEnd\tQuality\n";
@@ -173,8 +174,8 @@ sub run_ids_checks {
   return (
      "All runs in design have a source dir " . join(", ", @runs_design_no_sources) => ! @runs_design || ! @runs_design_no_sources,
      "All skipped runs have a source dir " . join(", ", @runs_skipped_no_sources) => ! @runs_skipped || ! @runs_skipped_no_sources,
-     "No more source dirs" => scalar @runs_design + scalar @runs_sources == scalar keys %{$self->{sources}},
-     "No runs are both in design and skipped" => ! @runs_design || scalar uniq grep {my $run_design = $_; grep {$_ eq $run_design} @runs_skipped} @runs_design,
+     "No more source dirs" => @runs_design + @runs_skipped == @runs_sources,
+     "No duplicates between design and skipped" => not duplicates (@runs_design, @runs_skipped),
   );
   #todo: design + skipped_runs = results
 }

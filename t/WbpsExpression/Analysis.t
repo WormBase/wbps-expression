@@ -14,7 +14,7 @@ my $tmp = tempdir(CLEANUP => 1);
 make_path "$tmp/in/SRR3209257";
 
 write_file "$tmp/in/SRR3209257/SRR3209257.pe.genes.raw.htseq2.tsv", <<"EOF";
-mk4.000000.02	188
+mk4.000000.02	0
 mk4.000000.03	207
 mk4.000000.08	0
 EOF
@@ -47,7 +47,7 @@ WbpsExpression::Analysis::run("$tmp/out", $study);
 
 my $expected = <<"EOF";
 gene_id	SRR3209257
-mk4.000000.02	188
+mk4.000000.02	0
 mk4.000000.03	207
 mk4.000000.08	0
 ---

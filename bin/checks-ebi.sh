@@ -15,4 +15,4 @@ fi
 #  echo "Your R doesn't have DESeq2 installed: " $(which R)
 # fi
 
-PERL5LIB="$ROOT_DIR/lib:$ROOT_DIR/local/lib/perl5" prove $ROOT_DIR/t/curation.t "$@"
+PERL5LIB="$ROOT_DIR/lib:$ROOT_DIR/local/lib/perl5" perl $ROOT_DIR/t/curation.t "$@"

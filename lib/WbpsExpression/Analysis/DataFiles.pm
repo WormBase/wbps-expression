@@ -37,7 +37,7 @@ sub read_file_into_hash {
   my $header = <$fh>;
   chomp $header;
   my ($k, $v) = split "\t", $header;
-  $result{$k} = $v if $k and $v and $k ne 'Gene' and looks_like_number $v;
+  $result{$k} = $v if $k and $k ne 'Gene' and looks_like_number $v;
   while(<$fh>){
     chomp;
     my ($k, $v) = split "\t";
