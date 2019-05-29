@@ -8,6 +8,8 @@ use XML::Simple;
 use Log::Any '$log';
 use List::Util qw/uniq/;
 
+# use Smart::Comments '###';
+
 # Returns a hash:
 # ena_first_public
 # ena_last_update
@@ -22,6 +24,7 @@ sub get_study_metadata {
   my ($study_id) = @_;
   my $data_for_study = &xml_to_data_for_study(
     get_xml("https://www.ebi.ac.uk/ena/data/view/$study_id&display=xml") );
+#### $data_for_study
   if ( $data_for_study->{bioproject} ) {
     my ( $submitting_centre, $pubmed_refs, $resource_links) =
       &xml_to_data_for_bioproject(get_xml(
@@ -30,19 +33,15 @@ sub get_study_metadata {
       ));
 
     #TODO more useful stuff: maybe the descriptions?
-    $data_for_study->{pubmed_refs} = [
-      sort uniq ( @{$pubmed_refs}, @{ $data_for_study->{pubmed_refs} } )
-    ];
-    $data_for_study->{resource_links} = [
-      sort uniq ( @{$resource_links},
-        @{ $data_for_study->{resource_links} } )
-    ];
+    $data_for_study->{pubmed_refs} = [sort {$a cmp $b} uniq ( @{$pubmed_refs // []}, @{ $data_for_study->{pubmed_refs} //[] })];
+    $data_for_study->{resource_links} = [sort {$a cmp $b } uniq (@{$resource_links//[]}, @{ $data_for_study->{resource_links} //[] })];
     $data_for_study->{submitting_centre} ||= $submitting_centre;
 
   }
   if ( $data_for_study->{attributes}{submitting_centre} and $data_for_study->{attributes}{submitting_centre} =~ /^null$/i ) {
     delete $data_for_study->{attributes}{submitting_centre};
   }
+#### $data_for_study
   return $data_for_study;
 }
 
@@ -66,7 +65,8 @@ sub _url_link {
 }
 
 sub extract_pubmed_refs_and_resource_links {
-  my $links = shift;
+  my ($links) = @_;
+#### $links
   my @pubmed_refs;
   my @resource_links;
   for my $link ( @{ $links // [] } ) {
@@ -85,6 +85,8 @@ sub extract_pubmed_refs_and_resource_links {
       #probably a link to an ENA something - skip
     }
   }
+#### @pubmed_refs
+#### @resource_links
   return \@pubmed_refs, \@resource_links;
 }
 
