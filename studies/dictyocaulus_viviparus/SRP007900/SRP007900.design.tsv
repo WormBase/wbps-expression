@@ -1,30 +1,25 @@
-Run	Sample	Condition	developmental_stage	sex
-SRR1022505	SAMN02389078	Hypobiotic larvae (Lhyp)	Hypobiotic larvae (Lhyp)	
-SRR1566554	SAMN02389078	Hypobiotic larvae (Lhyp)	Hypobiotic larvae (Lhyp)	
-SRR332582	SAMN00710413	L1 L2	L1 L2	
-SRR332586	SAMN00710413	L1 L2	L1 L2	
-SRR1566550	SAMN03022356	L1 larvae	L1 larvae	
-SRR1566552	SAMN03022360	L1 larvae	L1 larvae	
-SRR1568783	SAMN03022362	L1 larvae	L1 larvae	
-SRR1021574	SAMN02389075	L2 larvae	L2 larvae	
-SRR1566551	SAMN03022359	L2 larvae	L2 larvae	
-SRR1021576	SAMN02389073	L3 larvae	L3 larvae	
-SRR1566605	SAMN03022357	L3 larvae	L3 larvae	
-SRR1021572	SAMN02389077	L4 larvae	L4 larvae	
-SRR1566549	SAMN02389077	L4 larvae	L4 larvae	
-SRR1021579	SAMN02389081	L5 (adult female)	L5	female
-SRR1566553	SAMN03022361	L5 (adult female)	L5	female
-SRR1566595	SAMN03022363	L5 (adult female)	L5	female
-SRR1021575	SAMN02389080	L5 (adult male)	L5	male
-SRR1566555	SAMN03022364	L5 (adult male)	L5	male
-SRR1566604	SAMN03022365	L5 (adult male)	L5	male
-SRR1021578	SAMN02389079	L5 (adult mixed gender)	L5	mixed
-SRR1566542	SAMN03022358	L5 (adult)	L5 (adult)	
-SRR1021573	SAMN02389071	adult female	adult	female
-SRR1021580	SAMN02389076	adult female	adult	female
-SRR1021571	SAMN02389070	adult male	adult	male
-SRR1021728	SAMN02389072	adult male	adult	male
-SRR1793032	SAMN00710414	egg	egg	
-SRR332585	SAMN00710414	egg	egg	
-SRR332589	SAMN00710414	egg	egg	
-SRR1021595	SAMN02389074	egg	egg	
+Run	Sample	Condition	developmental_stage
+SRR1022505	SAMN02389078	Hypobiotic larvae (Lhyp)	Hypobiotic larvae (Lhyp)
+SRR1566554	SAMN02389078	Hypobiotic larvae (Lhyp)	Hypobiotic larvae (Lhyp)
+SRR1566550	SRR1566550	L1 larvae	L1 larvae
+SRR1566552	SRR1566552	L1 larvae	L1 larvae
+SRR1568783	SRR1568783	L1 larvae	L1 larvae
+SRR1021574	SRR1021574	L2 larvae	L2 larvae
+SRR1566551	SRR1566551	L2 larvae	L2 larvae
+SRR1021576	SRR1021576	L3 larvae	L3 larvae
+SRR1566605	SRR1566605	L3 larvae	L3 larvae
+SRR1021572	SAMN02389077	L4 larvae	L4 larvae
+SRR1566549	SAMN02389077	L4 larvae	L4 larvae
+SRR1021579	SRR1021579	L5 (adult female)	L5 (adult female)
+SRR1566553	SRR1566553	L5 (adult female)	L5 (adult female)
+SRR1566595	SRR1566595	L5 (adult female)	L5 (adult female)
+SRR1021575	SRR1021575	L5 (adult male)	L5 (adult male)
+SRR1566555	SRR1566555	L5 (adult male)	L5 (adult male)
+SRR1566604	SRR1566604	L5 (adult male)	L5 (adult male)
+SRR1021578	SRR1021578	L5 (adult mixed gender)	L5 (adult mixed gender)
+SRR1566542	SRR1566542	L5 (adult)	L5 (adult)
+SRR1021573	SRR1021573	adult female	adult female
+SRR1021580	SRR1021580	adult female	adult female
+SRR1021571	SRR1021571	adult male	adult male
+SRR1021728	SRR1021728	adult male	adult male
+SRR1021595	SRR1021595	egg	egg

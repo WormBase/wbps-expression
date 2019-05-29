@@ -2,7 +2,7 @@
 category: Other
 condition_names: {}
 contrasts:
-  - name: developmental_stage+sex
+  - name: developmental_stage
     values:
       -
         - L1 larvae
@@ -23,15 +23,11 @@ contrasts:
       -
         - L1 larvae
         - adult female
-        - 'L1 larvae vs adult, female'
+        - L1 larvae vs adult female
       -
         - L1 larvae
         - adult male
-        - 'L1 larvae vs adult, male'
-      -
-        - L1 larvae
-        - egg
-        - L1 larvae vs egg
+        - L1 larvae vs adult male
       -
         - L2 larvae
         - L5 (adult female)
@@ -51,7 +47,7 @@ contrasts:
       -
         - L5 (adult female)
         - L5 (adult male)
-        - 'adult ): female vs male'
+        - L5 (adult female) vs L5 (adult male)
       -
         - L5 (adult female)
         - adult female
@@ -61,10 +57,6 @@ contrasts:
         - adult male
         - L5 (adult female) vs adult male
       -
-        - L5 (adult female)
-        - egg
-        - L5 (adult female) vs egg
-      -
         - L5 (adult male)
         - adult female
         - L5 (adult male) vs adult female
@@ -72,10 +64,6 @@ contrasts:
         - L5 (adult male)
         - adult male
         - L5 (adult male) vs adult male
-      -
-        - L5 (adult male)
-        - egg
-        - L5 (adult male) vs egg
 description: Dictyocaulus viviparus Genome Sequencing
 pubmed:
   26856411:
