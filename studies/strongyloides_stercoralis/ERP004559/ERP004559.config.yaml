@@ -18,9 +18,9 @@ contrasts:
         - M9 buffer
         - "8-bromo-3',5'-cyclic GMP vs M9 buffer"
       -
-        - "8-bromo-3',5'-cyclic GMP"
         - No treatment
-        - "8-bromo-3',5'-cyclic GMP vs No treatment"
+        - "8-bromo-3',5'-cyclic GMP"
+        - "No treatment vs 8-bromo-3',5'-cyclic GMP"
       -
         - "8-bromo-3',5'-cyclic GMP"
         - delta(7)-DA
@@ -30,17 +30,17 @@ contrasts:
         - M9 buffer
         - DMEM vs M9 buffer
       -
-        - DMEM
         - No treatment
-        - DMEM vs No treatment
+        - DMEM
+        - No treatment vs DMEM
       -
         - DMEM
         - delta(7)-DA
         - DMEM vs delta(7)-DA
       -
-        - M9 buffer
         - No treatment
-        - M9 buffer vs No treatment
+        - M9 buffer
+        - No treatment vs M9 buffer
       -
         - M9 buffer
         - delta(7)-DA
