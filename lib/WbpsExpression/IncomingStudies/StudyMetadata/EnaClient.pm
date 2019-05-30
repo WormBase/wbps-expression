@@ -8,7 +8,7 @@ use XML::Simple;
 use Log::Any '$log';
 use List::Util qw/uniq/;
 
-# use Smart::Comments '###';
+use Smart::Comments '###';
 
 # Returns a hash:
 # ena_first_public
@@ -18,7 +18,7 @@ use List::Util qw/uniq/;
 # resource_links // []
 # title // ""
 # description // ""
-# submitting_centre
+# submitting_centre // ""
 
 sub get_study_metadata {
   my ($study_id) = @_;
@@ -38,9 +38,10 @@ sub get_study_metadata {
     $data_for_study->{submitting_centre} ||= $submitting_centre;
 
   }
-  if ( $data_for_study->{attributes}{submitting_centre} and $data_for_study->{attributes}{submitting_centre} =~ /^null$/i ) {
-    delete $data_for_study->{attributes}{submitting_centre};
+  if ( $data_for_study->{submitting_centre} and $data_for_study->{submitting_centre} =~ /^null$/i ) {
+    delete $data_for_study->{submitting_centre};
   }
+  $data_for_study->{submitting_centre} //= "";
 #### $data_for_study
   return $data_for_study;
 }
@@ -110,6 +111,7 @@ sub determine_bioproject {
   my $payload = shift;
   my @bioprojects;
   my $ids = $payload->{STUDY}{IDENTIFIERS}{EXTERNAL_ID};
+#### $ids
 
   # XML::Simple is being a bit too simple
   # many ids -> array here: ERP016356
@@ -118,12 +120,12 @@ sub determine_bioproject {
   for my $identifier (@ids) {
     push @bioprojects, $identifier->{content}
       if uc( $identifier->{namespace} ) eq "BIOPROJECT"
-      and $identifier->{label} eq "primary";
+      and (not $identifier->{label} or $identifier->{label} eq "primary");
   }
   my ( $bioproject, @other_bioprojects ) = @bioprojects;
   $bioproject //= $payload->{STUDY}{IDENTIFIERS}{SECONDARY_ID};
   die join( " ",
-    $payload->{STUDY}{accession},
+    $payload->{STUDY}{accession} // "",
     ": could not determine BioProject",
     $bioproject, @other_bioprojects )
     if ( not $bioproject or @other_bioprojects );
@@ -135,6 +137,7 @@ sub determine_bioproject {
 sub xml_to_data_for_study {
   my $payload = shift;
   return {} unless $payload;
+  return {} unless $payload->{STUDY};
   my $ena_first_public = join( " ",
     map { $_->{TAG} eq 'ENA-FIRST-PUBLIC' ? $_->{VALUE} : () }
       @{ $payload->{STUDY}{STUDY_ATTRIBUTES}{STUDY_ATTRIBUTE} } );
@@ -145,7 +148,8 @@ sub xml_to_data_for_study {
   my $submitting_centre = (
     uc( $payload->{STUDY}{broker_name} // "" ) eq 'NCBI'
       and length( $payload->{STUDY}{center_name} ) < 10
-      or $payload->{STUDY}{center_name} eq "BioProject"
+    or not $payload->{STUDY}{center_name}
+    or $payload->{STUDY}{center_name} eq "BioProject"
   ) ? "" : $payload->{STUDY}{center_name};
 
   my ( $pubmed_refs, $resource_links ) =

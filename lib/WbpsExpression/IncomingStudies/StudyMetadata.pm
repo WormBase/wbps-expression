@@ -47,7 +47,8 @@ sub get {
   my @pubmed_ids_geo = WbpsExpression::IncomingStudies::StudyMetadata::GeoClient::get_pubmed_ids($study_id);
   my $pubmed_ids_extra = $pubmed_curated_ids->{$species}{$study_id};
   my %publication_title_and_description_per_pubmed_id = map {
-    $_ => WbpsExpression::IncomingStudies::StudyMetadata::PubMedClient::title_and_description_for_pubmed_id($species, $_)
+    my $xs = WbpsExpression::IncomingStudies::StudyMetadata::PubMedClient::title_and_description_for_pubmed_id($species, $_);
+    $xs ? ($_ => $xs) : ()
   } uniq @{$pubmed_ids_ena}, @pubmed_ids_geo, @{ $pubmed_curated_ids->{$species}{$study_id} //[]};
   $result->{pubmed} = \%publication_title_and_description_per_pubmed_id;
 

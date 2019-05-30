@@ -197,7 +197,7 @@ sub contrasts {
 #### All characteristics varying by conditions somewhere in the design: @chs
   my @result;
   die "Too many characteristics to iterate through subsets: @chs" if @chs > 10;
-  for my $s ( grep { @{$_} < 4 } subsets(@chs) ) {
+  for my $s ( grep { @{$_} < 4 and @{$_} > 0 } subsets(@chs) ) {
     my @subset_chs = @{$s};
 #### Characteristics - chosen: @subset_chs
     my @other_chs = grep {

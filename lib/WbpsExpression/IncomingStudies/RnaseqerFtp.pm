@@ -39,7 +39,7 @@ sub get_end_for_run {
     : die $listing;
 #### @files
 #### $end
-  die "No counts: $ftp_path" unless grep {$_ eq "$run_id.$end.genes.raw.htseq2.tsv"} @files;  
+  die "No counts: $ftp_path" unless grep {$_ eq "$run_id.$end.genes.raw.htseq2.tsv" } @files;  
   die "No TPMs: $ftp_path" unless grep {$_ eq "$run_id.$end.genes.tpm.htseq2.irap.tsv"} @files;  
   die "No bigwig: $ftp_path" unless grep {$_ eq "$run_id.nospliced.bw"} @files;
   return $end;

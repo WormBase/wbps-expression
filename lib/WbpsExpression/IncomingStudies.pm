@@ -12,7 +12,7 @@ use File::Basename qw/dirname/;
 use File::Slurp qw/read_dir write_file/;
 use File::Path qw/make_path/;
 use List::Util qw/first pairmap/;
-use List::MoreUtils qw/uniq singleton duplicates/;
+use List::MoreUtils qw/uniq singleton duplicates all/;
 use Log::Any qw/$log/;
 
 use Data::Compare;
@@ -125,10 +125,11 @@ sub update_study_with_results {
 
 
   my $study_metadata =
-    $study_now 
+    $study_now && ( all {$study_now->{config}{$_}} qw/title submitting_centre/ ) # should not be optional
     ? subhash( $study_now->{config},
     qw/title description submitting_centre pubmed condition_names/ )
     : WbpsExpression::IncomingStudies::StudyMetadata::get( $species, $study_id );
+  return unless $study_metadata;
 
   my $contrasts =
     WbpsExpression::IncomingStudies::CurationDefaults::contrasts($design);
@@ -158,6 +159,7 @@ sub update_studies {
        $rnaseqer_results_by_study_id->{$study_id}{quality_by_run},
        $rnaseqer_results_by_study_id->{$study_id}{replicates_by_run},
     );
+    next unless $study;
     my $passes_checks = $study->passes_checks;
     $log->info( __PACKAGE__ . ": Study failing checks - see $study_path") unless $passes_checks;
     if ( not $study->{design}->is_empty and $passes_checks) {

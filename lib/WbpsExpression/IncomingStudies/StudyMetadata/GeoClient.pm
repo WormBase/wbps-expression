@@ -32,7 +32,7 @@ sub get_pubmed_ids {
 
 sub session_bits_from_esearch_payload {
   my $payload = shift;
-  return if $payload->{WarningList}{OutputMessage} eq 'No items found.';
+  return if $payload->{WarningList}{OutputMessage} and $payload->{WarningList}{OutputMessage} eq 'No items found.';
 
   my $web = $payload->{WebEnv};
   my $key = $payload->{QueryKey};

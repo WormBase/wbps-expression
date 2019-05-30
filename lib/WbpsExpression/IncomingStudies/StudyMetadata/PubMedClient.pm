@@ -17,6 +17,7 @@ sub title_and_description_for_pubmed_id {
   die "$url error:" . $response->status_line . "\n"
     unless $response->is_success;
   my $payload_string = XMLin( $response->decoded_content );
+  return unless $payload_string; #rare but e.g. 30962434
   my $payload        = XMLin($payload_string);
 
 # Use regex because XML::Simple is being too simple and creates too much structure

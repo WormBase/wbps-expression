@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package WbpsExpression::Study::Design;
 use Text::CSV qw/csv/;
-use List::Util qw/pairmap all/;
+use List::Util qw/pairmap all pairs/;
 use List::MoreUtils qw/uniq /;
 use open ':encoding(utf8)';
 # use Smart::Comments '###';
@@ -66,7 +66,15 @@ sub from_data_by_run {
   my $conditions_by_replicate = {};
   for my $replicate (keys %runs_by_replicate){
      my ($condition, @others) = uniq map {$conditions_by_run->{$_}} @{$runs_by_replicate{$replicate}};
-     die "$replicate ambiguous condition: $condition @others" if @others; 
+     if(@others and $replicate =~ /\t/){
+       die "$replicate ambiguous condition, could not fix it: $condition @others";
+     } elsif (@others){
+        my %replicates_by_run_unreliable_originals = map {
+          my ($run, $replicate) = @$_;
+          $run => "$run\t$replicate"
+        } pairs %$replicates_by_run;
+        return from_data_by_run(\%replicates_by_run_unreliable_originals, $conditions_by_run, $characteristics_by_run, $characteristics_in_order);
+     }
      $conditions_by_replicate->{$replicate} = $condition;
   }
   my %replicates_by_condition =  %{reverse_hoa($conditions_by_replicate)};
@@ -230,6 +238,7 @@ sub to_tsv {
 #### $self
   for my $t (@ts){
      my ($condition, $replicate, $run) = @{$t};
+     $replicate =~ s/.*\t//; #see from_data_by_run
      print $fh join ("\t", $run, ($needs_three_columns ? $replicate : ()), $condition, map {$self->value_in_run($run, $_)} @a)."\n";
   }
   close $fh; 
@@ -243,6 +252,7 @@ sub data_quality_checks {
   my ($self) = @_;
   my %characteristics_by_replicate = %{$self->{values}{by_replicate}};
   my %characteristics_by_run = %{$self->{values}{by_run}};
+
   my @replicates_well_defined = pairmap {
     "Replicate $a should have uniform characteristics in runs @{$b}"
       => 2 > uniq map {$_ ? join("", sort %$_): ()} @characteristics_by_run{@{$b}} 
@@ -282,6 +292,8 @@ sub data_quality_checks {
        => (2 > $self->all_runs or 0 < $self->characteristics_varying_by_condition ),
      "If the study has fewer samples than replicates, it should have fewer conditions than samples"
        => ($num_runs < 2*$num_replicates || $num_conditions < $num_replicates ),
+     "Replicates group by condition and thus don't get ignored in from_data_by_run"
+       => (not $self->all_replicates or not grep {$_ =~ /\t/} $self->all_replicates),
      @replicates_well_defined,
      @conditions_well_defined,
      @conditions_unique,

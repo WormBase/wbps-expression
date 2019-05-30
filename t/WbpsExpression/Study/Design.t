@@ -99,15 +99,6 @@ sub tsv_well_formatted_but_fails_checks {
   test_design_formatting_and_checks(0, $tsv, $test_name);
 }
 
-sub tsv_dies_during_construction {
-  my ($tsv, $test_name) = @_;
-  $test_name //= "Dies during construction: " . describe_tsv($tsv);
-  eval {
-    WbpsExpression::Study::Design::from_tsv(\$tsv);
-  };
-  ok($@, $test_name);
-}
-
 tsv_well_formatted_but_fails_checks("Run\tCondition\n");
 tsv_well_formatted_but_fails_checks("Run\tCondition\torganism part\n");
 design_ok("Run\tCondition\torganism part\nSRR3209257\thead\thead\n");
@@ -159,7 +150,8 @@ design_ok($replicates_tsv);
 tsv_well_formatted_but_fails_checks( $replicates_tsv_incoherent_by_run,
   "data not assembling by replicate" );
 ( my $replicates_tsv_conditions_not_assembling_by_replicate = $replicates_tsv ) =~ s/tail_1/head_2/;
-tsv_dies_during_construction($replicates_tsv_conditions_not_assembling_by_replicate, "conditions not grouping by replicate - death");
+tsv_well_formatted_but_fails_checks($replicates_tsv_conditions_not_assembling_by_replicate,
+  "conditions not grouping by replicate" );
 
 my $two_factor_tsv = <<EOF;
 Run	Condition	organism	developmental stage	sex	organism part
