@@ -60,6 +60,11 @@ sub design_and_skipped_runs_from_data_by_run_and_previous_values {
   my @characteristic_types_varying_in_study = sort {$a cmp $b} duplicates values %flattened;
   my @characteristic_types_constant_across_study = sort {$a cmp $b} singleton values %flattened;
   my $characteristics_in_order = [@characteristic_types_varying_in_study, @characteristic_types_constant_across_study];
+  for my $run_id (keys %{$replicates_by_run}){
+    for my $ch (@{$characteristics_in_order}){
+       $characteristics_by_run->{$run_id}{$ch} //= "";
+    }
+  }
 
   my $conditions_by_run_now = $design_now->conditions_by_run;
   my %conditions_by_run;
