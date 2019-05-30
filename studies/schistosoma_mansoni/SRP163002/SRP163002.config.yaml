@@ -1,0 +1,51 @@
+---
+category: Response to treatment
+condition_names: ~
+contrasts:
+  - name: treatment+concentration
+    values:
+      -
+        - Passage 6
+        - 'Passage 6, PZQ'
+        - 'Passage 6 vs Passage 6, PZQ'
+      -
+        - Passage 7
+        - 'Passage 7, PZQ'
+        - 'Passage 7 vs Passage 7, PZQ'
+      -
+        - Passage 8
+        - 'Passage 8, PZQ'
+        - 'Passage 8 vs Passage 8, PZQ'
+  - name: Generation
+    values:
+      -
+        - 'Passage 6, PZQ'
+        - 'Passage 7, PZQ'
+        - 'PZQ: Passage 6 vs Passage 7'
+      -
+        - 'Passage 6, PZQ'
+        - 'Passage 8, PZQ'
+        - 'PZQ: Passage 6 vs Passage 8'
+      -
+        - 'Passage 7, PZQ'
+        - 'Passage 8, PZQ'
+        - 'PZQ: Passage 7 vs Passage 8'
+      -
+        - Passage 6
+        - Passage 7
+        - Passage 6 vs Passage 7
+      -
+        - Passage 6
+        - Passage 8
+        - Passage 6 vs Passage 8
+      -
+        - Passage 7
+        - Passage 8
+        - Passage 7 vs Passage 8
+description: ''
+pubmed:
+  30658180:
+    - 'Sanchez .. Cunningham, 2019'
+    - 'Transcriptomic analysis of reduced sensitivity to praziquantel in <i>Schistosoma mansoni</i>. (Sanchez .. Cunningham, 2019)'
+submitting_centre: 'Biology, University of New Mexico'
+title: Transcriptomic analysis of reduced sensitivity to praziquantel in Schistosoma mansoni
