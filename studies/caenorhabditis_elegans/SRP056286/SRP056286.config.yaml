@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'Enrichment of H3K9me2 on unsynapsed chromatin in C. elegans does not target de novo sites [RNA-Seq]'
 pubmed:
   26156747:

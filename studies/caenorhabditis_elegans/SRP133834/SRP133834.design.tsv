@@ -1,0 +1,74 @@
+Run	Condition	description_title	timepoint	treatment	medium	source_name	strain	temperature
+SRR6799134	SRR6799134	OP_L2_rep1	L2 (6h)	OP50	mNGM	whole body	N2/Wide type	20C
+SRR6799135	SRR6799135	OP_L3_rep1	L3 (24h)	OP50	mNGM	whole body	N2/Wide type	20C
+SRR6799136	SRR6799136	OP_L4_rep1	L4 (48h)	OP50	mNGM	whole body	N2/Wide type	20C
+SRR6799137	SRR6799137	OP_ad1_rep1	adults (72h)	OP50	mNGM	whole body	N2/Wide type	20C
+SRR6799138	SRR6799138	OP_ad3_rep1	adults (3 days)	OP50	mNGM	whole body	N2/Wide type	20C
+SRR6799139	SRR6799139	OP_ad7_rep1	adults (7 days)	OP50	mNGM	whole body	N2/Wide type	20C
+SRR6799140	SRR6799140	MYb71_L2_rep1	L2 (6h)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799141	SRR6799141	MYb71_L3_rep1	L3 (24h)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799142	SRR6799142	MYb71_L4_rep1	L4 (48h)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799143	SRR6799143	MYb71_ad1_rep1	adults (72h)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799144	SRR6799144	MYb71_ad3_rep1	adults (3 days)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799145	SRR6799145	MYb71_ad7_rep1	adults (7 days)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799146	SRR6799146	MYb65_L2_rep1	L2 (6h)	MYb65	mNGM	whole body	N2/Wide type	20C
+SRR6799147	SRR6799147	MYb65_L3_rep1	L3 (24h)	MYb65	mNGM	whole body	N2/Wide type	20C
+SRR6799148	SRR6799148	MYb65_L4_rep1	L4 (48h)	MYb65	mNGM	whole body	N2/Wide type	20C
+SRR6799149	SRR6799149	MYb65_ad1_rep1	adults (72h)	MYb65	mNGM	whole body	N2/Wide type	20C
+SRR6799150	SRR6799150	MYb65_ad3_rep1	adults (3 days)	MYb65	mNGM	whole body	N2/Wide type	20C
+SRR6799152	SRR6799152	OP_L2_rep2	L2 (6h)	OP50	mNGM	whole body	N2/Wide type	20C
+SRR6799153	SRR6799153	OP_L3_rep2	L3 (24h)	OP50	mNGM	whole body	N2/Wide type	20C
+SRR6799155	SRR6799155	OP_ad1_rep2	adults (72h)	OP50	mNGM	whole body	N2/Wide type	20C
+SRR6799156	SRR6799156	OP_ad3_rep2	adults (3 days)	OP50	mNGM	whole body	N2/Wide type	20C
+SRR6799157	SRR6799157	OP_ad7_rep2	adults (7 days)	OP50	mNGM	whole body	N2/Wide type	20C
+SRR6799158	SRR6799158	Mix_L2_rep1	L2 (6h)	Mix	mNGM	whole body	N2/Wide type	20C
+SRR6799159	SRR6799159	Mix_L3_rep1	L3 (24h)	Mix	mNGM	whole body	N2/Wide type	20C
+SRR6799161	SRR6799161	Mix_ad1_rep1	adults (72h)	Mix	mNGM	whole body	N2/Wide type	20C
+SRR6799162	SRR6799162	Mix_ad3_rep1	adults (3 days)	Mix	mNGM	whole body	N2/Wide type	20C
+SRR6799163	SRR6799163	Mix_ad7_rep1	adults (7 days)	Mix	mNGM	whole body	N2/Wide type	20C
+SRR6799164	SRR6799164	MYb71_L2_rep2	L2 (6h)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799165	SRR6799165	MYb71_L3_rep2	L3 (24h)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799166	SRR6799166	MYb71_L4_rep2	L4 (48h)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799167	SRR6799167	MYb71_ad1_rep2	adults (72h)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799168	SRR6799168	MYb71_ad3_rep2	adults (3 days)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799169	SRR6799169	MYb71_ad7_rep2	adults (7 days)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799170	SRR6799170	MYb65_L2_rep2	L2 (6h)	MYb65	mNGM	whole body	N2/Wide type	20C
+SRR6799171	SRR6799171	MYb65_L3_rep2	L3 (24h)	MYb65	mNGM	whole body	N2/Wide type	20C
+SRR6799173	SRR6799173	MYb65_ad1_rep2	adults (72h)	MYb65	mNGM	whole body	N2/Wide type	20C
+SRR6799176	SRR6799176	OP_L2_rep3	L2 (6h)	OP50	mNGM	whole body	N2/Wide type	20C
+SRR6799177	SRR6799177	OP_L3_rep3	L3 (24h)	OP50	mNGM	whole body	N2/Wide type	20C
+SRR6799178	SRR6799178	Mix_L2_rep2	L2 (6h)	Mix	mNGM	whole body	N2/Wide type	20C
+SRR6799179	SRR6799179	Mix_L3_rep2	L3 (24h)	Mix	mNGM	whole body	N2/Wide type	20C
+SRR6799180	SRR6799180	Mix_L4_rep2	L4 (48h)	Mix	mNGM	whole body	N2/Wide type	20C
+SRR6799181	SRR6799181	Mix_ad1_rep2	adults (72h)	Mix	mNGM	whole body	N2/Wide type	20C
+SRR6799183	SRR6799183	Mix_ad7_rep2	adults (7 days)	Mix	mNGM	whole body	N2/Wide type	20C
+SRR6799184	SRR6799184	MYb71_L2_rep3	L2 (6h)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799185	SRR6799185	MYb71_L3_rep3	L3 (24h)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799186	SRR6799186	MYb71_L4_rep3	L4 (48h)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799187	SRR6799187	MYb71_ad1_rep3	adults (72h)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799188	SRR6799188	MYb71_ad3_rep3	adults (3 days)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799189	SRR6799189	MYb71_ad7_rep3	adults (7 days)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799190	SRR6799190	MYb65_ad1_rep3	adults (72h)	MYb65	mNGM	whole body	N2/Wide type	20C
+SRR6799191	SRR6799191	MYb65_ad3_rep3	adults (3 days)	MYb65	mNGM	whole body	N2/Wide type	20C
+SRR6799192	SRR6799192	MYb65_ad7_rep3	adults (7 days)	MYb65	mNGM	whole body	N2/Wide type	20C
+SRR6799193	SRR6799193	OP_L2_rep4	L2 (6h)	OP50	mNGM	whole body	N2/Wide type	20C
+SRR6799194	SRR6799194	OP_L3_rep4	L3 (24h)	OP50	mNGM	whole body	N2/Wide type	20C
+SRR6799195	SRR6799195	OP_L4_rep3	L4 (48h)	OP50	mNGM	whole body	N2/Wide type	20C
+SRR6799196	SRR6799196	OP_ad1_rep3	adults (72h)	OP50	mNGM	whole body	N2/Wide type	20C
+SRR6799197	SRR6799197	OP_ad3_rep3	adults (3 days)	OP50	mNGM	whole body	N2/Wide type	20C
+SRR6799198	SRR6799198	OP_ad7_rep3	adults (7 days)	OP50	mNGM	whole body	N2/Wide type	20C
+SRR6799199	SRR6799199	Mix_L2_rep3	L2 (6h)	Mix	mNGM	whole body	N2/Wide type	20C
+SRR6799200	SRR6799200	Mix_L3_rep3	L3 (24h)	Mix	mNGM	whole body	N2/Wide type	20C
+SRR6799201	SRR6799201	Mix_L4_rep3	L4 (48h)	Mix	mNGM	whole body	N2/Wide type	20C
+SRR6799202	SRR6799202	Mix_ad1_rep3	adults (72h)	Mix	mNGM	whole body	N2/Wide type	20C
+SRR6799203	SRR6799203	Mix_ad3_rep3	adults (3 days)	Mix	mNGM	whole body	N2/Wide type	20C
+SRR6799204	SRR6799204	Mix_ad7_rep3	adults (7 days)	Mix	mNGM	whole body	N2/Wide type	20C
+SRR6799205	SRR6799205	MYb71_L2_rep4	L2 (6h)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799206	SRR6799206	MYb71_L3_rep4	L3 (24h)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799207	SRR6799207	MYb71_L4_rep4	L4 (48h)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799208	SRR6799208	MYb71_ad1_rep4	adults (72h)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799209	SRR6799209	MYb71_ad3_rep4	adults (3 days)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799210	SRR6799210	MYb71_ad7_rep4	adults (7 days)	MYb71	mNGM	whole body	N2/Wide type	20C
+SRR6799211	SRR6799211	MYb65_L2_rep3	L3 (24h)	MYb65	mNGM	whole body	N2/Wide type	20C
+SRR6799213	SRR6799213	MYb65_ad1_rep4	adults (72h)	MYb65	mNGM	whole body	N2/Wide type	20C
+SRR6799214	SRR6799214	MYb65_ad3_rep4	adults (3 days)	MYb65	mNGM	whole body	N2/Wide type	20C

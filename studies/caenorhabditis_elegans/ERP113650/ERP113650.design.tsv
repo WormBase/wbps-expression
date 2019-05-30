@@ -1,0 +1,7 @@
+Run	Condition	alias	description	synonym	title	cell_type	developmental_stage	ena_checklist	insdc_center_alias
+ERR3148075	ERR3148075	1	GFP positive CEPsh glia, repeat 1	1	GFP positive CEPsh glia, repeat 1			ERC000011	THE ROCKEFELLER UNIVERSITY
+ERR3148076	ERR3148076	2	GFP positive CEPsh glia, repeat 2	2	GFP positive CEPsh glia, repeat 2	CEPsh glia	Mix larvae stages (L2-L3)	ERC000011	THE ROCKEFELLER UNIVERSITY
+ERR3148077	ERR3148077	3	GFP positive CEPsh glia, repeat 3	3	GFP positive CEPsh glia, repeat 3	CEPsh glia	Mix larvae stages (L2-L3)	ERC000011	THE ROCKEFELLER UNIVERSITY
+ERR3148078	ERR3148078	4	GFP negative cells, repeat 1	4	GFP negative cells, repeat 1		Mix larvae stages (L2-L3)	ERC000011	THE ROCKEFELLER UNIVERSITY
+ERR3148079	ERR3148079	5	GFP negative cells, repeat 2	5	GFP negative cells, repeat 2		Mix larvae stages (L2-L3)	ERC000011	THE ROCKEFELLER UNIVERSITY
+ERR3148080	ERR3148080	6	GFP negative cells, repeat 3	6	GFP negative cells, repeat 3		Mix larvae stages (L2-L3)	ERC000011	THE ROCKEFELLER UNIVERSITY

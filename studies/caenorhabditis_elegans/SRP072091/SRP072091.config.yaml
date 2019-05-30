@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Transcriptional profile of C. elegans fed E. coli (OP50) and B. subtilis (PY79)
 pubmed:
   27070429:

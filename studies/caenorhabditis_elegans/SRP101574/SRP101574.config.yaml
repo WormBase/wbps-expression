@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'RNAseq of C. elegans N2 raised on LB- and M9-cultured E. coli MG1655'
 pubmed: ~
 submitting_centre: Baylor College of Medicine

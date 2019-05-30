@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'Chromatin accessibility dynamics across C. elegans development and ageing [scap]'
 pubmed:
   30362940:

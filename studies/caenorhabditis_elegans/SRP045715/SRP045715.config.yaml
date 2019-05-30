@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: RNA-seq of C.elegans treated with bcat-1 RNAi and controls
 pubmed:
   26620638:

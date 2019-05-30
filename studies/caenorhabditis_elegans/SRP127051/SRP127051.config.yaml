@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Hypoxia-inducible factor cell non-autonomously regulates C. elegans stress responses and behavior via a nuclear receptor
 pubmed:
   30010540:

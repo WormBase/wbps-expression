@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: mRNAs that co-purify with OMA-1 in the C. elegans germline (sequencing)
 pubmed:
   25261697:

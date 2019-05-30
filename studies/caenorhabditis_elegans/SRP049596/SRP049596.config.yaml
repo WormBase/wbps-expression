@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: RNA-seq analysis of germline stem cell removal and loss of SKN-1 in C. elegans
 pubmed:
   26196144:

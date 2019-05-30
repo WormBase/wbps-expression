@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: mRNA-seq comparison of N2 and tps1;tps2 double mutants with and without trehalose supplementation
 pubmed:
   29063832:

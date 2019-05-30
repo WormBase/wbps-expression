@@ -57,6 +57,12 @@ contrasts:
         - WRS
         - inbred ISE
         - WRS vs inbred ISE
+  - name: sex+strain
+    values:
+      -
+        - 'adult, female, inbred ISE'
+        - 'adult, male, inbred ISE'
+        - 'adult, female, inbred ISE vs adult, male, inbred ISE'
   - name: developmental_stage+sex
     values:
       -
@@ -69,60 +75,20 @@ contrasts:
         - 'inbred ISE: L1 vs adult, female'
       -
         - 'L1, inbred ISE'
-        - 'adult, male, inbred ISE'
-        - 'inbred ISE: L1 vs adult, male'
-      -
-        - 'L1, inbred ISE'
         - 'eggs, inbred ISE'
         - 'inbred ISE: L1 vs eggs'
-      -
-        - 'L1, inbred ISE'
-        - inbred ISE
-        - "inbred ISE: L1 vs ''"
-      -
-        - 'L1, inbred ISE'
-        - 'sheathed L3, inbred ISE'
-        - 'inbred ISE: L1 vs sheathed L3'
       -
         - 'L4, inbred ISE'
         - 'adult, female, inbred ISE'
         - 'inbred ISE: L4 vs adult, female'
       -
         - 'L4, inbred ISE'
-        - 'adult, male, inbred ISE'
-        - 'inbred ISE: L4 vs adult, male'
-      -
-        - 'L4, inbred ISE'
         - 'eggs, inbred ISE'
         - 'inbred ISE: L4 vs eggs'
-      -
-        - 'L4, inbred ISE'
-        - inbred ISE
-        - "inbred ISE: L4 vs ''"
-      -
-        - 'L4, inbred ISE'
-        - 'sheathed L3, inbred ISE'
-        - 'inbred ISE: L4 vs sheathed L3'
-      -
-        - 'adult, female, inbred ISE'
-        - 'adult, male, inbred ISE'
-        - 'inbred ISE: female vs male'
       -
         - 'adult, female, inbred ISE'
         - 'eggs, inbred ISE'
         - 'inbred ISE: adult, female vs eggs'
-      -
-        - 'adult, female, inbred ISE'
-        - inbred ISE
-        - "inbred ISE: adult, female vs ''"
-      -
-        - 'adult, female, inbred ISE'
-        - 'sheathed L3, inbred ISE'
-        - 'inbred ISE: adult, female vs sheathed L3'
-      -
-        - 'adult, male, inbred ISE'
-        - 'eggs, inbred ISE'
-        - 'inbred ISE: adult, male vs eggs'
       -
         - 'adult, male, inbred ISE'
         - inbred ISE
@@ -131,14 +97,6 @@ contrasts:
         - 'adult, male, inbred ISE'
         - 'sheathed L3, inbred ISE'
         - 'inbred ISE: adult, male vs sheathed L3'
-      -
-        - 'eggs, inbred ISE'
-        - inbred ISE
-        - "inbred ISE: eggs vs ''"
-      -
-        - 'eggs, inbred ISE'
-        - 'sheathed L3, inbred ISE'
-        - 'inbred ISE: eggs vs sheathed L3'
       -
         - inbred ISE
         - 'sheathed L3, inbred ISE'

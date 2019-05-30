@@ -1,0 +1,27 @@
+Run	Sample	Condition	description_title	fraction	treatment	organism_part	source_name
+SRR7788708	SAMN09976716	SAMN09976716	DR_TR_1	polysome bound RNA	Dietary Restriction	whole organism	whole worm
+SRR7788709	SAMN09976716	SAMN09976716	DR_TR_1	polysome bound RNA	Dietary Restriction	whole organism	whole worm
+SRR7788692	SAMN09976724	SAMN09976724	AL_TR_1	polysome bound RNA	Ad Libitum	whole organism	whole worm
+SRR7788693	SAMN09976724	SAMN09976724	AL_TR_1	polysome bound RNA	Ad Libitum	whole organism	whole worm
+SRR7788690	SAMN09976725	SAMN09976725	AL_TO_4	total RNA	Ad Libitum	whole organism	whole worm
+SRR7788691	SAMN09976725	SAMN09976725	AL_TO_4	total RNA	Ad Libitum	whole organism	whole worm
+SRR7788688	SAMN09976726	SAMN09976726	AL_TO_3	total RNA	Ad Libitum	whole organism	whole worm
+SRR7788689	SAMN09976726	SAMN09976726	AL_TO_3	total RNA	Ad Libitum	whole organism	whole worm
+SRR7788726	SAMN09976733	SAMN09976733	DM_TR_2	polysome bound RNA	Ad Libitum	whole organism	whole worm
+SRR7788727	SAMN09976733	SAMN09976733	DM_TR_2	polysome bound RNA	Ad Libitum	whole organism	whole worm
+SRR7788728	SAMN09976735	SAMN09976735	DM_TR_3	polysome bound RNA	Ad Libitum	whole organism	whole worm
+SRR7788729	SAMN09976735	SAMN09976735	DM_TR_3	polysome bound RNA	Ad Libitum	whole organism	whole worm
+SRR7788685	SRR7788685	SRR7788685	AL_TO_1	total RNA	Ad Libitum	whole organism	whole worm
+SRR7788686	SRR7788686	SRR7788686	AL_TO_2	total RNA	Ad Libitum	whole organism	whole worm
+SRR7788695	SRR7788695	SRR7788695	AL_TR_2	polysome bound RNA	Ad Libitum	whole organism	whole worm
+SRR7788697	SRR7788697	SRR7788697	AL_TR_3	polysome bound RNA	Ad Libitum	whole organism	whole worm
+SRR7788698	SRR7788698	SRR7788698	AL_TR_4	polysome bound RNA	Ad Libitum	whole organism	whole worm
+SRR7788700	SRR7788700	SRR7788700	DR_TO_1	total RNA	Dietary Restriction	whole organism	whole worm
+SRR7788705	SRR7788705	SRR7788705	DR_TO_3	total RNA	Dietary Restriction	whole organism	whole worm
+SRR7788712	SRR7788712	SRR7788712	DR_TR_3	polysome bound RNA	Dietary Restriction	whole organism	whole worm
+SRR7788714	SRR7788714	SRR7788714	DR_TR_4	polysome bound RNA	Dietary Restriction	whole organism	whole worm
+SRR7788717	SRR7788717	SRR7788717	DM_TO_1	total RNA	Ad Libitum	whole organism	whole worm
+SRR7788719	SRR7788719	SRR7788719	DM_TO_2	total RNA	Ad Libitum	whole organism	whole worm
+SRR7788720	SRR7788720	SRR7788720	DM_TO_3	total RNA	Ad Libitum	whole organism	whole worm
+SRR7788722	SRR7788722	SRR7788722	DM_TO_4	total RNA	Ad Libitum	whole organism	whole worm
+SRR7788724	SRR7788724	SRR7788724	DM_TR_1	polysome bound RNA	Ad Libitum	whole organism	whole worm

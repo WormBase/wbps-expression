@@ -1,8 +1,14 @@
 ---
-description: Transcriptome analysis of N2 and flp-6 Caenorhabditis elegans at 25 °C
+bioproject: PRJNA282784
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2018-05-02
+ena_last_update: 2018-08-02
 pubmed:
   27720609:
     - 'Chen .. Pan, 2016'
     - 'A C. elegans Thermosensory Circuit Regulates Longevity through crh-1/CREB-Dependent flp-6 Neuropeptide Signaling. (Chen .. Pan, 2016)'
-submitting_centre: ~
+resource_links: []
+submitting_centre: ''
 title: Transcriptome analysis of N2 and flp-6 Caenorhabditis elegans at 25 °C

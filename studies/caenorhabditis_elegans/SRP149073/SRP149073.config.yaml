@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: mRNA-seq of effects of food perception in C. elegans
 pubmed:
   30296941:

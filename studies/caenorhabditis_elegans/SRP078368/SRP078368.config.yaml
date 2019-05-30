@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: C. elegans polyA selected RNA-seq raw sequencing reads
 pubmed: ~
 submitting_centre: 'University of California, San Diego'

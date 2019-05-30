@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: The expression mRNAs after prg-1 mutation
 pubmed:
   24884413:

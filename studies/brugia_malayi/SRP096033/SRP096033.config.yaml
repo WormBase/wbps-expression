@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Enrichment of Wolbachia Endosymbiont Transcripts from Host Nematode RNA by Cappable-seq
 pubmed:
   28291780:

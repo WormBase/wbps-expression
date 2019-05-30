@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'mRNA expression profile of dop-1 mutants to wild- type animals during adulthood (L4+48 hours) using RNA-seq'
 pubmed:
   27261197:

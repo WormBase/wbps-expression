@@ -1,0 +1,13 @@
+Run	Condition	developmental_stage	genotype	sample_name	source_name	strain	model	organism_part
+SRR2176164	N2 Day 0, replicate 1 [poly(A) RNA]	day 0 adulthood	wild type	N2 Day 0, replicate 1 [poly(A) RNA]	whole animal, wildtype, day 0 adulthood	N2	Generic	whole organism
+SRR2176168	N2 Day 0, replicate 2 [poly(A) RNA]	day 0 adulthood	wild type	N2 Day 0, replicate 2 [poly(A) RNA]	whole animal, wildtype, day 0 adulthood	N2	Generic	whole organism
+SRR2176172	N2 Day 0, replicate 3 [poly(A) RNA]	day 0 adulthood	wild type	N2 Day 0, replicate 3 [poly(A) RNA]	whole animal, wildtype, day 0 adulthood	N2	Generic	whole organism
+SRR2176165	N2 Day 5, replicate 1 [poly(A) RNA]	day 5 adulthood	wild type	N2 Day 5, replicate 1 [poly(A) RNA]	whole animal, wildtype, day 5 adulthood	N2	Generic	whole organism
+SRR2176169	N2 Day 5, replicate 2 [poly(A) RNA]	day 5 adulthood	wild type	N2 Day 5, replicate 2 [poly(A) RNA]	whole animal, wildtype, day 5 adulthood	N2	Generic	whole organism
+SRR2176173	N2 Day 5, replicate 3 [poly(A) RNA]	day 5 adulthood	wild type	N2 Day 5, replicate 3 [poly(A) RNA]	whole animal, wildtype, day 5 adulthood	N2	Generic	whole organism
+SRR2176166	mir-71(n4115) Day 0, replicate 1 [poly(A) RNA]	day 0 adulthood	mir-71(n4115)	mir-71(n4115) Day 0, replicate 1 [poly(A) RNA]	whole animal, mir-71 mutant, day 0 adulthood	MT12993	Generic	whole organism
+SRR2176170	mir-71(n4115) Day 0, replicate 2 [poly(A) RNA]	day 0 adulthood	mir-71(n4115)	mir-71(n4115) Day 0, replicate 2 [poly(A) RNA]	whole animal, mir-71 mutant, day 0 adulthood	MT12993	Generic	whole organism
+SRR2176174	mir-71(n4115) Day 0, replicate 3 [poly(A) RNA]	day 0 adulthood	mir-71(n4115)	mir-71(n4115) Day 0, replicate 3 [poly(A) RNA]	whole animal, mir-71 mutant, day 0 adulthood	MT12993	Generic	whole organism
+SRR2176167	mir-71(n4115) Day 5, replicate 1 [poly(A) RNA]	day 5 adulthood	mir-71(n4115)	mir-71(n4115) Day 5, replicate 1 [poly(A) RNA]	whole animal, mir-71 mutant, day 5 adulthood	MT12993	Generic	whole organism
+SRR2176171	mir-71(n4115) Day 5, replicate 2 [poly(A) RNA]	day 5 adulthood	mir-71(n4115)	mir-71(n4115) Day 5, replicate 2 [poly(A) RNA]	whole animal, mir-71 mutant, day 5 adulthood	MT12993	Generic	whole organism
+SRR2176175	mir-71(n4115) Day 5, replicate 3 [poly(A) RNA]	day 5 adulthood	mir-71(n4115)	mir-71(n4115) Day 5, replicate 3 [poly(A) RNA]	whole animal, mir-71 mutant, day 5 adulthood	MT12993	Generic	whole organism

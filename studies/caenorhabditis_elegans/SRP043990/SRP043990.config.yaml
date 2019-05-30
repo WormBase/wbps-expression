@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: The cytoplasmic poly(A) polymerases GLD-2 and GLD-4 promote general gene expression via distinct mechanisms
 pubmed:
   25217583:

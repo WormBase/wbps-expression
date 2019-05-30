@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Analysis of C. elegans muscle transcriptome using trans-splicing-based RNA tagging (SRT)
 pubmed:
   27557708:

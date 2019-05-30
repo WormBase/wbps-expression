@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Transcriptomic analysis of germline tumor in fasted C. elegans
 pubmed:
   26759963:

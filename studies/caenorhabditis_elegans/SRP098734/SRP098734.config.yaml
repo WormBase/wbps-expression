@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Genome-wide expression analysis of Caenorhabditis elegans AXIN mutant
 pubmed:
   30403720:

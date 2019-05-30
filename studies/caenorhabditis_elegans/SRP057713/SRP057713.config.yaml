@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: RNA sequencing of C. elegans lsm-1(tm3585) mutants at L3 stage
 pubmed:
   26150554:

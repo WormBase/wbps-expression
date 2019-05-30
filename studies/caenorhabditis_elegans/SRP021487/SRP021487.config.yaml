@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Deep sequencing of endogenous mRNA from Caenorhabditis elegans in the presence of 2-deoxy-D-glucose (DOG) at 4 different time points
 pubmed:
   24204961:

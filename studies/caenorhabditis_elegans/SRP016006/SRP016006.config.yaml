@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Caenorhabditis sex-specific RNAseq
 pubmed:
   23103191:

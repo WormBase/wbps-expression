@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: mRNA-seq comparison of L1 larvae experiencing osmotic and starvation-induced arrest
 pubmed:
   28166192:

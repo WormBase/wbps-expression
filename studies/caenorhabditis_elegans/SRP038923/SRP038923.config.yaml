@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Transcriptome wide identification of Dicer binding in human and C. elegans reveals a variety of substrates (CEL RNA-Seq)
 pubmed:
   25416952:

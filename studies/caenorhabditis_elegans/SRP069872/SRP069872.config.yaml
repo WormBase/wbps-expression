@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Uncoupling X chromosome number from sex determination separates contribution of sex and X dose to sex-biased gene expression in C. elegans
 pubmed:
   27356611:

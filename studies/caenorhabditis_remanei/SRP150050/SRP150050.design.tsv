@@ -1,0 +1,57 @@
+Run	Sample	Condition	batch	description_title	strain	developmental_stage	source_name
+SRR7280037	SAMN09381546	SAMN09381546	C	CTRL_m20h30-1	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280038	SAMN09381546	SAMN09381546	C	CTRL_m20h30-1	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280031	SAMN09381552	SAMN09381552	C	CTRL_m20h20-2	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280032	SAMN09381552	SAMN09381552	C	CTRL_m20h20-2	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280029	SAMN09381553	SAMN09381553	C	CTRL_m20h20-1	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280030	SAMN09381553	SAMN09381553	C	CTRL_m20h20-1	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280055	SAMN09381581	SAMN09381581	E	HEAT_m20h30-2	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280056	SAMN09381581	SAMN09381581	E	HEAT_m20h30-2	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280053	SAMN09381582	SAMN09381582	E	HEAT_m20h30-1	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280054	SAMN09381582	SAMN09381582	E	HEAT_m20h30-1	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280047	SAMN09381587	SAMN09381587	E	HEAT_m20h20-2	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280048	SAMN09381587	SAMN09381587	E	HEAT_m20h20-2	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280045	SAMN09381588	SAMN09381588	E	HEAT_m20h20-1	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280046	SAMN09381588	SAMN09381588	E	HEAT_m20h20-1	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280039	SAMN09381593	SAMN09381593	C	CTRL_m20h30-2	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280040	SAMN09381593	SAMN09381593	C	CTRL_m20h30-2	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280017	SRR7280017	SRR7280017	A	ANC_m20h20-1	PX443	L1	pooled L1 tissue
+SRR7280018	SRR7280018	SRR7280018	A	ANC_m20h20-2	PX443	L1	pooled L1 tissue
+SRR7280019	SRR7280019	SRR7280019	B	ANC_m20h20-3	PX443	L1	pooled L1 tissue
+SRR7280020	SRR7280020	SRR7280020	B	ANC_m20h20-4	PX443	L1	pooled L1 tissue
+SRR7280021	SRR7280021	SRR7280021	B	ANC_m20h20-5	PX443	L1	pooled L1 tissue
+SRR7280022	SRR7280022	SRR7280022	B	ANC_m20h20-6	PX443	L1	pooled L1 tissue
+SRR7280023	SRR7280023	SRR7280023	A	ANC_m20h30-1	PX443	L1	pooled L1 tissue
+SRR7280024	SRR7280024	SRR7280024	A	ANC_m20h30-2	PX443	L1	pooled L1 tissue
+SRR7280025	SRR7280025	SRR7280025	B	ANC_m20h30-3	PX443	L1	pooled L1 tissue
+SRR7280026	SRR7280026	SRR7280026	B	ANC_m20h30-4	PX443	L1	pooled L1 tissue
+SRR7280027	SRR7280027	SRR7280027	A	ANC_m20h30-5	PX443	L1	pooled L1 tissue
+SRR7280028	SRR7280028	SRR7280028	A	ANC_m20h30-6	PX443	L1	pooled L1 tissue
+SRR7280033	SRR7280033	SRR7280033	D	CTRL_m20h20-3	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280034	SRR7280034	SRR7280034	D	CTRL_m20h20-4	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280035	SRR7280035	SRR7280035	D	CTRL_m20h20-5	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280036	SRR7280036	SRR7280036	D	CTRL_m20h20-6	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280041	SRR7280041	SRR7280041	D	CTRL_m20h30-3	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280042	SRR7280042	SRR7280042	D	CTRL_m20h30-4	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280043	SRR7280043	SRR7280043	D	CTRL_m20h30-5	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280044	SRR7280044	SRR7280044	D	CTRL_m20h30-6	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280049	SRR7280049	SRR7280049	F	HEAT_m20h20-3	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280050	SRR7280050	SRR7280050	F	HEAT_m20h20-4	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280051	SRR7280051	SRR7280051	F	HEAT_m20h20-5	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280052	SRR7280052	SRR7280052	F	HEAT_m20h20-6	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280057	SRR7280057	SRR7280057	F	HEAT_m20h30-3	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280058	SRR7280058	SRR7280058	F	HEAT_m20h30-4	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280059	SRR7280059	SRR7280059	F	HEAT_m20h30-5	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280060	SRR7280060	SRR7280060	F	HEAT_m20h30-6	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280061	SRR7280061	SRR7280061	G	OXID_m20h20-1	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280062	SRR7280062	SRR7280062	G	OXID_m20h20-2	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280063	SRR7280063	SRR7280063	G	OXID_m20h20-3	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280064	SRR7280064	SRR7280064	G	OXID_m20h20-4	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280065	SRR7280065	SRR7280065	G	OXID_m20h20-5	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280066	SRR7280066	SRR7280066	G	OXID_m20h20-6	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280067	SRR7280067	SRR7280067	G	OXID_m20h30-1	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280068	SRR7280068	SRR7280068	G	OXID_m20h30-2	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280069	SRR7280069	SRR7280069	G	OXID_m20h30-3	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280070	SRR7280070	SRR7280070	G	OXID_m20h30-4	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280071	SRR7280071	SRR7280071	G	OXID_m20h30-5	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280072	SRR7280072	SRR7280072	G	OXID_m20h30-6	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue

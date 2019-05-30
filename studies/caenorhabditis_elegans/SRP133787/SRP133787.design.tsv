@@ -1,0 +1,13 @@
+Run	Condition	description_title	fed_with	genotype	source_name	developmental_stage	organism_part
+SRR6796254	SRR6796254	wildtype fed with E. coli, biological rep1	E. coli	wild type	wildtype fed with E. coli	L1	whole organism
+SRR6796255	SRR6796255	wildtype fed with E. coli, biological rep2	E. coli	wild type	wildtype fed with E. coli	L1	whole organism
+SRR6796256	SRR6796256	wildtype fed with E. coli, biological rep3	E. coli	wild type	wildtype fed with E. coli	L1	whole organism
+SRR6796257	SRR6796257	wildtype fed with P. aeruginosa, biological rep1	P. aeruginosa	wild type	wildtype fed with P. aeruginosa	L1	whole organism
+SRR6796258	SRR6796258	wildtype fed with P. aeruginosa, biological rep2	P. aeruginosa	wild type	wildtype fed with P. aeruginosa	L1	whole organism
+SRR6796259	SRR6796259	wildtype fed with P. aeruginosa, biological rep3	P. aeruginosa	wild type	wildtype fed with P. aeruginosa	L1	whole organism
+SRR6796260	SRR6796260	zip-3 (gk3164) fed with E. coli, biological rep1	E. coli	zip-3(gk3164)	zip-3 (gk3164) fed with E. coli	L1	whole organism
+SRR6796261	SRR6796261	zip-3 (gk3164) fed with E. coli, biological rep2	E. coli	zip-3(gk3164)	zip-3 (gk3164) fed with E. coli	L1	whole organism
+SRR6796262	SRR6796262	zip-3 (gk3164) fed with E. coli, biological rep3	E. coli	zip-3(gk3164)	zip-3 (gk3164) fed with E. coli	L1	whole organism
+SRR6796263	SRR6796263	zip-3 (gk3164) fed with P. aeruginosa, biological rep1	P. aeruginosa	zip-3(gk3164)	zip-3 (gk3164) fed with P. aeruginosa	L1	whole organism
+SRR6796264	SRR6796264	zip-3 (gk3164) fed with P. aeruginosa, biological rep2	P. aeruginosa	zip-3(gk3164)	zip-3 (gk3164) fed with P. aeruginosa	L1	whole organism
+SRR6796265	SRR6796265	zip-3 (gk3164) fed with P. aeruginosa, biological rep3	P. aeruginosa	zip-3(gk3164)	zip-3 (gk3164) fed with P. aeruginosa	L1	whole organism

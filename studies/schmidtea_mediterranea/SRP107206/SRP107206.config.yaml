@@ -11,13 +11,13 @@ contrasts:
   - name: rnai
     values:
       -
-        - 'myoD, 10'
         - 'unc-22 (control), 10'
-        - '10: myoD vs unc-22 (control)'
+        - 'myoD, 10'
+        - '10: unc-22 (control) vs myoD'
       -
-        - 'nkx1-1, 12'
         - 'unc-22 (control), 12'
-        - '12: nkx1-1 vs unc-22 (control)'
+        - 'nkx1-1, 12'
+        - '12: unc-22 (control) vs nkx1-1'
 description: Gene expression profiling of intact individual planarians during homeostatic tissue turnover after inhibition of myoD or nkx1-1
 pubmed:
   29168507:

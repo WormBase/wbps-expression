@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: RNA-Seq of L4 C. elegans
 pubmed:
   29106412:

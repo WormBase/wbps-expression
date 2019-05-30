@@ -1,4 +1,6 @@
 Run	Sample	Condition	developmental_stage	sample_name	strain	timepoint
+SRR833350	SAMN02054493	L1	larvae		North American wild population	L1
+SRR833351	SRR833351	L2	larvae	L2	North American wild population	L2
 SRR833355	SAMN02054496	embryo, 1 day	embryo		North American wild population	1 day
 SRR833356	SAMN02054496	embryo, 1 day	embryo		North American wild population	1 day
 SRR833357	SAMN02054496	embryo, 1 day	embryo		North American wild population	1 day
@@ -19,8 +21,6 @@ SRR833364	SAMN02054499	embryo, 7 days	embryo		North American wild population	7 d
 SRR833365	SAMN02054499	embryo, 7 days	embryo		North American wild population	7 days
 SRR833366	SAMN02054499	embryo, 7 days	embryo		North American wild population	7 days
 SRR833347	SAMN02054490	embryo, 96 hours	embryo		North American wild population	96 hours
-SRR833350	SAMN02054493	L1	larvae		North American wild population	L1
-SRR833351	SRR833351	L2	larvae	L2	North American wild population	L2
 SRR1029596	SAMN02402364	oocyte - ribozero	female germline	oocyte - ribozero	North American wild population	
 SRR1029595	SAMN02402366	oocyte - total	female germline	oocyte - total	North American wild population	
 SRR833339	SAMN02054482	oocyte with wall	female germline	oocyte with wall	North American wild population	

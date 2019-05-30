@@ -1,0 +1,14 @@
+---
+bioproject: PRJNA490440
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-03-09
+ena_last_update: 2019-04-19
+pubmed:
+  30962434:
+    - 'Cote .. Reddien, 2019'
+    - 'Muscle functions as a connective tissue and source of extracellular matrix in planarians. (Cote .. Reddien, 2019)'
+resource_links: []
+submitting_centre: Whitehead Institute for Biomedical Research
+title: Gene expression profiling of planarians after inhibition of hmcn-1

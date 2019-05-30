@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'Developmental Timecourses total-RNA sequencing [Ribosome repleted total RNA]'
 pubmed:
   24440504:

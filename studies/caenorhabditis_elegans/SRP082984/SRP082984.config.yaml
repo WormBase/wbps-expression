@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: LIN-28 balances longevity and germline stem cell number in C. elegans through let-7/AKT/DAF-16 axis
 pubmed:
   27730721:

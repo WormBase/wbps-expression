@@ -1,0 +1,19 @@
+Run	Condition	description_title	genotype	source_name	developmental_stage	organism_part
+SRR7001694	SRR7001694	wildtype fed with control RNAi, biological rep1	wild type	wildtype fed with control RNAi	L4	whole organism
+SRR7001695	SRR7001695	wildtype fed with control RNAi, biological rep2	wild type	wildtype fed with control RNAi	L4	whole organism
+SRR7001696	SRR7001696	wildtype fed with control RNAi, biological rep3	wild type	wildtype fed with control RNAi	L4	whole organism
+SRR7001697	SRR7001697	wildtype fed with spg-7 RNAi, biological rep1	wild type	wildtype fed with spg-7 RNAi	L4	whole organism
+SRR7001698	SRR7001698	wildtype fed with spg-7 RNAi, biological rep2	wild type	wildtype fed with spg-7 RNAi	L4	whole organism
+SRR7001699	SRR7001699	wildtype fed with spg-7 RNAi, biological rep3	wild type	wildtype fed with spg-7 RNAi	L4	whole organism
+SRR7001700	SRR7001700	zip-3 (gk3164) fed with control RNAi, biological rep1	zip-3(gk3164)	zip-3 (gk3164) fed with control RNAi	L4	whole organism
+SRR7001701	SRR7001701	zip-3 (gk3164) fed with control RNAi, biological rep2	zip-3(gk3164)	zip-3 (gk3164) fed with control RNAi	L4	whole organism
+SRR7001702	SRR7001702	zip-3 (gk3164) fed with control RNAi, biological rep3	zip-3(gk3164)	zip-3 (gk3164) fed with control RNAi	L4	whole organism
+SRR7001703	SRR7001703	zip-3 (gk3164) fed with spg-7 RNAi, biological rep1	zip-3(gk3164)	zip-3 (gk3164) fed with spg-7 RNAi	L4	whole organism
+SRR7001704	SRR7001704	zip-3 (gk3164) fed with spg-7 RNAi, biological rep2	zip-3(gk3164)	zip-3 (gk3164) fed with spg-7 RNAi	L4	whole organism
+SRR7001705	SRR7001705	zip-3 (gk3164) fed with spg-7 RNAi, biological rep3	zip-3(gk3164)	zip-3 (gk3164) fed with spg-7 RNAi	L4	whole organism
+SRR7001706	SRR7001706	atfs-1 (tm4919) fed with control RNAi, biological rep1	atfs-1(tm4919)	atfs-1 (tm4919) fed with control RNAi	L4	whole organism
+SRR7001707	SRR7001707	atfs-1 (tm4919) fed with control RNAi, biological rep2	atfs-1(tm4919)	atfs-1 (tm4919) fed with control RNAi	L4	whole organism
+SRR7001708	SRR7001708	atfs-1 (tm4919) fed with control RNAi, biological rep3	atfs-1(tm4919)	atfs-1 (tm4919) fed with control RNAi	L4	whole organism
+SRR7001709	SRR7001709	atfs-1 (tm4919) fed with spg-7 RNAi, biological rep1	atfs-1(tm4919)	atfs-1 (tm4919) fed with spg-7 RNAi	L4	whole organism
+SRR7001710	SRR7001710	atfs-1 (tm4919) fed with spg-7 RNAi, biological rep2	atfs-1(tm4919)	atfs-1 (tm4919) fed with spg-7 RNAi	L4	whole organism
+SRR7001711	SRR7001711	atfs-1 (tm4919) fed with spg-7 RNAi, biological rep3	atfs-1(tm4919)	atfs-1 (tm4919) fed with spg-7 RNAi	L4	whole organism

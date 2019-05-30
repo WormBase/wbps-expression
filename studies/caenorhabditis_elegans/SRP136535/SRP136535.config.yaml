@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: A Protein-Protein Interaction Underlies the Molecular Basis for Substrate Recognition by an Adenosine to Inosine RNA Editing Enzyme
 pubmed:
   30202880:

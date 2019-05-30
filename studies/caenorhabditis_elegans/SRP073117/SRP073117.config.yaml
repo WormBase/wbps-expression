@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'Post-transcriptional regulation by the let-7 microRNA and the TRIM-NHL protein LIN41 [RNA-seq]'
 pubmed:
   28111013:

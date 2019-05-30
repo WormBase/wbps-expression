@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Dampening of expression oscillations by synchronous regulation of a microRNA and its target
 pubmed:
   24036951:

@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Functional characterization of C. elegans Y-box binding proteins reveals tissue-specific functions and a critical role in the formation of polysomes (RNA-Seq)
 pubmed:
   25378320:

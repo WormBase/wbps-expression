@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: The memory of environmental chemical exposure in C. elegans is dependent on the Jumonji demethylases jmjd-2 and jmjd-3/utx-1
 pubmed:
   29791850:

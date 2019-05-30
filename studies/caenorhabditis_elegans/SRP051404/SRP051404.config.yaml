@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Overlapping and unique signatures in the proteomic and transcriptomic responses of the nematode Caenorhabditis elegans towards pathogenic Bacillus thuringiensis
 pubmed:
   25720978:

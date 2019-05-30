@@ -1,0 +1,19 @@
+Run	Condition	description_title	genotype	source_name	treatment	developmental_stage	organism_part	strain
+SRR7606712	SRR7606712	WT_DMSO rep1	wild type	WT_DMSO, whole animal	DMSO	L4	whole organism	N2
+SRR7606714	SRR7606714	WT_DMSO rep2	wild type	WT_DMSO, whole animal	DMSO	L4	whole organism	N2
+SRR7606716	SRR7606716	WT_DMSO rep3	wild type	WT_DMSO, whole animal	DMSO	L4	whole organism	N2
+SRR7606718	SRR7606718	WT_R24 rep1	wild type	WT_R24, whole animal	R24	L4	whole organism	N2
+SRR7606720	SRR7606720	WT_R24 rep2	wild type	WT_R24, whole animal	R24	L4	whole organism	N2
+SRR7606722	SRR7606722	WT_R24 rep3	wild type	WT_R24, whole animal	R24	L4	whole organism	N2
+SRR7606724	SRR7606724	nhr-86(tm2590) DMSO rep1	nhr-86(tm2590)	nhr-86(tm2590) DMSO, whole animal	DMSO	L4	whole organism	N2
+SRR7606726	SRR7606726	nhr-86(tm2590) DMSO rep2	nhr-86(tm2590)	nhr-86(tm2590) DMSO, whole animal	DMSO	L4	whole organism	N2
+SRR7606728	SRR7606728	nhr-86(tm2590) DMSO rep3	nhr-86(tm2590)	nhr-86(tm2590) DMSO, whole animal	DMSO	L4	whole organism	N2
+SRR7606730	SRR7606730	nhr-86(tm2590) R24 rep1	nhr-86(tm2590)	nhr-86(tm2590) R24, whole animal	R24	L4	whole organism	N2
+SRR7606732	SRR7606732	nhr-86(tm2590) R24 rep2	nhr-86(tm2590)	nhr-86(tm2590) R24, whole animal	R24	L4	whole organism	N2
+SRR7606734	SRR7606734	nhr-86(tm2590) R24 rep3	nhr-86(tm2590)	nhr-86(tm2590) R24, whole animal	R24	L4	whole organism	N2
+SRR7606736	SRR7606736	nhr-86(ums12) DMSO rep1	nhr-86(ums12)	nhr-86(ums12) DMSO, whole animal	DMSO	L4	whole organism	N2
+SRR7606738	SRR7606738	nhr-86(ums12) DMSO rep2	nhr-86(ums12)	nhr-86(ums12) DMSO, whole animal	DMSO	L4	whole organism	N2
+SRR7606740	SRR7606740	nhr-86(ums12) DMSO rep3	nhr-86(ums12)	nhr-86(ums12) DMSO, whole animal	DMSO	L4	whole organism	N2
+SRR7606742	SRR7606742	nhr-86(ums12) R24 rep1	nhr-86(ums12)	nhr-86(ums12) R24, whole animal	R24	L4	whole organism	N2
+SRR7606744	SRR7606744	nhr-86(ums12) R24 rep2	nhr-86(ums12)	nhr-86(ums12) R24, whole animal	R24	L4	whole organism	N2
+SRR7606746	SRR7606746	nhr-86(ums12) R24 rep3	nhr-86(ums12)	nhr-86(ums12) R24, whole animal	R24	L4	whole organism	N2

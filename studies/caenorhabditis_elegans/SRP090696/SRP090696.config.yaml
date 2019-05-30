@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'A team of heterochromatin factors collaborates with small RNA pathways to combat repetitive elements and germline stress [RNA-seq]'
 pubmed:
   28294943:

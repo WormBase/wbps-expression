@@ -1,0 +1,24 @@
+Run	Condition	description_title	developmental_stage	sex	source_name
+SRR7591878	SRR7591878	N2 RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591879	SRR7591879	set-32(ok1457); hrde-1(tm1200) RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591880	SRR7591880	hrde-1(+R) F4 RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591881	SRR7591881	hrde-1(+R) F5 RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591882	SRR7591882	set-32(ok1457); hrde-1(+R) F5 RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591883	SRR7591883	set-32(ok1457); hrde-1(+R) F8 RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591884	SRR7591884	met-2(n4256) set-25(n5021) hrde-1(+R) F3 RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591885	SRR7591885	hrde-1(tm1200) RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591886	SRR7591886	met-2(n4256) set-25(n5021) hrde-1(+R) F5 RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591887	SRR7591887	set-32(red11); hrde-1(+R) F4 RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591888	SRR7591888	set-32(red11); hrde-1(+R) F5 RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591889	SRR7591889	set-32(red11); met-2(n4256) set-25(n5021) hrde-1(+R) F5 RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591890	SRR7591890	set-32(ok1457); met-2(n4256) set-25(n5021) RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591891	SRR7591891	set-32(red11); met-2(n4256) set-25(n5021) hrde-1(tm1200) RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591892	SRR7591892	set-32(red11) RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591893	SRR7591893	set-32(red11); hrde-1(tm1200) RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591894	SRR7591894	met-2(n4256) set-25(n5021) RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591895	SRR7591895	met-2(n4256) set-25(n5021) hrde-1(tm1200) RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591896	SRR7591896	set-32(ok1457) RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591897	SRR7591897	met-2(n4256) set-25(n5021)hrde-1(+R) F20 RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591898	SRR7591898	hrde-1(+R) F20 RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591899	SRR7591899	set-32(ok1457); hrde-1(+R) F20 RNA-Seq	young adult	hermaphrodite	C. elegans young adults
+SRR7591900	SRR7591900	set-32(red11); hrde-1(+R) F20 RNA-Seq	young adult	hermaphrodite	C. elegans young adults

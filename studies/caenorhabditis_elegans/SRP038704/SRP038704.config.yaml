@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: RNA-seq analysis of WT and blmp-1(tm548) mutant L3 larvae
 pubmed:
   24613396:

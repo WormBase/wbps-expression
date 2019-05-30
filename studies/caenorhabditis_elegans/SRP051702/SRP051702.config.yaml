@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'mRNA profiling of wildtype, germline depleted, NMD mutant C. elegans whole worms and wildtype dissected gonads'
 pubmed:
   25922281:

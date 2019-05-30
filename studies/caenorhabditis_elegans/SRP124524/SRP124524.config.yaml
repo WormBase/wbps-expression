@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Transcriptome analysis of C. elegans embryos lacking ADARs and the 26G pathway
 pubmed:
   29483152:

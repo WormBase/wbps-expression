@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Gene expression changes in dauer defective strains
 pubmed:
   28209779:

@@ -9,13 +9,13 @@ contrasts:
         - CPEB2
         - CPEB1 vs CPEB2
       -
+        - control
         - CPEB1
-        - control
-        - CPEB1 vs control
+        - control vs CPEB1
       -
-        - CPEB2
         - control
-        - CPEB2 vs control
+        - CPEB2
+        - control vs CPEB2
 description: Schmidtea mediterranea Raw sequence reads (sexual strain and CPEB knockdowns)
 pubmed: ~
 submitting_centre: Wright State University

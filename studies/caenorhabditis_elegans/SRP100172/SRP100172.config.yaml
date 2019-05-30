@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Impaired DNA replication derepresses chromatin and generates a transgenerationally inherited epigenetic memory
 pubmed:
   28835928:

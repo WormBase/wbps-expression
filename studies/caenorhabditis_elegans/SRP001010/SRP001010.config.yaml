@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: A high resolution transcriptome map for both wild-type and NMD defective C. elegans
 pubmed:
   19778439:

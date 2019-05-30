@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: RNA-seq of C. elegans worms treated with RNAi toward daf-2 or cav-1 or left untreated (EV) to compare gene expression profiles
 pubmed: ~
 submitting_centre: The Hebrew University of Jerusalem

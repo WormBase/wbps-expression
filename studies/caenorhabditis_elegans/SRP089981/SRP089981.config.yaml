@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Transcriptomic profiling of germlines and intestines of C. elegans deficient in the COMPASS H3K4me3 methyltransferase complex
 pubmed:
   28379943:

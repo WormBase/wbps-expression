@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: dsRNAs expressed in C. elegans development
 pubmed:
   29483152:

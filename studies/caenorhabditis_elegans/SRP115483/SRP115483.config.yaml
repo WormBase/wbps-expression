@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'Two evolutionary developmental strategies for miRNA gene regulation in animal embryogenesis [CE_RNA-seq]'
 pubmed:
   29237075:

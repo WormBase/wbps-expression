@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'The C. elegans ortholog of TDP-43 regulates the chromatin localization of the heterochromatin protein 1 homolog, HPL-2'
 pubmed:
   29760282:

@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: mRNA Next Generation Sequencing of long-lived C. elegans mutants lacking the replication-independent histone variant H3.3
 pubmed:
   27760329:

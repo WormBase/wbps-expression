@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: C. elegans piRNAs mediate the genome-wide surveillance of germline transcripts
 pubmed:
   22738724:

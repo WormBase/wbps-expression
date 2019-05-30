@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'RNA-seq of C.elegans strain N2 (wt) with and without sfa-1 RNAi at adult day 3 and day 15, C. elegans strain DA1116 (eat-2(ad1116)) with and without sfa-1 RNAi at adult day 3, day 15, and day 27, C. elegans strain SS104 (glp-4(bn2)) with and without hrp-2 RNAi at adult day 1, and HeLa cells with and without SF1 siRNA.'
 pubmed: ~
 submitting_centre: Department of Biochemistry and Molecular Biology University of Southern Denmark

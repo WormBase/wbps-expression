@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: The RtcB RNA ligase is an essential component of the metazoan unfolded protein response.
 pubmed:
   25366321:

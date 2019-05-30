@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: RNA sequencing analysis of DAF-16 target gene expression when math-33 function is genetically inactivated
 pubmed:
   26154057:

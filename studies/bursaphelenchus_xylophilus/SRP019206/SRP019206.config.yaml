@@ -1,12 +1,8 @@
 ---
-attributes: {}
-bioproject: PRJNA192936
 category: Other
+condition_names: ~
 contrasts: []
 description: ''
-ena_first_public: 2013-09-25
-ena_last_update: 2017-07-19
 pubmed: {}
-resource_links: []
 submitting_centre: Biocant
 title: Bursaphelenchus xylophilus transcriptome Sequencing

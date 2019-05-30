@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Transcriptome profiling of P-granule-depleted or P-granule mutant gonads versus control gonads over time
 pubmed:
   28258184:

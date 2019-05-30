@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Analysis of nonsense-mediated mRNA decay in daf-2 mutants
 pubmed:
   28276441:

@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Analysis of intron sequences reveals hallmarks of circular RNA biogenesis in animals
 pubmed:
   25558066:

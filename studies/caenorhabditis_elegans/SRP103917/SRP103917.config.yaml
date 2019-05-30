@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Two distinct transcription termination modes dictated by promoters
 pubmed:
   29021241:

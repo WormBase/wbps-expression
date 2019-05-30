@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'Caenorhabditis elegans strain:N2, adr-1, adr-2, adr-1;adr-2 Transcriptome or Gene expression'
 pubmed:
   21909095:

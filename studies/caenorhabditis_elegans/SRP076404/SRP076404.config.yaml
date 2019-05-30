@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Expression profiles in Caenorhabditis elegans mutants lacking an intestinally expressed microRNA mir-60 that promote adaptive response against chronic oxidative stress
 pubmed:
   27623524:

@@ -13,21 +13,21 @@ contrasts:
         - 72h regenerate
         - 'regenerate: 12h vs 72h'
       -
-        - 12h regenerate
         - Cut control
-        - 12h regenerate vs Cut control
+        - 12h regenerate
+        - Cut control vs 12h regenerate
       -
         - 36h regenerate
         - 72h regenerate
         - 'regenerate: 36h vs 72h'
       -
+        - Cut control
         - 36h regenerate
-        - Cut control
-        - 36h regenerate vs Cut control
+        - Cut control vs 36h regenerate
       -
-        - 72h regenerate
         - Cut control
-        - 72h regenerate vs Cut control
+        - 72h regenerate
+        - Cut control vs 72h regenerate
   - name: organism_part+treatment
     values:
       -

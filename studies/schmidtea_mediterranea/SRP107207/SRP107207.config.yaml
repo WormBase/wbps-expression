@@ -11,13 +11,13 @@ contrasts:
   - name: rnai
     values:
       -
-        - 'fst, 6'
         - 'unc-22 (control), 6'
-        - '6: fst vs unc-22 (control)'
+        - 'fst, 6'
+        - '6: unc-22 (control) vs fst'
       -
-        - 'myoD, 10'
         - 'unc-22 (control), 10'
-        - '10: myoD vs unc-22 (control)'
+        - 'myoD, 10'
+        - '10: unc-22 (control) vs myoD'
 description: Gene expression profiling of regenerating planarian tails after inhibition of myoD and follistatin
 pubmed:
   29168507:

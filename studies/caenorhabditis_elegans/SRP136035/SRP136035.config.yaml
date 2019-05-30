@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Effects of larval density on gene regulation in C. elegans during routine L1 synchronization
 pubmed:
   29602810:

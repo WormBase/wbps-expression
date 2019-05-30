@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Poly(A) Tail Length of L4 C. elegans
 pubmed:
   29106412:

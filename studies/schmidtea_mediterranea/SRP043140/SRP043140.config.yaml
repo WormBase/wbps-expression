@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'Schmidtea mediteranea RNAi knockdown (ß-catenin, notum vs GFP)'
 pubmed:
   25558068:

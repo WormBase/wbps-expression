@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Tissue homogeneity requires inhibition of unequal gene silencing during development
 pubmed:
   27458132:

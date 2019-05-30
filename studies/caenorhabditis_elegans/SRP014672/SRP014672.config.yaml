@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: CEL-Seq transcriptomic analysis of C. elegans blastomeres
 pubmed: ~
 submitting_centre: 'Technion - Israel Institute of Technology'

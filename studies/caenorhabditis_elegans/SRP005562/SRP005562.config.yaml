@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'mRNA sequencing from ego-1(om84) and control L3, L4, and adult C. elegans hermaphrodites'
 pubmed: ~
 submitting_centre: 'Fire, Genetics, Stanford University'

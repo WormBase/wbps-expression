@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: C. elegans piRNAs are processed from capped-small RNAs transcribed at promoters throughout the genome
 pubmed:
   23260138:

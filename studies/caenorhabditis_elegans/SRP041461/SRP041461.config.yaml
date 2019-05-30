@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: A new dataset of spermatogenic vs oogenic transcriptomes in the nematode C. elegans
 pubmed:
   25060624:

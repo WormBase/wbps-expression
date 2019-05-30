@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'Condensin-Driven Remodeling of X-Chromosome Topology during Dosage Compensation [RNA-Seq]'
 pubmed:
   26030525:

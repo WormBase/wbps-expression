@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'Multimodal RNA-seq using single-strand, double-strand, and circligase-based capture yields a refined and extended description of the C. elegans transcriptome'
 pubmed:
   21177965:

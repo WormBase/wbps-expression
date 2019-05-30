@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'RNA-seq from animals treated with RNAi against prp-8, prp-6, and prp-31'
 pubmed:
   26490224:

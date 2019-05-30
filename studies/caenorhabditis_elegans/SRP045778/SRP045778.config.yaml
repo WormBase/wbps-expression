@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Caenorhabditis elegans high resolution developmental transcriptomic time-course
 pubmed:
   26886793:

@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Differential expression of H3.3 genes and their role in modulating temperature stress response in Caenorhabditis elegans
 pubmed:
   29636369:

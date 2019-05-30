@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Sequencing of Caenorhabditis elegans wildtype strain (N2) treated with T25B9.1 RNAi for  5 days after L4 larvae stage.
 pubmed:
   29551589:

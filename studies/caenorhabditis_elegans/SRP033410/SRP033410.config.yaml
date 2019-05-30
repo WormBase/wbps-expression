@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'Extensive oscillatory gene expression during C. elegans larval development [RNA-seq for polyA enriched mRNAs]'
 pubmed:
   24440504:

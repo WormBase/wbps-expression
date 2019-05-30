@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'TDP-1, the C. elegans ortholog of TDP-43, limits the accumulation of double stranded RNA'
 pubmed:
   25391662:

@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'Transcriptional profile of C. elegans following RNAi of elt-2 [L1 stage]'
 pubmed:
   27070429:

@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'Caenorhabditis elegans transcriptome, in response to albendazole'
 pubmed:
   25730766:

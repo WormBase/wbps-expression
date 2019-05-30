@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Multiple insert size paired-end sequencing for deconvolution of complex transcriptomes
 pubmed:
   22614838:

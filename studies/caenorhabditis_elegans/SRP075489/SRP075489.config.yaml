@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'Germline- and soma-specific heritable epigenetic silencing at an endogenous locus (RNA-Seq)'
 pubmed:
   28212751:

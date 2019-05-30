@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: mRNA sequencing in cde-1 mutants versus WT C. elegans infected by the Orsay virus
 pubmed: ~
 submitting_centre: 'Gurdon Institute, University of Cambridge'

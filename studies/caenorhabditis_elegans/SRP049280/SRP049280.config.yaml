@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Tri-methylation of lysine 36 on H3 restricts gene expression variation during aging and impacts lifespan
 pubmed:
   25838541:

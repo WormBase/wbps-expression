@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Deep sequencing of endogenous mRNA from Caenorhabditis elegans in the presence and absence of 1-methylnicotinamide (MNA) and nicotinic acid (NA)
 pubmed:
   24077178:

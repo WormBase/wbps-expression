@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 100 bp paired-end Illumina Hiseq RNAseq of G. rostochiensis females 14 days post infection each in biological duplicate. Pathotype Ro1 infecting potato.
 pubmed: ~
 submitting_centre: University of Dundee

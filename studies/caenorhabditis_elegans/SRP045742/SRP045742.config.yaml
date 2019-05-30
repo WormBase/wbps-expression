@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'Caenorhabditis elegans strain:N2, rde-4::unc-69, hrde-1 Transcriptome or Gene expression'
 pubmed:
   25018105:

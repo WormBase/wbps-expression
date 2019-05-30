@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: RNA-sequencing of C.elegans isp-1 mutant and superoxide dismutase-isp-1 double mutants
 pubmed:
   28392283:

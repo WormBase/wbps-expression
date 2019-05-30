@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: RNA-seq of C.elegans and M.musculus in the presence and absence of D-Glucosamine (GlcN)
 pubmed:
   24714520:

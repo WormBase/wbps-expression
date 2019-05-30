@@ -1,8 +1,14 @@
 ---
-description: Deep sequencing of poly(A)-selected RNAs from whole nematode C. elegans during aging
+bioproject: PRJNA293449
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2017-12-07
+ena_last_update: 2018-03-07
 pubmed:
   29114017:
     - 'Inukai .. Slack, 2018'
     - 'A microRNA feedback loop regulates global microRNA abundance during aging. (Inukai .. Slack, 2018)'
-submitting_centre: ~
+resource_links: []
+submitting_centre: ''
 title: Deep sequencing of poly(A)-selected RNAs from whole nematode C. elegans during aging

@@ -1,0 +1,49 @@
+Run	Condition	generation	genotype	sample_name	temperature	repeat_number	source_name
+SRR2832496	WT_15C_G1_rep1_mRNAseq	1st	WT (N2)	WT_15C_G1_rep1_mRNAseq	15?C (before heat stress)	1	Young adult whole animal
+SRR2832520	WT_15C_G1_rep2_mRNAseq	1st	WT (N2)	WT_15C_G1_rep2_mRNAseq	15?C (before heat stress)	1	Young adult whole animal
+SRR2832497	WT_15C_G2_rep1_mRNAseq	2nd	WT (N2)	WT_15C_G2_rep1_mRNAseq	15?C (before heat stress)	1	Young adult whole animal
+SRR2832521	WT_15C_G2_rep2_mRNAseq	2nd	WT (N2)	WT_15C_G2_rep2_mRNAseq	15?C (before heat stress)	1	Young adult whole animal
+SRR2832498	WT_15C_G3_rep1_mRNAseq	3rd	WT (N2)	WT_15C_G3_rep1_mRNAseq	15?C (before heat stress)	1	Young adult whole animal
+SRR2832522	WT_15C_G3_rep2_mRNAseq	3rd	WT (N2)	WT_15C_G3_rep2_mRNAseq	15?C (before heat stress)	1	Young adult whole animal
+SRR2832499	WT_23C_G1_rep1_mRNAseq	1st	WT (N2)	WT_23C_G1_rep1_mRNAseq	23?C	1	Young adult whole animal
+SRR2832523	WT_23C_G1_rep2_mRNAseq	1st	WT (N2)	WT_23C_G1_rep2_mRNAseq	23?C	1	Young adult whole animal
+SRR2832500	WT_23C_G2_rep1_mRNAseq	2nd	WT (N2)	WT_23C_G2_rep1_mRNAseq	23?C	1	Young adult whole animal
+SRR2832524	WT_23C_G2_rep2_mRNAseq	2nd	WT (N2)	WT_23C_G2_rep2_mRNAseq	23?C	1	Young adult whole animal
+SRR2832501	WT_23C_G3_rep1_mRNAseq	3rd	WT (N2)	WT_23C_G3_rep1_mRNAseq	23?C	1	Young adult whole animal
+SRR2832525	WT_23C_G3_rep2_mRNAseq	3rd	WT (N2)	WT_23C_G3_rep2_mRNAseq	23?C	1	Young adult whole animal
+SRR2832502	WT_23C_G4_rep1_mRNAseq	4th	WT (N2)	WT_23C_G4_rep1_mRNAseq	23?C	1	Young adult whole animal
+SRR2832526	WT_23C_G4_rep2_mRNAseq	4th	WT (N2)	WT_23C_G4_rep2_mRNAseq	23?C	1	Young adult whole animal
+SRR2832503	WT_23C_G5_rep1_mRNAseq	5th	WT (N2)	WT_23C_G5_rep1_mRNAseq	23?C	1	Young adult whole animal
+SRR2832527	WT_23C_G5_rep2_mRNAseq	5th	WT (N2)	WT_23C_G5_rep2_mRNAseq	23?C	1	Young adult whole animal
+SRR2832504	WT_23C_G6_rep1_mRNAseq	6th	WT (N2)	WT_23C_G6_rep1_mRNAseq	23?C	1	Young adult whole animal
+SRR2832528	WT_23C_G6_rep2_mRNAseq	6th	WT (N2)	WT_23C_G6_rep2_mRNAseq	23?C	1	Young adult whole animal
+SRR2832505	WT_p15C_G1_rep1_mRNAseq	1st	WT (N2)	WT_p15C_G1_rep1_mRNAseq	15?C (post heat stress)	1	Young adult whole animal
+SRR2832529	WT_p15C_G1_rep2_mRNAseq	1st	WT (N2)	WT_p15C_G1_rep2_mRNAseq	15?C (post heat stress)	1	Young adult whole animal
+SRR2832506	WT_p15C_G2_rep1_mRNAseq	2nd	WT (N2)	WT_p15C_G2_rep1_mRNAseq	15?C (post heat stress)	1	Young adult whole animal
+SRR2832530	WT_p15C_G2_rep2_mRNAseq	2nd	WT (N2)	WT_p15C_G2_rep2_mRNAseq	15?C (post heat stress)	1	Young adult whole animal
+SRR2832507	WT_p15C_G3_rep1_mRNAseq	3rd	WT (N2)	WT_p15C_G3_rep1_mRNAseq	15?C (post heat stress)	1	Young adult whole animal
+SRR2832531	WT_p15C_G3_rep2_mRNAseq	3rd	WT (N2)	WT_p15C_G3_rep2_mRNAseq	15?C (post heat stress)	1	Young adult whole animal
+SRR2832508	hrde-1_15C_G1_rep1_mRNAseq	1st	hrde-1 (tm-1200)	hrde-1_15C_G1_rep1_mRNAseq	15?C (before heat stress)	1	Young adult whole animal
+SRR2832532	hrde-1_15C_G1_rep2_mRNAseq	1st	hrde-1 (tm-1200)	hrde-1_15C_G1_rep2_mRNAseq	15?C (before heat stress)	1	Young adult whole animal
+SRR2832509	hrde-1_15C_G2_rep1_mRNAseq	2nd	hrde-1 (tm-1200)	hrde-1_15C_G2_rep1_mRNAseq	15?C (before heat stress)	1	Young adult whole animal
+SRR2832533	hrde-1_15C_G2_rep2_mRNAseq	2nd	hrde-1 (tm-1200)	hrde-1_15C_G2_rep2_mRNAseq	15?C (before heat stress)	1	Young adult whole animal
+SRR2832510	hrde-1_15C_G3_rep1_mRNAseq	3rd	hrde-1 (tm-1200)	hrde-1_15C_G3_rep1_mRNAseq	15?C (before heat stress)	1	Young adult whole animal
+SRR2832534	hrde-1_15C_G3_rep2_mRNAseq	3rd	hrde-1 (tm-1200)	hrde-1_15C_G3_rep2_mRNAseq	15?C (before heat stress)	1	Young adult whole animal
+SRR2832511	hrde-1_23C_G1_rep1_mRNAseq	1st	hrde-1 (tm-1200)	hrde-1_23C_G1_rep1_mRNAseq	23?C	1	Young adult whole animal
+SRR2832535	hrde-1_23C_G1_rep2_mRNAseq	1st	hrde-1 (tm-1200)	hrde-1_23C_G1_rep2_mRNAseq	23?C	1	Young adult whole animal
+SRR2832512	hrde-1_23C_G2_rep1_mRNAseq	2nd	hrde-1 (tm-1200)	hrde-1_23C_G2_rep1_mRNAseq	23?C	1	Young adult whole animal
+SRR2832536	hrde-1_23C_G2_rep2_mRNAseq	2nd	hrde-1 (tm-1200)	hrde-1_23C_G2_rep2_mRNAseq	23?C	1	Young adult whole animal
+SRR2832513	hrde-1_23C_G3_rep1_mRNAseq	3rd	hrde-1 (tm-1200)	hrde-1_23C_G3_rep1_mRNAseq	23?C	1	Young adult whole animal
+SRR2832537	hrde-1_23C_G3_rep2_mRNAseq	3rd	hrde-1 (tm-1200)	hrde-1_23C_G3_rep2_mRNAseq	23?C	1	Young adult whole animal
+SRR2832514	hrde-1_23C_G4_rep1_mRNAseq	4th	hrde-1 (tm-1200)	hrde-1_23C_G4_rep1_mRNAseq	23?C	1	Young adult whole animal
+SRR2832538	hrde-1_23C_G4_rep2_mRNAseq	4th	hrde-1 (tm-1200)	hrde-1_23C_G4_rep2_mRNAseq	23?C	1	Young adult whole animal
+SRR2832515	hrde-1_23C_G5_rep1_mRNAseq	5th	hrde-1 (tm-1200)	hrde-1_23C_G5_rep1_mRNAseq	23?C	1	Young adult whole animal
+SRR2832539	hrde-1_23C_G5_rep2_mRNAseq	5th	hrde-1 (tm-1200)	hrde-1_23C_G5_rep2_mRNAseq	23?C	1	Young adult whole animal
+SRR2832516	hrde-1_23C_G6_rep1_mRNAseq	6th	hrde-1 (tm-1200)	hrde-1_23C_G6_rep1_mRNAseq	23?C	1	Young adult whole animal
+SRR2832540	hrde-1_23C_G6_rep2_mRNAseq	6th	hrde-1 (tm-1200)	hrde-1_23C_G6_rep2_mRNAseq	23?C	1	Young adult whole animal
+SRR2832517	hrde-1_p15C_G1_rep1_mRNAseq	1st	hrde-1 (tm-1200)	hrde-1_p15C_G1_rep1_mRNAseq	15?C (post heat stress)	1	Young adult whole animal
+SRR2832541	hrde-1_p15C_G1_rep2_mRNAseq	1st	hrde-1 (tm-1200)	hrde-1_p15C_G1_rep2_mRNAseq	15?C (post heat stress)	1	Young adult whole animal
+SRR2832518	hrde-1_p15C_G2_rep1_mRNAseq	2nd	hrde-1 (tm-1200)	hrde-1_p15C_G2_rep1_mRNAseq	15?C (post heat stress)	1	Young adult whole animal
+SRR2832542	hrde-1_p15C_G2_rep2_mRNAseq	2nd	hrde-1 (tm-1200)	hrde-1_p15C_G2_rep2_mRNAseq	15?C (post heat stress)	1	Young adult whole animal
+SRR2832519	hrde-1_p15C_G3_rep1_mRNAseq	3rd	hrde-1 (tm-1200)	hrde-1_p15C_G3_rep1_mRNAseq	15?C (post heat stress)	1	Young adult whole animal
+SRR2832543	hrde-1_p15C_G3_rep2_mRNAseq	3rd	hrde-1 (tm-1200)	hrde-1_p15C_G3_rep2_mRNAseq	15?C (post heat stress)	1	Young adult whole animal

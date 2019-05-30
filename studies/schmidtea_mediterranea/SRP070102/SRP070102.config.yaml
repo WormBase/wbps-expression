@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: PolyA position Profiling (3P-Seq) in Schmidtea mediterranea
 pubmed:
   27489207:

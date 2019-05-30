@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Transcriptomic analysis of wild-type and lin-22 mutants in C.elegans
 pubmed:
   29108019:

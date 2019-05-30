@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Paternal RNA contributions in the C. elegans zygote
 pubmed:
   24894551:

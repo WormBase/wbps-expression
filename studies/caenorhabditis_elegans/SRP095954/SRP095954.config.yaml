@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: JMJD5/PHF8 regulates H3K36me2 and it is required for late steps of homologous recombination and genome integrity
 pubmed:
   28207814:

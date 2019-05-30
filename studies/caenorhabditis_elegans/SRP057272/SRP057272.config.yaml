@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Endogenous DAF-16 genome-wide recruitment under low Insulin signalling condition in Caenorhabditis elegans
 pubmed:
   26539642:

@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Comparison of transcriptomes of sig-7 (RNAi) vs WT C. elegans early stage embryos by RNA-seq
 pubmed: ~
 submitting_centre: 'MCD Biology, UC Santa Cruz'

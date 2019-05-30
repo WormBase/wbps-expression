@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Transcriptome profiling of sterile daf-2; mes-1 double vs. mes-1 single mutants
 pubmed:
   26976573:

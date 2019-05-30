@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'Cooperative target mRNA destabilization and translation inhibition by miR-58 microRNA family in C. elegans [RNA-Seq]'
 pubmed:
   26232411:

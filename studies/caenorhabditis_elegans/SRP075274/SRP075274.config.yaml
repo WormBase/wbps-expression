@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: RNA-seq analysis in C. elegans larval development and heat shock
 pubmed:
   27688402:

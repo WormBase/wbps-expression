@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Global effects of the CSR-1 RNA interference pathway on transcriptional landscape
 pubmed:
   24681887:

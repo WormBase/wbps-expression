@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Genome-wide distribution of the three condensin complexes in C. elegans
 pubmed:
   24125077:

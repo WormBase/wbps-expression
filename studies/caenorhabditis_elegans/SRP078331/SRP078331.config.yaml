@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: An H4K16 histone acetyltransferase mediates decondensation of the X chromosome in C. elegans males
 pubmed:
   27777629:

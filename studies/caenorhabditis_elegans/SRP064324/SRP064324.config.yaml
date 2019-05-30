@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Osmosensory neurons modulate hypertonic stress resistance in C. elegans by controlling protein damage in non-neuronal cells
 pubmed:
   27111894:

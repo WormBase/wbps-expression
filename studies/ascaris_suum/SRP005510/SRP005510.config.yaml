@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Ascaris suum Small RNA-Seq data
 pubmed:
   21685128:

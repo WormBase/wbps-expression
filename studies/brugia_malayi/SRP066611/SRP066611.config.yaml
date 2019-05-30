@@ -41,6 +41,24 @@ contrasts:
         - 'Ivermectin 1 uM, 5 d'
         - 'Ivermectin 300 nM, 5 d'
         - 'Ivermectin 5 d: 1 uM vs 300 nM'
+  - name: concentration+treatment
+    values:
+      -
+        - 48 h
+        - 'Ivermectin 1 uM, 48 h'
+        - "48 h: '' vs 1 uM, Ivermectin"
+      -
+        - 48 h
+        - 'Ivermectin 300 nM, 48 h'
+        - "48 h: '' vs 300 nM, Ivermectin"
+      -
+        - 5 d
+        - 'Ivermectin 1 uM, 5 d'
+        - "5 d: '' vs 1 uM, Ivermectin"
+      -
+        - 5 d
+        - 'Ivermectin 300 nM, 5 d'
+        - "5 d: '' vs 300 nM, Ivermectin"
 description: 'Deciphering the loss of fertility in ivermectin-treated Brugia malayi females in vitro: a transcriptomic approach [Study II]'
 pubmed:
   27529747:

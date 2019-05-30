@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Translation Readthrough Mitigation
 pubmed:
   27281202:

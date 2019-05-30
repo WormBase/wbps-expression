@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: RNAseq of FACS-sorted C.elegans neurons from wildtype and thoc-5(wy822) mutant animals.
 pubmed:
   30146163:

@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: RNA sequencing of cell-specific profile of AVK
 pubmed:
   30392795:

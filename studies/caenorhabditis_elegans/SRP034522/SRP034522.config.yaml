@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Conservation of mRNA and protein expression during development of C. elegans
 pubmed:
   24462290:

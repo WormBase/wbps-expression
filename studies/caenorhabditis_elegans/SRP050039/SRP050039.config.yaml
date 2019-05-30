@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: A variety of Dicer substrates in human and C. elegans (CEL RNA-seq)
 pubmed:
   25416952:

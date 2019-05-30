@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: ALG-5 is a miRNA-associated Argonaute required for proper developmental timing in the Caenorhabditis elegans germline
 pubmed:
   28645154:

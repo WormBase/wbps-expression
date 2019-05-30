@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Whole RNA sequencing to identify targets of the RNase domain protein encoded by rege-1 (C30F12.1)
 pubmed:
   27746047:

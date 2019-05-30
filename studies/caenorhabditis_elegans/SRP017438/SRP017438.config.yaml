@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'Integral nuclear pore proteins bind to Pol III genes and are required for Pol III transcript processing in C. elegans [seq]'
 pubmed:
   24011592:

@@ -1,0 +1,54 @@
+Run	Condition	description_title	source_name	strain	developmental_stage	genotype	organism_part
+SRR6388516	SRR6388516	RCC019	Psora-1	Bristow N2	Day 6	wild type	whole organism
+SRR6388517	SRR6388517	RCC020	Psora-2	Bristow N2	Day 6	wild type	whole organism
+SRR6388518	SRR6388518	RCC021	Psora-3	Bristow N2	Day 6	wild type	whole organism
+SRR6388519	SRR6388519	RCC022	Allan-1	Bristow N2	Day 6	wild type	whole organism
+SRR6388520	SRR6388520	RCC023	Allan-2	Bristow N2	Day 6	wild type	whole organism
+SRR6388521	SRR6388521	RCC024	Allan-3	Bristow N2	Day 6	wild type	whole organism
+SRR6388522	SRR6388522	RCC025	Rif-1	Bristow N2	Day 6	wild type	whole organism
+SRR6388523	SRR6388523	RCC026	Rif-2	Bristow N2	Day 6	wild type	whole organism
+SRR6388524	SRR6388524	RCC027	Rif-3	Bristow N2	Day 6	wild type	whole organism
+SRR6388525	SRR6388525	RCC028	Metf-1	Bristow N2	Day 6	wild type	whole organism
+SRR6388526	SRR6388526	RCC029	Metf-2	Bristow N2	Day 6	wild type	whole organism
+SRR6388527	SRR6388527	RCC030	Metf-3	Bristow N2	Day 6	wild type	whole organism
+SRR6388528	SRR6388528	RCC031	Rap-1	Bristow N2	Day 6	wild type	whole organism
+SRR6388529	SRR6388529	RCC032	Rap-2	Bristow N2	Day 6	wild type	whole organism
+SRR6388530	SRR6388530	RCC033	Rap-3	Bristow N2	Day 6	wild type	whole organism
+SRR6388531	SRR6388531	RCC037	N2control-1	Bristow N2	Day 6	wild type	whole organism
+SRR6388532	SRR6388532	RCC038	N2control-2	Bristow N2	Day 6	wild type	whole organism
+SRR6388533	SRR6388533	RCW001	Rap+Rif-1	Bristow N2	Day 6	wild type	whole organism
+SRR6388534	SRR6388534	RCW002	Rap+Rif-2	Bristow N2	Day 6	wild type	whole organism
+SRR6388535	SRR6388535	RCW003	Rap+Rif-3	Bristow N2	Day 6	wild type	whole organism
+SRR6388536	SRR6388536	RCW004	Rap+Psora-1	Bristow N2	Day 6	wild type	whole organism
+SRR6388537	SRR6388537	RCW005	Rap+Psora-2	Bristow N2	Day 6	wild type	whole organism
+SRR6388538	SRR6388538	RCW006	Rap+Psora-3	Bristow N2	Day 6	wild type	whole organism
+SRR6388539	SRR6388539	RCW007	Rif+Psora-1	Bristow N2	Day 6	wild type	whole organism
+SRR6388540	SRR6388540	RCW008	Rif+Psora-2	Bristow N2	Day 6	wild type	whole organism
+SRR6388541	SRR6388541	RCW009	Rif+Psora-3	Bristow N2	Day 6	wild type	whole organism
+SRR6388542	SRR6388542	RCW010	Rap+Rif+Psora-1	Bristow N2	Day 6	wild type	whole organism
+SRR6388543	SRR6388543	RCW011	Rap+Rif+Psora-2	Bristow N2	Day 6	wild type	whole organism
+SRR6388544	SRR6388544	RCW012	Rap+Rif+Psora-3	Bristow N2	Day 6	wild type	whole organism
+SRR6388545	SRR6388545	RCW013	Rif+Psora+Allan-1	Bristow N2	Day 6	wild type	whole organism
+SRR6388546	SRR6388546	RCW014	Rif+Psora+Allan-2	Bristow N2	Day 6	wild type	whole organism
+SRR6388547	SRR6388547	RCW015	Rif+Psora+Allan-3	Bristow N2	Day 6	wild type	whole organism
+SRR6388548	SRR6388548	RCW016	Rif+Rap+Allan-1	Bristow N2	Day 6	wild type	whole organism
+SRR6388549	SRR6388549	RCW017	Rif+Rap+Allan-2	Bristow N2	Day 6	wild type	whole organism
+SRR6388550	SRR6388550	RCW018	Rif+Rap+Allan-3	Bristow N2	Day 6	wild type	whole organism
+SRR6388551	SRR6388551	RCW019	N2control-1	Bristow N2	Day 6	wild type	whole organism
+SRR6388552	SRR6388552	RCW020	N2control-2	Bristow N2	Day 6	wild type	whole organism
+SRR6388553	SRR6388553	RCW021	Rap+Met-1	Bristow N2	Day 6	wild type	whole organism
+SRR6388554	SRR6388554	RCW022	Rap+Met-2	Bristow N2	Day 6	wild type	whole organism
+SRR6388555	SRR6388555	RCW023	Rap+Met-3	Bristow N2	Day 6	wild type	whole organism
+SRR6388556	SRR6388556	RCW024	Rap+Allan-1	Bristow N2	Day 6	wild type	whole organism
+SRR6388557	SRR6388557	RCW025	Rap+Allan-2	Bristow N2	Day 6	wild type	whole organism
+SRR6388558	SRR6388558	RCW026	Rif+Allan-1	Bristow N2	Day 6	wild type	whole organism
+SRR6388559	SRR6388559	RCW027	Rif+Allan-2	Bristow N2	Day 6	wild type	whole organism
+SRR6388560	SRR6388560	RCW028	Rif+Allan-3	Bristow N2	Day 6	wild type	whole organism
+SRR6388561	SRR6388561	RCW029	Psora+Allan-1	Bristow N2	Day 6	wild type	whole organism
+SRR6388562	SRR6388562	RCW030	Psora+Allan-2	Bristow N2	Day 6	wild type	whole organism
+SRR6388563	SRR6388563	RCW031	Psora+Allan-3	Bristow N2	Day 6	wild type	whole organism
+SRR6388564	SRR6388564	RCW032	eat-1	ad1116	Day 6	wild type	whole organism
+SRR6388565	SRR6388565	RCW033	eat-2	ad1116	Day 6	wild type	whole organism
+SRR6388566	SRR6388566	RCW034	eat-3	ad1116	Day 6	wild type	whole organism
+SRR6388567	SRR6388567	RCW039	N2-control-1	Bristow N2	Day 6	wild type	whole organism
+SRR6388568	SRR6388568	RCW040	N2-control-2	Bristow N2	Day 6	wild type	whole organism

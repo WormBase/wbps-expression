@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Whole-genome sequencing and variant discovery in Caenorhabditis elegans by Illumina sequencing
 pubmed:
   18204455:

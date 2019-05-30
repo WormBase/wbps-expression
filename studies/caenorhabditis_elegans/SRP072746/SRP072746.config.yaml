@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'Localization of RNAPII and 3’ end formation factor CstF subunits on C. elegans genes and operons [RNA-seq]'
 pubmed: ~
 submitting_centre: CU Boulder

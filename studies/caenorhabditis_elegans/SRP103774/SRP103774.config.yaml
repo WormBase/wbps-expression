@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: RNA sequencing of drh-3(rrr2) mutants
 pubmed:
   29579041:

@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Variations in diet type and temperature significantly affect the transcriptional profile of C. elegans
 pubmed:
   29515753:
