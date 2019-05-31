@@ -8,6 +8,7 @@ use JSON;
 use File::Basename;
 use DateTime;
 use DateTime::Format::Strptime;
+use DateTime::Format::ISO8601::Format;
 use List::Util qw/pairs unpairs/;
 use File::Slurp qw(read_file read_dir);
 # use Smart::Comments '###';
@@ -15,6 +16,7 @@ use File::Slurp qw(read_file read_dir);
 # 
 # { study_id -> {
 #     assembly_used,
+#     rnaseqer_last_update,
 #     location_by_run :: {Run -> URL},
 #     quality_by_run :: {Run -> Int},
 #     replicates_by_run :: {Run -> Replicate}
@@ -39,7 +41,7 @@ sub get_results_by_study {
   my %result;
   for my $study_id (keys %runs_per_study){
     my @runs = @{$runs_per_study{$study_id}};
-    my $assembly_used = value_for_newest_key(map {
+    my ($rnaseqer_last_update, $assembly_used) = date_and_value_for_newest_key(map {
        $_->{LAST_PROCESSED_DATE} => $_->{ASSEMBLY_USED}
     } @runs);
     my %location_by_run;
@@ -64,6 +66,7 @@ sub get_results_by_study {
     }
     $result{$study_id} = {
        assembly_used => $assembly_used,
+       rnaseqer_last_update => $rnaseqer_last_update,
        location_by_run=> \%location_by_run,
        quality_by_run=> \%quality_by_run,
        replicates_by_run => \%replicates_by_run,
@@ -73,10 +76,11 @@ sub get_results_by_study {
 }
 
 
-sub value_for_newest_key {
+sub date_and_value_for_newest_key {
   my %h = @_;
-  my $f = DateTime::Format::Strptime->new(pattern=> "%a %b %e %Y %T", strict=>1); # Fri Jun 19 2015 18:20:10
-  my ($k, $v, @xs) = unpairs sort {DateTime->compare($f->parse_datetime($a->[0]), $f->parse_datetime($b->[0]))} pairs %h;
-  return $v;
+  my $format_rnaseqer = DateTime::Format::Strptime->new(pattern=> "%a %b %e %Y %T", strict=>1); # Fri Jun 19 2015 18:20:10
+  my $format_iso = DateTime::Format::ISO8601::Format->new;
+  my ($k, $v, @xs) = unpairs sort {DateTime->compare($a->[0], $b->[0])} map {[$format_rnaseqer->parse_datetime($_->[0]) , $_->[1]]} pairs %h;
+  return $format_iso->format_date($k), $v;
 }
 1;

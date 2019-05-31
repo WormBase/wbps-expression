@@ -102,8 +102,9 @@ sub xml_to_data_for_bioproject {
 # Found description as an empty hash in: SRP013211
 sub to_string {
   my ($o) = @_;
-  $o = join ", ", pairmap { "$a: $b" } %{$o} if ref $o eq 'HASH';
-  $o = join ", ", @{$o} if ref $o eq 'ARRAY';
+#### $o
+  $o = join ", ", pairmap { "$a: $b" } %{$o} if ref $o eq 'HASH' and %{$o};
+  $o = join ", ", @{$o} if ref $o eq 'ARRAY' and @{$o};
   return $o;
 }
 
@@ -123,15 +124,14 @@ sub determine_bioproject {
       and (not $identifier->{label} or $identifier->{label} eq "primary");
   }
   my ( $bioproject, @other_bioprojects ) = @bioprojects;
-  $bioproject //= $payload->{STUDY}{IDENTIFIERS}{SECONDARY_ID};
   die join( " ",
     $payload->{STUDY}{accession} // "",
     ": could not determine BioProject",
     $bioproject, @other_bioprojects )
-    if ( not $bioproject or @other_bioprojects );
+    if ( @other_bioprojects );
 
-# Working assumption: everything has a bioproject. Will soon find a counterexample. :)
-  return $bioproject;
+  # Quite rare for studies not to have bioprojects. Example: SRP013211
+  return $bioproject // $payload->{STUDY}{IDENTIFIERS}{SECONDARY_ID} // "";
 }
 
 sub xml_to_data_for_study {
@@ -147,7 +147,7 @@ sub xml_to_data_for_study {
 
   my $submitting_centre = (
     uc( $payload->{STUDY}{broker_name} // "" ) eq 'NCBI'
-      and length( $payload->{STUDY}{center_name} ) < 10
+      and length( $payload->{STUDY}{center_name} // "") < 10
     or not $payload->{STUDY}{center_name}
     or $payload->{STUDY}{center_name} eq "BioProject"
   ) ? "" : $payload->{STUDY}{center_name};

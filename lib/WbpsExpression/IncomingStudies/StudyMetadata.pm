@@ -18,6 +18,9 @@ my $pubmed_curated_ids = {
   heligmosomoides_polygyrus => {
     SRP157940 => [30349532],
   },
+  heterorhabditis_bacteriophora => {
+    SRP125059 => [28049427],
+  },
   meloidogyne_incognita => {
     ERP009887 => [28594822],
     SRP109232 => [29230237],

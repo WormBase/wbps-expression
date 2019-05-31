@@ -86,7 +86,7 @@ sub design_and_skipped_runs_from_data_by_run_and_previous_values {
   return $design, \@skipped_runs;
 }
 sub update_study_with_results {
-  my ( $path, $species, $study_id, $location_by_run, $quality_by_run, $replicates_by_run ) = @_;
+  my ( $path, $species, $study_id, $rnaseqer_last_update, $location_by_run, $quality_by_run, $replicates_by_run ) = @_;
   my @all_runs = sort keys %$location_by_run;
   my ( $design, $skipped_runs, $sources);
   my $study_now = WbpsExpression::Study->from_folder($path);
@@ -141,7 +141,12 @@ sub update_study_with_results {
   my $category =
     WbpsExpression::IncomingStudies::CurationDefaults::category( $design, $contrasts );
 
-  my $config = { %{$study_metadata}, contrasts => $contrasts, category => $category};
+  my $config = {
+    %{$study_metadata},
+    contrasts => $contrasts,
+    category => $category,
+    rnaseqer_last_update => $rnaseqer_last_update,
+  };
 
   my $study =
     WbpsExpression::Study->new($study_id, $design, $config, $skipped_runs, \%sources);
@@ -157,9 +162,10 @@ sub update_studies {
   my $rnaseqer_results_by_study_id = WbpsExpression::IncomingStudies::RnaseqerResults::get_results_by_study($species);
 #### $rnaseqer_results_by_study_id
   for my $study_id (sort keys %{$rnaseqer_results_by_study_id}){
-    next unless $assembly eq $rnaseqer_results_by_study_id->{$study_id}{assembly_used};
+    next unless ($species eq "heterorhabditis_bacteriophora" or $assembly eq $rnaseqer_results_by_study_id->{$study_id}{assembly_used});
     my $study_path = join("/", $studies_dir, $species, $study_id);
     my $study = update_study_with_results($study_path, $species, $study_id,
+        $rnaseqer_results_by_study_id->{$study_id}{rnaseqer_last_update},
        $rnaseqer_results_by_study_id->{$study_id}{location_by_run},
        $rnaseqer_results_by_study_id->{$study_id}{quality_by_run},
        $rnaseqer_results_by_study_id->{$study_id}{replicates_by_run},
