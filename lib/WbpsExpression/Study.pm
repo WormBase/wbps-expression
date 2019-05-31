@@ -207,12 +207,14 @@ sub passes_checks {
 
 sub source_counts {
   my ($self, $run_id) = @_;
-  return join("/", $self->{sources}{$run_id}{location}, "$run_id.$self->{sources}{$run_id}{end}.genes.raw.htseq2.tsv");
+  my $m = $self->{config}{rnaseqer_last_update} ge "2019-04-15" ? "featurecounts" : "htseq2";
+  return join("/", $self->{sources}{$run_id}{location}, "$run_id.$self->{sources}{$run_id}{end}.genes.raw.$m.tsv");
 }
 
 sub source_tpm {
   my ($self, $run_id) = @_;
-  return join("/", $self->{sources}{$run_id}{location}, "$run_id.$self->{sources}{$run_id}{end}.genes.tpm.htseq2.irap.tsv");
+  my $m = $self->{config}{rnaseqer_last_update} ge "2019-04-15" ? "featurecounts" : "htseq2";
+  return join("/", $self->{sources}{$run_id}{location}, "$run_id.$self->{sources}{$run_id}{end}.genes.tpm.$m.irap.tsv");
 }
 
 sub source_bigwig {

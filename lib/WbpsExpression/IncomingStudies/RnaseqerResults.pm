@@ -80,7 +80,7 @@ sub date_and_value_for_newest_key {
   my %h = @_;
   my $format_rnaseqer = DateTime::Format::Strptime->new(pattern=> "%a %b %e %Y %T", strict=>1); # Fri Jun 19 2015 18:20:10
   my $format_iso = DateTime::Format::ISO8601::Format->new;
-  my ($k, $v, @xs) = unpairs sort {DateTime->compare($a->[0], $b->[0])} map {[$format_rnaseqer->parse_datetime($_->[0]) , $_->[1]]} pairs %h;
+  my ($k, $v, @xs) = unpairs sort {DateTime->compare($b->[0], $a->[0])} map {[$format_rnaseqer->parse_datetime($_->[0]) , $_->[1]]} pairs %h;
   return $format_iso->format_date($k), $v;
 }
 1;

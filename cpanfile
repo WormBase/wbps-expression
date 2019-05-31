@@ -14,6 +14,9 @@ requires 'Statistics::R';
 requires 'Log::Any';
 requires 'Log::Any::Adapter::Log4perl';
 requires 'Log::Log4perl';
+requires 'DateTime::Format::Strptime';
+requires 'DateTime::Format::ISO8601::Format';
+
 
 test_requires 'File::Temp';
 test_requires 'Test::MockModule';
