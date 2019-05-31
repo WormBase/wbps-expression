@@ -33,6 +33,7 @@ SRR4046939	SAMN05601722	low salinity, 15h		mixed population	whole organism	mixed
 SRR4046940	SAMN05601722	low salinity, 15h		mixed population	whole organism	mixed population at low salinity for 15 hours	DV1	worms are kept at 1.5? salinity for 15h
 SRR4046937	SAMN05601721	low salinity, 1h		mixed population	whole organism	mixed population at low salinity for 1 hour	DV1	worms are kept at 1.5? salinity for 1h
 SRR4046938	SAMN05601721	low salinity, 1h		mixed population	whole organism	mixed population at low salinity for 1 hour	DV1	worms are kept at 1.5? salinity for 1h
+SRR4046942	SAMN05601723	low salinity, 60h		mixed population	whole organism	mixed population at low salinity for 60 hours	DV1	worms are kept at 1.5? salinity for 60h
 SRR4046943	SAMN05601723	low salinity, 60h		mixed population	whole organism	mixed population at low salinity for 60 hours	DV1	worms are kept at 1.5? salinity for 60h
 SRR4046952	SAMN05601717	standard conditions		mixed population	whole organism	mixed population grown under standard conditions	DV1	worms are starved for 18-24h prior RNA isolation to prevent diatom contamination
 SRR4046963	SAMN05601717	standard conditions		mixed population	whole organism	mixed population grown under standard conditions	DV1	worms are starved for 18-24h prior RNA isolation to prevent diatom contamination
@@ -40,6 +41,8 @@ SRR4046978	SAMN05601717	standard conditions		mixed population	whole organism	mix
 SRR4046979	SAMN05601717	standard conditions		mixed population	whole organism	mixed population grown under standard conditions	DV1	worms are starved for 18-24h prior RNA isolation to prevent diatom contamination
 SRR4046980	SAMN05601717	standard conditions		mixed population	whole organism	mixed population grown under standard conditions	DV1	worms are starved for 18-24h prior RNA isolation to prevent diatom contamination
 SRR4046933	SAMN05601719	starvation, 15h		mixed population	whole organism	mixed population starved for 15 hours	DV1	worms are starved for 15h
+SRR4046934	SAMN05601719	starvation, 15h		mixed population	whole organism	mixed population starved for 15 hours	DV1	worms are starved for 15h
 SRR4046931	SAMN05601718	starvation, 1h		mixed population	whole organism	mixed population starved for 1 hour	DV1	worms are starved for 1h
+SRR4046932	SAMN05601718	starvation, 1h		mixed population	whole organism	mixed population starved for 1 hour	DV1	worms are starved for 1h
 SRR4046935	SAMN05601720	starvation, 60h		mixed population	whole organism	mixed population starved for 60 hours	DV1	worms are starved for 60h
 SRR4046936	SAMN05601720	starvation, 60h		mixed population	whole organism	mixed population starved for 60 hours	DV1	worms are starved for 60h
