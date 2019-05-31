@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: 'Here we use subtractive RNASeq to characterise the genes encoding the principal secretory products of S. japonicum esophageal glands, preparatory to evaluating their relevance as targets of the self-cure process.'
 pubmed: ~
+rnaseqer_last_update: 2018-01-26
 submitting_centre: York
 title: 'Here we use subtractive RNASeq to characterise the genes encoding the principal secretory products of S. japonicum esophageal glands, preparatory to evaluating their relevance as targets of the self-cure process.'

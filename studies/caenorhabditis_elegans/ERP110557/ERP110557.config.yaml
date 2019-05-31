@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: This study uses total and polysomal RNA-sequencing to show that the translational efficiencies of specific mRNAs change depending on the mitochondrial activity in longer-lived C. elegans.
 pubmed: ~
+rnaseqer_last_update: 2018-09-14
 submitting_centre: 'KU Leuven, Centre of Microbial and Plant Genetics (CMPG)'
 title: RNA-seq of total and polysomal RNA of clk-1(qm30) mutants in Caenorhabditis elegans

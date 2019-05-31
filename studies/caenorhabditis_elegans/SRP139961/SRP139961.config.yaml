@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: ''
 pubmed: {}
+rnaseqer_last_update: 2019-03-05
 submitting_centre: U Mass Medical School
 title: 'Differential expression analysis of wildtype, atfs-1(tm4919) and zip-3(gk3164) mutant with next generation sequencing'

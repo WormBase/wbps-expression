@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: Ingested double-stranded RNA engages multiple silencing mechanisms in C. elegans
 pubmed: ~
+rnaseqer_last_update: 2018-02-06
 submitting_centre: 'Jose Lab, Cell Biology and Molecular Genetics, University of Maryland College Park'
 title: Ingested double-stranded RNA engages multiple silencing mechanisms in C. elegans

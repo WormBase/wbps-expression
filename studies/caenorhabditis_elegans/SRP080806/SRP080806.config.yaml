@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: Histone H3K9 methylation is dispensable  for Caenorhabditis elegans development but required for RNA:DNA hybrid-associated repeat stability
 pubmed: ~
+rnaseqer_last_update: 2018-03-20
 submitting_centre: Friedrich Miescher Institute for Biomedical Research
 title: Histone H3K9 methylation is dispensable  for Caenorhabditis elegans development but required for RNA:DNA hybrid-associated repeat stability

@@ -14,5 +14,6 @@ contrasts:
         - 'linker cell, male, PS4730: L3 larva Ce vs L4 larva Ce'
 description: C. elegans linker cell transcriptome
 pubmed: ~
+rnaseqer_last_update: 2018-03-30
 submitting_centre: California Institute of Technology
 title: C. elegans linker cell transcriptome

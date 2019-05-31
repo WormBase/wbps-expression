@@ -18,5 +18,6 @@ contrasts:
         - 'x1 cells: ints3 RNAi vs ints9 RNAi'
 description: Schmidtea mediterranea Integrator complex subunit knockdown and small RNA sequencing
 pubmed: ~
+rnaseqer_last_update: 2018-06-22
 submitting_centre: Max Planck Institute for Molecular Biomedicine
 title: Schmidtea mediterranea Integrator complex subunit knockdown and small RNA sequencing

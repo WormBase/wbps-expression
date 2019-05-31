@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: CEL-Seq transcriptomic analysis of C. elegans blastomeres
 pubmed: ~
+rnaseqer_last_update: 2017-12-26
 submitting_centre: 'Technion - Israel Institute of Technology'
 title: CEL-Seq transcriptomic analysis of C. elegans blastomeres

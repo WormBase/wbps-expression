@@ -1,5 +1,9 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'To study variation in sequence diversity, gene content, isoform usage, and expression levels, we generated RNA-seq libraries for dozens of natural isolates of the nematode P. pacificus.'
 pubmed: ~
+rnaseqer_last_update: 2018-06-28
 submitting_centre: MAX PLANCK INSTITUTE FOR DEVELOPMENTAL BIOLOGY
 title: Transcriptome variation across multiple isolates of the nematode P. pacificus

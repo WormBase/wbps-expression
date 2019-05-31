@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: The rules of piRNA targeting reveals resistance of endogenous genes to piRNA silencing in C. elegans
 pubmed: ~
+rnaseqer_last_update: 2018-05-20
 submitting_centre: University of Chicago
 title: The rules of piRNA targeting reveals resistance of endogenous genes to piRNA silencing in C. elegans

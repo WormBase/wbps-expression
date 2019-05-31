@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: 'Caenorhabditis elegans PAT-Seq of Intestine, pharynx and body muscle transcriptomes'
 pubmed: ~
+rnaseqer_last_update: 2018-01-01
 submitting_centre: Arizona State University
 title: 'Caenorhabditis elegans PAT-Seq of Intestine, pharynx and body muscle transcriptomes'

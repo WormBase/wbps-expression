@@ -34,5 +34,6 @@ contrasts:
         - LE2963 vs LE3037
 description: Using RNA-seq to identify transcriptional targets of MAB-5 in C. elegans
 pubmed: ~
+rnaseqer_last_update: 2018-03-31
 submitting_centre: University of Kansas
 title: Using RNA-seq to identify transcriptional targets of MAB-5 in C. elegans

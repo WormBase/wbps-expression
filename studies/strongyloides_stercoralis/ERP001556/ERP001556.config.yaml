@@ -97,5 +97,6 @@ contrasts:
         - Post parasitic L1 vs Post parasitic L3
 description: RNAseq study to examine developmental regulation of S. stercoralis transcripts with a focus on infectious third-stage larvae
 pubmed: ~
+rnaseqer_last_update: 2017-12-25
 submitting_centre: Penn Genome Frontiers Institute
 title: RNAseq of S. stercoralis PV001 strain developmental stages

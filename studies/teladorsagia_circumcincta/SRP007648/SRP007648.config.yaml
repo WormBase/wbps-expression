@@ -1,23 +1,9 @@
 ---
-bioproject: PRJNA72569
 category: Other
+condition_names: ~
 contrasts: []
 description: ''
-ena_first_public: 2011-08-05
-ena_last_update: 2017-11-30
 pubmed: {}
-resource_links:
-  -
-    - Parasitic Nematode Project Page
-    - Parasitic Nematode Project Page
-    - http://www.nematode.net/NN3_frontpage.cgi
-  -
-    - Teladorsagia circumcincta Project page
-    - Teladorsagia circumcincta Project page
-    - http://www.nematode.net/NN3_frontpage.cgi?navbar_selection=speciestable&subnav_selection=Teladorsagia_circumcincta
-  -
-    - Project Information
-    - Project Information
-    - http://genome.wustl.edu/genomes/view/teladorsagia_circumcincta/
+rnaseqer_last_update: 2018-01-21
 submitting_centre: The Genome Institute
 title: Teladorsagia circumcincta Genome Sequencing

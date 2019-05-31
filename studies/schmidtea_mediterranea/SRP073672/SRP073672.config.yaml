@@ -128,5 +128,6 @@ contrasts:
         - '6 days: unc22 vs zfp1'
 description: 'RNA Seq analysis in flatworm following 6, 12, or 18 day treatment with RNAi against Pax5, Sox8, or Zfp1, relative to unc22 to identify transcriptional targets.'
 pubmed: ~
+rnaseqer_last_update: 2018-02-26
 submitting_centre: 'Seidel, Genomics, Stowers Institute'
 title: 'RNA Seq analysis in flatworm following 6, 12, or 18 day treatment with RNAi against Pax5, Sox8, or Zfp1, relative to unc22 to identify transcriptional targets.'

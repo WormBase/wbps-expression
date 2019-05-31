@@ -18,5 +18,6 @@ contrasts:
         - 'adult: female vs male'
 description: Teladorsagia circumcincta transcriptomics
 pubmed: ~
+rnaseqer_last_update: 2018-01-17
 submitting_centre: Wellcome Sanger Institute
 title: Teladorsagia circumcincta transcriptomics

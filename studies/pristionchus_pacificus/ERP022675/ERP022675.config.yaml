@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'In this study, we generated a cross between the P. pacificus reference strain (PS312) and an isolate from la Reuinion and geneotyped the resulting offspring after inbreeding of 10 generations by means of RNA-seq.This data can be used to map phenotypic differences between both parental strains, perform expression qtl analysis and to create a novel high-resolution genetic linkage map for P. pacificus.'
 pubmed:
   25548084:
@@ -10,5 +13,6 @@ pubmed:
   27189551:
     - 'McGaughran .. Sommer, 2016'
     - 'Genomic Profiles of Diversification and Genotype-Phenotype Association in Island Nematode Lineages. (McGaughran .. Sommer, 2016)'
+rnaseqer_last_update: 2018-06-27
 submitting_centre: MAX PLANCK INSTITUTE FOR DEVELOPMENTAL BIOLOGY
 title: Genotyping of recombinant inbred lines of the nematode Pristionchus pacificus by RNA-seq

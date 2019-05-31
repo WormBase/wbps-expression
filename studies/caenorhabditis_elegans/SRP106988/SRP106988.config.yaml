@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: The C. elegans neural editome reveals an ADAR target mRNA required for proper chemotaxis
 pubmed: ~
+rnaseqer_last_update: 2018-05-11
 submitting_centre: UCSD
 title: The C. elegans neural editome reveals an ADAR target mRNA required for proper chemotaxis

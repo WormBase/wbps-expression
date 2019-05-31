@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: 'mRNA sequencing from ego-1(om84) and control L3, L4, and adult C. elegans hermaphrodites'
 pubmed: ~
+rnaseqer_last_update: 2017-12-26
 submitting_centre: 'Fire, Genetics, Stanford University'
 title: 'mRNA sequencing from ego-1(om84) and control L3, L4, and adult C. elegans hermaphrodites'

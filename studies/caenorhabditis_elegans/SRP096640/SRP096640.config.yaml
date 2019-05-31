@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: Caenorhabditis elegans LITE-Seq germline 3''UTR sequencing
 pubmed: ~
+rnaseqer_last_update: 2018-04-09
 submitting_centre: New York University
 title: Caenorhabditis elegans LITE-Seq germline 3''UTR sequencing

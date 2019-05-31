@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: 'CEPsh glia were isolated from C. elegans mix larvae population by FACS, based on expression of a GFP marker under control of the CEPsh glia-specific marker hlh-17. All other cells, which are not expressing GFP, were collected separately for control. RNA reads from GFP-positive and GFP-negative samples were compared to identify CEPsh glia-enriched genes.'
 pubmed: {}
+rnaseqer_last_update: 2019-04-13
 submitting_centre: THE ROCKEFELLER UNIVERSITY
 title: Differential gene analysis to identify genes expressed in CEPsh glia of C. elegans

@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: ''
 pubmed: {}
+rnaseqer_last_update: 2017-12-28
 submitting_centre: Cornell University
 title: 'Caenorhabditis elegans ALA neuron transcriptome (wild-type, mid-L4 larval stage)'

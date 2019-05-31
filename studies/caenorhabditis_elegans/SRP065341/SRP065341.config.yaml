@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: ''
 pubmed: {}
+rnaseqer_last_update: 2018-01-30
 submitting_centre: 'Molecular Biology and Biochemistry, Rutgers University'
 title: Germline nuclear RNAi in C. elegans represses transgenerational inheritance of heat-induced gene transcriptional activation (mRNA profiling)

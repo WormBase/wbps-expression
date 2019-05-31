@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: ''
 pubmed: {}
+rnaseqer_last_update: 2019-03-17
 submitting_centre: 'Rollins Lab, MDI Biological Laboratory'
 title: Polysome profiling and mRNA-seq to quantify translational gene regulation in dietary restricted C. elegans and in a long-lived daf-2:rsks-1 double mutant.

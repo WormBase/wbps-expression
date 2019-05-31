@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: 'Deciphering the C. elegans embryonic transcriptome with tissue, time, and alternative splicing resolution'
 pubmed: ~
+rnaseqer_last_update: 2018-08-29
 submitting_centre: University of Washington
 title: 'Deciphering the C. elegans embryonic transcriptome with tissue, time, and alternative splicing resolution'

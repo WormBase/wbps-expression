@@ -1,11 +1,15 @@
 ---
+bioproject: ''
 category: Other
-condition_names: {}
 contrasts: []
-description: Molecular changes in Opisthorchis viverrini (Southeast Asian liver fluke) during the transition from the juvenile to adult stage
+description: {}
+ena_first_public: 2012-12-27
+ena_last_update: 2015-06-22
 pubmed:
   23209858:
     - 'Jex .. Gasser, 2012'
-    - 'Molecular changes in Opisthorchis viverrini (Southeast Asian liver fluke) during the transition from the juvenile to the adult stage. (Jex .. Gasser, 2012)'
-submitting_centre: ~
+    - 'Molecular changes in <i>Opisthorchis viverrini</i> (Southeast Asian liver fluke) during the transition from the juvenile to the adult stage. (Jex .. Gasser, 2012)'
+resource_links: []
+rnaseqer_last_update: 2018-01-21
+submitting_centre: ''
 title: Molecular changes in Opisthorchis viverrini (Southeast Asian liver fluke) during the transition from the juvenile to adult stage

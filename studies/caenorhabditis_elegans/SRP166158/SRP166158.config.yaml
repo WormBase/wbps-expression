@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: Comparison of  heat responsive gene expression after histone methyltransferase RNAi in C. elegans
 pubmed: ~
+rnaseqer_last_update: 2018-11-16
 submitting_centre: 'Suite 308, Program in Molecular Medicine, UMASS Medical School'
 title: Comparison of  heat responsive gene expression after histone methyltransferase RNAi in C. elegans

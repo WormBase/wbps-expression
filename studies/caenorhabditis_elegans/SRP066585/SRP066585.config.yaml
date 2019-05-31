@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: Caenorhabditis elegans strain:Bristol Transcriptome or Gene expression
 pubmed: ~
+rnaseqer_last_update: 2018-01-31
 submitting_centre: Monash University
 title: Caenorhabditis elegans strain:Bristol Transcriptome or Gene expression

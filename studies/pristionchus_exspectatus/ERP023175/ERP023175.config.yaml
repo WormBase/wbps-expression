@@ -1,4 +1,7 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: Phylotranscriptomic analysis of the nematode genus Pristionchus
 pubmed:
   17605767:
@@ -10,5 +13,6 @@ pubmed:
   26824073:
     - 'Susoy .. Sommer, 2016'
     - 'Large-scale diversification without genetic isolation in nematode symbionts of figs. (Susoy .. Sommer, 2016)'
+rnaseqer_last_update: 2019-05-19
 submitting_centre: MAX PLANCK INSTITUTE FOR DEVELOPMENTAL BIOLOGY
 title: Phylotranscriptomic analysis of the nematode genus Pristionchus

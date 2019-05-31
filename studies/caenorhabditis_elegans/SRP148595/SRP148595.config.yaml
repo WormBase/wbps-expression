@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: ''
 pubmed: {}
+rnaseqer_last_update: 2019-02-16
 submitting_centre: 'Alexander van Oudenaarden, Hubrecht Institute'
 title: Spatial Transcriptomics of C. elegans Males and Hermaphrodites Identifies Sex-Specific Differences in Gene Expression Patterns

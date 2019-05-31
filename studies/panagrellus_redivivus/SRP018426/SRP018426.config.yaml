@@ -1,8 +1,12 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: The genome and transcriptome of Panagrellus redivivus is shaped by the harsh demands of a free-living lifestyle
 pubmed:
   23410827:
     - 'Srinivasan .. Sternberg, 2013'
     - 'The draft genome and transcriptome of Panagrellus redivivus are shaped by the harsh demands of a free-living lifestyle. (Srinivasan .. Sternberg, 2013)'
+rnaseqer_last_update: 2017-12-24
 submitting_centre: 'University of California, Irvine'
 title: The genome and transcriptome of Panagrellus redivivus is shaped by the harsh demands of a free-living lifestyle

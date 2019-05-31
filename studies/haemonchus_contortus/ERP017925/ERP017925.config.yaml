@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: 'MHco3 is the anthelmintic-susceptible reference isolate and MHco4 and MHco10 are anthelmintic-resistant isolates. The samples submitted are from 4th generation backcrosses and the progeny of each backcross generation was selected for resistance with ivermectin. RNA-seq analysis of each backcross will compare gene expression with the anthelmintic-susceptible and -resistant parent isolates with the aim of detecting differential gene expression associated with resistance. '
 pubmed: ~
+rnaseqer_last_update: 2019-05-25
 submitting_centre: Wellcome Sanger Institute
 title: Haemonchus contortus drug resistance transcriptomics

@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: 'As part of the Globodera pallida (potato cyst nematode) genome project we are profiling the transcriptome of the parasite across its life cycle using RNA-Seq. . '
 pubmed: ~
+rnaseqer_last_update: 2018-01-14
 submitting_centre: Wellcome Sanger Institute
 title: Globodera pallida transcriptomics

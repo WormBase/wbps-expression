@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: 'Global Gene Expression profile in homozygous frk-1(ok760) mutants versus wildtype in the nematode, Caenorhabditis elegans using RNA Seq'
 pubmed: ~
+rnaseqer_last_update: 2018-05-29
 submitting_centre: Cold Spring Harbor Laboratory
 title: 'Global Gene Expression profile in homozygous frk-1(ok760) mutants versus wildtype in the nematode, Caenorhabditis elegans using RNA Seq'

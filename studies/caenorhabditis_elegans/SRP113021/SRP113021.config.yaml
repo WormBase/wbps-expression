@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: 'RNA-seq of C.elegans sma-4(rax3), sma-2(rax5) and wild-type strains'
 pubmed: ~
+rnaseqer_last_update: 2018-06-05
 submitting_centre: Baylor College of Medicine
 title: 'RNA-seq of C.elegans sma-4(rax3), sma-2(rax5) and wild-type strains'

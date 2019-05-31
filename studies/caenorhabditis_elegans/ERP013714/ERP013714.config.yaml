@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: 'Transcriptome profiling of Lir3 C.elegans mutants. Larval stage L4 worms were used for RNA isolation from N2 (Bristol), Q40 (polyglutamine model) genetic background; Lir3 and wiltype controls. Experiments were done in triplicates using ribosomal RNA depletion. Libraries were sequenced with 50bp reads on Illumina HiSeq2500 platform'
 pubmed: ~
+rnaseqer_last_update: 2017-12-24
 submitting_centre: 'European Research Institute for the Biology of Ageing (ERIBA), University of Groningen, UMC Groningen'
 title: Functional sequestration of MOAG-2/LIR-3 by polyglutamine expansion proteins

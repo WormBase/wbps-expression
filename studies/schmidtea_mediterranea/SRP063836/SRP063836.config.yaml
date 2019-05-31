@@ -10,5 +10,6 @@ contrasts:
         - X1 vs Xins
 description: RNA Seq analysis of sorted Schmidtea mediterranea X1 and Xins cells to identify factors specific to neoblasts
 pubmed: ~
+rnaseqer_last_update: 2017-12-26
 submitting_centre: Stowers Institute For Medical Research
 title: RNA Seq analysis of sorted Schmidtea mediterranea X1 and Xins cells to identify factors specific to neoblasts

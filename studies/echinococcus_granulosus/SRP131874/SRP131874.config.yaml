@@ -4,5 +4,6 @@ condition_names: {}
 contrasts: []
 description: Echinococcus granulosus strain:G1 Raw sequence reads
 pubmed: ~
+rnaseqer_last_update: 2019-03-06
 submitting_centre: LNCC
 title: Echinococcus granulosus strain:G1 Raw sequence reads

@@ -66,5 +66,6 @@ contrasts:
         - 'pooled male and female: 4th stage larva vs embryo'
 description: 'Transcriptome analysis of several stages/conditions of the pine wood nematode Bursaphelenchus xylophilus. Stages contain egg, 2nd stage larva, 3rd stage larva, 4th stage larva, adult female, adult male, dauer 3rd stage juvenile,  dauer 3rd stage juvenile, mixed-stage and mixed-stage infected.'
 pubmed: ~
+rnaseqer_last_update: 2018-07-24
 submitting_centre: MIYAZAKI
 title: Bursaphelenchus xylophilus transcriptome

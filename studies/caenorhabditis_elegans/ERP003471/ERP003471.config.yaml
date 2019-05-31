@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: 'To assess the performance of computational methods for exon identification, transcript reconstruction and expression level quantification from RNA-seq data, 24 protocol variants of 14 independent software programs (AUGUSTUS, Cufflinks, Exonerate, GSTRUCT, iReckon, mGene, mTim, NextGeneid, Oases, SLIDE, Transomics, Trembly, Tromer and Velvet) were evaluated against transcriptome data from human cells and two model organisms.'
 pubmed: ~
+rnaseqer_last_update: 2017-12-24
 submitting_centre: European Molecular Biology Laboratory
 title: RNA-seq transcript assembly evaluation

@@ -98,5 +98,6 @@ contrasts:
         - '9 hours: activated in a live waxworm vs activated in waxworm homogenate'
 description: A core set of venom proteins are secreted by entomopathogenic nematodes in the genus Steinernema
 pubmed: ~
+rnaseqer_last_update: 2018-11-12
 submitting_centre: University of California Irvine
 title: A core set of venom proteins are secreted by entomopathogenic nematodes in the genus Steinernema

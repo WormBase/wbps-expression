@@ -103,5 +103,6 @@ contrasts:
         - "inbred ISE: '' vs sheathed L3"
 description: Haemonchus contortus transcriptome
 pubmed: ~
+rnaseqer_last_update: 2019-05-25
 submitting_centre: Wellcome Sanger Institute
 title: Haemonchus contortus transcriptome

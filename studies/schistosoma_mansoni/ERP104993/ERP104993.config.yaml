@@ -80,5 +80,6 @@ contrasts:
         - 'female: remaining cells after irradiation vs remaining cells'
 description: 'Using RNAseq to characterise bulk preparations from different Schistosoma mansoni cells and somatic (control) cells to find new markers and putative factors involved in controlling their growth and differentiation. '
 pubmed: ~
+rnaseqer_last_update: 2018-06-27
 submitting_centre: Wellcome Sanger Institute
 title: Characterising Schistosoma mansoni stem cell populations

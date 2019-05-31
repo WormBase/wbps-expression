@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: Small RNA and total RNA sequencing of C. elegans with mutations in the hrde-1 and emb-4 genes
 pubmed: ~
+rnaseqer_last_update: 2019-01-25
 submitting_centre: Gurdon Institute
 title: Small RNA and total RNA sequencing of C. elegans with mutations in the hrde-1 and emb-4 genes

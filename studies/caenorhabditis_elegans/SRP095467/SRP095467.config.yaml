@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: 'L4, day 1, day 7 and day 10 old total RNA-Seq from Caenorhabditis elegans'
 pubmed: ~
+rnaseqer_last_update: 2018-04-15
 submitting_centre: 'University of Nevada, Reno'
 title: 'L4, day 1, day 7 and day 10 old total RNA-Seq from Caenorhabditis elegans'

@@ -1,5 +1,9 @@
 ---
+category: Other
+condition_names: ~
+contrasts: []
 description: 'Young genes have distinct gene structure, epigenetic profiles, and transcription start site regulation'
 pubmed: ~
+rnaseqer_last_update: 2018-09-06
 submitting_centre: MAX PLANCK INSTITUTE FOR DEVELOPMENTAL BIOLOGY
 title: 'Young genes have distinct gene structure, epigenetic profiles, and transcription start site regulation'

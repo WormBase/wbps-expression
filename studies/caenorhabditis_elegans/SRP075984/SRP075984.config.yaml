@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: Caenorhabditis elegans strain:N2 Raw sequence reads
 pubmed: ~
+rnaseqer_last_update: 2018-02-28
 submitting_centre: Arizona State University
 title: Caenorhabditis elegans strain:N2 Raw sequence reads

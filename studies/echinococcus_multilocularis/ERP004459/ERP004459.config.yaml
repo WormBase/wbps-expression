@@ -33,5 +33,6 @@ contrasts:
         - 'Metacestode, Ingrid: axenic culture with hydroxyurea vs axenic culture'
 description: 'Project to investigate gene and small RNA expression of tapeworms (including Echinococcus multilocularis, E. granulosus, Hymenolepis microstoma). '
 pubmed: ~
+rnaseqer_last_update: 2018-01-15
 submitting_centre: Wellcome Sanger Institute
 title: Analysis of RNA expression in tapeworm species

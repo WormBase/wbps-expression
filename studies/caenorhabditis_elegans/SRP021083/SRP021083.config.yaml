@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: Deep sequencing of endogenous mRNA from Caenorhabditis elegans in the presence and absence of rotenone at 4 different time points
 pubmed: ~
+rnaseqer_last_update: 2017-12-26
 submitting_centre: 'Leibniz Institute for Age Research - Fritz Lipmann Institute'
 title: Deep sequencing of endogenous mRNA from Caenorhabditis elegans in the presence and absence of rotenone at 4 different time points

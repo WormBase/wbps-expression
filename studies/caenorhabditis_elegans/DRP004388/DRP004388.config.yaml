@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: Transcriptome analysis between wild-type and endu-2 mutant
 pubmed: ~
+rnaseqer_last_update: 2018-08-15
 submitting_centre: KONAN
 title: Transcriptome analysis between wild-type and endu-2 mutant

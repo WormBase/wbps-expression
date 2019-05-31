@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: Comparative transcriptomics study between C. elegans wild-type N2 and mina-1 mutants.
 pubmed: {}
+rnaseqer_last_update: 2019-02-20
 submitting_centre: 'University Children’s Hospital Basel, University of Basel, Spitalstrasse 33, 4056 Basel, Switzerland'
 title: RNA-seq analysis of C. elegans mina-1 mutants

@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: Profiling of RNA editing in Caenorhabditis elegans
 pubmed: ~
+rnaseqer_last_update: 2017-12-27
 submitting_centre: 'Center of Bioinformatics, Peking University'
 title: Profiling of RNA editing in Caenorhabditis elegans

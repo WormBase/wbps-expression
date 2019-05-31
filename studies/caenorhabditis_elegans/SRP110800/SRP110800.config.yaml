@@ -4,5 +4,6 @@ condition_names: ~
 contrasts: []
 description: 'SET-9 and SET-26, the C. elegans homologs of human MLL5, are critical for germline development and longevity'
 pubmed: ~
+rnaseqer_last_update: 2018-07-12
 submitting_centre: Cornell University Lee lab
 title: 'SET-9 and SET-26, the C. elegans homologs of human MLL5, are critical for germline development and longevity'
