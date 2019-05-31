@@ -1,0 +1,10 @@
+Run	Condition	developmental_stage	host_compatibility	host	geographic_location	isolate	isolation_source
+SRR6230581	pre-parasitic juvenile	pre-parasitic second-stage juvenile		Glycine max	USA	PA3	greenhouse population
+SRR6230582	pre-parasitic juvenile	pre-parasitic second-stage juvenile		Glycine max	USA	PA3	greenhouse population
+SRR6230579	pre-parasitic juvenile	pre-parasitic second-stage juvenile		Glycine max	USA	PA3	greenhouse population
+SRR6230583	parasitic juvenile, compatible host	parasitic second-stage juvenile	compatible host	Glycine max	USA	PA3	greenhouse population
+SRR6230584	parasitic juvenile, compatible host	parasitic second-stage juvenile	compatible host	Glycine max	USA	PA3	greenhouse population
+SRR6230587	parasitic juvenile, compatible host	parasitic second-stage juvenile	compatible host	Glycine max	USA	PA3	greenhouse population
+SRR6230580	parasitic juvenile, resistant host	parasitic second-stage juvenile	resistant host	Glycine max	USA	PA3	greenhouse population
+SRR6230585	parasitic juvenile, resistant host	parasitic second-stage juvenile	resistant host	Glycine max	USA	PA3	greenhouse population
+SRR6230586	parasitic juvenile, resistant host	parasitic second-stage juvenile	resistant host	Glycine max	USA	PA3	greenhouse population
