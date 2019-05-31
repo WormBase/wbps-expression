@@ -1,11 +1,8 @@
 ---
-bioproject: PRJNA386618
 category: Other
+condition_names: ~
 contrasts: []
 description: ''
-ena_first_public: 2018-06-26
-ena_last_update: 2018-06-26
 pubmed: {}
-resource_links: []
 submitting_centre: The University of Melbourne
 title: Clonorchis sinensis isolate:Cs-k2 Genome sequencing
