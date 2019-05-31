@@ -7,6 +7,7 @@ use File::Slurp qw/read_file/;
 use FindBin;
 use WbpsExpression::Study;
 use List::Util qw/pairs/;
+use List::MoreUtils qw/uniq/;
 
 sub test_folder {
   my ($path) = @_;
@@ -30,18 +31,19 @@ sub test_folder {
 	}
   }
 }
+my @patterns = @ARGV ? @ARGV : ("");
 my @studies;
-my $arg = $ARGV[0] // "";
-my $study_folder_pattern = $arg =~ /^[A-Z]+\d+$/ ? qr/$arg$/ : qr/$arg.*[A-Z]+\d+$/;
-find(
-  sub {
-    my $bn = basename $File::Find::name;
-    my $bbn = basename (dirname $File::Find::name);
-    push @studies, $File::Find::name if -d $File::Find::name and $File::Find::name =~ $study_folder_pattern;
-  },
-  "$FindBin::Bin/../studies"
-);
-
-test_folder($_) for @studies;
+for my $arg (@patterns){
+  my $study_folder_pattern = $arg =~ /^[A-Z]+\d+$/ ? qr/$arg$/ : qr/$arg.*[A-Z]+\d+$/;
+  find(
+    sub {
+      my $bn = basename $File::Find::name;
+      my $bbn = basename (dirname $File::Find::name);
+      push @studies, $File::Find::name if -d $File::Find::name and $File::Find::name =~ $study_folder_pattern;
+    },
+    "$FindBin::Bin/../studies"
+  );
+}
+test_folder($_) for uniq @studies;
 
 done_testing;

@@ -12,6 +12,7 @@ use lib "$FindBin::Bin/../local/lib/perl5";
 # Statistics::R depends on $PATH to find the R binary
 $ENV{PATH} = "$FindBin::Bin/../local/R-3.5.1/bin:$ENV{PATH}";
 use WbpsExpression;
+$SIG{__WARN__} = sub { die @_ } if $ENV{DIE_ON_WARNINGS};
 
 use Log::Any::Adapter;
 use Log::Log4perl qw(:easy);
