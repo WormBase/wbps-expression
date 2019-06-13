@@ -21,6 +21,9 @@ my $pubmed_curated_ids = {
   heterorhabditis_bacteriophora => {
     SRP125059 => [28049427],
   },
+  macrostomum_lignano => {
+    SRP114933 => [28757111],
+  },
   meloidogyne_incognita => {
     ERP009887 => [28594822],
     SRP109232 => [29230237],
