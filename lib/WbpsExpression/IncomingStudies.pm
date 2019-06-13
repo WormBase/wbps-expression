@@ -33,15 +33,6 @@ sub same_runs {
   return Compare( uniq sort $xs, uniq sort $ys);
 }
 
-sub subhash {
-  my ( $h, @keys ) = @_;
-  my %result;
-  for my $key (@keys) {
-    $result{$key} = $h->{$key};
-  }
-  return \%result;
-}
-
 sub design_and_skipped_runs_from_data_by_run_and_previous_values {
   my ($characteristics_by_run, $replicates_by_run, $design_now, $skipped_runs_now) = @_;
 
@@ -132,10 +123,10 @@ sub update_study_with_results {
 
 
   my $study_metadata =
-    $study_now && ( all {$study_now->{config}{$_}} qw/title submitting_centre/ ) # should not be optional
-    ? subhash( $study_now->{config},
-    qw/title description submitting_centre pubmed condition_names/ )
+    $study_now && ( all {$study_now->{config}{$_}} qw/title submitting_centre ena_first_public ena_last_update/ )
+    ? $study_now->{config}
     : WbpsExpression::IncomingStudies::StudyMetadata::get( $species, $study_id );
+
   return unless $study_metadata;
 
   my $contrasts =
