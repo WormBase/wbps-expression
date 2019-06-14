@@ -1,12 +1,15 @@
 ---
+bioproject: PRJEB6948
 category: Other
-condition_names: ~
 contrasts: []
 description: RNA was prepared from various stages of the liver fluke Fasciola hepatica by John Dalton's group and sequenced by Genome Quebec.
+ena_first_public: 2014-12-31
+ena_last_update: 2016-04-19
 pubmed:
   25887684:
     - 'Cwiklinski .. Paterson, 2015'
-    - 'The Fasciola hepatica genome: gene duplication and polymorphism reveals adaptation to the host environment and the capacity for rapid evolution. (Cwiklinski .. Paterson, 2015)'
+    - 'The <i>Fasciola hepatica</i> genome: gene duplication and polymorphism reveals adaptation to the host environment and the capacity for rapid evolution. (Cwiklinski .. Paterson, 2015)'
+resource_links: []
 rnaseqer_last_update: 2018-06-17
 submitting_centre: University of Liverpool
-title: Some RNA-seq reads form different developmental stages of the liver fluke Fasciola hepatica
+title: Some RNA-seq reads from different developmental stages of the liver fluke Fasciola hepatica

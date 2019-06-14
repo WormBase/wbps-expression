@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA269175
 category: Other
-condition_names: ~
 contrasts: []
-description: Analysis of intron sequences reveals hallmarks of circular RNA biogenesis in animals
+description: ''
+ena_first_public: 2015-01-08
+ena_last_update: 2017-11-05
 pubmed:
   25558066:
     - 'Ivanov .. Rajewsky, 2015'
     - 'Analysis of intron sequences reveals hallmarks of circular RNA biogenesis in animals. (Ivanov .. Rajewsky, 2015)'
+resource_links: []
 rnaseqer_last_update: 2018-01-04
 submitting_centre: 'Core Unit Bioinformatics, Berlin Institute of Health'
 title: Analysis of intron sequences reveals hallmarks of circular RNA biogenesis in animals

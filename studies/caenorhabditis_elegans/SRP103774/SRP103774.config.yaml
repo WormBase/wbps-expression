@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA382392
 category: Other
-condition_names: ~
 contrasts: []
-description: RNA sequencing of drh-3(rrr2) mutants
+description: ''
+ena_first_public: 2018-03-07
+ena_last_update: 2018-06-08
 pubmed:
   29579041:
     - 'Fassnacht .. Ciosk, 2018'
-    - 'The CSR-1 endogenous RNAi pathway ensures accurate transcriptional reprogramming during the oocyte-to-embryo transition in Caenorhabditis elegans. (Fassnacht .. Ciosk, 2018)'
+    - 'The CSR-1 endogenous RNAi pathway ensures accurate transcriptional reprogramming during the oocyte-to-embryo transition in <i>Caenorhabditis elegans</i>. (Fassnacht .. Ciosk, 2018)'
+resource_links: []
 rnaseqer_last_update: 2018-05-04
 submitting_centre: Friedrich Miescher Institute
 title: RNA sequencing of drh-3(rrr2) mutants

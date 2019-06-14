@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA418327
 category: Other
-condition_names: ~
 contrasts: []
-description: Differential expression of H3.3 genes and their role in modulating temperature stress response in Caenorhabditis elegans
+description: ''
+ena_first_public: 2018-04-20
+ena_last_update: 2018-04-21
 pubmed:
   29636369:
     - 'Delaney .. Steiner, 2018'
     - 'Differential Expression of Histone H3.3 Genes and Their Role in Modulating Temperature Stress Response in <i>Caenorhabditis elegans</i>. (Delaney .. Steiner, 2018)'
+resource_links: []
 rnaseqer_last_update: 2018-08-01
 submitting_centre: 'Steiner, Department of Molecular Biology, University of Geneva'
 title: Differential expression of H3.3 genes and their role in modulating temperature stress response in Caenorhabditis elegans

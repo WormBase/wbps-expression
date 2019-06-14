@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA321853
 category: Other
-condition_names: ~
 contrasts: []
-description: RNA-seq analysis in C. elegans larval development and heat shock
+description: ''
+ena_first_public: 2016-10-14
+ena_last_update: 2017-01-13
 pubmed:
   27688402:
     - 'Li .. Morimoto, 2016'
     - 'E2F coregulates an essential HSF developmental program that is distinct from the heat-shock response. (Li .. Morimoto, 2016)'
+resource_links: []
 rnaseqer_last_update: 2018-02-27
 submitting_centre: 'Morimoto, Molecular Biosciences, Northwestern University'
 title: RNA-seq analysis in C. elegans larval development and heat shock

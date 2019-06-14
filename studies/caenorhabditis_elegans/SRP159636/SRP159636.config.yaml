@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA489378
 category: Other
-condition_names: ~
 contrasts: []
 description: ''
+ena_first_public: 2019-02-14
+ena_last_update: 2019-02-14
 pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2019-03-17
 submitting_centre: 'Rollins Lab, MDI Biological Laboratory'
 title: Polysome profiling and mRNA-seq to quantify translational gene regulation in dietary restricted C. elegans and in a long-lived daf-2:rsks-1 double mutant.

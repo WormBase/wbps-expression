@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA302660
 category: Other
-condition_names: ~
 contrasts: []
-description: Whole RNA sequencing to identify targets of the RNase domain protein encoded by rege-1 (C30F12.1)
+description: ''
+ena_first_public: 2016-10-19
+ena_last_update: 2017-01-19
 pubmed:
   27746047:
     - 'Habacher .. Ciosk, 2016'
     - 'Ribonuclease-Mediated Control of Body Fat. (Habacher .. Ciosk, 2016)'
+resource_links: []
 rnaseqer_last_update: 2018-01-31
 submitting_centre: Friedrich Miescher Institute
 title: Whole RNA sequencing to identify targets of the RNase domain protein encoded by rege-1 (C30F12.1)

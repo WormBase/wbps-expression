@@ -1,9 +1,15 @@
 ---
+bioproject: PRJNA474005
 category: Other
-condition_names: ~
 contrasts: []
-description: Whole transcriptome profiling by RNA-sequencing of RNA from N2 and F01D4.5(baf20) C. elegans
-pubmed: ~
+description: ''
+ena_first_public: 2018-06-04
+ena_last_update: 2019-05-09
+pubmed:
+  31043480:
+    - 'Ipson .. Fisher, 2019'
+    - 'Tyrosine aminotransferase is involved in the oxidative stress response by metabolizing <i>meta</i>-tyrosine in <i>Caenorhabditis elegans</i>. (Ipson .. Fisher, 2019)'
+resource_links: []
 rnaseqer_last_update: 2018-08-24
 submitting_centre: University of Texas Health Science Center
 title: Whole transcriptome profiling by RNA-sequencing of RNA from N2 and F01D4.5(baf20) C. elegans

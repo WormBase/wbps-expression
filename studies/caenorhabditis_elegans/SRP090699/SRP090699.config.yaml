@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA345017
 category: Other
-condition_names: ~
 contrasts: []
-description: Developmental constraints shape the evolution of the nematode mid-developmental transition
-pubmed: ~
+description: ''
+ena_first_public: 2017-04-06
+ena_last_update: 2017-04-06
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-03-20
 submitting_centre: Technion
 title: Developmental constraints shape the evolution of the nematode mid-developmental transition

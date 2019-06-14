@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA319241
 category: Response to treatment
-condition_names: {}
 contrasts:
   - name: timepoint+treatment
     values:
@@ -20,8 +20,11 @@ contrasts:
         - 0 hours
         - '96 hours, 6000 rads'
         - '0 hours vs 96 hours, 6000 rads'
-description: 'RNA Seq analysis of gene expression in Planaria at 24, 48, 72, and 96 hours after exposure to 6k rad of gamma irradiation.'
-pubmed: ~
+description: ''
+ena_first_public: 2016-09-02
+ena_last_update: 2016-09-02
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-02-25
 submitting_centre: 'Seidel, Genomics, Stowers Institute'
 title: 'RNA Seq analysis of gene expression in Planaria at 24, 48, 72, and 96 hours after exposure to 6k rad of gamma irradiation.'

@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA237825
 category: Other
-condition_names: ~
 contrasts: []
-description: RNA-seq of C.elegans and M.musculus in the presence and absence of D-Glucosamine (GlcN)
+description: ''
+ena_first_public: 2014-03-13
+ena_last_update: 2019-01-13
 pubmed:
   24714520:
     - 'Weimer .. Ristow, 2014'
     - 'D-Glucosamine supplementation extends life span of nematodes and of ageing mice. (Weimer .. Ristow, 2014)'
+resource_links: []
 rnaseqer_last_update: 2017-12-28
 submitting_centre: 'Core Facility - DNA Sequencing, Leibniz Institute on Aging - FLI'
 title: RNA-seq of C.elegans and M.musculus in the presence and absence of D-Glucosamine (GlcN)

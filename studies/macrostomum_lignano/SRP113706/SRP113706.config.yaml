@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA395467
 category: Response to treatment
-condition_names: {}
 contrasts:
   - name: treatment
     values:
@@ -206,11 +206,14 @@ contrasts:
         - '4 months, once-cut'
         - '6 months, once-cut'
         - 'once-cut: 4 months vs 6 months'
-description: Ageing in Macrostomum lignano
+description: ''
+ena_first_public: 2018-03-02
+ena_last_update: 2018-03-02
 pubmed:
   29488325:
     - 'Mouton .. Berezikov, 2018'
-    - 'Resilience to aging in the regeneration-capable flatworm Macrostomum lignano. (Mouton .. Berezikov, 2018)'
+    - 'Resilience to aging in the regeneration-capable flatworm <i>Macrostomum lignano</i>. (Mouton .. Berezikov, 2018)'
+resource_links: []
 rnaseqer_last_update: 2018-06-27
 submitting_centre: University Medical Center Groningen
 title: Ageing in Macrostomum lignano

@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA428937
 category: Other
-condition_names: ~
 contrasts: []
-description: SET-9 and SET-26 are H3K4me3 readers and play critical roles in germline development and longevity
+description: ''
+ena_first_public: 2018-06-02
+ena_last_update: 2018-10-19
 pubmed:
   29714684:
     - 'Wang .. Lee, 2018'
     - 'SET-9 and SET-26 are H3K4me3 readers and play critical roles in germline development and longevity. (Wang .. Lee, 2018)'
+resource_links: []
 rnaseqer_last_update: 2018-08-15
 submitting_centre: Cornell University
 title: SET-9 and SET-26 are H3K4me3 readers and play critical roles in germline development and longevity

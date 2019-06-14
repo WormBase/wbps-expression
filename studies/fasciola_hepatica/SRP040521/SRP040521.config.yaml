@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA179522
 category: Other
-condition_names: ~
 contrasts: []
-description: Fasciola hepatica isolate:Oregon Genome sequencing and assembly
-pubmed: ~
+description: ''
+ena_first_public: 2014-03-26
+ena_last_update: 2019-01-26
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-06-18
 submitting_centre: The Genome Institute
-title: Fasciola hepatica isolate:Oregon Genome sequencing and assembly
+title: Fasciola hepatica isolate:Oregon Genome sequencing

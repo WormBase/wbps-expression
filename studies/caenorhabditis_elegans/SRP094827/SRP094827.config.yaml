@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA356824
 category: Other
-condition_names: ~
 contrasts: []
-description: RNA-seq of N2 and lin-45(n2018) mutant C.elegans responses to osmotic stress
+description: ''
+ena_first_public: 2017-02-07
+ena_last_update: 2017-05-10
 pubmed:
   28166192:
     - 'Burton .. Horvitz, 2017'
     - 'Insulin-like signalling to the maternal germline controls progeny response to osmotic stress. (Burton .. Horvitz, 2017)'
+resource_links: []
 rnaseqer_last_update: 2018-04-05
 submitting_centre: MIT
 title: RNA-seq of N2 and lin-45(n2018) mutant C.elegans responses to osmotic stress

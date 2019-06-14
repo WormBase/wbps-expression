@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA51225
 category: Other
-condition_names: ~
 contrasts: []
-description: Caenorhabditis angaria genome sequencing project
+description: ''
+ena_first_public: 2010-10-15
+ena_last_update: 2017-09-25
 pubmed:
   20980554:
     - 'Mortazavi .. Sternberg, 2010'
     - 'Scaffolding a Caenorhabditis nematode genome with RNA-seq. (Mortazavi .. Sternberg, 2010)'
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: 'Cal. Inst. of Tech., Division of Biology'
 title: Caenorhabditis angaria genome sequencing project

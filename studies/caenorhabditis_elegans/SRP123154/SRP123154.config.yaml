@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA416495
 category: Other
-condition_names: ~
 contrasts: []
-description: An Elongin-Cullin-SOCS-box Complex Regulates Stress-induced Serotonergic Neuromodulation Stress-induced Serotonergic Neuromodulation
+description: ''
+ena_first_public: 2017-11-30
+ena_last_update: 2018-02-03
 pubmed:
   29241538:
     - 'Gracida .. Calarco, 2017'
     - 'An Elongin-Cullin-SOCS Box Complex Regulates Stress-Induced Serotonergic Neuromodulation. (Gracida .. Calarco, 2017)'
+resource_links: []
 rnaseqer_last_update: 2018-08-03
 submitting_centre: 'Cell and Systems Biology, University of Toronto'
 title: An Elongin-Cullin-SOCS-box Complex Regulates Stress-induced Serotonergic Neuromodulation Stress-induced Serotonergic Neuromodulation

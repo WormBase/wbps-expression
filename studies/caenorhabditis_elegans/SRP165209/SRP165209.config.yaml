@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA495819
 category: Other
-condition_names: ~
 contrasts: []
-description: RNA sequencing of cell-specific profile of AVK
+description: ''
+ena_first_public: 2018-10-16
+ena_last_update: 2019-01-16
 pubmed:
   30392795:
     - 'Oranth .. Gottschalk, 2018'
     - 'Food Sensation Modulates Locomotion by Dopamine and Neuropeptide Signaling in a Distributed Neuronal Network. (Oranth .. Gottschalk, 2018)'
+resource_links: []
 rnaseqer_last_update: 2018-11-16
 submitting_centre: 'David Miller lab, Cell and Developmental Biology, Vanderbilt University'
 title: RNA sequencing of cell-specific profile of AVK

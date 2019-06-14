@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA482752
 category: Other
-condition_names: {}
 contrasts: []
-description: A transcriptomic comparison of fed and starved Meloidogyne incognita J2 larvae to fresh J2s
-pubmed: ~
+description: ''
+ena_first_public: 2018-07-27
+ena_last_update: 2018-07-27
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-09-03
 submitting_centre: 'ICAR-IARI, New Delhi, INDIA'
 title: A transcriptomic comparison of fed and starved Meloidogyne incognita J2 larvae to fresh J2s

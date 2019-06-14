@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA294011
 category: Other
-condition_names: ~
 contrasts: []
-description: daf-16/FoxO isoform-specific deletion mutants
+description: ''
+ena_first_public: 2015-08-29
+ena_last_update: 2015-11-04
 pubmed:
   26219299:
     - 'Chen .. Hu, 2015'
-    - 'Longevity Genes Revealed by Integrative Analysis of Isoform-Specific daf-16/FoxO Mutants of Caenorhabditis elegans. (Chen .. Hu, 2015)'
+    - 'Longevity Genes Revealed by Integrative Analysis of Isoform-Specific daf-16/FoxO Mutants of <i>Caenorhabditis elegans</i>. (Chen .. Hu, 2015)'
+resource_links: []
 rnaseqer_last_update: 2018-01-10
 submitting_centre: 'Bioinformatics Core, BRCF, University of Michigan'
 title: daf-16/FoxO isoform-specific deletion mutants

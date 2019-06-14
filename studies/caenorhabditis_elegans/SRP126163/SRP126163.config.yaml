@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA421159
 category: Other
-condition_names: ~
 contrasts: []
-description: Role of SKN-1 in dpy-7 and osmotic gene induction
+description: ''
+ena_first_public: 2018-02-13
+ena_last_update: 2018-05-16
 pubmed:
   29487136:
     - 'Dodd .. Choe, 2018'
     - 'A Damage Sensor Associated with the Cuticle Coordinates Three Core Environmental Stress Responses in <i>Caenorhabditis elegans</i>. (Dodd .. Choe, 2018)'
+resource_links: []
 rnaseqer_last_update: 2018-08-15
 submitting_centre: University of Florida
 title: Role of SKN-1 in dpy-7 and osmotic gene induction

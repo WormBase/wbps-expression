@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA188692
 category: Other
-condition_names: ~
 contrasts: []
-description: The genome and transcriptome of Panagrellus redivivus is shaped by the harsh demands of a free-living lifestyle
+description: ''
+ena_first_public: 2013-02-19
+ena_last_update: 2019-05-17
 pubmed:
   23410827:
     - 'Srinivasan .. Sternberg, 2013'
-    - 'The draft genome and transcriptome of Panagrellus redivivus are shaped by the harsh demands of a free-living lifestyle. (Srinivasan .. Sternberg, 2013)'
+    - 'The draft genome and transcriptome of <i>Panagrellus redivivus</i> are shaped by the harsh demands of a free-living lifestyle. (Srinivasan .. Sternberg, 2013)'
+resource_links: []
 rnaseqer_last_update: 2017-12-24
 submitting_centre: 'University of California, Irvine'
 title: The genome and transcriptome of Panagrellus redivivus is shaped by the harsh demands of a free-living lifestyle

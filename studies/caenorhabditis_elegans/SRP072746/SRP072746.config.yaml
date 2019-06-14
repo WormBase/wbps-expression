@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA317070
 category: Other
-condition_names: ~
 contrasts: []
-description: 'Localization of RNAPII and 3’ end formation factor CstF subunits on C. elegans genes and operons [RNA-seq]'
-pubmed: ~
+description: ''
+ena_first_public: 2016-04-08
+ena_last_update: 2016-04-08
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2017-12-27
 submitting_centre: CU Boulder
 title: 'Localization of RNAPII and 3’ end formation factor CstF subunits on C. elegans genes and operons [RNA-seq]'

@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA471520
 category: Other
-condition_names: ~
 contrasts: []
-description: 'Chromatin accessibility dynamics across C. elegans development and ageing [lcap]'
+description: ''
+ena_first_public: 2018-06-02
+ena_last_update: 2018-12-01
 pubmed:
   30362940:
     - 'Jänes .. Ahringer, 2018'
     - 'Chromatin accessibility dynamics across <i>C. elegans</i> development and ageing. (Jänes .. Ahringer, 2018)'
+resource_links: []
 rnaseqer_last_update: 2018-08-31
 submitting_centre: 'The Gurdon Institute, University of Cambridge'
 title: 'Chromatin accessibility dynamics across C. elegans development and ageing [lcap]'

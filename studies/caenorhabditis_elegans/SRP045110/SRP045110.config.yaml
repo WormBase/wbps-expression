@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA257102
 category: Organism parts
-condition_names: {}
 contrasts:
   - name: organism_part
     values:
@@ -8,11 +8,14 @@ contrasts:
         - AB
         - P1
         - AB vs P1
-description: Blastomere-specific transcriptome sequencing reveals a determinant of anterior specification in C. elegans
+description: ''
+ena_first_public: 2015-03-06
+ena_last_update: 2015-11-04
 pubmed:
   25875092:
     - 'Osborne Nishimura .. Lieb, 2015'
-    - 'Asymmetric transcript discovery by RNA-seq in C. elegans blastomeres identifies neg-1, a gene important for anterior morphogenesis. (Osborne Nishimura .. Lieb, 2015)'
+    - 'Asymmetric transcript discovery by RNA-seq in <i>C. elegans</i> blastomeres identifies neg-1, a gene important for anterior morphogenesis. (Osborne Nishimura .. Lieb, 2015)'
+resource_links: []
 rnaseqer_last_update: 2018-01-01
 submitting_centre: 'Biochemistry and Molecular Biology, Colorado State University'
 title: Blastomere-specific transcriptome sequencing reveals a determinant of anterior specification in C. elegans

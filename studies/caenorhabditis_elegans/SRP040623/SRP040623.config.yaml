@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA242809
 category: Other
-condition_names: ~
 contrasts: []
-description: The expression mRNAs after prg-1 mutation
+description: ''
+ena_first_public: 2014-07-08
+ena_last_update: 2015-11-04
 pubmed:
   24884413:
     - 'Wang .. Huang, 2014'
     - 'The influences of PRG-1 on the expression of small RNAs and mRNAs. (Wang .. Huang, 2014)'
+resource_links: []
 rnaseqer_last_update: 2017-12-28
 submitting_centre: 'Key Laboratory of the Zoological Systematics and Evolution, Institute of Zoology, Chinese Academy of Sciences'
 title: The expression mRNAs after prg-1 mutation

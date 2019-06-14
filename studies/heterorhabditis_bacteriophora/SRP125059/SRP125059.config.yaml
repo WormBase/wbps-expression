@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA418589
 category: Response to treatment
-condition_names: ~
 contrasts:
   - name: treatment+timepoint
     values:
@@ -9,7 +9,17 @@ contrasts:
         - 'IJ, hemolymph 9 hours'
         - 'IJ vs IJ, hemolymph 9 hours'
 description: ''
-pubmed: {}
+ena_first_public: 2017-11-30
+ena_last_update: 2017-11-30
+pubmed:
+  28049427:
+    - 'Vadnal .. Hawdon, 2017'
+    - 'Identification of candidate infection genes from the model entomopathogenic nematode <i>Heterorhabditis bacteriophora</i>. (Vadnal .. Hawdon, 2017)'
+resource_links:
+  -
+    - Frontend interface for querying database of analysed RNA-seq reads.
+    - Frontend interface for querying database of analysed RNA-seq reads.
+    - http://ohalloranlab.net/RNA_seq.html
 rnaseqer_last_update: 2018-07-16
 submitting_centre: George Washington University
 title: RNA-seq of Manduca sexta hemolymph plasma-activated Heterorhabditis bacteriophora strain TT01 infective juveniles

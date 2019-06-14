@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA393447
 category: Other
-condition_names: ~
 contrasts: []
-description: Global characterization of direct substrates of nonsense-mediated mRNA decay in Caenorhabditis elegans
+description: ''
+ena_first_public: 2017-12-16
+ena_last_update: 2017-12-16
 pubmed:
   29122854:
     - 'Muir .. Anderson, 2018'
     - 'The Substrates of Nonsense-Mediated mRNA Decay in <i>Caenorhabditis elegans</i>. (Muir .. Anderson, 2018)'
+resource_links: []
 rnaseqer_last_update: 2018-06-03
 submitting_centre: 'Genetics, University of Wisconsin-Madison'
 title: Global characterization of direct substrates of nonsense-mediated mRNA decay in Caenorhabditis elegans

@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA168500
 category: Other
-condition_names: ~
 contrasts: []
-description: C. elegans piRNAs mediate the genome-wide surveillance of germline transcripts
+description: ''
+ena_first_public: 2012-09-15
+ena_last_update: 2017-11-30
 pubmed:
   22738724:
     - 'Lee .. Mello, 2012'
-    - 'C. elegans piRNAs mediate the genome-wide surveillance of germline transcripts. (Lee .. Mello, 2012)'
+    - '<i>C. elegans</i> piRNAs mediate the genome-wide surveillance of germline transcripts. (Lee .. Mello, 2012)'
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: 'Craig Mello, Program in Molecular Medicine, University of Massachusetts Medical School'
 title: C. elegans piRNAs mediate the genome-wide surveillance of germline transcripts

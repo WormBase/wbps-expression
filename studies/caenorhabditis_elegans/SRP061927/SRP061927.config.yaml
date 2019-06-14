@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA291676
 category: Other
-condition_names: ~
 contrasts: []
-description: Caenorhabditis elegans intestinal transcriptome
-pubmed: ~
+description: ''
+ena_first_public: 2015-08-06
+ena_last_update: 2017-07-19
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-01-09
 submitting_centre: Max Planck Institute for Developmental Biology
 title: Caenorhabditis elegans intestinal transcriptome

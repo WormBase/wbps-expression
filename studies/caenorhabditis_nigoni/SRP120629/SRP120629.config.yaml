@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA384658
 category: Other
-condition_names: {}
 contrasts:
   - name: description_title+sample_name+sex
     values:
@@ -8,11 +8,14 @@ contrasts:
         - C. nigoni adult females
         - C. nigoni adult males
         - 'Caenorhabditis nigoni adult females, C. nigoni adult females, female vs Caenorhabditis nigoni adult males, C. nigoni adult males, male'
-description: Caenorhabditis nigoni male and female transcriptomes
+description: ''
+ena_first_public: 2017-10-21
+ena_last_update: 2018-01-10
 pubmed:
   29302007:
     - 'Yin .. Haag, 2018'
     - 'Rapid genome shrinkage in a self-fertile nematode reveals sperm competition proteins. (Yin .. Haag, 2018)'
+resource_links: []
 rnaseqer_last_update: 2018-06-30
 submitting_centre: Cornell University
 title: Caenorhabditis nigoni male and female transcriptomes

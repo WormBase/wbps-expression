@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA252904
 category: Other
-condition_names: ~
 contrasts: []
-description: Genome-wide transcriptome analysis revealed extensive alternative RNA splicing in gene expression in the zoonotic parasite Schistosoma japonicum
+description: ''
+ena_first_public: 2014-10-09
+ena_last_update: 2015-11-04
 pubmed:
   25156522:
     - 'Piao .. Chen, 2014'
-    - 'Genome-wide transcriptome analysis shows extensive alternative RNA splicing in the zoonotic parasite Schistosoma japonicum. (Piao .. Chen, 2014)'
+    - 'Genome-wide transcriptome analysis shows extensive alternative RNA splicing in the zoonotic parasite <i>Schistosoma japonicum</i>. (Piao .. Chen, 2014)'
+resource_links: []
 rnaseqer_last_update: 2017-12-24
 submitting_centre: 'Laboratory of Parasitology, Institute of Pathogen Biology, Chinese Academy of Medical Sciences and Peking Union Medical College'
 title: Genome-wide transcriptome analysis revealed extensive alternative RNA splicing in gene expression in the zoonotic parasite Schistosoma japonicum

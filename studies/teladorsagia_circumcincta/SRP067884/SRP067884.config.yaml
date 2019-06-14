@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA219637
 category: Other
-condition_names: ~
 contrasts: []
-description: Genome sequencing of the drug resistant nematode Teladorsagia circumcincta.
-pubmed: ~
+description: ''
+ena_first_public: 2016-02-02
+ena_last_update: 2016-02-02
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-02-08
 submitting_centre: The Genome Institute
 title: Genome sequencing of the drug resistant nematode Teladorsagia circumcincta.

@@ -1,9 +1,16 @@
 ---
+bioproject: PRJNA357536
 category: Other
-condition_names: ~
 contrasts: []
-description: Gene expression profiles along the planarian A/P axis.
-pubmed: ~
+description: ''
+ena_first_public: 2016-12-21
+ena_last_update: 2016-12-21
+pubmed: {}
+resource_links:
+  -
+    - Rink lab web page
+    - Rink lab web page
+    - https://www.mpi-cbg.de/research-groups/current-groups/jochen-rink/research-focus/
 rnaseqer_last_update: 2018-04-06
 submitting_centre: MPI-CBG
 title: Gene expression profiles along the planarian A/P axis.

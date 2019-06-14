@@ -1,9 +1,12 @@
 ---
+bioproject: PRJEB12075
 category: Other
-condition_names: ~
 contrasts: []
 description: 100 bp paired-end Illumina Hiseq RNAseq of G. rostochiensis females 14 days post infection each in biological duplicate. Pathotype Ro1 infecting potato.
-pubmed: ~
+ena_first_public: 2015-12-17
+ena_last_update: 2015-12-08
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-01-19
 submitting_centre: University of Dundee
 title: 100 bp paired-end Illumina Hiseq RNAseq of G. rostochiensis females 14 days post infection.

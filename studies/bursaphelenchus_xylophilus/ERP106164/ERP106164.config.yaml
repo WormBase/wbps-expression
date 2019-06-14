@@ -1,9 +1,12 @@
 ---
+bioproject: PRJEB24347
 category: Other
-condition_names: ~
 contrasts: []
-description: 'Transcriptome sequencing of dorsal and subventral glands from mixed life stage pine wilt nematodes, Bursaphelenchus xylophilus'
-pubmed: ~
+description: ''
+ena_first_public: 2018-01-24
+ena_last_update: 2018-01-10
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-01-28
 submitting_centre: James Hutton Institute
 title: 'Transcriptome sequencing of dorsal and subventral glands from mixed life stage pine wilt nematodes, Bursaphelenchus xylophilus'

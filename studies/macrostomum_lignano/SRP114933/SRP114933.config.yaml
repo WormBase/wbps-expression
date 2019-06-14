@@ -1,53 +1,53 @@
 ---
+bioproject: PRJNA381865
 category: Other
-condition_names: {}
 contrasts:
   - name: regeneration_time
     values:
       -
-        - 'anterior (reg. tail cut away), 2 days'
-        - 'anterior (reg. tail cut away), 5 days'
-        - 'anterior (reg. tail cut away): 2 days vs 5 days'
+        - 'anterior, 2 days after removing the tail'
+        - 'anterior, 5 days after removing the tail'
+        - 'anterior, after removing the tail: 2 days vs 5 days'
       -
-        - 'anterior (reg. tail cut away), 2 days'
-        - 'anterior (reg. tail cut away), 7 days'
-        - 'anterior (reg. tail cut away): 2 days vs 7 days'
+        - 'anterior, 2 days after removing the tail'
+        - 'anterior, 7 days after removing the tail'
+        - 'anterior, after removing the tail: 2 days vs 7 days'
       -
-        - 'anterior (reg. tail cut away), 2 hours'
-        - 'anterior (reg. tail cut away), 5 days'
-        - 'anterior (reg. tail cut away): 2 hours vs 5 days'
+        - 'anterior, 2 hours after removing the tail'
+        - 'anterior, 5 days after removing the tail'
+        - 'anterior, after removing the tail: 2 hours vs 5 days'
       -
-        - 'anterior (reg. tail cut away), 2 hours'
-        - 'anterior (reg. tail cut away), 7 days'
-        - 'anterior (reg. tail cut away): 2 hours vs 7 days'
+        - 'anterior, 2 hours after removing the tail'
+        - 'anterior, 7 days after removing the tail'
+        - 'anterior, after removing the tail: 2 hours vs 7 days'
       -
-        - 'anterior (reg. tail cut away), 3 days'
-        - 'anterior (reg. tail cut away), 5 days'
-        - 'anterior (reg. tail cut away): 3 days vs 5 days'
+        - 'anterior, 3 days after removing the tail'
+        - 'anterior, 5 days after removing the tail'
+        - 'anterior, after removing the tail: 3 days vs 5 days'
       -
-        - 'anterior (reg. tail cut away), 3 days'
-        - 'anterior (reg. tail cut away), 7 days'
-        - 'anterior (reg. tail cut away): 3 days vs 7 days'
+        - 'anterior, 3 days after removing the tail'
+        - 'anterior, 7 days after removing the tail'
+        - 'anterior, after removing the tail: 3 days vs 7 days'
       -
-        - 'anterior (reg. tail cut away), 4 days'
-        - 'anterior (reg. tail cut away), 5 days'
-        - 'anterior (reg. tail cut away): 4 days vs 5 days'
+        - 'anterior, 4 days after removing the tail'
+        - 'anterior, 5 days after removing the tail'
+        - 'anterior, after removing the tail: 4 days vs 5 days'
       -
-        - 'anterior (reg. tail cut away), 4 days'
-        - 'anterior (reg. tail cut away), 7 days'
-        - 'anterior (reg. tail cut away): 4 days vs 7 days'
+        - 'anterior, 4 days after removing the tail'
+        - 'anterior, 7 days after removing the tail'
+        - 'anterior, after removing the tail: 4 days vs 7 days'
       -
-        - 'anterior (reg. tail cut away), 4 hours'
-        - 'anterior (reg. tail cut away), 5 days'
-        - 'anterior (reg. tail cut away): 4 hours vs 5 days'
+        - 'anterior, 4 hours after removing the tail'
+        - 'anterior, 5 days after removing the tail'
+        - 'anterior, after removing the tail: 4 hours vs 5 days'
       -
-        - 'anterior (reg. tail cut away), 4 hours'
-        - 'anterior (reg. tail cut away), 7 days'
-        - 'anterior (reg. tail cut away): 4 hours vs 7 days'
+        - 'anterior, 4 hours after removing the tail'
+        - 'anterior, 7 days after removing the tail'
+        - 'anterior, after removing the tail: 4 hours vs 7 days'
       -
-        - 'anterior (reg. tail cut away), 5 days'
-        - 'anterior (reg. tail cut away), 7 days'
-        - 'anterior (reg. tail cut away): 5 days vs 7 days'
+        - 'anterior, 5 days after removing the tail'
+        - 'anterior, 7 days after removing the tail'
+        - 'anterior, after removing the tail: 5 days vs 7 days'
       -
         - 'whole organism, 2 days'
         - 'whole organism, 5 days'
@@ -95,15 +95,25 @@ contrasts:
   - name: organism_part
     values:
       -
-        - 'anterior (reg. tail cut away), 5 days'
+        - 'anterior, 5 days after removing the tail'
         - 'whole organism, 5 days'
-        - '5 days: anterior (reg. tail cut away) vs whole organism'
+        - 'anterior, 5 days after removing the tail vs whole organism, 5 days'
       -
-        - 'anterior (reg. tail cut away), 7 days'
+        - 'anterior, 7 days after removing the tail'
         - 'whole organism, 7 days'
-        - '7 days: anterior (reg. tail cut away) vs whole organism'
-description: Macrostomum lignano strain:DV1 Raw sequence reads
-pubmed: ~
+        - 'anterior, 7 days after removing the tail vs whole organism, 7 days'
+description: ''
+ena_first_public: 2017-08-08
+ena_last_update: 2017-08-08
+pubmed:
+  28757111:
+    - 'Lengerer .. Ladurner, 2018'
+    - 'Organ specific gene expression in the regenerating tail of <i>Macrostomum lignano</i>. (Lengerer .. Ladurner, 2018)'
+resource_links:
+  -
+    - Peter Ladurner Homepage
+    - Peter Ladurner Homepage
+    - https://www.uibk.ac.at/zoology/staff/ladurner/index.html.de
 rnaseqer_last_update: 2018-06-27
 submitting_centre: University of Innsbruck
 title: Macrostomum lignano strain:DV1 Raw sequence reads

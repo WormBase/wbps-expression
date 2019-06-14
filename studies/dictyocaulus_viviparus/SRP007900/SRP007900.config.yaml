@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA72587
 category: Other
-condition_names: {}
 contrasts:
   - name: developmental_stage
     values:
@@ -64,11 +64,22 @@ contrasts:
         - L5 (adult male)
         - adult male
         - L5 (adult male) vs adult male
-description: Dictyocaulus viviparus Genome Sequencing
+description: ''
+ena_first_public: 2011-08-23
+ena_last_update: 2017-01-25
 pubmed:
   26856411:
     - 'McNulty .. Mitreva, 2016'
-    - 'Dictyocaulus viviparus genome, variome and transcriptome elucidate lungworm biology and support future intervention. (McNulty .. Mitreva, 2016)'
+    - '<i>Dictyocaulus viviparus</i> genome, variome and transcriptome elucidate lungworm biology and support future intervention. (McNulty .. Mitreva, 2016)'
+resource_links:
+  -
+    - Parasitic Nematode Project Page
+    - Parasitic Nematode Project Page
+    - http://nematode.net
+  -
+    - Project information
+    - Project information
+    - http://genome.wustl.edu/genomes/view/dictyocaulus_viviparus/
 rnaseqer_last_update: 2018-01-22
 submitting_centre: The Genome Institute
 title: Dictyocaulus viviparus Genome Sequencing

@@ -1,12 +1,19 @@
 ---
+bioproject: PRJNA30937
 category: Other
-condition_names: ~
 contrasts: []
-description: Whole-genome sequencing and variant discovery in Caenorhabditis elegans by Illumina sequencing
+description: ''
+ena_first_public: 2010-02-26
+ena_last_update: 2017-07-19
 pubmed:
   18204455:
     - 'Hillier .. Mardis, 2008'
-    - 'Whole-genome sequencing and variant discovery in C. elegans. (Hillier .. Mardis, 2008)'
+    - 'Whole-genome sequencing and variant discovery in <i>C. elegans</i>. (Hillier .. Mardis, 2008)'
+resource_links:
+  -
+    - 'Genome: Caenorhabditis elegans'
+    - 'Genome: Caenorhabditis elegans'
+    - http://genome.wustl.edu/genomes/detail/caenorhabditis-elegans/
 rnaseqer_last_update: 2017-12-26
 submitting_centre: The Genome Institute at Washington University
 title: Whole-genome sequencing and variant discovery in Caenorhabditis elegans by Illumina sequencing

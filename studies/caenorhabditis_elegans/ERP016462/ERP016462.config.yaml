@@ -1,9 +1,16 @@
 ---
+bioproject: PRJEB14792
 category: Other
-condition_names: ~
 contrasts: []
-description: Small RNA and total RNA sequencing of C. elegans with mutations in the hrde-1 and emb-4 genes
-pubmed: ~
+description: ''
+ena_first_public: 2017-07-01
+ena_last_update: 2016-07-13
+pubmed: {}
+resource_links:
+  -
+    - ArrayExpress
+    - E-MTAB-4877 in ArrayExpress
+    - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-4877
 rnaseqer_last_update: 2019-01-25
 submitting_centre: Gurdon Institute
 title: Small RNA and total RNA sequencing of C. elegans with mutations in the hrde-1 and emb-4 genes

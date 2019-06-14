@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA142039
 category: Other
-condition_names: ~
 contrasts: []
-description: Ascaris suum Small RNA-Seq data
+description: ''
+ena_first_public: 2011-06-18
+ena_last_update: 2019-05-17
 pubmed:
   21685128:
     - 'Wang .. Davis, 2011'
     - 'Deep small RNA sequencing from the nematode Ascaris reveals conservation, functional diversification, and novel developmental profiles. (Wang .. Davis, 2011)'
+resource_links: []
 rnaseqer_last_update: 2018-06-27
 submitting_centre: 'Richard E. Davis Lab, Biochemistry and Molecular Genetics, University of Colorado Denver'
 title: Ascaris suum Small RNA-Seq data

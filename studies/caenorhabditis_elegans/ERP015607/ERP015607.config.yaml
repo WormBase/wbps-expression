@@ -1,9 +1,16 @@
 ---
+bioproject: PRJEB14012
 category: Other
-condition_names: ~
 contrasts: []
 description: 'Comparative transcriptomics study between C. elegans wild-type N2 and CPEB homolog mutants: fog-1, cpb-2, and cpb-3.'
-pubmed: ~
+ena_first_public: 2017-08-03
+ena_last_update: 2016-05-12
+pubmed: {}
+resource_links:
+  -
+    - ArrayExpress
+    - E-MTAB-4720 in ArrayExpress
+    - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-4720
 rnaseqer_last_update: 2017-12-24
 submitting_centre: 'Institute of Molecular Life Sciences, University of Zurich'
 title: RNA-seq analysis of C. elegans CPEB homolog mutants.

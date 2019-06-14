@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA389967
 category: Other
-condition_names: ~
 contrasts: []
-description: The rules of piRNA targeting reveals resistance of endogenous genes to piRNA silencing in C. elegans
-pubmed: ~
+description: ''
+ena_first_public: 2018-02-03
+ena_last_update: 2018-02-03
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-05-20
 submitting_centre: University of Chicago
 title: The rules of piRNA targeting reveals resistance of endogenous genes to piRNA silencing in C. elegans

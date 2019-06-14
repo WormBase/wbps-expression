@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA281132
 category: Organism parts
-condition_names: {}
 contrasts: []
-description: Tissue-Specific Transcriptomics and Proteomics of a Filarial Nematode and its Wolbachia Endosymbiont
+description: ''
+ena_first_public: 2016-06-02
+ena_last_update: 2016-09-02
 pubmed:
   26559510:
     - 'Luck .. Slatko, 2015'
     - 'Tissue-specific transcriptomics and proteomics of a filarial nematode and its Wolbachia endosymbiont. (Luck .. Slatko, 2015)'
+resource_links: []
 rnaseqer_last_update: 2017-12-25
 submitting_centre: New England Biolabs
 title: Tissue-Specific Transcriptomics and Proteomics of a Filarial Nematode and its Wolbachia Endosymbiont

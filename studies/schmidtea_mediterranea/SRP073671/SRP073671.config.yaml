@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA319244
 category: Response to treatment
-condition_names: {}
 contrasts:
   - name: rnai
     values:
@@ -16,8 +16,11 @@ contrasts:
         - unc22
         - zfp1
         - unc22 vs zfp1
-description: 'RNA Seq analysis of neoblasts from Schmidtea mediterranea treated with RNAi against zfp1, p53, or unc22 to identify factors involved in neoblast differentiation.'
-pubmed: ~
+description: ''
+ena_first_public: 2016-09-02
+ena_last_update: 2016-09-02
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-02-26
 submitting_centre: 'Seidel, Genomics, Stowers Institute'
 title: 'RNA Seq analysis of neoblasts from Schmidtea mediterranea treated with RNAi against zfp1, p53, or unc22 to identify factors involved in neoblast differentiation.'

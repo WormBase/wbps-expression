@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA328790
 category: Other
-condition_names: ~
 contrasts: []
-description: An H4K16 histone acetyltransferase mediates decondensation of the X chromosome in C. elegans males
+description: ''
+ena_first_public: 2016-10-13
+ena_last_update: 2017-07-19
 pubmed:
   27777629:
     - 'Lau .. Csankovszki, 2016'
     - 'An H4K16 histone acetyltransferase mediates decondensation of the X chromosome in <i>C. elegans</i> males. (Lau .. Csankovszki, 2016)'
+resource_links: []
 rnaseqer_last_update: 2018-03-04
 submitting_centre: 'Csankovszki, MCDB, University of Michigan'
 title: An H4K16 histone acetyltransferase mediates decondensation of the X chromosome in C. elegans males

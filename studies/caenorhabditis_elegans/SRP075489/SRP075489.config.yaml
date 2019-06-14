@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA322338
 category: Other
-condition_names: ~
 contrasts: []
-description: 'Germline- and soma-specific heritable epigenetic silencing at an endogenous locus (RNA-Seq)'
+description: ''
+ena_first_public: 2017-02-17
+ena_last_update: 2017-04-19
 pubmed:
   28212751:
     - 'Minkina .. Hunter, 2017'
     - 'Stable Heritable Germline Silencing Directs Somatic Silencing at an Endogenous Locus. (Minkina .. Hunter, 2017)'
+resource_links: []
 rnaseqer_last_update: 2018-02-28
 submitting_centre: 'Craig P. Hunter, Molecular and Cellular Biology, Harvard University'
 title: 'Germline- and soma-specific heritable epigenetic silencing at an endogenous locus (RNA-Seq)'

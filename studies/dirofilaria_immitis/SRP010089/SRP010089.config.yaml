@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA80937
 category: Other
-condition_names: ~
 contrasts: []
-description: Dirofilaria immitis Transcriptome or Gene expression
+description: ''
+ena_first_public: 2012-08-31
+ena_last_update: 2017-06-16
 pubmed:
   22911833:
     - 'Fu .. Yang, 2012'
-    - 'Novel insights into the transcriptome of Dirofilaria immitis. (Fu .. Yang, 2012)'
+    - 'Novel insights into the transcriptome of <i>Dirofilaria immitis</i>. (Fu .. Yang, 2012)'
+resource_links: []
 rnaseqer_last_update: 2018-01-21
 submitting_centre: 'Department of Parasitology, Sichuan Agricultural University'
 title: Dirofilaria immitis Transcriptome or Gene expression

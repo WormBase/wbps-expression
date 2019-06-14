@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA368736
 category: Other
-condition_names: ~
 contrasts: []
-description: Analysis of nonsense-mediated mRNA decay in daf-2 mutants
+description: ''
+ena_first_public: 2017-03-18
+ena_last_update: 2017-03-18
 pubmed:
   28276441:
     - 'Son .. Lee, 2017'
-    - 'RNA surveillance via nonsense-mediated mRNA decay is crucial for longevity in daf-2/insulin/IGF-1 mutant C. elegans. (Son .. Lee, 2017)'
+    - 'RNA surveillance via nonsense-mediated mRNA decay is crucial for longevity in daf-2/insulin/IGF-1 mutant <i>C. elegans</i>. (Son .. Lee, 2017)'
+resource_links: []
 rnaseqer_last_update: 2018-04-13
-submitting_centre: POSTECH
+submitting_centre: 'Room 4203, Life Sciences, KAIST'
 title: Analysis of nonsense-mediated mRNA decay in daf-2 mutants

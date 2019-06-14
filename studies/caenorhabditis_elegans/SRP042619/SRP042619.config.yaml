@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA251377
 category: Other
-condition_names: ~
 contrasts: []
-description: Global characterization of the oocyte-to-embryo transition in C. elegans uncovers a novel mRNA turnover mechanism
+description: ''
+ena_first_public: 2014-07-22
+ena_last_update: 2017-07-19
 pubmed:
   24957527:
     - 'Stoeckius .. Rajewsky, 2014'
-    - 'Global characterization of the oocyte-to-embryo transition in Caenorhabditis elegans uncovers a novel mRNA clearance mechanism. (Stoeckius .. Rajewsky, 2014)'
+    - 'Global characterization of the oocyte-to-embryo transition in <i>Caenorhabditis elegans</i> uncovers a novel mRNA clearance mechanism. (Stoeckius .. Rajewsky, 2014)'
+resource_links: []
 rnaseqer_last_update: 2018-01-01
 submitting_centre: Max Planck Institute of Immunobiology and Epigenetics
 title: Global characterization of the oocyte-to-embryo transition in C. elegans uncovers a novel mRNA turnover mechanism

@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA297798
 category: Other
-condition_names: ~
 contrasts: []
-description: Caenorhabditis elegans Transcriptome or Gene expression
-pubmed: ~
+description: ''
+ena_first_public: 2015-12-15
+ena_last_update: 2015-12-15
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-02-05
 submitting_centre: Princeton University
 title: Caenorhabditis elegans Transcriptome or Gene expression

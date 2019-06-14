@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA205196
 category: Other
-condition_names: {}
 contrasts: []
-description: Haemonchus contortus transcriptome (from Haecon-5)
+description: ''
+ena_first_public: 2013-07-23
+ena_last_update: 2017-07-19
 pubmed:
   26239368:
     - 'Mohandas .. Gasser, 2015'
     - "The barber's pole worm CAP protein superfamily--A basis for fundamental discovery and biotechnology advances. (Mohandas .. Gasser, 2015)"
+resource_links: []
 rnaseqer_last_update: 2019-05-25
 submitting_centre: Cornell University
 title: Haemonchus contortus transcriptome (from Haecon-5)

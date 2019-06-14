@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA268148
 category: Other
-condition_names: ~
 contrasts: []
-description: Suppression of Transcriptional Drift Extends C. elegans Lifespan by Postponing the Onset of Mortality
+description: ''
+ena_first_public: 2016-01-08
+ena_last_update: 2016-01-08
 pubmed:
   26623667:
     - 'Rangaraju .. Petrascheck, 2015'
-    - 'Suppression of transcriptional drift extends C. elegans lifespan by postponing the onset of mortality. (Rangaraju .. Petrascheck, 2015)'
+    - 'Suppression of transcriptional drift extends <i>C. elegans</i> lifespan by postponing the onset of mortality. (Rangaraju .. Petrascheck, 2015)'
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: 'Petrascheck, Chemical Physiology, TSRI'
 title: Suppression of Transcriptional Drift Extends C. elegans Lifespan by Postponing the Onset of Mortality

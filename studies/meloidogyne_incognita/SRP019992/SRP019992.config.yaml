@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA194418
 category: Other
-condition_names: ~
 contrasts: []
-description: Meloidogyne incognita Variation
-pubmed: ~
+description: ''
+ena_first_public: 2013-04-02
+ena_last_update: 2018-07-05
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-06-27
 submitting_centre: Hunan Agricultural University
 title: Meloidogyne incognita Variation

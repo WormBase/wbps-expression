@@ -1,15 +1,18 @@
 ---
+bioproject: PRJNA280541
 category: Other
-condition_names: ~
 contrasts: []
-description: Developmental dynamics of C. elegans dosage compensation
+description: ''
+ena_first_public: 2015-11-10
+ena_last_update: 2016-11-24
 pubmed:
   26641248:
     - 'Kramer .. Ercan, 2015'
-    - 'Developmental Dynamics of X-Chromosome Dosage Compensation by the DCC and H4K20me1 in C. elegans. (Kramer .. Ercan, 2015)'
+    - 'Developmental Dynamics of X-Chromosome Dosage Compensation by the DCC and H4K20me1 in <i>C. elegans</i>. (Kramer .. Ercan, 2015)'
   27356611:
     - 'Kramer .. Ercan, 2016'
-    - 'Untangling the Contributions of Sex-Specific Gene Regulation and X-Chromosome Dosage to Sex-Biased Gene Expression in Caenorhabditis elegans. (Kramer .. Ercan, 2016)'
+    - 'Untangling the Contributions of Sex-Specific Gene Regulation and X-Chromosome Dosage to Sex-Biased Gene Expression in <i>Caenorhabditis elegans</i>. (Kramer .. Ercan, 2016)'
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: 'Biology, New York University'
 title: Developmental dynamics of C. elegans dosage compensation

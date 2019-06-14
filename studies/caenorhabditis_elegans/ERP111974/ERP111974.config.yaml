@@ -1,9 +1,16 @@
 ---
+bioproject: PRJEB29657
 category: Other
-condition_names: ~
 contrasts: []
 description: Comparative transcriptomics study between C. elegans wild-type N2 and mina-1 mutants.
+ena_first_public: 2019-02-13
+ena_last_update: 2018-11-09
 pubmed: {}
+resource_links:
+  -
+    - ArrayExpress
+    - E-MTAB-7389 in ArrayExpress
+    - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-7389
 rnaseqer_last_update: 2019-02-20
 submitting_centre: 'University Children’s Hospital Basel, University of Basel, Spitalstrasse 33, 4056 Basel, Switzerland'
 title: RNA-seq analysis of C. elegans mina-1 mutants

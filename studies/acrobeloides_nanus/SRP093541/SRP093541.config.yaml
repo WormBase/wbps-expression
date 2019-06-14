@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA354072
 category: Other
-condition_names: ~
 contrasts: []
-description: Comparing gene pathways between different modes of development in Nematoda
-pubmed: ~
+description: ''
+ena_first_public: 2018-01-02
+ena_last_update: 2018-01-02
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-10-27
 submitting_centre: New York University
 title: Comparing gene pathways between different modes of development in Nematoda

@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA273888
 category: Other
-condition_names: ~
 contrasts: []
-description: Transcriptomic analysis of germline tumor in fasted C. elegans
+description: ''
+ena_first_public: 2016-01-16
+ena_last_update: 2016-05-21
 pubmed:
   26759963:
     - 'Gomes .. Pohl, 2016'
-    - 'Autophagy and modular restructuring of metabolism control germline tumor differentiation and proliferation in C. elegans. (Gomes .. Pohl, 2016)'
+    - 'Autophagy and modular restructuring of metabolism control germline tumor differentiation and proliferation in <i>C. elegans</i>. (Gomes .. Pohl, 2016)'
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: 'Developmental Cell Biology, Biochemistry, Buchmann Institute for Molecular Life Sciences'
 title: Transcriptomic analysis of germline tumor in fasted C. elegans

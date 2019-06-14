@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA170771
 category: Life cycle
-condition_names: {}
 contrasts:
   - name: developmental_stage
     values:
@@ -12,8 +12,11 @@ contrasts:
         - L2 larva Ce
         - L4 larva Ce
         - L2 larva Ce vs L4 larva Ce
-description: Caenorhabditis elegans ribosome profiling of miRNA targets
-pubmed: ~
+description: ''
+ena_first_public: 2012-07-30
+ena_last_update: 2017-07-19
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: Stanford University
 title: Caenorhabditis elegans ribosome profiling of miRNA targets

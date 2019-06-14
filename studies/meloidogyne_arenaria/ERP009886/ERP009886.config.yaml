@@ -1,9 +1,12 @@
 ---
+bioproject: PRJEB8845
 category: Other
-condition_names: ~
 contrasts: []
 description: As part of the Meloidogyne arenaria (root-knot nematode) genome sequencing project we have profiled the transcriptome of this plant parasite using RNA-Seq. The transcriptomic data has been used to provide evidence for gene prediction. Genome assembly and accompanying transcriptome data is available at http://meloidogyne.inra.fr
-pubmed: ~
+ena_first_public: 2017-05-03
+ena_last_update: 2015-03-17
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-06-17
 submitting_centre: Genoscope
 title: Meloidogyne arenaria transcriptomes

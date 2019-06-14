@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA485523
 category: Other
-condition_names: ~
 contrasts: []
 description: ''
+ena_first_public: 2018-09-26
+ena_last_update: 2018-12-27
 pubmed:
   30254142:
     - 'Ni .. Gu, 2018'
     - 'The spatial and temporal dynamics of nuclear RNAi-targeted retrotransposon transcripts in <i>Caenorhabditis elegans</i>. (Ni .. Gu, 2018)'
+resource_links: []
 rnaseqer_last_update: 2019-03-03
 submitting_centre: 'Molecular Biology and Biochemistry, Rutgers University'
 title: 'The spatial and temporal dynamics of the nuclear RNAi-targeted retrotransposon transcripts in Caenorhabditis elegans [RNA-seq]'

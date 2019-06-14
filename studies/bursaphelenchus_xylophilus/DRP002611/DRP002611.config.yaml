@@ -1,9 +1,12 @@
 ---
+bioproject: PRJDB3458
 category: Other
-condition_names: ~
 contrasts: []
 description: 'Transcriptome analysis of several stages/conditions of the pine wood nematode Bursaphelenchus xylophilus. Stages contain egg, 2nd stage larva, 3rd stage larva, 4th stage larva, adult female, adult male, dauer 3rd stage juvenile,  dauer 3rd stage juvenile, mixed-stage and mixed-stage infected.'
-pubmed: ~
+ena_first_public: 2015-04-02
+ena_last_update: 2016-07-14
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-01-10
 submitting_centre: MIYAZAKI
 title: Bursaphelenchus xylophilus transcriptome

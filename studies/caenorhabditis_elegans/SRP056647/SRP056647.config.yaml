@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA279785
 category: Other
-condition_names: ~
 contrasts: []
-description: Optimization of codon translation rates via tRNA modifications maintains proteome integrity
+description: ''
+ena_first_public: 2015-06-08
+ena_last_update: 2015-12-11
 pubmed:
   26052047:
     - 'Nedialkova .. Leidel, 2015'
     - 'Optimization of Codon Translation Rates via tRNA Modifications Maintains Proteome Integrity. (Nedialkova .. Leidel, 2015)'
+resource_links: []
 rnaseqer_last_update: 2019-01-24
-submitting_centre: 'Sebastian Leidel, Max Planck Research Group for RNA Biology, Max Planck Institute for Molecular Biomedicine'
+submitting_centre: 'Max Planck Research Group for RNA Biology, Max Planck Institute for Molecular Biomedicine'
 title: Optimization of codon translation rates via tRNA modifications maintains proteome integrity

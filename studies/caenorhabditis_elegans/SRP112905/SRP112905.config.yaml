@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA395061
 category: Other
-condition_names: ~
 contrasts: []
-description: Transcriptomic analysis of control and Myzocytiopsis humicola-infected C. elegans
-pubmed: ~
+description: ''
+ena_first_public: 2017-07-27
+ena_last_update: 2017-07-27
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-06-04
 submitting_centre: "Michalis Barkoulas's lab, Life Sciences, Imperial College London"
 title: Transcriptomic analysis of control and Myzocytiopsis humicola-infected C. elegans

@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA325295
 category: Other
-condition_names: ~
 contrasts: []
-description: Developmental transcriptomes of the two sexes in Caenorhabditis elegans during sexual maturation
+description: ''
+ena_first_public: 2016-06-14
+ena_last_update: 2016-10-15
 pubmed:
   27732864:
     - 'Kim .. Emmons, 2016'
     - 'Gene Function Prediction Based on Developmental Transcriptomes of the Two Sexes in C. elegans. (Kim .. Emmons, 2016)'
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: 'Scott Emmons lab, Genetics, Albert Einstein College of Medicine'
 title: Developmental transcriptomes of the two sexes in Caenorhabditis elegans during sexual maturation

@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA326257
 category: Other
-condition_names: ~
 contrasts: []
-description: Transgenerational transmission of environmental information in C. elegans
+description: ''
+ena_first_public: 2017-04-25
+ena_last_update: 2017-04-26
 pubmed:
   28428426:
     - 'Klosin .. Lehner, 2017'
     - 'Transgenerational transmission of environmental information in <i>C. elegans</i>. (Klosin .. Lehner, 2017)'
+resource_links: []
 rnaseqer_last_update: 2018-03-01
 submitting_centre: IMPPC
 title: Transgenerational transmission of environmental information in C. elegans

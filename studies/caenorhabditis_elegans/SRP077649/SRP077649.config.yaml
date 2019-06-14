@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA327375
 category: Other
-condition_names: ~
 contrasts: []
-description: Glucose or Altered Ceramide Biosynthesis Mediate Oxygen Deprivation Sensitivity Through Novel Pathways Revealed by Transcriptome Analysis in Caenorhabditis elegans
+description: ''
+ena_first_public: 2016-12-23
+ena_last_update: 2016-12-23
 pubmed:
   27507791:
     - 'Ladage .. Padilla, 2016'
-    - 'Glucose or Altered Ceramide Biosynthesis Mediate Oxygen Deprivation Sensitivity Through Novel Pathways Revealed by Transcriptome Analysis in Caenorhabditis elegans. (Ladage .. Padilla, 2016)'
+    - 'Glucose or Altered Ceramide Biosynthesis Mediate Oxygen Deprivation Sensitivity Through Novel Pathways Revealed by Transcriptome Analysis in <i>Caenorhabditis elegans</i>. (Ladage .. Padilla, 2016)'
+resource_links: []
 rnaseqer_last_update: 2018-03-02
 submitting_centre: University of North Texas
 title: Glucose or Altered Ceramide Biosynthesis Mediate Oxygen Deprivation Sensitivity Through Novel Pathways Revealed by Transcriptome Analysis in Caenorhabditis elegans

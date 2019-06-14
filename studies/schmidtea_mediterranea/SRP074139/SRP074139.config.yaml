@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA319973
 category: Response to treatment
-condition_names: {}
 contrasts:
   - name: timepoint
     values:
@@ -34,8 +34,11 @@ contrasts:
         - Cut control
         - Whole control
         - Cut control vs Whole control
-description: Schmidtea mediterranea isolate:CIW4 Raw sequence reads
-pubmed: ~
+description: ''
+ena_first_public: 2016-09-08
+ena_last_update: 2017-06-16
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-02-26
 submitting_centre: University of Illinois at Urbana-Champaign
 title: Schmidtea mediterranea isolate:CIW4 Raw sequence reads

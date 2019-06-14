@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA348639
 category: Organism parts
-condition_names: {}
 contrasts:
   - name: organism_part
     values:
@@ -8,8 +8,11 @@ contrasts:
         - control dissociated cells
         - npy-8-internalizing dissociated cells
         - control dissociated cells vs npy-8-internalizing dissociated cells
-description: NPY-8-internalizing cells transcriptome in Schmidtea mediterranea
-pubmed: ~
+description: ''
+ena_first_public: 2016-10-23
+ena_last_update: 2016-10-23
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-04-05
 submitting_centre: University of Illinois at Urbana-Champaign
 title: NPY-8-internalizing cells transcriptome in Schmidtea mediterranea

@@ -1,15 +1,18 @@
 ---
+bioproject: PRJNA128465
 category: Other
-condition_names: ~
 contrasts: []
-description: 'Multimodal RNA-seq using single-strand, double-strand, and circligase-based capture yields a refined and extended description of the C. elegans transcriptome'
+description: ''
+ena_first_public: 2010-10-26
+ena_last_update: 2017-09-25
 pubmed:
   21177965:
     - 'Lamm .. Fire, 2011'
-    - 'Multimodal RNA-seq using single-strand, double-strand, and CircLigase-based capture yields a refined and extended description of the C. elegans transcriptome. (Lamm .. Fire, 2011)'
+    - 'Multimodal RNA-seq using single-strand, double-strand, and CircLigase-based capture yields a refined and extended description of the <i>C. elegans</i> transcriptome. (Lamm .. Fire, 2011)'
   25220461:
     - 'Barberán-Soler .. Valcárcel, 2014'
-    - 'Co-option of the piRNA pathway for germline-specific alternative splicing of C. elegans TOR. (Barberán-Soler .. Valcárcel, 2014)'
+    - 'Co-option of the piRNA pathway for germline-specific alternative splicing of <i>C. elegans</i> TOR. (Barberán-Soler .. Valcárcel, 2014)'
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: 'Fire Lab, Pathology, Stanford University School of Medicine'
 title: 'Multimodal RNA-seq using single-strand, double-strand, and circligase-based capture yields a refined and extended description of the C. elegans transcriptome'

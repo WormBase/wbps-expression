@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA342390
 category: Other
-condition_names: ~
 contrasts: []
-description: Pristionchus sp. n. 1 VS-2015 Transcriptome or Gene expression
+description: ''
+ena_first_public: 2016-09-15
+ena_last_update: 2016-09-15
 pubmed:
   26824073:
     - 'Susoy .. Sommer, 2016'
     - 'Large-scale diversification without genetic isolation in nematode symbionts of figs. (Susoy .. Sommer, 2016)'
+resource_links: []
 rnaseqer_last_update: 2018-03-13
 submitting_centre: Max Planck Institute for Developmental Biology
 title: Pristionchus sp. n. 1 VS-2015 Transcriptome or Gene expression

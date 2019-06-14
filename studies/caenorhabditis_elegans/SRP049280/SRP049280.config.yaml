@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA264893
 category: Other
-condition_names: ~
 contrasts: []
-description: Tri-methylation of lysine 36 on H3 restricts gene expression variation during aging and impacts lifespan
+description: ''
+ena_first_public: 2015-04-02
+ena_last_update: 2015-11-04
 pubmed:
   25838541:
     - 'Pu .. Lee, 2015'
     - 'Trimethylation of Lys36 on H3 restricts gene expression change during aging and impacts life span. (Pu .. Lee, 2015)'
+resource_links: []
 rnaseqer_last_update: 2018-01-02
 submitting_centre: 'Siu Sylvia Lee, Molecular Biology and Genetics, Cornell University'
 title: Tri-methylation of lysine 36 on H3 restricts gene expression variation during aging and impacts lifespan

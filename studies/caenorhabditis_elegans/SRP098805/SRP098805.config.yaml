@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA369783
 category: Other
-condition_names: ~
 contrasts: []
-description: A Highly Conserved GAD-1 Is Required for Pre-mRNA Splicing and Transcription Elongation by Forming Spliceosome with NineTeen Complex
-pubmed: ~
+description: ''
+ena_first_public: 2018-01-03
+ena_last_update: 2018-01-03
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-04-14
 submitting_centre: Hong Kong Baptist University
 title: A Highly Conserved GAD-1 Is Required for Pre-mRNA Splicing and Transcription Elongation by Forming Spliceosome with NineTeen Complex

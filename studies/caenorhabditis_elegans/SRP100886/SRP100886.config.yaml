@@ -1,9 +1,19 @@
 ---
+bioproject: PRJNA377326
 category: Other
-condition_names: ~
 contrasts: []
-description: Genetic Analysis of a Metazoan Pathway using Transcriptomic Phenotypes
-pubmed: ~
+description: ''
+ena_first_public: 2017-06-01
+ena_last_update: 2017-07-19
+pubmed:
+  29531064:
+    - 'Angeles-Albores .. Sternberg, 2018'
+    - 'Reconstructing a metazoan genetic pathway with transcriptome-wide epistasis measurements. (Angeles-Albores .. Sternberg, 2018)'
+resource_links:
+  -
+    - 'Website with all results, analysis and code for this project'
+    - 'Website with all results, analysis and code for this project'
+    - https://wormlabcaltech.github.io/mprsq/
 rnaseqer_last_update: 2018-04-18
 submitting_centre: Caltech
 title: Genetic Analysis of a Metazoan Pathway using Transcriptomic Phenotypes

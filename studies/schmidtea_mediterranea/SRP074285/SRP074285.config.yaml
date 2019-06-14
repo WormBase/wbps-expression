@@ -1,16 +1,15 @@
 ---
+bioproject: PRJNA320389
 category: Other
-condition_names:
-  'cephalic ganglia, hedgehog, S2F1L3F2': 'cephalic ganglia, hedgehog, strain S2F1L3F2'
-  'cephalic ganglia, patched, S2F1L3F2': 'cephalic ganglia, patched, strain S2F1L3F2'
-  'cephalic ganglia, unc-22, S2F1L3F2': 'cephalic ganglia, unc-22, strain S2F1L3F2'
-  'head fragment, unc-22, CIW4': 'head fragment, unc-22, strain CIW4'
 contrasts: []
-description: Gene expression profiling of planarian heads or cephalic ganglia after inhibition of Hedgehog signaling pathway genes by RNAi
+description: ''
+ena_first_public: 2016-09-30
+ena_last_update: 2016-09-30
 pubmed:
   27612382:
     - 'Wang .. Reddien, 2016'
     - 'Hedgehog signaling regulates gene expression in planarian glia. (Wang .. Reddien, 2016)'
+resource_links: []
 rnaseqer_last_update: 2018-02-26
 submitting_centre: Whitehead Institute for Biomedical Research
 title: Gene expression profiling of planarian heads or cephalic ganglia after inhibition of Hedgehog signaling pathway genes by RNAi

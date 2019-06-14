@@ -1,9 +1,16 @@
 ---
+bioproject: PRJNA171924
 category: Other
-condition_names: ~
 contrasts: []
-description: CEL-Seq transcriptomic analysis of C. elegans blastomeres
-pubmed: ~
+description: ''
+ena_first_public: 2012-08-31
+ena_last_update: 2017-07-19
+pubmed: {}
+resource_links:
+  -
+    - Yabai Lab website
+    - Yabai Lab website
+    - http://yanailab.technion.ac.il/
 rnaseqer_last_update: 2017-12-26
 submitting_centre: 'Technion - Israel Institute of Technology'
 title: CEL-Seq transcriptomic analysis of C. elegans blastomeres

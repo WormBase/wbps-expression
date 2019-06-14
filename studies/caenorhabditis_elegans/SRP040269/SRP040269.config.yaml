@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA241944
 category: Other
-condition_names: ~
 contrasts: []
-description: mRNA profile in DR-related mutants
+description: ''
+ena_first_public: 2014-03-24
+ena_last_update: 2015-12-11
 pubmed:
   23935515:
     - 'Heestand .. Antebi, 2013'
-    - 'Dietary restriction induced longevity is mediated by nuclear receptor NHR-62 in Caenorhabditis elegans. (Heestand .. Antebi, 2013)'
+    - 'Dietary restriction induced longevity is mediated by nuclear receptor NHR-62 in <i>Caenorhabditis elegans</i>. (Heestand .. Antebi, 2013)'
+resource_links: []
 rnaseqer_last_update: 2017-12-30
 submitting_centre: Max Planck Institute for Biology of Ageing
 title: mRNA profile in DR-related mutants

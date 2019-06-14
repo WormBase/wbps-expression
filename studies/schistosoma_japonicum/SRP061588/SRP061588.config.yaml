@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA290970
 category: Other
-condition_names: ~
 contrasts: []
-description: transcriptome of vertebrate stages of Schistosoma japonicum
+description: ''
+ena_first_public: 2015-09-14
+ena_last_update: 2017-07-19
 pubmed:
   26407301:
     - 'Wang .. Pan, 2015'
-    - 'Transcriptome Bioinformatical Analysis of Vertebrate Stages of Schistosoma japonicum Reveals Alternative Splicing Events. (Wang .. Pan, 2015)'
+    - 'Transcriptome Bioinformatical Analysis of Vertebrate Stages of <i>Schistosoma japonicum</i> Reveals Alternative Splicing Events. (Wang .. Pan, 2015)'
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: Institute for Infectious Diseases and Vaccine Development
 title: transcriptome of vertebrate stages of Schistosoma japonicum

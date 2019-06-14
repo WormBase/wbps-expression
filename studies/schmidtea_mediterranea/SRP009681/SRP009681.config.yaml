@@ -1,19 +1,15 @@
 ---
+bioproject: PRJNA151483
 category: Other
-condition_names:
-  'Asexual, Irradiated': 'strain Asexual, Irradiated'
-  'Asexual, Non-irradiated': 'strain Asexual, Non-irradiated'
-  'Sexual, Irradiated': 'strain Sexual, Irradiated'
-  'Sexual, Non-irradiated': 'strain Sexual, Non-irradiated'
-  'X1 neoblast, Sexual, Non-irradiated': 'X1 neoblast, strain Sexual, Non-irradiated'
-  'X2 neoblast, Sexual, Non-irradiated': 'X2 neoblast, strain Sexual, Non-irradiated'
-  'Xins differentiated cells, Sexual, Non-irradiated': 'Xins differentiated cells, strain Sexual, Non-irradiated'
 contrasts: []
-description: Transcriptome analysis reveals strain-specific and conserved stemness genes in Schmidtea mediterranea
+description: ''
+ena_first_public: 2012-04-30
+ena_last_update: 2019-05-17
 pubmed:
   22496805:
     - 'Resch .. Graveley, 2012'
-    - 'Transcriptome analysis reveals strain-specific and conserved stemness genes in Schmidtea mediterranea. (Resch .. Graveley, 2012)'
+    - 'Transcriptome analysis reveals strain-specific and conserved stemness genes in <i>Schmidtea mediterranea</i>. (Resch .. Graveley, 2012)'
+resource_links: []
 rnaseqer_last_update: 2017-12-24
-submitting_centre: 'Genetics and Developmental Biology, University of Connecticut Health Center'
+submitting_centre: 'Genetics and Genome Sciences, University of Connecticut Health Center'
 title: Transcriptome analysis reveals strain-specific and conserved stemness genes in Schmidtea mediterranea

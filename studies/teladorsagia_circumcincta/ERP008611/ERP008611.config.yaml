@@ -1,6 +1,6 @@
 ---
+bioproject: PRJEB7677
 category: Life cycle
-condition_names: {}
 contrasts:
   - name: developmental_stage+sex
     values:
@@ -16,8 +16,11 @@ contrasts:
         - 'adult, female'
         - 'adult, male'
         - 'adult: female vs male'
-description: Teladorsagia circumcincta transcriptomics
-pubmed: ~
+description: ''
+ena_first_public: 2015-06-30
+ena_last_update: 2014-11-05
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-01-17
 submitting_centre: Wellcome Sanger Institute
 title: Teladorsagia circumcincta transcriptomics

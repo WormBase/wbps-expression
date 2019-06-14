@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA488495
 category: Response to treatment
-condition_names: {}
 contrasts:
   - name: timepoint+treatment
     values:
@@ -96,8 +96,11 @@ contrasts:
         - 'activated in a live waxworm, 9 hours'
         - 'activated in waxworm homogenate, 9 hours'
         - '9 hours: activated in a live waxworm vs activated in waxworm homogenate'
-description: A core set of venom proteins are secreted by entomopathogenic nematodes in the genus Steinernema
-pubmed: ~
+description: ''
+ena_first_public: 2018-11-03
+ena_last_update: 2018-11-03
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-11-12
 submitting_centre: University of California Irvine
 title: A core set of venom proteins are secreted by entomopathogenic nematodes in the genus Steinernema

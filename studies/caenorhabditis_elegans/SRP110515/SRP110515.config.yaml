@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA391939
 category: Other
-condition_names: ~
 contrasts: []
-description: 'Beyond the polymerase-gamma theory: Respiratory chain inhibition and production of ROS as modes of NRTI induced mitochondrial toxicity'
+description: ''
+ena_first_public: 2018-02-15
+ena_last_update: 2018-02-15
 pubmed:
   29095935:
     - 'Smith .. van der Spek, 2017'
     - 'Beyond the polymerase-γ theory: Production of ROS as a mode of NRTI-induced mitochondrial toxicity. (Smith .. van der Spek, 2017)'
+resource_links: []
 rnaseqer_last_update: 2018-05-29
 submitting_centre: 'Microarray Department, University of Amsterdam'
 title: 'Beyond the polymerase-gamma theory: Respiratory chain inhibition and production of ROS as modes of NRTI induced mitochondrial toxicity'

@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA309116
 category: Other
-condition_names: ~
 contrasts: []
-description: Transcriptome profiling of sterile daf-2; mes-1 double vs. mes-1 single mutants
+description: ''
+ena_first_public: 2016-01-23
+ena_last_update: 2016-05-21
 pubmed:
   26976573:
     - 'Knutson .. Strome, 2016'
-    - 'Reevaluation of whether a soma-to-germ-line transformation extends lifespan in Caenorhabditis elegans. (Knutson .. Strome, 2016)'
+    - 'Reevaluation of whether a soma-to-germ-line transformation extends lifespan in <i>Caenorhabditis elegans</i>. (Knutson .. Strome, 2016)'
+resource_links: []
 rnaseqer_last_update: 2018-02-12
 submitting_centre: 'Strome, MCD Biology, University of California, Santa Cruz'
 title: Transcriptome profiling of sterile daf-2; mes-1 double vs. mes-1 single mutants

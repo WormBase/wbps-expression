@@ -1,9 +1,16 @@
 ---
+bioproject: PRJEB14738
 category: Other
-condition_names: ~
 contrasts: []
 description: 'We aimed at identifying the transcriptomes of single and double mutants of the two C.elegans Mi2 homologues, let-418 and chd-3. Embryos depleted for one or both genes were manually sorted and synchronised at the 24- and 100-cell stages, and their transcriptome compared to control embryos in order to identify de-regulated target genes, and determine whether the two Mi2 proteins are functionally redundant.'
-pubmed: ~
+ena_first_public: 2016-09-12
+ena_last_update: 2016-07-08
+pubmed: {}
+resource_links:
+  -
+    - ArrayExpress
+    - E-MTAB-4714 in ArrayExpress
+    - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-4714
 rnaseqer_last_update: 2019-03-08
 submitting_centre: University of Fribourg Biology department Zoology institute
 title: 'RNA-Seq of Caenorhabditis elegans Mi2-depleted embryos at 24- and 100-cell stages'

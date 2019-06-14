@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA338464
 category: Other
-condition_names: ~
 contrasts: []
-description: Comparison of transcriptomes of sig-7 (RNAi) vs WT C. elegans early stage embryos by RNA-seq
-pubmed: ~
+description: ''
+ena_first_public: 2016-08-13
+ena_last_update: 2016-08-13
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: 'MCD Biology, UC Santa Cruz'
 title: Comparison of transcriptomes of sig-7 (RNAi) vs WT C. elegans early stage embryos by RNA-seq

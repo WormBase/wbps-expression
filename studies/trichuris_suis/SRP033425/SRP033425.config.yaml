@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA208415
 category: Other
-condition_names: {}
 contrasts:
   - name: developmental_stage+organism_part
     values:
@@ -8,11 +8,14 @@ contrasts:
         - adult
         - large intestine
         - adult vs large intestine
-description: Trichuris suis isolate:DCEP-RM93M Genome sequencing and assembly
+description: ''
+ena_first_public: 2013-12-10
+ena_last_update: 2019-01-26
 pubmed:
   24929829:
     - 'Jex .. Gasser, 2014'
-    - 'Genome and transcriptome of the porcine whipworm Trichuris suis. (Jex .. Gasser, 2014)'
+    - 'Genome and transcriptome of the porcine whipworm <i>Trichuris suis</i>. (Jex .. Gasser, 2014)'
+resource_links: []
 rnaseqer_last_update: 2018-01-21
 submitting_centre: The University of Melbourne
-title: Trichuris suis isolate:DCEP-RM93M Genome sequencing and assembly
+title: Trichuris suis isolate:DCEP-RM93M Genome sequencing

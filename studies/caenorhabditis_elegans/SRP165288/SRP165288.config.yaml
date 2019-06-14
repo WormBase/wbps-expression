@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA495983
 category: Other
-condition_names: ~
 contrasts: []
 description: ''
+ena_first_public: 2018-12-12
+ena_last_update: 2018-12-12
 pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2019-03-22
 submitting_centre: Wageningen University
 title: A multi-parent recombinant inbred line population of Caenorhabditis elegans

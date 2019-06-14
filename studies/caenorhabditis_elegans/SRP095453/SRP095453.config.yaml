@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA358377
 category: Other
-condition_names: ~
 contrasts: []
-description: Transcriptome profiling of P-granule-depleted or P-granule mutant gonads versus control gonads over time
+description: ''
+ena_first_public: 2016-12-25
+ena_last_update: 2017-04-07
 pubmed:
   28258184:
     - 'Knutson .. Strome, 2017'
     - 'Germ Granules Prevent Accumulation of Somatic Transcripts in the Adult <i>Caenorhabditis elegans</i> Germline. (Knutson .. Strome, 2017)'
+resource_links: []
 rnaseqer_last_update: 2018-04-10
 submitting_centre: 'MCD Biology, UC Santa Cruz'
 title: Transcriptome profiling of P-granule-depleted or P-granule mutant gonads versus control gonads over time

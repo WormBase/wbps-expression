@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA407008
 category: Other
-condition_names: ~
 contrasts: []
-description: Effect of liquid cultivations on N2 and AB1 strains of C. elegans
+description: ''
+ena_first_public: 2018-07-11
+ena_last_update: 2018-08-04
 pubmed:
   30064382:
     - 'Çelen .. Sabanayagam, 2018'
-    - 'Effects of liquid cultivation on gene expression and phenotype of C. elegans. (Çelen .. Sabanayagam, 2018)'
+    - 'Effects of liquid cultivation on gene expression and phenotype of <i>C. elegans</i>. (Çelen .. Sabanayagam, 2018)'
+resource_links: []
 rnaseqer_last_update: 2018-07-13
 submitting_centre: University of Delaware
 title: Effect of liquid cultivations on N2 and AB1 strains of C. elegans

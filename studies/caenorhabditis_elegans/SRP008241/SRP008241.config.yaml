@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA147643
 category: Other
-condition_names: ~
 contrasts: []
-description: Analysis of Caenorhabditis elegans intestinal gene expression and alternative polyadenylation using fluorescence-activated nuclei sorting (FANS) and 3'' end deep sequencing (3''end-seq)
+description: ''
+ena_first_public: 2011-12-03
+ena_last_update: 2019-05-17
 pubmed:
   22467213:
     - 'Haenni .. Furger, 2012'
-    - "Analysis of C. elegans intestinal gene expression and polyadenylation by fluorescence-activated nuclei sorting and 3'-end-seq. (Haenni .. Furger, 2012)"
+    - "Analysis of <i>C. elegans</i> intestinal gene expression and polyadenylation by fluorescence-activated nuclei sorting and 3'-end-seq. (Haenni .. Furger, 2012)"
+resource_links: []
 rnaseqer_last_update: 2017-12-26
-submitting_centre: Harvard Medical School
-title: Analysis of Caenorhabditis elegans intestinal gene expression and alternative polyadenylation using fluorescence-activated nuclei sorting (FANS) and 3'' end deep sequencing (3''end-seq)
+submitting_centre: Northwestern University
+title: Analysis of Caenorhabditis elegans intestinal gene expression and alternative polyadenylation using fluorescence-activated nuclei sorting (FANS) and 3' end deep sequencing (3'end-seq)

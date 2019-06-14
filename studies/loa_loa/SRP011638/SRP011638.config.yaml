@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA60555
 category: Other
-condition_names: ~
 contrasts: []
-description: Loa loa transcriptome sequencing project
-pubmed: ~
+description: ''
+ena_first_public: 2012-03-29
+ena_last_update: 2017-07-19
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-01-21
 submitting_centre: Broad Institute
 title: Loa loa transcriptome sequencing project

@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA174192
 category: Other
-condition_names: ~
 contrasts: []
-description: Multiple insert size paired-end sequencing for deconvolution of complex transcriptomes
+description: ''
+ena_first_public: 2012-09-15
+ena_last_update: 2015-11-04
 pubmed:
   22614838:
     - 'Smith .. Rätsch, 2012'
     - 'Multiple insert size paired-end sequencing for deconvolution of complex transcriptomes. (Smith .. Rätsch, 2012)'
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: 'Raetsch Lab, Computational Biology, Memorial Sloan Kettering Cancer Center'
 title: Multiple insert size paired-end sequencing for deconvolution of complex transcriptomes

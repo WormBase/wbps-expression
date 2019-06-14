@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA247976
 category: Other
-condition_names: ~
 contrasts: []
-description: Innate host defense requires TFEB-mediated transcription of cytoprotective and antimicrobial genes
+description: ''
+ena_first_public: 2015-06-08
+ena_last_update: 2015-11-04
 pubmed:
   24882217:
     - 'Visvikis .. Irazoqui, 2014'
     - 'Innate host defense requires TFEB-mediated transcription of cytoprotective and antimicrobial genes. (Visvikis .. Irazoqui, 2014)'
+resource_links: []
 rnaseqer_last_update: 2017-12-30
 submitting_centre: 'Laboratory of Comparative Immunology, Center for the Study of Inflammatory Bowel Disease, Massachusetts General Hospital, Harvard Medical School'
 title: Innate host defense requires TFEB-mediated transcription of cytoprotective and antimicrobial genes

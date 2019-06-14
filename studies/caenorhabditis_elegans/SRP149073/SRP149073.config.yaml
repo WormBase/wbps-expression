@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA473323
 category: Other
-condition_names: ~
 contrasts: []
-description: mRNA-seq of effects of food perception in C. elegans
+description: ''
+ena_first_public: 2018-09-21
+ena_last_update: 2018-10-24
 pubmed:
   30296941:
     - 'Kaplan .. Baugh, 2018'
-    - 'Food perception without ingestion leads to metabolic changes and irreversible developmental arrest in C. elegans. (Kaplan .. Baugh, 2018)'
+    - 'Food perception without ingestion leads to metabolic changes and irreversible developmental arrest in <i>C. elegans</i>. (Kaplan .. Baugh, 2018)'
+resource_links: []
 rnaseqer_last_update: 2018-10-26
 submitting_centre: Duke University
 title: mRNA-seq of effects of food perception in C. elegans

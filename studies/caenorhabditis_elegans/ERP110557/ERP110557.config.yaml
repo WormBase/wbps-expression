@@ -1,9 +1,16 @@
 ---
+bioproject: PRJEB28364
 category: Other
-condition_names: ~
 contrasts: []
 description: This study uses total and polysomal RNA-sequencing to show that the translational efficiencies of specific mRNAs change depending on the mitochondrial activity in longer-lived C. elegans.
-pubmed: ~
+ena_first_public: 2018-08-28
+ena_last_update: 2018-08-24
+pubmed: {}
+resource_links:
+  -
+    - ArrayExpress
+    - E-MTAB-7166 in ArrayExpress
+    - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-7166
 rnaseqer_last_update: 2018-09-14
 submitting_centre: 'KU Leuven, Centre of Microbial and Plant Genetics (CMPG)'
 title: RNA-seq of total and polysomal RNA of clk-1(qm30) mutants in Caenorhabditis elegans

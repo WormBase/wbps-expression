@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA271608
 category: Other
-condition_names: ~
 contrasts: []
-description: 'mRNA profiling of wildtype, germline depleted, NMD mutant C. elegans whole worms and wildtype dissected gonads'
+description: ''
+ena_first_public: 2015-04-23
+ena_last_update: 2017-07-19
 pubmed:
   25922281:
     - 'Ragle .. Zahler, 2015'
-    - "Coordinated tissue-specific regulation of adjacent alternative 3' splice sites in C. elegans. (Ragle .. Zahler, 2015)"
+    - "Coordinated tissue-specific regulation of adjacent alternative 3' splice sites in <i>C. elegans</i>. (Ragle .. Zahler, 2015)"
+resource_links: []
 rnaseqer_last_update: 2018-01-06
 submitting_centre: 'Alan Zahler, MCD Biology, University of California-Santa Cruz'
 title: 'mRNA profiling of wildtype, germline depleted, NMD mutant C. elegans whole worms and wildtype dissected gonads'

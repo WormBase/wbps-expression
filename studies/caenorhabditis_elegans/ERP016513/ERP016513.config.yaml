@@ -1,9 +1,16 @@
 ---
+bioproject: PRJEB14837
 category: Other
-condition_names: ~
 contrasts: []
 description: 'Syncronised population of L1 animals were grown until young adult stage. For heat stress, animals were heat-shocked at 37℃ for 4hrs with food.  For starvation experiments, young adult stage animals were  plated on either food plates for control or on empty plates for starvation at 20℃ for 4hrs.'
-pubmed: ~
+ena_first_public: 2017-06-29
+ena_last_update: 2016-07-18
+pubmed: {}
+resource_links:
+  -
+    - ArrayExpress
+    - E-MTAB-4940 in ArrayExpress
+    - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-4940
 rnaseqer_last_update: 2017-12-24
 submitting_centre: Gurdon Institute
 title: Analysis of post-transcriptional RNA modifications in Caenorhabditis elegans under stress

@@ -1,9 +1,15 @@
 ---
+bioproject: PRJNA392972
 category: Other
-condition_names: ~
 contrasts: []
-description: 'H3K9me2 and BRCA1 cooperate to prevent satellite repeat transcription, R-loop formation and germline sterility [RNA-seq]'
-pubmed: ~
+description: ''
+ena_first_public: 2017-07-07
+ena_last_update: 2019-05-04
+pubmed:
+  30804228:
+    - 'Padeken .. Gasser, 2019'
+    - 'Synergistic lethality between BRCA1 and H3K9me2 loss reflects satellite derepression. (Padeken .. Gasser, 2019)'
+resource_links: []
 rnaseqer_last_update: 2018-06-03
 submitting_centre: Friedrich Miescher Institute
 title: 'H3K9me2 and BRCA1 cooperate to prevent satellite repeat transcription, R-loop formation and germline sterility [RNA-seq]'

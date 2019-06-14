@@ -1,29 +1,6 @@
 ---
+bioproject: PRJEB5096
 category: Other
-condition_names:
-  'Activated protoscolex, GH09': 'Activated protoscolex, strain GH09'
-  'Activated protoscolex, Ingrid': 'Activated protoscolex, strain Ingrid'
-  'Activated protoscolex, MS10': 'Activated protoscolex, strain MS10'
-  'Non-activated protoscolex, GH09': 'Non-activated protoscolex, strain GH09'
-  'Non-activated protoscolex, Ingrid': 'Non-activated protoscolex, strain Ingrid'
-  'Non-activated protoscolex, MS10': 'Non-activated protoscolex, strain MS10'
-  'Primary cells 11 days (stage 2), G8065': 'Primary cells 11 days (stage 2), strain G8065'
-  'Primary cells 16 days (stage 3), H95': 'Primary cells 16 days (stage 3), strain H95'
-  'Primary cells 21 days (stage 3), Ingrid': 'Primary cells 21 days (stage 3), strain Ingrid'
-  'Primary cells 22 days (stage 3), 7030': 'Primary cells 22 days (stage 3), strain 7030'
-  'Primary cells 48 h  (stage 1), G8065': 'Primary cells 48 h  (stage 1), strain G8065'
-  'Primary cells 48 h (stage 1), H95': 'Primary cells 48 h (stage 1), strain H95'
-  'Primary cells 48 h (stage 1), Ingrid': 'Primary cells 48 h (stage 1), strain Ingrid'
-  'Primary cells 7 days (stage 2), 7030': 'Primary cells 7 days (stage 2), strain 7030'
-  'Primary cells 9 days (stage 2), H95': 'Primary cells 9 days (stage 2), strain H95'
-  'aerobic co-culture with Rh feeder cells, Metacestode, H95': 'aerobic co-culture with Rh feeder cells, Metacestode, strain H95'
-  'aerobic co-culture with Rh feeder cells, Metacestode, Ingrid': 'aerobic co-culture with Rh feeder cells, Metacestode, strain Ingrid'
-  'axenic culture with hydroxyurea, Metacestode, Ingrid': 'axenic culture with hydroxyurea, Metacestode, strain Ingrid'
-  'axenic culture, Metacestode, Ingrid': 'axenic culture, Metacestode, strain Ingrid'
-  'extracted from jird, Metacestode, H95': 'extracted from jird, Metacestode, strain H95'
-  'vesicle without brood chambers, Metacestode, GT10': 'vesicle without brood chambers, Metacestode, strain GT10'
-  'vesicle without brood chambers, Metacestode, H95': 'vesicle without brood chambers, Metacestode, strain H95'
-  'vesicle without brood chambers, Metacestode, Ingrid': 'vesicle without brood chambers, Metacestode, strain Ingrid'
 contrasts:
   - name: culture_conditions
     values:
@@ -32,7 +9,10 @@ contrasts:
         - 'axenic culture, Metacestode, Ingrid'
         - 'Metacestode, Ingrid: axenic culture with hydroxyurea vs axenic culture'
 description: 'Project to investigate gene and small RNA expression of tapeworms (including Echinococcus multilocularis, E. granulosus, Hymenolepis microstoma). '
-pubmed: ~
+ena_first_public: 2013-12-13
+ena_last_update: 2014-12-22
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-01-15
 submitting_centre: Wellcome Sanger Institute
 title: Analysis of RNA expression in tapeworm species

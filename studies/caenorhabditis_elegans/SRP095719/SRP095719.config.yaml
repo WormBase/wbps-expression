@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA359136
 category: Other
-condition_names: ~
 contrasts: []
-description: The C. elegans transcriptome is regulated by environmental and developmental history
-pubmed: ~
+description: ''
+ena_first_public: 2017-12-29
+ena_last_update: 2017-12-29
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-04-08
 submitting_centre: 'Life Sciences Complex, Biology, Syracuse University'
 title: The C. elegans transcriptome is regulated by environmental and developmental history

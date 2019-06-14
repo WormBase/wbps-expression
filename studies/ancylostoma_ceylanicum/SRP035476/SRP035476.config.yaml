@@ -1,25 +1,15 @@
 ---
+bioproject: PRJNA231490
 category: Other
-condition_names:
-  12 days post infection: '12 d.p.i.; early adult stage, with few gravid females and mature males'
-  '18 d.p.i + incubate, Cry5B treatment': '18 d.p.i., then worms incubated in hookworm culture media for 24 hrs, then exposed to 100ug/mL Cry5B for 4 hr'
-  '18 d.p.i + incubate, control treatment': '18 d.p.i., then worms incubated in hookworm culture media for 24 hrs, then exposed to HEPES buffer control for 4 hr'
-  '18 d.p.i. + incubate with SB203580, Cry5B treatment': '18 d.p.i., then worms incubated in hookworm culture media with 50uM SB203580 (p38 MAPK inhibitor) for 24 hrs, then exposed to 100 ug/mL Cry5B for 4 hr'
-  '18 d.p.i. + incubate with SB203580, control treatment ': '18 d.p.i., then worms incubated in hookworm culture media with 50uM SB203580 for 24 hr, then exposed to buffer control for 4 hr'
-  18 d.p.i. 100ug/mL Cry5B treatment: '18 d.p.i., then exposure to 100ug/mL Cry5B for 4 hr'
-  18 d.p.i. albendazole treatment: 18 d.p.i. treated with albendazole for 4 hr
-  18 d.p.i. control treatment: '18 d.p.i., then HEPES buffer control for 4hr'
-  19 days post infection: 19 d.p.i.; mature adult stage
-  24 hours post infection: '24 hours after infection, in early stages of infection; majority of worms in stomach'
-  5 days post infection: '5 days post infection (d.p.i.);sexual differentiation distinct, and majority of larvae in final L4; worms in small intestine until adulthood'
-  Infectious L3 larvae: Infectious L3 larvae (L3i)
-  'Infectious L3 larvae, incubated': 'L3i, then incubated for 24 hr in hookworm culture medium simulating infection'
 contrasts: []
-description: Ancylostoma ceylanicum transcriptome
+description: ''
+ena_first_public: 2014-01-20
+ena_last_update: 2017-07-19
 pubmed:
   25730766:
     - 'Schwarz .. Aroian, 2015'
-    - 'The genome and transcriptome of the zoonotic hookworm Ancylostoma ceylanicum identify infection-specific gene families. (Schwarz .. Aroian, 2015)'
+    - 'The genome and transcriptome of the zoonotic hookworm <i>Ancylostoma ceylanicum</i> identify infection-specific gene families. (Schwarz .. Aroian, 2015)'
+resource_links: []
 rnaseqer_last_update: 2018-01-22
 submitting_centre: Cornell University
 title: Ancylostoma ceylanicum transcriptome

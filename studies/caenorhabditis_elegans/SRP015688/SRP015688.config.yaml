@@ -1,10 +1,6 @@
 ---
+bioproject: PRJNA174814
 category: Other
-condition_names:
-  'L3 larva Ce, linker cell, male, PS4730': 'L3 larva Ce, linker cell, male, strain PS4730'
-  'L4 larva Ce, linker cell, male, PS4730': 'L4 larva Ce, linker cell, male, strain PS4730'
-  'all stages Ce, organism, hermaphrodite, N2': 'all stages Ce, organism, hermaphrodite, strain N2'
-  'larva Ce, organism, hermaphrodite, N2': 'larva Ce, organism, hermaphrodite, strain N2'
 contrasts:
   - name: developmental_stage
     values:
@@ -12,8 +8,11 @@ contrasts:
         - 'L3 larva Ce, linker cell, male, PS4730'
         - 'L4 larva Ce, linker cell, male, PS4730'
         - 'linker cell, male, PS4730: L3 larva Ce vs L4 larva Ce'
-description: C. elegans linker cell transcriptome
-pubmed: ~
+description: ''
+ena_first_public: 2012-09-18
+ena_last_update: 2017-07-19
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-03-30
 submitting_centre: California Institute of Technology
 title: C. elegans linker cell transcriptome

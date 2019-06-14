@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA395909
 category: Other
-condition_names: ~
 contrasts: []
-description: Indole from commensal bacteria impact the aging transcriptome of C. elegans
+description: ''
+ena_first_public: 2017-08-08
+ena_last_update: 2017-11-05
 pubmed:
   28827345:
     - 'Sonowal .. Kalman, 2017'
     - 'Indoles from commensal bacteria extend healthspan. (Sonowal .. Kalman, 2017)'
+resource_links: []
 rnaseqer_last_update: 2018-06-06
 submitting_centre: 'Kalman Lab, Pathology & Laboratory Medicine, Emory University'
 title: Indole from commensal bacteria impact the aging transcriptome of C. elegans

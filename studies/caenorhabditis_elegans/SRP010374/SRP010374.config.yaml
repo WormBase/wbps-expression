@@ -1,6 +1,6 @@
 ---
+bioproject: ''
 category: Life cycle
-condition_names: {}
 contrasts:
   - name: developmental_stage
     values:
@@ -28,11 +28,14 @@ contrasts:
         - L3 larva Ce
         - L4 larva Ce
         - L3 larva Ce vs L4 larva Ce
-description: Wobble Base-pairing Slows in vivo Translation Elongation in Metazoans
+description: {}
+ena_first_public: 2012-02-24
+ena_last_update: 2015-06-22
 pubmed:
   22045228:
     - 'Stadler .. Fire, 2011'
     - 'Wobble base-pairing slows in vivo translation elongation in metazoans. (Stadler .. Fire, 2011)'
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: Stanford University
 title: Wobble Base-pairing Slows in vivo Translation Elongation in Metazoans

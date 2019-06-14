@@ -1,9 +1,16 @@
 ---
+bioproject: PRJNA179528
 category: Other
-condition_names: ~
 contrasts: []
-description: Trichuris suis Genome sequencing and assembly
-pubmed: ~
+description: ''
+ena_first_public: 2014-03-13
+ena_last_update: 2019-01-26
+pubmed: {}
+resource_links:
+  -
+    - Parasitic Nematode Project Page
+    - Parasitic Nematode Project Page
+    - http://nematode.net/
 rnaseqer_last_update: 2018-01-23
 submitting_centre: The Genome Institute
-title: Trichuris suis Genome sequencing and assembly
+title: Trichuris suis Genome sequencing

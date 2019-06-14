@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA261420
 category: Other
-condition_names: ~
 contrasts: []
-description: Differential gene expression in ahr-1 mutants compared to wild-type C. elegans
+description: ''
+ena_first_public: 2014-10-08
+ena_last_update: 2017-07-19
 pubmed:
   24463456:
     - 'Aarnio .. Wong, 2014'
-    - 'Transcriptional profiling reveals differential expression of a neuropeptide-like protein and pseudogenes in aryl hydrocarbon receptor-1 mutant Caenorhabditis elegans. (Aarnio .. Wong, 2014)'
+    - 'Transcriptional profiling reveals differential expression of a neuropeptide-like protein and pseudogenes in aryl hydrocarbon receptor-1 mutant <i>Caenorhabditis elegans</i>. (Aarnio .. Wong, 2014)'
+resource_links: []
 rnaseqer_last_update: 2018-01-02
 submitting_centre: 'A. I. Virtanen Institute, Department of Neurobiology, University of Eastern Finland'
 title: Differential gene expression in ahr-1 mutants compared to wild-type C. elegans

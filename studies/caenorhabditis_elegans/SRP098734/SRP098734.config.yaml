@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA369619
 category: Other
-condition_names: ~
 contrasts: []
-description: Genome-wide expression analysis of Caenorhabditis elegans AXIN mutant
+description: ''
+ena_first_public: 2018-03-02
+ena_last_update: 2018-11-14
 pubmed:
   30403720:
     - 'Ranawade .. Gupta, 2018'
-    - 'PRY-1/Axin signaling regulates lipid metabolism in Caenorhabditis elegans. (Ranawade .. Gupta, 2018)'
+    - 'PRY-1/Axin signaling regulates lipid metabolism in <i>Caenorhabditis elegans</i>. (Ranawade .. Gupta, 2018)'
+resource_links: []
 rnaseqer_last_update: 2018-04-14
 submitting_centre: 'LSb322, Biology, McMaster University'
 title: Genome-wide expression analysis of Caenorhabditis elegans AXIN mutant

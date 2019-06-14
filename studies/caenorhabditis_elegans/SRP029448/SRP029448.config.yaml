@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA217930
 category: Other
-condition_names: {}
 contrasts:
   - name: germ_layer
     values:
@@ -196,11 +196,14 @@ contrasts:
         - '40 min post first-cleavage, ventral cord blast cell'
         - '90 min post first-cleavage, ventral cord blast cell'
         - '40 min post first-cleavage, ventral cord blast cell vs 90 min post first-cleavage, ventral cord blast cell'
-description: Spatiotemporal embryonic transcriptomics reveals the evolutionary history of the endoderm germ layer
+description: ''
+ena_first_public: 2014-12-12
+ena_last_update: 2015-11-04
 pubmed:
   25487147:
     - 'Hashimshony .. Yanai, 2015'
     - 'Spatiotemporal transcriptomics reveals the evolutionary history of the endoderm germ layer. (Hashimshony .. Yanai, 2015)'
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: 'Yanai, Biology, Technion - Israel Institute of Technology'
 title: Spatiotemporal embryonic transcriptomics reveals the evolutionary history of the endoderm germ layer

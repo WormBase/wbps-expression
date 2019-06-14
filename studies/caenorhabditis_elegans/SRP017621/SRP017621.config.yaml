@@ -1,10 +1,6 @@
 ---
+bioproject: PRJNA184024
 category: Variation within species
-condition_names:
-  LE2544: strain LE2544
-  LE2962: strain LE2962
-  LE2963: strain LE2963
-  LE3037: strain LE3037
 contrasts:
   - name: strain
     values:
@@ -32,8 +28,11 @@ contrasts:
         - LE2963
         - LE3037
         - LE2963 vs LE3037
-description: Using RNA-seq to identify transcriptional targets of MAB-5 in C. elegans
-pubmed: ~
+description: ''
+ena_first_public: 2013-02-12
+ena_last_update: 2017-04-21
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-03-31
 submitting_centre: University of Kansas
 title: Using RNA-seq to identify transcriptional targets of MAB-5 in C. elegans

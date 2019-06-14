@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA423001
 category: Other
-condition_names: ~
 contrasts: []
 description: ''
+ena_first_public: 2018-12-18
+ena_last_update: 2018-12-18
 pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2019-02-06
 submitting_centre: 'Nematode Ageing Lab, Science/ Biochemistry, Yale-NUS College / NUS'
 title: Drug synergy slows ageing and improves healthspan through IGF and SREBP lipid signaling

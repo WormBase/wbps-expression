@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA263509
 category: Other
-condition_names: ~
 contrasts: []
-description: Dirofilaria immitis Transcriptome or Gene expression
-pubmed: ~
+description: ''
+ena_first_public: 2014-11-04
+ena_last_update: 2017-06-16
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-01-22
 submitting_centre: New England Biolabs
 title: Dirofilaria immitis Transcriptome or Gene expression

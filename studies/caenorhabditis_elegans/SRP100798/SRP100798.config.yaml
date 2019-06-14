@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA352987
 category: Other
-condition_names: ~
 contrasts: []
-description: Transcriptional response to viral infection in Caenorhabditis nematodes
-pubmed: ~
+description: ''
+ena_first_public: 2017-04-05
+ena_last_update: 2017-04-05
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-04-17
 submitting_centre: Washington University in St. Louis
 title: Transcriptional response to viral infection in Caenorhabditis nematodes

@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA190895
 category: Other
-condition_names: ~
 contrasts: []
-description: 'Next generation sequencing facilitates quantitative analysis of Caenorhabditis elegans N2 wild type, emr-1(gk119), lem-2(tm1582) and emr-1(RNAi) lem-2(tm1582) transcriptomes.'
+description: ''
+ena_first_public: 2013-12-10
+ena_last_update: 2015-11-04
 pubmed:
   24490688:
     - 'González-Aguilera .. Askjaer, 2014'
-    - 'Genome-wide analysis links emerin to neuromuscular junction activity in Caenorhabditis elegans. (González-Aguilera .. Askjaer, 2014)'
+    - 'Genome-wide analysis links emerin to neuromuscular junction activity in <i>Caenorhabditis elegans</i>. (González-Aguilera .. Askjaer, 2014)'
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: Centro Andaluz de Biología del Desarrollo
 title: 'Next generation sequencing facilitates quantitative analysis of Caenorhabditis elegans N2 wild type, emr-1(gk119), lem-2(tm1582) and emr-1(RNAi) lem-2(tm1582) transcriptomes.'

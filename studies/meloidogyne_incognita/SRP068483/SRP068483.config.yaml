@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA307527
 category: Other
-condition_names: ~
 contrasts: []
-description: Transcriptome of early-infected root-knot nematodes by the bacterial pathogen Pasteuria penetrans
-pubmed: ~
+description: ''
+ena_first_public: 2017-01-15
+ena_last_update: 2017-01-15
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-06-28
 submitting_centre: Chinese Academy of Tropical Agricultural Sciences
 title: Transcriptome of early-infected root-knot nematodes by the bacterial pathogen Pasteuria penetrans

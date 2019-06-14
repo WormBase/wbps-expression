@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA283145
 category: Life cycle
-condition_names: {}
 contrasts: []
-description: Comparative genomics of Steinernema reveals deeply conserved gene regulatory networks
-pubmed: ~
+description: ''
+ena_first_public: 2015-05-12
+ena_last_update: 2015-11-04
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: 'University of California, Irvine'
 title: Comparative genomics of Steinernema reveals deeply conserved gene regulatory networks

@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA428455
 category: Response to treatment
-condition_names: {}
 contrasts:
   - name: treatment
     values:
@@ -22,11 +22,14 @@ contrasts:
         - female
         - male
         - female vs male
-description: Transcriptome analysis of females and males following knockdown serine/threonine protein phosphatase 1 catalytic subunit encoding genes(Sj-pp1c) in Schistosoma japonicum
+description: ''
+ena_first_public: 2018-06-26
+ena_last_update: 2018-06-26
 pubmed:
   29879373:
     - 'Zhao .. Hu, 2018'
-    - 'Serine/threonine protein phosphatase 1 (PP1) controls growth and reproduction in Schistosoma japonicum. (Zhao .. Hu, 2018)'
+    - 'Serine/threonine protein phosphatase 1 (PP1) controls growth and reproduction in <i>Schistosoma japonicum</i>. (Zhao .. Hu, 2018)'
+resource_links: []
 rnaseqer_last_update: 2018-07-29
 submitting_centre: 'State Key Laboratory of Agricultural Microbiology, College of Veterinary Medicine, Huazhong Agricultural University'
 title: Transcriptome analysis of females and males following knockdown serine/threonine protein phosphatase 1 catalytic subunit encoding genes(Sj-pp1c) in Schistosoma japonicum

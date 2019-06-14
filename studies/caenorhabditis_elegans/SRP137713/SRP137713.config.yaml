@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA448899
 category: Other
-condition_names: ~
 contrasts: []
-description: 'RNA-seq on D5 C. elegans in WT(N2), alg-1(gk214), alg-2(ok304)'
+description: ''
+ena_first_public: 2018-05-02
+ena_last_update: 2018-08-02
 pubmed:
   29927939:
     - 'Aalto .. Pasquinelli, 2018'
-    - 'Opposing roles of microRNA Argonautes during Caenorhabditis elegans aging. (Aalto .. Pasquinelli, 2018)'
+    - 'Opposing roles of microRNA Argonautes during <i>Caenorhabditis elegans</i> aging. (Aalto .. Pasquinelli, 2018)'
+resource_links: []
 rnaseqer_last_update: 2018-08-12
 submitting_centre: 'Pasquinelli Lab, Biological Sciences, University of California, San Diego'
 title: 'RNA-seq on D5 C. elegans in WT(N2), alg-1(gk214), alg-2(ok304)'

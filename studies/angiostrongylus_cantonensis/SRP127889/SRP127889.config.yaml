@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA350405
 category: Other
-condition_names: {}
 contrasts: []
-description: Angiostrongylus cantonensis Transcriptome
-pubmed: ~
+description: ''
+ena_first_public: 2018-02-24
+ena_last_update: 2018-06-21
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-07-29
 submitting_centre: Sun Yat-sen University
 title: Angiostrongylus cantonensis Transcriptome

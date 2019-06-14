@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA320045
 category: Other
-condition_names: ~
 contrasts: []
-description: 'mRNA expression profile of dop-1 mutants to wild- type animals during adulthood (L4+48 hours) using RNA-seq'
+description: ''
+ena_first_public: 2016-05-03
+ena_last_update: 2016-07-29
 pubmed:
   27261197:
     - 'Joshi .. Rongo, 2016'
     - 'Dopamine signaling promotes the xenobiotic stress response and protein homeostasis. (Joshi .. Rongo, 2016)'
+resource_links: []
 rnaseqer_last_update: 2018-02-26
 submitting_centre: 'Room 33, Department of Genetics, Waksman Institute, Rutgers The State University of New Jersey'
 title: 'mRNA expression profile of dop-1 mutants to wild- type animals during adulthood (L4+48 hours) using RNA-seq'

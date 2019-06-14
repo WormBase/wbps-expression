@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA360979
 category: Other
-condition_names: ~
 contrasts: []
-description: Caenorhabditis elegans LITE-Seq germline 3''UTR sequencing
-pubmed: ~
+description: ''
+ena_first_public: 2017-11-03
+ena_last_update: 2017-11-03
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-04-09
 submitting_centre: New York University
 title: Caenorhabditis elegans LITE-Seq germline 3''UTR sequencing

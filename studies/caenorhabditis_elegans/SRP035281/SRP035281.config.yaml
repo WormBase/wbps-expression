@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA234057
 category: Other
-condition_names: ~
 contrasts: []
-description: A Genome-wide RNAi screen identifies factors required for distinct stages of C. elegans piRNA biogenesis
+description: ''
+ena_first_public: 2014-04-22
+ena_last_update: 2015-11-04
 pubmed:
   24696458:
     - 'Goh .. Hannon, 2014'
-    - 'A genome-wide RNAi screen identifies factors required for distinct stages of C. elegans piRNA biogenesis. (Goh .. Hannon, 2014)'
+    - 'A genome-wide RNAi screen identifies factors required for distinct stages of <i>C. elegans</i> piRNA biogenesis. (Goh .. Hannon, 2014)'
+resource_links: []
 rnaseqer_last_update: 2017-12-27
-submitting_centre: 'Gregory Hannon Laboratory, Cold spring harbor laboratory'
+submitting_centre: 'Sho Goh Laboratory, Genome Institute of Singapore'
 title: A Genome-wide RNAi screen identifies factors required for distinct stages of C. elegans piRNA biogenesis

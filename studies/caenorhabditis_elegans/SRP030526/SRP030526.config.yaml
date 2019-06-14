@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA221531
 category: Other
-condition_names: ~
 contrasts: []
 description: ''
+ena_first_public: 2013-10-17
+ena_last_update: 2018-04-26
 pubmed:
   24167253:
     - 'Gout .. Lynch, 2013'
     - 'Large-scale detection of in vivo transcription errors. (Gout .. Lynch, 2013)'
+resource_links: []
 rnaseqer_last_update: 2017-12-27
 submitting_centre: Indiana University
 title: Caenorhabditis elegans Transcriptome or Gene expression

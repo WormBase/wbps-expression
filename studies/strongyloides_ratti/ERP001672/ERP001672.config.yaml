@@ -1,9 +1,12 @@
 ---
+bioproject: PRJEB3187
 category: Other
-condition_names: ~
 contrasts: []
-description: Transcriptome sequencing of Strongyloides ratti
-pubmed: ~
+description: ''
+ena_first_public: 2013-01-28
+ena_last_update: 2012-08-03
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-01-12
 submitting_centre: Wellcome Sanger Institute
 title: Transcriptome sequencing of Strongyloides ratti

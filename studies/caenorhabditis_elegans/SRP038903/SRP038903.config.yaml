@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA239270
 category: Other
-condition_names: ~
 contrasts: []
 description: ''
+ena_first_public: 2014-03-03
+ena_last_update: 2017-07-19
 pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2017-12-28
 submitting_centre: Cornell University
 title: 'Caenorhabditis elegans ALA neuron transcriptome (wild-type, mid-L4 larval stage)'

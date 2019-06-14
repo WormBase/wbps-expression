@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA382843
 category: Other
-condition_names: ~
 contrasts: []
-description: Two distinct transcription termination modes dictated by promoters
+description: ''
+ena_first_public: 2018-02-06
+ena_last_update: 2018-02-07
 pubmed:
   29021241:
     - 'Miki .. Großhans, 2017'
     - 'Two distinct transcription termination modes dictated by promoters. (Miki .. Großhans, 2017)'
+resource_links: []
 rnaseqer_last_update: 2018-05-07
 submitting_centre: 'Epigenetics, Friedrich Miescher Institute'
 title: Two distinct transcription termination modes dictated by promoters

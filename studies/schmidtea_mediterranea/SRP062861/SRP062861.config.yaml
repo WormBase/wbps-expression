@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA293934
 category: Response to treatment
-condition_names: {}
 contrasts:
   - name: timepoint
     values:
@@ -126,8 +126,11 @@ contrasts:
         - 'p53, 18 days'
         - 'unc22, 18 days'
         - '18 days: p53 vs unc22'
-description: 'RNA Seq analysis of Schmidtea mediterranea treated with RNAi against chd4, p53, or unc22 to identify factors involved in neoblast differentiation.'
-pubmed: ~
+description: ''
+ena_first_public: 2015-10-23
+ena_last_update: 2015-11-04
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-01-28
 submitting_centre: 'Seidel, Genomics, Stowers Institute'
 title: 'RNA Seq analysis of Schmidtea mediterranea treated with RNAi against chd4, p53, or unc22 to identify factors involved in neoblast differentiation.'

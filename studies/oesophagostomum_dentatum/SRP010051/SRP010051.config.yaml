@@ -1,13 +1,12 @@
 ---
+bioproject: ''
 category: Other
-condition_names:
-  'female, levamisole resistant': 'female, strain levamisole resistant'
-  'female, levamisole sensitive': 'female, strain levamisole sensitive'
-  'male, levamisole resistant': 'male, strain levamisole resistant'
-  'male, levamisole sensitive': 'male, strain levamisole sensitive'
 contrasts: []
-description: mRNA-seq analysis of Levamisole resistance in Oesophagostomum dentatum
-pubmed: ~
+description: {}
+ena_first_public: 2012-12-31
+ena_last_update: 2015-06-22
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-01-23
 submitting_centre: Iowa State University
 title: mRNA-seq analysis of Levamisole resistance in Oesophagostomum dentatum

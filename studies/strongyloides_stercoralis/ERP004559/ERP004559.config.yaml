@@ -1,11 +1,6 @@
 ---
+bioproject: PRJEB5184
 category: Response to treatment
-condition_names:
-  "8-bromo-3',5'-cyclic GMP": 'L3i, treated with 8-bromo-cyclic guanosine monophosphate'
-  DMEM: 'L3i, treated with 1x DMEM (supplemented with L-glutamine, glucose, and sodium pyruvate)'
-  M9 buffer: 'L3i, treated with 1x M9 Buffer'
-  No treatment: 'L3i, no treatment'
-  delta(7)-DA: 'L3i, treated with delta(7)-dafachronic acid'
 contrasts:
   - name: treatment
     values:
@@ -50,7 +45,14 @@ contrasts:
         - delta(7)-DA
         - No treatment vs delta(7)-DA
 description: RNAseq study to examine regulation of S. stercoralis transcripts during L3i activation
-pubmed: ~
+ena_first_public: 2014-07-01
+ena_last_update: 2014-01-09
+pubmed: {}
+resource_links:
+  -
+    - ArrayExpress
+    - E-MTAB-2192 in ArrayExpress
+    - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-2192
 rnaseqer_last_update: 2017-12-24
 submitting_centre: 'Department of Biology, Hollins University'
 title: RNAseq of S. stercoralis PV001 strain L3i activation

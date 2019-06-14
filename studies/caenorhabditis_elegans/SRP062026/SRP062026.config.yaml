@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA291916
 category: Other
-condition_names: ~
 contrasts: []
-description: Defining the Roles and Regulation of the GATA-factor ELT-2 in the C. elegans Endoderm
+description: ''
+ena_first_public: 2016-03-31
+ena_last_update: 2016-04-01
 pubmed:
   26700680:
     - 'Wiesenfahrt .. McGhee, 2016'
-    - 'The function and regulation of the GATA factor ELT-2 in the C. elegans endoderm. (Wiesenfahrt .. McGhee, 2016)'
+    - 'The function and regulation of the GATA factor ELT-2 in the <i>C. elegans</i> endoderm. (Wiesenfahrt .. McGhee, 2016)'
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: 'Biochemistry and Molecular Biology, Colorado State University'
 title: Defining the Roles and Regulation of the GATA-factor ELT-2 in the C. elegans Endoderm

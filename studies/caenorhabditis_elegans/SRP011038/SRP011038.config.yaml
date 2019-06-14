@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA151765
 category: Other
-condition_names: ~
 contrasts: []
-description: Impaired Insulin-/IGF1-Signaling Extends Life Span by Promoting Mitochondrial L-Proline Catabolism to Induce a Transient ROS-Signal
+description: ''
+ena_first_public: 2012-02-29
+ena_last_update: 2017-09-25
 pubmed:
   22482728:
     - 'Zarse .. Ristow, 2012'
     - 'Impaired insulin/IGF1 signaling extends life span by promoting mitochondrial L-proline catabolism to induce a transient ROS signal. (Zarse .. Ristow, 2012)'
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: 'Leibniz Institute for Age Research - Fritz Lipmann Institute'
 title: Impaired Insulin-/IGF1-Signaling Extends Life Span by Promoting Mitochondrial L-Proline Catabolism to Induce a Transient ROS-Signal

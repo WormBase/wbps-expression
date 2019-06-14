@@ -1,12 +1,19 @@
 ---
+bioproject: PRJEB2469
 category: Other
-condition_names: ~
 contrasts: []
 description: The head-regeneration transcriptome of the planarian Schmidtea mediterranea
+ena_first_public: 2011-07-14
+ena_last_update: 2013-07-19
 pubmed:
   21846378:
     - 'Sandmann .. Bartscherer, 2011'
-    - 'The head-regeneration transcriptome of the planarian Schmidtea mediterranea. (Sandmann .. Bartscherer, 2011)'
+    - 'The head-regeneration transcriptome of the planarian <i>Schmidtea mediterranea</i>. (Sandmann .. Bartscherer, 2011)'
+resource_links:
+  -
+    - ArrayExpress
+    - E-MTAB-607 in ArrayExpress
+    - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-607
 rnaseqer_last_update: 2017-12-24
 submitting_centre: 'High Throughput Sequencing Unit at the Genomics & Proteomics Core Facility, German Cancer Research Center (DKFZ), Germany'
 title: The head-regeneration transcriptome of the planarian Schmidtea mediterranea

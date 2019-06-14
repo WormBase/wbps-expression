@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA421831
 category: Other
-condition_names: {}
 contrasts:
   - name: timepoint
     values:
@@ -28,8 +28,11 @@ contrasts:
         - 'trunk fragments, day 5'
         - 'trunk fragments, day 7'
         - 'trunk fragments: day 5 vs day 7'
-description: Sexual Regeneration RNAseq
-pubmed: ~
+description: ''
+ena_first_public: 2017-12-16
+ena_last_update: 2017-12-16
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-07-25
 submitting_centre: 'Sanchez Alvarado Lab, Stowers Institute for Medical Research'
 title: Sexual Regeneration RNAseq

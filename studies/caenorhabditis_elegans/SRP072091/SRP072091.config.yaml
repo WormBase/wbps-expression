@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA315807
 category: Other
-condition_names: ~
 contrasts: []
-description: Transcriptional profile of C. elegans fed E. coli (OP50) and B. subtilis (PY79)
+description: ''
+ena_first_public: 2016-03-26
+ena_last_update: 2016-06-23
 pubmed:
   27070429:
     - 'Mann .. Kim, 2016'
-    - 'Deactivation of the GATA Transcription Factor ELT-2 Is a Major Driver of Normal Aging in C. elegans. (Mann .. Kim, 2016)'
+    - 'Deactivation of the GATA Transcription Factor ELT-2 Is a Major Driver of Normal Aging in <i>C. elegans</i>. (Mann .. Kim, 2016)'
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: 'Developmental Biology, Stanford University'
 title: Transcriptional profile of C. elegans fed E. coli (OP50) and B. subtilis (PY79)

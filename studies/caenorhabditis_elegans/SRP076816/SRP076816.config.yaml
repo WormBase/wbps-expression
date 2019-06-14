@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA326270
 category: Other
-condition_names: ~
 contrasts: []
-description: 'GEO accession GSE83523 is currently private and is scheduled to be released on Jul 05, 2018.'
-pubmed: ~
+description: ''
+ena_first_public: 2018-01-03
+ena_last_update: 2018-01-07
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-03-01
 submitting_centre: Technion
 title: 'GEO accession GSE83523 is currently private and is scheduled to be released on Jul 05, 2018.'

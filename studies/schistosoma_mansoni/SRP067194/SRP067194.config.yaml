@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA305542
 category: Response to treatment
-condition_names: {}
 contrasts:
   - name: treatment
     values:
@@ -44,11 +44,14 @@ contrasts:
         - fgfrA(RNAi)
         - h2b(RNAi)
         - fgfrA(RNAi) vs h2b(RNAi)
-description: Stem cells rejuvenate the schistosome host-parasite interface
+description: ''
+ena_first_public: 2015-12-12
+ena_last_update: 2015-12-12
 pubmed:
   27003592:
     - 'Collins .. Newmark, 2016'
     - 'Stem cell progeny contribute to the schistosome host-parasite interface. (Collins .. Newmark, 2016)'
-rnaseqer_last_update: 2018-06-27
+resource_links: []
+rnaseqer_last_update: 2019-06-12
 submitting_centre: 'Pharmacology, UT Southwestern'
 title: Stem cells rejuvenate the schistosome host-parasite interface

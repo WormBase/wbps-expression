@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA33023
 category: Other
-condition_names: ~
 contrasts: []
 description: 'The goal of this study, started as a part of the modENCODE project, is to detect and characterize previously unannotated transcripts of the C. elegans genome.'
+ena_first_public: 2010-02-26
+ena_last_update: 2015-06-22
 pubmed:
   19181841:
     - 'Hillier .. Waterston, 2009'
     - 'Massively parallel sequencing of the polyadenylated transcriptome of <i>C. elegans</i>. (Hillier .. Waterston, 2009)'
+resource_links: []
 rnaseqer_last_update: 2018-01-09
 submitting_centre: modENCODE
 title: Deep sequencing of the Caenorhabditis elegans transcriptome using RNA isolated from various developmental stages under various experimental conditions RW0001

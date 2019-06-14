@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA198514
 category: Other
-condition_names: {}
 contrasts:
   - name: timepoint
     values:
@@ -8,11 +8,14 @@ contrasts:
         - 'embryo, 64 hours'
         - 'embryo, 7 days'
         - 'embryo: 64 hours vs 7 days'
-description: 'Transcription in Pronuclei and One- to Four-Cell Embryos Drives Early Development in a Nematode'
+description: ''
+ena_first_public: 2014-01-15
+ena_last_update: 2019-05-17
 pubmed:
   24374308:
     - 'Wang .. Davis, 2014'
     - 'Transcription in pronuclei and one- to four-cell embryos drives early development in a nematode. (Wang .. Davis, 2014)'
+resource_links: []
 rnaseqer_last_update: 2018-06-29
 submitting_centre: 'Richard E. Davis Lab, Biochemistry and Molecular Genetics, University of Colorado Denver'
 title: 'Transcription in Pronuclei and One- to Four-Cell Embryos Drives Early Development in a Nematode'

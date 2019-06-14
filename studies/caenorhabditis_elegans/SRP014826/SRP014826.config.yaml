@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA172751
 category: Other
-condition_names: ~
 contrasts: []
-description: C. elegans piRNAs are processed from capped-small RNAs transcribed at promoters throughout the genome
+description: ''
+ena_first_public: 2012-12-29
+ena_last_update: 2015-11-04
 pubmed:
   23260138:
     - 'Gu .. Mello, 2012'
-    - 'CapSeq and CIP-TAP identify Pol II start sites and reveal capped small RNAs as C. elegans piRNA precursors. (Gu .. Mello, 2012)'
+    - 'CapSeq and CIP-TAP identify Pol II start sites and reveal capped small RNAs as <i>C. elegans</i> piRNA precursors. (Gu .. Mello, 2012)'
+resource_links: []
 rnaseqer_last_update: 2018-03-30
 submitting_centre: 'Craig Mello, Program in Molecular Medicine, University of Massachusetts Medical School'
 title: C. elegans piRNAs are processed from capped-small RNAs transcribed at promoters throughout the genome

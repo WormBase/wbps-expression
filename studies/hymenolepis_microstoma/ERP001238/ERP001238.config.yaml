@@ -1,9 +1,12 @@
 ---
+bioproject: PRJEB2898
 category: Other
-condition_names: ~
 contrasts: []
-description: Transcriptome sequencing of Hymenolepis microstoma a classic laboratory model in cestodology
-pubmed: ~
+description: ''
+ena_first_public: 2013-01-28
+ena_last_update: 2013-07-19
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-11-17
 submitting_centre: Wellcome Sanger Institute
 title: Transcriptome sequencing of Hymenolepis microstoma a classic laboratory model in cestodology

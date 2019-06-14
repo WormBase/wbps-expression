@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA397855
 category: Response to treatment
-condition_names: {}
 contrasts:
   - name: treatment
     values:
@@ -16,8 +16,23 @@ contrasts:
         - 'x1 cells, ints3 RNAi'
         - 'x1 cells, ints9 RNAi'
         - 'x1 cells: ints3 RNAi vs ints9 RNAi'
-description: Schmidtea mediterranea Integrator complex subunit knockdown and small RNA sequencing
-pubmed: ~
+description: ''
+ena_first_public: 2018-04-26
+ena_last_update: 2018-04-26
+pubmed: {}
+resource_links:
+  -
+    - Cells-in-Motion Cluster of Excellence
+    - Cells-in-Motion Cluster of Excellence
+    - https://www.uni-muenster.de/Cells-in-Motion
+  -
+    - Max Planck Institute for Molecular Biomedicine
+    - Max Planck Institute for Molecular Biomedicine
+    - http://www.mpi-muenster.mpg.de
+  -
+    - Stem cells and Regeneration Group
+    - Stem cells and Regeneration Group
+    - http://www.mpi-muenster.mpg.de/16899/bartscherer
 rnaseqer_last_update: 2018-06-22
 submitting_centre: Max Planck Institute for Molecular Biomedicine
 title: Schmidtea mediterranea Integrator complex subunit knockdown and small RNA sequencing

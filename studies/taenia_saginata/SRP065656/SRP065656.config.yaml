@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA71493
 category: Other
-condition_names: ~
 contrasts: []
-description: Taenia saginata Genome Sequencing
+description: ''
+ena_first_public: 2016-03-31
+ena_last_update: 2017-09-25
 pubmed:
   27653464:
     - 'Wang .. Cai, 2016'
     - 'Comparative genomics reveals adaptive evolution of Asian tapeworm in switching to a new intermediate host. (Wang .. Cai, 2016)'
+resource_links: []
 rnaseqer_last_update: 2018-01-30
 submitting_centre: 'Beijing Institute of Genomics, Chinese Academy of Science'
 title: Taenia saginata Genome Sequencing

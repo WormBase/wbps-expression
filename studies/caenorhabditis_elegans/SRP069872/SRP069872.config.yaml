@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA311565
 category: Other
-condition_names: ~
 contrasts: []
-description: Uncoupling X chromosome number from sex determination separates contribution of sex and X dose to sex-biased gene expression in C. elegans
+description: ''
+ena_first_public: 2016-04-09
+ena_last_update: 2016-07-08
 pubmed:
   27356611:
     - 'Kramer .. Ercan, 2016'
-    - 'Untangling the Contributions of Sex-Specific Gene Regulation and X-Chromosome Dosage to Sex-Biased Gene Expression in Caenorhabditis elegans. (Kramer .. Ercan, 2016)'
+    - 'Untangling the Contributions of Sex-Specific Gene Regulation and X-Chromosome Dosage to Sex-Biased Gene Expression in <i>Caenorhabditis elegans</i>. (Kramer .. Ercan, 2016)'
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: 'Biology, New York University'
 title: Uncoupling X chromosome number from sex determination separates contribution of sex and X dose to sex-biased gene expression in C. elegans

@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA436589
 category: Other
-condition_names: ~
 contrasts: []
 description: ''
+ena_first_public: 2019-02-09
+ena_last_update: 2019-02-09
 pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2019-03-04
 submitting_centre: U Mass Medical School
 title: ' Differential expression analysis of wildtype and zip-3(gk3164) mutant with next generation sequencing'

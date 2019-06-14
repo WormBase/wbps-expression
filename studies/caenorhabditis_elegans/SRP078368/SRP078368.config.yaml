@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA328819
 category: Other
-condition_names: ~
 contrasts: []
-description: C. elegans polyA selected RNA-seq raw sequencing reads
-pubmed: ~
+description: ''
+ena_first_public: 2016-09-10
+ena_last_update: 2016-10-04
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-03-03
 submitting_centre: 'University of California, San Diego'
 title: C. elegans polyA selected RNA-seq raw sequencing reads

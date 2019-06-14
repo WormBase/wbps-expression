@@ -1,9 +1,16 @@
 ---
+bioproject: PRJEB9736
 category: Other
-condition_names: ~
 contrasts: []
 description: 'Comprehensive transcriptome analysis of hlh-30, mml-1 and mxl-2 in N2 (wildtype) and glp-1 background.'
-pubmed: ~
+ena_first_public: 2016-03-21
+ena_last_update: 2015-06-29
+pubmed: {}
+resource_links:
+  -
+    - ArrayExpress
+    - E-MTAB-3686 in ArrayExpress
+    - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-3686
 rnaseqer_last_update: 2017-12-24
 submitting_centre: Max Planck Institute for Biology of Ageing
 title: MML-1/Mondo complexes regulate HLH-30/TFEB via TOR inhibition to promote longevity in response to signals from the reproductive system

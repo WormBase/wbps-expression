@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA374711
 category: Other
-condition_names: ~
 contrasts: []
-description: Analysis of C. elegans muscle transcriptome using trans-splicing-based RNA tagging (SRT)
+description: ''
+ena_first_public: 2017-02-17
+ena_last_update: 2017-02-17
 pubmed:
   27557708:
     - 'Ma .. Liu, 2016'
-    - 'Analysis of C. elegans muscle transcriptome using trans-splicing-based RNA tagging (SRT). (Ma .. Liu, 2016)'
+    - 'Analysis of <i>C. elegans</i> muscle transcriptome using trans-splicing-based RNA tagging (SRT). (Ma .. Liu, 2016)'
+resource_links: []
 rnaseqer_last_update: 2018-04-16
 submitting_centre: 'Michael Q. Zhang, Biology, Tsinghua Univeristy'
 title: Analysis of C. elegans muscle transcriptome using trans-splicing-based RNA tagging (SRT)

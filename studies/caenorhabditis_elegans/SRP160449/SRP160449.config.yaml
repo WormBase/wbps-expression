@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA490034
 category: Other
-condition_names: ~
 contrasts: []
 description: ''
+ena_first_public: 2019-03-03
+ena_last_update: 2019-03-03
 pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2019-03-18
 submitting_centre: "DBHI, Children's Hospitla of Philadelphia"
 title: Pre-clinical evaluation of cysteamine bitartrate as a therapeutic agent for mitochondrial respiratory chain disease (worm)

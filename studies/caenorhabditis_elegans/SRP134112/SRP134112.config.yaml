@@ -1,9 +1,16 @@
 ---
+bioproject: PRJNA437313
 category: Other
-condition_names: ~
 contrasts: []
-description: Discovery of unique loci that underlie nematode responses to benzimidazoles
-pubmed: ~
+description: ''
+ena_first_public: 2018-03-10
+ena_last_update: 2018-03-10
+pubmed: {}
+resource_links:
+  -
+    - Andersen Lab
+    - Andersen Lab
+    - http://andersenlab.org
 rnaseqer_last_update: 2018-08-10
 submitting_centre: Northwestern University
 title: Discovery of unique loci that underlie nematode responses to benzimidazoles

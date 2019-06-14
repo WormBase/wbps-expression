@@ -1,9 +1,12 @@
 ---
+bioproject: PRJEB12315
 category: Other
-condition_names: ~
 contrasts: []
-description: Trichuris trichiura Adult Worm Transcriptome using Ion Torrent sequencing
-pubmed: ~
+description: ''
+ena_first_public: 2016-01-19
+ena_last_update: 2016-01-07
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-01-18
 submitting_centre: Federal University of Bahia
 title: Trichuris trichiura Adult Worm Transcriptome using Ion Torrent sequencing

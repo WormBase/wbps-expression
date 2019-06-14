@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA230377
 category: Other
-condition_names: ~
 contrasts: []
-description: 'Developmental Timecourses total-RNA sequencing [Ribosome repleted total RNA]'
+description: ''
+ena_first_public: 2014-03-10
+ena_last_update: 2015-11-04
 pubmed:
   24440504:
     - 'Hendriks .. Großhans, 2014'
-    - 'Extensive oscillatory gene expression during C. elegans larval development. (Hendriks .. Großhans, 2014)'
+    - 'Extensive oscillatory gene expression during <i>C. elegans</i> larval development. (Hendriks .. Großhans, 2014)'
+resource_links: []
 rnaseqer_last_update: 2017-12-27
 submitting_centre: Friedrich Miescher Institute
 title: 'Developmental Timecourses total-RNA sequencing [Ribosome repleted total RNA]'

@@ -1,14 +1,12 @@
 ---
+bioproject: PRJEB2877
 category: Other
-condition_names:
-  'Activated protoscolex, MS10': 'Activated protoscolex, strain MS10'
-  'Metacestode vesicle, without brood chambers, G8065': 'Metacestode vesicle, without brood chambers, strain G8065'
-  'Non-activated protoscolex, MS10': 'Non-activated protoscolex, strain MS10'
-  'Primary cells (stage 1), G8065': 'Primary cells (stage 1), strain G8065'
-  'Primary cells 11 days (stage 2), G8065': 'Primary cells 11 days (stage 2), strain G8065'
 contrasts: []
 description: 'The main objective of this project is to recognize genes expressed in the life stages and tissue types of a variety of different cestode species, including Echinococcus multilocularis, E. granulosus, Hymenolepis microstoma, H. nana and others. '
-pubmed: ~
+ena_first_public: 2013-02-28
+ena_last_update: 2013-07-19
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-01-12
 submitting_centre: Wellcome Sanger Institute
 title: Cestode transcriptomics

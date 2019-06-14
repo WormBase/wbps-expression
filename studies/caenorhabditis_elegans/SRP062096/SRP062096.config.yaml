@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA292060
 category: Other
-condition_names: ~
 contrasts: []
-description: Transcriptome analysis of sexual dimorphism in the somatic gonadal precursor cells of Caenorhabditis elegans
+description: ''
+ena_first_public: 2015-11-11
+ena_last_update: 2016-05-21
 pubmed:
   26497144:
     - 'Kroetz .. Zarkower, 2015'
-    - 'Cell-Specific mRNA Profiling of the Caenorhabditis elegans Somatic Gonadal Precursor Cells Identifies Suites of Sex-Biased and Gonad-Enriched Transcripts. (Kroetz .. Zarkower, 2015)'
+    - 'Cell-Specific mRNA Profiling of the <i>Caenorhabditis elegans</i> Somatic Gonadal Precursor Cells Identifies Suites of Sex-Biased and Gonad-Enriched Transcripts. (Kroetz .. Zarkower, 2015)'
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: 'Zarkower, Genetics, Cell Biology & Development, University of Minnesota'
 title: Transcriptome analysis of sexual dimorphism in the somatic gonadal precursor cells of Caenorhabditis elegans

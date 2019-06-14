@@ -1,9 +1,18 @@
 ---
+bioproject: PRJNA62057
 category: Other
-condition_names: ~
 contrasts: []
-description: Ascaris suum Chromatin Diminution
-pubmed: ~
+description: ''
+ena_first_public: 2012-11-30
+ena_last_update: 2015-07-08
+pubmed:
+  21685128:
+    - 'Wang .. Davis, 2011'
+    - 'Deep small RNA sequencing from the nematode Ascaris reveals conservation, functional diversification, and novel developmental profiles. (Wang .. Davis, 2011)'
+  23123092:
+    - 'Wang .. Davis, 2012'
+    - 'Silencing of germline-expressed genes by DNA elimination in somatic cells. (Wang .. Davis, 2012)'
+resource_links: []
 rnaseqer_last_update: 2018-06-29
 submitting_centre: University of Colorado School of Medicine
 title: Ascaris suum Chromatin Diminution

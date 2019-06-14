@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA245936
 category: Response to treatment
-condition_names: {}
 contrasts:
   - name: timepoint+treatment
     values:
@@ -12,11 +12,14 @@ contrasts:
         - '0hr, control'
         - '48hr, posterior wound'
         - '0hr, control vs 48hr, posterior wound'
-description: Wound-induced neoblast specialization in S. mediterranea
+description: ''
+ena_first_public: 2014-09-24
+ena_last_update: 2015-12-11
 pubmed:
   25254346:
     - 'Scimone .. Reddien, 2014'
-    - 'Neoblast specialization in regeneration of the planarian Schmidtea mediterranea. (Scimone .. Reddien, 2014)'
+    - 'Neoblast specialization in regeneration of the planarian <i>Schmidtea mediterranea</i>. (Scimone .. Reddien, 2014)'
+resource_links: []
 rnaseqer_last_update: 2017-12-24
 submitting_centre: 'Reddien Lab, Biology Department, Whitehead Institute, MIT'
 title: Wound-induced neoblast specialization in S. mediterranea

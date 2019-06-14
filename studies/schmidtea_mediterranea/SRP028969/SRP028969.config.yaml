@@ -1,9 +1,16 @@
 ---
+bioproject: PRJNA215411
 category: Other
-condition_names: ~
 contrasts: []
-description: Schmidtea mediterranea CIW4 Transcriptome
-pubmed: ~
+description: ''
+ena_first_public: 2013-08-30
+ena_last_update: 2017-07-19
+pubmed: {}
+resource_links:
+  -
+    - Schmidtea mediterranea database
+    - Schmidtea mediterranea database
+    - http://www.smed.org/
 rnaseqer_last_update: 2018-01-27
 submitting_centre: Stowers Institute for Medical Research
 title: Schmidtea mediterranea CIW4 Transcriptome

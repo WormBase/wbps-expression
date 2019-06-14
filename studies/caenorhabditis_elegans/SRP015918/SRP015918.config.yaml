@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA176153
 category: Other
-condition_names: ~
 contrasts: []
-description: Influence of p38 MAPK (PMK-1) on the heat stress response of C. elegans
+description: ''
+ena_first_public: 2012-11-23
+ena_last_update: 2015-11-04
 pubmed:
   23117578:
     - 'Mertenskötter .. Paul, 2013'
-    - 'The p38 MAPK PMK-1 shows heat-induced nuclear translocation, supports chaperone expression, and affects the heat tolerance of Caenorhabditis elegans. (Mertenskötter .. Paul, 2013)'
+    - 'The p38 MAPK PMK-1 shows heat-induced nuclear translocation, supports chaperone expression, and affects the heat tolerance of <i>Caenorhabditis elegans</i>. (Mertenskötter .. Paul, 2013)'
+resource_links: []
 rnaseqer_last_update: 2018-03-30
 submitting_centre: 'Paul, Institut für Zoophysiologie, Westfälische Wilhelms-Universität Münster'
 title: Influence of p38 MAPK (PMK-1) on the heat stress response of C. elegans

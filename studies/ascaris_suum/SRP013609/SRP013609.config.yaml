@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA167264
 category: Other
-condition_names: ~
 contrasts: []
-description: 'De novo nematode genome sequencing project to sequence, Ascaris suum, or Pig Roundworm.'
-pubmed: ~
+description: ''
+ena_first_public: 2012-06-09
+ena_last_update: 2017-07-19
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-07-12
 submitting_centre: The Genome Institute
 title: 'De novo nematode genome sequencing project to sequence, Ascaris suum, or Pig Roundworm.'

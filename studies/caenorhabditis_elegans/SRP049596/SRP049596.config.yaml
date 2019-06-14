@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA266552
 category: Other
-condition_names: ~
 contrasts: []
-description: RNA-seq analysis of germline stem cell removal and loss of SKN-1 in C. elegans
+description: ''
+ena_first_public: 2015-07-23
+ena_last_update: 2019-05-17
 pubmed:
   26196144:
     - 'Steinbaugh .. Blackwell, 2015'
     - 'Lipid-mediated regulation of SKN-1/Nrf in response to germ cell absence. (Steinbaugh .. Blackwell, 2015)'
+resource_links: []
 rnaseqer_last_update: 2018-01-04
-submitting_centre: 'Keith Blackwell Lab, Islet Cell and Regenerative Biology, Joslin Diabetes Center'
+submitting_centre: Constellation Pharmaceuticals
 title: RNA-seq analysis of germline stem cell removal and loss of SKN-1 in C. elegans

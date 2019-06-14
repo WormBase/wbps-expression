@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA386884
 category: Other
-condition_names: ~
 contrasts: []
-description: 'Global proteomic- and transcriptomic analyses of starvation responses reveal a central role for lipoprotein metabolism in acute starvation survival in C. elegans'
+description: ''
+ena_first_public: 2017-07-04
+ena_last_update: 2017-10-04
 pubmed:
   28734827:
     - 'Harvald .. Færgeman, 2017'
     - 'Multi-omics Analyses of Starvation Responses Reveal a Central Role for Lipoprotein Metabolism in Acute Starvation Survival in C. elegans. (Harvald .. Færgeman, 2017)'
+resource_links: []
 rnaseqer_last_update: 2018-06-02
 submitting_centre: 'Biochemistry and Molecular Biology, University of Southern Denmark'
 title: 'Global proteomic- and transcriptomic analyses of starvation responses reveal a central role for lipoprotein metabolism in acute starvation survival in C. elegans'

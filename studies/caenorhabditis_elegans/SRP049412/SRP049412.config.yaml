@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA265847
 category: Organism parts
-condition_names: {}
 contrasts: []
-description: Defining soma-specific/enriched and germline-specific/enriched transcripts
+description: ''
+ena_first_public: 2015-01-09
+ena_last_update: 2017-07-19
 pubmed:
   25378320:
     - 'Arnold .. Ciosk, 2014'
-    - 'Functional characterization of C. elegans Y-box-binding proteins reveals tissue-specific functions and a critical role in the formation of polysomes. (Arnold .. Ciosk, 2014)'
+    - 'Functional characterization of <i>C. elegans</i> Y-box-binding proteins reveals tissue-specific functions and a critical role in the formation of polysomes. (Arnold .. Ciosk, 2014)'
+resource_links: []
 rnaseqer_last_update: 2018-01-02
 submitting_centre: Friedrich Miescher Institute
 title: Defining soma-specific/enriched and germline-specific/enriched transcripts

@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA259222
 category: Other
-condition_names: ~
 contrasts: []
-description: RNA-seq of C.elegans treated with bcat-1 RNAi and controls
+description: ''
+ena_first_public: 2015-12-02
+ena_last_update: 2017-09-25
 pubmed:
   26620638:
     - 'Mansfeld .. Ristow, 2015'
     - 'Branched-chain amino acid catabolism is a conserved regulator of physiological ageing. (Mansfeld .. Ristow, 2015)'
+resource_links: []
 rnaseqer_last_update: 2018-01-22
 submitting_centre: 'Leibniz Institute for Age Research - Fritz Lipmann Institute'
 title: RNA-seq of C.elegans treated with bcat-1 RNAi and controls

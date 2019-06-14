@@ -1,19 +1,6 @@
 ---
+bioproject: PRJEB1360
 category: Other
-condition_names:
-  CAVR: strain CAVR
-  ISE: strain ISE
-  'L1, inbred ISE': 'L1, strain inbred ISE'
-  'L4, inbred ISE': 'L4, strain inbred ISE'
-  MHco3(ISE): strain MHco3(ISE)
-  WRS: strain WRS
-  'adult, female, inbred ISE': 'adult, female, strain inbred ISE'
-  'adult, male, inbred ISE': 'adult, male, strain inbred ISE'
-  'dissected adult female gut, ISE': 'dissected adult female gut, strain ISE'
-  'dissected adult female gut, MHco3(ISE)': 'dissected adult female gut, strain MHco3(ISE)'
-  'eggs, inbred ISE': 'eggs, strain inbred ISE'
-  inbred ISE: strain inbred ISE
-  'sheathed L3, inbred ISE': 'sheathed L3, strain inbred ISE'
 contrasts:
   - name: strain
     values:
@@ -101,8 +88,11 @@ contrasts:
         - inbred ISE
         - 'sheathed L3, inbred ISE'
         - "inbred ISE: '' vs sheathed L3"
-description: Haemonchus contortus transcriptome
-pubmed: ~
+description: ''
+ena_first_public: 2013-02-12
+ena_last_update: 2013-01-28
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2019-05-25
 submitting_centre: Wellcome Sanger Institute
 title: Haemonchus contortus transcriptome

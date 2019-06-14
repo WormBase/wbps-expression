@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA79997
 category: Other
-condition_names: ~
 contrasts: []
-description: De novo assembly and validation of Planaria transcriptome by massive parallel sequencing and shotgun proteomics
+description: ''
+ena_first_public: 2011-03-21
+ena_last_update: 2017-07-19
 pubmed:
   21536722:
     - 'Adamidi .. Chen, 2011'
     - 'De novo assembly and validation of planaria transcriptome by massive parallel sequencing and shotgun proteomics. (Adamidi .. Chen, 2011)'
+resource_links: []
 rnaseqer_last_update: 2018-01-21
 submitting_centre: Max Delbrueck Center for Molecular Medicine
 title: De novo assembly and validation of Planaria transcriptome by massive parallel sequencing and shotgun proteomics

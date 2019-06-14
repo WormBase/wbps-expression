@@ -1,9 +1,24 @@
 ---
+bioproject: PRJNA314004
 category: Other
-condition_names: ~
 contrasts: []
-description: Raw sequence reads of Angiostrongylus cantonensis
-pubmed: ~
+description: ''
+ena_first_public: 2016-03-04
+ena_last_update: 2016-03-04
+pubmed: {}
+resource_links:
+  -
+    - Introduction on wikipedia.
+    - Introduction on wikipedia.
+    - https://en.wikipedia.org/wiki/Angiostrongylus_cantonensis
+  -
+    - Introduction 2
+    - Introduction 2
+    - http://entnemdept.ufl.edu/creatures/nematode/rat_lungworm.htm
+  -
+    - Introduction 3
+    - Introduction 3
+    - http://www.eol.org/pages/462572/overview
 rnaseqer_last_update: 2018-02-09
 submitting_centre: Xiamen University
 title: Raw sequence reads of Angiostrongylus cantonensis

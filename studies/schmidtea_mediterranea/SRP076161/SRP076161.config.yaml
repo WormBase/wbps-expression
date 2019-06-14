@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA324545
 category: Other
-condition_names: {}
 contrasts:
   - name: developmental_stage
     values:
@@ -8,11 +8,14 @@ contrasts:
         - 'sexual, Yolk'
         - 'sexual, virgin, sexuallly mature adult'
         - 'sexual: Yolk vs virgin, sexuallly mature adult'
-description: 'RNA Seq analysis of gene expression during Schmidtea mediterranea embryogenesis, including yolk and adult samples'
+description: ''
+ena_first_public: 2016-12-03
+ena_last_update: 2017-02-15
 pubmed:
   28072387:
     - 'Davies .. Alvarado, 2017'
     - 'Embryonic origin of adult stem cells required for tissue homeostasis and regeneration. (Davies .. Alvarado, 2017)'
+resource_links: []
 rnaseqer_last_update: 2018-03-01
 submitting_centre: 'Seidel, Genomics, Stowers Institute'
 title: 'RNA Seq analysis of gene expression during Schmidtea mediterranea embryogenesis, including yolk and adult samples'

@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA236766
 category: Other
-condition_names: ~
 contrasts: []
-description: mRNAs that co-purify with OMA-1 in the C. elegans germline (sequencing)
+description: ''
+ena_first_public: 2014-10-08
+ena_last_update: 2015-11-04
 pubmed:
   25261697:
     - 'Spike .. Greenstein, 2014'
-    - 'Translational control of the oogenic program by components of OMA ribonucleoprotein particles in Caenorhabditis elegans. (Spike .. Greenstein, 2014)'
+    - 'Translational control of the oogenic program by components of OMA ribonucleoprotein particles in <i>Caenorhabditis elegans</i>. (Spike .. Greenstein, 2014)'
+resource_links: []
 rnaseqer_last_update: 2017-12-28
 submitting_centre: 'Greenstein, Genetics, Cell Biology, and Development, University of Minnesota'
 title: mRNAs that co-purify with OMA-1 in the C. elegans germline (sequencing)

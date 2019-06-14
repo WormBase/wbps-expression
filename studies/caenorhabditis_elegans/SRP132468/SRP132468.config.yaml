@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA433486
 category: Other
-condition_names: ~
 contrasts: []
-description: Ribotagging on NSM neurons in C. elegans
-pubmed: ~
+description: ''
+ena_first_public: 2018-02-12
+ena_last_update: 2018-02-12
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-08-12
 submitting_centre: 'Flavell, Brain and Cognitive Sciences, MIT'
 title: Ribotagging on NSM neurons in C. elegans

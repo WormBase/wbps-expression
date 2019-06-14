@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA308903
 category: Other
-condition_names: ~
 contrasts: []
-description: mRNA sequencing in cde-1 mutants versus WT C. elegans infected by the Orsay virus
-pubmed: ~
+description: ''
+ena_first_public: 2018-02-01
+ena_last_update: 2018-02-01
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-02-23
 submitting_centre: 'Gurdon Institute, University of Cambridge'
 title: mRNA sequencing in cde-1 mutants versus WT C. elegans infected by the Orsay virus

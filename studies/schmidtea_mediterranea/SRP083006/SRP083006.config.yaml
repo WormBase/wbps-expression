@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA338115
 category: Other
-condition_names: ~
 contrasts: []
-description: transcriptome of Smed-LPT RNAi
-pubmed: ~
+description: ''
+ena_first_public: 2016-09-04
+ena_last_update: 2016-09-04
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-03-13
 submitting_centre: University of Oxford
 title: transcriptome of Smed-LPT RNAi

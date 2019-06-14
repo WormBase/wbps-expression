@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA412927
 category: Other
-condition_names: ~
 contrasts: []
-description: The combinatorial control of alternative splicing in C. elegans
-pubmed: ~
+description: ''
+ena_first_public: 2017-11-01
+ena_last_update: 2017-11-01
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-07-17
 submitting_centre: University of Toronto
 title: The combinatorial control of alternative splicing in C. elegans

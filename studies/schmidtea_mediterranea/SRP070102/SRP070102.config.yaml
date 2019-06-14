@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA312054
 category: Other
-condition_names: ~
 contrasts: []
-description: PolyA position Profiling (3P-Seq) in Schmidtea mediterranea
+description: ''
+ena_first_public: 2016-05-16
+ena_last_update: 2017-07-19
 pubmed:
   27489207:
     - 'Lakshmanan .. Palakodeti, 2016'
-    - 'Genome-Wide Analysis of Polyadenylation Events in Schmidtea mediterranea. (Lakshmanan .. Palakodeti, 2016)'
+    - 'Genome-Wide Analysis of Polyadenylation Events in <i>Schmidtea mediterranea</i>. (Lakshmanan .. Palakodeti, 2016)'
+resource_links: []
 rnaseqer_last_update: 2018-02-08
 submitting_centre: Institute for Stem cell biology and Regenerative medicine (inStem)
 title: PolyA position Profiling (3P-Seq) in Schmidtea mediterranea

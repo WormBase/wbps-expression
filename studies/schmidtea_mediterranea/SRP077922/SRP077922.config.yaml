@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA327836
 category: Response to treatment
-condition_names: {}
 contrasts:
   - name: timepoint
     values:
@@ -384,11 +384,14 @@ contrasts:
         - 'whole organism, nrg7 8 feedings NT, 30 days'
         - 'x1, nrg7 8 feedings NT, 30 days'
         - 'nrg7 8 feedings NT, 30 days: whole organism vs x1'
-description: Egf signaling directs neoblast repopulation by regulating asymmetric cell division in planarians
+description: ''
+ena_first_public: 2016-08-20
+ena_last_update: 2016-08-20
 pubmed:
   27523733:
     - 'Lei .. Sánchez Alvarado, 2016'
     - 'Egf Signaling Directs Neoblast Repopulation by Regulating Asymmetric Cell Division in Planarians. (Lei .. Sánchez Alvarado, 2016)'
+resource_links: []
 rnaseqer_last_update: 2018-03-03
 submitting_centre: 'Seidel, Genomics, Stowers Institute'
 title: Egf signaling directs neoblast repopulation by regulating asymmetric cell division in planarians

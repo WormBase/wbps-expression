@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA450614
 category: Other
-condition_names: ~
 contrasts: []
-description: The memory of environmental chemical exposure in C. elegans is dependent on the Jumonji demethylases jmjd-2 and jmjd-3/utx-1
+description: ''
+ena_first_public: 2018-04-20
+ena_last_update: 2018-07-19
 pubmed:
   29791850:
     - 'Camacho .. Allard, 2018'
     - 'The Memory of Environmental Chemical Exposure in C. elegans Is Dependent on the Jumonji Demethylases jmjd-2 and jmjd-3/utx-1. (Camacho .. Allard, 2018)'
+resource_links: []
 rnaseqer_last_update: 2018-08-13
 submitting_centre: 'Allard lab and Yang Lab, Integrative Biology and Physiology, University of California Los Angeles'
 title: The memory of environmental chemical exposure in C. elegans is dependent on the Jumonji demethylases jmjd-2 and jmjd-3/utx-1

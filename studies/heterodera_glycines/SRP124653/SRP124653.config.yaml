@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA417701
 category: Other
-condition_names: ~
 contrasts: []
 description: ''
+ena_first_public: 2018-02-24
+ena_last_update: 2018-02-24
 pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2019-04-08
 submitting_centre: North Carolina State University
 title: Novel RNA viruses within plant parasitic cyst nematodes

@@ -1,12 +1,21 @@
 ---
+bioproject: PRJNA415980
 category: Other
-condition_names: ~
-contrasts: []
+contrasts:
+  - name: host_compatibility
+    values:
+      -
+        - 'parasitic juvenile, compatible host'
+        - 'parasitic juvenile, resistant host'
+        - 'parasitic juvenile: compatible host vs resistant host'
 description: ''
+ena_first_public: 2018-04-19
+ena_last_update: 2018-04-21
 pubmed:
   29410430:
     - 'Gardner .. Mitchum, 2018'
     - 'Novel global effector mining from the transcriptome of early life stages of the soybean cyst nematode <i>Heterodera glycines</i>. (Gardner .. Mitchum, 2018)'
+resource_links: []
 rnaseqer_last_update: 2019-05-17
 submitting_centre: 'University of Missouri - Columbia'
 title: Heterodera glycines de novo transcriptome assembly

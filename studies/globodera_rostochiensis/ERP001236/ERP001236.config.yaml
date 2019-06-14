@@ -1,9 +1,12 @@
 ---
+bioproject: PRJEB2896
 category: Other
-condition_names: ~
 contrasts: []
 description: 'As part of the Globodera pallida (potato cyst nematode) genome project we are profiling the transcriptome of the parasite across its life cycle using RNA-Seq. . '
-pubmed: ~
+ena_first_public: 2012-11-28
+ena_last_update: 2013-07-19
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-01-12
 submitting_centre: Wellcome Sanger Institute
 title: Globodera pallida transcriptomics

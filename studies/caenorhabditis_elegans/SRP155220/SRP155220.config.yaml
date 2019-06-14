@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA482841
 category: Other
-condition_names: ~
 contrasts: []
 description: ''
+ena_first_public: 2018-09-26
+ena_last_update: 2018-12-27
 pubmed:
   30463021:
     - 'Kalinava .. Gu, 2018'
     - 'C. elegans Heterochromatin Factor SET-32 Plays an Essential Role in Transgenerational Establishment of Nuclear RNAi-Mediated Epigenetic Silencing. (Kalinava .. Gu, 2018)'
+resource_links: []
 rnaseqer_last_update: 2018-11-10
 submitting_centre: 'Molecular Biology and Biochemistry, Rutgers University'
 title: Caenorhabditis elegans heterochromatin factor SET-32 plays an essential role in transgenerational initiation of nuclear RNAi-mediated epigenetic silencing (RNA-Seq)

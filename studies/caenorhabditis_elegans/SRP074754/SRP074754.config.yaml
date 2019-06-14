@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA321176
 category: Other
-condition_names: ~
 contrasts: []
-description: Caenorhabditis elegans Raw sequence reads
+description: ''
+ena_first_public: 2016-05-13
+ena_last_update: 2017-06-16
 pubmed:
   26862916:
     - 'Amrit .. Ghazi, 2016'
-    - 'DAF-16 and TCER-1 Facilitate Adaptation to Germline Loss by Restoring Lipid Homeostasis and Repressing Reproductive Physiology in C. elegans. (Amrit .. Ghazi, 2016)'
+    - 'DAF-16 and TCER-1 Facilitate Adaptation to Germline Loss by Restoring Lipid Homeostasis and Repressing Reproductive Physiology in <i>C. elegans</i>. (Amrit .. Ghazi, 2016)'
+resource_links: []
 rnaseqer_last_update: 2018-02-26
 submitting_centre: University of Pittsburgh
 title: Caenorhabditis elegans Raw sequence reads

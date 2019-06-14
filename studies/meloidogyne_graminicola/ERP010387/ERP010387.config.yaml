@@ -1,9 +1,12 @@
 ---
+bioproject: PRJEB9304
 category: Other
-condition_names: ~
 contrasts: []
-description: Transcriptome of the plant parasitic nematode Meloidogyne graminicola during interaction with rice plants
-pubmed: ~
+description: ''
+ena_first_public: 2016-03-15
+ena_last_update: 2015-05-05
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-11-16
 submitting_centre: Genoscope
 title: Transcriptome of the plant parasitic nematode Meloidogyne graminicola during interaction with rice plants

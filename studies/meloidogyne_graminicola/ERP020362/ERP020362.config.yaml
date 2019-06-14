@@ -1,9 +1,12 @@
 ---
+bioproject: PRJEB18434
 category: Other
-condition_names: ~
 contrasts: []
-description: The draft genome sequence of the rice root-knot nematode Meloidogyne graminicola
-pubmed: ~
+description: ''
+ena_first_public: 2017-01-05
+ena_last_update: 2016-12-01
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-11-16
 submitting_centre: IARI
 title: The draft genome sequence of the rice root-knot nematode Meloidogyne graminicola

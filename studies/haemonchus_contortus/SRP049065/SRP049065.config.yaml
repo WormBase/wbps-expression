@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA264197
 category: Other
-condition_names: ~
 contrasts: []
-description: Haemonchus contortus Transcriptome or Gene expression
-pubmed: ~
+description: ''
+ena_first_public: 2014-10-27
+ena_last_update: 2017-06-16
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2019-05-26
 submitting_centre: The Genome Institute
 title: Haemonchus contortus Transcriptome or Gene expression

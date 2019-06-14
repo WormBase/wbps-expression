@@ -1,8 +1,6 @@
 ---
-category: Other
-condition_names:
-  'Adult, whole': 'Adult, whole worm'
-  mid-metamorphosis larvae: Appr. 5 days old mid-metamorphosis larvae
+bioproject: PRJEB5096
+category: Organism parts
 contrasts:
   - name: organism_part
     values:
@@ -30,11 +28,20 @@ contrasts:
         - 'Adult, scolex'
         - 'Adult, whole'
         - 'Adult, scolex vs Adult, whole'
+  - name: developmental_stage
+    values:
+      -
+        - 'Adult, whole'
+        - mid-metamorphosis larvae
+        - 'Adult, whole vs mid-metamorphosis larvae'
 description: 'Project to investigate gene and small RNA expression of tapeworms (including Echinococcus multilocularis, E. granulosus, Hymenolepis microstoma). '
+ena_first_public: 2013-12-13
+ena_last_update: 2014-12-22
 pubmed:
   30455861:
     - 'Olson .. Berriman, 2018'
     - 'Genome-wide transcriptome profiling and spatial expression analyses identify signals and switches of development in tapeworms. (Olson .. Berriman, 2018)'
+resource_links: []
 rnaseqer_last_update: 2018-11-18
 submitting_centre: Wellcome Sanger Institute
 title: Analysis of RNA expression in tapeworm species

@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA382883
 category: Response to treatment
-condition_names: {}
 contrasts:
   - name: treatment
     values:
@@ -22,11 +22,14 @@ contrasts:
         - 'tail, Yki RNAi'
         - 'whole organism, Yki RNAi'
         - 'Yki RNAi: tail vs whole organism'
-description: Yorkie is required to restrict the injury responses in planarians
+description: ''
+ena_first_public: 2017-06-21
+ena_last_update: 2017-09-25
 pubmed:
   28686611:
     - 'Lin .. Pearson, 2017'
     - 'Yorkie is required to restrict the injury responses in planarians. (Lin .. Pearson, 2017)'
+resource_links: []
 rnaseqer_last_update: 2018-05-05
 submitting_centre: 'Pearson, Molecular Genetics, Hospital for Sick Children'
 title: Yorkie is required to restrict the injury responses in planarians

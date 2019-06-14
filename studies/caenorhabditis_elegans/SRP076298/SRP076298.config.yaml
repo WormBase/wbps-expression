@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA324844
 category: Other
-condition_names: ~
 contrasts: []
-description: A-to-I RNA editing promotes developmental-stage specific gene and lncRNA expression
+description: ''
+ena_first_public: 2016-12-06
+ena_last_update: 2017-03-22
 pubmed:
   28031250:
     - 'Goldstein .. Lamm, 2017'
     - 'A-to-I RNA editing promotes developmental stage-specific gene and lncRNA expression. (Goldstein .. Lamm, 2017)'
+resource_links: []
 rnaseqer_last_update: 2018-03-01
 submitting_centre: 'Ayelet Lamm, Biology, Technion'
 title: A-to-I RNA editing promotes developmental-stage specific gene and lncRNA expression

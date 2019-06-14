@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA497521
 category: Other
-condition_names: ~
 contrasts: []
-description: Comparison of R24 responsive gene expression after histone methyltransferase RNAi in C. elegans
-pubmed: ~
+description: ''
+ena_first_public: 2018-10-23
+ena_last_update: 2018-10-23
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-11-15
 submitting_centre: 'Suite 308, Program in Molecular Medicine, UMASS Medical School'
 title: Comparison of R24 responsive gene expression after histone methyltransferase RNAi in C. elegans

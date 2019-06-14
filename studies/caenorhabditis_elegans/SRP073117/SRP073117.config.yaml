@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA318054
 category: Other
-condition_names: ~
 contrasts: []
-description: 'Post-transcriptional regulation by the let-7 microRNA and the TRIM-NHL protein LIN41 [RNA-seq]'
+description: ''
+ena_first_public: 2017-07-19
+ena_last_update: 2017-07-19
 pubmed:
   28111013:
     - 'Aeschimann .. Großhans, 2017'
     - 'LIN41 Post-transcriptionally Silences mRNAs by Two Distinct and Position-Dependent Mechanisms. (Aeschimann .. Großhans, 2017)'
+resource_links: []
 rnaseqer_last_update: 2018-02-25
 submitting_centre: Friedrich Miescher Institute
 title: 'Post-transcriptional regulation by the let-7 microRNA and the TRIM-NHL protein LIN41 [RNA-seq]'

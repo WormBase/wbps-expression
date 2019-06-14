@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA340183
 category: Other
-condition_names: ~
 contrasts: []
-description: LIN-28 balances longevity and germline stem cell number in C. elegans through let-7/AKT/DAF-16 axis
+description: ''
+ena_first_public: 2016-09-02
+ena_last_update: 2016-11-28
 pubmed:
   27730721:
     - 'Wang .. Han, 2017'
-    - 'LIN-28 balances longevity and germline stem cell number in Caenorhabditis elegans through let-7/AKT/DAF-16 axis. (Wang .. Han, 2017)'
+    - 'LIN-28 balances longevity and germline stem cell number in <i>Caenorhabditis elegans</i> through let-7/AKT/DAF-16 axis. (Wang .. Han, 2017)'
+resource_links: []
 rnaseqer_last_update: 2018-03-10
 submitting_centre: "Jing-Dong J. Han's Lab, CAS-MPG Partner Institute for Computational Biology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences"
 title: LIN-28 balances longevity and germline stem cell number in C. elegans through let-7/AKT/DAF-16 axis

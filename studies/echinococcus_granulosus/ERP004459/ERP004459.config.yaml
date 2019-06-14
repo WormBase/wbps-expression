@@ -1,9 +1,12 @@
 ---
+bioproject: PRJEB5096
 category: Other
-condition_names: {}
 contrasts: []
 description: 'Project to investigate gene and small RNA expression of tapeworms (including Echinococcus multilocularis, E. granulosus, Hymenolepis microstoma). '
-pubmed: ~
+ena_first_public: 2013-12-13
+ena_last_update: 2014-12-22
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-01-15
 submitting_centre: Wellcome Sanger Institute
 title: Analysis of RNA expression in tapeworm species

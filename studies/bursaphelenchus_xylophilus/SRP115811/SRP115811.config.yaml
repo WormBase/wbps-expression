@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA397001
 category: Life cycle
-condition_names: {}
 contrasts:
   - name: developmental_stage
     values:
@@ -28,11 +28,14 @@ contrasts:
         - phytophagous parasitic stage:24h
         - phytophagous parasitic stage:6h
         - phytophagous parasitic stage:24h vs phytophagous parasitic stage:6h
-description: Bursaphelenchus xylophilus strain:AMA3 Transcriptome or Gene expression
+description: ''
+ena_first_public: 2018-09-11
+ena_last_update: 2018-09-11
 pubmed:
   27224277:
     - 'Ding .. Nian, 2016'
     - 'Deciphering the Molecular Variations of Pine Wood Nematode <i>Bursaphelenchus xylophilus</i> with Different Virulence. (Ding .. Nian, 2016)'
+resource_links: []
 rnaseqer_last_update: 2018-09-13
 submitting_centre: College of Forestry
 title: Bursaphelenchus xylophilus strain:AMA3 Transcriptome or Gene expression

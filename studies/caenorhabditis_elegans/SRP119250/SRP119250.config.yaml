@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA412861
 category: Other
-condition_names: ~
 contrasts: []
-description: RNA-Seq of L4 C. elegans
+description: ''
+ena_first_public: 2017-10-31
+ena_last_update: 2018-01-24
 pubmed:
   29106412:
     - 'Lima .. Pasquinelli, 2017'
     - 'Short poly(A) tails are a conserved feature of highly expressed genes. (Lima .. Pasquinelli, 2017)'
+resource_links: []
 rnaseqer_last_update: 2018-06-28
 submitting_centre: 'Pasquinelli Lab, Biological Sciences, University of California, San Diego'
 title: RNA-Seq of L4 C. elegans

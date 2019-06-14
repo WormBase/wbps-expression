@@ -1,9 +1,12 @@
 ---
+bioproject: PRJDB6354
 category: Other
-condition_names: ~
 contrasts: []
-description: Transcriptome analysis between wild-type and endu-2 mutant
-pubmed: ~
+description: ''
+ena_first_public: 2018-08-09
+ena_last_update: 2018-08-09
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-08-15
 submitting_centre: KONAN
 title: Transcriptome analysis between wild-type and endu-2 mutant

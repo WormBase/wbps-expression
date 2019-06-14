@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA297365
 category: Other
-condition_names: ~
 contrasts: []
-description: Osmosensory neurons modulate hypertonic stress resistance in C. elegans by controlling protein damage in non-neuronal cells
+description: ''
+ena_first_public: 2016-06-02
+ena_last_update: 2016-07-16
 pubmed:
   27111894:
     - 'Lee .. Strange, 2016'
-    - 'Abnormal Osmotic Avoidance Behavior in C. elegans Is Associated with Increased Hypertonic Stress Resistance and Improved Proteostasis. (Lee .. Strange, 2016)'
+    - 'Abnormal Osmotic Avoidance Behavior in <i>C. elegans</i> Is Associated with Increased Hypertonic Stress Resistance and Improved Proteostasis. (Lee .. Strange, 2016)'
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: 'Molecular and Biomedical Sciences, University of Maine'
 title: Osmosensory neurons modulate hypertonic stress resistance in C. elegans by controlling protein damage in non-neuronal cells

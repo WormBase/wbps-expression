@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA383382
 category: Other
-condition_names: ~
 contrasts: []
-description: The role of the TGF-ß/DBL-1 pathway in shaping the C. elegans gut microbiota
-pubmed: ~
+description: ''
+ena_first_public: 2018-01-03
+ena_last_update: 2018-01-03
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-05-26
 submitting_centre: UC Berkeley
 title: The role of the TGF-ß/DBL-1 pathway in shaping the C. elegans gut microbiota

@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA305104
 category: Other
-condition_names: ~
 contrasts: []
-description: 'RNA-seq from L4 animals treated with RNAi against gfp (control), ham-3, and swsn-2.2'
+description: ''
+ena_first_public: 2016-02-02
+ena_last_update: 2016-05-21
 pubmed:
   26739451:
     - 'Ertl .. Cerón, 2016'
-    - 'Functional Interplay of Two Paralogs Encoding SWI/SNF Chromatin-Remodeling Accessory Subunits During Caenorhabditis elegans Development. (Ertl .. Cerón, 2016)'
+    - 'Functional Interplay of Two Paralogs Encoding SWI/SNF Chromatin-Remodeling Accessory Subunits During <i>Caenorhabditis elegans</i> Development. (Ertl .. Cerón, 2016)'
+resource_links: []
 rnaseqer_last_update: 2018-01-31
 submitting_centre: 'Modelling human diseases in C. elegans, Cancer and Human Molecular Genetics, IDIBELL'
 title: 'RNA-seq from L4 animals treated with RNAi against gfp (control), ham-3, and swsn-2.2'

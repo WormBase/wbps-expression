@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA176827
 category: Other
-condition_names: ~
 contrasts: []
-description: 'microRNAs in C. elegans, P. pacificus, and S. ratti: Conserved miRNAs are candidate post-transcriptional regulators of developmental arrest in free-living and parasitic nematodes'
+description: ''
+ena_first_public: 2013-07-20
+ena_last_update: 2015-11-04
 pubmed:
   23729632:
     - 'Ahmed .. Dieterich, 2013'
     - 'Conserved miRNAs are candidate post-transcriptional regulators of developmental arrest in free-living and parasitic nematodes. (Ahmed .. Dieterich, 2013)'
+resource_links: []
 rnaseqer_last_update: 2017-12-24
 submitting_centre: Max-Delbrueck-Center
 title: 'microRNAs in C. elegans, P. pacificus, and S. ratti: Conserved miRNAs are candidate post-transcriptional regulators of developmental arrest in free-living and parasitic nematodes'

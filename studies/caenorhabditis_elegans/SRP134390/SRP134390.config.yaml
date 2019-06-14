@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA437671
 category: Other
-condition_names: ~
 contrasts: []
-description: 'RNA-seq from animals treated, and non treated,  with cisplatin'
+description: ''
+ena_first_public: 2018-03-13
+ena_last_update: 2018-06-13
 pubmed:
   29752286:
     - 'García-Rodríguez .. Cerón, 2018'
     - 'Genetic and cellular sensitivity of <i>Caenorhabditis elegans</i> to the chemotherapeutic agent cisplatin. (García-Rodríguez .. Cerón, 2018)'
+resource_links: []
 rnaseqer_last_update: 2018-08-10
 submitting_centre: 'Modelling human diseases in C. elegans, Cancer and Human Molecular Genetics, IDIBELL'
 title: 'RNA-seq from animals treated, and non treated,  with cisplatin'

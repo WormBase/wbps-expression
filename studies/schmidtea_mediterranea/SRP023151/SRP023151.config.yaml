@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA205281
 category: Response to treatment
-condition_names: {}
 contrasts:
   - name: treatment
     values:
@@ -16,7 +16,9 @@ contrasts:
         - lhx1/5-1(RNAi)
         - pitx(RNAi)
         - lhx1/5-1(RNAi) vs pitx(RNAi)
-description: Schmidtea mediterranea strain:CIW4 Transcriptome or Gene expression
+description: ''
+ena_first_public: 2013-06-12
+ena_last_update: 2017-04-21
 pubmed:
   23903188:
     - 'Currie .. Pearson, 2013'
@@ -24,6 +26,7 @@ pubmed:
   24523458:
     - 'Lin .. Pearson, 2014'
     - 'Planarian yorkie/YAP functions to integrate adult stem cell proliferation, organ homeostasis and maintenance of axial patterning. (Lin .. Pearson, 2014)'
+resource_links: []
 rnaseqer_last_update: 2017-12-24
 submitting_centre: Hospital for Sick Children
 title: Schmidtea mediterranea strain:CIW4 Transcriptome or Gene expression

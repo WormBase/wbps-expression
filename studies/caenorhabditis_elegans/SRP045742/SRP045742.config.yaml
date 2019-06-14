@@ -1,12 +1,19 @@
 ---
+bioproject: PRJNA259320
 category: Other
-condition_names: ~
 contrasts: []
-description: 'Caenorhabditis elegans strain:N2, rde-4::unc-69, hrde-1 Transcriptome or Gene expression'
+description: ''
+ena_first_public: 2014-09-01
+ena_last_update: 2017-06-16
 pubmed:
   25018105:
     - 'Rechavi .. Hobert, 2014'
-    - 'Starvation-induced transgenerational inheritance of small RNAs in C. elegans. (Rechavi .. Hobert, 2014)'
+    - 'Starvation-induced transgenerational inheritance of small RNAs in <i>C. elegans</i>. (Rechavi .. Hobert, 2014)'
+resource_links:
+  -
+    - Starvation-Induced Transgenerational Inheritance of Small RNAs in C. elegans
+    - Starvation-Induced Transgenerational Inheritance of Small RNAs in C. elegans
+    - http://www.cell.com/cell/abstract/S0092-8674(14)00806-X
 rnaseqer_last_update: 2018-01-01
 submitting_centre: Tel-Aviv University
 title: 'Caenorhabditis elegans strain:N2, rde-4::unc-69, hrde-1 Transcriptome or Gene expression'

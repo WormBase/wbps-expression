@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA302596
 category: Other
-condition_names: ~
 contrasts: []
-description: A Small RNA-Catalytic Argonaute Pathway Tunes Germline Transcript Levels to Ensure Embryonic Divisions
+description: ''
+ena_first_public: 2016-03-26
+ena_last_update: 2016-06-25
 pubmed:
   27020753:
     - 'Gerson-Gurwitz .. Desai, 2016'
     - 'A Small RNA-Catalytic Argonaute Pathway Tunes Germline Transcript Levels to Ensure Embryonic Divisions. (Gerson-Gurwitz .. Desai, 2016)'
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: 'Dept. of Cellular & Molecular Medicine, University of California San Diego, Ludwig Institute for Cancer Research, San Diego Branch'
 title: A Small RNA-Catalytic Argonaute Pathway Tunes Germline Transcript Levels to Ensure Embryonic Divisions

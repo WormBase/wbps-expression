@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA475795
 category: Other
-condition_names: ~
 contrasts: []
-description: "C. elegans germlines that inherited only paternal chromosomes (non-Mendelian inheritance, ''red-head worms'') and the germlines of their offspring  vs.  germlines that inherited both maternal and paternal chromosomes (Mendelian inheritance, HBR1280 control)"
+description: ''
+ena_first_public: 2018-07-26
+ena_last_update: 2018-10-24
 pubmed:
   30333496:
     - 'Tabuchi .. Strome, 2018'
-    - 'Caenorhabditis elegans sperm carry a histone-based epigenetic memory of both spermatogenesis and oogenesis. (Tabuchi .. Strome, 2018)'
+    - '<i>Caenorhabditis elegans</i> sperm carry a histone-based epigenetic memory of both spermatogenesis and oogenesis. (Tabuchi .. Strome, 2018)'
+resource_links: []
 rnaseqer_last_update: 2018-08-30
 submitting_centre: 'MCD Biology, UC Santa Cruz'
 title: "C. elegans germlines that inherited only paternal chromosomes (non-Mendelian inheritance, ''red-head worms'') and the germlines of their offspring  vs.  germlines that inherited both maternal and paternal chromosomes (Mendelian inheritance, HBR1280 control)"

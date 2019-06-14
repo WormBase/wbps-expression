@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA384227
 category: Other
-condition_names: ~
 contrasts: []
-description: "A Chinese herbal formula, Gengnianchun, ameliorates ß-amyloid peptide toxicity in a Caenorhabditis elegans model of Alzheimer's disease"
+description: ''
+ena_first_public: 2018-02-15
+ena_last_update: 2018-02-15
 pubmed:
   29234427:
     - 'Meng .. Fu, 2017'
     - "A Chinese Herbal Formula, Gengnianchun, Ameliorates <i>β</i>-Amyloid Peptide Toxicity in a <i>Caenorhabditis elegans</i> Model of Alzheimer's Disease. (Meng .. Fu, 2017)"
+resource_links: []
 rnaseqer_last_update: 2018-05-26
 submitting_centre: The First Hospital of Jilin University
 title: "A Chinese herbal formula, Gengnianchun, ameliorates ß-amyloid peptide toxicity in a Caenorhabditis elegans model of Alzheimer's disease"

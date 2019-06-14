@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA304644
 category: Other
-condition_names: {}
 contrasts: []
-description: Conserved functional antagonism between CELF and MBNL proteins regulates stem cell-specific alternative splicing and regeneration in planarians (dataset 3)
+description: ''
+ena_first_public: 2016-08-02
+ena_last_update: 2016-08-19
 pubmed:
   27502555:
     - 'Solana .. Rajewsky, 2016'
     - 'Conserved functional antagonism of CELF and MBNL proteins controls stem cell-specific alternative splicing in planarians. (Solana .. Rajewsky, 2016)'
+resource_links: []
 rnaseqer_last_update: 2017-12-27
 submitting_centre: 'Systems Biology Unit, Centre for Genomic Regulation'
 title: Conserved functional antagonism between CELF and MBNL proteins regulates stem cell-specific alternative splicing and regeneration in planarians (dataset 3)

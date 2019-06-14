@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA286907
 category: Other
-condition_names: ~
 contrasts: []
-description: Macrostomum lignano small RNA and mRNA raw sequence reads
-pubmed: ~
+description: ''
+ena_first_public: 2015-06-24
+ena_last_update: 2017-07-19
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-06-27
 submitting_centre: Cold Spring Harbor Laboratory
 title: Macrostomum lignano small RNA and mRNA raw sequence reads

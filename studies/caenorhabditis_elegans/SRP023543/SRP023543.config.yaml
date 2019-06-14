@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA206550
 category: Other
-condition_names: ~
 contrasts: []
-description: Caenorhabditis elegans strain:N2 Transcriptome or Gene expression
-pubmed: ~
+description: ''
+ena_first_public: 2014-01-09
+ena_last_update: 2017-04-21
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-03-31
 submitting_centre: institute of biophysics
 title: Caenorhabditis elegans strain:N2 Transcriptome or Gene expression

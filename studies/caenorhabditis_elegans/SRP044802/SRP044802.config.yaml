@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA256077
 category: Other
-condition_names: ~
 contrasts: []
-description: 'Caenorhabditis elegans PAT-Seq of Intestine, pharynx and body muscle transcriptomes'
-pubmed: ~
+description: ''
+ena_first_public: 2015-01-09
+ena_last_update: 2017-07-19
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-01-01
 submitting_centre: Arizona State University
 title: 'Caenorhabditis elegans PAT-Seq of Intestine, pharynx and body muscle transcriptomes'

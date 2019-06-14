@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA436651
 category: Other
-condition_names: ~
 contrasts: []
 description: ''
+ena_first_public: 2019-03-03
+ena_last_update: 2019-03-03
 pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2019-03-05
 submitting_centre: 'DCM&B, University of Michigan'
 title: Identification of DAF-16/FoxO targets associated with longevity

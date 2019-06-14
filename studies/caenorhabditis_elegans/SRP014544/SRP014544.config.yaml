@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA171150
 category: Other
-condition_names: ~
 contrasts: []
-description: RNA-seq quantification of expression changes upon unc-62 knockdown in adult Caenorhabditis elegans.
+description: ''
+ena_first_public: 2012-09-15
+ena_last_update: 2015-11-04
 pubmed:
   23468654:
     - 'Van Nostrand .. Kim, 2013'
-    - 'Roles of the developmental regulator unc-62/Homothorax in limiting longevity in Caenorhabditis elegans. (Van Nostrand .. Kim, 2013)'
+    - 'Roles of the developmental regulator unc-62/Homothorax in limiting longevity in <i>Caenorhabditis elegans</i>. (Van Nostrand .. Kim, 2013)'
+resource_links: []
 rnaseqer_last_update: 2018-03-30
 submitting_centre: 'Stuart Kim, Developmental Biology, Stanford University'
 title: RNA-seq quantification of expression changes upon unc-62 knockdown in adult Caenorhabditis elegans.

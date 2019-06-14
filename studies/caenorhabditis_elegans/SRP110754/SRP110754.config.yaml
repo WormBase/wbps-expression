@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA392422
 category: Other
-condition_names: ~
 contrasts: []
-description: Chromatin reprogramming in primordial germ cells requires Nanos-dependent down-regulation of the synMuvB transcription factor LIN-15B
+description: ''
+ena_first_public: 2017-12-16
+ena_last_update: 2018-01-14
 pubmed:
   29111977:
     - 'Lee .. Seydoux, 2017'
     - 'Nanos promotes epigenetic reprograming of the germline by down-regulation of the THAP transcription factor LIN-15B. (Lee .. Seydoux, 2017)'
+resource_links: []
 rnaseqer_last_update: 2018-06-04
 submitting_centre: 'Dr. Geraldine Seydoux, MBG, Johns Hopkins University'
 title: Chromatin reprogramming in primordial germ cells requires Nanos-dependent down-regulation of the synMuvB transcription factor LIN-15B

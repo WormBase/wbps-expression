@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA198476
 category: Other
-condition_names: ~
 contrasts: []
-description: Deep sequencing of endogenous mRNA from Caenorhabditis elegans in the presence and absence of arsenite
+description: ''
+ena_first_public: 2013-05-16
+ena_last_update: 2017-09-25
 pubmed:
   23534459:
     - 'Schmeisser .. Ristow, 2013'
     - 'Mitochondrial hormesis links low-dose arsenite exposure to lifespan extension. (Schmeisser .. Ristow, 2013)'
+resource_links: []
 rnaseqer_last_update: 2017-12-26
 submitting_centre: 'Leibniz Institute for Age Research - Fritz Lipmann Institute'
 title: Deep sequencing of endogenous mRNA from Caenorhabditis elegans in the presence and absence of arsenite
