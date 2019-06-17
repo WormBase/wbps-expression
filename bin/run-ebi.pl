@@ -25,6 +25,10 @@ my @core_dbs = ProductionMysql->staging->core_databases(@ARGV);
 my $work_dir = "/nfs/nobackup/ensemblgenomes/wormbase/parasite/production/jbrowse/WBPS$ENV{PARASITE_VERSION}/Production-".`whoami`;
 chomp $work_dir;
 
+if (@core_dbs > 1) {
+  $ENV{DO_THROTTLE_GEO} //=1;
+}
+
 for my $core_db (@core_dbs) {
   my ($spe, $cies, $bp ) = split "_", $core_db;
   next if $bp eq 'core';

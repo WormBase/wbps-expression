@@ -8,15 +8,18 @@ use LWP;
 use XML::Simple;
 use Log::Any '$log';
 
+use Sub::Throttle qw/throttle/;
 my $EUTILS_URL = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils';
 
 sub get_xml {
-  my ($url) = @_;
-  $log->info("GeoClient get_xml LWP::get $url");
-  my $response = LWP::UserAgent->new->get($url);
-  die "$url error:" . $response->status_line . "\n"
-    unless $response->is_success;
-  return XMLin( $response->decoded_content );
+  throttle($ENV{DO_THROTTLE_GEO} ? 0.002 : 1, sub {
+    my ($url) = @_;
+    $log->info("GeoClient get_xml LWP::get $url");
+    my $response = LWP::UserAgent->new->get($url);
+    die "$url error:" . $response->status_line . "\n"
+      unless $response->is_success;
+    return XMLin( $response->decoded_content );
+  }, @_);
 }
 
 sub get_pubmed_ids {
