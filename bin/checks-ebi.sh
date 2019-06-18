@@ -14,7 +14,7 @@ fi
 # if [ 0 -eq $(R --slave --no-restore --file=- <<< 'installed.packages()' | grep -c ^DESeq2) ]; then
 #  echo "Your R doesn't have DESeq2 installed: " $(which R)
 # fi
-if [ "$#" ]; then
+if [ "$#" -gt 0 ]; then
   PERL5LIB="$ROOT_DIR/lib:$ROOT_DIR/local/lib/perl5" perl $ROOT_DIR/t/curation.t "$@"
 else
   PERL5LIB="$ROOT_DIR/lib:$ROOT_DIR/local/lib/perl5" prove $ROOT_DIR/t/curation.t

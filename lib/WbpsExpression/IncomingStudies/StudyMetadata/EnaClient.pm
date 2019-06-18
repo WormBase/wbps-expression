@@ -34,7 +34,7 @@ sub get_study_metadata {
 
     #TODO more useful stuff: maybe the descriptions?
     $data_for_study->{pubmed_refs} = [sort {$a cmp $b} uniq ( @{$pubmed_refs // []}, @{ $data_for_study->{pubmed_refs} //[] })];
-    $data_for_study->{resource_links} = [sort {$a cmp $b } uniq (@{$resource_links//[]}, @{ $data_for_study->{resource_links} //[] })];
+    $data_for_study->{resource_links} = [map {[split("\t", $_)]} sort {$a cmp $b } uniq (@{$resource_links//[]}, @{ $data_for_study->{resource_links} //[] })];
     $data_for_study->{submitting_centre} ||= $submitting_centre;
 
   }
@@ -80,7 +80,7 @@ sub extract_pubmed_refs_and_resource_links {
       my ( $property_name, $label, $url ) =
         _url_link( $link->{URL_LINK}{LABEL},
         $link->{URL_LINK}{URL} );
-      push @resource_links, [ $property_name, $label, $url ];
+      push @resource_links, join("\t",$property_name, $label, $url);
     }
     else {
       #probably a link to an ENA something - skip
@@ -118,12 +118,11 @@ sub determine_bioproject {
   # many ids -> array here: ERP016356
   # one id -> hash here: SRP093920
   my @ids = ref $ids eq 'ARRAY' ? @$ids : ref $ids eq 'HASH' ? ($ids) : ();
-  for my $identifier (@ids) {
-    push @bioprojects, $identifier->{content}
-      if uc( $identifier->{namespace} ) eq "BIOPROJECT"
-      and (not $identifier->{label} or $identifier->{label} eq "primary");
+  my @bioproject_nodes = grep {$_->{namespace} eq "BIOPROJECT"} @ids;
+  if(@bioproject_nodes > 1 and grep {$_->{label} eq "primary"} @bioproject_nodes){
+    @bioproject_nodes = grep {$_->{label} eq "primary"} @bioproject_nodes;
   }
-  my ( $bioproject, @other_bioprojects ) = @bioprojects;
+  my ( $bioproject, @other_bioprojects ) = map {$_->{content}} @bioproject_nodes;
   die join( " ",
     $payload->{STUDY}{accession} // "",
     ": could not determine BioProject",

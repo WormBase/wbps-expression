@@ -32,6 +32,7 @@ sub from_folder {
   my $config_path = sprintf("%s/%s.config.yaml", $path,$study_id);
   my $skipped_runs_path = sprintf("%s/%s.skipped_runs.tsv", $path,$study_id);
   my $sources_path = sprintf("%s/%s.sources.tsv", $path,$study_id);
+  return unless -f $config_path;
   return $class->new(
      $study_id, 
      read_design($design_path),

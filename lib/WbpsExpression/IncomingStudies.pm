@@ -116,7 +116,7 @@ sub update_study_with_results {
       quality => $quality_by_run->{$_},
       location => $location_by_run->{$_},
       end =>
-        ( $study_now and $study_now->{config}{rnaseqer_last_update} eq $rnaseqer_last_update and $study_now->{sources}{$_}{end} )
+        ( $study_now and $study_now->{config}{rnaseqer_last_update} // "" eq $rnaseqer_last_update and $study_now->{sources}{$_}{end} )
         || WbpsExpression::IncomingStudies::RnaseqerFtp::get_end_for_run($_, $location_by_run->{$_}, $rnaseqer_last_update),
     }
   } @all_runs;
