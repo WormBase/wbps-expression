@@ -1,5 +1,12 @@
 ---
+bioproject: PRJEB15512
+category: Other
+contrasts: []
 description: The genome of Oscheius tipulae
-pubmed: ~
+ena_first_public: 2016-11-26
+ena_last_update: 2016-09-26
+pubmed: {}
+resource_links: []
+rnaseqer_last_update: 2019-05-19
 submitting_centre: 'Nematode and Neglected Genomics, IEB, University of Edinburgh'
 title: The genome of Oscheius tipulae

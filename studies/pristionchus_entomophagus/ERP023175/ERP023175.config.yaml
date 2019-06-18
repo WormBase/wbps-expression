@@ -1,0 +1,21 @@
+---
+bioproject: PRJEB20959
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2018-06-09
+ena_last_update: 2017-05-22
+pubmed:
+  17605767:
+    - 'Mayer .. Sommer, 2007'
+    - 'Phylogeny of the nematode genus Pristionchus and implications for biodiversity, biogeography and the evolution of hermaphroditism. (Mayer .. Sommer, 2007)'
+  19703296:
+    - 'Mayer .. Sommer, 2009'
+    - 'Molecular phylogeny of beetle associated diplogastrid nematodes suggests host switching rather than nematode-beetle coevolution. (Mayer .. Sommer, 2009)'
+  26824073:
+    - 'Susoy .. Sommer, 2016'
+    - 'Large-scale diversification without genetic isolation in nematode symbionts of figs. (Susoy .. Sommer, 2016)'
+resource_links: []
+rnaseqer_last_update: 2019-04-11
+submitting_centre: MAX PLANCK INSTITUTE FOR DEVELOPMENTAL BIOLOGY
+title: Phylotranscriptomic analysis of the nematode genus Pristionchus

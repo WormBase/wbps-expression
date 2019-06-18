@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA248911
 category: Other
-condition_names: ~
 contrasts: []
-description: Caenorhabditis remanei PX439 Genome sequencing
-pubmed: ~
+description: ''
+ena_first_public: 2017-07-20
+ena_last_update: 2017-07-20
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-06-04
 submitting_centre: University of Oregon
 title: Caenorhabditis remanei PX439 Genome sequencing

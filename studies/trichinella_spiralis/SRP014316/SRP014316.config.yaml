@@ -1,8 +1,15 @@
 ---
-description: Differential methylation in discrete developmental stages of the parasitic nematode Trichinella spiralis
+bioproject: PRJNA170655
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2012-10-05
+ena_last_update: 2019-05-17
 pubmed:
   23075480:
     - 'Gao .. Liu, 2012'
-    - 'Differential DNA methylation in discrete developmental stages of the parasitic nematode Trichinella spiralis. (Gao .. Liu, 2012)'
+    - 'Differential DNA methylation in discrete developmental stages of the parasitic nematode <i>Trichinella spiralis</i>. (Gao .. Liu, 2012)'
+resource_links: []
+rnaseqer_last_update: 2017-12-25
 submitting_centre: 'Key Laboratory for Zoonosis Research, Ministry of Education, Institute of Zoonosis, Jilin University'
 title: Differential methylation in discrete developmental stages of the parasitic nematode Trichinella spiralis

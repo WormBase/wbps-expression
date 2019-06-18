@@ -1,12 +1,23 @@
 ---
+bioproject: PRJEB7279
 category: Other
-condition_names: {}
 contrasts: []
 description: 'We conducted transcriptome sequencing of Clonorchis sinesis sub-organs (sucker, muscle, ovary and testis) with Illumina sequencing.'
+ena_first_public: 2014-09-16
+ena_last_update: 2014-09-16
 pubmed:
   23382950:
     - 'Huang .. Yu, 2013'
-    - 'The carcinogenic liver fluke, Clonorchis sinensis: new assembly, reannotation and analysis of the genome and characterization of tissue transcriptomes. (Huang .. Yu, 2013)'
+    - 'The carcinogenic liver fluke, <i>Clonorchis sinensis</i>: new assembly, reannotation and analysis of the genome and characterization of tissue transcriptomes. (Huang .. Yu, 2013)'
+resource_links:
+  -
+    - ArrayExpress
+    - E-MTAB-827 in ArrayExpress
+    - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-827
+  -
+    - Publication DOI
+    - Publication DOI
+    - http://dx.doi.org/10.1371/journal.pone.0054732
 rnaseqer_last_update: 2017-12-24
 submitting_centre: 'Guangzhou iGenomics Co.,Ltd'
 title: Clonorchis sinensis transcriptome

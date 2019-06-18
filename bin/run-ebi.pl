@@ -32,7 +32,7 @@ if (@core_dbs > 1) {
 for my $core_db (@core_dbs) {
   my ($spe, $cies, $bp ) = split "_", $core_db;
   next if $bp eq 'core';
-  my $assembly = ProductionMysql->staging->meta_value($core_db, "assembly.name");
+  my $assembly = ProductionMysql->staging->meta_value($core_db, "assembly.default");
   my $species = join ("_", $spe, $cies, $bp);
   WbpsExpression::run("${spe}_${cies}", $assembly, "$work_dir/$species");
   $ENV{DO_DEPLOY_WEB} and print `sudo -u wormbase rsync --delete -av $work_dir/$species/  /ebi/ftp/pub/databases/wormbase/parasite/web_data/rnaseq_studies/releases/next/$species/`;

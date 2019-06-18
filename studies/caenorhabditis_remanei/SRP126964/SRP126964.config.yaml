@@ -1,10 +1,6 @@
 ---
+bioproject: PRJNA422896
 category: Variation within species
-condition_names:
-  'Control selected, derived from PX443': 'strain Control selected, derived from PX443'
-  'Heat-selected, derived from PX443': 'strain Heat-selected, derived from PX443'
-  'Oxidative-selected, derived from PX443': 'strain Oxidative-selected, derived from PX443'
-  PX443: strain PX443
 contrasts:
   - name: strain
     values:
@@ -32,8 +28,11 @@ contrasts:
         - 'Oxidative-selected, derived from PX443'
         - PX443
         - 'Oxidative-selected, derived from PX443 vs PX443'
-description: Dissecting the genetic basis of an evolved acute heat stress and oxidative stress resistance in the nematode Caenorhabditis remanei reveals a complex and unique genetic architecture
-pubmed: ~
+description: ''
+ena_first_public: 2017-12-21
+ena_last_update: 2017-12-21
+pubmed: {}
+resource_links: []
 rnaseqer_last_update: 2018-07-27
 submitting_centre: 'Biology, University of Oregon'
 title: Dissecting the genetic basis of an evolved acute heat stress and oxidative stress resistance in the nematode Caenorhabditis remanei reveals a complex and unique genetic architecture

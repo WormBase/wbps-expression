@@ -11,6 +11,6 @@ resource_links:
     - ArrayExpress
     - E-MTAB-7166 in ArrayExpress
     - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-7166
-rnaseqer_last_update: 2018-09-14
+rnaseqer_last_update: 2019-06-17
 submitting_centre: 'KU Leuven, Centre of Microbial and Plant Genetics (CMPG)'
 title: RNA-seq of total and polysomal RNA of clk-1(qm30) mutants in Caenorhabditis elegans
