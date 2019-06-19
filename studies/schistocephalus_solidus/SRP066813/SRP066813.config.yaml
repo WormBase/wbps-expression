@@ -1,5 +1,6 @@
 ---
-condition_names: {}
+bioproject: PRJNA304161
+category: Life cycle
 contrasts:
   - name: developmental_stage
     values:
@@ -15,7 +16,11 @@ contrasts:
         - infective plerocercoid
         - non-infective plerocercoid
         - infective plerocercoid vs non-infective plerocercoid
-description: 'Transcriptome sequence for non-infective, infective and adult Schistocephalus solidus worms.'
-pubmed: ~
+description: ''
+ena_first_public: 2015-12-06
+ena_last_update: 2015-12-06
+pubmed: {}
+resource_links: []
+rnaseqer_last_update: 2018-02-01
 submitting_centre: Laval University
 title: 'Transcriptome sequence for non-infective, infective and adult Schistocephalus solidus worms.'

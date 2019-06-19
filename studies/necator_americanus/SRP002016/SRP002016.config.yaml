@@ -1,5 +1,12 @@
 ---
-description: Necator americanus EST project at Washington University Genome Sequencing Center
-pubmed: ~
+bioproject: PRJNA20359
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2010-04-08
+ena_last_update: 2017-07-19
+pubmed: {}
+resource_links: []
+rnaseqer_last_update: 2018-01-21
 submitting_centre: Washington University Genome Sequencing Center
 title: Necator americanus EST project at Washington University Genome Sequencing Center

@@ -1,8 +1,15 @@
 ---
-description: Comparative transcriptomic analyses of male and female adult Toxocara canis.
+bioproject: PRJNA304497
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2016-12-01
+ena_last_update: 2017-03-04
 pubmed:
   27845205:
     - 'Zhou .. Xia, 2017'
-    - 'Comparative transcriptomic analyses of male and female adult Toxocara canis. (Zhou .. Xia, 2017)'
+    - 'Comparative transcriptomic analyses of male and female adult <i>Toxocara canis</i>. (Zhou .. Xia, 2017)'
+resource_links: []
+rnaseqer_last_update: 2018-02-23
 submitting_centre: 'veterinary medicine, Southwest university'
 title: Comparative transcriptomic analyses of male and female adult Toxocara canis.

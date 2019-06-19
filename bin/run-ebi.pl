@@ -25,7 +25,7 @@ my @core_dbs = ProductionMysql->staging->core_databases(@ARGV);
 my $work_dir = "/nfs/nobackup/ensemblgenomes/wormbase/parasite/production/jbrowse/WBPS$ENV{PARASITE_VERSION}/Production-".`whoami`;
 chomp $work_dir;
 
-if (@core_dbs > 1) {
+if (@core_dbs > 5) {
   $ENV{DO_THROTTLE_GEO} //=1;
 }
 
@@ -33,6 +33,12 @@ for my $core_db (@core_dbs) {
   my ($spe, $cies, $bp ) = split "_", $core_db;
   next if $bp eq 'core';
   my $assembly = ProductionMysql->staging->meta_value($core_db, "assembly.default");
+  $assembly =~ s/N__americanus_v1/N_americanus_v1/;
+  $assembly =~ s/A_simplex_0011_upd/A_simplex_v1_5_4/;
+  $assembly =~ s/S_solidus_NST_G2_0011_upd/S_solidus_NST_G2_v1_5_4/;
+  $assembly =~ s/T_regenti_v1_0_4_001_upd/T_regenti_v1_0_4/;
+  $assembly =~ s/T_canis_Equador_0011_upd/T_canis_Equador_v1_5_4/;
+  $assembly =~ s/N_brasiliensis_RM07_v1_5_4_0011_upd/N_brasiliensis_RM07_v1_5_4/;
   my $species = join ("_", $spe, $cies, $bp);
   WbpsExpression::run("${spe}_${cies}", $assembly, "$work_dir/$species");
   $ENV{DO_DEPLOY_WEB} and print `sudo -u wormbase rsync --delete -av $work_dir/$species/  /ebi/ftp/pub/databases/wormbase/parasite/web_data/rnaseq_studies/releases/next/$species/`;

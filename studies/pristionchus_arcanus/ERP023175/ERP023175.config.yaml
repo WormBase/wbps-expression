@@ -1,7 +1,21 @@
 ---
 bioproject: PRJEB20959
-category: Other
-contrasts: []
+category: Life cycle
+contrasts:
+  - name: developmental_stage+sex
+    values:
+      -
+        - adult females
+        - adult males
+        - 'adult: female vs male'
+      -
+        - adult females
+        - mixed stages
+        - adult females vs mixed stages
+      -
+        - adult males
+        - mixed stages
+        - adult males vs mixed stages
 description: ''
 ena_first_public: 2018-06-09
 ena_last_update: 2017-05-22

@@ -1,5 +1,12 @@
 ---
-description: Nippostrongylus brasiliensis transcriptome
-pubmed: ~
+bioproject: PRJEB16076
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2016-10-24
+ena_last_update: 2016-10-14
+pubmed: {}
+resource_links: []
+rnaseqer_last_update: 2018-01-20
 submitting_centre: Wellcome Sanger Institute
 title: Nippostrongylus brasiliensis transcriptome

@@ -1,8 +1,27 @@
 ---
-description: Necator americanus Genome Sequencing
+bioproject: PRJNA72135
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2011-08-23
+ena_last_update: 2017-01-25
 pubmed:
   24441737:
     - 'Tang .. Mitreva, 2014'
-    - 'Genome of the human hookworm Necator americanus. (Tang .. Mitreva, 2014)'
+    - 'Genome of the human hookworm <i>Necator americanus</i>. (Tang .. Mitreva, 2014)'
+resource_links:
+  -
+    - Necator americanus Project page
+    - Necator americanus Project page
+    - http://www.nematode.net/NN3_frontpage.cgi?navbar_selection=speciestable&subnav_selection=Necator_americanus
+  -
+    - Parasitic Nematode Project Page
+    - Parasitic Nematode Project Page
+    - http://nematode.net
+  -
+    - Project information
+    - Project information
+    - http://genome.wustl.edu/genomes/view/necator_americanus/
+rnaseqer_last_update: 2018-01-21
 submitting_centre: The Genome Institute at Washington University
 title: Necator americanus Genome Sequencing

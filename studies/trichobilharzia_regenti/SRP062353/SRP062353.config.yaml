@@ -1,5 +1,6 @@
 ---
-condition_names: {}
+bioproject: PRJNA292737
+category: Other
 contrasts:
   - name: developmental_stage
     values:
@@ -7,10 +8,14 @@ contrasts:
         - Cercaria
         - Schistosomule
         - Cercaria vs Schistosomule
-description: Trichobilharzia regenti  transcriptome
+description: ''
+ena_first_public: 2016-08-04
+ena_last_update: 2017-07-19
 pubmed:
   26863542:
     - 'Leontovyč .. Gasser, 2016'
     - 'Comparative Transcriptomic Exploration Reveals Unique Molecular Adaptations of Neuropathogenic Trichobilharzia to Invade and Parasitize Its Avian Definitive Host. (Leontovyč .. Gasser, 2016)'
+resource_links: []
+rnaseqer_last_update: 2018-01-28
 submitting_centre: The University of Melbourne
 title: Trichobilharzia regenti  transcriptome

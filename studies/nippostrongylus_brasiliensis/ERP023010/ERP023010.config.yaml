@@ -1,5 +1,6 @@
 ---
-condition_names: {}
+bioproject: PRJEB20824
+category: Other
 contrasts:
   - name: culture_conditions
     values:
@@ -16,12 +17,16 @@ contrasts:
         - 'L3 larvae, red-blood cell feeding'
         - 'L3 larvae, infective incubation vs L3 larvae, red-blood cell feeding'
 description: 'Providing a high-quality reference genome, transcriptome and predicted proteome for Nippostrongylus brasiliensis. The assembly process uses MinION long reads for initial contig generation, with Illumina reads for subsequent error correction.'
+ena_first_public: 2017-05-27
+ena_last_update: 2018-01-25
 pubmed:
   28491281:
     - 'Chandler .. Eccles, 2017'
     - 'Annotated mitochondrial genome with Nanopore R9 signal for <i>Nippostrongylus brasiliensis</i>. (Chandler .. Eccles, 2017)'
   29325570:
     - 'Eccles .. Ewbank, 2018'
-    - 'De novo assembly of the complex genome of Nippostrongylus brasiliensis using MinION long reads. (Eccles .. Ewbank, 2018)'
+    - 'De novo assembly of the complex genome of <i>Nippostrongylus brasiliensis</i> using MinION long reads. (Eccles .. Ewbank, 2018)'
+resource_links: []
+rnaseqer_last_update: 2018-03-12
 submitting_centre: Malaghan Institute of Medical Research
 title: Nippostrongylus brasiliensis Genome & Transcriptome sequencing and assembly
