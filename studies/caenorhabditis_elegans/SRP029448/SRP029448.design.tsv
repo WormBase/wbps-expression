@@ -1,167 +1,138 @@
-Run	Condition	collection_timing_in_reference_to_e_lineage	experiment_set	germ_layer	sample_name	source_name	timepoint
-SRR962221	110 min post first-cleavage, AB	4E	Blastomeres, developmental event	AB	AB_(E4)_rep2	AB blastomere tp 6	minutes passed the 2-cell stage: 110
-SRR962222	110 min post first-cleavage, AB	4E	Blastomeres, developmental event	AB	AB_(E4)_rep3	AB blastomere tp 6	minutes passed the 2-cell stage: 110
-SRR962245	110 min post first-cleavage, C	4E	Blastomeres, developmental event	C	C_(E4)_rep1	C blastomere tp 6	minutes passed the 2-cell stage: 110
-SRR962246	110 min post first-cleavage, C	4E	Blastomeres, developmental event	C	C_(E4)_rep2	C blastomere tp 6	minutes passed the 2-cell stage: 110
-SRR962172	110 min post first-cleavage, E	4E	Blastomeres, developmental event	E	E4_rep3	E blastomere tp 6	minutes passed the 2-cell stage: 110
-SRR962195	110 min post first-cleavage, MS	4E	Blastomeres, developmental event	MS	MS4_(E4)_rep1	MS blastomere tp 6	minutes passed the 2-cell stage: 110
-SRR962196	110 min post first-cleavage, MS	4E	Blastomeres, developmental event	MS	MS4_(E4)_rep2	MS blastomere tp 6	minutes passed the 2-cell stage: 110
-SRR962197	110 min post first-cleavage, MS	4E	Blastomeres, developmental event	MS	MS4_(E4)_rep3	MS blastomere tp 6	minutes passed the 2-cell stage: 110
-SRR962264	110 min post first-cleavage, ventral cord blast cell	4E	Blastomeres, developmental event	P	PD_(E4)_rep1	P blastomere tp 6	minutes passed the 2-cell stage: 110
-SRR962098	120 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_100	multicellular embryo tp 7	minutes passed the 2-cell stage: 120
-SRR962223	140 min post first-cleavage, AB	4E+	Blastomeres	AB	AB_(E4+)_rep1	AB blastomere tp 7	minutes passed the 2-cell stage: 140
-SRR962248	140 min post first-cleavage, C	4E+	Blastomeres	C	C_(E4+)_rep2	C blastomere tp 7	minutes passed the 2-cell stage: 140
-SRR962173	140 min post first-cleavage, E	4E+	Blastomeres	E	E4+_rep1	E blastomere tp 7	minutes passed the 2-cell stage: 140
-SRR962174	140 min post first-cleavage, E	4E+	Blastomeres	E	E4+_rep2	E blastomere tp 7	minutes passed the 2-cell stage: 140
-SRR962175	140 min post first-cleavage, E	4E+	Blastomeres	E	E4+_rep3	E blastomere tp 7	minutes passed the 2-cell stage: 140
-SRR962099	140 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_120	multicellular embryo tp 8	minutes passed the 2-cell stage: 140
-SRR962266	140 min post first-cleavage, ventral cord blast cell	4E+	Blastomeres	P	PD_(E4+)_rep1	P blastomere tp 7	minutes passed the 2-cell stage: 140
-SRR962267	140 min post first-cleavage, ventral cord blast cell	4E+	Blastomeres	P	PD_(E4+)_rep2	P blastomere tp 7	minutes passed the 2-cell stage: 140
-SRR962268	140 min post first-cleavage, ventral cord blast cell	4E+	Blastomeres	P	PD_(E4+)_rep3	P blastomere tp 7	minutes passed the 2-cell stage: 140
-SRR962100	150 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_130	multicellular embryo tp 9	minutes passed the 2-cell stage: 150
-SRR962101	170 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_150	multicellular embryo tp 10	minutes passed the 2-cell stage: 170
-SRR962225	180 min post first-cleavage, AB	E8	Blastomeres, developmental event	AB	AB_(E8)_rep1	AB blastomere tp 8	minutes passed the 2-cell stage: 180
-SRR962226	180 min post first-cleavage, AB	E8	Blastomeres, developmental event	AB	AB_(E8)_rep2	AB blastomere tp 8	minutes passed the 2-cell stage: 180
-SRR962227	180 min post first-cleavage, AB	E8	Blastomeres, developmental event	AB	AB_(E8)_rep3	AB blastomere tp 8	minutes passed the 2-cell stage: 180
-SRR962249	180 min post first-cleavage, C	8E	Blastomeres, developmental event	C	C_(E8)_rep1	C blastomere tp 8	minutes passed the 2-cell stage: 180
-SRR962250	180 min post first-cleavage, C	8E	Blastomeres, developmental event	C	C_(E8)_rep2	C blastomere tp 8	minutes passed the 2-cell stage: 180
-SRR962176	180 min post first-cleavage, E	8E	Blastomeres, developmental event	E	E8_rep1	E blastomere tp 8	minutes passed the 2-cell stage: 180
-SRR962177	180 min post first-cleavage, E	8E	Blastomeres, developmental event	E	E8_rep2	E blastomere tp 8	minutes passed the 2-cell stage: 180
-SRR962178	180 min post first-cleavage, E	8E	Blastomeres, developmental event	E	E8_rep3	E blastomere tp 8	minutes passed the 2-cell stage: 180
-SRR962202	180 min post first-cleavage, MS	8E	Blastomeres, developmental event	MS	MS16_(E8)_rep2	MS blastomere tp 8	minutes passed the 2-cell stage: 180
-SRR962203	180 min post first-cleavage, MS	8E	Blastomeres, developmental event	MS	MS16_(E8)_rep3	MS blastomere tp 8	minutes passed the 2-cell stage: 180
-SRR962102	180 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_160	multicellular embryo tp 11	minutes passed the 2-cell stage: 180
-SRR962269	180 min post first-cleavage, ventral cord blast cell	8E	Blastomeres, developmental event	P	PD_(E8)_rep1	P blastomere tp 8	minutes passed the 2-cell stage: 180
-SRR962270	180 min post first-cleavage, ventral cord blast cell	8E	Blastomeres, developmental event	P	PD_(E8)_rep2	P blastomere tp 8	minutes passed the 2-cell stage: 180
-SRR962103	190 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_170	multicellular embryo tp 12	minutes passed the 2-cell stage: 190
-SRR962090	1_cell		Whole embryo		1_cell	1-cell embryo	minutes passed the 2-cell stage: n/a
-SRR962149	2-cell embryo, AB	2-cell	Blastomere, developmental event	AB	AB_(P1)_rep1	AB blastomere tp 1	minutes passed the 2-cell stage: 0
-SRR962150	2-cell embryo, AB	2-cell	Blastomere, developmental event	AB	AB_(P1)_rep2	AB blastomere tp 1	minutes passed the 2-cell stage: 0
-SRR962146	2-cell embryo, organism	2-cell	Blastomere, developmental event	P, C, E and MS	P1_rep1	P1 blastomere tp 1	minutes passed the 2-cell stage: 0
-SRR962147	2-cell embryo, organism	2-cell	Blastomere, developmental event	P, C, E and MS	P1_rep2	P1 blastomere tp 1	minutes passed the 2-cell stage: 0
-SRR962151	20 min post first-cleavage, AB	4-cell	Blastomere, developmental event	AB	AB_(P1)_rep3	AB blastomere tp 1	minutes passed the 2-cell stage: 20
-SRR962158	20 min post first-cleavage, AB	4-cell	Blastomeres, developmental time	AB	AB_(EMS)_rep1	AB blastomere tp 2	minutes passed the 2-cell stage: 20
-SRR962159	20 min post first-cleavage, AB	4-cell	Blastomeres, developmental time	AB	AB_(EMS)_rep2	AB blastomere tp 2	minutes passed the 2-cell stage: 20
-SRR962160	20 min post first-cleavage, AB	4-cell	Blastomeres, developmental time	AB	AB_(EMS)_rep3	AB blastomere tp 2	minutes passed the 2-cell stage: 20
-SRR962152	20 min post first-cleavage, EMS	4-cell	Blastomere, developmental event	E and MS	EMS_rep1	EMS blastomere tp 2	minutes passed the 2-cell stage: 20
-SRR962153	20 min post first-cleavage, EMS	4-cell	Blastomere, developmental event	E and MS	EMS_rep2	EMS blastomere tp 2	minutes passed the 2-cell stage: 20
-SRR962154	20 min post first-cleavage, EMS	4-cell	Blastomere, developmental event	E and MS	EMS_rep3	EMS blastomere tp 2	minutes passed the 2-cell stage: 20
-SRR962156	20 min post first-cleavage, P2	4-cell	Blastomere, developmental event	P and C	P2_(EMS)_rep2	P2 blastomere tp 2	minutes passed the 2-cell stage: 20
-SRR962157	20 min post first-cleavage, P2	4-cell	Blastomere, developmental event	P and C	P2_(EMS)_rep3	P2 blastomere tp 2	minutes passed the 2-cell stage: 20
-SRR962104	200 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_180	multicellular embryo tp 13	minutes passed the 2-cell stage: 200
-SRR962105	210 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_190	multicellular embryo tp 14	minutes passed the 2-cell stage: 210
-SRR962106	220 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_200_rep1	multicellular embryo tp 15	minutes passed the 2-cell stage: 220
-SRR962107	220 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_200_rep2	multicellular embryo tp 15	minutes passed the 2-cell stage: 220
-SRR962109	240 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_220_rep1	multicellular embryo tp 17	minutes passed the 2-cell stage: 240
-SRR962110	240 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_220_rep2	multicellular embryo tp 17	minutes passed the 2-cell stage: 240
-SRR962111	250 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_230	multicellular embryo tp 18	minutes passed the 2-cell stage: 250
-SRR962228	270 min post first-cleavage, AB	E8+	Blastomeres	AB	AB_(E8+)_rep1	AB blastomere tp 9	minutes passed the 2-cell stage: n.a.
-SRR962230	270 min post first-cleavage, AB	E8+	Blastomeres	AB	AB_(E8+)_rep3	AB blastomere tp 9	minutes passed the 2-cell stage: n.a.
-SRR962251	270 min post first-cleavage, C	8E+	Blastomeres	C	C_(E8+)	C blastomere tp 9	minutes passed the 2-cell stage: n.a.
-SRR962179	270 min post first-cleavage, E	E8+	Blastomeres	E	E8+_rep1	E blastomere tp 9	minutes passed the 2-cell stage: n.a.
-SRR962180	270 min post first-cleavage, E	E8+	Blastomeres	E	E8+_rep2	E blastomere tp 9	minutes passed the 2-cell stage: n.a.
-SRR962181	270 min post first-cleavage, E	E8+	Blastomeres	E	E8+_rep3	E blastomere tp 9	minutes passed the 2-cell stage: n.a.
-SRR962205	270 min post first-cleavage, MS	8E+	Blastomeres	MS	MS16_(E8+)_rep2	MS blastomere tp 9	minutes passed the 2-cell stage: n.a.
-SRR962206	270 min post first-cleavage, MS	8E+	Blastomeres	MS	MS16_(E8+)_rep3	MS blastomere tp 9	minutes passed the 2-cell stage: n.a.
-SRR962271	270 min post first-cleavage, ventral cord blast cell	8E+	Blastomeres	P	PD_(E8+)	P blastomere tp 9	minutes passed the 2-cell stage: n.a.
-SRR962112	280 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_260	multicellular embryo tp 19	minutes passed the 2-cell stage: 280
-SRR962113	290 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_270	multicellular embryo tp 20	minutes passed the 2-cell stage: 290
-SRR962091	2_cell		Whole embryo		2_cell	2-cell embryo	minutes passed the 2-cell stage: 0
-SRR962092	30 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_010	multicellular embryo tp 1	minutes passed the 2-cell stage: 30
-SRR962115	310 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_290	multicellular embryo tp 22	minutes passed the 2-cell stage: 310
-SRR962116	320 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_300	multicellular embryo tp 23	minutes passed the 2-cell stage: 320
-SRR962117	340 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_320	multicellular embryo tp 24	minutes passed the 2-cell stage: 340
-SRR962118	350 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_330	multicellular embryo tp 25	minutes passed the 2-cell stage: 350
-SRR962231	360 min post first-cleavage, AB	E8++	Blastomeres	AB	AB_(E8++)_rep1	AB blastomere tp 10	minutes passed the 2-cell stage: n.a.
-SRR962232	360 min post first-cleavage, AB	E8++	Blastomeres	AB	AB_(E8++)_rep2	AB blastomere tp 10	minutes passed the 2-cell stage: n.a.
-SRR962233	360 min post first-cleavage, AB	E8++	Blastomeres	AB	AB_(E8++)_rep3	AB blastomere tp 10	minutes passed the 2-cell stage: n.a.
-SRR962182	360 min post first-cleavage, E	E8++	Blastomeres	E	E8++	E blastomere tp 10	minutes passed the 2-cell stage: n.a.
-SRR962207	360 min post first-cleavage, MS	8E++	Blastomeres	MS	MS16_(E8++)	MS blastomere tp 10	minutes passed the 2-cell stage: n.a.
-SRR962120	360 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_340_rep2	multicellular embryo tp 26	minutes passed the 2-cell stage: 360
-SRR962272	360 min post first-cleavage, ventral cord blast cell	8E++	Blastomeres	P	PD_(E8++)	P blastomere tp 10	minutes passed the 2-cell stage: n.a.
-SRR962122	380 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_360	multicellular embryo tp 28	minutes passed the 2-cell stage: 380
-SRR962123	390 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_370	multicellular embryo tp 29	minutes passed the 2-cell stage: 390
-SRR962211	40 min post first-cleavage, AB	E	Blastomeres, developmental event	AB	AB_(E)_rep1	AB blastomere tp 3	minutes passed the 2-cell stage: 40
-SRR962212	40 min post first-cleavage, AB	E	Blastomeres, developmental event	AB	AB_(E)_rep2	AB blastomere tp 3	minutes passed the 2-cell stage: 40
-SRR962213	40 min post first-cleavage, AB	E	Blastomeres, developmental event	AB	AB_(E)_rep3	AB blastomere tp 3	minutes passed the 2-cell stage: 40
-SRR962239	40 min post first-cleavage, C	E	Blastomere, developmental event	C	C_(E)_rep3	C blastomere tp 3	minutes passed the 2-cell stage: 40
-SRR962161	40 min post first-cleavage, E	E	Blastomere, developmental event	E	E_rep1	E blastomere tp 3	minutes passed the 2-cell stage: 40
-SRR962162	40 min post first-cleavage, E	E	Blastomere, developmental event	E	E_rep2	E blastomere tp 3	minutes passed the 2-cell stage: 40
-SRR962163	40 min post first-cleavage, E	E	Blastomere, developmental event	E	E_rep3	E blastomere tp 3	minutes passed the 2-cell stage: 40
-SRR962186	40 min post first-cleavage, MS	E	Blastomere, developmental event	MS	MS_(E)_rep1	MS blastomere tp 3	minutes passed the 2-cell stage: 40
-SRR962187	40 min post first-cleavage, MS	E	Blastomere, developmental event	MS	MS_(E)_rep2	MS blastomere tp 3	minutes passed the 2-cell stage: 40
-SRR962188	40 min post first-cleavage, MS	E	Blastomere, developmental event	MS	MS_(E)_rep3	MS blastomere tp 3	minutes passed the 2-cell stage: 40
-SRR962093	40 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_020	multicellular embryo tp 2	minutes passed the 2-cell stage: 40
-SRR962257	40 min post first-cleavage, ventral cord blast cell	E	Blastomere, developmental event	P	P3_(E)_rep1	P blastomere tp 3	minutes passed the 2-cell stage: 40
-SRR962258	40 min post first-cleavage, ventral cord blast cell	E	Blastomere, developmental event	P	P3_(E)_rep2	P blastomere tp 3	minutes passed the 2-cell stage: 40
-SRR962259	40 min post first-cleavage, ventral cord blast cell	E	Blastomere, developmental event	P	P3_(E)_rep3	P blastomere tp 3	minutes passed the 2-cell stage: 40
-SRR962125	400 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_380_rep2	multicellular embryo tp 30	minutes passed the 2-cell stage: 400
-SRR962126	410 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_390	multicellular embryo tp 31	minutes passed the 2-cell stage: 410
-SRR962127	420 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_400_rep1	multicellular embryo tp 32	minutes passed the 2-cell stage: 420
-SRR962129	430 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_410_rep1	multicellular embryo tp 33	minutes passed the 2-cell stage: 430
-SRR962131	440 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_420	multicellular embryo tp 34	minutes passed the 2-cell stage: 440
-SRR962214	60 min post first-cleavage, AB	2E	Blastomeres, developmental event	AB	AB_(E2)_rep1	AB blastomere tp 4	minutes passed the 2-cell stage: 60
-SRR962215	60 min post first-cleavage, AB	2E	Blastomeres, developmental event	AB	AB_(E2)_rep2	AB blastomere tp 4	minutes passed the 2-cell stage: 60
-SRR962216	60 min post first-cleavage, AB	2E	Blastomeres, developmental event	AB	AB_(E2)_rep3	AB blastomere tp 4	minutes passed the 2-cell stage: 60
-SRR962240	60 min post first-cleavage, C	2E	Blastomeres, developmental event	C	C_(E2)_rep1	C blastomere tp 4	minutes passed the 2-cell stage: 60
-SRR962241	60 min post first-cleavage, C	2E	Blastomeres, developmental event	C	C_(E2)_rep2	C blastomere tp 4	minutes passed the 2-cell stage: 60
-SRR962242	60 min post first-cleavage, C	2E	Blastomeres, developmental event	C	C_(E2)_rep3	C blastomere tp 4	minutes passed the 2-cell stage: 60
-SRR962164	60 min post first-cleavage, E	2E	Blastomeres, developmental event	E	E2_rep1	E blastomere tp 4	minutes passed the 2-cell stage: 60
-SRR962165	60 min post first-cleavage, E	2E	Blastomeres, developmental event	E	E2_rep2	E blastomere tp 4	minutes passed the 2-cell stage: 60
-SRR962166	60 min post first-cleavage, E	2E	Blastomeres, developmental event	E	E2_rep3	E blastomere tp 4	minutes passed the 2-cell stage: 60
-SRR962189	60 min post first-cleavage, MS	2E	Blastomeres, developmental event	MS	MS2_(E2)_rep1	MS blastomere tp 4	minutes passed the 2-cell stage: 60
-SRR962190	60 min post first-cleavage, MS	2E	Blastomeres, developmental event	MS	MS2_(E2)_rep2	MS blastomere tp 4	minutes passed the 2-cell stage: 60
-SRR962191	60 min post first-cleavage, MS	2E	Blastomeres, developmental event	MS	MS2_(E2)_rep3	MS blastomere tp 4	minutes passed the 2-cell stage: 60
-SRR962094	60 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_040	multicellular embryo tp 3	minutes passed the 2-cell stage: 60
-SRR962260	60 min post first-cleavage, ventral cord blast cell	2E	Blastomeres, developmental event	P	P4D_(E2)_rep1	P blastomere tp 4	minutes passed the 2-cell stage: 60
-SRR962261	60 min post first-cleavage, ventral cord blast cell	2E	Blastomeres, developmental event	P	P4D_(E2)_rep2	P blastomere tp 4	minutes passed the 2-cell stage: 60
-SRR962095	70 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_050	multicellular embryo tp 4	minutes passed the 2-cell stage: 70
-SRR962096	80 min post first-cleavage, organism		Whole embryo, 10min intervals		mpfc_060	multicellular embryo tp 5	minutes passed the 2-cell stage: 80
-SRR962218	90 min post first-cleavage, AB	2E+	Blastomeres	AB	AB_(E2+)_rep2	AB blastomere tp 5	minutes passed the 2-cell stage: 90
-SRR962219	90 min post first-cleavage, AB	2E+	Blastomeres	AB	AB_(E2+)_rep3	AB blastomere tp 5	minutes passed the 2-cell stage: 90
-SRR962243	90 min post first-cleavage, C	2E+	Blastomeres	C	C_(E2+)_rep1	C blastomere tp 5	minutes passed the 2-cell stage: 90
-SRR962244	90 min post first-cleavage, C	2E+	Blastomeres	C	C_(E2+)_rep2	C blastomere tp 5	minutes passed the 2-cell stage: 90
-SRR962167	90 min post first-cleavage, E	2E+	Blastomeres	E	E2+_rep1	E blastomere tp 5	minutes passed the 2-cell stage: 90
-SRR962168	90 min post first-cleavage, E	2E+	Blastomeres	E	E2+_rep2	E blastomere tp 5	minutes passed the 2-cell stage: 90
-SRR962169	90 min post first-cleavage, E	2E+	Blastomeres	E	E2+_rep3	E blastomere tp 5	minutes passed the 2-cell stage: 90
-SRR962192	90 min post first-cleavage, MS	2E+	Blastomeres	MS	MS4_(E2+)_rep1	MS blastomere tp 5	minutes passed the 2-cell stage: 90
-SRR962193	90 min post first-cleavage, MS	2E+	Blastomeres	MS	MS4_(E2+)_rep2	MS blastomere tp 5	minutes passed the 2-cell stage: 90
-SRR962194	90 min post first-cleavage, MS	2E+	Blastomeres	MS	MS4_(E2+)_rep3	MS blastomere tp 5	minutes passed the 2-cell stage: 90
-SRR962262	90 min post first-cleavage, ventral cord blast cell	2E+	Blastomeres	P	P4D_(E2+)_rep1	P blastomere tp 5	minutes passed the 2-cell stage: 90
-SRR962263	90 min post first-cleavage, ventral cord blast cell	2E+	Blastomeres	P	P4D_(E2+)_rep2	P blastomere tp 5	minutes passed the 2-cell stage: 90
-SRR962217	AB_(E2+)_rep1	2E+	Blastomeres	AB	AB_(E2+)_rep1	AB blastomere tp 5	minutes passed the 2-cell stage: 90
-SRR962220	AB_(E4)_rep1	4E	Blastomeres, developmental event	AB	AB_(E4)_rep1	AB blastomere tp 6	minutes passed the 2-cell stage: 110
-SRR962224	AB_(E4+)_rep2	4E+	Blastomeres	AB	AB_(E4+)_rep2	AB blastomere tp 7	minutes passed the 2-cell stage: 140
-SRR962229	AB_(E8+)_rep2	E8+	Blastomeres	AB	AB_(E8+)_rep2	AB blastomere tp 9	minutes passed the 2-cell stage: n.a.
-SRR962234	ABtr_rep1	o.n.	Blastomeres	AB	ABtr_rep1	AB blastomere tp 11	minutes passed the 2-cell stage: n.a.
-SRR962237	C_(E)_rep1	E	Blastomere, developmental event	C	C_(E)_rep1	C blastomere tp 3	minutes passed the 2-cell stage: 40
-SRR962238	C_(E)_rep2	E	Blastomere, developmental event	C	C_(E)_rep2	C blastomere tp 3	minutes passed the 2-cell stage: 40
-SRR962247	C_(E4+)_rep1	4E+	Blastomeres	C	C_(E4+)_rep1	C blastomere tp 7	minutes passed the 2-cell stage: 140
-SRR962253	C_(E8++)_rep1	8E++	Blastomeres	C	C_(E8++)_rep1	C blastomere tp 10	minutes passed the 2-cell stage: n.a.
-SRR962252	C_(E8++)_rep2	8E++	Blastomeres	C	C_(E8++)_rep2	C blastomere tp 10	minutes passed the 2-cell stage: n.a.
-SRR962254	Ctr_rep1	o.n.	Blastomeres	C	Ctr_rep1	C blastomere tp 11	minutes passed the 2-cell stage: n.a.
-SRR962170	E4_rep1	4E	Blastomeres, developmental event	E	E4_rep1	E blastomere tp 6	minutes passed the 2-cell stage: 110
-SRR962171	E4_rep2	4E	Blastomeres, developmental event	E	E4_rep2	E blastomere tp 6	minutes passed the 2-cell stage: 110
-SRR962201	MS16_(E8)_rep1	8E	Blastomeres, developmental event	MS	MS16_(E8)_rep1	MS blastomere tp 8	minutes passed the 2-cell stage: 180
-SRR962204	MS16_(E8+)_rep1	8E+	Blastomeres	MS	MS16_(E8+)_rep1	MS blastomere tp 9	minutes passed the 2-cell stage: n.a.
-SRR962198	MS8_(E4+)_rep1	4E+	Blastomeres	MS	MS8_(E4+)_rep1	MS blastomere tp 7	minutes passed the 2-cell stage: 140
-SRR962200	MS8_(E4+)_rep3	4E+	Blastomeres	MS	MS8_(E4+)_rep3	MS blastomere tp 7	minutes passed the 2-cell stage: 140
-SRR962210	MStr_rep3	o.n.	Blastomeres	MS	MStr_rep3	MS blastomere tp 11	minutes passed the 2-cell stage: n.a.
-SRR962148	P1_rep3	2-cell	Blastomere, developmental event	P, C, E and MS	P1_rep3	P1 blastomere tp 1	minutes passed the 2-cell stage: 0
-SRR962155	P2_(EMS)_rep1	4-cell	Blastomere, developmental event	P and C	P2_(EMS)_rep1	P2 blastomere tp 2	minutes passed the 2-cell stage: 20
-SRR962235	comma embryo, AB	o.n.	Blastomeres	AB	ABtr_rep2	AB blastomere tp 11	minutes passed the 2-cell stage: n.a.
-SRR962236	comma embryo, AB	o.n.	Blastomeres	AB	ABtr_rep3	AB blastomere tp 11	minutes passed the 2-cell stage: n.a.
-SRR962255	comma embryo, C	o.n.	Blastomeres	C	Ctr_rep2	C blastomere tp 11	minutes passed the 2-cell stage: n.a.
-SRR962256	comma embryo, C	o.n.	Blastomeres	C	Ctr_rep3	C blastomere tp 11	minutes passed the 2-cell stage: n.a.
-SRR962184	comma embryo, E	o.n.	Blastomeres	E	Etr_rep2	E blastomere tp 11	minutes passed the 2-cell stage: n.a.
-SRR962185	comma embryo, E	o.n.	Blastomeres	E	Etr_rep3	E blastomere tp 11	minutes passed the 2-cell stage: n.a.
-SRR962208	comma embryo, MS	o.n.	Blastomeres	MS	MStr_rep1	MS blastomere tp 11	minutes passed the 2-cell stage: n.a.
-SRR962209	comma embryo, MS	o.n.	Blastomeres	MS	MStr_rep2	MS blastomere tp 11	minutes passed the 2-cell stage: n.a.
-SRR962273	comma embryo, ventral cord blast cell	o.n.	Blastomeres	P	PDtr	P blastomere tp 11	minutes passed the 2-cell stage: n.a.
-SRR962097	mpfc_070		Whole embryo, 10min intervals		mpfc_070	multicellular embryo tp 6	minutes passed the 2-cell stage: 90
-SRR962108	mpfc_210		Whole embryo, 10min intervals		mpfc_210	multicellular embryo tp 16	minutes passed the 2-cell stage: 230
-SRR962114	mpfc_280		Whole embryo, 10min intervals		mpfc_280	multicellular embryo tp 21	minutes passed the 2-cell stage: 300
-SRR962119	mpfc_340_rep1		Whole embryo, 10min intervals		mpfc_340_rep1	multicellular embryo tp 26	minutes passed the 2-cell stage: 360
-SRR962121	mpfc_350		Whole embryo, 10min intervals		mpfc_350	multicellular embryo tp 27	minutes passed the 2-cell stage: 370
-SRR962124	mpfc_380_rep1		Whole embryo, 10min intervals		mpfc_380_rep1	multicellular embryo tp 30	minutes passed the 2-cell stage: 400
-SRR962128	mpfc_400_rep2		Whole embryo, 10min intervals		mpfc_400_rep2	multicellular embryo tp 32	minutes passed the 2-cell stage: 420
+Run	Condition	developmental_stage	organism_part	sex	strain
+SRR962221	110 min post first-cleavage, AB 110 min post first-cleavage	AB	hermaphrodite	N2
+SRR962222	110 min post first-cleavage, AB 110 min post first-cleavage	AB	hermaphrodite	N2
+SRR962245	110 min post first-cleavage, C	110 min post first-cleavage	C	hermaphrodite	N2
+SRR962246	110 min post first-cleavage, C	110 min post first-cleavage	C	hermaphrodite	N2
+SRR962172	110 min post first-cleavage, E	110 min post first-cleavage	E	hermaphrodite	N2
+SRR962195	110 min post first-cleavage, MS 110 min post first-cleavage	MS	hermaphrodite	N2
+SRR962196	110 min post first-cleavage, MS 110 min post first-cleavage	MS	hermaphrodite	N2
+SRR962197	110 min post first-cleavage, MS 110 min post first-cleavage	MS	hermaphrodite	N2
+SRR962264	110 min post first-cleavage, ventral cord blast cell	110 min post first-cleavage	ventral cord blast cell hermaphrodite	N2
+SRR962098	120 min post first-cleavage, organism	120 min post first-cleavage	organism	hermaphrodite	N2
+SRR962223	140 min post first-cleavage, AB 140 min post first-cleavage	AB	hermaphrodite	N2
+SRR962248	140 min post first-cleavage, C	140 min post first-cleavage	C	hermaphrodite	N2
+SRR962173	140 min post first-cleavage, E	140 min post first-cleavage	E	hermaphrodite	N2
+SRR962174	140 min post first-cleavage, E	140 min post first-cleavage	E	hermaphrodite	N2
+SRR962175	140 min post first-cleavage, E	140 min post first-cleavage	E	hermaphrodite	N2
+SRR962099	140 min post first-cleavage, organism	140 min post first-cleavage	organism	hermaphrodite	N2
+SRR962266	140 min post first-cleavage, ventral cord blast cell	140 min post first-cleavage	ventral cord blast cell hermaphrodite	N2
+SRR962267	140 min post first-cleavage, ventral cord blast cell	140 min post first-cleavage	ventral cord blast cell hermaphrodite	N2
+SRR962268	140 min post first-cleavage, ventral cord blast cell	140 min post first-cleavage	ventral cord blast cell hermaphrodite	N2
+SRR962100	150 min post first-cleavage, organism	150 min post first-cleavage	organism	hermaphrodite	N2
+SRR962101	170 min post first-cleavage, organism	170 min post first-cleavage	organism	hermaphrodite	N2
+SRR962225	180 min post first-cleavage, AB 180 min post first-cleavage	AB	hermaphrodite	N2
+SRR962226	180 min post first-cleavage, AB 180 min post first-cleavage	AB	hermaphrodite	N2
+SRR962227	180 min post first-cleavage, AB 180 min post first-cleavage	AB	hermaphrodite	N2
+SRR962249	180 min post first-cleavage, C	180 min post first-cleavage	C	hermaphrodite	N2
+SRR962250	180 min post first-cleavage, C	180 min post first-cleavage	C	hermaphrodite	N2
+SRR962176	180 min post first-cleavage, E	180 min post first-cleavage	E	hermaphrodite	N2
+SRR962177	180 min post first-cleavage, E	180 min post first-cleavage	E	hermaphrodite	N2
+SRR962178	180 min post first-cleavage, E	180 min post first-cleavage	E	hermaphrodite	N2
+SRR962202	180 min post first-cleavage, MS 180 min post first-cleavage	MS	hermaphrodite	N2
+SRR962203	180 min post first-cleavage, MS 180 min post first-cleavage	MS	hermaphrodite	N2
+SRR962102	180 min post first-cleavage, organism	180 min post first-cleavage	organism	hermaphrodite	N2
+SRR962269	180 min post first-cleavage, ventral cord blast cell	180 min post first-cleavage	ventral cord blast cell hermaphrodite	N2
+SRR962270	180 min post first-cleavage, ventral cord blast cell	180 min post first-cleavage	ventral cord blast cell hermaphrodite	N2
+SRR962103	190 min post first-cleavage, organism	190 min post first-cleavage	organism	hermaphrodite	N2
+SRR962149	2-cell embryo, AB	2-cell embryo	AB	hermaphrodite	N2
+SRR962150	2-cell embryo, AB	2-cell embryo	AB	hermaphrodite	N2
+SRR962146	2-cell embryo, organism 2-cell embryo	organism	hermaphrodite	N2
+SRR962147	2-cell embryo, organism 2-cell embryo	organism	hermaphrodite	N2
+SRR962151	20 min post first-cleavage, AB	20 min post first-cleavage	AB	hermaphrodite	N2
+SRR962158	20 min post first-cleavage, AB	20 min post first-cleavage	AB	hermaphrodite	N2
+SRR962159	20 min post first-cleavage, AB	20 min post first-cleavage	AB	hermaphrodite	N2
+SRR962160	20 min post first-cleavage, AB	20 min post first-cleavage	AB	hermaphrodite	N2
+SRR962152	20 min post first-cleavage, EMS 20 min post first-cleavage	EMS	hermaphrodite	N2
+SRR962153	20 min post first-cleavage, EMS 20 min post first-cleavage	EMS	hermaphrodite	N2
+SRR962154	20 min post first-cleavage, EMS 20 min post first-cleavage	EMS	hermaphrodite	N2
+SRR962156	20 min post first-cleavage, P2	20 min post first-cleavage	P2	hermaphrodite	N2
+SRR962157	20 min post first-cleavage, P2	20 min post first-cleavage	P2	hermaphrodite	N2
+SRR962104	200 min post first-cleavage, organism	200 min post first-cleavage	organism	hermaphrodite	N2
+SRR962105	210 min post first-cleavage, organism	210 min post first-cleavage	organism	hermaphrodite	N2
+SRR962106	220 min post first-cleavage, organism	220 min post first-cleavage	organism	hermaphrodite	N2
+SRR962107	220 min post first-cleavage, organism	220 min post first-cleavage	organism	hermaphrodite	N2
+SRR962109	240 min post first-cleavage, organism	240 min post first-cleavage	organism	hermaphrodite	N2
+SRR962110	240 min post first-cleavage, organism	240 min post first-cleavage	organism	hermaphrodite	N2
+SRR962111	250 min post first-cleavage, organism	250 min post first-cleavage	organism	hermaphrodite	N2
+SRR962228	270 min post first-cleavage, AB 270 min post first-cleavage	AB	hermaphrodite	N2
+SRR962230	270 min post first-cleavage, AB 270 min post first-cleavage	AB	hermaphrodite	N2
+SRR962251	270 min post first-cleavage, C	270 min post first-cleavage	C	hermaphrodite	N2
+SRR962179	270 min post first-cleavage, E	270 min post first-cleavage	E	hermaphrodite	N2
+SRR962180	270 min post first-cleavage, E	270 min post first-cleavage	E	hermaphrodite	N2
+SRR962181	270 min post first-cleavage, E	270 min post first-cleavage	E	hermaphrodite	N2
+SRR962205	270 min post first-cleavage, MS 270 min post first-cleavage	MS	hermaphrodite	N2
+SRR962206	270 min post first-cleavage, MS 270 min post first-cleavage	MS	hermaphrodite	N2
+SRR962271	270 min post first-cleavage, ventral cord blast cell	270 min post first-cleavage	ventral cord blast cell hermaphrodite	N2
+SRR962112	280 min post first-cleavage, organism	280 min post first-cleavage	organism	hermaphrodite	N2
+SRR962113	290 min post first-cleavage, organism	290 min post first-cleavage	organism	hermaphrodite	N2
+SRR962092	30 min post first-cleavage, organism	30 min post first-cleavage	organism	hermaphrodite	N2
+SRR962115	310 min post first-cleavage, organism	310 min post first-cleavage	organism	hermaphrodite	N2
+SRR962116	320 min post first-cleavage, organism	320 min post first-cleavage	organism	hermaphrodite	N2
+SRR962117	340 min post first-cleavage, organism	340 min post first-cleavage	organism	hermaphrodite	N2
+SRR962118	350 min post first-cleavage, organism	350 min post first-cleavage	organism	hermaphrodite	N2
+SRR962231	360 min post first-cleavage, AB 360 min post first-cleavage	AB	hermaphrodite	N2
+SRR962232	360 min post first-cleavage, AB 360 min post first-cleavage	AB	hermaphrodite	N2
+SRR962233	360 min post first-cleavage, AB 360 min post first-cleavage	AB	hermaphrodite	N2
+SRR962182	360 min post first-cleavage, E	360 min post first-cleavage	E	hermaphrodite	N2
+SRR962207	360 min post first-cleavage, MS 360 min post first-cleavage	MS	hermaphrodite	N2
+SRR962120	360 min post first-cleavage, organism	360 min post first-cleavage	organism	hermaphrodite	N2
+SRR962272	360 min post first-cleavage, ventral cord blast cell	360 min post first-cleavage	ventral cord blast cell hermaphrodite	N2
+SRR962122	380 min post first-cleavage, organism	380 min post first-cleavage	organism	hermaphrodite	N2
+SRR962123	390 min post first-cleavage, organism	390 min post first-cleavage	organism	hermaphrodite	N2
+SRR962211	40 min post first-cleavage, AB	40 min post first-cleavage	AB	hermaphrodite	N2
+SRR962212	40 min post first-cleavage, AB	40 min post first-cleavage	AB	hermaphrodite	N2
+SRR962213	40 min post first-cleavage, AB	40 min post first-cleavage	AB	hermaphrodite	N2
+SRR962239	40 min post first-cleavage, C	40 min post first-cleavage	C	hermaphrodite	N2
+SRR962161	40 min post first-cleavage, E	40 min post first-cleavage	E	hermaphrodite	N2
+SRR962162	40 min post first-cleavage, E	40 min post first-cleavage	E	hermaphrodite	N2
+SRR962163	40 min post first-cleavage, E	40 min post first-cleavage	E	hermaphrodite	N2
+SRR962186	40 min post first-cleavage, MS	40 min post first-cleavage	MS	hermaphrodite	N2
+SRR962187	40 min post first-cleavage, MS	40 min post first-cleavage	MS	hermaphrodite	N2
+SRR962188	40 min post first-cleavage, MS	40 min post first-cleavage	MS	hermaphrodite	N2
+SRR962093	40 min post first-cleavage, organism	40 min post first-cleavage	organism	hermaphrodite	N2
+SRR962257	40 min post first-cleavage, ventral cord blast cell	40 min post first-cleavage	ventral cord blast cell hermaphrodite	N2
+SRR962258	40 min post first-cleavage, ventral cord blast cell	40 min post first-cleavage	ventral cord blast cell hermaphrodite	N2
+SRR962259	40 min post first-cleavage, ventral cord blast cell	40 min post first-cleavage	ventral cord blast cell hermaphrodite	N2
+SRR962125	400 min post first-cleavage, organism	400 min post first-cleavage	organism	hermaphrodite	N2
+SRR962126	410 min post first-cleavage, organism	410 min post first-cleavage	organism	hermaphrodite	N2
+SRR962127	420 min post first-cleavage, organism	420 min post first-cleavage	organism	hermaphrodite	N2
+SRR962129	430 min post first-cleavage, organism	430 min post first-cleavage	organism	hermaphrodite	N2
+SRR962131	440 min post first-cleavage, organism	440 min post first-cleavage	organism	hermaphrodite	N2
+SRR962214	60 min post first-cleavage, AB	60 min post first-cleavage	AB	hermaphrodite	N2
+SRR962215	60 min post first-cleavage, AB	60 min post first-cleavage	AB	hermaphrodite	N2
+SRR962216	60 min post first-cleavage, AB	60 min post first-cleavage	AB	hermaphrodite	N2
+SRR962240	60 min post first-cleavage, C	60 min post first-cleavage	C	hermaphrodite	N2
+SRR962241	60 min post first-cleavage, C	60 min post first-cleavage	C	hermaphrodite	N2
+SRR962242	60 min post first-cleavage, C	60 min post first-cleavage	C	hermaphrodite	N2
+SRR962164	60 min post first-cleavage, E	60 min post first-cleavage	E	hermaphrodite	N2
+SRR962165	60 min post first-cleavage, E	60 min post first-cleavage	E	hermaphrodite	N2
+SRR962166	60 min post first-cleavage, E	60 min post first-cleavage	E	hermaphrodite	N2
+SRR962189	60 min post first-cleavage, MS	60 min post first-cleavage	MS	hermaphrodite	N2
+SRR962190	60 min post first-cleavage, MS	60 min post first-cleavage	MS	hermaphrodite	N2
+SRR962191	60 min post first-cleavage, MS	60 min post first-cleavage	MS	hermaphrodite	N2
+SRR962094	60 min post first-cleavage, organism	60 min post first-cleavage	organism	hermaphrodite	N2
+SRR962260	60 min post first-cleavage, ventral cord blast cell	60 min post first-cleavage	ventral cord blast cell hermaphrodite	N2
+SRR962261	60 min post first-cleavage, ventral cord blast cell	60 min post first-cleavage	ventral cord blast cell hermaphrodite	N2
+SRR962095	70 min post first-cleavage, organism	70 min post first-cleavage	organism	hermaphrodite	N2
+SRR962096	80 min post first-cleavage, organism	80 min post first-cleavage	organism	hermaphrodite	N2
+SRR962218	90 min post first-cleavage, AB	90 min post first-cleavage	AB	hermaphrodite	N2
+SRR962219	90 min post first-cleavage, AB	90 min post first-cleavage	AB	hermaphrodite	N2
+SRR962243	90 min post first-cleavage, C	90 min post first-cleavage	C	hermaphrodite	N2
+SRR962244	90 min post first-cleavage, C	90 min post first-cleavage	C	hermaphrodite	N2
+SRR962167	90 min post first-cleavage, E	90 min post first-cleavage	E	hermaphrodite	N2
+SRR962168	90 min post first-cleavage, E	90 min post first-cleavage	E	hermaphrodite	N2
+SRR962169	90 min post first-cleavage, E	90 min post first-cleavage	E	hermaphrodite	N2
+SRR962192	90 min post first-cleavage, MS	90 min post first-cleavage	MS	hermaphrodite	N2
+SRR962193	90 min post first-cleavage, MS	90 min post first-cleavage	MS	hermaphrodite	N2
+SRR962194	90 min post first-cleavage, MS	90 min post first-cleavage	MS	hermaphrodite	N2
+SRR962262	90 min post first-cleavage, ventral cord blast cell	90 min post first-cleavage	ventral cord blast cell hermaphrodite	N2
+SRR962263	90 min post first-cleavage, ventral cord blast cell	90 min post first-cleavage	ventral cord blast cell hermaphrodite	N2
+SRR962235	comma embryo, AB	comma embryo	AB	hermaphrodite	N2
+SRR962236	comma embryo, AB	comma embryo	AB	hermaphrodite	N2
+SRR962255	comma embryo, C comma embryo	C	hermaphrodite	N2
+SRR962256	comma embryo, C comma embryo	C	hermaphrodite	N2
+SRR962184	comma embryo, E comma embryo	E	hermaphrodite	N2
+SRR962185	comma embryo, E comma embryo	E	hermaphrodite	N2
+SRR962208	comma embryo, MS	comma embryo	MS	hermaphrodite	N2
+SRR962209	comma embryo, MS	comma embryo	MS	hermaphrodite	N2
+SRR962273	comma embryo, ventral cord blast cell	comma embryo	ventral cord blast cell hermaphrodite	N2
