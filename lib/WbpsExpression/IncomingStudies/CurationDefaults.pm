@@ -186,7 +186,12 @@ sub if_clear_control_value_then_use_as_reference {
   }
   return [$c1, $c2];
 }
-
+sub subset_is_rnai_in_study_with_varying_timepoints {
+  my ($subset_chs, $chs) = @_;
+  my ($x,@xs) = @$subset_chs;
+  my $result = (grep {$_ eq "timepoint"} @$chs) && ($x eq "rnai") && not @xs;
+  return $result;
+}
 sub contrasts {
   my ($design)   = @_;
   my %replicates = pairmap {$a => scalar @$b } %{$design->replicates_by_condition};
@@ -198,7 +203,9 @@ sub contrasts {
   my @result;
   die "Too many characteristics to iterate through subsets: @chs" if @chs > 10;
   for my $s ( grep { @{$_} < 4 and @{$_} > 0 } subsets(@chs) ) {
+    next if subset_is_rnai_in_study_with_varying_timepoints($s, \@chs);
     my @subset_chs = @{$s};
+
 #### Characteristics - chosen: @subset_chs
     my @other_chs = grep {
       my $ch = $_;
