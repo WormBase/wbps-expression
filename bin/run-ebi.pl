@@ -39,6 +39,7 @@ for my $core_db (@core_dbs) {
   $assembly =~ s/T_regenti_v1_0_4_001_upd/T_regenti_v1_0_4/;
   $assembly =~ s/T_canis_Equador_0011_upd/T_canis_Equador_v1_5_4/;
   $assembly =~ s/N_brasiliensis_RM07_v1_5_4_0011_upd/N_brasiliensis_RM07_v1_5_4/;
+  $assembly = undef if $assembly eq "Heterorhabditis_bacteriophora-7.0";
   my $species = join ("_", $spe, $cies, $bp);
   WbpsExpression::run("${spe}_${cies}", $assembly, "$work_dir/$species");
   $ENV{DO_DEPLOY_WEB} and print `sudo -u wormbase rsync --delete -av $work_dir/$species/  /ebi/ftp/pub/databases/wormbase/parasite/web_data/rnaseq_studies/releases/next/$species/`;

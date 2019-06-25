@@ -155,7 +155,7 @@ sub update_studies {
   my $rnaseqer_results_by_study_id = WbpsExpression::IncomingStudies::RnaseqerResults::get_results_by_study($species);
 #### $rnaseqer_results_by_study_id
   for my $study_id (sort keys %{$rnaseqer_results_by_study_id}){
-    next unless ($species eq "heterorhabditis_bacteriophora" or $assembly eq $rnaseqer_results_by_study_id->{$study_id}{assembly_used});
+   $log->info( __PACKAGE__ . " processing $study_id");
     my $study_path = join("/", $studies_dir, $species, $study_id);
     my $study = update_study_with_results($study_path, $species, $study_id,
         $rnaseqer_results_by_study_id->{$study_id}{rnaseqer_last_update},
@@ -163,6 +163,7 @@ sub update_studies {
        $rnaseqer_results_by_study_id->{$study_id}{quality_by_run},
        $rnaseqer_results_by_study_id->{$study_id}{replicates_by_run},
     );
+     $log->info( __PACKAGE__ . "Could not construct $study_id - skipping") unless $study;
     next unless $study;
     my $passes_checks = $study->passes_checks;
     $log->info( __PACKAGE__ . ": Study failing checks - see $study_path") unless $passes_checks;
