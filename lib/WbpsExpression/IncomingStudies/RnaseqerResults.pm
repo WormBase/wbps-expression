@@ -49,7 +49,7 @@ sub get_results_by_study {
     for my $run (@runs){
 #### $run
       my $run_id = $run->{RUN_IDS};
-      $location_by_run{$run_id} = dirname ($run->{BIGWIG_LOCATION});
+      $location_by_run{$run_id} = $run->{ASSEMBLY_USED} eq $assembly_used ? dirname ($run->{BIGWIG_LOCATION}) : "";
       $quality_by_run{$run_id} = $run->{MAPPING_QUALITY};
     }
     my %runs_by_sample;
@@ -59,9 +59,9 @@ sub get_results_by_study {
     my %replicates_by_run;
     for my $sample_id (keys %runs_by_sample){
        my @run_ids_for_sample_id = @{$runs_by_sample{$sample_id}};
-       my $sample_has_more_than_half_ids = scalar @run_ids_for_sample_id * 2 > scalar @runs;
+       my $sample_has_much_more_than_half_ids = (scalar @run_ids_for_sample_id - 1) * 2 > scalar @runs;
        for my $run_id (@run_ids_for_sample_id){
-          $replicates_by_run{$run_id} = ($sample_has_more_than_half_ids || 1 == @run_ids_for_sample_id ? $run_id : $sample_id);
+          $replicates_by_run{$run_id} = (( $sample_has_much_more_than_half_ids ) || 1 == @run_ids_for_sample_id ? $run_id : $sample_id);
        }
     }
     $result{$study_id} = {

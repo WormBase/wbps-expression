@@ -33,6 +33,7 @@ my $study = bless {
     title => "config.title",
     submitting_centre => "config.submitting_centre",
     pubmed => {},
+    rnaseqer_last_update => "2017-01-01",
   },
   sources => {
 	SRR3209257 => {

@@ -53,13 +53,11 @@ my $rnaseqer_metadata = bless {
 
 is_deeply(WbpsExpression::IncomingStudies::StudyMetadata::EnaClient::get_study_metadata($study_id), 
   {
-    'attributes' => {},
     'bioproject' => 'PRJEB6948',
     'description' => 'RNA was prepared from various stages of the liver fluke Fasciola hepatica by John Dalton\'s group and sequenced by Genome Quebec.',
     'ena_first_public' => '2014-12-31',
     'ena_last_update' => '2016-04-19',
     'pubmed_refs' => [
-      '25887684',
       25887684
     ],
     'resource_links' => [
@@ -75,7 +73,6 @@ is_deeply(WbpsExpression::IncomingStudies::StudyMetadata::EnaClient::get_study_m
 
 is_deeply(WbpsExpression::IncomingStudies::StudyMetadata::EnaClient::get_study_metadata($second_study_id),
   {
-    'attributes' => {},
     'bioproject' => 'PRJNA417697',
     'description' => '',
     'ena_first_public' => '2017-11-30',

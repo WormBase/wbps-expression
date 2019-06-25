@@ -17,21 +17,6 @@ my $assembly_used = "Acey_2013.11.30.genDNA";
 my $out = <<"EOF";
 [{
   "STUDY_ID": "$study_id",
-  "SAMPLE_IDS": "SAMN02585476",
-  "BIOREP_ID": "SRR1124909",
-  "RUN_IDS": "SRR1124909",
-  "ORGANISM": "$species",
-  "REFERENCE_ORGANISM": "$species",
-  "STATUS": "Complete",
-  "ASSEMBLY_USED": "$assembly_used",
-  "ENA_LAST_UPDATED": "Fri Jun 19 2015 18:20:11",
-  "LAST_PROCESSED_DATE": "Sun Jan 21 2018 17:51:55",
-  "CRAM_LOCATION": "ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR112/009/SRR1124909/SRR1124909.cram",
-  "BEDGRAPH_LOCATION": "ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR112/009/SRR1124909/SRR1124909.bedgraph",
-  "BIGWIG_LOCATION": "ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR112/009/SRR1124909/SRR1124909.bw",
-  "MAPPING_QUALITY": 96
-}, {
-  "STUDY_ID": "$study_id",
   "SAMPLE_IDS": "SAMN02585474",
   "BIOREP_ID": "SRR1124913",
   "RUN_IDS": "SRR1124913",
@@ -45,6 +30,21 @@ my $out = <<"EOF";
   "BEDGRAPH_LOCATION": "ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR112/003/SRR1124913/SRR1124913.bedgraph",
   "BIGWIG_LOCATION": "ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR112/003/SRR1124913/SRR1124913.bw",
   "MAPPING_QUALITY": 89
+}, {
+  "STUDY_ID": "$study_id",
+  "SAMPLE_IDS": "SAMN02585476",
+  "BIOREP_ID": "SRR1124909",
+  "RUN_IDS": "SRR1124909",
+  "ORGANISM": "$species",
+  "REFERENCE_ORGANISM": "$species",
+  "STATUS": "Complete",
+  "ASSEMBLY_USED": "$assembly_used",
+  "ENA_LAST_UPDATED": "Fri Jun 19 2015 18:20:11",
+  "LAST_PROCESSED_DATE": "Sun Jan 21 2018 17:51:55",
+  "CRAM_LOCATION": "ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR112/009/SRR1124909/SRR1124909.cram",
+  "BEDGRAPH_LOCATION": "ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR112/009/SRR1124909/SRR1124909.bedgraph",
+  "BIGWIG_LOCATION": "ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR112/009/SRR1124909/SRR1124909.bw",
+  "MAPPING_QUALITY": 96
 }, {
   "STUDY_ID": "$study_id",
   "SAMPLE_IDS": "SAMN02585481",
@@ -68,12 +68,14 @@ is_deeply(
   WbpsExpression::IncomingStudies::RnaseqerResults::get_results_by_study($species),
   { $study_id => {
   assembly_used => $assembly_used,
-  source_dirs_by_run => {
+  rnaseqer_last_update => '2018-01-22',
+  location_by_run => {
    SRR1124909 => "ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR112/009/SRR1124909",
    SRR1124913 => "ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR112/003/SRR1124913",
    SRR1124900 => "ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR112/000/SRR1124900",
   },
   replicates_by_run => {SRR1124909 => "SRR1124909", "SRR1124913" => "SRR1124913", SRR1124900 => "SRR1124900"},
+  quality_by_run => {SRR1124909 => 96, SRR1124913 => 89, SRR1124900 => 96},
 }},
   "Test case",
 );
@@ -83,12 +85,14 @@ is_deeply(
   WbpsExpression::IncomingStudies::RnaseqerResults::get_results_by_study($species),
   { $study_id => {
   assembly_used => "pancake",
-  source_dirs_by_run => {
-   SRR1124909 => "ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR112/009/SRR1124909",
-   SRR1124913 => "",
+  rnaseqer_last_update => '2018-01-22',
+  location_by_run => {
+   SRR1124909 => "",
+   SRR1124913 => "ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR112/003/SRR1124913",
    SRR1124900 => "",
   },
   replicates_by_run => {SRR1124909 => "SRR1124909", "SRR1124913" => "SRR1124913", SRR1124900 => "SRR1124900"},
+  quality_by_run => {SRR1124909 => 96, SRR1124913 => 89, SRR1124900 => 96},
 }}, 
   "Newest assembly",
 );
@@ -97,12 +101,14 @@ is_deeply(
   WbpsExpression::IncomingStudies::RnaseqerResults::get_results_by_study($species),
   { $study_id => {
   assembly_used => $assembly_used,
-  source_dirs_by_run => {
+  rnaseqer_last_update => '2018-01-22',
+  location_by_run => {
    SRR1124909 => "ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR112/009/SRR1124909",
    SRR1124913 => "ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR112/003/SRR1124913",
    SRR1124900 => "ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR112/000/SRR1124900",
   },
   replicates_by_run => {SRR1124909 => "SRR1124909", "SRR1124913" => "SAMN02585474", SRR1124900 => "SAMN02585474"},
+  quality_by_run => {SRR1124909 => 96, SRR1124913 => 89, SRR1124900 => 96},
 }},
   "Aggregate replicates when there is more than one",
 );
@@ -111,12 +117,14 @@ is_deeply(
   WbpsExpression::IncomingStudies::RnaseqerResults::get_results_by_study($species),
   { $study_id => {
   assembly_used => $assembly_used,
-  source_dirs_by_run => {
+  rnaseqer_last_update => '2018-01-22',
+  location_by_run => {
    SRR1124909 => "ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR112/009/SRR1124909",
    SRR1124913 => "ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR112/003/SRR1124913",
    SRR1124900 => "ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR112/000/SRR1124900",
   },
   replicates_by_run => {SRR1124909 => "SRR1124909", "SRR1124913" => "SRR1124913", SRR1124900 => "SRR1124900"},
+  quality_by_run => {SRR1124909 => 96, SRR1124913 => 89, SRR1124900 => 96},
 }},
   "Samples are unreliable replicates when they're uniform across the study",
 );

@@ -19,7 +19,7 @@ requires 'DateTime::Format::ISO8601::Format';
 requires 'Sub::Throttle';
 
 test_requires 'File::Temp';
-test_requires 'Test::MockModule';
+test_requires 'Test::Mock::LWP';
 test_requires 'Test::More';
 
 

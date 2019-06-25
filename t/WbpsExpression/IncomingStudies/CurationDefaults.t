@@ -27,9 +27,9 @@ r23	tail	tail
 EOF
 contrasts_as_expected($tsv, [{name => "developmental_stage", values => [["head", "tail", "head vs tail"]]}], "minimal example");
 (my $no_characteristics_tsv = $tsv) =~ s/head\thead/head\ttail/;
-contrasts_as_expected($no_characteristics_tsv, [{name => "", values => [["head", "tail", "head vs tail"]]}], "no characteristics needed");
+contrasts_as_expected($no_characteristics_tsv, [], "no characteristics - no contrasts: the TSV is not right so finish earlier");
 (my $no_factors_tsv = $tsv) =~ s/head/tail/g;
-contrasts_as_expected($no_factors_tsv, [], "no factors example");
+contrasts_as_expected($no_factors_tsv, [], "no factors - no contrasts");
 my $two_factor_tsv = <<'EOF';
 Run	Condition	sax	developmental_stage
 r11	hf	female	head
