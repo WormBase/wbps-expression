@@ -156,6 +156,7 @@ sub update_studies {
 #### $rnaseqer_results_by_study_id
   for my $study_id (sort keys %{$rnaseqer_results_by_study_id}){
     next unless $rnaseqer_results_by_study_id->{$study_id}{assembly_used} eq $assembly; 
+    next if $study_id eq "DRP002615";
     $log->info( __PACKAGE__ . " processing $study_id");
     my $study_path = join("/", $studies_dir, $species, $study_id);
     my $study = update_study_with_results($study_path, $species, $study_id,
