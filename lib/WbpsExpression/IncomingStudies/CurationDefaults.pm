@@ -194,11 +194,12 @@ sub subset_is_rnai_in_study_with_varying_timepoints {
 }
 sub contrasts {
   my ($design)   = @_;
+  return [] unless $design->passes_checks;
   my %replicates = pairmap {$a => scalar @$b } %{$design->replicates_by_condition};
   # Soft minimum of replicates is 3, but we also allow 2 vs 3
   my @conditions = grep {$replicates{$_} >= 2 } $design->all_conditions;
   return [] unless grep { $replicates{$_} >= 3 } @conditions;
-  my @chs        = $design->characteristics_varying_by_condition;
+  my @chs        = $design->characteristics_not_common;
 #### All characteristics varying by conditions somewhere in the design: @chs
   my @result;
   die "Too many characteristics to iterate through subsets: @chs" if @chs > 10;
@@ -291,7 +292,7 @@ my %treatment_categories = (
 );
 sub category {
   my ($design, $contrasts) = @_;
-  my @chs        = $design->characteristics_varying_by_condition;
+  my @chs        = $design->characteristics_not_common;
   return "Other" if (
     any {@{$_} < 2 } values %{ $design->replicates_by_condition}
   );

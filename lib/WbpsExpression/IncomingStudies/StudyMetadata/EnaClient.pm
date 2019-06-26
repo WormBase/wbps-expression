@@ -8,7 +8,7 @@ use XML::Simple;
 use Log::Any '$log';
 use List::Util qw/uniq/;
 
-use Smart::Comments '###';
+# use Smart::Comments '###';
 
 # Returns a hash:
 # ena_first_public
@@ -58,8 +58,6 @@ sub get_xml {
 sub _url_link {
   my ( $label, $url ) = @_;
 
-  # TODO can you rely on BioProjects to make ArrayExpress links?
-  # Are there any more URL links?
   ( my $property_name = $label ) =~ s/.*ArrayExpress/ArrayExpress/;
 
   return ( $property_name, $label, $url );

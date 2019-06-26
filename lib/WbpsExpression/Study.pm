@@ -12,7 +12,7 @@ use File::Slurp qw/write_file/;
 use Regexp::Common qw/URI/;
 
 use open ':encoding(utf8)';
- use Smart::Comments '###';
+# use Smart::Comments '###';
 sub new {
   my ($class, $study_id, $study_design, $study_config, $skipped_runs, $sources) = @_;
   return bless {
@@ -305,5 +305,52 @@ sub analyses_required {
       contrasts => $_->{values}, 
    }} @{$self->{config}{contrasts}}),
   );
+}
+
+sub to_hash {
+  my ($self) = @_;
+  my %result;
+  $result{study_id} = $self->{study_id};
+  $result{study_description_short} = $self->{config}{title};
+  $result{study_description_full} = $self->{config}{description} || $self->{config}{title};
+  $result{study_category} = $self->{config}{category};
+  $result{attributes} = {
+    submitting_centre => $self->{config}{submitting_centre},
+    "ENA first public" => $self->{config}{ena_first_public},
+    "ENA last update" => $self->{config}{ena_last_update},
+    "ENA study" => sprintf('<a href="https://www.ebi.ac.uk/ena/data/view/%s">Study page: %s</a>', $self->{study_id},$self->{study_id}),
+    %{$self->{design}{values}{common}}
+  };
+  $result{attributes}{pubmed} = join (", ", sort map {
+      my ($pubmed_id, $xs) = @{$_};
+      my (undef, $pubmed_description) = @{$xs};
+      sprintf('<a href="https://www.ncbi.nlm.nih.gov/pubmed/%s">%s</a>', $pubmed_id, $pubmed_description)
+    } pairs %{$self->{config}{pubmed}})
+    if %{$self->{config}{pubmed}};
+
+  $result{attributes}{"ENA BioProject"} = sprintf('<a href="https://www.ebi.ac.uk/ena/data/view/%s">Study page: %s</a>', $self->{config}{bioproject},$self->{config}{bioproject})
+    if $self->{config}{bioproject};
+  for my $r (@{$self->{config}{resources}}){
+    my ($property_name, $label, $url) = @{$r};
+    $result{attributes}{"Linked resource: $property_name"} = sprintf('<a href="%s">%s</a>', $url, $label);
+  }
+  my @runs_curated = map {
+    my ($condition, undef, $run_id) = @{$_};
+    my %o;
+    $o{condition} = $condition;
+    $o{run_id} = $run_id;
+    $o{bigwig} = $self->source_bigwig($run_id);
+    my %attributes = map {
+      $_ => $self->{design}->value_in_run($run_id, $_)
+    } $self->{design}->characteristics_not_common;
+    $o{attributes} = \%attributes;
+    \%o
+  } $self->{design}->condition_replicate_run_ordered_triples;
+
+  my @runs_skipped = map {
+    { run_id => $_, bigwig => $self->source_bigwig($_)}
+  } @{$self->{skipped_runs}};
+  $result{runs} = [@runs_curated, @runs_skipped];
+  return \%result;
 }
 1;

@@ -13,7 +13,7 @@ test_subsets("apple", "banana", "pear");
 sub contrasts_as_expected {
   my ($design_tsv, $expected, $test_name) = @_;
   my $actual = WbpsExpression::IncomingStudies::CurationDefaults::contrasts(WbpsExpression::Study::Design::from_tsv(\$design_tsv));
-  is_deeply($actual, $expected, $test_name) or warn explain $actual, $expected;
+  is_deeply($actual, $expected, $test_name) or diag explain $actual, $expected;
 }
 contrasts_as_expected("Run\tCondition\n", [], "null case");
 my $tsv = <<'EOF';

@@ -20,6 +20,7 @@ subtest "run_web_only" => sub {
   ok(-d "$tmp/out", "make directory");
   ok(-s "$tmp/out/index.html", "make webpage");
   ok(-s "$tmp/out/$species.studies.tsv", "make listing");
+  ok(-s "$tmp/out/$species.studies.json", "make JSON for tracks");
   system("rm -rf $tmp/*");
   ok(not (-d "$tmp/out"), "cleanup directory");
 };
