@@ -30,6 +30,7 @@ my $num_failed;
 my %in_progress;
 
 my %not_yet_on_ftp;
+my $not_yet_on_ftp;
 for my $species (uniq map {/([a-z]*)_([a-z]*)/ ? "$1_$2" : ()} ProductionMysql->staging->species(@ARGV ? @ARGV : ("core_$ENV{PARASITE_VERSION}"))){
    my $url = "https://www.ebi.ac.uk/fg/rnaseq/api/json/0/getRunsByOrganism/$species"; 
    my $response = LWP::UserAgent->new->get($url);
@@ -48,7 +49,8 @@ for my $species (uniq map {/([a-z]*)_([a-z]*)/ ? "$1_$2" : ()} ProductionMysql->
          $most_recent_complete_message = sprintf("%s study %s, run %s - %s", $species, $_->{STUDY_ID}, $_->{RUN_IDS}, $_->{LAST_PROCESSED_DATE});
       }
     } elsif($_->{STATUS} eq "Not_yet_on_ftp"){
-      push @{$not_yet_on_ftp{$date_str}{$species}{$_->{STUDY_ID}}}, $_->{RUN_IDS};
+      $not_yet_on_ftp++;
+      $not_yet_on_ftp{$date_str}{$species}++;
     } elsif ($_->{STATUS} eq "In_progress") {
       push @{$in_progress{$species}{$_->{STUDY_ID}}}, $_->{RUN_IDS};
     } elsif ($_->{STATUS} =~ /failed/) {
@@ -73,12 +75,11 @@ if(%in_progress){
   }
 }
 if (%not_yet_on_ftp){
-  say "Not yet on ftp:";
+  say "Not yet on ftp: $not_yet_on_ftp runs";
   for my $date_str (sort keys %not_yet_on_ftp){
     say "  $date_str\t" . join ("; ", map {
        my $species = $_;
-       my $studies = keys %{$not_yet_on_ftp{$date_str}{$species}};
-      "$species: $studies"
+      "$species: $not_yet_on_ftp{$date_str}{$species}"
     } sort keys %{$not_yet_on_ftp{$date_str}});
   }
 }
