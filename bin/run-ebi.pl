@@ -22,8 +22,7 @@ Log::Any::Adapter->set('Log4perl');
 ### This part is WormBase ParaSite specific
 use ProductionMysql;
 my @core_dbs = ProductionMysql->staging->core_databases(@ARGV);
-my $work_dir = "/nfs/nobackup/ensemblgenomes/wormbase/parasite/production/jbrowse/WBPS$ENV{PARASITE_VERSION}/Production-".`whoami`;
-chomp $work_dir;
+my $work_dir = "/nfs/nobackup/ensemblgenomes/wormbase/parasite/production/jbrowse/WBPS$ENV{PARASITE_VERSION}/WbpsExpression";
 
 if (@core_dbs > 5) {
   $ENV{DO_THROTTLE_GEO} //=1;

@@ -17,5 +17,5 @@ fi
 if [ "$#" -gt 0 ]; then
   PERL5LIB="$ROOT_DIR/lib:$ROOT_DIR/local/lib/perl5" perl $ROOT_DIR/t/curation.t "$@"
 else
-  PERL5LIB="$ROOT_DIR/lib:$ROOT_DIR/local/lib/perl5" prove $ROOT_DIR/t/curation.t
+  PERL5LIB="$ROOT_DIR/lib:$ROOT_DIR/local/lib/perl5" prove -r $ROOT_DIR/t/WbpsExpression
 fi
