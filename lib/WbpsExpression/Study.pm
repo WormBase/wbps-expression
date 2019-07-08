@@ -311,8 +311,7 @@ sub to_hash {
   my ($self) = @_;
   my %result;
   $result{study_id} = $self->{study_id};
-  $result{study_description_short} = $self->{config}{title};
-  $result{study_description_full} = $self->{config}{description} || $self->{config}{title};
+  $result{study_title} = $self->{config}{title};
   $result{study_category} = $self->{config}{category};
   $result{attributes} = {
     submitting_centre => $self->{config}{submitting_centre},
@@ -321,6 +320,8 @@ sub to_hash {
     "ENA study" => sprintf('<a href="https://www.ebi.ac.uk/ena/data/view/%s">Study page: %s</a>', $self->{study_id},$self->{study_id}),
     %{$self->{design}{values}{common}}
   };
+  $result{attributes}{"Study description"} = $self->{config}{description}
+    if $self->{config}{description};
   $result{attributes}{pubmed} = join (", ", sort map {
       my ($pubmed_id, $xs) = @{$_};
       my (undef, $pubmed_description) = @{$xs};
