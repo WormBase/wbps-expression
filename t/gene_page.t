@@ -25,8 +25,8 @@ write_file($file_path, $file);
 
 my $second_file = <<EOF;
 # DESeq2 version: ‘1.22.1’
-gene_id	5-AzaC vs untreated
-g2	1.1 0.04
+gene_id	5-AzaC vs untreated	
+g2	1.1	0.04
 EOF
 
 my $second_study_id ="SRP130864";

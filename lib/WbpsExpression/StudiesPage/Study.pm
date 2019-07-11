@@ -15,15 +15,19 @@ sub to_html {
    
    
   $study_tmpl->param(STUDYID =>  $study->{study_id});
-  $study_tmpl->param(STUDYTITLE =>  $study->{config}{title} // "" );
+  $study_tmpl->param(STUDYTITLE =>  $study->{config}{title});
   $study_tmpl->param(STUDYCENTRE => $study->{config}{submitting_centre}) if $study->{config}{submitting_centre};
 
   my @description;
   if ($study->{config}{description} and $study->{config}{description} ne $study->{config}{title}){
       push @description, sprintf("<em>%s</em>", $study->{config}{description});
   }
-  while (my ($k, $v) = each %{$study->{config}{pubmed} //{}}){
-     push @description, sprintf ("<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/%s\">%s</a> ", $k, $v->[1]);
+  for my $pubmed_id (sort keys %{$study->{config}{pubmed}}){
+     push @description, sprintf ("<a href=\"https://www.ncbi.nlm.nih.gov/pubmed/%s\">%s</a> ", $pubmed_id, $study->{config}{pubmed}{$pubmed_id}[1]);
+  }
+  for my $resource_link (@{$study->{config}{resource_links}}){
+     my ($resource_type, $resource_title, $resource_url) = @{$resource_link};
+     push @description, sprintf ("<a href=\"%s\">%s</a>",$resource_url, $resource_title);
   }
 
   $study_tmpl->param(STUDYDESCRIPTION => join("\n<br>", @description));
