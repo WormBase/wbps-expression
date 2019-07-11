@@ -206,15 +206,20 @@ sub passes_checks {
   return all {$_} values %checks; 
 }
 
+sub quantification_method {
+  my ($self) = @_;
+  return $self->{config}{rnaseqer_last_update} ge "2019-04-15" ? "FeatureCounts" : "HTSeq";
+}
+
 sub source_counts {
   my ($self, $run_id) = @_;
-  my $m = $self->{config}{rnaseqer_last_update} ge "2019-04-15" ? "featurecounts" : "htseq2";
+  my $m = lc $self->quantification_method;
   return join("/", $self->{sources}{$run_id}{location}, "$run_id.$self->{sources}{$run_id}{end}.genes.raw.$m.tsv");
 }
 
 sub source_tpm {
   my ($self, $run_id) = @_;
-  my $m = $self->{config}{rnaseqer_last_update} ge "2019-04-15" ? "featurecounts" : "htseq2";
+  my $m = lc $self->quantification_method;
   return join("/", $self->{sources}{$run_id}{location}, "$run_id.$self->{sources}{$run_id}{end}.genes.tpm.$m.irap.tsv");
 }
 
@@ -262,6 +267,7 @@ sub analyses_required {
   my $counts_file_name = "$study_id.counts_per_run.tsv";
   my %h = %{$self->{design}{replicates_by_run}};
   my $has_technical_replicates = keys %h > uniq values %h;
+  my $quantification_method = $self->quantification_method;
   return (
     {
       type => "study_design",
@@ -271,7 +277,7 @@ sub analyses_required {
     {
       type => "counts_per_run",
       file_name => $counts_file_name,
-      title => "Raw data (counts of aligned reads) per run",
+      title => "Counts of aligned reads per run ($quantification_method)",
     },
     {
       type => "tpms_per_run",
@@ -279,6 +285,7 @@ sub analyses_required {
       title => "Gene expression (TPM) per run",
       description => join("\n",
         $self->study_frontmatter,
+        "Alignment: TopHat2, quantification: $quantification_method",
         "Values are transcripts per million units (TPMs) per gene for each run",
       ),
     }, 
@@ -288,6 +295,7 @@ sub analyses_required {
       title => "Gene expression (TPM) per condition as median across ".($has_technical_replicates ? "replicates" : "runs"),
       description => join("\n",
         $self->study_frontmatter,
+        "Alignment: TopHat2, quantification: $quantification_method",
         "Values are transcripts per million units (TPMs) per gene, median across ". ($has_technical_replicates ? "technical, then biological replicates" : "runs"),
       ),
     } :()),
