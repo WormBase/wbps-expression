@@ -34,13 +34,14 @@ sub get_study_metadata {
 
     #TODO more useful stuff: maybe the descriptions?
     $data_for_study->{pubmed_refs} = [sort {$a cmp $b} uniq ( @{$pubmed_refs // []}, @{ $data_for_study->{pubmed_refs} //[] })];
-    $data_for_study->{resource_links} = [map {[split("\t", $_)]} sort {$a cmp $b } uniq (@{$resource_links//[]}, @{ $data_for_study->{resource_links} //[] })];
+    $data_for_study->{resource_links} = [sort {$a cmp $b } uniq (@{$resource_links//[]}, @{ $data_for_study->{resource_links} //[] })];
     $data_for_study->{submitting_centre} ||= $submitting_centre;
 
   }
   if ( $data_for_study->{submitting_centre} and $data_for_study->{submitting_centre} =~ /^null$/i ) {
     delete $data_for_study->{submitting_centre};
   }
+  $data_for_study->{resource_links} = [ map {[split("\t", $_)]} @{$data_for_study->{resource_links}} ];
   $data_for_study->{submitting_centre} //= "";
 #### $data_for_study
   return $data_for_study;
