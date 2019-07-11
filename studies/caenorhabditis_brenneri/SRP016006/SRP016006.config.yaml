@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA176858
 category: Other
-condition_names: {}
 contrasts:
   - name: developmental_stage
     values:
@@ -8,11 +8,14 @@ contrasts:
         - L4 & adult females
         - L4 & adult males
         - L4 & adult females vs L4 & adult males
-description: Caenorhabditis sex-specific RNAseq
+description: ''
+ena_first_public: 2012-11-01
+ena_last_update: 2015-11-04
 pubmed:
   23103191:
     - 'Thomas .. Haag, 2012'
     - 'Simplification and desexualization of gene expression in self-fertile nematodes. (Thomas .. Haag, 2012)'
-rnaseqer_last_update: 2017-12-24
+resource_links: []
+rnaseqer_last_update: 2019-06-24
 submitting_centre: 'Haag Lab, Department of Biology, University of Maryland'
 title: Caenorhabditis sex-specific RNAseq

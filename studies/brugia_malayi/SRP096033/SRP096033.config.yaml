@@ -1,11 +1,15 @@
 ---
+bioproject: PRJNA360126
 category: Other
-condition_names: ~
 contrasts: []
-description: Enrichment of Wolbachia Endosymbiont Transcripts from Host Nematode RNA by Cappable-seq
+description: ''
+ena_first_public: 2017-01-07
+ena_last_update: 2017-04-08
 pubmed:
   28291780:
     - 'Luck .. Foster, 2017'
     - 'Removing the needle from the haystack: Enrichment of Wolbachia endosymbiont transcripts from host nematode RNA by Cappable-seq™. (Luck .. Foster, 2017)'
+resource_links: []
+rnaseqer_last_update: 2019-07-08
 submitting_centre: New England Biolabs
 title: Enrichment of Wolbachia Endosymbiont Transcripts from Host Nematode RNA by Cappable-seq

@@ -1,8 +1,16 @@
 ---
+bioproject: PRJEB2709
 category: Other
-condition_names: {}
 contrasts: []
 description: 'High-throughput sequencing to profile the transcriptome of the human filarial nematode Brugia malayi, the causative agent of lymphatic filariasis, across multiple life-cycle stages.'
-pubmed: ~
+ena_first_public: 2011-10-17
+ena_last_update: 2013-07-19
+pubmed: {}
+resource_links:
+  -
+    - ArrayExpress
+    - E-MTAB-811 in ArrayExpress
+    - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-811
+rnaseqer_last_update: 2019-06-23
 submitting_centre: Wellcome Sanger Institute
 title: Brugia malayi transcriptomics at different life cycle stages

@@ -1,8 +1,16 @@
 ---
+bioproject: PRJNA329497
 category: Other
-condition_names: ~
 contrasts: []
-description: Brugia malayi Immune transcriptome
-pubmed: ~
+description: ''
+ena_first_public: 2016-07-25
+ena_last_update: 2016-07-25
+pubmed: {}
+resource_links:
+  -
+    - 10.1007/s13199-015-0374-7
+    - 10.1007/s13199-015-0374-7
+    - https://www.neb.com/research/parasitology
+rnaseqer_last_update: 2019-06-29
 submitting_centre: New England Biolabs
 title: Brugia malayi Immune transcriptome

@@ -1,8 +1,16 @@
 ---
+bioproject: PRJNA294263
 category: Other
-condition_names: ~
 contrasts: []
-description: Brugia malayi isolate:FR3 Raw sequence reads
-pubmed: ~
+description: ''
+ena_first_public: 2016-01-23
+ena_last_update: 2017-06-16
+pubmed: {}
+resource_links:
+  -
+    - IGS NIAID-funded GCID
+    - IGS NIAID-funded GCID
+    - http://gcid.igs.umaryland.edu/
+rnaseqer_last_update: 2019-06-26
 submitting_centre: University of Maryland Baltimore
 title: Brugia malayi isolate:FR3 Raw sequence reads

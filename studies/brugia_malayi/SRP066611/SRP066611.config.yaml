@@ -1,13 +1,6 @@
 ---
+bioproject: PRJNA303986
 category: Response to treatment
-condition_names:
-  0h: RNA extraction upon arrival at McGill
-  48 h: RNA extraction at 48 h
-  5 d: RNA extraction at 5 d
-  'Ivermectin 1 uM, 48 h': 'Ivermectin 1 uM, RNA extraction at 48 h'
-  'Ivermectin 1 uM, 5 d': 'Ivermectin 1 uM, RNA extraction at 5 d'
-  'Ivermectin 300 nM, 48 h': 'Ivermectin 300 nM, RNA extraction at 48 h'
-  'Ivermectin 300 nM, 5 d': 'Ivermectin 300 nM, RNA extraction at 5 d'
 contrasts:
   - name: timepoint
     values:
@@ -59,10 +52,14 @@ contrasts:
         - 5 d
         - 'Ivermectin 300 nM, 5 d'
         - "5 d: '' vs 300 nM, Ivermectin"
-description: 'Deciphering the loss of fertility in ivermectin-treated Brugia malayi females in vitro: a transcriptomic approach [Study II]'
+description: ''
+ena_first_public: 2016-07-28
+ena_last_update: 2016-10-12
 pubmed:
   27529747:
     - 'Ballesteros .. Geary, 2016'
-    - 'The Effects of Ivermectin on Brugia malayi Females In Vitro: A Transcriptomic Approach. (Ballesteros .. Geary, 2016)'
+    - 'The Effects of Ivermectin on <i>Brugia malayi</i> Females In Vitro: A Transcriptomic Approach. (Ballesteros .. Geary, 2016)'
+resource_links: []
+rnaseqer_last_update: 2019-06-24
 submitting_centre: 'Geary Lab, Parasitology, McGill University'
 title: 'Deciphering the loss of fertility in ivermectin-treated Brugia malayi females in vitro: a transcriptomic approach [Study II]'

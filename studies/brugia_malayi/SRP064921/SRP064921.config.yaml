@@ -1,8 +1,12 @@
 ---
+bioproject: PRJNA299022
 category: Other
-condition_names: ~
 contrasts: []
-description: Brugia malayi Raw sequence reads
-pubmed: ~
+description: ''
+ena_first_public: 2015-10-19
+ena_last_update: 2017-06-16
+pubmed: {}
+resource_links: []
+rnaseqer_last_update: 2019-06-28
 submitting_centre: University of South Florida
 title: Brugia malayi Raw sequence reads

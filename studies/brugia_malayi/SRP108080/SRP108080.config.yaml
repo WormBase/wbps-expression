@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA388112
 category: Response to treatment
-condition_names: {}
 contrasts:
   - name: timepoint+treatment
     values:
@@ -170,7 +170,14 @@ contrasts:
         - 'adult, female, 7 days, Ivermectin'
         - 'adult, male, 7 days, Ivermectin'
         - 'adult, 7 days, Ivermectin: female vs male'
-description: The effect on anthelmintic drugs on Brugia malayi gene expression in vivo
-pubmed: ~
+description: ''
+ena_first_public: 2017-05-30
+ena_last_update: 2019-01-30
+pubmed:
+  30279092:
+    - 'Reaves .. Wolstenholme, 2018'
+    - 'Recognition and killing of <i>Brugia malayi</i> microfilariae by human immune cells is dependent on the parasite sample and is not altered by ivermectin treatment. (Reaves .. Wolstenholme, 2018)'
+resource_links: []
+rnaseqer_last_update: 2019-07-08
 submitting_centre: 'Infectious Diseases, University of Georgia'
 title: The effect on anthelmintic drugs on Brugia malayi gene expression in vivo

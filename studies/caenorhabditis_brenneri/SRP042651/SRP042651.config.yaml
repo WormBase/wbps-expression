@@ -1,8 +1,10 @@
 ---
+bioproject: PRJNA249058
 category: Other
-condition_names: {}
 contrasts: []
-description: Comparative population genomics in 76 metazoan species (popphyl project)
+description: ''
+ena_first_public: 2014-06-20
+ena_last_update: 2016-09-15
 pubmed:
   25141177:
     - 'Romiguier .. Galtier, 2014'
@@ -10,6 +12,11 @@ pubmed:
   27427999:
     - 'Whitelaw .. Cooke, 2016'
     - 'Combined Transcriptomic and Proteomic Analysis of the Posterior Salivary Gland from the Southern Blue-Ringed Octopus and the Southern Sand Octopus. (Whitelaw .. Cooke, 2016)'
-rnaseqer_last_update: 2018-01-22
+resource_links:
+  -
+    - Link to the popphyl project
+    - Link to the popphyl project
+    - http://kimura.univ-montp2.fr/PopPhyl/index.php?section=project
+rnaseqer_last_update: 2019-06-25
 submitting_centre: University of Montpellier 2
 title: Comparative population genomics in 76 metazoan species (popphyl project)

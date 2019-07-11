@@ -1,10 +1,6 @@
 ---
+bioproject: PRJNA294426
 category: Other
-condition_names:
-  48h: RNA extraction after 48h in culture
-  5 days: RNA extraction after 5 days in culture
-  Upon arrival: RNA extraction upon arrival
-  Upon dissection: RNA extraction immediately upon jird dissection
 contrasts:
   - name: timepoint
     values:
@@ -32,10 +28,14 @@ contrasts:
         - Upon arrival
         - Upon dissection
         - Upon arrival vs Upon dissection
-description: The effect of in vitro cultivation on the transcriptome of adult Brugia malayi
+description: ''
+ena_first_public: 2015-12-04
+ena_last_update: 2016-06-04
 pubmed:
   26727204:
     - 'Ballesteros .. Geary, 2016'
-    - 'The Effect of In Vitro Cultivation on the Transcriptome of Adult Brugia malayi. (Ballesteros .. Geary, 2016)'
+    - 'The Effect of In Vitro Cultivation on the Transcriptome of Adult <i>Brugia malayi</i>. (Ballesteros .. Geary, 2016)'
+resource_links: []
+rnaseqer_last_update: 2019-06-25
 submitting_centre: 'Geary Lab, Parasitology, McGill University'
 title: The effect of in vitro cultivation on the transcriptome of adult Brugia malayi
