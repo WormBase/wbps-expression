@@ -1,0 +1,19 @@
+<h2 data-functional-icon="b"><TMPL_VAR NAME=DESIGNSUMMARY></h2>
+<table class="table table-striped table-bordered">
+  <thead>
+  <tr>
+  <TMPL_LOOP NAME=DESIGNCOLUMNS>
+    <th><TMPL_VAR NAME=COLUMN></th>
+  </TMPL_LOOP>
+  </tr>
+  </thead>
+  <tbody>								
+  <TMPL_LOOP NAME=DESIGNROWS>
+    <tr>
+      <TMPL_LOOP NAME=DESIGNROW>
+        <td><TMPL_VAR NAME=ROW></td>
+      </TMPL_LOOP>
+    </tr>
+  </TMPL_LOOP>																
+  </tbody>
+</table>

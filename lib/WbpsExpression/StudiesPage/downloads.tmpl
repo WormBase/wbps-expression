@@ -1,0 +1,23 @@
+<h2 data-functional-icon="="> Downloads </h2>
+<ul>
+<TMPL_LOOP NAME=ANALYSES>
+<TMPL_IF NAME=ANALYSISLINK>
+  <li>
+      <h4><a href="<TMPL_VAR NAME=ANALYSISLINK>"><TMPL_VAR NAME=ANALYSIS></a></h4>
+  </li>
+</TMPL_IF>
+<TMPL_IF NAME=ANALYSISLINKS>
+  <li>
+    <h4><a><TMPL_VAR NAME=ANALYSIS></a></h4>
+    <ul>
+     <TMPL_LOOP NAME=ANALYSISLINKS> 
+         <li><a href="<TMPL_VAR NAME=SUBANALYSISLINK>"><TMPL_VAR NAME=SUBANALYSIS></a></li>
+     </TMPL_LOOP>
+    </ul>
+  </li>
+</TMPL_IF>
+        </TMPL_LOOP>
+<TMPL_LOOP NAME=FAILEDANALYSES>
+        <li><strike><h4><TMPL_VAR NAME=FAILEDANALYSIS></h4></strike></li>
+</TMPL_LOOP>
+</ul>
