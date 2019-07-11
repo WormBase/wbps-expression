@@ -32,7 +32,7 @@ sub test_warnings_per_contrast {
     my ($r, $t) = @{$_};
     $r && $t ? ([$r, $t, "$r vs $t"]) : () 
   } pairs @{$conditions_ordered};
-  my ($amended_contrasts, $warnings) = 
+  my ($amended_contrasts, $warnings_per_contrast_name, $warnings) = 
     WbpsExpression::Analysis::QualityWarnings::amended_contrasts_and_warnings_for_per_contrast_analysis(
       $design, $qc_issues_per_run, \@contrasts 
   );
@@ -41,8 +41,8 @@ sub test_warnings_per_contrast {
     is_deeply([map {$_->[1]} @{$amended_contrasts}], [ map {$_->[1]} @contrasts], "tests in contrasts not changed");
     my @z = pairs zip @contrasts, @{$amended_contrasts};
     my $contrasts_changed_names = grep {$_->[0][2] ne $_->[1][2]} @z;
-    is($contrasts_changed_names, $expected_num_issues, "Each expected issue is a changed contrast name");
-    is(scalar @{$warnings}, $expected_warning_lines, "Warning lines as expected") or diag explain $warnings;
+    is($contrasts_changed_names, $expected_num_issues, "Each expected issue is a changed contrast name") or diag explain @z;
+    is(scalar @{$warnings} + scalar (map {@{$_}} values %{$warnings_per_contrast_name}), $expected_warning_lines, "Warning lines as expected") or diag explain $warnings, $warnings_per_contrast_name;
   };
 }
 sub test_tsv {
@@ -62,9 +62,9 @@ test_warnings_per_contrast(test_tsv(3,3,3,3), {}, 0, 0, "All is good - two contr
 test_warnings_per_contrast(test_tsv(2,3), {}, 1, 1, "One low rep - one contrast");
 test_warnings_per_contrast(test_tsv(2,3,3,3), {}, 1, 1, "One low rep - two contrasts");
 test_warnings_per_contrast(test_tsv(2,3,2,3), {}, 2, 1, "All low reps - two contrasts");
-test_warnings_per_contrast(test_tsv(3,3), {"run_11" => ["Low qc run_11"]}, 1,1, "One low rep - one contrast");
-test_warnings_per_contrast(test_tsv(3,3), {"run_11" => ["Low qc run_11"], "run_12" => ["Low qc run_12"]}, 1,1, "One low rep - one contrast");
-test_warnings_per_contrast(test_tsv(3,3,3,3) , {"run_11" => ["Low qc run_11"]}, 1,1, "One low rep - two contrasts");
+test_warnings_per_contrast(test_tsv(3,3), {"run_11" => ["Low qc run_11"]}, 1,1, "One low qc- one contrast");
+test_warnings_per_contrast(test_tsv(3,3), {"run_11" => ["Low qc run_11"], "run_12" => ["Low qc run_12"]}, 1, 2, "One low qc - one contrast");
+test_warnings_per_contrast(test_tsv(3,3,3,3) , {"run_11" => ["Low qc run_11"]}, 1,1, "One low qc - two contrasts");
 
 test_warnings_per_condition(test_tsv(), {}, 0, "Null case conditions");
 test_warnings_per_condition(test_tsv(3), {}, 0, "All good - one condition");

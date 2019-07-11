@@ -37,7 +37,13 @@ sub to_html {
         push(@analyses, \%item);
     } else {
         $item{ANALYSIS}     = $analysis->{title};
-        $item{ANALYSISLINK} = join("/", $study->{study_id}, $analysis->{file_name});
+        if ($analysis->{file_name}){
+            $item{ANALYSISLINK} = join("/", $study->{study_id}, $analysis->{file_name});
+        } else {
+            $item{ANALYSISLINKS} = [map {
+                {SUBANALYSIS=> $_->{title}, SUBANALYSISLINK => join("/", $study->{study_id}, $_->{file_name})}
+            } @{$analysis->{files}}];
+        }
         push(@analyses, \%item);
     }
   }

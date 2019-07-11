@@ -34,6 +34,7 @@ my $study = bless {
     submitting_centre => "config.submitting_centre",
     pubmed => {},
     rnaseqer_last_update => "2017-01-01",
+    contrasts => [],
   },
   sources => {
 	SRR3209257 => {

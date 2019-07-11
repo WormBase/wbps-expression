@@ -17,6 +17,7 @@ requires 'Log::Log4perl';
 requires 'DateTime::Format::Strptime';
 requires 'DateTime::Format::ISO8601::Format';
 requires 'Sub::Throttle';
+requires 'Archive::Zip';
 
 test_requires 'File::Temp';
 test_requires 'Test::Mock::LWP';

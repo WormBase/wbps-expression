@@ -1,4 +1,4 @@
-Run	Condition	Generation	treatment	concentration	days_post_infection	organism_part	sex	source_name	strain
+Run	Condition	generation	treatment	concentration	days_post_infection	organism_part	sex	source_name	strain
 SRR7945639	Passage 6	Passage 6			49	whole organism	pooled male and female	whole parasites	Puerto Rican-1 (PR-1)
 SRR7945640	Passage 6	Passage 6			49	whole organism	pooled male and female	whole parasites	Puerto Rican-1 (PR-1)
 SRR7945641	Passage 6	Passage 6			49	whole organism	pooled male and female	whole parasites	Puerto Rican-1 (PR-1)

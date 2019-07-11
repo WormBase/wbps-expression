@@ -291,19 +291,29 @@ sub analyses_required {
         "Values are transcripts per million units (TPMs) per gene, median across ". ($has_technical_replicates ? "technical, then biological replicates" : "runs"),
       ),
     } :()),
-   (map {{
+   (@{$self->{config}{contrasts}} ? {
       type => "differential_expression",
-      file_name => sprintf("$study_id.de%s%s.tsv" , $_->{name} ? ".": "" , $_->{name}),
-      title => sprintf("Differential expression%s%s" , $_->{name} ? ": ": "", $_->{name} =~ tr/_/ /r),
-      description => join("\n",
-        $self->study_frontmatter,
-        "Differential expression analysis, comparing pairs of conditions differing by " . $_->{name} =~ tr/_/ /r,
-        "Values are base 2 logarithm of maximum likelihood estimate of fold change and adjusted p-value by Wald test per gene for each contrast",
-        "Values rounded to 2.s.f., filtered past a significance threshold of adj_pval < 0.05 and abs(log2fc) > 0.5",
-      ),
+      title => "Differential expression",
+      files => [
+        (map {
+         {
+           file_name => sprintf("$study_id.de.%s.tsv" , $_->{name}),
+           title => sprintf("Summary file: %s" , $_->{name} =~ tr/_/ /r),
+           key => $_->{name},
+           description => join("\n",
+            $self->study_frontmatter,
+            "Differential expression analysis, comparing pairs of conditions differing by " . $_->{name} =~ tr/_/ /r,
+            ),
+          }} @{$self->{config}{contrasts}}
+         ),{
+           file_name => "$study_id.de.contrasts.zip",
+           title => sprintf("Full result files for %s contrasts (zipped)", scalar map {@{$_->{values}}} @{$self->{config}{contrasts}}),
+           key => "all_contrasts",
+         }
+      ],
       source_file_name => $counts_file_name,
-      contrasts => $_->{values}, 
-   }} @{$self->{config}{contrasts}}),
+      contrasts => {map {$_->{name} => $_->{values}} @{$self->{config}{contrasts}}},
+   } : ()), 
   );
 }
 

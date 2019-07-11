@@ -32,9 +32,10 @@ sub amended_contrasts_and_warnings_for_per_contrast_analysis {
       low_qc_and_replicate_by_condition( $design, $qc_issues_per_run,
         \@conditions_ordered );
 
-    my @amended_contrasts;
-    my @warnings;
     my $contrasts_low_replicates;
+    my @amended_contrasts;
+    my %warnings_per_contrast_name;
+    my @warnings_all_contrasts;
     for my $contrast ( @{$contrasts} ) {
         my ( $reference, $test, $contrast_name ) = @{$contrast};
         my @low_qcs_reference =
@@ -46,26 +47,26 @@ sub amended_contrasts_and_warnings_for_per_contrast_analysis {
           || $low_replicate_by_condition->{$test};
         my $contrast_amended_name =
           ( @low_qcs_reference || @low_qcs_test || $low_reps )
-          ? "!$contrast_name"
-          : $contrast_name;
+          ? "(low QC) $contrast_name"
+          : $low_reps 
+            ? "(low reps) $contrast_name"
+            : $contrast_name;
         push @amended_contrasts, [ $reference, $test, $contrast_amended_name ];
-        my $warning = join( ". ",
-            sort map { ucfirst $_ } @low_qcs_reference,
-            @low_qcs_test );
-        push @warnings, $warning if $warning;
+
+        $warnings_per_contrast_name{$contrast_amended_name} = [sort map { ucfirst $_ } @low_qcs_reference,  @low_qcs_test];
         $contrasts_low_replicates++ if $low_reps;
     }
 
     # We don't allow contrasts with 1 replicate. So if low, then 2.
     if ($contrasts_low_replicates) {
-        push @warnings,
+        push @warnings_all_contrasts,
           $contrasts_low_replicates == @{$contrasts}
           ? "!Data quality warning: all contrasts based on conditions with low (2) replicates"
           : sprintf(
-            "!Data quality warning: %s out of %s contrasts (marked with !) based on conditions with low (2) replicates",
+            "!Data quality warning: %s out of %s contrasts based on conditions with low (2) replicates",
             $contrasts_low_replicates, scalar @{$contrasts} );
     }
-    return \@amended_contrasts, \@warnings;
+    return \@amended_contrasts, \%warnings_per_contrast_name, \@warnings_all_contrasts;
 }
 
 sub low_qc_and_replicate_by_condition {
