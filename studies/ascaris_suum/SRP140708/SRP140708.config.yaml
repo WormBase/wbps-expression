@@ -1,54 +1,54 @@
 ---
 bioproject: PRJNA450204
-category: Other
+category: Life cycle
 contrasts:
-  - name: timepoint
+  - name: developmental_stage
     values:
       -
-        - 0 hours
-        - 1 hours
-        - 0 hours vs 1 hours
+        - 'L3, 0 hours'
+        - 'L3, 1 hours'
+        - 'L3, 0 hours vs L3, 1 hours'
       -
-        - 0 hours
-        - 2 hours
-        - 0 hours vs 2 hours
+        - 'L3, 0 hours'
+        - 'L3, 2 hours'
+        - 'L3, 0 hours vs L3, 2 hours'
       -
-        - 0 hours
-        - 3 hours
-        - 0 hours vs 3 hours
+        - 'L3, 0 hours'
+        - 'L3, 3 hours'
+        - 'L3, 0 hours vs L3, 3 hours'
       -
-        - 0 hours
-        - 9 hours
-        - 0 hours vs 9 hours
+        - 'L3, 0 hours'
+        - 'L3, 9 hours'
+        - 'L3, 0 hours vs L3, 9 hours'
       -
-        - 1 hours
-        - 2 hours
-        - 1 hours vs 2 hours
+        - 'L3, 1 hours'
+        - 'L3, 2 hours'
+        - 'L3, 1 hours vs L3, 2 hours'
       -
-        - 1 hours
-        - 3 hours
-        - 1 hours vs 3 hours
+        - 'L3, 1 hours'
+        - 'L3, 3 hours'
+        - 'L3, 1 hours vs L3, 3 hours'
       -
-        - 1 hours
-        - 9 hours
-        - 1 hours vs 9 hours
+        - 'L3, 1 hours'
+        - 'L3, 9 hours'
+        - 'L3, 1 hours vs L3, 9 hours'
       -
-        - 2 hours
-        - 3 hours
-        - 2 hours vs 3 hours
+        - 'L3, 2 hours'
+        - 'L3, 3 hours'
+        - 'L3, 2 hours vs L3, 3 hours'
       -
-        - 2 hours
-        - 9 hours
-        - 2 hours vs 9 hours
+        - 'L3, 2 hours'
+        - 'L3, 9 hours'
+        - 'L3, 2 hours vs L3, 9 hours'
       -
-        - 3 hours
-        - 9 hours
-        - 3 hours vs 9 hours
+        - 'L3, 3 hours'
+        - 'L3, 9 hours'
+        - 'L3, 3 hours vs L3, 9 hours'
 description: ''
 ena_first_public: 2018-04-19
 ena_last_update: 2018-04-19
 pubmed: {}
 resource_links: []
-rnaseqer_last_update: 2018-08-15
+rnaseqer_last_update: 2019-04-01
 submitting_centre: Robert Koch Insitute
 title: Dual RNA-Seq of Ascaris suum larvae (L3) and Sus scrofa cells (IPEC-J2)

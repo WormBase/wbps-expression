@@ -8,6 +8,9 @@ use List::MoreUtils qw/uniq/;
 # delegates to EnaClient except it retrieves extra IDs from GEO, and looks up descriptions in PubMed
 
 my $pubmed_curated_ids = {
+  ascaris_suum => {
+    SRP140708 => [30158930],
+  },
   bursaphelenchus_xylophilus => {
     ERP010245 => [25981957],
     SRP115811 => [27224277],

@@ -1,15 +1,16 @@
-Run	Condition	developmental_stage	host_tissue	timepoint
-SRR7026110	0 hours	L3 stage larvae	porcine intestinal epithelial cells (IPEC-J2)	0 hours
-SRR7026121	0 hours	L3 stage larvae	porcine intestinal epithelial cells (IPEC-J2)	0 hours
-SRR7026129	0 hours	L3 stage larvae	porcine intestinal epithelial cells (IPEC-J2)	0 hours
-SRR7026107	1 hours	L3 stage larvae	porcine intestinal epithelial cells (IPEC-J2)	1 hours
-SRR7026132	1 hours	L3 stage larvae	porcine intestinal epithelial cells (IPEC-J2)	1 hours
-SRR7026108	2 hours	L3 stage larvae	porcine intestinal epithelial cells (IPEC-J2)	2 hours
-SRR7026119	2 hours	L3 stage larvae	porcine intestinal epithelial cells (IPEC-J2)	2 hours
-SRR7026131	2 hours	L3 stage larvae	porcine intestinal epithelial cells (IPEC-J2)	2 hours
-SRR7026115	3 hours	L3 stage larvae	porcine intestinal epithelial cells (IPEC-J2)	3 hours
-SRR7026118	3 hours	L3 stage larvae	porcine intestinal epithelial cells (IPEC-J2)	3 hours
-SRR7026128	3 hours	L3 stage larvae	porcine intestinal epithelial cells (IPEC-J2)	3 hours
-SRR7026116	9 hours	L3 stage larvae	porcine intestinal epithelial cells (IPEC-J2)	9 hours
-SRR7026117	9 hours	L3 stage larvae	porcine intestinal epithelial cells (IPEC-J2)	9 hours
-SRR7026127	9 hours	L3 stage larvae	porcine intestinal epithelial cells (IPEC-J2)	9 hours
+Run	Condition	host_tissue	developmental_stage
+SRR7026110	L3, 0 hours	porcine intestinal epithelial cells (IPEC-J2)	L3, 0 hours
+SRR7026121	L3, 0 hours	porcine intestinal epithelial cells (IPEC-J2)	L3, 0 hours
+SRR7026129	L3, 0 hours	porcine intestinal epithelial cells (IPEC-J2)	L3, 0 hours
+SRR7026107	L3, 1 hours	porcine intestinal epithelial cells (IPEC-J2)	L3, 1 hours
+SRR7026120	L3, 1 hours	porcine intestinal epithelial cells (IPEC-J2)	L3, 1 hours
+SRR7026132	L3, 1 hours	porcine intestinal epithelial cells (IPEC-J2)	L3, 1 hours
+SRR7026108	L3, 2 hours	porcine intestinal epithelial cells (IPEC-J2)	L3, 2 hours
+SRR7026119	L3, 2 hours	porcine intestinal epithelial cells (IPEC-J2)	L3, 2 hours
+SRR7026131	L3, 2 hours	porcine intestinal epithelial cells (IPEC-J2)	L3, 2 hours
+SRR7026115	L3, 3 hours	porcine intestinal epithelial cells (IPEC-J2)	L3, 3 hours
+SRR7026118	L3, 3 hours	porcine intestinal epithelial cells (IPEC-J2)	L3, 3 hours
+SRR7026128	L3, 3 hours	porcine intestinal epithelial cells (IPEC-J2)	L3, 3 hours
+SRR7026116	L3, 9 hours	porcine intestinal epithelial cells (IPEC-J2)	L3, 9 hours
+SRR7026117	L3, 9 hours	porcine intestinal epithelial cells (IPEC-J2)	L3, 9 hours
+SRR7026127	L3, 9 hours	porcine intestinal epithelial cells (IPEC-J2)	L3, 9 hours

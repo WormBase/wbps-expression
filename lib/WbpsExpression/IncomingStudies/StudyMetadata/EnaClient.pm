@@ -109,14 +109,14 @@ sub to_string {
 sub determine_bioproject {
   my $payload = shift;
   my @bioprojects;
-  my $ids = $payload->{STUDY}{IDENTIFIERS}{EXTERNAL_ID};
-#### $ids
+  my $external_ids = $payload->{STUDY}{IDENTIFIERS}{EXTERNAL_ID};
+#### $external_ids
 
   # XML::Simple is being a bit too simple
-  # many ids -> array here: ERP016356
+  # many external_ids -> array here: ERP016356
   # one id -> hash here: SRP093920
-  my @ids = ref $ids eq 'ARRAY' ? @$ids : ref $ids eq 'HASH' ? ($ids) : ();
-  my @bioproject_nodes = grep {$_->{namespace} eq "BIOPROJECT"} @ids;
+  my @external_ids = ref $external_ids eq 'ARRAY' ? @$external_ids : ref $external_ids eq 'HASH' ? ($external_ids) : ();
+  my @bioproject_nodes = grep {uc ($_->{namespace}) eq "BIOPROJECT"} @external_ids;
   if(@bioproject_nodes > 1 and grep {$_->{label} eq "primary"} @bioproject_nodes){
     @bioproject_nodes = grep {$_->{label} eq "primary"} @bioproject_nodes;
   }
@@ -126,9 +126,19 @@ sub determine_bioproject {
     ": could not determine BioProject",
     $bioproject, @other_bioprojects )
     if ( @other_bioprojects );
+  
+  return $bioproject if $bioproject;
 
-  # Quite rare for studies not to have bioprojects. Example: SRP013211
-  return $bioproject // $payload->{STUDY}{IDENTIFIERS}{SECONDARY_ID} // "";
+  my $secondary_ids = $payload->{STUDY}{IDENTIFIERS}{SECONDARY_ID};
+  my @secondary_ids = ref $secondary_ids eq 'ARRAY' ? @$secondary_ids : ref $secondary_ids eq 'HASH' ? ($secondary_ids) : ();
+  my ($secondary_id_starting_with_prj, @other_secondary_ids_starting_with_prj) = grep {$_ =~ /^PRJ/ } @secondary_ids;
+  die join( " ",
+    $payload->{STUDY}{accession} // "",
+    ": could not determine BioProject",
+    $secondary_id_starting_with_prj, @other_secondary_ids_starting_with_prj)
+   if @other_secondary_ids_starting_with_prj;
+
+  return $secondary_id_starting_with_prj // "";
 }
 
 sub xml_to_data_for_study {
