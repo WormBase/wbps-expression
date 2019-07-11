@@ -61,7 +61,7 @@ sub R_get_values_as_hash {
   my @row_names = ref $rn eq 'ARRAY' ? @{$rn} : ();
   my @adjusted_p_values = ref $pv eq 'ARRAY' ? @{$pv} : ();
   die unless @fold_changes == @row_names and @fold_changes == @adjusted_p_values;
-  my @values = map {join(" ", @$_)} zip_unflatten @fold_changes, @adjusted_p_values;
+  my @values = map {join("\t", @$_)} zip_unflatten @fold_changes, @adjusted_p_values;
   my %h = zip @row_names, @values;
   return \%h;
 }
@@ -181,7 +181,7 @@ sub do_analysis_for_key {
      my $h = values_for_contrast($design_path, $counts_path,$reference, $test, $unfiltered_results_path);
      die "Missing: $unfiltered_results_path" unless -f $unfiltered_results_path;
      if(%$h){
-       push @name_to_data_pairs, [$contrast_name, $h];
+       push @name_to_data_pairs, ["$contrast_name\t", $h];
      } else {
        push @analysis_warnings, "No differentially expressed genes found in contrast $contrast_name";
      }

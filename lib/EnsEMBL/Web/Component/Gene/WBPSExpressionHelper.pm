@@ -197,12 +197,13 @@ sub list_of_differential_expression_values_in_studies_and_studies_with_no_result
      $study->{study_url} = study_url($species,$study->{study_id}),
      my @differential_expression_values_for_study;
      for my $path (@{$study->{differential_expression_paths}}) {
-        my ($contrasts, $differential_expression_values) = search_in_file($path, $gene_id);
+        my ($contrasts, $differential_expression_values) = search_in_file($path, $gene_id, 2);
         C:
         for my $i (0..$#$contrasts){
            my $contrast = $contrasts->[$i];
            next C if $contrast =~ /^\!/; # Low replicates or failed QC
-           my ($log2_fold_change, $adjusted_p_value) = split(" ", $differential_expression_values->[$i]);
+           my $log2_fold_change = $differential_expression_values->[2*$i];
+           my $adjusted_p_value = $differential_expression_values->[2*$i+1];
            ($log2_fold_change, $adjusted_p_value) = ("-", "-") unless $log2_fold_change and $adjusted_p_value;
            push @differential_expression_values_for_study, {
               study_url => $study->{study_url},
@@ -324,7 +325,8 @@ sub as_2d {
   return (\@cols, \@header_and_values_rows);
 }
 sub search_in_file {
-  my ($path, $gene_id) = @_;
+  my ($path, $gene_id, $data_points_per_row) = @_;
+  $data_points_per_row //= 1;
 #### search_in_file: $path . " " . $gene_id
   my $l = `grep --max-count=1 "^$gene_id" $path`;
 #### $l
@@ -336,11 +338,11 @@ sub search_in_file {
 #### $h
   chomp $h;
   return unless $h;
-  my ($header, @hs) = split "\t", $h;
+  my ($header, @hs) = split "\t", $h; # Ignores empty headers
 #### hs: scalar @hs
 #### xs:  scalar @xs
   return unless $header eq "gene_id" and @hs;
-  return unless @hs == @xs;
+  return unless $data_points_per_row * @hs == @xs;
   return \@hs, \@xs;
 }
 
