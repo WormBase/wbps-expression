@@ -18,7 +18,7 @@ sub write_named_hashes {
       $row_labels{$label}++;
     }
   }
-  open(my $fh, ">", $out_path) or die "$out_path: $!";
+  open(my $fh, ">:utf8", $out_path) or die "$out_path: $!";
   print $fh "# $_\n" for @frontmatter;
   if(@{$name_to_data_pairs}){
     print $fh join ("\t", "gene_id", map {$_->[0]} @{$name_to_data_pairs})."\n";
