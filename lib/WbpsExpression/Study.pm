@@ -211,15 +211,21 @@ sub quantification_method {
   return $self->{config}{rnaseqer_last_update} ge "2019-04-15" ? "FeatureCounts" : "HTSeq";
 }
 
+sub quantification_method_ftp_convention {
+  my ($self) = @_;
+  my $m = lc $self->quantification_method;
+  $m =~ s/htseq/htseq2/;
+  return $m;
+}
 sub source_counts {
   my ($self, $run_id) = @_;
-  my $m = lc $self->quantification_method;
+  my $m = lc $self->quantification_method_ftp_convention;
   return join("/", $self->{sources}{$run_id}{location}, "$run_id.$self->{sources}{$run_id}{end}.genes.raw.$m.tsv");
 }
 
 sub source_tpm {
   my ($self, $run_id) = @_;
-  my $m = lc $self->quantification_method;
+  my $m = lc $self->quantification_method_ftp_convention;
   return join("/", $self->{sources}{$run_id}{location}, "$run_id.$self->{sources}{$run_id}{end}.genes.tpm.$m.irap.tsv");
 }
 
