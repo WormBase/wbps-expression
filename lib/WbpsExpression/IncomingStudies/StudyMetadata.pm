@@ -15,6 +15,9 @@ my $pubmed_curated_ids = {
     ERP010245 => [25981957],
     SRP115811 => [27224277],
   },
+  globodera_pallida => {
+    ERP001236 => [24580726],
+  },
   hymenolepis_microstoma => {
     ERP004459 => [30455861],
   },
