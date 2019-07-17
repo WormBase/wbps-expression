@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA354932
 category: Response to treatment
-condition_names: {}
 contrasts:
   - name: treatment
     values:
@@ -28,11 +28,14 @@ contrasts:
         - GFP-dsRNA
         - mCherry-dsRNA
         - GFP-dsRNA vs mCherry-dsRNA
-description: Schistosoma mansoni strain:LE Transcriptome or Gene expression
+description: ''
+ena_first_public: 2017-12-01
+ena_last_update: 2017-12-01
 pubmed:
   30733716:
     - 'Avelar .. Mourão, 2019'
     - 'Smp38 MAP Kinase Regulation in <i>Schistosoma mansoni</i>: Roles in Survival, Oviposition, and Protection Against Oxidative Stress. (Avelar .. Mourão, 2019)'
-rnaseqer_last_update: 2018-07-06
+resource_links: []
+rnaseqer_last_update: 2019-07-08
 submitting_centre: Rene Rachou Research Center
 title: Schistosoma mansoni strain:LE Transcriptome or Gene expression

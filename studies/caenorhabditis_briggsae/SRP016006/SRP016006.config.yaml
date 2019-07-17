@@ -1,0 +1,21 @@
+---
+bioproject: PRJNA176858
+category: Variation within species
+contrasts:
+  - name: sex+strain
+    values:
+      -
+        - ' male - XO'
+        - ' pseudofemale - XX'
+        - 'male - XO, AF16 (WT) vs pseudofemale - XX, she-1(v47)'
+description: ''
+ena_first_public: 2012-11-01
+ena_last_update: 2015-11-04
+pubmed:
+  23103191:
+    - 'Thomas .. Haag, 2012'
+    - 'Simplification and desexualization of gene expression in self-fertile nematodes. (Thomas .. Haag, 2012)'
+resource_links: []
+rnaseqer_last_update: 2019-06-24
+submitting_centre: 'Haag Lab, Department of Biology, University of Maryland'
+title: Caenorhabditis sex-specific RNAseq

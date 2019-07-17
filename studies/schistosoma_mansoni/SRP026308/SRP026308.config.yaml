@@ -1,12 +1,18 @@
 ---
+bioproject: PRJNA209511
 category: Other
-condition_names: ~
 contrasts: []
-description: Functional genomic characterization of germinal cells in larval Schistosoma mansoni
+description: ''
+ena_first_public: 2014-01-09
+ena_last_update: 2019-05-19
 pubmed:
   23908765:
     - 'Wang .. Newmark, 2013'
     - 'Functional genomic characterization of neoblast-like stem cells in larval <i>Schistosoma mansoni</i> (Wang .. Newmark, 2013)'
-rnaseqer_last_update: 2018-06-28
+  29988015:
+    - 'Wang .. Newmark, 2018'
+    - 'Stem cell heterogeneity drives the parasitic life cycle of <i>Schistosoma mansoni</i>. (Wang .. Newmark, 2018)'
+resource_links: []
+rnaseqer_last_update: 2019-06-24
 submitting_centre: University of Illinois at Urbana Champaign
 title: Functional genomic characterization of germinal cells in larval Schistosoma mansoni

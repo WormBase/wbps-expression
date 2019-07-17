@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA225599
 category: Other
-condition_names: ~
 contrasts: []
-description: Genetic and molecular basis of drug resistance and species-specific drug action in Schistosome parasites
+description: ''
+ena_first_public: 2014-01-09
+ena_last_update: 2019-05-17
 pubmed:
   24263136:
     - 'Valentim .. Anderson, 2013'
     - 'Genetic and molecular basis of drug resistance and species-specific drug action in schistosome parasites. (Valentim .. Anderson, 2013)'
-rnaseqer_last_update: 2018-06-27
+resource_links: []
+rnaseqer_last_update: 2019-06-24
 submitting_centre: 'Genetics, Texas Biomedical Research Institute'
 title: Genetic and molecular basis of drug resistance and species-specific drug action in Schistosome parasites

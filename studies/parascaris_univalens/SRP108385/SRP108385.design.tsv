@@ -1,11 +1,11 @@
-Run	Condition	developmental_stage	organism_part	preparation	sex	strain
-SRR5635087	germline, ovary, female	germline	ovary		female	North American wildtype
-SRR5635088	germline, ovary, female	germline	ovary		female	North American wildtype
-SRR5635091	germline, testis, male	germline	testis		male	North American wildtype
-SRR5635092	germline, testis, male	germline	testis		male	North American wildtype
-SRR5635083	somatic, carcass, male	somatic	carcass		male	North American wildtype
-SRR5635084	somatic, carcass, male	somatic	carcass		male	North American wildtype
-SRR5635085	somatic, embryo, male	somatic	embryo		male	North American wildtype
-SRR5635086	somatic, embryo, male	somatic	embryo		male	North American wildtype
-SRR5635089	somatic, intestine, male	somatic	intestine		male	North American wildtype
-SRR5635090	somatic, intestine, male	somatic	intestine		male	North American wildtype
+Run	Condition	organism_part	sex	strain
+SRR5635083	male carcass	carcass	male	North American wildtype
+SRR5635084	male carcass	carcass	male	North American wildtype
+SRR5635085	male embryo	embryo	male	North American wildtype
+SRR5635086	male embryo	embryo	male	North American wildtype
+SRR5635089	male intestine	intestine	male	North American wildtype
+SRR5635090	male intestine	intestine	male	North American wildtype
+SRR5635087	ovary	ovary	female	North American wildtype
+SRR5635088	ovary	ovary	female	North American wildtype
+SRR5635091	testis	testis	male	North American wildtype
+SRR5635092	testis	testis	male	North American wildtype

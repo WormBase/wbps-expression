@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA232381
 category: Other
-condition_names: {}
 contrasts:
   - name: sex
     values:
@@ -8,11 +8,14 @@ contrasts:
         - female
         - male
         - female vs male
-description: Male and Female DNA and RNA sequencing in several nematode species
+description: ''
+ena_first_public: 2014-04-22
+ena_last_update: 2018-09-13
 pubmed:
   24793291:
     - 'Albritton .. Ercan, 2014'
     - 'Sex-biased gene expression and evolution of the x chromosome in nematodes. (Albritton .. Ercan, 2014)'
-rnaseqer_last_update: 2018-06-27
+resource_links: []
+rnaseqer_last_update: 2019-06-24
 submitting_centre: 'Ercan, Biology, New York University'
 title: Male and Female DNA and RNA sequencing in several nematode species

@@ -1,6 +1,6 @@
 ---
+bioproject: ''
 category: Life cycle
-condition_names: {}
 contrasts:
   - name: sex
     values:
@@ -205,10 +205,13 @@ contrasts:
         - '38 days post infection, mixed sex infection, male'
         - 'mixed sex infection, male: 35 days post infection vs 38 days post infection'
 description: Analysis of gene expression levels between male and female Schistosoma mansoni worms.
+ena_first_public: 2016-03-16
+ena_last_update: 2016-03-15
 pubmed:
   28542189:
     - 'Protasio .. Berriman, 2017'
     - 'MiR-277/4989 regulate transcriptional landscape during juvenile to adult transition in the parasitic helminth <i>Schistosoma mansoni</i>. (Protasio .. Berriman, 2017)'
-rnaseqer_last_update: 2018-06-27
+resource_links: []
+rnaseqer_last_update: 2019-06-23
 submitting_centre: Wellcome Sanger Institute
 title: Schistosoma mansoni RNASeq male and female characterisation

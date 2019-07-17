@@ -1,6 +1,6 @@
 ---
+bioproject: ''
 category: Organism parts
-condition_names: {}
 contrasts:
   - name: sex
     values:
@@ -48,11 +48,14 @@ contrasts:
         - 'whole male, mixed sex infection'
         - 'whole male, single sex infection'
         - 'whole male, infection: mixed sex vs single sex'
-description: S mansoni male and female adult worm reproductive organs pre and post pairing
+description: ''
+ena_first_public: 2016-07-05
+ena_last_update: 2016-07-05
 pubmed:
   27499125:
     - 'Lu .. Grevelding, 2016'
     - 'Schistosome sex matters: a deep view into gonad-specific and pairing-dependent transcriptomes reveals a complex gender interplay. (Lu .. Grevelding, 2016)'
-rnaseqer_last_update: 2018-07-25
+resource_links: []
+rnaseqer_last_update: 2019-06-23
 submitting_centre: Wellcome Sanger Institute
 title: S mansoni male and female adult worm reproductive organs pre and post pairing

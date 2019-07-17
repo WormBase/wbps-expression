@@ -1,9 +1,12 @@
 ---
+bioproject: ''
 category: Other
-condition_names: ~
 contrasts: []
-description: STUDY THE EFFECT OF TGF beta ON SCHISTOSOME ADULT WORMS
-pubmed: ~
-rnaseqer_last_update: 2018-06-30
+description: ''
+ena_first_public: 2014-08-20
+ena_last_update: 2013-07-15
+pubmed: {}
+resource_links: []
+rnaseqer_last_update: 2019-06-23
 submitting_centre: Wellcome Sanger Institute
 title: STUDY THE EFFECT OF TGF beta ON SCHISTOSOME ADULT WORMS

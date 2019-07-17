@@ -1,12 +1,19 @@
 ---
+bioproject: PRJNA294789
 category: Other
-condition_names: ~
 contrasts: []
-description: 'Schistosoma mansoni Egg, Adult Male and Female Transcriptome Profiling'
+description: ''
+ena_first_public: 2016-03-23
+ena_last_update: 2016-03-23
 pubmed:
   26719891:
     - 'Anderson .. Verjovski-Almeida, 2015'
     - '<i>Schistosoma mansoni</i> Egg, Adult Male and Female Comparative Gene Expression Analysis and Identification of Novel Genes by RNA-Seq. (Anderson .. Verjovski-Almeida, 2015)'
-rnaseqer_last_update: 2018-06-27
+resource_links:
+  -
+    - Schistosoma mansoni genome browser
+    - Schistosoma mansoni genome browser
+    - http://schistosoma.usp.br/
+rnaseqer_last_update: 2019-06-25
 submitting_centre: Universidade de Sao Paulo
 title: 'Schistosoma mansoni Egg, Adult Male and Female Transcriptome Profiling'

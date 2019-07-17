@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA314518
 category: Organism parts
-condition_names: {}
 contrasts:
   - name: organism_part
     values:
@@ -8,11 +8,14 @@ contrasts:
         - head
         - tail
         - head vs tail
-description: Comparison of gene expression between female Schistosoma mansoni heads and tails
+description: ''
+ena_first_public: 2016-03-10
+ena_last_update: 2016-06-09
 pubmed:
   27056273:
     - 'Wang .. Collins, 2016'
     - 'Identification of new markers for the <i>Schistosoma mansoni</i> vitelline lineage. (Wang .. Collins, 2016)'
-rnaseqer_last_update: 2018-06-28
+resource_links: []
+rnaseqer_last_update: 2019-06-26
 submitting_centre: 'Pharmacology, UT Southwestern'
 title: Comparison of gene expression between female Schistosoma mansoni heads and tails

@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA328007
 category: Other
-condition_names: ~
 contrasts: []
-description: Single Base-Resolution Methylome of the cysticercus reveals a specific epigenomic map
-pubmed: ~
-rnaseqer_last_update: 2018-03-03
+description: ''
+ena_first_public: 2017-01-04
+ena_last_update: 2017-01-04
+pubmed: {}
+resource_links: []
+rnaseqer_last_update: 2019-06-28
 submitting_centre: 'R&D, E-GENE'
 title: Single Base-Resolution Methylome of the cysticercus reveals a specific epigenomic map

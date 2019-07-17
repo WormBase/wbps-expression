@@ -1,8 +1,6 @@
 ---
+bioproject: PRJNA428470
 category: Response to treatment
-condition_names:
-  5-AzaC: 5-AzaC treated females
-  untreated: untreated females
 contrasts:
   - name: treatment
     values:
@@ -10,7 +8,9 @@ contrasts:
         - 5-AzaC
         - untreated
         - 5-AzaC vs untreated
-description: 5-AzaC effect on Schistosoma mansoni Transcriptome
+description: ''
+ena_first_public: 2018-04-19
+ena_last_update: 2018-04-19
 pubmed:
   29649665:
     - 'Geyer .. Hoffmann, 2018'
@@ -18,6 +18,7 @@ pubmed:
   30029996:
     - 'Geyer .. Hoffmann, 2018'
     - "Corrigendum to 'the anti-fecundity effect of 5-azacytidine (5-AzaC) on <i>Schistosoma mansoni</i> is linked to dis-regulated transcription, translation and stem cell activities' [Int. J. Parasitol. Drugs and Drug Resist. 8 (2018) 213-222]. (Geyer .. Hoffmann, 2018)"
-rnaseqer_last_update: 2018-08-17
+resource_links: []
+rnaseqer_last_update: 2019-07-09
 submitting_centre: Aberystwyth University
 title: 5-AzaC effect on Schistosoma mansoni Transcriptome

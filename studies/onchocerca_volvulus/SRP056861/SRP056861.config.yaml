@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA219638
 category: Other
-condition_names: ~
 contrasts: []
-description: Onchocerca volvulus Genome sequencing
-pubmed: ~
-rnaseqer_last_update: 2018-01-24
+description: ''
+ena_first_public: 2015-04-04
+ena_last_update: 2017-06-16
+pubmed: {}
+resource_links: []
+rnaseqer_last_update: 2019-06-25
 submitting_centre: The Genome Institute
 title: Onchocerca volvulus Genome sequencing

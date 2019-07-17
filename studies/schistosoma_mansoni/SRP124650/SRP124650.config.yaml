@@ -1,6 +1,6 @@
 ---
+bioproject: PRJNA417697
 category: Response to treatment
-condition_names: {}
 contrasts:
   - name: treatment
     values:
@@ -8,11 +8,14 @@ contrasts:
         - NMRI male
         - 'NMRI male, zfp-1-1 dsRNA'
         - "NMRI male: '' vs zfp-1-1 dsRNA"
-description: Transcriptional Profiling of Schistosoma mansoni f zfp-1-1(RNAi) parasites
+description: ''
+ena_first_public: 2017-11-30
+ena_last_update: 2019-06-28
 pubmed:
   29557781:
     - 'Wendt .. Collins, 2018'
     - 'Flatworm-specific transcriptional regulators promote the specification of tegumental progenitors in <i>Schistosoma mansoni</i>. (Wendt .. Collins, 2018)'
-rnaseqer_last_update: 2018-07-07
+resource_links: []
+rnaseqer_last_update: 2019-07-08
 submitting_centre: 'Pharmacology, UT Southwestern'
 title: Transcriptional Profiling of Schistosoma mansoni f zfp-1-1(RNAi) parasites

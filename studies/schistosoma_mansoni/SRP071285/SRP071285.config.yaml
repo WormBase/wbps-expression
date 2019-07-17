@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA312093
 category: Life cycle
-condition_names: {}
 contrasts: []
-description: Schistosoma mansoni sex determination
+description: ''
+ena_first_public: 2016-08-18
+ena_last_update: 2016-08-18
 pubmed:
   27677173:
     - 'Picard .. Cosseau, 2016'
     - 'Sex-Biased Transcriptome of <i>Schistosoma mansoni</i>: Host-Parasite Interaction, Genetic Determinants and Epigenetic Regulators Are Associated with Sexual Differentiation. (Picard .. Cosseau, 2016)'
-rnaseqer_last_update: 2018-06-27
+resource_links: []
+rnaseqer_last_update: 2019-06-26
 submitting_centre: University of Perpignan Via Domitia
 title: Schistosoma mansoni sex determination

@@ -1,44 +1,6 @@
 ---
+bioproject: ''
 category: Response to treatment
-condition_names:
-  'adult females LE, 1 hour': 'adult females LE, 1 hour after treatment'
-  'adult females LE, 12 hours': 'adult females LE, 12 hours after treatment'
-  'adult females LE, 24 hours': 'adult females LE, 24 hours after treatment'
-  'adult females LE, 3 hours': 'adult females LE, 3 hours after treatment'
-  'adult females LEPZQ, 1 hour': 'adult females LEPZQ, 1 hour after treatment'
-  'adult females LEPZQ, 12 hours': 'adult females LEPZQ, 12 hours after treatment'
-  'adult females LEPZQ, 24 hours': 'adult females LEPZQ, 24 hours after treatment'
-  'adult females LEPZQ, 3 hours': 'adult females LEPZQ, 3 hours after treatment'
-  'adult females NMRI, 12 hours': 'adult females NMRI, 12 hours after treatment'
-  'adult females NMRI, 24 hours': 'adult females NMRI, 24 hours after treatment'
-  'adult females NMRI, 3 hours': 'adult females NMRI, 3 hours after treatment'
-  'adult males LE, 1 hour': 'adult males LE, 1 hour after treatment'
-  'adult males LE, 12 hours': 'adult males LE, 12 hours after treatment'
-  'adult males LE, 24 hours': 'adult males LE, 24 hours after treatment'
-  'adult males LE, 3 hours': 'adult males LE, 3 hours after treatment'
-  'adult males LEPZQ, 1 hour': 'adult males LEPZQ, 1 hour after treatment'
-  'adult males LEPZQ, 12 hours': 'adult males LEPZQ, 12 hours after treatment'
-  'adult males LEPZQ, 24 hours': 'adult males LEPZQ, 24 hours after treatment'
-  'adult males LEPZQ, 3 hours': 'adult males LEPZQ, 3 hours after treatment'
-  'adult males NMRI, 12 hours': 'adult males NMRI, 12 hours after treatment'
-  'adult males NMRI, 24 hours': 'adult males NMRI, 24 hours after treatment'
-  'adult males NMRI, 3 hours': 'adult males NMRI, 3 hours after treatment'
-  'adult males and females LE, 1 hour': 'adult males and females LE, 1 hour after treatment'
-  'adult males and females LE, 12 hours': 'adult males and females LE, 12 hours after treatment'
-  'adult males and females LE, 24 hours': 'adult males and females LE, 24 hours after treatment'
-  'adult males and females LE, 3 hours': 'adult males and females LE, 3 hours after treatment'
-  'adult males and females LEPZQ, 1 hour': 'adult males and females LEPZQ, 1 hour after treatment'
-  'adult males and females LEPZQ, 12 hours': 'adult males and females LEPZQ, 12 hours after treatment'
-  'adult males and females LEPZQ, 24 hours': 'adult males and females LEPZQ, 24 hours after treatment'
-  'adult males and females LEPZQ, 3 hours': 'adult males and females LEPZQ, 3 hours after treatment'
-  'adult males and females NMRI, 12 hours': 'adult males and females NMRI, 12 hours after treatment'
-  'adult males and females NMRI, 24 hours': 'adult males and females NMRI, 24 hours after treatment'
-  'adult males and females NMRI, 3 hours': 'adult males and females NMRI, 3 hours after treatment'
-  'adult males and females NMRI, 30 minutes': 'adult males and females NMRI, 30 minutes after treatment'
-  'juvenile males and females NMRI, 12 hours': 'juvenile males and females NMRI, 12 hours after treatment'
-  'juvenile males and females NMRI, 24 hours': 'juvenile males and females NMRI, 24 hours after treatment'
-  'juvenile males and females NMRI, 3 hours': 'juvenile males and females NMRI, 3 hours after treatment'
-  'juvenile males and females NMRI, 30 minutes': 'juvenile males and females NMRI, 30 minutes after treatment'
 contrasts:
   - name: timepoint+treatment
     values:
@@ -403,7 +365,10 @@ contrasts:
         - juvenile males and females NMRI
         - 'males and females NMRI: adult vs juvenile'
 description: 'The drug Praziquantel is the most commonly used drug for parasitic flatworms. It is currently being increasingly used in mass drug administration programmes, raising concerns over whether resistance will develop. Although widely used, its mode of action was until very recently uncertain. This study will investigate the praziquantel mode of action and resistance by sequencing the transcriptomes of Dugesia japonica and different stages and strains of S. mansoni.'
-pubmed: ~
-rnaseqer_last_update: 2018-07-04
+ena_first_public: 2013-05-13
+ena_last_update: 2015-04-14
+pubmed: {}
+resource_links: []
+rnaseqer_last_update: 2019-06-23
 submitting_centre: Wellcome Sanger Institute
 title: Praziquantel mode of action and resistance

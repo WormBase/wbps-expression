@@ -1,8 +1,6 @@
 ---
+bioproject: ''
 category: Life cycle
-condition_names:
-  24 hour schistosomule: 24 hour schistosomule post-infection
-  3 hour schistosomule: 3 hour schistosomule post-infection
 contrasts:
   - name: developmental_stage
     values:
@@ -19,10 +17,17 @@ contrasts:
         - Cercariae
         - 3 hour schistosomule vs Cercariae
 description: 'High-throughput sequencing of life stages and tissues of the flatworm Schistosoma mansoni to be used for further gene editing, gene finding and transcriptome analysis'
+ena_first_public: 2010-12-06
+ena_last_update: 2013-07-19
 pubmed:
   22253936:
     - 'Protasio .. Berriman, 2012'
     - 'A systematically improved high quality genome and transcriptome of the human blood fluke <i>Schistosoma mansoni</i>. (Protasio .. Berriman, 2012)'
-rnaseqer_last_update: 2018-06-27
+resource_links:
+  -
+    - ArrayExpress
+    - E-MTAB-451 in ArrayExpress
+    - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-451
+rnaseqer_last_update: 2019-06-23
 submitting_centre: Wellcome Sanger Institute
 title: Schistosoma mansoni transcriptomics at different life stages

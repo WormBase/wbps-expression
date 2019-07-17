@@ -1,37 +1,45 @@
-Run	Condition	concentration	organism_part	sex	strain	treatment
-SRR5170160	BH female		whole organism	female	BH	
-SRR5170161	BH female		whole organism	female	BH	
-SRR5170162	BH female		whole organism	female	BH	
-SRR5170157	BH female, GSK343 at 20uM	20uM	whole organism	female	BH	GSK343
-SRR5170158	BH female, GSK343 at 20uM	20uM	whole organism	female	BH	GSK343
-SRR5170159	BH female, GSK343 at 20uM	20uM	whole organism	female	BH	GSK343
-SRR5170166	BH male		whole organism	male	BH	
-SRR5170167	BH male		whole organism	male	BH	
-SRR5170168	BH male		whole organism	male	BH	
-SRR5170163	BH male, GSK343 at 20uM	20uM	whole organism	male	BH	GSK343
-SRR5170164	BH male, GSK343 at 20uM	20uM	whole organism	male	BH	GSK343
-SRR5170165	BH male, GSK343 at 20uM	20uM	whole organism	male	BH	GSK343
-SRR5170178	NMRI female		whole organism	female	NMRI	
-SRR5170179	NMRI female		whole organism	female	NMRI	
-SRR5170180	NMRI female		whole organism	female	NMRI	
-SRR5170175	NMRI female, TH65 at 05uM	05uM	whole organism	female	NMRI	TH65
-SRR5170176	NMRI female, TH65 at 05uM	05uM	whole organism	female	NMRI	TH65
-SRR5170177	NMRI female, TH65 at 05uM	05uM	whole organism	female	NMRI	TH65
-SRR5170172	NMRI female, TH65 at 10uM	10uM	whole organism	female	NMRI	TH65
-SRR5170173	NMRI female, TH65 at 10uM	10uM	whole organism	female	NMRI	TH65
-SRR5170174	NMRI female, TH65 at 10uM	10uM	whole organism	female	NMRI	TH65
-SRR5170169	NMRI female, TH65 at 20uM	20uM	whole organism	female	NMRI	TH65
-SRR5170170	NMRI female, TH65 at 20uM	20uM	whole organism	female	NMRI	TH65
-SRR5170171	NMRI female, TH65 at 20uM	20uM	whole organism	female	NMRI	TH65
-SRR5170190	NMRI male		whole organism	male	NMRI	
-SRR5170191	NMRI male		whole organism	male	NMRI	
-SRR5170192	NMRI male		whole organism	male	NMRI	
-SRR5170187	NMRI male, TH65 at 05uM	05uM	whole organism	male	NMRI	TH65
-SRR5170188	NMRI male, TH65 at 05uM	05uM	whole organism	male	NMRI	TH65
-SRR5170189	NMRI male, TH65 at 05uM	05uM	whole organism	male	NMRI	TH65
-SRR5170184	NMRI male, TH65 at 10uM	10uM	whole organism	male	NMRI	TH65
-SRR5170185	NMRI male, TH65 at 10uM	10uM	whole organism	male	NMRI	TH65
-SRR5170186	NMRI male, TH65 at 10uM	10uM	whole organism	male	NMRI	TH65
-SRR5170181	NMRI male, TH65 at 20uM	20uM	whole organism	male	NMRI	TH65
-SRR5170182	NMRI male, TH65 at 20uM	20uM	whole organism	male	NMRI	TH65
-SRR5170183	NMRI male, TH65 at 20uM	20uM	whole organism	male	NMRI	TH65
+Run	Condition	concentration	sex	strain	treatment
+SRR5170160	BH female		female	BH	
+SRR5170161	BH female		female	BH	
+SRR5170162	BH female		female	BH	
+SRR5170157	BH female, GSK343 at 20uM	20uM	female	BH	GSK343
+SRR5170158	BH female, GSK343 at 20uM	20uM	female	BH	GSK343
+SRR5170159	BH female, GSK343 at 20uM	20uM	female	BH	GSK343
+SRR5170166	BH male		male	BH	
+SRR5170167	BH male		male	BH	
+SRR5170168	BH male		male	BH	
+SRR5170163	BH male, GSK343 at 20uM	20uM	male	BH	GSK343
+SRR5170164	BH male, GSK343 at 20uM	20uM	male	BH	GSK343
+SRR5170165	BH male, GSK343 at 20uM	20uM	male	BH	GSK343
+SRR7496596	BH schistosomula			BH	
+SRR7496597	BH schistosomula			BH	
+SRR7496598	BH schistosomula			BH	
+SRR7496599	BH schistosomula			BH	
+SRR7496592	BH schistosomula, GSK343 at 20uM	20uM		BH	
+SRR7496593	BH schistosomula, GSK343 at 20uM	20uM		BH	
+SRR7496594	BH schistosomula, GSK343 at 20uM	20uM		BH	
+SRR7496595	BH schistosomula, GSK343 at 20uM	20uM		BH	
+SRR5170178	NMRI female		female	NMRI	
+SRR5170179	NMRI female		female	NMRI	
+SRR5170180	NMRI female		female	NMRI	
+SRR5170175	NMRI female, TH65 at 05uM	05uM	female	NMRI	TH65
+SRR5170176	NMRI female, TH65 at 05uM	05uM	female	NMRI	TH65
+SRR5170177	NMRI female, TH65 at 05uM	05uM	female	NMRI	TH65
+SRR5170172	NMRI female, TH65 at 10uM	10uM	female	NMRI	TH65
+SRR5170173	NMRI female, TH65 at 10uM	10uM	female	NMRI	TH65
+SRR5170174	NMRI female, TH65 at 10uM	10uM	female	NMRI	TH65
+SRR5170169	NMRI female, TH65 at 20uM	20uM	female	NMRI	TH65
+SRR5170170	NMRI female, TH65 at 20uM	20uM	female	NMRI	TH65
+SRR5170171	NMRI female, TH65 at 20uM	20uM	female	NMRI	TH65
+SRR5170190	NMRI male		male	NMRI	
+SRR5170191	NMRI male		male	NMRI	
+SRR5170192	NMRI male		male	NMRI	
+SRR5170187	NMRI male, TH65 at 05uM	05uM	male	NMRI	TH65
+SRR5170188	NMRI male, TH65 at 05uM	05uM	male	NMRI	TH65
+SRR5170189	NMRI male, TH65 at 05uM	05uM	male	NMRI	TH65
+SRR5170184	NMRI male, TH65 at 10uM	10uM	male	NMRI	TH65
+SRR5170185	NMRI male, TH65 at 10uM	10uM	male	NMRI	TH65
+SRR5170186	NMRI male, TH65 at 10uM	10uM	male	NMRI	TH65
+SRR5170181	NMRI male, TH65 at 20uM	20uM	male	NMRI	TH65
+SRR5170182	NMRI male, TH65 at 20uM	20uM	male	NMRI	TH65
+SRR5170183	NMRI male, TH65 at 20uM	20uM	male	NMRI	TH65

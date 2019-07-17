@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA338247
 category: Other
-condition_names: {}
 contrasts: []
-description: Life history responses and gene expression profiles of the nematode Pristionchus pacificus cultured on Cryptococcus yeasts
-pubmed: ~
-rnaseqer_last_update: 2018-06-28
+description: ''
+ena_first_public: 2017-01-16
+ena_last_update: 2017-07-19
+pubmed: {}
+resource_links: []
+rnaseqer_last_update: 2019-06-29
 submitting_centre: Max planck institute for developmental biology
 title: Life history responses and gene expression profiles of the nematode Pristionchus pacificus cultured on Cryptococcus yeasts

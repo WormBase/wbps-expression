@@ -1,6 +1,6 @@
 ---
+bioproject: ''
 category: Other
-condition_names: {}
 contrasts:
   - name: developmental_stage
     values:
@@ -9,7 +9,10 @@ contrasts:
         - second stage sporocyst
         - miracidia vs second stage sporocyst
 description: 'High-throughput sequencing of life stages and tissues of the flatworm Schistosoma mansoni will be used for further gene editing, gene finding and transcriptome analysis.. '
-pubmed: ~
-rnaseqer_last_update: 2018-06-27
+ena_first_public: 2016-10-05
+ena_last_update: 2016-10-05
+pubmed: {}
+resource_links: []
+rnaseqer_last_update: 2019-06-24
 submitting_centre: Wellcome Sanger Institute
 title: 'High throughput sequencing of life stages tissues of Schistosoma mansoni '

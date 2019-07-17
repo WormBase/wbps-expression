@@ -289,6 +289,7 @@ my %treatment_categories = (
   irradiation => 1,
   plane_of_amputation => 1,
   rnai_feedings => 1,
+  culture_conditions => 1,
 );
 sub category {
   my ($design, $contrasts) = @_;

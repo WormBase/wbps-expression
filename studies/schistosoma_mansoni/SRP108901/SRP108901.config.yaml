@@ -1,12 +1,15 @@
 ---
+bioproject: PRJNA389649
 category: Other
-condition_names: {}
 contrasts: []
-description: 'Schistosoma mansoni strain LE - Transcriptome or Gene expression'
+description: ''
+ena_first_public: 2017-07-25
+ena_last_update: 2017-07-25
 pubmed:
   28753630:
     - 'Augusto .. Grunau, 2017'
     - 'Double impact: natural molluscicide for schistosomiasis vector control also impedes development of <i>Schistosoma mansoni</i> cercariae into adult parasites. (Augusto .. Grunau, 2017)'
-rnaseqer_last_update: 2018-06-30
+resource_links: []
+rnaseqer_last_update: 2019-07-09
 submitting_centre: University of Perpignan
 title: 'Schistosoma mansoni strain LE - Transcriptome or Gene expression'

@@ -44,7 +44,7 @@ sub get_results_by_study {
     my ($rnaseqer_last_update, $assembly_used) = date_and_value_for_newest_key(map {
        $_->{LAST_PROCESSED_DATE} => $_->{ASSEMBLY_USED}
     } @runs);
-    if ($rnaseqer_last_update lt "2019-07-15" && $rnaseqer_last_update gt "2019-04-15" && grep {$study_id eq $_} qw/SRP174213 SRP175031 SRP140708/){
+    if ($rnaseqer_last_update lt "2019-07-15" && $rnaseqer_last_update gt "2019-04-15" && grep {$study_id eq $_} qw/SRP174213 SRP175031 SRP140708 SRP179824 SRP140458/){
        # On 2019-07-08 we've copied all data for which the last update date is after 2019-04-15, but still has htseq rather than feature counts.
        # If it's year 2020, check the two studies and remove this.
        $rnaseqer_last_update = "2019-04-01";

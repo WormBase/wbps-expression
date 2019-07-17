@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA306868
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2016-05-12
+ena_last_update: 2017-06-21
+pubmed:
+  27197225:
+    - 'Li .. Zhao, 2016'
+    - 'Specific down-regulation of spermatogenesis genes targeted by 22G RNAs in hybrid sterile males associated with an X-Chromosome introgression. (Li .. Zhao, 2016)'
+resource_links: []
+rnaseqer_last_update: 2019-06-25
+submitting_centre: Hong Kong Baptist University
+title: Analysis of Hybrid Incompatability between C nigoni and C briggsae by mRNA sequencing

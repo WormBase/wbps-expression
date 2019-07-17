@@ -1,18 +1,21 @@
 ---
+bioproject: ''
 category: Other
-condition_names: ~
 contrasts: []
 description: 'In this study, we generated a cross between the P. pacificus reference strain (PS312) and an isolate from la Reuinion and geneotyped the resulting offspring after inbreeding of 10 generations by means of RNA-seq.This data can be used to map phenotypic differences between both parental strains, perform expression qtl analysis and to create a novel high-resolution genetic linkage map for P. pacificus.'
+ena_first_public: 2017-04-24
+ena_last_update: 2017-04-21
 pubmed:
   25548084:
     - 'Witte .. Sommer, 2015'
-    - 'Gene inactivation using the CRISPR/Cas9 system in the nematode Pristionchus pacificus. (Witte .. Sommer, 2015)'
+    - 'Gene inactivation using the CRISPR/Cas9 system in the nematode <i>Pristionchus pacificus</i>. (Witte .. Sommer, 2015)'
   26888028:
     - 'Moreno .. Sommer, 2016'
-    - 'Oxygen-induced social behaviours in Pristionchus pacificus have a distinct evolutionary history and genetic regulation from Caenorhabditis elegans. (Moreno .. Sommer, 2016)'
+    - 'Oxygen-induced social behaviours in <i>Pristionchus pacificus</i> have a distinct evolutionary history and genetic regulation from Caenorhabditis elegans. (Moreno .. Sommer, 2016)'
   27189551:
     - 'McGaughran .. Sommer, 2016'
     - 'Genomic Profiles of Diversification and Genotype-Phenotype Association in Island Nematode Lineages. (McGaughran .. Sommer, 2016)'
-rnaseqer_last_update: 2018-06-27
+resource_links: []
+rnaseqer_last_update: 2019-06-24
 submitting_centre: MAX PLANCK INSTITUTE FOR DEVELOPMENTAL BIOLOGY
 title: Genotyping of recombinant inbred lines of the nematode Pristionchus pacificus by RNA-seq

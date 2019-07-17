@@ -1,9 +1,12 @@
 ---
+bioproject: PRJNA247810
 category: Other
-condition_names: ~
 contrasts: []
-description: Schistosoma mansoni Transcriptome or Gene expression
-pubmed: ~
-rnaseqer_last_update: 2018-06-27
+description: ''
+ena_first_public: 2014-06-03
+ena_last_update: 2017-06-16
+pubmed: {}
+resource_links: []
+rnaseqer_last_update: 2019-06-25
 submitting_centre: The Genome Institute
 title: Schistosoma mansoni Transcriptome or Gene expression

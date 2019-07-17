@@ -35,6 +35,9 @@ my $pubmed_curated_ids = {
     SRP109232 => [29230237],
     SRP152065 => [30486772],
   },
+  mesocestoides_corti => {
+    SRP133301 => [30797776],
+  },
   schistosoma_mansoni => {
     ERP000427 => [22253936],
     ERP014584 => [28542189],
