@@ -1,7 +1,13 @@
 ---
 bioproject: ''
 category: Other
-contrasts: []
+contrasts:
+  - name: developmental_stage
+    values:
+      -
+        - L3
+        - adult
+        - L3 vs adult
 description: ''
 ena_first_public: 2013-05-28
 ena_last_update: 2012-11-29
