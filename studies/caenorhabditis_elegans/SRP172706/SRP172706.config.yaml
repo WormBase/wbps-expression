@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA508724
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-02-09
+ena_last_update: 2019-03-28
+pubmed:
+  30894520:
+    - 'Kaneshiro .. Strome, 2019'
+    - 'Sperm-inherited H3K27me3 impacts offspring transcription and development in <i>C. elegans</i>. (Kaneshiro .. Strome, 2019)'
+resource_links: []
+rnaseqer_last_update: 2019-07-09
+submitting_centre: 'MCD Biology, UC Santa Cruz'
+title: 'RNA-seq transcriptome profiling of hybrid (hawaii mother and bristol father) C. elegans H3K27me3 M+P+ vs. M+P- hermaphrodite germlines'

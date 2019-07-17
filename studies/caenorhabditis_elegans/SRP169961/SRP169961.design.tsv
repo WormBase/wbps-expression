@@ -1,0 +1,10 @@
+Run	Condition	description_title	facs_sort	organism_part	sample_name	developmental_stage	sex	strain
+SRR8217944	SGP1	L1 hermaphrodite SGP, replicate 1	1	sgp	SGP1	L1	hermaphrodite	RA587
+SRR8217943	SGP2	L1 hermaphrodite SGP, replicate 2	2	sgp	SGP2	L1	hermaphrodite	RA587
+SRR8217946	SGP3	L1 hermaphrodite SGP, replicate 3	3	sgp	SGP3	L1	hermaphrodite	RA587
+SRR8217945	SGP4	L1 hermaphrodite SGP, replicate 4	4	sgp	SGP4	L1	hermaphrodite	RA587
+SRR8217940	SGP5	L1 hermaphrodite SGP, replicate 5	5	sgp	SGP5	L1	hermaphrodite	RA587
+SRR8217939	hmc1	L1 hermaphrodite hmc, replicate 1	1	hmc	hmc1	L1	hermaphrodite	RA587
+SRR8217942	hmc2	L1 hermaphrodite hmc, replicate 2	2	hmc	hmc2	L1	hermaphrodite	RA587
+SRR8217941	hmc3	L1 hermaphrodite hmc, replicate 3	3	hmc	hmc3	L1	hermaphrodite	RA587
+SRR8217947	hmc4	L1 hermaphrodite hmc, replicate 4	4	hmc	hmc4	L1	hermaphrodite	RA587

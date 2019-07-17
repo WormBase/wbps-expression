@@ -11,6 +11,6 @@ resource_links:
     - ArrayExpress
     - E-MTAB-4172 in ArrayExpress
     - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-4172
-rnaseqer_last_update: 2017-12-24
+rnaseqer_last_update: 2019-06-23
 submitting_centre: 'European Research Institute for the Biology of Ageing (ERIBA), University of Groningen, UMC Groningen'
 title: Functional sequestration of MOAG-2/LIR-3 by polyglutamine expansion proteins

@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA510076
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2018-12-18
+ena_last_update: 2019-03-20
+pubmed:
+  30595472:
+    - 'Dzakah .. Shan, 2018'
+    - 'Loss of miR-83 extends lifespan and affects target gene expression in an age-dependent manner in <i>Caenorhabditis elegans</i>. (Dzakah .. Shan, 2018)'
+resource_links: []
+rnaseqer_last_update: 2019-07-09
+submitting_centre: 'School of Life Sciences, University of Science and Technology of China'
+title: Loss of miR-83 extends lifespan and affects target gene expression in an age-dependent manner in Caenorhabditis elegans

@@ -1,0 +1,16 @@
+Run	Condition	description_title	genotype	source_name
+SRR7281439	SRR7281439	Ctrl rep1	wild type	Ctrl rep1
+SRR7281440	SRR7281440	Ctrl rep2	wild type	Ctrl rep2
+SRR7281441	SRR7281441	Ctrl rep3	wild type	Ctrl rep3
+SRR7281442	SRR7281442	Efa6 KO rep1	Efa6-/-	Efa6 KO rep1
+SRR7281443	SRR7281443	Efa6 KO rep2	Efa6-/-	Efa6 KO rep2
+SRR7281444	SRR7281444	Efa6 KO rep3	Efa6-/-	Efa6 KO rep3
+SRR7281445	SRR7281445	Hdac6 KO rep1	Hdac6-/-	Hdac6 KO rep1
+SRR7281446	SRR7281446	Hdac6 KO rep2	Hdac6-/-	Hdac6 KO rep2
+SRR7281447	SRR7281447	Hdac6 KO rep3	Hdac6-/-	Hdac6 KO rep3
+SRR7281448	SRR7281448	Ptl1 KO rep1	Ptl1-/-	Ptl1 KO rep1
+SRR7281449	SRR7281449	Ptl1 KO rep2	Ptl1-/-	Ptl1 KO rep2
+SRR7281450	SRR7281450	Ptl1 KO rep3	Ptl1-/-	Ptl1 KO rep3
+SRR7281451	SRR7281451	Ptrn1 KO rep1	Ptrn1-/-	Ptrn1 KO rep1
+SRR7281452	SRR7281452	Ptrn1 KO rep2	Ptrn1-/-	Ptrn1 KO rep2
+SRR7281453	SRR7281453	Ptrn1 KO rep3	Ptrn1-/-	Ptrn1 KO rep3

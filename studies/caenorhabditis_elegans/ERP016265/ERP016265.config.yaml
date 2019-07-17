@@ -11,6 +11,6 @@ resource_links:
     - ArrayExpress
     - E-MTAB-4866 in ArrayExpress
     - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-4866
-rnaseqer_last_update: 2017-12-24
+rnaseqer_last_update: 2019-06-23
 submitting_centre: Department of Biochemistry and Molecular Biology University of Southern Denmark
 title: Splicing factor 1 modulates dietary restriction and TORC1 pathway longevity in C. elegans

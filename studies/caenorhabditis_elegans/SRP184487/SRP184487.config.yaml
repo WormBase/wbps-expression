@@ -1,0 +1,28 @@
+---
+bioproject: PRJNA521332
+category: Response to treatment
+contrasts:
+  - name: treatment
+    values:
+      -
+        - nhr-69 deletion mutant under control conditions
+        - nhr-69 deletion mutant under test conditions
+        - nhr-69 deletion mutant under control conditions vs nhr-69 deletion mutant under test conditions
+  - name: strain
+    values:
+      -
+        - N2 Bristol variety under control conditions
+        - nhr-69 deletion mutant under control conditions
+        - N2 Bristol variety under control conditions vs nhr-69 deletion mutant under control conditions
+      -
+        - N2 Bristol variety under test conditions
+        - nhr-69 deletion mutant under test conditions
+        - N2 Bristol variety under test conditions vs nhr-69 deletion mutant under test conditions
+description: ''
+ena_first_public: 2019-02-14
+ena_last_update: 2019-02-14
+pubmed: {}
+resource_links: []
+rnaseqer_last_update: 2019-07-09
+submitting_centre: 'Prof. Paul, Institute of Zoophysiology, University of Muenster'
+title: Steroids originating from bacterial bile acid degradation affect Caenorhabditis elegans and indicate potential risks for the fauna of manured soils

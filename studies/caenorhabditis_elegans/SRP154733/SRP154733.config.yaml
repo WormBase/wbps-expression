@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA482253
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-04-28
+ena_last_update: 2019-07-04
+pubmed:
+  31175278:
+    - 'Delaney .. Steiner, 2019'
+    - 'H3.3K27M-induced chromatin changes drive ectopic replication through misregulation of the JNK pathway in <i>C. elegans</i>. (Delaney .. Steiner, 2019)'
+resource_links: []
+rnaseqer_last_update: 2019-07-08
+submitting_centre: 'Steiner, Department of Molecular Biology, University of Geneva'
+title: 'Local inhibition of PRC2 activity by histone H3.3K27M drives replication defects through misregulation of the JNK pathway [RNA-seq]'

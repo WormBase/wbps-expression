@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA491191
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-05-30
+ena_last_update: 2019-05-30
+pubmed:
+  30894454:
+    - 'Sural .. Hsu, 2019'
+    - 'HSB-1 Inhibition and HSF-1 Overexpression Trigger Overlapping Transcriptional Changes To Promote Longevity in <i>Caenorhabditis elegans</i>. (Sural .. Hsu, 2019)'
+resource_links: []
+rnaseqer_last_update: 2019-07-08
+submitting_centre: 'DCM&B, University of Michigan'
+title: Comparison of gene expression in the long-lived hsb-1 mutant and hsf-1 overexpression C. elegans strains

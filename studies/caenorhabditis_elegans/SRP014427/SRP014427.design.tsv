@@ -1,8 +1,7 @@
-Run	Condition	developmental_stage	organism_part	sex	strain
-SRR522152	L1 larva Ce	L1 larva Ce	organism	hermaphrodite	N2
-SRR522896	L1 larva Ce	L1 larva Ce	organism	hermaphrodite	N2
-SRR522881	L2 larva Ce	L2 larva Ce	organism	hermaphrodite	N2
-SRR522890	L2 larva Ce	L2 larva Ce	organism	hermaphrodite	N2
-SRR522892	L2 larva Ce	L2 larva Ce	organism	hermaphrodite	N2
-SRR522151	L4 larva Ce	L4 larva Ce	organism	hermaphrodite	N2
-SRR522153	L4 larva Ce	L4 larva Ce	organism	hermaphrodite	N2
+Run	Condition	developmental_stage
+SRR522152	L1	L1
+SRR522896	L1	L1
+SRR522881	L2	L2
+SRR522890	L2	L2
+SRR522151	L4	L4
+SRR522153	L4	L4

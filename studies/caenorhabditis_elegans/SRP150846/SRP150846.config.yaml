@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA476764
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-04-12
+ena_last_update: 2019-06-02
+pubmed:
+  31118512:
+    - 'Cabianca .. Gasser, 2019'
+    - 'Active chromatin marks drive spatial sequestration of heterochromatin in <i>C. elegans</i> nuclei. (Cabianca .. Gasser, 2019)'
+resource_links: []
+rnaseqer_last_update: 2019-07-08
+submitting_centre: Friedrich Miescher Institute
+title: Gene expression changes in mrg-1 mutant L1 larvae compared to wild type.

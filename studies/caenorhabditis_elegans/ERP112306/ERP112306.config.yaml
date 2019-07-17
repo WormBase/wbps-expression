@@ -11,6 +11,6 @@ resource_links:
     - ArrayExpress
     - E-MTAB-7420 in ArrayExpress
     - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-7420
-rnaseqer_last_update: 2019-03-08
+rnaseqer_last_update: 2019-06-23
 submitting_centre: 'Institute of Pharmaceutical Sciences, ETH Zurich'
 title: CLIP-seq analysis of C.elegans MINA-1::GFP transgenic animals.

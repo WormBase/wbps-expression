@@ -1,0 +1,19 @@
+Run	Condition	allele	compound	description_title	genotype	strain	developmental_stage	source_name
+SRR8308157	SRR8308157	wild type		N2_OP50_rep1	wild type	N2	L4	whole animal
+SRR8308158	SRR8308158	wild type		N2_OP50_rep2	wild type	N2	L4	whole animal
+SRR8308159	SRR8308159	wild type	20 nM vitamin B12	N2_B12_rep1	wild type	N2	L4	whole animal
+SRR8308160	SRR8308160	wild type	20 nM vitamin B12	N2_B12_rep2	wild type	N2	L4	whole animal
+SRR8308161	SRR8308161	wild type	20 nM vitamin B12 and 40 mM propionate	N2_B12-PA_rep1	wild type	N2	L4	whole animal
+SRR8308162	SRR8308162	wild type	20 nM vitamin B12 and 40 mM propionate	N2_B12-PA_rep2	wild type	N2	L4	whole animal
+SRR8308163	SRR8308163	tm4695		nhr10_OP50_rep1	nhr-10 deletion		L4	whole animal
+SRR8308164	SRR8308164	tm4695		nhr10_OP50_rep2	nhr-10 deletion		L4	whole animal
+SRR8308165	SRR8308165	tm4695	20 nM vitamin B12	nhr10_B12_rep1	nhr-10 deletion		L4	whole animal
+SRR8308166	SRR8308166	tm4695	20 nM vitamin B12	nhr10_B12_rep2	nhr-10 deletion		L4	whole animal
+SRR8308167	SRR8308167	tm4695	20 nM vitamin B12 and 40 mM propionate	nhr10_B12-PA_rep1	nhr-10 deletion		L4	whole animal
+SRR8308168	SRR8308168	tm4695	20 nM vitamin B12 and 40 mM propionate	nhr10_B12-PA_rep2	nhr-10 deletion		L4	whole animal
+SRR8308169	SRR8308169	gk708		nhr68_OP50_rep1	nhr-68 deletion	VC1527	L4	whole animal
+SRR8308170	SRR8308170	gk708		nhr68_OP50_rep2	nhr-68 deletion	VC1527	L4	whole animal
+SRR8308171	SRR8308171	gk708	20 nM vitamin B12	nhr68_B12_rep1	nhr-68 deletion	VC1527	L4	whole animal
+SRR8308172	SRR8308172	gk708	20 nM vitamin B12	nhr68_B12_rep2	nhr-68 deletion	VC1527	L4	whole animal
+SRR8308173	SRR8308173	gk708	20 nM vitamin B12 and 40 mM propionate	nhr68_B12-PA_rep1	nhr-68 deletion	VC1527	L4	whole animal
+SRR8308174	SRR8308174	gk708	20 nM vitamin B12 and 40 mM propionate	nhr68_B12-PA_rep2	nhr-68 deletion	VC1527	L4	whole animal

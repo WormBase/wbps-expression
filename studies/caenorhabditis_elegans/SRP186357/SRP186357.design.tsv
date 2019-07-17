@@ -1,0 +1,7 @@
+Run	Condition	breed	isolate	isolation_source	sample_name	collection_date	description_title	geographic_location	organism_part
+SRR8594839	N2_rep1	repeat1	wild type	N2	N2_rep1	2017-11-03	Invertebrate sample from Caenorhabditis elegans	China	whole organism
+SRR8594840	N2_rep2	repeat2	wild type	N2	N2_rep2	2017-11-03	Invertebrate sample from Caenorhabditis elegans	China	whole organism
+SRR8594837	N2_rep3	repeat3	wild type	N2	N2_rep3	2017-11-03	Invertebrate sample from Caenorhabditis elegans	China	whole organism
+SRR8594838	fzo-1_rep1	repeat1	mutant	tm1133	fzo-1_rep1	2017-11-03	Invertebrate sample from Caenorhabditis elegans	China	whole organism
+SRR8594841	fzo-1_rep2	repeat2	mutant	tm1133	fzo-1_rep2	2017-11-03	Invertebrate sample from Caenorhabditis elegans	China	whole organism
+SRR8594842	fzo-1_rep3	repeat3	mutant	tm1133	fzo-1_rep3	2017-11-03	Invertebrate sample from Caenorhabditis elegans	China	whole organism

@@ -1,0 +1,55 @@
+Run	Condition	developmental_stage	generation	genotype	sample_name	sex	strain	description_title	organism_part
+SRR8081064	Mutant F1 rep1	Young Adult	F3	dpy-4(e1166);gtsf-1(xf43) IV	Mutant F1 rep1	hermaphrodite	Derived from cross of N2 with RKF457.	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081060	Mutant F1 rep2	Young Adult	F3	dpy-4(e1166);gtsf-1(xf43) IV	Mutant F1 rep2	hermaphrodite	Derived from cross of N2 with RKF457.	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081070	Mutant F1 rep3	Young Adult	F3	dpy-4(e1166);gtsf-1(xf43) IV	Mutant F1 rep3	hermaphrodite	Derived from cross of N2 with RKF457.	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081067	Mutant F1 rep4	Young Adult	F3	dpy-4(e1166);gtsf-1(xf43) IV	Mutant F1 rep4	hermaphrodite	Derived from cross of N2 with RKF457.	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081066	Mutant F2 rep1	Young Adult	F4	dpy-4(e1166);gtsf-1(xf43) IV	Mutant F2 rep1	hermaphrodite	Derived from cross of N2 with RKF457.	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081073	Mutant F2 rep2	Young Adult	F4	dpy-4(e1166);gtsf-1(xf43) IV	Mutant F2 rep2	hermaphrodite	Derived from cross of N2 with RKF457.	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081072	Mutant F2 rep3	Young Adult	F4	dpy-4(e1166);gtsf-1(xf43) IV	Mutant F2 rep3	hermaphrodite	Derived from cross of N2 with RKF457.	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081106	Mutant F2 rep4	Young Adult	F4	dpy-4(e1166);gtsf-1(xf43) IV	Mutant F2 rep4	hermaphrodite	Derived from cross of N2 with RKF457.	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081103	N2 L1 rep1	L1		N2 wild-type	N2 L1 rep1	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081078	N2 L1 rep2	L1		N2 wild-type	N2 L1 rep2	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081099	N2 L1 rep3	L1		N2 wild-type	N2 L1 rep3	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081080	N2 L2 rep1	L2		N2 wild-type	N2 L2 rep1	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081079	N2 L2 rep2	L2		N2 wild-type	N2 L2 rep2	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081054	N2 L2 rep3	L2		N2 wild-type	N2 L2 rep3	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081030	N2 L3 rep1	L3		N2 wild-type	N2 L3 rep1	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081051	N2 L3 rep2	L3		N2 wild-type	N2 L3 rep2	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081052	N2 L3 rep3	L3		N2 wild-type	N2 L3 rep3	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081096	N2 L4 rep1	L4		N2 wild-type	N2 L4 rep1	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081053	N2 L4 rep2	L4		N2 wild-type	N2 L4 rep2	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081094	N2 L4 rep3	L4		N2 wild-type	N2 L4 rep3	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081100	N2 YA rep1	Young Adult		N2 wild-type	N2 YA rep1	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081055	N2 YA rep2	Young Adult		N2 wild-type	N2 YA rep2	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081056	N2 YA rep3	Young Adult		N2 wild-type	N2 YA rep3	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081075	N2 embryo rep1	Embryo		N2 wild-type	N2 embryo rep1	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081074	N2 embryo rep2	Embryo		N2 wild-type	N2 embryo rep2	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081102	N2 embryo rep3	Embryo		N2 wild-type	N2 embryo rep3	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081044	Wild-type rep1	Young Adult	F3	dpy-4(e1166)/+;gtsf-1(xf43)/+ or +/+; +/+	Wild-type rep1	hermaphrodite	Derived from cross of N2 with RKF457.	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081045	Wild-type rep2	Young Adult	F3	dpy-4(e1166)/+;gtsf-1(xf43)/+ or +/+; +/+	Wild-type rep2	hermaphrodite	Derived from cross of N2 with RKF457.	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081032	Wild-type rep3	Young Adult	F3	dpy-4(e1166)/+;gtsf-1(xf43)/+ or +/+; +/+	Wild-type rep3	hermaphrodite	Derived from cross of N2 with RKF457.	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081035	Wild-type rep4	Young Adult	F3	dpy-4(e1166)/+;gtsf-1(xf43)/+ or +/+; +/+	Wild-type rep4	hermaphrodite	Derived from cross of N2 with RKF457.	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081068	him-5 rep1	adult		him-5(e1467)	him-5 rep1	male	CB1467	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081071	him-5 rep2	adult		him-5(e1467)	him-5 rep2	male	CB1467	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081069	him-5 rep3	adult		him-5(e1467)	him-5 rep3	male	CB1467	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081061	him-5;gtsf-1 rep1	adult		him-5(e1467); gtsf-1(xf43)	him-5;gtsf-1 rep1	male	RFK499	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081062	him-5;gtsf-1 rep2	adult		him-5(e1467); gtsf-1(xf43)	him-5;gtsf-1 rep2	male	RFK499	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081063	him-5;gtsf-1 rep3	adult		him-5(e1467); gtsf-1(xf43)	him-5;gtsf-1 rep3	male	RFK499	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081093	rrf3 L1 rep1	L1		rrf-3(pk1426)	rrf3 L1 rep1	hermaphrodite	RFK18	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081092	rrf3 L1 rep2	L1		rrf-3(pk1426)	rrf3 L1 rep2	hermaphrodite	RFK18	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081091	rrf3 L1 rep3	L1		rrf-3(pk1426)	rrf3 L1 rep3	hermaphrodite	RFK18	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081090	rrf3 L2 rep1	L2		rrf-3(pk1426)	rrf3 L2 rep1	hermaphrodite	RFK18	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081089	rrf3 L2 rep2	L2		rrf-3(pk1426)	rrf3 L2 rep2	hermaphrodite	RFK18	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081088	rrf3 L2 rep3	L2		rrf-3(pk1426)	rrf3 L2 rep3	hermaphrodite	RFK18	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081087	rrf3 L3 rep1	L3		rrf-3(pk1426)	rrf3 L3 rep1	hermaphrodite	RFK18	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081101	rrf3 L3 rep2	L3		rrf-3(pk1426)	rrf3 L3 rep2	hermaphrodite	RFK18	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081098	rrf3 L3 rep3	L3		rrf-3(pk1426)	rrf3 L3 rep3	hermaphrodite	RFK18	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081050	rrf3 L4 rep1	L4		rrf-3(pk1426)	rrf3 L4 rep1	hermaphrodite	RFK18	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081097	rrf3 L4 rep2	L4		rrf-3(pk1426)	rrf3 L4 rep2	hermaphrodite	RFK18	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081048	rrf3 L4 rep3	L4		rrf-3(pk1426)	rrf3 L4 rep3	hermaphrodite	RFK18	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081049	rrf3 YA rep1	Young Adult		rrf-3(pk1426)	rrf3 YA rep1	hermaphrodite	RFK18	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081034	rrf3 YA rep2	Young Adult		rrf-3(pk1426)	rrf3 YA rep2	hermaphrodite	RFK18	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081059	rrf3 YA rep3	Young Adult		rrf-3(pk1426)	rrf3 YA rep3	hermaphrodite	RFK18	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081057	rrf3 embryo rep1	Embryo		rrf-3(pk1426)	rrf3 embryo rep1	hermaphrodite	RFK18	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081058	rrf3 embryo rep2	Embryo		rrf-3(pk1426)	rrf3 embryo rep2	hermaphrodite	RFK18	Model organism or animal sample from Caenorhabditis elegans	whole organism
+SRR8081095	rrf3 embryo rep3	Embryo		rrf-3(pk1426)	rrf3 embryo rep3	hermaphrodite	RFK18	Model organism or animal sample from Caenorhabditis elegans	whole organism

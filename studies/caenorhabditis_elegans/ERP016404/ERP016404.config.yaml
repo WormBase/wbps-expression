@@ -11,6 +11,6 @@ resource_links:
     - ArrayExpress
     - E-MTAB-4714 in ArrayExpress
     - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-4714
-rnaseqer_last_update: 2019-03-08
+rnaseqer_last_update: 2019-06-26
 submitting_centre: University of Fribourg Biology department Zoology institute
 title: 'RNA-Seq of Caenorhabditis elegans Mi2-depleted embryos at 24- and 100-cell stages'

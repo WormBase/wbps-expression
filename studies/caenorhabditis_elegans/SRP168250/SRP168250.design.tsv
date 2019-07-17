@@ -1,0 +1,13 @@
+Run	Condition	description_title	strain	source_name
+SRR8176673	SRR8176673	RNA_N2_eemb_20oC_rep1	N2 (Bristol)	early embryo
+SRR8176674	SRR8176674	RNA_N2_eemb_20oC_rep2	N2 (Bristol)	early embryo
+SRR8176675	SRR8176675	RNA_N2_eemb_20oC_rep3	N2 (Bristol)	early embryo
+SRR8176676	SRR8176676	RNA_met-2_eemb_20oC_rep1	met-2(n4256) III	early embryo
+SRR8176677	SRR8176677	RNA_met-2_eemb_20oC_rep2	met-2(n4256) III	early embryo
+SRR8176678	SRR8176678	RNA_met-2_eemb_20oC_rep3	met-2(n4256) III	early embryo
+SRR8176679	SRR8176679	RNA_lin-65_eemb_20oC_rep1	lin-65(delta) I	early embryo
+SRR8176680	SRR8176680	RNA_lin-65_eemb_20oC_rep2	lin-65(delta) I	early embryo
+SRR8176681	SRR8176681	RNA_lin-65_eemb_20oC_rep3	lin-65(delta) I	early embryo
+SRR8176682	SRR8176682	RNA_lin-65_met-2_eemb_20oC_rep1	lin-65(delta) I, met-2(n4256) III	early embryo
+SRR8176683	SRR8176683	RNA_lin-65_met-2_eemb_20oC_rep2	lin-65(delta) I, met-2(n4256) III	early embryo
+SRR8176684	SRR8176684	RNA_lin-65_met-2_eemb_20oC_rep3	lin-65(delta) I, met-2(n4256) III	early embryo

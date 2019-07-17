@@ -1,6 +1,10 @@
 Run	Condition	description_title	developmental_stage	organism_part	source_name	strain
 SRR1979419	SRR1979419	N2 rep1	young adult	whole organism	N2 rep1	N2
+SRR1979420	SRR1979420	N2 rep2	young adult	whole organism	N2 rep2	N2
+SRR1979421	SRR1979421	N2 rep3	young adult	whole organism	N2 rep3	N2
 SRR1979422	SRR1979422	gld-2 rep1	young adult	whole organism	gld-2 rep1	gld-2(q497)
+SRR1979423	SRR1979423	gld-2 rep2	young adult	whole organism	gld-2 rep2	gld-2(q497)
+SRR1979424	SRR1979424	gld-2 rep3	young adult	whole organism	gld-2 rep3	gld-2(q497)
 SRR1979425	SRR1979425	cbp-3 rep1	young adult	whole organism	cbp-3 rep1	YM19 cpb-3(bt17)
 SRR1979426	SRR1979426	cbp-3 rep2	young adult	whole organism	cbp-3 rep2	YM19 cpb-3(bt17)
 SRR1979427	SRR1979427	cbp-3 rep3	young adult	whole organism	cbp-3 rep3	YM19 cpb-3(bt17)
@@ -10,9 +14,11 @@ SRR1979430	SRR1979430	gld-2 (parn-1 RNAi) rep1	young adult	whole organism	gld-2 
 SRR1979431	SRR1979431	gld-2 (parn-1 RNAi) rep2	young adult	whole organism	gld-2 (parn-1 RNAi) rep2	gld-2(q497)
 SRR1979432	SRR1979432	gld-2 (caf-1 RNAi) rep1	young adult	whole organism	gld-2 caf-1 RNAi) rep1	gld-2(q497)
 SRR1979433	SRR1979433	gld-2 (caf-1 RNAi) rep2	young adult	whole organism	gld-2 (caf-1 RNAi) rep2	gld-2(q497)
+SRR1979434	SRR1979434	gld-2 (panl-2 RNAi) rep1	young adult	whole organism	gld-2 (panl-2 RNAi) rep1	gld-2(q497)
 SRR1979435	SRR1979435	gld-2 (panl-2 RNAi) rep2	young adult	whole organism	gld-2 (panl-2 RNAi) rep2	gld-2(q497)
 SRR1979436	SRR1979436	gld-2 (ccf-1 RNAi) rep1	young adult	whole organism	gld-2 (ccf-1 RNAi) rep1	gld-2(q497)
 SRR1979437	SRR1979437	gld-2 (ccf-1 RNAi) rep2	young adult	whole organism	gld-2 (ccf-1 RNAi) rep2	gld-2(q497)
 SRR1979438	SRR1979438	gld-2 (ccr-4 RNAi) rep1	young adult	whole organism	gld-2 (ccr-4 RNAi) rep1	gld-2(q497)
 SRR1979439	SRR1979439	gld-2 (ccr-4 RNAi) rep2	young adult	whole organism	gld-2 (ccr-4 RNAi) rep2	gld-2(q497)
 SRR1979440	SRR1979440	1+2 cell egg rep1	One and two cell embryos	embryo	1+2 cell egg rep1	N2
+SRR1979441	SRR1979441	1+2 cell egg rep2	One and two cell embryos	embryo	1+2 cell egg rep2	N2

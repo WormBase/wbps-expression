@@ -11,6 +11,6 @@ resource_links:
     - ArrayExpress
     - E-MTAB-7389 in ArrayExpress
     - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-7389
-rnaseqer_last_update: 2019-02-20
+rnaseqer_last_update: 2019-06-23
 submitting_centre: 'University Children’s Hospital Basel, University of Basel, Spitalstrasse 33, 4056 Basel, Switzerland'
 title: RNA-seq analysis of C. elegans mina-1 mutants

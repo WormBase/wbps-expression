@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA514750
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-01-26
+ena_last_update: 2019-03-01
+pubmed:
+  30788345:
+    - 'Hastings .. Casanueva, 2019'
+    - 'Multi-Omics and Genome-Scale Modeling Reveal a Metabolic Shift During <i>C. elegans</i> Aging. (Hastings .. Casanueva, 2019)'
+resource_links: []
+rnaseqer_last_update: 2019-07-09
+submitting_centre: 'Bioinformatics, The Babraham Institute'
+title: Multi-omics and genome-scale modeling reveal a metabolic shift during C. elegans ageing

@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA506829
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2018-11-29
+ena_last_update: 2019-02-27
+pubmed:
+  30773782:
+    - 'Li .. Dong, 2019'
+    - 'DAF-16 stabilizes the aging transcriptome and is activated in mid-aged <i>Caenorhabditis elegans</i> to cope with internal stress. (Li .. Dong, 2019)'
+resource_links: []
+rnaseqer_last_update: 2019-07-09
+submitting_centre: National Institute of Biological Sciences
+title: DAF-16 stabilizes the aging transcriptome and is activated in mid-aged C. elegans to cope with internal stress

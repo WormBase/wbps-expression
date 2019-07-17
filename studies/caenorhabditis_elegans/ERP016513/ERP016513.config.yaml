@@ -11,6 +11,6 @@ resource_links:
     - ArrayExpress
     - E-MTAB-4940 in ArrayExpress
     - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-4940
-rnaseqer_last_update: 2017-12-24
+rnaseqer_last_update: 2019-06-23
 submitting_centre: Gurdon Institute
 title: Analysis of post-transcriptional RNA modifications in Caenorhabditis elegans under stress

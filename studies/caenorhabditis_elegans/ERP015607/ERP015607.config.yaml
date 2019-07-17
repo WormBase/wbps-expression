@@ -11,6 +11,6 @@ resource_links:
     - ArrayExpress
     - E-MTAB-4720 in ArrayExpress
     - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-4720
-rnaseqer_last_update: 2017-12-24
+rnaseqer_last_update: 2019-06-23
 submitting_centre: 'Institute of Molecular Life Sciences, University of Zurich'
 title: RNA-seq analysis of C. elegans CPEB homolog mutants.

@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA508963
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2018-12-18
+ena_last_update: 2019-02-21
+pubmed:
+  30625328:
+    - 'Bulcha .. Walhout, 2019'
+    - 'A Persistence Detector for Metabolic Network Rewiring in an Animal. (Bulcha .. Walhout, 2019)'
+resource_links: []
+rnaseqer_last_update: 2019-07-09
+submitting_centre: 'Walhout, Program in Systems Biology, Univesity of Massachusetts Medical School'
+title: A Persistence Detector for Metabolic Network Rewiring in an Animal

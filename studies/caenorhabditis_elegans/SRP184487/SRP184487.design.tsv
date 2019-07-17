@@ -1,0 +1,11 @@
+Run	Condition	strain	developmental_stage	organism_part	treatment
+SRR8544287	N2 Bristol variety under control conditions	N2 Bristol	synchronized adult worms	whole organism	
+SRR8544288	N2 Bristol variety under control conditions	N2 Bristol	synchronized adult worms	whole organism	
+SRR8544289	N2 Bristol variety under test conditions	N2 Bristol	synchronized adult worms	whole organism	5 µM ADD 7a-HADD
+SRR8544290	N2 Bristol variety under test conditions	N2 Bristol	synchronized adult worms	whole organism	5 µM ADD 7a-HADD
+SRR8544291	nhr-69 deletion mutant under control conditions	nhr-69 deletion mutant	synchronized adult worms	whole organism	
+SRR8544292	nhr-69 deletion mutant under control conditions	nhr-69 deletion mutant	synchronized adult worms	whole organism	
+SRR8544293	nhr-69 deletion mutant under control conditions	nhr-69 deletion mutant	synchronized adult worms	whole organism	
+SRR8544294	nhr-69 deletion mutant under test conditions	nhr-69 deletion mutant	synchronized adult worms	whole organism	5 µM ADD 7a-HADD
+SRR8544295	nhr-69 deletion mutant under test conditions	nhr-69 deletion mutant	synchronized adult worms	whole organism	5 µM ADD 7a-HADD
+SRR8544296	nhr-69 deletion mutant under test conditions	nhr-69 deletion mutant	synchronized adult worms	whole organism	5 µM ADD 7a-HADD

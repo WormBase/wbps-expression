@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA504660
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-02-14
+ena_last_update: 2019-05-24
+pubmed:
+  30737265:
+    - 'Delaney .. Padeken, 2019'
+    - 'Heterochromatic foci and transcriptional repression by an unstructured MET-2/SETDB1 co-factor LIN-65. (Delaney .. Padeken, 2019)'
+resource_links: []
+rnaseqer_last_update: 2019-07-09
+submitting_centre: Friedrich Miescher Institute
+title: 'An unstructured MET-2/SETDB1 cofactor ensures H3K9me2, focus formation and perinuclear anchoring [RNA-seq]'

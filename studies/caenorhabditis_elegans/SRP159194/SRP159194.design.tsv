@@ -1,12 +1,18 @@
 Run	Condition	bacterial_exposure	description_title	genotype	developmental_stage	exposure_length	organism_part	source_name
 SRR7771392	SRR7771392	OP50	N2 OP50 1	N2	L4	4 hours	whole organism	whole animal
+SRR7771393	SRR7771393	PA14	N2 PA14 1	N2	L4	4 hours	whole organism	whole animal
 SRR7771394	SRR7771394	OP50	N2 OP50 2	N2	L4	4 hours	whole organism	whole animal
 SRR7771395	SRR7771395	PA14	N2 PA14 2	N2	L4	4 hours	whole organism	whole animal
 SRR7771396	SRR7771396	OP50	N2 OP50 3	N2	L4	4 hours	whole organism	whole animal
 SRR7771397	SRR7771397	PA14	N2 PA14 3	N2	L4	4 hours	whole organism	whole animal
 SRR7771398	SRR7771398	OP50	pmk-1(km25) OP50 1	pmk-1(km25)	L4	4 hours	whole organism	whole animal
+SRR7771399	SRR7771399	PA14	pmk-1(km25) PA14 1	pmk-1(km25)	L4	4 hours	whole organism	whole animal
 SRR7771400	SRR7771400	OP50	pmk-1(km25) OP50 2	pmk-1(km25)	L4	4 hours	whole organism	whole animal
+SRR7771401	SRR7771401	PA14	pmk-1(km25) PA14 2	pmk-1(km25)	L4	4 hours	whole organism	whole animal
 SRR7771402	SRR7771402	OP50	pmk-1(km25) OP50 3	pmk-1(km25)	L4	4 hours	whole organism	whole animal
+SRR7771403	SRR7771403	PA14	pmk-1(km25) PA14 3	pmk-1(km25)	L4	4 hours	whole organism	whole animal
+SRR7771404	SRR7771404	OP50	atf-7(qd22qd130) OP50 1	atf-7(qd22qd130)	L4	4 hours	whole organism	whole animal
 SRR7771405	SRR7771405	PA14	atf-7(qd22qd130) PA14 1	atf-7(qd22qd130)	L4	4 hours	whole organism	whole animal
 SRR7771406	SRR7771406	OP50	atf-7(qd22qd130) OP50 2	atf-7(qd22qd130)	L4	4 hours	whole organism	whole animal
 SRR7771407	SRR7771407	PA14	atf-7(qd22qd130) PA14 2	atf-7(qd22qd130)	L4	4 hours	whole organism	whole animal
+SRR7771408	SRR7771408	OP50	atf-7(qd22qd130) OP50 3	atf-7(qd22qd130)	L4	4 hours	whole organism	whole animal

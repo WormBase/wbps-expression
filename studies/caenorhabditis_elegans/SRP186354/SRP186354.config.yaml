@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA523315
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-04-13
+ena_last_update: 2019-04-16
+pubmed:
+  30970250:
+    - 'Janssens .. Riedel, 2019'
+    - 'Transcriptomics-Based Screening Identifies Pharmacological Inhibition of Hsp90 as a Means to Defer Aging. (Janssens .. Riedel, 2019)'
+resource_links: []
+rnaseqer_last_update: 2019-07-09
+submitting_centre: Karolinska Institute
+title: Transcriptomics-based screening identifies pharmacological inhibition of Hsp90 as a means to defer aging

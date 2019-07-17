@@ -1,0 +1,13 @@
+Run	Condition	description_title	genotype	source_name	treatment	developmental_stage	organism_part
+SRR8698443	SRR8698443	AAKOP_1	aak-1; aak-2	aak-1(tm1944); aak-2(ok524)	Escherichia coli OP50	L4-young adult	whole organism
+SRR8698444	SRR8698444	AAKOP_2	aak-1; aak-2	aak-1(tm1944); aak-2(ok524)	Escherichia coli OP50	L4-young adult	whole organism
+SRR8698445	SRR8698445	AAKOP_3	aak-1; aak-2	aak-1(tm1944); aak-2(ok524)	Escherichia coli OP50	L4-young adult	whole organism
+SRR8698446	SRR8698446	AAKSau_1	aak-1; aak-2	aak-1(tm1944); aak-2(ok524)	Staphylococcus aureus (MW2)	L4-young adult	whole organism
+SRR8698447	SRR8698447	AAKSau_2	aak-1; aak-2	aak-1(tm1944); aak-2(ok524)	Staphylococcus aureus (MW2)	L4-young adult	whole organism
+SRR8698448	SRR8698448	AAKSau_3	aak-1; aak-2	aak-1(tm1944); aak-2(ok524)	Staphylococcus aureus (MW2)	L4-young adult	whole organism
+SRR8698449	SRR8698449	WtOP50_1	wild type	WT	Escherichia coli OP50	L4-young adult	whole organism
+SRR8698450	SRR8698450	WtOP50_2	wild type	WT	Escherichia coli OP50	L4-young adult	whole organism
+SRR8698451	SRR8698451	WtOP50_3	wild type	WT	Escherichia coli OP50	L4-young adult	whole organism
+SRR8698452	SRR8698452	WtSau_1	wild type	WT	Staphylococcus aureus (MW2)	L4-young adult	whole organism
+SRR8698453	SRR8698453	WtSau_2	wild type	WT	Staphylococcus aureus (MW2)	L4-young adult	whole organism
+SRR8698454	SRR8698454	WtSau_3	wild type	WT	Staphylococcus aureus (MW2)	L4-young adult	whole organism

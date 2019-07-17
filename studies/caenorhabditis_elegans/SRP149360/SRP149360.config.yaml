@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA473811
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-04-20
+ena_last_update: 2019-05-31
+pubmed:
+  31034475:
+    - 'Zhou .. Tang, 2019'
+    - 'Histone acetylation promotes long-lasting defense responses and longevity following early life heat stress. (Zhou .. Tang, 2019)'
+resource_links: []
+rnaseqer_last_update: 2019-07-08
+submitting_centre: Chongqing University
+title: Gene expression regulated by warm temperature in C. elegans

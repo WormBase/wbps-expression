@@ -1,0 +1,19 @@
+Run	Condition	description_title	genotype	source_name	treatment	organism_part	strain
+SRR8923444	SRR8923444	N2_empty vector_control_rep1	wild type	N2_empty vector_control, whole animal	control	whole organism	N2
+SRR8923445	SRR8923445	N2_empty vector_control_rep2	wild type	N2_empty vector_control, whole animal	control	whole organism	N2
+SRR8923446	SRR8923446	N2_empty vector_control_rep3	wild type	N2_empty vector_control, whole animal	control	whole organism	N2
+SRR8923447	SRR8923447	N2_empty vector_cadmium_rep1	wild type	N2_empty vector_cadmium, whole animal	300um Cadmium (12h)	whole organism	N2
+SRR8923448	SRR8923448	N2_empty vector_cadmium_rep2	wild type	N2_empty vector_cadmium, whole animal	300um Cadmium (12h)	whole organism	N2
+SRR8923449	SRR8923449	N2_empty vector_cadmium_rep3	wild type	N2_empty vector_cadmium, whole animal	300um Cadmium (12h)	whole organism	N2
+SRR8923450	SRR8923450	N2_numr-1 RNAi_control_rep1	numr-1 knockdown	N2_numr-1 RNAi_control, whole animal	control	whole organism	N2
+SRR8923451	SRR8923451	N2_numr-1 RNAi_control_rep2	numr-1 knockdown	N2_numr-1 RNAi_control, whole animal	control	whole organism	N2
+SRR8923452	SRR8923452	N2_numr-1 RNAi_control_rep3	numr-1 knockdown	N2_numr-1 RNAi_control, whole animal	control	whole organism	N2
+SRR8923453	SRR8923453	N2_numr-1 RNAi_cadmium_rep1	numr-1 knockdown	N2_numr-1 RNAi_cadmium, whole animal	300um Cadmium (12h)	whole organism	N2
+SRR8923454	SRR8923454	N2_numr-1 RNAi_cadmium_rep2	numr-1 knockdown	N2_numr-1 RNAi_cadmium, whole animal	300um Cadmium (12h)	whole organism	N2
+SRR8923455	SRR8923455	N2_numr-1 RNAi_cadmium_rep3	numr-1 knockdown	N2_numr-1 RNAi_cadmium, whole animal	300um Cadmium (12h)	whole organism	N2
+SRR8923456	SRR8923456	N2_ints-4 RNAi_control_rep1	ints-4 knockdown	N2_ints-4 RNAi_control, whole animal	control	whole organism	N2
+SRR8923457	SRR8923457	N2_ints-4 RNAi_control_rep2	ints-4 knockdown	N2_ints-4 RNAi_control, whole animal	control	whole organism	N2
+SRR8923458	SRR8923458	N2_ints-4 RNAi_control_rep3	ints-4 knockdown	N2_ints-4 RNAi_control, whole animal	control	whole organism	N2
+SRR8923459	SRR8923459	N2_ints-4 RNAi_cadmium_rep1	ints-4 knockdown	N2_ints-4 RNAi_cadmium, whole animal	300um Cadmium (12h)	whole organism	N2
+SRR8923460	SRR8923460	N2_ints-4 RNAi_cadmium_rep2	ints-4 knockdown	N2_ints-4 RNAi_cadmium, whole animal	300um Cadmium (12h)	whole organism	N2
+SRR8923461	SRR8923461	N2_ints-4 RNAi_cadmium_rep3	ints-4 knockdown	N2_ints-4 RNAi_cadmium, whole animal	300um Cadmium (12h)	whole organism	N2

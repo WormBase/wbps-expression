@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA507775
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2018-12-04
+ena_last_update: 2019-02-17
+pubmed:
+  30705981:
+    - 'Dölling .. Paul, 2019'
+    - 'Bacterial diet and weak cadmium stress affect the survivability of <i>Caenorhabditis elegans</i> and its resistance to severe stress. (Dölling .. Paul, 2019)'
+resource_links: []
+rnaseqer_last_update: 2019-07-09
+submitting_centre: 'Prof. Paul, Institute of Zoophysiology, University of Muenster'
+title: Bacterial diet and weak cadmium stress affect the age-specific survival rates of Caenorhabditis elegans and its resistance against severe stressors

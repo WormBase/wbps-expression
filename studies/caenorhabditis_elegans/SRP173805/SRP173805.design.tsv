@@ -1,0 +1,28 @@
+Run	Condition	description_title	genotype	organism_part	source_name	strain	generation	temperature
+SRR8349530	SRR8349530	mRNA_rde-4_Gonads_R1	rde-4(ne299)	gonads	rde-4(ne299)	BFF 12		20
+SRR8349531	SRR8349531	mRNA_rde-4_Gonads_R2	rde-4(ne299)	gonads	rde-4(ne299)	BFF 12		20
+SRR8349532	SRR8349532	mRNA_rde-4_Gonads_R3	rde-4(ne299)	gonads	rde-4(ne299)	BFF 12		20
+SRR8349533	SRR8349533	mRNA_Psng-1_rde-4_SC_Gonads_R1	rde-4(ne299);pigSi3[cb-unc-119(+)Psng-1::rde-4:SL2:yfp]	gonads	rde-4(ne299);pigSi3[cb-unc-119(+)Psng-1::rde-4:SL2:yfp]	BFF 16		20
+SRR8349534	SRR8349534	mRNA_Psng-1_rde-4_SC_Gonads_R2	rde-4(ne299);pigSi3[cb-unc-119(+)Psng-1::rde-4:SL2:yfp]	gonads	rde-4(ne299);pigSi3[cb-unc-119(+)Psng-1::rde-4:SL2:yfp]	BFF 16		20
+SRR8349535	SRR8349535	mRNA_Psng-1_rde-4_SC_Gonads_R3	rde-4(ne299);pigSi3[cb-unc-119(+)Psng-1::rde-4:SL2:yfp]	gonads	rde-4(ne299);pigSi3[cb-unc-119(+)Psng-1::rde-4:SL2:yfp]	BFF 16		20
+SRR8349536	SRR8349536	F3_mRNA_Psng-1_rde-4_SC_Gonads_R1	rde-4 (-)	gonads	rde-4 (-)	BFF 12	F3 of heterozygote BFF16	20
+SRR8349537	SRR8349537	F3_mRNA_Psng-1_rde-4_SC_Gonads_R2	rde-4 (-)	gonads	rde-4 (-)	BFF 12	F3 of heterozygote BFF16	20
+SRR8349538	SRR8349538	F3_mRNA_Psng-1_rde-4_SC_Gonads_R3	rde-4 (-)	gonads	rde-4 (-)	BFF 12	F3 of heterozygote BFF16	20
+SRR8349539	SRR8349539	mRNA_sid-1_rde-4_Gonads_R1	sid-1(qt-9) ; rde-4 (ne299)	gonads	sid-1(qt-9) ; rde-4 (ne299)	BFF 13		20
+SRR8349540	SRR8349540	mRNA_sid-1_rde-4_Gonads_R2	sid-1(qt-9) ; rde-4 (ne299)	gonads	sid-1(qt-9) ; rde-4 (ne299)	BFF 13		20
+SRR8349541	SRR8349541	mRNA_sid-1_rde-4_Gonads_R3	sid-1(qt-9) ; rde-4 (ne299)	gonads	sid-1(qt-9) ; rde-4 (ne299)	BFF 13		20
+SRR8349542	SRR8349542	mRNA_Psng-1_rde-4_sid-1_Gonads_R1	sid-1(qt-9) ; rde-4 (ne299); Psng-1::rde-4 (Pan-neuronal rescue)	gonads	sid-1(qt-9) ; rde-4 (ne299); Psng-1::rde-4 (Pan-neuronal rescue)	BFF 33		20
+SRR8349543	SRR8349543	mRNA_Psng-1_rde-4_sid-1_Gonads_R2	sid-1(qt-9) ; rde-4 (ne299); Psng-1::rde-4 (Pan-neuronal rescue)	gonads	sid-1(qt-9) ; rde-4 (ne299); Psng-1::rde-4 (Pan-neuronal rescue)	BFF 33		20
+SRR8349544	SRR8349544	mRNA_Psng-1_rde-4_sid-1_Gonads_R3	sid-1(qt-9) ; rde-4 (ne299); Psng-1::rde-4 (Pan-neuronal rescue)	gonads	sid-1(qt-9) ; rde-4 (ne299); Psng-1::rde-4 (Pan-neuronal rescue)	BFF 33		20
+SRR8349545	SRR8349545	mRNA_WT_Neurons_R1	otIs356[rab-3p(prom1)::2xNLS::TagRFP]	neurons	otIs356[rab-3p(prom1)::2xNLS::TagRFP]	BFF 30 (outcrossed OH10690)		20
+SRR8349546	SRR8349546	mRNA_WT_Neurons_R2	otIs356[rab-3p(prom1)::2xNLS::TagRFP]	neurons	otIs356[rab-3p(prom1)::2xNLS::TagRFP]	BFF 30 (outcrossed OH10690)		20
+SRR8349547	SRR8349547	mRNA_WT_Neurons_R3	otIs356[rab-3p(prom1)::2xNLS::TagRFP]	neurons	otIs356[rab-3p(prom1)::2xNLS::TagRFP]	BFF 30 (outcrossed OH10690)		20
+SRR8349548	SRR8349548	mRNA_WT_Neurons_R4	otIs356[rab-3p(prom1)::2xNLS::TagRFP]	neurons	otIs356[rab-3p(prom1)::2xNLS::TagRFP]	BFF 30 (outcrossed OH10690)		20
+SRR8349549	SRR8349549	mRNA_rde-4_Neurons_R1	rde-4(ne299); otIs356[rab-3p(prom1)::2xNLS::TagRFP]	neurons	rde-4(ne299); otIs356[rab-3p(prom1)::2xNLS::TagRFP]	BFF 31		20
+SRR8349550	SRR8349550	mRNA_rde-4_Neurons_R2	rde-4(ne299); otIs356[rab-3p(prom1)::2xNLS::TagRFP]	neurons	rde-4(ne299); otIs356[rab-3p(prom1)::2xNLS::TagRFP]	BFF 31		20
+SRR8349551	SRR8349551	mRNA_rde-4_Neurons_R3	rde-4(ne299); otIs356[rab-3p(prom1)::2xNLS::TagRFP]	neurons	rde-4(ne299); otIs356[rab-3p(prom1)::2xNLS::TagRFP]	BFF 31		20
+SRR8349552	SRR8349552	mRNA_rde-4_Neurons_R4	rde-4(ne299); otIs356[rab-3p(prom1)::2xNLS::TagRFP]	neurons	rde-4(ne299); otIs356[rab-3p(prom1)::2xNLS::TagRFP]	BFF 31		20
+SRR8349553	SRR8349553	mRNA_Psng-1_rde-4_SC_Neurons_R1	rde-4(ne299); pigSi3[cb-unc-119(+)Psng-1::rde-4:SL2:yfp]; otIs356[rab-3p(prom1)::2xNLS::TagRFP].	neurons	rde-4(ne299); pigSi3[cb-unc-119(+)Psng-1::rde-4:SL2:yfp]; otIs356[rab-3p(prom1)::2xNLS::TagRFP].	BFF 32		20
+SRR8349554	SRR8349554	mRNA_Psng-1_rde-4_SC_Neurons_R2	rde-4(ne299); pigSi3[cb-unc-119(+)Psng-1::rde-4:SL2:yfp]; otIs356[rab-3p(prom1)::2xNLS::TagRFP].	neurons	rde-4(ne299); pigSi3[cb-unc-119(+)Psng-1::rde-4:SL2:yfp]; otIs356[rab-3p(prom1)::2xNLS::TagRFP].	BFF 32		20
+SRR8349555	SRR8349555	mRNA_Psng-1_rde-4_SC_Neurons_R3	rde-4(ne299); pigSi3[cb-unc-119(+)Psng-1::rde-4:SL2:yfp]; otIs356[rab-3p(prom1)::2xNLS::TagRFP].	neurons	rde-4(ne299); pigSi3[cb-unc-119(+)Psng-1::rde-4:SL2:yfp]; otIs356[rab-3p(prom1)::2xNLS::TagRFP].	BFF 32		20
+SRR8349556	SRR8349556	mRNA_Psng-1_rde-4_SC_Neurons_R4	rde-4(ne299); pigSi3[cb-unc-119(+)Psng-1::rde-4:SL2:yfp]; otIs356[rab-3p(prom1)::2xNLS::TagRFP].	neurons	rde-4(ne299); pigSi3[cb-unc-119(+)Psng-1::rde-4:SL2:yfp]; otIs356[rab-3p(prom1)::2xNLS::TagRFP].	BFF 32		20

@@ -1,0 +1,13 @@
+Run	Condition	compound	description_title	developmental_stage	source_name
+SRR9029996	SRR9029996		Unexposed replicate 1	L4	Whole animal
+SRR9029997	SRR9029997		Unexposed replicate 2	L4	Whole animal
+SRR9029998	SRR9029998		Unexposed replicate 3	L4	Whole animal
+SRR9029999	SRR9029999		Unexposed replicate 4	L4	Whole animal
+SRR9030000	SRR9030000	1 hr high (>150 ppm) hydrogen sulfide	Naïve replicate 1	L4	Whole animal
+SRR9030001	SRR9030001	1 hr high (>150 ppm) hydrogen sulfide	Naïve replicate 2	L4	Whole animal
+SRR9030002	SRR9030002	1 hr high (>150 ppm) hydrogen sulfide	Naïve replicate 3	L4	Whole animal
+SRR9030003	SRR9030003	1 hr high (>150 ppm) hydrogen sulfide	Naïve replicate 4	L4	Whole animal
+SRR9030004	SRR9030004	exposed to approx. 50 ppm hydrogen sulfide for approx 8 hr as embryos) exposed to 1 hr high hydrogen sulfide	Bookmarked replicate 1	L4	Whole animal
+SRR9030005	SRR9030005	exposed to approx. 50 ppm hydrogen sulfide for approx 8 hr as embryos) exposed to 1 hr high hydrogen sulfide	Bookmarked replicate 2	L4	Whole animal
+SRR9030006	SRR9030006	exposed to approx. 50 ppm hydrogen sulfide for approx 8 hr as embryos) exposed to 1 hr high hydrogen sulfide	Bookmarked replicate 3	L4	Whole animal
+SRR9030007	SRR9030007	exposed to approx. 50 ppm hydrogen sulfide for approx 8 hr as embryos) exposed to 1 hr high hydrogen sulfide	Bookmarked replicate 4	L4	Whole animal

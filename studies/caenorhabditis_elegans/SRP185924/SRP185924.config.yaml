@@ -1,0 +1,12 @@
+---
+bioproject: PRJNA522451
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-02-16
+ena_last_update: 2019-02-16
+pubmed: {}
+resource_links: []
+rnaseqer_last_update: 2019-07-09
+submitting_centre: 'Ehud Cohen, Biochemistry and Molecular Biology, The Hebrew University of Jerusalem'
+title: 'RNA-seq using the Cel-Seq2 method, of wild type and 35-polyglutamine (polyQ35) expressing C. elegans worms treated with RNAi toward anc-1,  or left untreated (EV) gene expression profiles.'

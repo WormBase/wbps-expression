@@ -11,6 +11,6 @@ resource_links:
     - ArrayExpress
     - E-MTAB-1730 in ArrayExpress
     - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-1730
-rnaseqer_last_update: 2017-12-24
+rnaseqer_last_update: 2019-06-23
 submitting_centre: European Molecular Biology Laboratory
 title: RNA-seq transcript assembly evaluation

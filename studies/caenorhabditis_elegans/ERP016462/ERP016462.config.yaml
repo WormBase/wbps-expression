@@ -11,6 +11,6 @@ resource_links:
     - ArrayExpress
     - E-MTAB-4877 in ArrayExpress
     - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-4877
-rnaseqer_last_update: 2019-01-25
+rnaseqer_last_update: 2019-06-23
 submitting_centre: Gurdon Institute
 title: Small RNA and total RNA sequencing of C. elegans with mutations in the hrde-1 and emb-4 genes
