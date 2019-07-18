@@ -1,5 +1,5 @@
 ---
-bioproject: ''
+bioproject: PRJEB2965
 category: Other
 contrasts:
   - name: developmental_stage+sex

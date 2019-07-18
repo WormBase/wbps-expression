@@ -1,7 +1,45 @@
 ---
 bioproject: PRJNA293934
 category: Other
-contrasts: []
+contrasts:
+  - name: timepoint
+    values:
+      -
+        - 'p53, 3 days'
+        - 'p53, 6 days'
+        - 'p53: 3 days vs 6 days'
+      -
+        - 'p53, 3 days'
+        - 'p53, 9 days'
+        - 'p53: 3 days vs 9 days'
+      -
+        - 'p53, 3 days'
+        - 'p53, 12 days'
+        - 'p53: 3 days vs 12 days'
+      -
+        - 'p53, 3 days'
+        - 'p53, 15 days'
+        - 'p53: 3 days vs 15 days'
+      -
+        - 'unc22, 3 days'
+        - 'unc22, 6 days'
+        - 'unc22: 3 days vs 6 days'
+      -
+        - 'unc22, 3 days'
+        - 'unc22, 9 days'
+        - 'unc22: 3 days vs 9 days'
+      -
+        - 'unc22, 3 days'
+        - 'unc22, 12 days'
+        - 'unc22: 3 days vs 12 days'
+      -
+        - 'unc22, 3 days'
+        - 'unc22, 15 days'
+        - 'unc22: 3 days vs 15 days'
+      -
+        - 'unc22, 3 days'
+        - 'unc22, 18 days'
+        - 'unc22: 3 days vs 18 days'
 description: ''
 ena_first_public: 2015-10-23
 ena_last_update: 2015-11-04

@@ -1,7 +1,171 @@
 ---
 bioproject: PRJNA495465
-category: Other
-contrasts: []
+category: Response to treatment
+contrasts:
+  - name: timepoint+treatment
+    values:
+      -
+        - 'head, 2 weeks'
+        - 'head, 2 weeks, nr4A'
+        - "head, 2 weeks: '' vs nr4A"
+      -
+        - 'head, 2 weeks'
+        - 'head, 3 weeks, nr4A'
+        - 'head: 2 weeks vs 3 weeks, nr4A'
+      -
+        - 'head, 2 weeks'
+        - 'head, 4 weeks, nr4A'
+        - 'head: 2 weeks vs 4 weeks, nr4A'
+      -
+        - 'head, 2 weeks'
+        - 'head, 5 weeks, nr4A'
+        - 'head: 2 weeks vs 5 weeks, nr4A'
+      -
+        - 'head, 2 weeks, nr4A'
+        - 'head, 3 weeks'
+        - 'head: 2 weeks, nr4A vs 3 weeks'
+      -
+        - 'head, 2 weeks, nr4A'
+        - 'head, 4 weeks'
+        - 'head: 2 weeks, nr4A vs 4 weeks'
+      -
+        - 'head, 2 weeks, nr4A'
+        - 'head, 5 weeks'
+        - 'head: 2 weeks, nr4A vs 5 weeks'
+      -
+        - 'head, 3 weeks'
+        - 'head, 3 weeks, nr4A'
+        - "head, 3 weeks: '' vs nr4A"
+      -
+        - 'head, 3 weeks'
+        - 'head, 4 weeks, nr4A'
+        - 'head: 3 weeks vs 4 weeks, nr4A'
+      -
+        - 'head, 3 weeks'
+        - 'head, 5 weeks, nr4A'
+        - 'head: 3 weeks vs 5 weeks, nr4A'
+      -
+        - 'head, 3 weeks, nr4A'
+        - 'head, 4 weeks'
+        - 'head: 3 weeks, nr4A vs 4 weeks'
+      -
+        - 'head, 3 weeks, nr4A'
+        - 'head, 5 weeks'
+        - 'head: 3 weeks, nr4A vs 5 weeks'
+      -
+        - 'head, 4 weeks'
+        - 'head, 4 weeks, nr4A'
+        - "head, 4 weeks: '' vs nr4A"
+      -
+        - 'head, 4 weeks'
+        - 'head, 5 weeks, nr4A'
+        - 'head: 4 weeks vs 5 weeks, nr4A'
+      -
+        - 'head, 4 weeks, nr4A'
+        - 'head, 5 weeks'
+        - 'head: 4 weeks, nr4A vs 5 weeks'
+      -
+        - 'head, 5 weeks'
+        - 'head, 5 weeks, nr4A'
+        - "head, 5 weeks: '' vs nr4A"
+      -
+        - 'tail, 2 weeks'
+        - 'tail, 2 weeks, nr4A'
+        - "tail, 2 weeks: '' vs nr4A"
+      -
+        - 'tail, 2 weeks'
+        - 'tail, 3 weeks, nr4A'
+        - 'tail: 2 weeks vs 3 weeks, nr4A'
+      -
+        - 'tail, 2 weeks'
+        - 'tail, 4 weeks, nr4A'
+        - 'tail: 2 weeks vs 4 weeks, nr4A'
+      -
+        - 'tail, 2 weeks'
+        - 'tail, 5 weeks, nr4A'
+        - 'tail: 2 weeks vs 5 weeks, nr4A'
+      -
+        - 'tail, 2 weeks, nr4A'
+        - 'tail, 3 weeks'
+        - 'tail: 2 weeks, nr4A vs 3 weeks'
+      -
+        - 'tail, 2 weeks, nr4A'
+        - 'tail, 4 weeks'
+        - 'tail: 2 weeks, nr4A vs 4 weeks'
+      -
+        - 'tail, 2 weeks, nr4A'
+        - 'tail, 5 weeks'
+        - 'tail: 2 weeks, nr4A vs 5 weeks'
+      -
+        - 'tail, 3 weeks'
+        - 'tail, 3 weeks, nr4A'
+        - "tail, 3 weeks: '' vs nr4A"
+      -
+        - 'tail, 3 weeks'
+        - 'tail, 4 weeks, nr4A'
+        - 'tail: 3 weeks vs 4 weeks, nr4A'
+      -
+        - 'tail, 3 weeks'
+        - 'tail, 5 weeks, nr4A'
+        - 'tail: 3 weeks vs 5 weeks, nr4A'
+      -
+        - 'tail, 3 weeks, nr4A'
+        - 'tail, 4 weeks'
+        - 'tail: 3 weeks, nr4A vs 4 weeks'
+      -
+        - 'tail, 3 weeks, nr4A'
+        - 'tail, 5 weeks'
+        - 'tail: 3 weeks, nr4A vs 5 weeks'
+      -
+        - 'tail, 4 weeks'
+        - 'tail, 4 weeks, nr4A'
+        - "tail, 4 weeks: '' vs nr4A"
+      -
+        - 'tail, 4 weeks'
+        - 'tail, 5 weeks, nr4A'
+        - 'tail: 4 weeks vs 5 weeks, nr4A'
+      -
+        - 'tail, 4 weeks, nr4A'
+        - 'tail, 5 weeks'
+        - 'tail: 4 weeks, nr4A vs 5 weeks'
+      -
+        - 'tail, 5 weeks'
+        - 'tail, 5 weeks, nr4A'
+        - "tail, 5 weeks: '' vs nr4A"
+  - name: organism_part
+    values:
+      -
+        - 'head, 2 weeks, nr4A'
+        - 'tail, 2 weeks, nr4A'
+        - '2 weeks, nr4A: head vs tail'
+      -
+        - 'head, 2 weeks'
+        - 'tail, 2 weeks'
+        - '2 weeks: head vs tail'
+      -
+        - 'head, 3 weeks, nr4A'
+        - 'tail, 3 weeks, nr4A'
+        - '3 weeks, nr4A: head vs tail'
+      -
+        - 'head, 3 weeks'
+        - 'tail, 3 weeks'
+        - '3 weeks: head vs tail'
+      -
+        - 'head, 4 weeks, nr4A'
+        - 'tail, 4 weeks, nr4A'
+        - '4 weeks, nr4A: head vs tail'
+      -
+        - 'head, 4 weeks'
+        - 'tail, 4 weeks'
+        - '4 weeks: head vs tail'
+      -
+        - 'head, 5 weeks, nr4A'
+        - 'tail, 5 weeks, nr4A'
+        - '5 weeks, nr4A: head vs tail'
+      -
+        - 'head, 5 weeks'
+        - 'tail, 5 weeks'
+        - '5 weeks: head vs tail'
 description: ''
 ena_first_public: 2019-05-28
 ena_last_update: 2019-05-28

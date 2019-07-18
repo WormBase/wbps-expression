@@ -1,15 +1,15 @@
 Run	Condition	treatment	developmental_stage	strain
-SRR8268214	10 µM CdCl2	10 µM CdCl2	synchronized adult worms	N2 Bristol
-SRR8268215	10 µM CdCl2	10 µM CdCl2	synchronized adult worms	N2 Bristol
-SRR8268216	10 µM CdCl2	10 µM CdCl2	synchronized adult worms	N2 Bristol
 SRR8268211	0.1 µM CdCl2	0.1 µM CdCl2	synchronized adult worms	N2 Bristol
 SRR8268212	0.1 µM CdCl2	0.1 µM CdCl2	synchronized adult worms	N2 Bristol
 SRR8268213	0.1 µM CdCl2	0.1 µM CdCl2	synchronized adult worms	N2 Bristol
+SRR8268214	10 µM CdCl2	10 µM CdCl2	synchronized adult worms	N2 Bristol
+SRR8268215	10 µM CdCl2	10 µM CdCl2	synchronized adult worms	N2 Bristol
+SRR8268216	10 µM CdCl2	10 µM CdCl2	synchronized adult worms	N2 Bristol
+SRR8268203	E. coli strain HT115 (HT115_1) as feed	E. coli strain HT115 (HT115_1) as feed	synchronized adult worms	N2 Bristol
+SRR8268204	E. coli strain HT115 (HT115_1) as feed	E. coli strain HT115 (HT115_1) as feed	synchronized adult worms	N2 Bristol
 SRR8268208	E. coli strain HT115 (HT115_2) as feed	E. coli strain HT115 (HT115_2) as feed	synchronized adult worms	N2 Bristol
 SRR8268209	E. coli strain HT115 (HT115_2) as feed	E. coli strain HT115 (HT115_2) as feed	synchronized adult worms	N2 Bristol
 SRR8268210	E. coli strain HT115 (HT115_2) as feed	E. coli strain HT115 (HT115_2) as feed	synchronized adult worms	N2 Bristol
 SRR8268205	E. coli strain OP50 as feed	E. coli strain OP50 as feed	synchronized adult worms	N2 Bristol
 SRR8268206	E. coli strain OP50 as feed	E. coli strain OP50 as feed	synchronized adult worms	N2 Bristol
 SRR8268207	E. coli strain OP50 as feed	E. coli strain OP50 as feed	synchronized adult worms	N2 Bristol
-SRR8268203	E. coli strain HT115 (HT115_1) as feed	E. coli strain HT115 (HT115_1) as feed	synchronized adult worms	N2 Bristol
-SRR8268204	E. coli strain HT115 (HT115_1) as feed	E. coli strain HT115 (HT115_1) as feed	synchronized adult worms	N2 Bristol

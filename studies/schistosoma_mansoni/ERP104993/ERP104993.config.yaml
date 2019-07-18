@@ -1,5 +1,5 @@
 ---
-bioproject: ''
+bioproject: PRJEB23253
 category: Cell types
 contrasts:
   - name: sex
