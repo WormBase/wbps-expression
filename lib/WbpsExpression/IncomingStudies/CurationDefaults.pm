@@ -161,6 +161,27 @@ sub try_make_time_series {
 #### try_make_time_series result: @result
    return @result;
 }
+sub developmental_stages_numbered {
+   my ($subset_chs, @conditions) = @_;
+   return () unless @conditions >=5;
+   return () unless is_life_cycle(@{$subset_chs});
+   my @os;
+   my %xs;
+   for my $condition (@conditions){
+     my ($x1, $n, $x2) = $condition =~ /^(\D*)(\d+)(\D*)$/;
+     if ($n){
+       push @{$xs{"$x1.digit.$x2"}}, [$n, $condition];
+     } else {
+       push @os, $condition;
+     }
+   }
+   my ($p, @ps) = sort {@$b <=> @$a} values %xs;
+   push @os, map {$_->[1]} map {@$_} @ps;
+   return () unless $p and 2 * @$p > @conditions;
+   my ($first_c, @other_cs) = map {$_->[1]} sort {$a->[0] <=> $b->[0]} @$p;
+   return n_choose_two(@os, $first_c), map {[$first_c, $_]} @other_cs;
+}   
+
 sub clear_control_characteristic_in_drug_assay {
   my ($design, $c1, $c2) = @_;
   my ($control_value, @other_control_values) = uniq grep {not $_ or $_ =~ /control/i } map {$design->value_in_condition($_, 'treatment') } $design->all_conditions;
@@ -231,8 +252,9 @@ sub contrasts {
     my @pairs =
        map { 
         my @as = try_make_time_series(\@subset_chs, @{$_});
-        my @bs = n_choose_two( @{$_} );
-        @as ? @as : @bs
+        my @bs = developmental_stages_numbered(\@subset_chs, @{$_});
+        my @cs = n_choose_two( @{$_} );
+        @as ? @as : @bs ? @bs : @cs
       }
       sort { join( "", @{$a} ) cmp join( "", @{$b} ) }
       map { [ sort @{$_} ] } @partition;

@@ -1,7 +1,69 @@
 ---
 bioproject: PRJNA509247
 category: Variation within species
-contrasts: []
+contrasts:
+  - name: strain
+    values:
+      -
+        - AF14
+        - AF20
+        - AF14 vs AF20
+      -
+        - AF14
+        - AF30
+        - AF14 vs AF30
+      -
+        - AF14
+        - HK14
+        - AF14 vs HK14
+      -
+        - AF14
+        - HK20
+        - AF14 vs HK20
+      -
+        - AF14
+        - HK30
+        - AF14 vs HK30
+      -
+        - AF20
+        - AF30
+        - AF20 vs AF30
+      -
+        - AF20
+        - HK14
+        - AF20 vs HK14
+      -
+        - AF20
+        - HK20
+        - AF20 vs HK20
+      -
+        - AF20
+        - HK30
+        - AF20 vs HK30
+      -
+        - AF30
+        - HK14
+        - AF30 vs HK14
+      -
+        - AF30
+        - HK20
+        - AF30 vs HK20
+      -
+        - AF30
+        - HK30
+        - AF30 vs HK30
+      -
+        - HK14
+        - HK20
+        - HK14 vs HK20
+      -
+        - HK14
+        - HK30
+        - HK14 vs HK30
+      -
+        - HK20
+        - HK30
+        - HK20 vs HK30
 description: ''
 ena_first_public: 2018-12-18
 ena_last_update: 2018-12-18
