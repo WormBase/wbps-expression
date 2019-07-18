@@ -116,8 +116,8 @@ sub determine_bioproject {
   # XML::Simple is being a bit too simple
   # many external_ids -> array here: ERP016356
   # one id -> hash here: SRP093920
-  my @external_ids = ref $external_ids eq 'ARRAY' ? @$external_ids : ref $external_ids eq 'HASH' ? ($external_ids) : ();
-  my @bioproject_nodes = grep {uc ($_->{namespace}) eq "BIOPROJECT"} @external_ids;
+  my @external_ids = ref $external_ids eq 'ARRAY' ? @$external_ids : ref $external_ids eq 'HASH' ? ($external_ids) : $external_ids ?  ({namespace => "BioProject", content => $external_ids}) : ();
+  my @bioproject_nodes = grep {uc ($_->{namespace} //"") eq "BIOPROJECT"} @external_ids;
   if(@bioproject_nodes > 1 and grep {$_->{label} eq "primary"} @bioproject_nodes){
     @bioproject_nodes = grep {$_->{label} eq "primary"} @bioproject_nodes;
   }
@@ -131,7 +131,7 @@ sub determine_bioproject {
   return $bioproject if $bioproject;
 
   my $secondary_ids = $payload->{STUDY}{IDENTIFIERS}{SECONDARY_ID};
-  my @secondary_ids = ref $secondary_ids eq 'ARRAY' ? @$secondary_ids : ref $secondary_ids eq 'HASH' ? ($secondary_ids) : ();
+  my @secondary_ids = ref $secondary_ids eq 'ARRAY' ? @$secondary_ids : ref $secondary_ids eq 'HASH' ? ($secondary_ids->{content}//"") : $secondary_ids ? ($secondary_ids) : ();
   my ($secondary_id_starting_with_prj, @other_secondary_ids_starting_with_prj) = grep {$_ =~ /^PRJ/ } @secondary_ids;
   die join( " ",
     $payload->{STUDY}{accession} // "",

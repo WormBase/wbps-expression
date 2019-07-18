@@ -59,7 +59,7 @@ SRR3209257	head	head
 # 
 # Study study_id: config.title
 # Submitted to archives by config.submitting_centre
-# Alignment and quantification done by RNASeq-er: https://www.ebi.ac.uk/fg/rnaseq/api
+# Reads aligned with TopHat2 and quantified with HTSeq, by RNASeq-er: https://www.ebi.ac.uk/fg/rnaseq/api
 # 
 # Values are transcripts per million units (TPMs) per gene for each run
 # !SRR3209257: Low mapping quality: 30

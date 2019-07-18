@@ -253,6 +253,7 @@ sub qc_issues_per_run {
 
 sub study_frontmatter {
   my ($self) = @_;
+  my $quantification_method = $self->quantification_method;
   my @pubmed_lines = map {sprintf ("%s: https://www.ncbi.nlm.nih.gov/pubmed/%s", $_->[1][0], $_->[0]) } pairs %{$self->{config}{pubmed} // {}};
   return join ("\n",
     "",
@@ -261,7 +262,7 @@ sub study_frontmatter {
       ? "See ". join(", ", @pubmed_lines)
       : sprintf("Submitted to archives by %s", $self->{config}{submitting_centre})
     ),
-    "Alignment and quantification done by RNASeq-er: https://www.ebi.ac.uk/fg/rnaseq/api",
+    "Reads aligned with TopHat2 and quantified with $quantification_method, by RNASeq-er: https://www.ebi.ac.uk/fg/rnaseq/api",
     "",
   );
 }
@@ -273,7 +274,6 @@ sub analyses_required {
   my $counts_file_name = "$study_id.counts_per_run.tsv";
   my %h = %{$self->{design}{replicates_by_run}};
   my $has_technical_replicates = keys %h > uniq values %h;
-  my $quantification_method = $self->quantification_method;
   return (
     {
       type => "study_design",
@@ -283,7 +283,7 @@ sub analyses_required {
     {
       type => "counts_per_run",
       file_name => $counts_file_name,
-      title => "Counts of aligned reads per run ($quantification_method)",
+      title => sprintf("Counts of aligned reads per run (%s)", $self->quantification_method),
     },
     {
       type => "tpms_per_run",
@@ -291,7 +291,6 @@ sub analyses_required {
       title => "Gene expression (TPM) per run",
       description => join("\n",
         $self->study_frontmatter,
-        "Alignment: TopHat2, quantification: $quantification_method",
         "Values are transcripts per million units (TPMs) per gene for each run",
       ),
     }, 
@@ -301,7 +300,6 @@ sub analyses_required {
       title => "Gene expression (TPM) per condition as median across ".($has_technical_replicates ? "replicates" : "runs"),
       description => join("\n",
         $self->study_frontmatter,
-        "Alignment: TopHat2, quantification: $quantification_method",
         "Values are transcripts per million units (TPMs) per gene, median across ". ($has_technical_replicates ? "technical, then biological replicates" : "runs"),
       ),
     } :()),
