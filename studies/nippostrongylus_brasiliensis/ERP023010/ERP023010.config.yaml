@@ -1,6 +1,6 @@
 ---
 bioproject: PRJEB20824
-category: Other
+category: Response to treatment
 contrasts:
   - name: culture_conditions
     values:

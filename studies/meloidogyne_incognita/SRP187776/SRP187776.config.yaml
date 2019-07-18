@@ -5,11 +5,11 @@ contrasts:
   - name: isolate+isolation_source
     values:
       -
-        - 'Kenya'
+        - Kenya
         - Nigeria 1
         - 'Kenya, Amaranthus viridae vs Nigeria 1, Celosia'
       -
-        - 'Kenya'
+        - Kenya
         - Nigeria 2
         - 'Kenya, Amaranthus viridae vs Nigeria 2, Not available'
       -

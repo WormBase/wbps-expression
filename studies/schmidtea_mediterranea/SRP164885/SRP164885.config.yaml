@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA495465
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-05-28
+ena_last_update: 2019-05-28
+pubmed:
+  31025936:
+    - 'Li .. Reddien, 2019'
+    - 'Nuclear receptor NR4A is required for patterning at the ends of the planarian anterior-posterior axis. (Li .. Reddien, 2019)'
+resource_links: []
+rnaseqer_last_update: 2019-07-09
+submitting_centre: Whitehead Institute for Biomedical Research
+title: RNA sequencing of the head and tail of planarian Schmidtea mediterranea during nr4A inhibition

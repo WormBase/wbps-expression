@@ -14,6 +14,6 @@ resource_links:
     - ArrayExpress
     - E-MTAB-607 in ArrayExpress
     - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-607
-rnaseqer_last_update: 2017-12-24
+rnaseqer_last_update: 2019-06-26
 submitting_centre: 'High Throughput Sequencing Unit at the Genomics & Proteomics Core Facility, German Cancer Research Center (DKFZ), Germany'
 title: The head-regeneration transcriptome of the planarian Schmidtea mediterranea

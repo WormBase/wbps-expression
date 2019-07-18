@@ -1,0 +1,18 @@
+---
+bioproject: ''
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-07-09
+ena_last_update: 2019-07-09
+pubmed:
+  25767144:
+    - 'Wilecki .. Sommer, 2015'
+    - 'Predatory feeding behaviour in Pristionchus nematodes is dependent on phenotypic plasticity and induced by serotonin. (Wilecki .. Sommer, 2015)'
+  27741297:
+    - 'Sanghvi .. Sommer, 2016'
+    - 'Life History Responses and Gene Expression Profiles of the Nematode <i>Pristionchus pacificus</i> Cultured on Cryptococcus Yeasts. (Sanghvi .. Sommer, 2016)'
+resource_links: []
+rnaseqer_last_update: 2019-07-13
+submitting_centre: MAX PLANCK INSTITUTE FOR DEVELOPMENTAL BIOLOGY
+title: Diet-dependent surplus killing in nematodes

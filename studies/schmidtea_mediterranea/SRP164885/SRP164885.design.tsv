@@ -1,0 +1,49 @@
+Run	Condition	organism_part	timepoint	treatment	ploidy	strain
+SRR7992078	head, 2 weeks	head	2 weeks		2N (non-dividing)	asexual CIW4
+SRR7992079	head, 2 weeks	head	2 weeks		2N (non-dividing)	asexual CIW4
+SRR7992080	head, 2 weeks	head	2 weeks		2N (non-dividing)	asexual CIW4
+SRR7992081	head, 2 weeks, nr4A	head	2 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992082	head, 2 weeks, nr4A	head	2 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992083	head, 2 weeks, nr4A	head	2 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992084	head, 5 weeks	head	5 weeks		2N (non-dividing)	asexual CIW4
+SRR7992085	head, 5 weeks, nr4A	head	5 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992086	head, 3 weeks	head	3 weeks		2N (non-dividing)	asexual CIW4
+SRR7992087	head, 3 weeks	head	3 weeks		2N (non-dividing)	asexual CIW4
+SRR7992088	head, 3 weeks	head	3 weeks		2N (non-dividing)	asexual CIW4
+SRR7992089	head, 3 weeks, nr4A	head	3 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992090	head, 3 weeks, nr4A	head	3 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992091	head, 3 weeks, nr4A	head	3 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992092	head, 5 weeks	head	5 weeks		2N (non-dividing)	asexual CIW4
+SRR7992093	head, 5 weeks, nr4A	head	5 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992094	head, 4 weeks	head	4 weeks		2N (non-dividing)	asexual CIW4
+SRR7992095	head, 4 weeks	head	4 weeks		2N (non-dividing)	asexual CIW4
+SRR7992096	head, 4 weeks	head	4 weeks		2N (non-dividing)	asexual CIW4
+SRR7992097	head, 4 weeks, nr4A	head	4 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992098	head, 4 weeks, nr4A	head	4 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992099	head, 4 weeks, nr4A	head	4 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992100	head, 5 weeks	head	5 weeks		2N (non-dividing)	asexual CIW4
+SRR7992101	head, 5 weeks, nr4A	head	5 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992102	tail, 2 weeks	tail	2 weeks		2N (non-dividing)	asexual CIW4
+SRR7992103	tail, 2 weeks	tail	2 weeks		2N (non-dividing)	asexual CIW4
+SRR7992104	tail, 2 weeks	tail	2 weeks		2N (non-dividing)	asexual CIW4
+SRR7992105	tail, 2 weeks, nr4A	tail	2 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992106	tail, 2 weeks, nr4A	tail	2 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992107	tail, 2 weeks, nr4A	tail	2 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992108	tail, 5 weeks	tail	5 weeks		2N (non-dividing)	asexual CIW4
+SRR7992109	tail, 5 weeks, nr4A	tail	5 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992110	tail, 3 weeks	tail	3 weeks		2N (non-dividing)	asexual CIW4
+SRR7992111	tail, 3 weeks	tail	3 weeks		2N (non-dividing)	asexual CIW4
+SRR7992112	tail, 3 weeks	tail	3 weeks		2N (non-dividing)	asexual CIW4
+SRR7992113	tail, 3 weeks, nr4A	tail	3 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992114	tail, 3 weeks, nr4A	tail	3 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992115	tail, 3 weeks, nr4A	tail	3 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992116	tail, 5 weeks	tail	5 weeks		2N (non-dividing)	asexual CIW4
+SRR7992117	tail, 5 weeks, nr4A	tail	5 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992118	tail, 4 weeks	tail	4 weeks		2N (non-dividing)	asexual CIW4
+SRR7992119	tail, 4 weeks	tail	4 weeks		2N (non-dividing)	asexual CIW4
+SRR7992120	tail, 4 weeks	tail	4 weeks		2N (non-dividing)	asexual CIW4
+SRR7992121	tail, 4 weeks, nr4A	tail	4 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992122	tail, 4 weeks, nr4A	tail	4 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992123	tail, 4 weeks, nr4A	tail	4 weeks	nr4A	2N (non-dividing)	asexual CIW4
+SRR7992124	tail, 5 weeks	tail	5 weeks		2N (non-dividing)	asexual CIW4
+SRR7992125	tail, 5 weeks, nr4A	tail	5 weeks	nr4A	2N (non-dividing)	asexual CIW4
