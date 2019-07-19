@@ -5,8 +5,8 @@ ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
 
 ( cd $ROOT_DIR && [ -d "local" ] || carton )
 
-if [ -d "$ROOT_DIR/local/R-3.5.1/bin" ] ; then
-  PATH=$ROOT_DIR/local/R-3.5.1/bin:$PATH
+if [ -d "$ROOT_DIR/local/R-3.6.1/bin" ] ; then
+  PATH=$ROOT_DIR/local/R-3.6.1/bin:$PATH
   export PATH
 fi
 

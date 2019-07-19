@@ -6,6 +6,7 @@ use Statistics::R;
 use WbpsExpression::Analysis::Common;
 use List::MoreUtils qw/zip zip_unflatten/;
 use Log::Any '$log';
+use File::Basename;
 #use Smart::Comments '###';
 
 sub R_dds_for_design_path_and_counts_path {
@@ -144,7 +145,7 @@ sub do_analysis {
   my ($design_path, $counts_path, $unfiltered_results_folder, $contrasts, $output_paths, $frontmatters, $warnings_by_contrast_name_by_key) = @_;
 
   for my $key (keys %{$contrasts}){
-  $log->info(__PACKAGE__."::do_analysis");
+  $log->info(__PACKAGE__."::do_analysis " . (basename (dirname $design_path)));
     do_analysis_for_key($design_path, $counts_path, $unfiltered_results_folder,
        $contrasts->{$key}, $output_paths->{$key}, $frontmatters->{$key}, $warnings_by_contrast_name_by_key->{$key}
     );

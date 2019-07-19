@@ -10,7 +10,7 @@ use lib "$FindBin::Bin/../local/lib/perl5";
 # Also, DESeq2 installed the long way from Bioconductor
 # Check this: `R --slave --no-restore --file=- <<< 'installed.packages()' | grep ^DESeq2`
 # Statistics::R depends on $PATH to find the R binary
-$ENV{PATH} = "$FindBin::Bin/../local/R-3.5.1/bin:$ENV{PATH}";
+$ENV{PATH} = "$FindBin::Bin/../local/R-3.6.1/bin:$ENV{PATH}";
 use WbpsExpression;
 $SIG{__WARN__} = sub { die @_ } if $ENV{DIE_ON_WARNINGS};
 
