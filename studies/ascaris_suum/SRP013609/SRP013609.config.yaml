@@ -1,11 +1,76 @@
 ---
 bioproject: PRJNA167264
-category: Other
-contrasts: []
+category: Organism parts
+contrasts:
+  - name: organism_part
+    values:
+      -
+        - anterior intestine
+        - head
+        - anterior intestine vs head
+      -
+        - anterior intestine
+        - mid intestine
+        - anterior intestine vs mid intestine
+      -
+        - anterior intestine
+        - posterior intestine
+        - anterior intestine vs posterior intestine
+      -
+        - anterior intestine
+        - whole intestine
+        - anterior intestine vs whole intestine
+      -
+        - anterior intestine
+        - whole worm
+        - anterior intestine vs whole worm
+      -
+        - head
+        - mid intestine
+        - head vs mid intestine
+      -
+        - head
+        - posterior intestine
+        - head vs posterior intestine
+      -
+        - head
+        - whole intestine
+        - head vs whole intestine
+      -
+        - head
+        - whole worm
+        - head vs whole worm
+      -
+        - mid intestine
+        - posterior intestine
+        - mid intestine vs posterior intestine
+      -
+        - mid intestine
+        - whole intestine
+        - mid intestine vs whole intestine
+      -
+        - mid intestine
+        - whole worm
+        - mid intestine vs whole worm
+      -
+        - posterior intestine
+        - whole intestine
+        - posterior intestine vs whole intestine
+      -
+        - posterior intestine
+        - whole worm
+        - posterior intestine vs whole worm
+      -
+        - whole intestine
+        - whole worm
+        - whole intestine vs whole worm
 description: ''
 ena_first_public: 2012-06-09
 ena_last_update: 2017-07-19
-pubmed: {}
+pubmed:
+  24516681:
+    - 'Rosa .. Mitreva, 2014'
+    - 'Genome-wide tissue-specific gene expression, co-expression and regulation of co-expressed genes in adult nematode <i>Ascaris suum</i>. (Rosa .. Mitreva, 2014)'
 resource_links: []
 rnaseqer_last_update: 2018-07-12
 submitting_centre: The Genome Institute

@@ -79,7 +79,8 @@ sub n_choose_two {
 sub trim_values {
   my ($result, @values) = @_;
   $result =~ s/([,\s]*)$_(s|es)?([,\s]*)/$1/ for map {quotemeta $_ } @values;
-  $result =~ s/^\W+|[,\s]+$//;
+  $result =~ s/^\((.*)\)$/$1/;
+  $result =~ s/^\W+|[,\s]+$//g;
   return $result;
 }
 sub venn {

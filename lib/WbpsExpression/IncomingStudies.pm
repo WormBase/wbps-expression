@@ -29,6 +29,7 @@ our %exceptions = (
   "SRP179824" => "S. japonicum, three runs done for genome sequencing. Essentially a nice start",
   "SRP140458" => "T. pseudospiralis, three runs for genome sequencing, different life stages",
   "SRP048819" => "D. immitis, three runs, the community expressed interest in including this study",
+  "SRP067884" => "T. circ, drug resistant vs suseptible. Only annotated at our competitors', nematode.net.",
 );
 
 sub same_runs {

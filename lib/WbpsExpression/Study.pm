@@ -74,7 +74,7 @@ sub read_skipped_runs {
   return [] unless -s $path;
   open(my $fh, "<", $path) or die "$!: $path";
   my ($header, @runs) = <$fh>;
-  die $path if $header ne "Run\n";
+  die "No header?: $path" if $header ne "Run\n";
   chomp for @runs;
   return \@runs;
 }

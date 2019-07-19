@@ -1,7 +1,179 @@
 ---
 bioproject: PRJNA72583
 category: Other
-contrasts: []
+contrasts:
+  - name: culture_conditions
+    values:
+      -
+        - L3
+        - 'dog feces, activated (L3)'
+        - "L3: '' vs dog feces, activated"
+      -
+        - L3
+        - 'dog feces, infective (L3)'
+        - "L3: '' vs dog feces, infective"
+      -
+        - 'dog feces, activated (L3)'
+        - 'dog feces, infective (L3)'
+        - 'L3: dog feces, activated vs dog feces, infective'
+  - name: developmental_stage+sex
+    values:
+      -
+        - 24hr small intestine
+        - 24hr stomach
+        - 24hr small intestine vs 24hr stomach
+      -
+        - 24hr small intestine
+        - 48hr L3
+        - 24hr small intestine vs 48hr L3
+      -
+        - 24hr small intestine
+        - 72hr L3
+        - 24hr small intestine vs 72hr L3
+      -
+        - 24hr small intestine
+        - L3
+        - 24hr small intestine vs L3
+      -
+        - 24hr small intestine
+        - adult female
+        - '24hr small intestine vs adult, female'
+      -
+        - 24hr small intestine
+        - adult male
+        - '24hr small intestine vs adult, male'
+      -
+        - 24hr stomach
+        - 48hr L3
+        - 24hr stomach vs 48hr L3
+      -
+        - 24hr stomach
+        - 72hr L3
+        - 24hr stomach vs 72hr L3
+      -
+        - 24hr stomach
+        - 72hr L4
+        - 24hr stomach vs 72hr L4
+      -
+        - 24hr stomach
+        - L3
+        - 24hr stomach vs L3
+      -
+        - 24hr stomach
+        - L4 8day adult female
+        - '24hr stomach vs L4 8day adult, female'
+      -
+        - 24hr stomach
+        - adult female
+        - '24hr stomach vs adult, female'
+      -
+        - 24hr stomach
+        - adult male
+        - '24hr stomach vs adult, male'
+      -
+        - 24hr stomach
+        - gut
+        - 24hr stomach vs gut
+      -
+        - 48hr L3
+        - 72hr L3
+        - 48hr L3 vs 72hr L3
+      -
+        - 48hr L3
+        - 72hr L4
+        - 48hr L3 vs 72hr L4
+      -
+        - 48hr L3
+        - L3
+        - 48hr L3 vs L3
+      -
+        - 48hr L3
+        - L4 8day adult female
+        - '48hr L3 vs L4 8day adult, female'
+      -
+        - 48hr L3
+        - adult female
+        - '48hr L3 vs adult, female'
+      -
+        - 48hr L3
+        - adult male
+        - '48hr L3 vs adult, male'
+      -
+        - 48hr L3
+        - gut
+        - 48hr L3 vs gut
+      -
+        - 72hr L3
+        - 72hr L4
+        - 72hr L3 vs 72hr L4
+      -
+        - 72hr L3
+        - L3
+        - 72hr L3 vs L3
+      -
+        - 72hr L3
+        - L4 8day adult female
+        - '72hr L3 vs L4 8day adult, female'
+      -
+        - 72hr L3
+        - adult female
+        - '72hr L3 vs adult, female'
+      -
+        - 72hr L3
+        - adult male
+        - '72hr L3 vs adult, male'
+      -
+        - 72hr L3
+        - gut
+        - 72hr L3 vs gut
+      -
+        - 72hr L4
+        - L3
+        - 72hr L4 vs L3
+      -
+        - 72hr L4
+        - adult female
+        - '72hr L4 vs adult, female'
+      -
+        - 72hr L4
+        - adult male
+        - '72hr L4 vs adult, male'
+      -
+        - L3
+        - L4 8day adult female
+        - 'L3 vs L4 8day adult, female'
+      -
+        - L3
+        - adult female
+        - 'L3 vs adult, female'
+      -
+        - L3
+        - adult male
+        - 'L3 vs adult, male'
+      -
+        - L3
+        - gut
+        - L3 vs gut
+      -
+        - L4 8day adult female
+        - adult female
+        - 'female: L4 8day adult vs adult'
+      -
+        - L4 8day adult female
+        - adult male
+        - 'L4 8day adult, female vs adult, male'
+      -
+        - adult female
+        - adult male
+        - 'adult: female vs male'
+      -
+        - adult female
+        - gut
+        - 'adult, female vs gut'
+      -
+        - adult male
+        - gut
+        - 'adult, male vs gut'
 description: ''
 ena_first_public: 2015-06-01
 ena_last_update: 2016-07-14

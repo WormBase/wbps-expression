@@ -10,6 +10,7 @@ use List::MoreUtils qw/uniq/;
 my $pubmed_curated_ids = {
   ascaris_suum => {
     SRP140708 => [30158930],
+    SRP013609 => [24516681],
   },
   bursaphelenchus_xylophilus => {
     ERP010245 => [25981957],
