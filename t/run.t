@@ -1,7 +1,6 @@
 use strict;
 use warnings;
 use Test::More;
-use Test::MockModule;
 use File::Temp qw/tempdir/;
 use JSON;
 use File::Slurp qw/read_file/;
