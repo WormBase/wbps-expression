@@ -55,6 +55,7 @@ my @paths = map {read_dir $_ } "$studies_dir/$species";
 sub listing_tsv {
   my ($studies) = @_;
   return map {
+    die "Study without design going into the listing? $_->{study_id}" if $_->{design}->is_empty;
     join("\t", $_->{study_id}, $_->{config}{category}, $_->{config}{title})."\n"
   } @{$studies};
 }
