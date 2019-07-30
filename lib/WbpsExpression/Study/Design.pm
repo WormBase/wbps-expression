@@ -289,8 +289,8 @@ sub data_quality_checks {
        => ( 0 ==  grep {length $_ > 60 } $self->all_conditions),
     "Some characteristics should vary by condition"
        => (2 > $self->all_runs or 0 < $self->characteristics_not_common ),
-     "If the study has fewer samples than replicates, it should have fewer conditions than samples"
-       => ($num_runs < 2*$num_replicates || $num_conditions < $num_replicates ),
+     "If the study has more than two samples and fewer samples than replicates, it should have fewer conditions than samples"
+       => ($num_replicates < 3 || $num_runs < 2*$num_replicates || $num_conditions < $num_replicates ),
      "Replicates group by condition and thus don't get ignored in from_data_by_run"
        => (not $self->all_replicates or not grep {$_ =~ /\t/} $self->all_replicates),
      @replicates_well_defined,
