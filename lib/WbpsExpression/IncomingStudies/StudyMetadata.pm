@@ -16,6 +16,9 @@ my $pubmed_curated_ids = {
     ERP010245 => [25981957],
     SRP115811 => [27224277],
   },
+  fasciola_hepatica => {
+    SRP082264 => [29368659],
+  },
   globodera_pallida => {
     ERP001236 => [24580726],
   },

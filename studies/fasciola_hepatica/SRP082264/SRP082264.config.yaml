@@ -5,7 +5,10 @@ contrasts: []
 description: ''
 ena_first_public: 2017-09-25
 ena_last_update: 2017-09-25
-pubmed: {}
+pubmed:
+  29368659:
+    - 'Radio .. Tort, 2018'
+    - 'Pleiotropic alterations in gene expression in Latin American <i>Fasciola hepatica</i> isolates with different susceptibility to drugs. (Radio .. Tort, 2018)'
 resource_links: []
 rnaseqer_last_update: 2018-06-16
 submitting_centre: Facultad de Medicina. Universidad de la Republica
