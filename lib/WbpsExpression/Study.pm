@@ -344,10 +344,10 @@ sub to_hash {
   };
   $result{attributes}{"Study description"} = $self->{config}{description}
     if $self->{config}{description};
-  $result{attributes}{pubmed} = join (", ", sort map {
+  $result{attributes}{pubmed} = join (", ", sort {$b cmp $a} map {
       my ($pubmed_id, $xs) = @{$_};
       my (undef, $pubmed_description) = @{$xs};
-      sprintf('<a href="https://www.ncbi.nlm.nih.gov/pubmed/%s">%s</a>', $pubmed_id, $pubmed_description)
+      sprintf('<a href="https://www.ncbi.nlm.nih.gov/pubmed/%s">%s</a>: %s', $pubmed_id, $pubmed_id, $pubmed_description)
     } pairs %{$self->{config}{pubmed}})
     if %{$self->{config}{pubmed}};
 
@@ -358,9 +358,10 @@ sub to_hash {
     $result{attributes}{"Linked resource: $property_name"} = sprintf('<a href="%s">%s</a>', $url, $label);
   }
   my @runs_curated = map {
-    my ($condition, undef, $run_id) = @{$_};
+    my ($condition, $replicate, $run_id) = @{$_};
     my %o;
     $o{condition} = $condition;
+    $o{replicate} = $replicate if $replicate ne $run_id;
     $o{run_id} = $run_id;
     $o{bigwig} = $self->source_bigwig($run_id);
     my %attributes = map {

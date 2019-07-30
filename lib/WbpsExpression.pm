@@ -62,7 +62,7 @@ sub create_listing_and_webpage {
   my($species, $selected_studies, $other_studies, $output_dir) = @_;
   return unless @{$selected_studies} or @{$other_studies};
   write_file("$output_dir/$species.studies.tsv", { binmode => ":utf8" }, listing_tsv($selected_studies)) or die "$!";
-  write_file("$output_dir/$species.studies.json", { binmode => ":utf8" }, JSON->new->encode([map {$_->to_hash} @$selected_studies, @$other_studies])) or die "$!";
+  write_file("$output_dir/$species.studies.json", { binmode => ":utf8" }, to_json([map {$_->to_hash} @$selected_studies, @$other_studies])) or die "$!";
   write_file("$output_dir/index.html", { binmode => ":utf8" }, WbpsExpression::StudiesPage::html($species, $selected_studies, $other_studies));
 }
 1;
