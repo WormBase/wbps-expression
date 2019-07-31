@@ -5,17 +5,17 @@ Transcriptomic data for WormBase ParaSite
 ## Demo
 ### Studies page
 A list of all studies for a species, with the results available for download
-[S. mansoni](https://parasite.wormbase.org/expression/schistosoma_mansoni_prjea36577/index.html)
-[B. malayi](parasite.wormbase.org/expression/brugia_malayi_prjna10729/index.html)
+- [S. mansoni](https://parasite.wormbase.org/expression/schistosoma_mansoni_prjea36577/index.html)
+- [B. malayi](parasite.wormbase.org/expression/brugia_malayi_prjna10729/index.html)
 ### FTP
-[All species and studies](http://ftp.ebi.ac.uk/pub/databases/wormbase/parasite/web_data/rnaseq_studies/releases/next/)
-[S. mansoni index.html - same as the studies page](http://ftp.ebi.ac.uk/pub/databases/wormbase/parasite/web_data/rnaseq_studies/releases/next/schistosoma_mansoni_prjea36577/)
+- [All species and studies](http://ftp.ebi.ac.uk/pub/databases/wormbase/parasite/web_data/rnaseq_studies/releases/next/)
+- [S. mansoni index.html - same as the studies page](http://ftp.ebi.ac.uk/pub/databases/wormbase/parasite/web_data/rnaseq_studies/releases/next/schistosoma_mansoni_prjea36577/)
 ### Gene page
-[S. mansoni, gene page for Smp_316150, "eggshell protein" according to UniProt, only expressed in mature females](https://parasite.wormbase.org/Schistosoma_mansoni_prjea36577/Gene/WBPSExpressionLife_cycle?g=Smp_316150)
+- [S. mansoni, gene page for Smp_316150, "eggshell protein" according to UniProt, only expressed in mature females](https://parasite.wormbase.org/Schistosoma_mansoni_prjea36577/Gene/WBPSExpressionLife_cycle?g=Smp_316150)
 ### JBrowse tracks
-[S. mansoni tracks](parasite.wormbase.org/jbrowse/index.html?data=%2Fjbrowse-data%2Fschistosoma_mansoni_prjea36577%2Fdata&loc=SM_V7_1%3A24486826..24488380&tracks=DNA%2CGene_Models&highlight=)
+- [S. mansoni tracks](parasite.wormbase.org/jbrowse/index.html?data=%2Fjbrowse-data%2Fschistosoma_mansoni_prjea36577%2Fdata&loc=SM_V7_1%3A24486826..24488380&tracks=DNA%2CGene_Models&highlight=)
 ### Hub in the genome browser
-[S. mansoni, region in detail view](https://parasite.wormbase.org/Schistosoma_mansoni_prjea36577/Location/View?db=core;g=Smp_035270;r=SM_V7_1:24486930-24488276;t=Smp_035270.1)
+- [S. mansoni, region in detail view](https://parasite.wormbase.org/Schistosoma_mansoni_prjea36577/Location/View?db=core;g=Smp_035270;r=SM_V7_1:24486930-24488276;t=Smp_035270.1)
 
 ## Introduction
 This is the pipeline for providing WormBase ParaSite with RNASeq data. It encompasses a curation platform, data retrieval and analysis, and a UI oriented around static pages and files.
