@@ -8,7 +8,7 @@ A list of all studies for a species, with the results available for download
 [S. mansoni](https://parasite.wormbase.org/expression/schistosoma_mansoni_prjea36577/index.html)
 [B. malayi](parasite.wormbase.org/expression/brugia_malayi_prjna10729/index.html)
 ### FTP
-[S. mansoni, all files and metadata](ftp://ftp.ebi.ac.uk/pub/databases/wormbase/parasite/web_data/rnaseq_studies/releases/next/schistosoma_mansoni_prjea36577/)
+[S. mansoni, all files and metadata](http://ftp.ebi.ac.uk/pub/databases/wormbase/parasite/web_data/rnaseq_studies/releases/next/schistosoma_mansoni_prjea36577/)
 ### Gene page
 [S. mansoni, gene page for Smp_316150, "eggshell protein" according to UniProt, only expressed in mature females](https://parasite.wormbase.org/Schistosoma_mansoni_prjea36577/Gene/WBPSExpressionLife_cycle?g=Smp_316150)
 ### JBrowse tracks
