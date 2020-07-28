@@ -8,6 +8,8 @@ use File::Basename;
 use List::Util qw/pairs unpairs/;
 use File::Slurp qw(read_file read_dir);
 # use Smart::Comments '###';
+use Carp;
+use Try::Tiny;
 
 my $CAN_SEE_EBI_FILESYSTEM = -d "/nfs/ftp";
 
@@ -18,7 +20,14 @@ sub get_ftp_dir {
     # Not exactly the same: EBI's ftp server replies with ls -l output
 	(my $local = $url) =~ s{ftp://ftp.ebi.ac.uk}{/nfs/ftp};
 	$log->info("RnaseqerFtp::get_ftp_dir read_dir $local");
-	return join "\n", read_dir $local;
+	my @local_dir;
+	try {
+     @local_dir = read_dir $local;
+   } catch {
+     my $msg = $_;
+     confess "Can't read local directory $local: $msg"; 
+   };
+	return join "\n", @local_dir;
   } else {
 	$log->info("RnaseqerFtp::get_ftp_dir LWP::get $url");
     my $response = LWP::UserAgent->new->get($url);
