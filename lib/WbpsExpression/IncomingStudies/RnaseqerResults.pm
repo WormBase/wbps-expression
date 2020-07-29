@@ -54,6 +54,30 @@ sub get_results_by_study {
     for my $run (@runs){
 #### $run
       my $run_id = $run->{RUN_IDS};
+    
+# the JSON retrieved just above may contain URLs that don't exist
+# e.g. ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR100/0045/SRR10003845
+# this appears to be because '0045' is used in the path where it should be '045'
+# => try a HEAD request, and if it fails, attempt a workaround by removing a leading '0' from a directory in the path
+{
+   my $bwurl = $run->{BIGWIG_LOCATION};
+   my $bwresponse = LWP::UserAgent->new->head($bwurl);
+   if('404' eq $bwresponse->code()) {
+      my $olddir = dirname $bwurl;
+      $log->warn("JSON retrieved from https://www.ebi.ac.uk/fg/rnaseq/api/json/20/getRunsByOrganism/$species referes to $olddir which doesn't exist!");
+      $bwurl =~ s~(/rnaseq/[A-Z]+\d+/)00(\d\d+)(/[A-Z]+\d+/)~${1}0${2}${3}~;
+      my $newdir = dirname $bwurl;
+      $bwresponse = LWP::UserAgent->new->head($bwurl);
+      if('200' eq $bwresponse->code()) {
+         $log->warn("$newdir appears to exist, so will try using this instead");
+         $run->{BIGWIG_LOCATION} = $bwurl;
+      } else {
+         # we know the URL is bad, but it's not clear if data from this location will be required; so it's not yet a fatal error but requires a warning.
+         $log->warn("No alternative to $olddir found;  if data from here are required, an error will occur.");
+      }
+   }
+}
+      
       $location_by_run{$run_id} = ($run->{ASSEMBLY_USED} //"") eq $assembly_used ? dirname ($run->{BIGWIG_LOCATION}) : "";
       $quality_by_run{$run_id} = $run->{MAPPING_QUALITY};
     }
