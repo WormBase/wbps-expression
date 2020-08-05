@@ -1,0 +1,13 @@
+# found large numbers of untracked files which were making git operations
+# harder than necessary, so added them here
+# some of these ('studies'?) could be WIP that should be comitted
+# at some point???
+# lines below are just a guess
+*.err
+*.out
+.Rhistory
+*.snapshot
+studies
+local
+Resources
+
