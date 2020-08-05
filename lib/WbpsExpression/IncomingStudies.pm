@@ -14,6 +14,7 @@ use File::Path qw/make_path/;
 use List::Util qw/first pairmap/;
 use List::MoreUtils qw/uniq singleton duplicates all/;
 use Log::Any qw/$log/;
+use Carp;
 
 use Data::Compare;
 
@@ -162,9 +163,31 @@ sub update_studies {
     next unless $rnaseqer_results_by_study_id->{$study_id}{assembly_used} eq $assembly; 
     next if $study_id eq "DRP002615";
     $log->info( __PACKAGE__ . " processing $study_id");
+    
+   # some runs do not have a location (i.e. summat like 'ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR643/009/SRR6435989')
+   # which causes errors downstream => weed these out
+   foreach my $run (keys %{$rnaseqer_results_by_study_id->{$study_id}{location_by_run}}) {
+      # check the location is defined at has at least one non-whitespace
+      unless   (  defined $rnaseqer_results_by_study_id->{$study_id}{location_by_run}->{$run}
+               &&    $rnaseqer_results_by_study_id->{$study_id}{location_by_run}->{$run} =~ m/\S/
+               ) {
+         $log->warn("WARNING: $study_id ($species) run $run has an undefined location:  THIS RUN WILL BE IGNORED");
+         # the hash for this study contains multiple hashes keyed on run IDs
+         # => delete the problem run from all of them
+         foreach my $study_hash_key (keys %{$rnaseqer_results_by_study_id->{$study_id}}) {
+            # delete this object from the study hash...
+            delete $rnaseqer_results_by_study_id->{$study_id}->{$study_hash_key}->{$run}
+               # ...if the object is a hash...
+               if ref({}) eq ref($rnaseqer_results_by_study_id->{$study_id}->{$study_hash_key})
+                  # ...and if that hash contains anything keyed on the run ID
+                  && exists $rnaseqer_results_by_study_id->{$study_id}->{$study_hash_key};
+         }
+      }
+   }
+
     my $study_path = join("/", $studies_dir, $species, $study_id);
     my $study = update_study_with_results($study_path, $species, $study_id,
-        $rnaseqer_results_by_study_id->{$study_id}{rnaseqer_last_update},
+       $rnaseqer_results_by_study_id->{$study_id}{rnaseqer_last_update},
        $rnaseqer_results_by_study_id->{$study_id}{location_by_run},
        $rnaseqer_results_by_study_id->{$study_id}{quality_by_run},
        $rnaseqer_results_by_study_id->{$study_id}{replicates_by_run},
