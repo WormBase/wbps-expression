@@ -38,7 +38,11 @@ sub get_ftp_dir {
 }
 
 sub get_end_for_run {
+my $this = (caller(0))[3];
   my ($run_id, $ftp_path, $rnaseqer_last_update) = @_;
+  $run_id               || confess "$this called without positional arg 0 \$run_id";
+  $ftp_path             || confess "$this called without positional arg 1 \$ftp_path";
+  $rnaseqer_last_update || confess "$this called without positional arg 2 \$rnaseqer_last_update";
   my $listing = get_ftp_dir($ftp_path);
   my @files = map {basename $_} $listing =~ /($run_id\..*)/g;
   my $pe = grep { /^$run_id.pe/ } @files;
@@ -49,13 +53,13 @@ sub get_end_for_run {
 #### @files
 #### $end
   if ($rnaseqer_last_update ge "2019-04-15"){
-    die "No counts: $ftp_path" unless grep {$_ eq "$run_id.$end.genes.raw.featurecounts.tsv" } @files;
-    die "No TPMs: $ftp_path" unless grep {$_ eq "$run_id.$end.genes.tpm.featurecounts.irap.tsv"} @files;  
+    $log->error("ERROR: No counts: $ftp_path")  unless grep {$_ eq "$run_id.$end.genes.raw.featurecounts.tsv" } @files;
+    $log->error("ERROR: No TPMs: $ftp_path")    unless grep {$_ eq "$run_id.$end.genes.tpm.featurecounts.irap.tsv"} @files;  
   } else {
-    die "No counts: $ftp_path" unless grep {$_ eq "$run_id.$end.genes.raw.htseq2.tsv" } @files;  
-    die "No TPMs: $ftp_path" unless grep {$_ eq "$run_id.$end.genes.tpm.htseq2.irap.tsv"} @files;  
+    $log->error("ERROR: No counts: $ftp_path")  unless grep {$_ eq "$run_id.$end.genes.raw.htseq2.tsv" } @files;  
+    $log->error("ERROR: No TPMs: $ftp_path")    unless grep {$_ eq "$run_id.$end.genes.tpm.htseq2.irap.tsv"} @files;  
   }
-  die "No bigwig: $ftp_path" unless grep {$_ eq "$run_id.nospliced.bw"} @files;
+  $log->error("ERROR: No bigwig: $ftp_path")    unless grep {$_ eq "$run_id.nospliced.bw"} @files;
   return $end;
 }
 1;
