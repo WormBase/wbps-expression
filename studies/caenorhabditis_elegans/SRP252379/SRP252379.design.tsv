@@ -1,0 +1,21 @@
+Run	Condition	growth_protocol	isolate	sample_name	strain	title	developmental_stage	sex
+SRR11288125	HS304-1	20C	1	HS304-1	HS304	swsn-1(ts), replicate 1	First day adult	hermaphrodite
+SRR11288124	HS304-2	20C	2	HS304-2	HS304	swsn-1(ts), replicate 2	First day adult	hermaphrodite
+SRR11288123	HS304-4	20C	4	HS304-4	HS304	swsn-1(ts), replicate 4	First day adult	hermaphrodite
+SRR11288122	HS304-5	20C	5	HS304-5	HS304	swsn-1(ts), replicate 5	First day adult	hermaphrodite
+SRR11288121	HS304-6	20C	6	HS304-6	HS304	swsn-1(ts), replicate 6	First day adult	hermaphrodite
+SRR11288140	N2-1	20C	1	N2-1	N2	wild type, replicate 1	First day adult	hermaphrodite
+SRR11288139	N2-2	20C	2	N2-2	N2	wild type, replicate 2	First day adult	hermaphrodite
+SRR11288128	N2-4	20C	4	N2-4	N2	wild type, replicate 4	First day adult	hermaphrodite
+SRR11288127	N2-5	20C	5	N2-5	N2	wild type, replicate 5	First day adult	hermaphrodite
+SRR11288126	N2-6	20C	6	N2-6	N2	wild type, replicate 6	First day adult	hermaphrodite
+SRR11288133	RA577-1	15C through L4, then 25C to adulthood	1	RA577-1	RA577	swsn-9(lf) neuronal rescue, replicate 1	First day adult	hermaphrodite
+SRR11288132	RA577-3	15C through L4, then 25C to adulthood	3	RA577-3	RA577	swsn-9(lf) neuronal rescue, replicate 3	First day adult	hermaphrodite
+SRR11288131	RA577-4	15C through L4, then 25C to adulthood	4	RA577-4	RA577	swsn-9(lf) neuronal rescue, replicate 4	First day adult	hermaphrodite
+SRR11288130	RA577-5	15C through L4, then 25C to adulthood	5	RA577-5	RA577	swsn-9(lf) neuronal rescue, replicate 5	First day adult	hermaphrodite
+SRR11288129	RA577-7	15C through L4, then 25C to adulthood	7	RA577-7	RA577	swsn-9(lf) neuronal rescue, replicate 7	First day adult	hermaphrodite
+SRR11288138	RA629-1	15C through L4, then 25C to adulthood	1	RA629-1	RA629	swsn-9(lf) control, replicate 1	First day adult	hermaphrodite
+SRR11288137	RA629-3	15C through L4, then 25C to adulthood	3	RA629-3	RA629	swsn-9(lf) control, replicate 3	First day adult	hermaphrodite
+SRR11288136	RA629-4	15C through L4, then 25C to adulthood	4	RA629-4	RA629	swsn-9(lf) control, replicate 4	First day adult	hermaphrodite
+SRR11288135	RA629-5	15C through L4, then 25C to adulthood	5	RA629-5	RA629	swsn-9(lf) control, replicate 5	First day adult	hermaphrodite
+SRR11288134	RA629-7	15C through L4, then 25C to adulthood	7	RA629-7	RA629	swsn-9(lf) control, replicate 7	First day adult	hermaphrodite

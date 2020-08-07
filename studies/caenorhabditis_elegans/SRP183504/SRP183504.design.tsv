@@ -1,0 +1,33 @@
+Run	Sample	Condition	description_title	genotype	protocol	source_name
+SRR8528184	SAMN10869484	SAMN10869484	wt_or_n2_starved_rna2	wild type	starved	wt_or_n2_starved_rna2
+SRR8528185	SAMN10869484	SAMN10869484	wt_or_n2_starved_rna2	wild type	starved	wt_or_n2_starved_rna2
+SRR8528182	SAMN10869485	SAMN10869485	wt_or_n2_starved_rna1	wild type	starved	wt_or_n2_starved_rna1
+SRR8528183	SAMN10869485	SAMN10869485	wt_or_n2_starved_rna1	wild type	starved	wt_or_n2_starved_rna1
+SRR8528180	SAMN10869486	SAMN10869486	wt_or_n2_fed_rna2	wild type	fed	wt_or_n2_fed_rna2
+SRR8528181	SAMN10869486	SAMN10869486	wt_or_n2_fed_rna2	wild type	fed	wt_or_n2_fed_rna2
+SRR8528178	SAMN10869487	SAMN10869487	wt_or_n2_fed_rna1	wild type	fed	wt_or_n2_fed_rna1
+SRR8528179	SAMN10869487	SAMN10869487	wt_or_n2_fed_rna1	wild type	fed	wt_or_n2_fed_rna1
+SRR8528176	SAMN10869488	SAMN10869488	wt_or_n2_cemm_3h_rna2	wild type	refed with C. elegans maintenance medium (CeMM) 3hr	wt_or_n2_cemm_3h_rna2
+SRR8528177	SAMN10869488	SAMN10869488	wt_or_n2_cemm_3h_rna2	wild type	refed with C. elegans maintenance medium (CeMM) 3hr	wt_or_n2_cemm_3h_rna2
+SRR8528174	SAMN10869489	SAMN10869489	wt_or_n2_cemm_3h_rna1	wild type	refed with C. elegans maintenance medium (CeMM) 3hr	wt_or_n2_cemm_3h_rna1
+SRR8528175	SAMN10869489	SAMN10869489	wt_or_n2_cemm_3h_rna1	wild type	refed with C. elegans maintenance medium (CeMM) 3hr	wt_or_n2_cemm_3h_rna1
+SRR8528172	SAMN10869490	SAMN10869490	wt_or_n2_cemm_15h_rna2	wild type	refed with C. elegans maintenance medium (CeMM) 15hr	wt_or_n2_cemm_15h_rna2
+SRR8528173	SAMN10869490	SAMN10869490	wt_or_n2_cemm_15h_rna2	wild type	refed with C. elegans maintenance medium (CeMM) 15hr	wt_or_n2_cemm_15h_rna2
+SRR8528170	SAMN10869491	SAMN10869491	wt_or_n2_cemm_15h_rna1	wild type	refed with C. elegans maintenance medium (CeMM) 15hr	wt_or_n2_cemm_15h_rna1
+SRR8528171	SAMN10869491	SAMN10869491	wt_or_n2_cemm_15h_rna1	wild type	refed with C. elegans maintenance medium (CeMM) 15hr	wt_or_n2_cemm_15h_rna1
+SRR8528168	SAMN10869492	SAMN10869492	mutant_starved_rna2	mutant	starved	mutant_starved_rna2
+SRR8528169	SAMN10869492	SAMN10869492	mutant_starved_rna2	mutant	starved	mutant_starved_rna2
+SRR8528166	SAMN10869493	SAMN10869493	mutant_starved_rna1	mutant	starved	mutant_starved_rna1
+SRR8528167	SAMN10869493	SAMN10869493	mutant_starved_rna1	mutant	starved	mutant_starved_rna1
+SRR8528164	SAMN10869494	SAMN10869494	mutant_fed_rna2	mutant	fed	mutant_fed_rna2
+SRR8528165	SAMN10869494	SAMN10869494	mutant_fed_rna2	mutant	fed	mutant_fed_rna2
+SRR8528162	SAMN10869495	SAMN10869495	mutant_fed_rna1	mutant	fed	mutant_fed_rna1
+SRR8528163	SAMN10869495	SAMN10869495	mutant_fed_rna1	mutant	fed	mutant_fed_rna1
+SRR8528160	SAMN10869496	SAMN10869496	mutant_cemm_3h_rna2	mutant	refed with C. elegans maintenance medium (CeMM) 3hr	mutant_cemm_3h_rna2
+SRR8528161	SAMN10869496	SAMN10869496	mutant_cemm_3h_rna2	mutant	refed with C. elegans maintenance medium (CeMM) 3hr	mutant_cemm_3h_rna2
+SRR8528158	SAMN10869497	SAMN10869497	mutant_cemm_3h_rna1	mutant	refed with C. elegans maintenance medium (CeMM) 3hr	mutant_cemm_3h_rna1
+SRR8528159	SAMN10869497	SAMN10869497	mutant_cemm_3h_rna1	mutant	refed with C. elegans maintenance medium (CeMM) 3hr	mutant_cemm_3h_rna1
+SRR8528156	SAMN10869498	SAMN10869498	mutant_cemm_15h_rna2	mutant	refed with C. elegans maintenance medium (CeMM) 15hr	mutant_cemm_15h_rna2
+SRR8528157	SAMN10869498	SAMN10869498	mutant_cemm_15h_rna2	mutant	refed with C. elegans maintenance medium (CeMM) 15hr	mutant_cemm_15h_rna2
+SRR8528154	SAMN10869499	SAMN10869499	mutant_cemm_15h_rna1	mutant	refed with C. elegans maintenance medium (CeMM) 15hr	mutant_cemm_15h_rna1
+SRR8528155	SAMN10869499	SAMN10869499	mutant_cemm_15h_rna1	mutant	refed with C. elegans maintenance medium (CeMM) 15hr	mutant_cemm_15h_rna1

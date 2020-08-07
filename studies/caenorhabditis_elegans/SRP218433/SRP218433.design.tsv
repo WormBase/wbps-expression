@@ -1,0 +1,10 @@
+Run	Condition	sample_name	strain	title	developmental_stage	organism_part	sex
+SRR9972846	eri1_1	eri1_1	GR1373_1	eri-1_mRNA-SEQ_replicate d1	Day 1 adult	whole organism	hermaphrodite
+SRR9972845	eri1_2	eri1_2	GR1373_2	eri-1_mRNA-SEQ_replicate d2	Day 1 adult	whole organism	hermaphrodite
+SRR9972848	eri1daf2_1	eri1daf2_1	GR1899_1	eri-1; daf-2_mRNA-SEQ_replicate 1	Day 1 adult	whole organism	hermaphrodite
+SRR9972847	eri1daf2_2	eri1daf2_2	GR1899_2	eri-1; daf-2_mRNA-SEQ_replicate 2	Day 1 adult	whole organism	hermaphrodite
+SRR9972850	eri1daf2daf16_1	eri1daf2daf16_1	GR1899_3	eri-1; daf-2; daf-16 RNAi_mRNA-SEQ_replicate 1	Day 1 adult	whole organism	hermaphrodite
+SRR9972849	eri1daf2daf16_2	eri1daf2daf16_2	GR1899_4	eri-1; daf-2; daf-16 RNAi_mRNA-SEQ_replicate 2	Day 1 adult	whole organism	hermaphrodite
+SRR9972852	eri1daf2smk1_1	eri1daf2smk1_1	GR1899_5	eri-1; daf-2; smk-1 RNAi_mRNA-SEQ_replicate 1	Day 1 adult	whole organism	hermaphrodite
+SRR9972851	eri1daf2smk1_2	eri1daf2smk1_2	GR1899_6	eri-1; daf-2; smk-1 RNAi_mRNA-SEQ_replicate 2	Day 1 adult	whole organism	hermaphrodite
+SRR9972844	eri1daf2smk1_3	eri1daf2smk1_3	GR1899_7	eri-1; daf-2; smk-1 RNAi_mRNA-SEQ_replicate 3	Day 1 adult	whole organism	hermaphrodite

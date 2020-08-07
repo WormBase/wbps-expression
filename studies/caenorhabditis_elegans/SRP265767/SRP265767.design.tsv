@@ -1,0 +1,7 @@
+Run	Condition	sample_name	strain	developmental_stage	organism_part	sex	title
+SRR11915380	N2;wqEx49[Pdpy-7::gfp]	N2;wqEx49[Pdpy-7::gfp]	CQ591 N2; wqEx49[Pdpy-7::gfp]	Day 1 adult	hypodermis	hermaphrodite	Model organism or animal sample from C. elegans
+SRR11915382	N2;wqEx49[Pdpy-7::gfp]	N2;wqEx49[Pdpy-7::gfp]	CQ591 N2; wqEx49[Pdpy-7::gfp]	Day 1 adult	hypodermis	hermaphrodite	Model organism or animal sample from C. elegans
+SRR11915381	N2;wqEx49[Pdpy-7::gfp]_replicate 2	N2;wqEx49[Pdpy-7::gfp]_replicate 2	CQ591 N2; wqEx49[Pdpy-7::gfp]	Day 1 adult	hypodermis	hermaphrodite	Model organism or animal sample from C. elegans
+SRR11915377	crh-1(n3315);wqEx49[Pdpy-7::gfp]	crh-1(n3315);wqEx49[Pdpy-7::gfp]	CQ593 crh-1(n3315); wqEx49[Pdpy-7::gfp]	Day 1 adult	hypodermis	hermaphrodite	Model organism or animal sample from C. elegans
+SRR11915378	crh-1(n3315);wqEx49[Pdpy-7::gfp]	crh-1(n3315);wqEx49[Pdpy-7::gfp]	CQ593 crh-1(n3315); wqEx49[Pdpy-7::gfp]	Day 1 adult	hypodermis	hermaphrodite	Model organism or animal sample from C. elegans
+SRR11915379	crh-1(n3315);wqEx49[Pdpy-7::gfp]	crh-1(n3315);wqEx49[Pdpy-7::gfp]	CQ593 crh-1(n3315); wqEx49[Pdpy-7::gfp]	Day 1 adult	hypodermis	hermaphrodite	Model organism or animal sample from C. elegans

@@ -1,0 +1,13 @@
+Run	Condition	strain	title	developmental_stage	diet	source_name
+SRR8689280	SRR8689280	N2	N2_1	Day 1	ad libitum bacteria	whole organism
+SRR8689281	SRR8689281	nfyb-1(cu13)	nyfb1_1	Day 1	ad libitum bacteria	whole organism
+SRR8689282	SRR8689282	isp-1(qm150)	isp1_1	Day 1	ad libitum bacteria	whole organism
+SRR8689283	SRR8689283	nfyb-1(cu13); isp-1(qm150)	nyfb1_isp1_1	Day 1	ad libitum bacteria	whole organism
+SRR8689284	SRR8689284	N2	N2_2	Day 1	ad libitum bacteria	whole organism
+SRR8689285	SRR8689285	nfyb-1(cu13)	nyfb1_2	Day 1	ad libitum bacteria	whole organism
+SRR8689286	SRR8689286	isp-1(qm150)	isp1_2	Day 1	ad libitum bacteria	whole organism
+SRR8689287	SRR8689287	nfyb-1(cu13); isp-1(qm150)	nyfb1_isp1_2	Day 1	ad libitum bacteria	whole organism
+SRR8689288	SRR8689288	N2	N2_3	Day 1	ad libitum bacteria	whole organism
+SRR8689289	SRR8689289	nfyb-1(cu13)	nyfb1_3	Day 1	ad libitum bacteria	whole organism
+SRR8689290	SRR8689290	isp-1(qm150)	isp1_3	Day 1	ad libitum bacteria	whole organism
+SRR8689291	SRR8689291	nfyb-1(cu13); isp-1(qm150)	nyfb1_isp1_3	Day 1	ad libitum bacteria	whole organism

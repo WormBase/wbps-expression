@@ -1,0 +1,10 @@
+Run	Condition	strain	title	developental_stage	source_name
+SRR9640772	SRR9640772	AF16 wild-type isolate	AF16 wild-type isolate rep1	L3	Whole animal
+SRR9640773	SRR9640773	AF16 wild-type isolate	AF16 wild-type isolate rep2	L3	Whole animal
+SRR9640774	SRR9640774	AF16 wild-type isolate	AF16 wild-type isolate rep3	L3	Whole animal
+SRR9640775	SRR9640775	Cbr-spr-4(gu163)/Cbr-ivp-1(gu163)	Cbr-spr-4(gu163)/Cbr-ivp-1(gu163) rep1	L3	Whole animal
+SRR9640776	SRR9640776	Cbr-spr-4(gu163)/Cbr-ivp-1(gu163)	Cbr-spr-4(gu163)/Cbr-ivp-1(gu163) rep2	L3	Whole animal
+SRR9640777	SRR9640777	Cbr-spr-4(gu163)/Cbr-ivp-1(gu163)	Cbr-spr-4(gu163)/Cbr-ivp-1(gu163) rep3	L3	Whole animal
+SRR9640778	SRR9640778	Cbr-htz-1(gu167)/Cbr-ivp-2(gu167)	Cbr-htz-1(gu167)/Cbr-ivp-2(gu167) rep1	L3	Whole animal
+SRR9640779	SRR9640779	Cbr-htz-1(gu167)/Cbr-ivp-2(gu167)	Cbr-htz-1(gu167)/Cbr-ivp-2(gu167) rep2	L3	Whole animal
+SRR9640780	SRR9640780	Cbr-htz-1(gu167)/Cbr-ivp-2(gu167)	Cbr-htz-1(gu167)/Cbr-ivp-2(gu167) rep3	L3	Whole animal

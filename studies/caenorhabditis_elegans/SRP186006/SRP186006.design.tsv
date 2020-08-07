@@ -1,0 +1,17 @@
+Run	Condition	diet	strain	title	source_name
+SRR8582308	SRR8582308	ad libitum bacteria	N2	N2_AL_1	whole organism
+SRR8582309	SRR8582309	ad libitum bacteria	hlh-30(tm1978)	hlh-30_AL_1	whole organism
+SRR8582310	SRR8582310	starvation from mid L3 on	N2	N2_ARD_1	whole organism
+SRR8582311	SRR8582311	starvation from mid L3 on	hlh-30(tm1978)	hlh-30_ARD_1	whole organism
+SRR8582312	SRR8582312	ad libitum bacteria	N2	N2_AL_2	whole organism
+SRR8582313	SRR8582313	ad libitum bacteria	hlh-30(tm1978)	hlh-30_AL_2	whole organism
+SRR8582314	SRR8582314	starvation from mid L3 on	N2	N2_ARD_2	whole organism
+SRR8582315	SRR8582315	starvation from mid L3 on	hlh-30(tm1978)	hlh-30_ARD_2	whole organism
+SRR8582316	SRR8582316	ad libitum bacteria	N2	N2_AL_3	whole organism
+SRR8582317	SRR8582317	ad libitum bacteria	hlh-30(tm1978)	hlh-30_AL_3	whole organism
+SRR8582318	SRR8582318	starvation from mid L3 on	N2	N2_ARD_3	whole organism
+SRR8582319	SRR8582319	starvation from mid L3 on	hlh-30(tm1978)	hlh-30_ARD_3	whole organism
+SRR8582320	SRR8582320	ad libitum bacteria	N2	N2_AL_4	whole organism
+SRR8582321	SRR8582321	ad libitum bacteria	hlh-30(tm1978)	hlh-30_AL_4	whole organism
+SRR8582322	SRR8582322	starvation from mid L3 on	N2	N2_ARD_4	whole organism
+SRR8582323	SRR8582323	starvation from mid L3 on	hlh-30(tm1978)	hlh-30_ARD_4	whole organism

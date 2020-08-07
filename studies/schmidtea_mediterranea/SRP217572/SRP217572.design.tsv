@@ -1,0 +1,20 @@
+Run	Condition	collection_date	irradiation	rnai_condition	sample_name	time	organism_part	strain	title
+SRR9912145	Smed bcat rnai day4 irrad tail	11-Dec-2015	yes	bcat	Smed bcat rnai day4 irrad tail	day 4	tail	asexual CIW4	Invertebrate sample from Schmidtea mediterranea
+SRR9912161	Smed bcat rnai day4 no-irrad tail	11-Dec-2015	no	bcat no-irrad	Smed bcat rnai day4 no-irrad tail	day 4	tail	asexual CIW4	Invertebrate sample from Schmidtea mediterranea
+SRR9912146	Smed bcat rnai tail day1	27-May-2015	no	bcat	Smed bcat rnai tail day1	day 1	tail	asexual CIW4	Invertebrate sample from Schmidtea mediterranea
+SRR9912147	Smed bcat rnai tail day2	27-May-2015	no	bcat	Smed bcat rnai tail day2	day 2	tail	asexual CIW4	Invertebrate sample from Schmidtea mediterranea
+SRR9912148	Smed bcat rnai tail day4	27-May-2015	no	bcat	Smed bcat rnai tail day4	day 4	tail	asexual CIW4	Invertebrate sample from Schmidtea mediterranea
+SRR9912149	Smed bcat rnai tail day6	27-May-2015	no	bcat	Smed bcat rnai tail day6	day 6	tail	asexual CIW4	Invertebrate sample from Schmidtea mediterranea
+SRR9912163	Smed sp5 rnai 1wk tail	25-Oct-2017	no	sp5	Smed sp5 rnai 1wk tail	1 week	tail	asexual CIW4	Invertebrate sample from Schmidtea mediterranea
+SRR9912156	Smed sp5 rnai 2wk tail	25-Oct-2017	no	sp5	Smed sp5 rnai 2wk tail	2 weeks	tail	asexual CIW4	Invertebrate sample from Schmidtea mediterranea
+SRR9912157	Smed sp5 rnai 4wk tail	25-Oct-2017	no	sp5	Smed sp5 rnai 4wk tail	4 weeks	tail	asexual CIW4	Invertebrate sample from Schmidtea mediterranea
+SRR9912158	Smed unc rnai 1wk tail	25-Oct-2017	no	unc	Smed unc rnai 1wk tail	1 week	tail	asexual CIW4	Invertebrate sample from Schmidtea mediterranea
+SRR9912159	Smed unc rnai 2wk tail	25-Oct-2017	no	unc	Smed unc rnai 2wk tail	2 weeks	tail	asexual CIW4	Invertebrate sample from Schmidtea mediterranea
+SRR9912154	Smed unc rnai 4wk tail	25-Oct-2017	no	unc	Smed unc rnai 4wk tail	4 weeks	tail	asexual CIW4	Invertebrate sample from Schmidtea mediterranea
+SRR9912160	Smed unc rnai day4 irrad tail	11-Dec-2015	yes	unc	Smed unc rnai day4 irrad tail	day 4	tail	asexual CIW4	Invertebrate sample from Schmidtea mediterranea
+SRR9912162	Smed unc rnai day4 no-irrad tail	11-Dec-2015	no	unc no-irrad	Smed unc rnai day4 no-irrad tail	day 4	tail	asexual CIW4	Invertebrate sample from Schmidtea mediterranea
+SRR9912150	Smed unc rnai tail day0	27-May-2015	no	unc	Smed unc rnai tail day0	day 0	tail	asexual CIW4	Invertebrate sample from Schmidtea mediterranea
+SRR9912151	Smed unc rnai tail day1	27-May-2015	no	unc	Smed unc rnai tail day1	day 1	tail	asexual CIW4	Invertebrate sample from Schmidtea mediterranea
+SRR9912152	Smed unc rnai tail day2	27-May-2015	no	unc	Smed unc rnai tail day2	day 2	tail	asexual CIW4	Invertebrate sample from Schmidtea mediterranea
+SRR9912153	Smed unc rnai tail day4	27-May-2015	no	unc	Smed unc rnai tail day4	day 4	tail	asexual CIW4	Invertebrate sample from Schmidtea mediterranea
+SRR9912144	Smed unc rnai tail day6	27-May-2015	no	unc	Smed unc rnai tail day6	day 6	tail	asexual CIW4	Invertebrate sample from Schmidtea mediterranea

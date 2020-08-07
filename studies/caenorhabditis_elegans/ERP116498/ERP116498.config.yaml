@@ -1,0 +1,16 @@
+---
+bioproject: PRJEB33687
+category: Other
+contrasts: []
+description: 'To uncover the host response pathways that are modified by a B. subtilis diet and that may provide the protective effect against α-synuclein aggregation, we performed comparative global transcriptomics analysis using next generation RNA sequencing (RNA-seq). We compared young adult animals fed on three different diets, E. coli OP50 and B. subtilis PXN21 lawns, consisting of both spores and vegetative cells, and a mixture of both bacteria.'
+ena_first_public: 2020-01-14
+ena_last_update: 2019-07-25
+pubmed: {}
+resource_links:
+  -
+    - ArrayExpress
+    - E-MTAB-8164 in ArrayExpress
+    - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-8164
+rnaseqer_last_update: 2020-01-15
+submitting_centre: 'School of Biological Sciences, University of Edinburgh'
+title: 'RNAseq of young adult C. elegans animals fed on three different bacterial diets, E. coli OP50, B. subtilis PXN21 and a mixture of both'

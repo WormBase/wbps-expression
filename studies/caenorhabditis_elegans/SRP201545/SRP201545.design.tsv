@@ -1,0 +1,13 @@
+Run	Condition	description_title	genotype	worm_collection_date	source_name
+SRR9307537	SRR9307537	Wildtype_rep1	wild type	2015-10-28	mid-L4 stage worm
+SRR9307538	SRR9307538	Wildtype_rep2	wild type	2015-10-30	mid-L4 stage worm
+SRR9307539	SRR9307539	Wildtype_rep3	wild type	2015-11-01	mid-L4 stage worm
+SRR9307540	SRR9307540	Wildtype_rep4	wild type	2015-11-03	mid-L4 stage worm
+SRR9307541	SRR9307541	RagA_mutant_rep1	RagA_mutant	2015-10-27	mid-L4 stage worm
+SRR9307542	SRR9307542	RagA_mutant_rep2	RagA_mutant	2015-10-28	mid-L4 stage worm
+SRR9307543	SRR9307543	RagA_mutant_rep3	RagA_mutant	2015-10-30	mid-L4 stage worm
+SRR9307544	SRR9307544	RagA_mutant_rep4	RagA_mutant	2015-11-01	mid-L4 stage worm
+SRR9307545	SRR9307545	Neuronal_rescue_rep1	Neuronal_rescue	2015-10-27	mid-L4 stage worm
+SRR9307546	SRR9307546	Neuronal_rescue_rep2	Neuronal_rescue	2015-10-28	mid-L4 stage worm
+SRR9307547	SRR9307547	Neuronal_rescue_rep3	Neuronal_rescue	2015-10-30	mid-L4 stage worm
+SRR9307548	SRR9307548	Neuronal_rescue_rep4	Neuronal_rescue	2015-11-01	mid-L4 stage worm

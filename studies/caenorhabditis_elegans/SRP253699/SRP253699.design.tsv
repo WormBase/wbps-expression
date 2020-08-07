@@ -1,0 +1,25 @@
+Run	Condition	developmental_stage	title	source_name
+SRR11392020	SRR11392020	1 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_1h	synchronized population
+SRR11392021	SRR11392021	2 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_2h	synchronized population
+SRR11392022	SRR11392022	3 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_3h	synchronized population
+SRR11392023	SRR11392023	4 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_4h	synchronized population
+SRR11392024	SRR11392024	5 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_5h	synchronized population
+SRR11392025	SRR11392025	6 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_6h	synchronized population
+SRR11392026	SRR11392026	7 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_7h	synchronized population
+SRR11392027	SRR11392027	8 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_8h	synchronized population
+SRR11392028	SRR11392028	9 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_9h	synchronized population
+SRR11392029	SRR11392029	10 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_10h	synchronized population
+SRR11392030	SRR11392030	11 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_11h	synchronized population
+SRR11392031	SRR11392031	12 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_12h	synchronized population
+SRR11392032	SRR11392032	13 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_13h	synchronized population
+SRR11392033	SRR11392033	14 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_14h	synchronized population
+SRR11392034	SRR11392034	15 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_15h	synchronized population
+SRR11392035	SRR11392035	16 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_16h	synchronized population
+SRR11392036	SRR11392036	17 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_17h	synchronized population
+SRR11392037	SRR11392037	18 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_18h	synchronized population
+SRR11392038	SRR11392038	19 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_19h	synchronized population
+SRR11392039	SRR11392039	20 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_20h	synchronized population
+SRR11392040	SRR11392040	21 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_21h	synchronized population
+SRR11392041	SRR11392041	22 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_22h	synchronized population
+SRR11392042	SRR11392042	23 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_23h	synchronized population
+SRR11392043	SRR11392043	24 h after plating L1-arrested C. elegans larvae	RNAseq_tm548_24h	synchronized population

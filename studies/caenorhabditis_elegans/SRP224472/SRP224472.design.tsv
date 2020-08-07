@@ -1,0 +1,19 @@
+Run	Condition	genotype	sample_name	strain	developmental_stage	organism_part	title
+SRR10235899	N2 CT REP 1 RNA-seq	wild type	N2 CT REP 1 RNA-seq	Bristol N2	Day 1 Adult	whole organism	Model organism or animal sample from Caenorhabditis elegans
+SRR10235898	N2 CT REP 2 RNA-seq	wild type	N2 CT REP 2 RNA-seq	Bristol N2	Day 1 Adult	whole organism	Model organism or animal sample from Caenorhabditis elegans
+SRR10235889	N2 CT REP 3 RNA-seq	wild type	N2 CT REP 3 RNA-seq	Bristol N2	Day 1 Adult	whole organism	Model organism or animal sample from Caenorhabditis elegans
+SRR10235888	N2 HS REP 1 RNA-seq	wild type	N2 HS REP 1 RNA-seq	Bristol N2	Day 1 Adult	whole organism	Model organism or animal sample from Caenorhabditis elegans
+SRR10235887	N2 HS REP 2 RNA-seq	wild type	N2 HS REP 2 RNA-seq	Bristol N2	Day 1 Adult	whole organism	Model organism or animal sample from Caenorhabditis elegans
+SRR10235886	N2 HS REP 3 RNA-seq	wild type	N2 HS REP 3 RNA-seq	Bristol N2	Day 1 Adult	whole organism	Model organism or animal sample from Caenorhabditis elegans
+SRR10235895	SY441 CT REP 1 RNA-seq	hsf-1(sy441)	SY441 CT REP 1 RNA-seq	PS3551	Day 1 Adult	whole organism	Model organism or animal sample from Caenorhabditis elegans
+SRR10235894	SY441 CT REP 2 RNA-seq	hsf-1(sy441)	SY441 CT REP 2 RNA-seq	PS3551	Day 1 Adult	whole organism	Model organism or animal sample from Caenorhabditis elegans
+SRR10235893	SY441 CT REP 3 RNA-seq	hsf-1(sy441)	SY441 CT REP 3 RNA-seq	PS3551	Day 1 Adult	whole organism	Model organism or animal sample from Caenorhabditis elegans
+SRR10235892	SY441 HS REP 1 RNA-seq	hsf-1(sy441)	SY441 HS REP 1 RNA-seq	PS3551	Day 1 Adult	whole organism	Model organism or animal sample from Caenorhabditis elegans
+SRR10235891	SY441 HS REP 2 RNA-seq	hsf-1(sy441)	SY441 HS REP 2 RNA-seq	PS3551	Day 1 Adult	whole organism	Model organism or animal sample from Caenorhabditis elegans
+SRR10235890	SY441 HS REP 3 RNA-seq	hsf-1(sy441)	SY441 HS REP 3 RNA-seq	PS3551	Day 1 Adult	whole organism	Model organism or animal sample from Caenorhabditis elegans
+SRR10235885	TPH-1 CT REP 1 RNA-seq	tph-1(mg280) II	TPH-1 CT REP 1 RNA-seq	MT15434	Day 1 Adult	whole organism	Model organism or animal sample from Caenorhabditis elegans
+SRR10235884	TPH-1 CT REP 2 RNA-seq	tph-1(mg280) II	TPH-1 CT REP 2 RNA-seq	MT15434	Day 1 Adult	whole organism	Model organism or animal sample from Caenorhabditis elegans
+SRR10235883	TPH-1 CT REP 3 RNA-seq	tph-1(mg280) II	TPH-1 CT REP 3 RNA-seq	MT15434	Day 1 Adult	whole organism	Model organism or animal sample from Caenorhabditis elegans
+SRR10235882	TPH-1 HS REP 1 RNA-seq	tph-1(mg280) II	TPH-1 HS REP 1 RNA-seq	MT15434	Day 1 Adult	whole organism	Model organism or animal sample from Caenorhabditis elegans
+SRR10235897	TPH-1 HS REP 2 RNA-seq	tph-1(mg280) II	TPH-1 HS REP 2 RNA-seq	MT15434	Day 1 Adult	whole organism	Model organism or animal sample from Caenorhabditis elegans
+SRR10235896	TPH-1 HS REP 3 RNA-seq	tph-1(mg280) II	TPH-1 HS REP 3 RNA-seq	MT15434	Day 1 Adult	whole organism	Model organism or animal sample from Caenorhabditis elegans

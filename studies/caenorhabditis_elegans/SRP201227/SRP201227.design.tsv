@@ -1,0 +1,23 @@
+Run	Sample	Condition	genotype	title	treatment	source_name	whole_body
+SRR9278181	SAMN12037626	SAMN12037626	dlk-1-mutant	p38_KO+flu_rep3	+flu	C. elegans whole body	whole body
+SRR9278182	SAMN12037626	SAMN12037626	dlk-1-mutant	p38_KO+flu_rep3	+flu	C. elegans whole body	whole body
+SRR9278177	SAMN12037628	SAMN12037628	dlk-1-mutant	p38_KO+flu_rep1	+flu	C. elegans whole body	whole body
+SRR9278178	SAMN12037628	SAMN12037628	dlk-1-mutant	p38_KO+flu_rep1	+flu	C. elegans whole body	whole body
+SRR9278173	SAMN12037630	SAMN12037630	dlk-1-mutant	p38_KO-flu_rep2	-flu	C. elegans whole body	whole body
+SRR9278174	SAMN12037630	SAMN12037630	dlk-1-mutant	p38_KO-flu_rep2	-flu	C. elegans whole body	whole body
+SRR9278171	SAMN12037631	SAMN12037631	dlk-1-mutant	p38_KO-flu_rep1	-flu	C. elegans whole body	whole body
+SRR9278172	SAMN12037631	SAMN12037631	dlk-1-mutant	p38_KO-flu_rep1	-flu	C. elegans whole body	whole body
+SRR9278169	SAMN12037632	SAMN12037632	wild type	WT+flu_rep3	+flu	C. elegans whole body	whole body
+SRR9278170	SAMN12037632	SAMN12037632	wild type	WT+flu_rep3	+flu	C. elegans whole body	whole body
+SRR9278167	SAMN12037633	SAMN12037633	wild type	WT+flu_rep2	+flu	C. elegans whole body	whole body
+SRR9278168	SAMN12037633	SAMN12037633	wild type	WT+flu_rep2	+flu	C. elegans whole body	whole body
+SRR9278165	SAMN12037634	SAMN12037634	wild type	WT+flu_rep1	+flu	C. elegans whole body	whole body
+SRR9278166	SAMN12037634	SAMN12037634	wild type	WT+flu_rep1	+flu	C. elegans whole body	whole body
+SRR9278163	SAMN12037635	SAMN12037635	wild type	WT-flu_rep3	-flu	C. elegans whole body	whole body
+SRR9278164	SAMN12037635	SAMN12037635	wild type	WT-flu_rep3	-flu	C. elegans whole body	whole body
+SRR9278161	SAMN12037636	SAMN12037636	wild type	WT-flu_rep2	-flu	C. elegans whole body	whole body
+SRR9278162	SAMN12037636	SAMN12037636	wild type	WT-flu_rep2	-flu	C. elegans whole body	whole body
+SRR9278159	SAMN12037637	SAMN12037637	wild type	WT-flu_rep1	-flu	C. elegans whole body	whole body
+SRR9278160	SAMN12037637	SAMN12037637	wild type	WT-flu_rep1	-flu	C. elegans whole body	whole body
+SRR9278175	SRR9278175	SRR9278175	dlk-1-mutant	p38_KO-flu_rep3	-flu	C. elegans whole body	whole body
+SRR9278180	SRR9278180	SRR9278180	dlk-1-mutant	p38_KO+flu_rep2	+flu	C. elegans whole body	whole body

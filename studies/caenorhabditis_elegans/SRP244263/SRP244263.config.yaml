@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA602828
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-04-14
+ena_last_update: 2020-04-14
+pubmed:
+  32203922:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2020-07-20
+submitting_centre: 'Core Facility - DNA Sequencing, Leibniz Institute on Aging - FLI'
+title: Genome-wide expression analysis of C. elegans nematodes after feeding RNAi impairment of the transcription factors lin-32 and hlh-2

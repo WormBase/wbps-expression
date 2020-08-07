@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA542089
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-03-05
+ena_last_update: 2020-05-21
+pubmed:
+  32268082:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2020-03-06
+submitting_centre: 'Pukkila-Worley, Medicine, University of Massachusetts Medical School'
+title: Innate immunity in the C. elegans intestine is programmed by a neuronal regulator of AWC olfactory neuron development

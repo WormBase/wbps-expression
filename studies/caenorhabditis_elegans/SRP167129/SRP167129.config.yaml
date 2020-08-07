@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA499069
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-02-21
+ena_last_update: 2020-03-05
+pubmed:
+  32022684:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2020-07-16
+submitting_centre: 'Curran, Davis School of Gerontology, University of Southern California'
+title: 'Loss of mitochondrial proline catabolism depletes FAD, impairing sperm function, and male reproductive advantage'

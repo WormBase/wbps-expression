@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA587445
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-12-03
+ena_last_update: 2020-02-20
+pubmed:
+  31975687:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2020-02-04
+submitting_centre: 'Dr. Geraldine Seydoux, MBG, Johns Hopkins University'
+title: Recruitment of mRNAs to P granules by gelation with intrinsically-disordered proteins (RNAseq datasets)

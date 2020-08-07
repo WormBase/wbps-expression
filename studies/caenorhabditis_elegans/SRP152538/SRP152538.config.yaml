@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA480013
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-11-01
+ena_last_update: 2019-11-01
+pubmed:
+  31525188:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2019-11-03
+submitting_centre: Centro de Investigación Biomédica de La Rioja
+title: mRNA profiles of nxf-1 (t2160) and wild type C. elegans in adult stage

@@ -1,0 +1,7 @@
+Run	Condition	genotype	source_name	strain	title	developmental_stage
+SRR10098840	SRR10098840	wzIs113[Pgcy-9::GFP]	C. elegans non-fluorescent embryonic cells	FQ424	Control_A	embryonic
+SRR10098841	SRR10098841	wzIs113[Pgcy-9::GFP]	C. elegans non-fluorescent embryonic cells	FQ424	Control_B	embryonic
+SRR10098842	SRR10098842	wzIs113[Pgcy-9::GFP]	C. elegans fluorescent BAG cells	FQ424	WT_A	embryonic
+SRR10098843	SRR10098843	wzIs113[Pgcy-9::GFP]	C. elegans fluorescent BAG cells	FQ424	WT_B	embryonic
+SRR10098844	SRR10098844	wzIs113[Pgcy-9::GFP]; pmk-3(wz31)	C. elegans fluorescent BAG cells	FQ705	PM_A	embryonic
+SRR10098845	SRR10098845	wzIs113[Pgcy-9::GFP]; pmk-3(wz31)	C. elegans fluorescent BAG cells	FQ705	PM_B	embryonic

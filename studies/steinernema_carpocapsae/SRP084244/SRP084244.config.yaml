@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA341580
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2017-10-12
+ena_last_update: 2017-12-28
+pubmed:
+  29048526:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2019-06-30
+submitting_centre: 'University of California, Irvine'
+title: Comparative transcriptomics of Steinernema and Caenorhabditis single embryos reveals gene expression divergence during early embryogenesis

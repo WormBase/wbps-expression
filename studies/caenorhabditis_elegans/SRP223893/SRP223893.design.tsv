@@ -1,0 +1,13 @@
+Run	Condition	description_title	genotype	strain	developmental_stage	organism_part	source_name	treatment
+SRR10212091	SRR10212091	rde-1(ne219); drh-1(ok3495); virEx23 replicate 1	drh-1(ok3495) IV; rde-1(ne219) V; virEx23[HSP::OrsayRNA1; myo-2p::YFP]	ERT803	L4 stage	whole organism	L4 stage whole animal	heat shock 34C 2h
+SRR10212092	SRR10212092	rde-1(ne219); drh-1(ok3495); virEx23 replicate 2	drh-1(ok3495) IV; rde-1(ne219) V; virEx23[HSP::OrsayRNA1; myo-2p::YFP]	ERT803	L4 stage	whole organism	L4 stage whole animal	heat shock 34C 2h
+SRR10212093	SRR10212093	rde-1(ne219); drh-1(ok3495); virEx23 replicate 3	drh-1(ok3495) IV; rde-1(ne219) V; virEx23[HSP::OrsayRNA1; myo-2p::YFP]	ERT803	L4 stage	whole organism	L4 stage whole animal	heat shock 34C 2h
+SRR10212094	SRR10212094	rde-1(ne219); drh-1(ok3495); virEx26 replicate 1	h-1(ok3495) IV; rde-1(ne219) V; virEx26[HSP::OrsayRNA1 D601A; myo-2p::YFP]	ERT804	L4 stage	whole organism	L4 stage whole animal	heat shock 34C 2h
+SRR10212095	SRR10212095	rde-1(ne219); drh-1(ok3495); virEx26 replicate 2	h-1(ok3495) IV; rde-1(ne219) V; virEx26[HSP::OrsayRNA1 D601A; myo-2p::YFP]	ERT804	L4 stage	whole organism	L4 stage whole animal	heat shock 34C 2h
+SRR10212096	SRR10212096	rde-1(ne219); drh-1(ok3495); virEx26 replicate 3	h-1(ok3495) IV; rde-1(ne219) V; virEx26[HSP::OrsayRNA1 D601A; myo-2p::YFP]	ERT804	L4 stage	whole organism	L4 stage whole animal	heat shock 34C 2h
+SRR10212097	SRR10212097	rde-1(ne219); virEx23 replicate 1	rde-1(ne219) V; virEx23[HSP::OrsayRNA1; myo-2p::YFP]	ERT805	L4 stage	whole organism	L4 stage whole animal	heat shock 34C 2h
+SRR10212098	SRR10212098	rde-1(ne219); virEx23 replicate 2	rde-1(ne219) V; virEx23[HSP::OrsayRNA1; myo-2p::YFP]	ERT805	L4 stage	whole organism	L4 stage whole animal	heat shock 34C 2h
+SRR10212099	SRR10212099	rde-1(ne219); virEx23 replicate 3	rde-1(ne219) V; virEx23[HSP::OrsayRNA1; myo-2p::YFP]	ERT805	L4 stage	whole organism	L4 stage whole animal	heat shock 34C 2h
+SRR10212100	SRR10212100	rde-1(ne219); virEx26 replicate 1	rde-1(ne219) V; virEx26[HSP::OrsayRNA1 D601A; myo-2p::YFP]	ERT806	L4 stage	whole organism	L4 stage whole animal	heat shock 34C 2h
+SRR10212101	SRR10212101	rde-1(ne219); virEx26 replicate 2	rde-1(ne219) V; virEx26[HSP::OrsayRNA1 D601A; myo-2p::YFP]	ERT806	L4 stage	whole organism	L4 stage whole animal	heat shock 34C 2h
+SRR10212102	SRR10212102	rde-1(ne219); virEx26 replicate 3	rde-1(ne219) V; virEx26[HSP::OrsayRNA1 D601A; myo-2p::YFP]	ERT806	L4 stage	whole organism	L4 stage whole animal	heat shock 34C 2h

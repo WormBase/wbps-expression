@@ -7,9 +7,9 @@ ena_first_public: 2017-12-07
 ena_last_update: 2018-03-07
 pubmed:
   29114017:
-    - 'Inukai .. Slack, 2018'
-    - 'A microRNA feedback loop regulates global microRNA abundance during aging. (Inukai .. Slack, 2018)'
+    - ~
+    - ~
 resource_links: []
-rnaseqer_last_update: 2018-01-28
+rnaseqer_last_update: 2020-02-04
 submitting_centre: ''
 title: Deep sequencing of poly(A)-selected RNAs from whole nematode C. elegans during aging

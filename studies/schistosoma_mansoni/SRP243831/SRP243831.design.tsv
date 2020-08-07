@@ -1,0 +1,11 @@
+Run	Condition	sample_name	title	treatment	developmental_stage	organism_part	sex	strain
+SRR10947824	PZQ_0hr	PZQ_0hr	0hr	no drug	7 weeks	whole organism	pooled male and female	NMRI
+SRR10947818	PZQ_12hr	PZQ_12hr	12hr	PZQ 12hr	7 weeks	whole organism	pooled male and female	NMRI
+SRR10947823	PZQ_15min	PZQ_15min	0.25hr	PZQ 15 min	7 weeks	whole organism	pooled male and female	NMRI
+SRR10947822	PZQ_1hr	PZQ_1hr	1hr	PZQ 1hr	7 weeks	whole organism	pooled male and female	NMRI
+SRR10947817	PZQ_24hr	PZQ_24hr	24hr	PZQ 24hr	7 weeks	whole organism	pooled male and female	NMRI
+SRR10947821	PZQ_3hr	PZQ_3hr	3hr	PZQ 3hr	7 weeks	whole organism	pooled male and female	NMRI
+SRR10947816	PZQ_48hr	PZQ_48hr	48hr	PZQ 48hr	7 weeks	whole organism	pooled male and female	NMRI
+SRR10947820	PZQ_6hr	PZQ_6hr	6hr	PZQ 6hr	7 weeks	whole organism	pooled male and female	NMRI
+SRR10947815	PZQ_96hr	PZQ_96hr	96hr	PZQ 96hr	7 weeks	whole organism	pooled male and female	NMRI
+SRR10947819	PZQ_9hr	PZQ_9hr	9hr	PZQ 9hr	7 weeks	whole organism	pooled male and female	NMRI

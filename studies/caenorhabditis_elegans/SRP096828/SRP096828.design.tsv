@@ -1,0 +1,13 @@
+Run	Condition	genotype	organism_part	source_name	title	developmental_stage
+SRR5179238	SRR5179238	XO	gonad	dissected gonad, XO	fog1_XO_dissectedgonad_rep1	young adult
+SRR5179239	SRR5179239	XO	gonad	dissected gonad, XO	fog1_XO_dissectedgonad_rep2	young adult
+SRR5179240	SRR5179240	XO	gonad	dissected gonad, XO	fog1_XO_dissectedgonad_rep3	young adult
+SRR5179241	SRR5179241	XX	gonad	dissected gonad, XX	fog1_XX_dissectedgonad_rep1	young adult
+SRR5179242	SRR5179242	XX	gonad	dissected gonad, XX	fog1_XX_dissectedgonad_rep2	young adult
+SRR5179243	SRR5179243	XX	gonad	dissected gonad, XX	fog1_XX_dissectedgonad_rep3	young adult
+SRR5179244	SRR5179244	XO	whole organism	whole worms, XO	fog1_XO_youngadult_rep1	young adult
+SRR5179245	SRR5179245	XO	whole organism	whole worms, XO	fog1_XO_youngadult_rep2	young adult
+SRR5179246	SRR5179246	XO	whole organism	whole worms, XO	fog1_XO_youngadult_rep3	young adult
+SRR5179247	SRR5179247	XX	whole organism	whole worms, XX	fog1_XX_youngadult_rep1	young adult
+SRR5179248	SRR5179248	XX	whole organism	whole worms, XX	fog1_XX_youngadult_rep2	young adult
+SRR5179249	SRR5179249	XX	whole organism	whole worms, XX	fog1_XX_youngadult_rep3	young adult

@@ -1,0 +1,13 @@
+Run	Condition	media	source_name	title	developmental_stage	organism_part	strain_background
+SRR10189234	SRR10189234	control	Con-ctrl_whole body	Con-ctrl-1	adult	whole organism	N2
+SRR10189235	SRR10189235	control	Con-ctrl_whole body	Con-ctrl-2	adult	whole organism	N2
+SRR10189236	SRR10189236	control	Con-ctrl_whole body	Con-ctrl-3	adult	whole organism	N2
+SRR10189237	SRR10189237	control	Con-lpin1_whole body	Con-lpin1-1	adult	whole organism	N2
+SRR10189238	SRR10189238	control	Con-lpin1_whole body	Con-lpin1-2	adult	whole organism	N2
+SRR10189239	SRR10189239	control	Con-lpin1_whole body	Con-lpin1-3	adult	whole organism	N2
+SRR10189240	SRR10189240	high glucose	Glc-ctrl_whole body	Glc-ctrl-1	adult	whole organism	N2
+SRR10189241	SRR10189241	high glucose	Glc-ctrl_whole body	Glc-ctrl-2	adult	whole organism	N2
+SRR10189242	SRR10189242	high glucose	Glc-ctrl_whole body	Glc-ctrl-3	adult	whole organism	N2
+SRR10189243	SRR10189243	high glucose	Glc-lpin1_whole body	Glc-lpin1-1	adult	whole organism	N2
+SRR10189244	SRR10189244	high glucose	Glc-lpin1_whole body	Glc-lpin1-2	adult	whole organism	N2
+SRR10189245	SRR10189245	high glucose	Glc-lpin1_whole body	Glc-lpin1-3	adult	whole organism	N2

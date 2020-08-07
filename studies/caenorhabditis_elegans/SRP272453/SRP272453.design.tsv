@@ -1,0 +1,11 @@
+Run	Condition	genotype	strain	temperature	title	argonaute	developmental_stage	organism_part	rna_fraction	source_name
+SRR12263200	SRR12263200	csr-1(tor159[csr-1(mg660[G120*]),csr-1 exon2::GFP::Flag IV:7958598] IV) IV	JMC164	20C	JMC164 mRNA rep1	CSR-1a	L4 Larval Stage	whole organism	Isolated poly-adenylated RNA using oligo-dT beads	Whole Worm
+SRR12263201	SRR12263201	csr-1(tor159[csr-1(mg660[G120*]),csr-1 exon2::GFP::Flag IV:7958598] IV) IV	JMC164	20C	JMC164 mRNA rep2	CSR-1a	L4 Larval Stage	whole organism	Isolated poly-adenylated RNA using oligo-dT beads	Whole Worm
+SRR12263202	SRR12263202	csr-1(tor159[csr-1(mg660[G120*]),csr-1 exon2::GFP::Flag IV:7958598] IV) IV	JMC164	20C	JMC164 mRNA rep3	CSR-1a	L4 Larval Stage	whole organism	Isolated poly-adenylated RNA using oligo-dT beads	Whole Worm
+SRR12263203	SRR12263203	csr-1(tor159[csr-1(mg660[G120*]),csr-1 exon2::GFP::Flag IV:7958598] IV) IV	JMC164	25C	JMC164 mRNA rep1 -25	CSR-1a	L4 Larval Stage	whole organism	Isolated poly-adenylated RNA using oligo-dT beads	Whole Worm
+SRR12263204	SRR12263204	csr-1(tor159[csr-1(mg660[G120*]),csr-1 exon2::GFP::Flag IV:7958598] IV) IV	JMC164	25C	JMC164 mRNA rep2 -25	CSR-1a	L4 Larval Stage	whole organism	Isolated poly-adenylated RNA using oligo-dT beads	Whole Worm
+SRR12263205	SRR12263205	csr-1(tor159[csr-1(mg660[G120*]),csr-1 exon2::GFP::Flag IV:7958598] IV) IV	JMC164	25C	JMC164 mRNA rep3 -25	CSR-1a	L4 Larval Stage	whole organism	Isolated poly-adenylated RNA using oligo-dT beads	Whole Worm
+SRR12263206	SRR12263206	Wild-type C. elegans, Bristol Strain	wild type (N2)	20C	N2 mRNA rep1		L4 Larval Stage	whole organism	Isolated poly-adenylated RNA using oligo-dT beads	Whole Worm
+SRR12263207	SRR12263207	Wild-type C. elegans, Bristol Strain	wild type (N2)	20C	N2 mRNA rep2		L4 Larval Stage	whole organism	Isolated poly-adenylated RNA using oligo-dT beads	Whole Worm
+SRR12263210	SRR12263210	Wild-type C. elegans, Bristol Strain	wild type (N2)	25C	N2 mRNA rep2 - 25		L4 Larval Stage	whole organism	Isolated poly-adenylated RNA using oligo-dT beads	Whole Worm
+SRR12263211	SRR12263211	Wild-type C. elegans, Bristol Strain	wild type (N2)	25C	N2 mRNA rep3 - 25		L4 Larval Stage	whole organism	Isolated poly-adenylated RNA using oligo-dT beads	Whole Worm

@@ -1,0 +1,17 @@
+Run	Condition	developmental_stage	title	source_name	strain
+SRR9023489	SRR9023489	0 h	RNAseq_N2_0h	synchronized population	N2
+SRR9023490	SRR9023490	1 h	RNAseq_N2_1h	synchronized population	N2
+SRR9023491	SRR9023491	2 h	RNAseq_N2_2h	synchronized population	N2
+SRR9023492	SRR9023492	3 h	RNAseq_N2_3hh	synchronized population	N2
+SRR9023493	SRR9023493	4 h	RNAseq_N2_4h	synchronized population	N2
+SRR9023494	SRR9023494	5 h	RNAseq_N2_5h	synchronized population	N2
+SRR9023495	SRR9023495	6 h	RNAseq_N2_6h	synchronized population	N2
+SRR9023496	SRR9023496	7 h	RNAseq_N2_7h	synchronized population	N2
+SRR9023497	SRR9023497	8 h	RNAseq_N2_8h	synchronized population	N2
+SRR9023498	SRR9023498	9 h	RNAseq_N2_9h	synchronized population	N2
+SRR9023499	SRR9023499	10 h	RNAseq_N2_10h	synchronized population	N2
+SRR9023500	SRR9023500	11 h	RNAseq_N2_11h	synchronized population	N2
+SRR9023501	SRR9023501	12 h	RNAseq_N2_12h	synchronized population	N2
+SRR9023502	SRR9023502	13 h	RNAseq_N2_13h	synchronized population	N2
+SRR9023503	SRR9023503	14 h	RNAseq_N2_14h	synchronized population	N2
+SRR9023504	SRR9023504	15 h	RNAseq_N2_15h	synchronized population	N2

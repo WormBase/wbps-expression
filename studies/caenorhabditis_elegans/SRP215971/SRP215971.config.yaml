@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA556044
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-02-21
+ena_last_update: 2020-03-23
+pubmed:
+  32130226:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2020-02-28
+submitting_centre: 'Room 4203, Life Sciences, KAIST'
+title: Oligosaccharyl transferase that maintains ER homeostasis enhances immunity via up-regulating p38 MAP kinase signaling in C. elegans

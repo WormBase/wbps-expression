@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA555613
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-03-23
+ena_last_update: 2020-04-14
+pubmed:
+  32187370:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2020-03-25
+submitting_centre: University of Southern California
+title: RNAi pathways repress reprogramming of C. elegans germ cells during heat stress

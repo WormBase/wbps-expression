@@ -1,0 +1,13 @@
+Run	Condition	strain	temperature	title	source_name
+SRR9060543	SRR9060543	deltaC38delta4.9	20	Metl5_20deg_mRNAseq_replicate1	adult worm
+SRR9060544	SRR9060544	deltaC38delta4.9	20	Metl5_20deg_mRNAseq_replicate2	adult worm
+SRR9060545	SRR9060545	deltaC38delta4.9	20	Metl5_20deg_mRNAseq_replicate3	adult worm
+SRR9060546	SRR9060546	deltaC38delta4.9	37	Metl5_37deg_mRNAseq_replicate1	adult worm
+SRR9060547	SRR9060547	deltaC38delta4.9	37	Metl5_37deg_mRNAseq_replicate2	adult worm
+SRR9060548	SRR9060548	deltaC38delta4.9	37	Metl5_37deg_mRNAseq_replicate3	adult worm
+SRR9060549	SRR9060549	Wild Type N2	20	WT_20deg_mRNAseq_replicate1	adult worm
+SRR9060550	SRR9060550	Wild Type N2	20	WT_20deg_mRNAseq_replicate2	adult worm
+SRR9060551	SRR9060551	Wild Type N2	20	WT_20deg_mRNAseq_replicate3	adult worm
+SRR9060552	SRR9060552	Wild Type N2	37	WT_37deg_mRNAseq_replicate1	adult worm
+SRR9060553	SRR9060553	Wild Type N2	37	WT_37deg_mRNAseq_replicate2	adult worm
+SRR9060554	SRR9060554	Wild Type N2	37	WT_37deg_mRNAseq_replicate3	adult worm

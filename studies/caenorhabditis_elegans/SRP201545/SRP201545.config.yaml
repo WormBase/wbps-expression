@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA549074
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-08-29
+ena_last_update: 2019-09-13
+pubmed:
+  31411562:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2019-08-31
+submitting_centre: Harvard School of Public Health
+title: Neuronal TORC1 modulates longevity via AMPK and cell nonautonomous regulation of mitochondrial dynamics in C. elegans

@@ -1,0 +1,11 @@
+Run	Condition	sample_name	treatment	developmental_stage	organism_part	sex	strain	title
+SRR9603273	DMSO	DMSO	DMSO biological replicate 3	Sexually mature adult	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR9603274	DMSO	DMSO	DMSO biological replicate 4	Sexually mature adult	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR9603275	DMSO	DMSO	DMSO biological replicate 1	Sexually mature adult	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR9603276	DMSO	DMSO	DMSO biological replicate 2	Sexually mature adult	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR9603279	DMSO	DMSO	DMSO biological replicate 5	Sexually mature adult	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR9603277	FPL-64176	FPL-64176	FPL-64176 biological replicate 2	Sexually mature adult	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR9603278	FPL-64176	FPL-64176	FPL-64176 biological replicate 3	Sexually mature adult	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR9603280	FPL-64176	FPL-64176	FPL-64176 biological replicate 1	Sexually mature adult	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR9603281	FPL-64176	FPL-64176	FPL-64176 biological replicate 4	Sexually mature adult	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR9603282	FPL-64176	FPL-64176	FPL-64176 biological replicate 5	Sexually mature adult	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni

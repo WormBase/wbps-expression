@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA608907
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-05-07
+ena_last_update: 2020-08-02
+pubmed:
+  32302544:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2020-07-20
+submitting_centre: 'Weaver, Pharmacology, University of Texas Southwestern Medical Center'
+title: Analyses of CED-3 caspase and PMK-1 p38 MAPK in gene regulation in C elegans

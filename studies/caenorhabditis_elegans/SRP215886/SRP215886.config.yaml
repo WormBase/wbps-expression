@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA555888
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-07-29
+ena_last_update: 2019-10-24
+pubmed:
+  31402283:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2019-07-30
+submitting_centre: 'Molecular Biology and Genetics, JHU School of Medicine'
+title: meg-3 meg-4 upregulate endogenous sRNAs targeting RNAi genes and downregulate their mRNAs

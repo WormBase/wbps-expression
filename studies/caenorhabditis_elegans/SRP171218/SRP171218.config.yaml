@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA507640
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-10-12
+ena_last_update: 2019-10-20
+pubmed:
+  31619788:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2019-10-14
+submitting_centre: 'Yankner, Genetics, Harvard Medical School'
+title: 'Regulation of Lifespan by Neural Excitation and REST [Day 10]'

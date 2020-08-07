@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA353279
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-10-02
+ena_last_update: 2019-10-17
+pubmed:
+  31532389:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2019-10-04
+submitting_centre: 'Leibold lab, Molecular Medicine, University of Utah'
+title: NHR-14 loss of function couples intestinal iron uptake with innate immunity in C. elegans through PQM-1 signaling

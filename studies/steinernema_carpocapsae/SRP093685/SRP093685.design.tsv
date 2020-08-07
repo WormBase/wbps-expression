@@ -1,0 +1,16 @@
+Run	Condition	sample_name	source_name	timepoint	treatment	developmental_stage	organism_part	strain
+SRR5028273	12h in vitro activated IJ rep 1	12h in vitro activated IJ rep 1	whole individual worm, infective juvenile, in vitro activated, 12h	12h	in vitro activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028274	12h in vitro activated IJ rep 2	12h in vitro activated IJ rep 2	whole individual worm, infective juvenile, in vitro activated, 12h	12h	in vitro activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028275	12h in vitro activated IJ rep 3	12h in vitro activated IJ rep 3	whole individual worm, infective juvenile, in vitro activated, 12h	12h	in vitro activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028279	12h in vivo activated IJ rep 1	12h in vivo activated IJ rep 1	whole individual worm, infective juvenile, in vivo activated, 12h	12h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028280	12h in vivo activated IJ rep 2	12h in vivo activated IJ rep 2	whole individual worm, infective juvenile, in vivo activated, 12h	12h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028281	12h in vivo activated IJ rep 3	12h in vivo activated IJ rep 3	whole individual worm, infective juvenile, in vivo activated, 12h	12h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028282	15h in vivo activated IJ rep 1	15h in vivo activated IJ rep 1	whole individual worm, infective juvenile, in vivo activated, 15h	15h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028283	15h in vivo activated IJ rep 2	15h in vivo activated IJ rep 2	whole individual worm, infective juvenile, in vivo activated, 15h	15h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028284	15h in vivo activated IJ rep 3	15h in vivo activated IJ rep 3	whole individual worm, infective juvenile, in vivo activated, 15h	15h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028276	9h in vivo activated IJ rep 1	9h in vivo activated IJ rep 1	whole individual worm, infective juvenile, in vivo activated, 9h	9h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028277	9h in vivo activated IJ rep 2	9h in vivo activated IJ rep 2	whole individual worm, infective juvenile, in vivo activated, 9h	9h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028278	9h in vivo activated IJ rep 3	9h in vivo activated IJ rep 3	whole individual worm, infective juvenile, in vivo activated, 9h	9h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028270	nonactivated IJ rep 1	nonactivated IJ rep 1	whole individual worm, infective juvenile, nonactivated	0h	nonactivated	infective juvenile (IJ)	whole organism	ALL
+SRR5028271	nonactivated IJ rep 2	nonactivated IJ rep 2	whole individual worm, infective juvenile, nonactivated	0h	nonactivated	infective juvenile (IJ)	whole organism	ALL
+SRR5028272	nonactivated IJ rep 3	nonactivated IJ rep 3	whole individual worm, infective juvenile, nonactivated	0h	nonactivated	infective juvenile (IJ)	whole organism	ALL

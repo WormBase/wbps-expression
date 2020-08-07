@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA385563
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-04-18
+ena_last_update: 2020-04-18
+pubmed:
+  28627510:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2020-07-19
+submitting_centre: 'Biochemistry, NYU School of Medicine'
+title: Global transcriptional responce in C.elegans on a high glucose diet

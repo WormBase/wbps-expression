@@ -1,0 +1,12 @@
+Run	Condition	source_name	strain	title	developmental_stage	organism_part	treatment
+SRR11243557	SRR11243557	DA1116(eat-2)	DA1116	DA1116(eat-2)_2 [DC2]	age of day 6	whole organism	
+SRR11243558	SRR11243558	DA1116(eat-2)	DA1116	DA1116(eat-2)_3 [DC3]	age of day 6	whole organism	
+SRR11243559	SRR11243559	DA1116(eat-2)	DA1116	DA1116(eat-2)_4 [DC4]	age of day 6	whole organism	
+SRR11243560	SRR11243560	N2(wild type)	Bristol N2	N2(wild type)_1 [NC1]	age of day 6	whole organism	
+SRR11243561	SRR11243561	N2(wild type)	Bristol N2	N2(wild type)_2 [NC2]	age of day 6	whole organism	
+SRR11243562	SRR11243562	N2(wild type)	Bristol N2	N2(wild type)_3 [NC3]	age of day 6	whole organism	
+SRR11243563	SRR11243563	N2(wild type)	Bristol N2	N2(wild type)_4 [NC4]	age of day 6	whole organism	
+SRR11243564	SRR11243564	N2+FW1256	Bristol N2	N2+FW1256_1 [NH1]	age of day 6	whole organism	500µM of FW1256 from L1 stage larvae onwards
+SRR11243565	SRR11243565	N2+FW1256	Bristol N2	N2+FW1256_2 [NH2]	age of day 6	whole organism	500µM of FW1256 from L1 stage larvae onwards
+SRR11243566	SRR11243566	N2+FW1256	Bristol N2	N2+FW1256_3 [NH3]	age of day 6	whole organism	500µM of FW1256 from L1 stage larvae onwards
+SRR11243567	SRR11243567	N2+FW1256	Bristol N2	N2+FW1256_4 [NH4]	age of day 6	whole organism	500µM of FW1256 from L1 stage larvae onwards

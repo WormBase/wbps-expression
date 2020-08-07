@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA592073
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-07-03
+ena_last_update: 2020-07-22
+pubmed:
+  32538777:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2020-07-20
+submitting_centre: 'Bioinformatics, Max Planck Institute for Biology of Ageing'
+title: Evolutionarily Conserved Regulation of Immunity by the Splicing Factor RNP-6/PUF60

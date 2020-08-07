@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA600993
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-01-16
+ena_last_update: 2020-04-14
+pubmed:
+  32123111:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2020-02-05
+submitting_centre: "Division of Infectious Diseases, Boston Children's Hospital"
+title: Caenorhabditis elegans ADAR editing and the ERI-6/7/MOV10 RNAi pathway silence endogenous viral elements and LTR retrotransposons

@@ -1,0 +1,16 @@
+---
+bioproject: PRJEB34753
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-10-17
+ena_last_update: 2019-10-07
+pubmed: {}
+resource_links:
+  -
+    - ArrayExpress
+    - E-MTAB-8284 in ArrayExpress
+    - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-8284
+rnaseqer_last_update: 2020-01-10
+submitting_centre: 'Centre for Integrative Genetics (CIGENE), Faculty of Biosciences (BIOVIT), Norwegian University of Life Sciences (NMBU), 1432, As, Norway'
+title: In vivo assessment of ROS production and oxidative stress effects induced by chronic exposure to gamma radiation in C. elegans

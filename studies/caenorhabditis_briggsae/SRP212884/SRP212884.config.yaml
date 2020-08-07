@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA552485
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-06-26
+ena_last_update: 2020-06-26
+pubmed:
+  31960924:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2020-07-19
+submitting_centre: 'LSB322, Biology, McMaster University'
+title: Genome-wide expression analysis of Caenorhabditis briggsae SPR-4/IVP-1 and HTZ-1/IVP-2 mutants

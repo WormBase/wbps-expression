@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA622497
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-07-28
+ena_last_update: 2020-07-28
+pubmed:
+  32687264:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2020-07-29
+submitting_centre: Friedriche Miescher Institute for Biomedical Research (FMI)
+title: mRNA-seq time course of C. elegans sampled at and after release from dauer starvation at 25 degrees

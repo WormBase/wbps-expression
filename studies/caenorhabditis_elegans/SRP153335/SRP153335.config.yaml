@@ -1,9 +1,15 @@
 ---
+bioproject: PRJNA480960
 category: Other
-condition_names: ~
 contrasts: []
-description: Isolated C. elegans germ nuclei exhibit distinct genomic profiles of histone modification and gene expression
-pubmed: ~
-rnaseqer_last_update: 2018-09-02
+description: ''
+ena_first_public: 2018-07-17
+ena_last_update: 2019-07-04
+pubmed:
+  31208332:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2019-07-30
 submitting_centre: 'Reinke lab, Genetics, Yale University School of Medicine'
 title: Isolated C. elegans germ nuclei exhibit distinct genomic profiles of histone modification and gene expression

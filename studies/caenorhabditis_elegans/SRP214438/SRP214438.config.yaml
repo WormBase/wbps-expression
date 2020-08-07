@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA554266
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-09-17
+ena_last_update: 2019-10-02
+pubmed:
+  31557719:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2019-09-18
+submitting_centre: 'Core Facility Life Science Computing, Leibniz Institute on Aging - Fritz Lipmann Institute'
+title: The C. elegans ortholog of human selenium binding protein 1 is a pro-aging factor protecting against selenite toxicity

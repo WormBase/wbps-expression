@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA593746
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-07-28
+ena_last_update: 2020-07-28
+pubmed:
+  32687264:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2020-07-29
+submitting_centre: Friedriche Miescher Institute for Biomedical Research (FMI)
+title: 'mRNA sequencing time course of C. elegans samples at time point 1 hours until time point 24 hours at 25 degrees [N2 control]'

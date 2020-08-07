@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA529590
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-01-03
+ena_last_update: 2020-01-03
+pubmed:
+  31799933:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2020-02-06
+submitting_centre: 'Monash Bioinformatics Platform, Monash University'
+title: Transcriptome analysis of mir-1-deficient and ins-1-deficient Caenorhabditis elegans

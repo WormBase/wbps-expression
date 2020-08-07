@@ -1,0 +1,17 @@
+Run	Condition	genotype	title	treatment	developmental_stage	source_name
+SRR11005169	SRR11005169	N2	wt no treatment 1	Vehicle	Day 1	whole organism
+SRR11005170	SRR11005170	N2	wt no treatment 2	Vehicle	Day 1	whole organism
+SRR11005171	SRR11005171	N2	wt no treatment 3	Vehicle	Day 1	whole organism
+SRR11005172	SRR11005172	N2	wt no treatment 4	Vehicle	Day 1	whole organism
+SRR11005173	SRR11005173	osm-3(dh441)IV	osm-3 no treatment 1	Vehicle	Day 1	whole organism
+SRR11005174	SRR11005174	osm-3(dh441)IV	osm-3 no treatment 2	Vehicle	Day 1	whole organism
+SRR11005175	SRR11005175	osm-3(dh441)IV	osm-3 no treatment 3	Vehicle	Day 1	whole organism
+SRR11005176	SRR11005176	osm-3(dh441)IV	osm-3 no treatment 4	Vehicle	Day 1	whole organism
+SRR11005177	SRR11005177	N2	wt treatment 1	10 ug/mL Tunicamycin	Day 1	whole organism
+SRR11005178	SRR11005178	N2	wt treatment 2	10 ug/mL Tunicamycin	Day 1	whole organism
+SRR11005179	SRR11005179	N2	wt treatment 3	10 ug/mL Tunicamycin	Day 1	whole organism
+SRR11005180	SRR11005180	N2	wt treatment 4	10 ug/mL Tunicamycin	Day 1	whole organism
+SRR11005181	SRR11005181	osm-3(dh441)IV	osm-3 treatment 1	10 ug/mL Tunicamycin	Day 1	whole organism
+SRR11005182	SRR11005182	osm-3(dh441)IV	osm-3 treatment 2	10 ug/mL Tunicamycin	Day 1	whole organism
+SRR11005183	SRR11005183	osm-3(dh441)IV	osm-3 treatment 3	10 ug/mL Tunicamycin	Day 1	whole organism
+SRR11005184	SRR11005184	osm-3(dh441)IV	osm-3 treatment 4	10 ug/mL Tunicamycin	Day 1	whole organism

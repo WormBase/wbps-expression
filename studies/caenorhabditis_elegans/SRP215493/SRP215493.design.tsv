@@ -1,0 +1,13 @@
+Run	Condition	strain	title	developmental_stage	source_name
+SRR9719252	SRR9719252	N2 - wild-type	1-20C-RE-N2-mRNA-1	Day 1 Adult	whole animal
+SRR9719253	SRR9719253	N2 - wild-type	2-20C-RE-N2-mRNA-2	Day 1 Adult	whole animal
+SRR9719254	SRR9719254	N2 - wild-type	3-20C-N2-mRNA-3	Day 1 Adult	whole animal
+SRR9719255	SRR9719255	NL1810 - mut-16(pk710) I.	4-20C-RE-mut16-pk710-mRNA-1	Day 1 Adult	whole animal
+SRR9719256	SRR9719256	NL1810 - mut-16(pk710) I.	5-20C-RE-mut16-pk710-mRNA-2	Day 1 Adult	whole animal
+SRR9719257	SRR9719257	NL1810 - mut-16(pk710) I.	6-20C-mut16-pk710-mRNA-3	Day 1 Adult	whole animal
+SRR9719258	SRR9719258	N2 - wild-type	7-25C-RE-N2-mRNA-1	Day 1 Adult	whole animal
+SRR9719259	SRR9719259	N2 - wild-type	8-25C-RE-N2-mRNA-2	Day 1 Adult	whole animal
+SRR9719260	SRR9719260	N2 - wild-type	9-25C-RE-N2-mRNA-3	Day 1 Adult	whole animal
+SRR9719261	SRR9719261	NL1810 - mut-16(pk710) I.	10-25C-RE-mut-16-pk710-mRNA-1	Day 1 Adult	whole animal
+SRR9719262	SRR9719262	NL1810 - mut-16(pk710) I.	11-25C-RE-mut-16-pk710-mRNA-2	Day 1 Adult	whole animal
+SRR9719263	SRR9719263	NL1810 - mut-16(pk710) I.	12-25C-RE-mut-16-pk710-mRNA-3	Day 1 Adult	whole animal

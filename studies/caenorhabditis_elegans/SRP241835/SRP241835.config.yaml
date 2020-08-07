@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA601008
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-06-17
+ena_last_update: 2020-06-17
+pubmed:
+  32273286:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2020-07-20
+submitting_centre: 'Molecular and Cellular Biology, Kennesaw State University'
+title: The basic-helix-loop-helix transcription factor ngn-1/neurogenin activates transcription of multiple terminal selector transcription factors in the Caenorhabditis elegans nervous system

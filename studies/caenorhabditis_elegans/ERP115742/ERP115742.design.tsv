@@ -1,0 +1,31 @@
+Run	Sample	Condition	alias	synonym	tissue_type	title	ena_checklist	insdc_center_alias
+ERR3367804	ERR3367804	ERR3367804	Adults-HB101-1	Adults-HB101-1	Adult whole animal	N2-adult-HB101-1	ERC000011	Centre for Trophoblast Research
+ERR3367805	ERR3367805	ERR3367805	Adults-HB101-2	Adults-HB101-2	Adult whole animal	N2-adult-HB101-2	ERC000011	Centre for Trophoblast Research
+ERR3367806	ERR3367806	ERR3367806	Adults-HB101-3	Adults-HB101-3	Adult whole animal	N2-adult-HB101-3	ERC000011	Centre for Trophoblast Research
+ERR3367807	ERR3367807	ERR3367807	Adults-BIGb446-1	Adults-BIGb446-1	Adult whole animal	N2-adult-BIGb446-1	ERC000011	Centre for Trophoblast Research
+ERR3367808	ERR3367808	ERR3367808	Adults-BIGb446-2	Adults-BIGb446-2	Adult whole animal	N2-adult-BIGb446-2	ERC000011	Centre for Trophoblast Research
+ERR3367809	ERR3367809	ERR3367809	Adults-BIGb446-3	Adults-BIGb446-3	Adult whole animal	N2-adult-BIGb446-3	ERC000011	Centre for Trophoblast Research
+ERR3367810	ERR3367810	ERR3367810	Adults-BIGb468-1	Adults-BIGb468-1	Adult whole animal	N2-adult-BIGb468-1	ERC000011	Centre for Trophoblast Research
+ERR3367811	ERR3367811	ERR3367811	Adults-BIGb468-2	Adults-BIGb468-2	Adult whole animal	N2-adult-BIGb468-2	ERC000011	Centre for Trophoblast Research
+ERR3367812	ERR3367812	ERR3367812	Adults-BIGb468-3	Adults-BIGb468-3	Adult whole animal	N2-adult-BIGb468-3	ERC000011	Centre for Trophoblast Research
+ERR3367813	ERR3367813	ERR3367813	Embryos-HB101-1	Embryos-HB101-1	Embryo	N2-embryo-HB101-1	ERC000011	Centre for Trophoblast Research
+ERR3367814	ERR3367814	ERR3367814	Embryos-HB101-2	Embryos-HB101-2	Embryo	N2-embryo-HB101-2	ERC000011	Centre for Trophoblast Research
+ERR3367815	ERR3367815	ERR3367815	Embryos-HB101-3	Embryos-HB101-3	Embryo	N2-embryo-HB101-3	ERC000011	Centre for Trophoblast Research
+ERR3367816	ERR3367816	ERR3367816	Embryos-BIGb446-1	Embryos-BIGb446-1	Embryo	N2-embryo-BIGb446-1	ERC000011	Centre for Trophoblast Research
+ERR3367817	ERR3367817	ERR3367817	Embryos-BIGb446-2	Embryos-BIGb446-2	Embryo	N2-embryo-BIGb446-2	ERC000011	Centre for Trophoblast Research
+ERR3367818	ERR3367818	ERR3367818	Embryos-BIGb446-3	Embryos-BIGb446-3	Embryo	N2-embryo-BIGb446-3	ERC000011	Centre for Trophoblast Research
+ERR3367819	ERR3367819	ERR3367819	Embryos-BIGb468-1	Embryos-BIGb468-1	Embryo	N2-embryo-BIGb468-1	ERC000011	Centre for Trophoblast Research
+ERR3367822	ERR3367822	ERR3367822	Embryos-from-HB101-1	Embryos-from-HB101-1	Embryo	N2-emb-HB101-1	ERC000011	Centre for Trophoblast Research
+ERR3367823	ERR3367823	ERR3367823	Embryos-from-HB101-2	Embryos-from-HB101-2	Embryo	N2-emb-HB101-2	ERC000011	Centre for Trophoblast Research
+ERR3367824	ERR3367824	ERR3367824	Embryos-from-HB101-3	Embryos-from-HB101-3	Embryo	N2-emb-HB101-3	ERC000011	Centre for Trophoblast Research
+ERR3367825	ERR3367825	ERR3367825	Embryos-from-P.aerugiosa PA14-1	Embryos-from-P.aerugiosa PA14-1	Embryo	N2-emb-PA14-1	ERC000011	Centre for Trophoblast Research
+ERR3367826	ERR3367826	ERR3367826	Embryos-from-P.aeruginosa-PA14-2	Embryos-from-P.aeruginosa-PA14-2	Embryo	N2-emb-PA14-2	ERC000011	Centre for Trophoblast Research
+ERR3367827	ERR3367827	ERR3367827	Embryos-from-P.aeruginosa-PA14-3	Embryos-from-P.aeruginosa-PA14-3	Embryo	N2-emb-PA14-3	ERC000011	Centre for Trophoblast Research
+ERR3367828	ERR3367828	ERR3367828	Embryos-from-P.luminescens-Hb-1	Embryos-from-P.luminescens-Hb-1	Embryo	N2-emb-P-lum-1	ERC000011	Centre for Trophoblast Research
+ERR3367829	ERR3367829	ERR3367829	Embryos-from-P.luminescens-Hb-2	Embryos-from-P.luminescens-Hb-2	Embryo	N2-emb-P-lum-2	ERC000011	Centre for Trophoblast Research
+ERR3367830	ERR3367830	ERR3367830	Embryos-from-P.luminescens-Hb-3	Embryos-from-P.luminescens-Hb-3	Embryo	N2-emb-P-lum-3	ERC000011	Centre for Trophoblast Research
+ERR3367831	ERR3367831	ERR3367831	wdr-23(bur9)-embryos-from-HB101-1	wdr-23(bur9)-embryos-from-HB101-1	Embryo	NOB27-emb-HB-1	ERC000011	Centre for Trophoblast Research
+ERR3367832	ERR3367832	ERR3367832	wdr-23(bur9)-embryos-from-HB101-2	wdr-23(bur9)-embryos-from-HB101-2	Embryo	NOB27-emb-HB-2	ERC000011	Centre for Trophoblast Research
+ERR3367833	ERR3367833	ERR3367833	wdr-23(bur9)-embryos-from-HB101-3	wdr-23(bur9)-embryos-from-HB101-3	Embryo	NOB27-emb-HB-3	ERC000011	Centre for Trophoblast Research
+ERR3367820	SAMEA5704648	SAMEA5704648	Embryos-BIGb468-2	Embryos-BIGb468-2	Embryo	N2-embryo-BIGb468-2	ERC000011	Centre for Trophoblast Research
+ERR3367821	SAMEA5704648	SAMEA5704648	Embryos-BIGb468-2	Embryos-BIGb468-2	Embryo	N2-embryo-BIGb468-2	ERC000011	Centre for Trophoblast Research

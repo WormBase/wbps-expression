@@ -1,0 +1,7 @@
+Run	Condition	description_title	isolate	sample_name	collection_date	geographic_location	host	organism_part
+SRR8196486	SJ-worm-C1	C1	Primary infection	SJ-worm-C1	26-dec-2017	China:jiangsu	Water Buffalo	adult worm
+SRR8196485	SJ-worm-C2	C2	Primary infection	SJ-worm-C2	26-dec-2017	China:jiangsu	Water Buffalo	adult worm
+SRR8196488	SJ-worm-C3	C3	Primary infection	SJ-worm-C3	26-dec-2017	China:jiangsu	Water Buffalo	adult worm
+SRR8196487	SJ-worm-T1	T1	re-infection	SJ-worm-T1	26-dec-2017	China:jiangsu	Water Buffalo	adult worm
+SRR8196490	SJ-worm-T2	T2	re-infection	SJ-worm-T2	26-dec-2017	China:jiangsu	Water Buffalo	adult worm
+SRR8196489	SJ-worm-T3	T3	re-infection	SJ-worm-T3	26-dec-2017	China:jiangsu	Water Buffalo	adult worm

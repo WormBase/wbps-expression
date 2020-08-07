@@ -1,0 +1,7 @@
+Run	Condition	title	molecule_subtype	organism_part	source_name
+SRR10398483	SRR10398483	Tu_WT1_1_ACAGTG: Wild type	Ribo-Zero treated total RNA	mixed early embryo	Embryo
+SRR10398484	SRR10398484	Tu_WT2_2_CTTGTA: Wild type ( biological replicate)	Ribo-Zero treated total RNA	mixed early embryo	Embryo
+SRR10398485	SRR10398485	Tu_WT3_2_GCCAAT: Wild type ( biological replicate)	Ribo-Zero treated total RNA	mixed early embryo	Embryo
+SRR10398486	SRR10398486	Tu_m34-1_1_CTTGTA: meg-3meg-4	Ribo-Zero treated total RNA	mixed early embryo	Embryo
+SRR10398487	SRR10398487	Tu_m34-2_1_GTGAAA: meg-3meg-4 ( biological replicate)	Ribo-Zero treated total RNA	mixed early embryo	Embryo
+SRR10398488	SRR10398488	Tu_m34-3_2_GTGAAA: meg-3meg-4 ( biological replicate)	Ribo-Zero treated total RNA	mixed early embryo	Embryo

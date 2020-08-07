@@ -1,0 +1,7 @@
+Run	Condition	sample_name	title	developmental_stage	organism_part	sex	strain
+SRR8575059	N2_Ef-OG1RF_1	N2_Ef-OG1RF_1	N2_Ef-OG1RF_1	56 hours	whole organism	hermaphrodite	Bristol N2
+SRR8575060	N2_Ef-OG1RF_2	N2_Ef-OG1RF_2	N2_Ef-OG1RF_2	56 hours	whole organism	hermaphrodite	Bristol N2
+SRR8575061	N2_Ef-OG1RF_3	N2_Ef-OG1RF_3	N2_Ef-OG1RF_3	56 hours	whole organism	hermaphrodite	Bristol N2
+SRR8575056	N2_OP50_1	N2_OP50_1	N2_OP50_1	56 hours	whole organism	hermaphrodite	Bristol N2
+SRR8575057	N2_OP50_2	N2_OP50_2	N2_OP50_2	56 hours	whole organism	hermaphrodite	Bristol N2
+SRR8575058	N2_OP50_3	N2_OP50_3	N2_OP50_3	56 hours	whole organism	hermaphrodite	Bristol N2

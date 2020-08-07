@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA521724
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-03-23
+ena_last_update: 2020-06-10
+pubmed:
+  32348780:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2020-04-12
+submitting_centre: 'Eric Miska Lab, The Gurdon Institute, University of Cambridge'
+title: 'RNA memories: trans-generational epigenetic inheritance of RNA-mediated gene silencing'

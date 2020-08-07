@@ -1,0 +1,18 @@
+---
+bioproject: PRJNA543094
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-01-03
+ena_last_update: 2020-06-10
+pubmed:
+  31279658:
+    - ~
+    - ~
+  32494643:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2020-01-22
+submitting_centre: "Medicine, Brigham and Women's Hospital"
+title: Identification of the m6Am Methyltransferase PCIF1 Reveals the Location and Functions of m6Am in the Transcriptome.

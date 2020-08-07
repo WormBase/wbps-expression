@@ -1,0 +1,21 @@
+Run	Condition	developmental_stage	sample_name	treatment	organism_part	sex	strain	title
+SRR10776771	ADULT_CTRL_biological_replicate_1	7 weeks	ADULT_CTRL_biological_replicate_1	CTRL	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR10776770	ADULT_CTRL_biological_replicate_2	7 weeks	ADULT_CTRL_biological_replicate_2	CTRL	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR10776769	ADULT_CTRL_biological_replicate_3	7 weeks	ADULT_CTRL_biological_replicate_3	CTRL	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR10776768	ADULT_CTRL_biological_replicate_4	7 weeks	ADULT_CTRL_biological_replicate_4	CTRL	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR10776767	ADULT_CTRL_biological_replicate_5	7 weeks	ADULT_CTRL_biological_replicate_5	CTRL	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR10776766	ADULT_PZQ_biological_replicate_1	7 weeks	ADULT_PZQ_biological_replicate_1	PZQ	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR10776765	ADULT_PZQ_biological_replicate_2	7 weeks	ADULT_PZQ_biological_replicate_2	PZQ	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR10776764	ADULT_PZQ_biological_replicate_3	7 weeks	ADULT_PZQ_biological_replicate_3	PZQ	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR10776763	ADULT_PZQ_biological_replicate_4	7 weeks	ADULT_PZQ_biological_replicate_4	PZQ	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR10776762	ADULT_PZQ_biological_replicate_5	7 weeks	ADULT_PZQ_biological_replicate_5	PZQ	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR10776773	JUV_CTRL_biological_replicate_1	4 weeks	JUV_CTRL_biological_replicate_1	CTRL	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR10776772	JUV_CTRL_biological_replicate_2	4 weeks	JUV_CTRL_biological_replicate_2	CTRL	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR10776761	JUV_CTRL_biological_replicate_3	4 weeks	JUV_CTRL_biological_replicate_3	CTRL	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR10776760	JUV_CTRL_biological_replicate_4	4 weeks	JUV_CTRL_biological_replicate_4	CTRL	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR10776759	JUV_CTRL_biological_replicate_5	4 weeks	JUV_CTRL_biological_replicate_5	CTRL	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR10776758	JUV_PZQ_biological_replicate_1	4 weeks	JUV_PZQ_biological_replicate_1	PZQ	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR10776757	JUV_PZQ_biological_replicate_2	4 weeks	JUV_PZQ_biological_replicate_2	PZQ	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR10776756	JUV_PZQ_biological_replicate_3	4 weeks	JUV_PZQ_biological_replicate_3	PZQ	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR10776755	JUV_PZQ_biological_replicate_4	4 weeks	JUV_PZQ_biological_replicate_4	PZQ	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni
+SRR10776754	JUV_PZQ_biological_replicate_5	4 weeks	JUV_PZQ_biological_replicate_5	PZQ	whole organism	pooled male and female	NMRI	Model organism or animal sample from Schistosoma mansoni

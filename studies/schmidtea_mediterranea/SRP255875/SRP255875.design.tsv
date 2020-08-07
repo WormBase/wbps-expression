@@ -1,0 +1,64 @@
+Run	Sample	Condition	rnai	source_name	title	wound_orientation	organism_part	rnai_feedings	strain
+SRR11518649	SAMN14567334	SAMN14567334	activin-2	post pharyngeal fragment	00_a2-3		post pharyngeal fragment	4F	CIW4
+SRR11518650	SAMN14567334	SAMN14567334	activin-2	post pharyngeal fragment	00_a2-3		post pharyngeal fragment	4F	CIW4
+SRR11518647	SAMN14567335	SAMN14567335	activin-2	post pharyngeal fragment	00_a2-2		post pharyngeal fragment	4F	CIW4
+SRR11518648	SAMN14567335	SAMN14567335	activin-2	post pharyngeal fragment	00_a2-2		post pharyngeal fragment	4F	CIW4
+SRR11518645	SAMN14567336	SAMN14567336	activin-2	post pharyngeal fragment	00_a2-1		post pharyngeal fragment	4F	CIW4
+SRR11518646	SAMN14567336	SAMN14567336	activin-2	post pharyngeal fragment	00_a2-1		post pharyngeal fragment	4F	CIW4
+SRR11518705	SAMN14567350	SAMN14567350	unc-22	post pharyngeal fragment (posterior-facing wound)	48_u22-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518706	SAMN14567350	SAMN14567350	unc-22	post pharyngeal fragment (posterior-facing wound)	48_u22-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518703	SAMN14567351	SAMN14567351	unc-22	post pharyngeal fragment (posterior-facing wound)	48_u22-1	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518704	SAMN14567351	SAMN14567351	unc-22	post pharyngeal fragment (posterior-facing wound)	48_u22-1	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518667	SAMN14567357	SAMN14567357	unc-22	post pharyngeal fragment (posterior-facing wound)	06_u22-3	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518668	SAMN14567357	SAMN14567357	unc-22	post pharyngeal fragment (posterior-facing wound)	06_u22-3	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518665	SAMN14567358	SAMN14567358	unc-22	post pharyngeal fragment (posterior-facing wound)	06_u22-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518666	SAMN14567358	SAMN14567358	unc-22	post pharyngeal fragment (posterior-facing wound)	06_u22-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518663	SAMN14567359	SAMN14567359	unc-22	post pharyngeal fragment (posterior-facing wound)	06_u22-1	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518664	SAMN14567359	SAMN14567359	unc-22	post pharyngeal fragment (posterior-facing wound)	06_u22-1	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518661	SAMN14567360	SAMN14567360	activin-2	post pharyngeal fragment (posterior-facing wound)	06_a2-3	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518662	SAMN14567360	SAMN14567360	activin-2	post pharyngeal fragment (posterior-facing wound)	06_a2-3	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518659	SAMN14567361	SAMN14567361	activin-2	post pharyngeal fragment (posterior-facing wound)	06_a2-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518660	SAMN14567361	SAMN14567361	activin-2	post pharyngeal fragment (posterior-facing wound)	06_a2-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518657	SAMN14567362	SAMN14567362	activin-2	post pharyngeal fragment (posterior-facing wound)	06_a2-1	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518658	SAMN14567362	SAMN14567362	activin-2	post pharyngeal fragment (posterior-facing wound)	06_a2-1	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518655	SAMN14567363	SAMN14567363	unc-22	post pharyngeal fragment	00_u22-3		post pharyngeal fragment	4F	CIW4
+SRR11518656	SAMN14567363	SAMN14567363	unc-22	post pharyngeal fragment	00_u22-3		post pharyngeal fragment	4F	CIW4
+SRR11518653	SAMN14567364	SAMN14567364	unc-22	post pharyngeal fragment	00_u22-2		post pharyngeal fragment	4F	CIW4
+SRR11518654	SAMN14567364	SAMN14567364	unc-22	post pharyngeal fragment	00_u22-2		post pharyngeal fragment	4F	CIW4
+SRR11518651	SAMN14567365	SAMN14567365	unc-22	post pharyngeal fragment	00_u22-1		post pharyngeal fragment	4F	CIW4
+SRR11518652	SAMN14567365	SAMN14567365	unc-22	post pharyngeal fragment	00_u22-1		post pharyngeal fragment	4F	CIW4
+SRR11518693	SAMN14567366	SAMN14567366	unc-22	post pharyngeal fragment (posterior-facing wound)	24_u22-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518694	SAMN14567366	SAMN14567366	unc-22	post pharyngeal fragment (posterior-facing wound)	24_u22-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518691	SAMN14567367	SAMN14567367	unc-22	post pharyngeal fragment (posterior-facing wound)	24_u22-1	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518692	SAMN14567367	SAMN14567367	unc-22	post pharyngeal fragment (posterior-facing wound)	24_u22-1	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518689	SAMN14567369	SAMN14567369	activin-2	post pharyngeal fragment (posterior-facing wound)	24_a2-3	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518690	SAMN14567369	SAMN14567369	activin-2	post pharyngeal fragment (posterior-facing wound)	24_a2-3	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518687	SAMN14567370	SAMN14567370	activin-2	post pharyngeal fragment (posterior-facing wound)	24_a2-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518688	SAMN14567370	SAMN14567370	activin-2	post pharyngeal fragment (posterior-facing wound)	24_a2-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518685	SAMN14567371	SAMN14567371	activin-2	post pharyngeal fragment (posterior-facing wound)	24_a2-1	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518686	SAMN14567371	SAMN14567371	activin-2	post pharyngeal fragment (posterior-facing wound)	24_a2-1	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518701	SAMN14567384	SAMN14567384	activin-2	post pharyngeal fragment (posterior-facing wound)	48_a2-3	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518702	SAMN14567384	SAMN14567384	activin-2	post pharyngeal fragment (posterior-facing wound)	48_a2-3	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518699	SAMN14567385	SAMN14567385	activin-2	post pharyngeal fragment (posterior-facing wound)	48_a2-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518700	SAMN14567385	SAMN14567385	activin-2	post pharyngeal fragment (posterior-facing wound)	48_a2-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518697	SAMN14567386	SAMN14567386	activin-2	post pharyngeal fragment (posterior-facing wound)	48_a2-1	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518698	SAMN14567386	SAMN14567386	activin-2	post pharyngeal fragment (posterior-facing wound)	48_a2-1	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518695	SAMN14567387	SAMN14567387	unc-22	post pharyngeal fragment (posterior-facing wound)	24_u22-3	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518696	SAMN14567387	SAMN14567387	unc-22	post pharyngeal fragment (posterior-facing wound)	24_u22-3	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518669	SRR11518669	SRR11518669	activin-2	post pharyngeal fragment (anterior-facing wound)	18_A_a21	anterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518670	SRR11518670	SRR11518670	activin-2	post pharyngeal fragment (anterior-facing wound)	18_A_a22	anterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518671	SRR11518671	SRR11518671	activin-2	post pharyngeal fragment (anterior-facing wound)	18_A_a23	anterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518672	SRR11518672	SRR11518672	activin-2	post pharyngeal fragment (anterior-facing wound)	18_A_a24	anterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518673	SRR11518673	SRR11518673	unc-22	post pharyngeal fragment (anterior-facing wound)	18_A_u221	anterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518674	SRR11518674	SRR11518674	unc-22	post pharyngeal fragment (anterior-facing wound)	18_A_u222	anterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518675	SRR11518675	SRR11518675	unc-22	post pharyngeal fragment (anterior-facing wound)	18_A_u223	anterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518676	SRR11518676	SRR11518676	unc-22	post pharyngeal fragment (anterior-facing wound)	18_A_u224	anterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518677	SRR11518677	SRR11518677	activin-2	post pharyngeal fragment (posterior-facing wound)	18_P_a21	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518678	SRR11518678	SRR11518678	activin-2	post pharyngeal fragment (posterior-facing wound)	18_P_a22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518679	SRR11518679	SRR11518679	activin-2	post pharyngeal fragment (posterior-facing wound)	18_P_a23	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518680	SRR11518680	SRR11518680	activin-2	post pharyngeal fragment (posterior-facing wound)	18_P_a24	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518681	SRR11518681	SRR11518681	unc-22	post pharyngeal fragment (posterior-facing wound)	18_P_u221	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518682	SRR11518682	SRR11518682	unc-22	post pharyngeal fragment (posterior-facing wound)	18_P_u222	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518683	SRR11518683	SRR11518683	unc-22	post pharyngeal fragment (posterior-facing wound)	18_P_u223	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518684	SRR11518684	SRR11518684	unc-22	post pharyngeal fragment (posterior-facing wound)	18_P_u224	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518707	SRR11518707	SRR11518707	unc-22	post pharyngeal fragment (posterior-facing wound)	48_u22-3	posterior-facing wound	post pharyngeal fragment	4F	CIW4

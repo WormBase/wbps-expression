@@ -1,0 +1,9 @@
+Run	Condition	description_title	redox	source	source_name
+SRR10238290	SRR10238290	June28High	reduced	Rep1	L2 staged N2jrIs2[Prpl-17::Grx1-roGFP2] - reduced biol.replicate 1
+SRR10238291	SRR10238291	June28Low	oxidized	Rep1	L2 staged N2jrIs2[Prpl-17::Grx1-roGFP2] - oxidized biol.replicate 1
+SRR10238292	SRR10238292	June28R4High2	reduced	Rep2	L2 staged N2jrIs2[Prpl-17::Grx1-roGFP2] - reduced biol.replicate 2
+SRR10238293	SRR10238293	June28R4Low2	oxidized	Rep2	L2 staged N2jrIs2[Prpl-17::Grx1-roGFP2] - oxidized biol.replicate 2
+SRR10238294	SRR10238294	July7R4High	reduced	Rep3	L2 staged N2jrIs2[Prpl-17::Grx1-roGFP2] - reduced biol.replicate 3
+SRR10238295	SRR10238295	July7R5Low	oxidized	Rep3	L2 staged N2jrIs2[Prpl-17::Grx1-roGFP2] - oxidized biol.replicate 3
+SRR10238296	SRR10238296	August6R4High	reduced	Rep5	L2 staged N2jrIs2[Prpl-17::Grx1-roGFP2] - oxidized biol.replicate 5
+SRR10238297	SRR10238297	August6R5Low	oxidized	Rep5	L2 staged N2jrIs2[Prpl-17::Grx1-roGFP2] - reduced biol.replicate 5

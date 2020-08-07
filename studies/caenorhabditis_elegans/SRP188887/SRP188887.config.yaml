@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA528111
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-09-06
+ena_last_update: 2019-12-07
+pubmed:
+  31491396:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2019-09-08
+submitting_centre: 'Meyer, MCB, HHMI/UC Berkeley'
+title: 'X chromosome domain architecture regulates Caenorhabditis elegans lifespan but not dosage compensation [RNA-seq]'

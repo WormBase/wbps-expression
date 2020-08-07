@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA548517
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-05-29
+ena_last_update: 2020-05-29
+pubmed:
+  32339771:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2020-07-19
+submitting_centre: University of Haifa
+title: 'The transcriptional response of C. elegans to statins: general and p38 dependent responses'

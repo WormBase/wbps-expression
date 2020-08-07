@@ -1,0 +1,7 @@
+Run	Condition	source_name	title	developmental_stage	organism_part
+SRR8797962	SRR8797962	mir-1_C. elegans whole animal	mir-1_1	L4 larval stage	whole organism
+SRR8797963	SRR8797963	mir-1_C. elegans whole animal	mir-1_2	L4 larval stage	whole organism
+SRR8797964	SRR8797964	mir-1_C. elegans whole animal	mir-1_3	L4 larval stage	whole organism
+SRR8797965	SRR8797965	WT_C. elegans whole animal	N2_1	L4 larval stage	whole organism
+SRR8797966	SRR8797966	WT_C. elegans whole animal	N2_2	L4 larval stage	whole organism
+SRR8797967	SRR8797967	WT_C. elegans whole animal	N2_3	L4 larval stage	whole organism

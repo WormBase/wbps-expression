@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA540983
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-09-10
+ena_last_update: 2019-12-13
+pubmed:
+  31511882:
+    - ~
+    - ~
+resource_links: []
+rnaseqer_last_update: 2019-09-11
+submitting_centre: 'computational Biology, Max-Planck-Institute for biochemistry'
+title: Stage-specific combinations of opposing poly(A) modifying enzymes guide gene expression during early oogenesis

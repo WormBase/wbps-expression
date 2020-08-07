@@ -1,0 +1,16 @@
+Run	Condition	genotype	title	source_name	type
+SRR9007355	SRR9007355	dKO gld2 parn1	gld2-parn1_3	whole worms	total RNA
+SRR9007356	SRR9007356	dKO gld2 parn1	gld2-parn1_2	whole worms	total RNA
+SRR9007357	SRR9007357	dKO gld2 parn1	gld2-parn1_1	whole worms	total RNA
+SRR9007358	SRR9007358	dKO gld2 ccf1	gld2-ccf1_3	whole worms	total RNA
+SRR9007359	SRR9007359	dKO gld2 ccf1	gld2-ccf1_2	whole worms	total RNA
+SRR9007360	SRR9007360	dKO gld2 ccf1	gld2-ccf1_1	whole worms	total RNA
+SRR9007361	SRR9007361	dKO gld2 ccr4	gld2-ccr4_3	whole worms	total RNA
+SRR9007362	SRR9007362	dKO gld2 ccr4	gld2-ccr4_2	whole worms	total RNA
+SRR9007363	SRR9007363	dKO gld2 ccr4	gld2-ccr4_1	whole worms	total RNA
+SRR9007364	SRR9007364	KO gld2	gld2_3	whole worms	total RNA
+SRR9007365	SRR9007365	KO gld2	gld2_2	whole worms	total RNA
+SRR9007366	SRR9007366	KO gld2	gld2_1	whole worms	total RNA
+SRR9007367	SRR9007367	wild type	wt_3	whole worms	total RNA
+SRR9007368	SRR9007368	wild type	wt_2	whole worms	total RNA
+SRR9007369	SRR9007369	wild type	wt_1	whole worms	total RNA

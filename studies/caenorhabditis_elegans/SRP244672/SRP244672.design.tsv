@@ -1,0 +1,11 @@
+Run	Condition	genotype	title	developmental_stage	organism_part	source_name	strain
+SRR10961934	SRR10961934	gld-2(q497) gld-1(q485); glp-1(ar202)	GLP-1 ON rep1	1 day old adult	germline	dissected germline tumor	Bristol
+SRR10961935	SRR10961935	gld-2(q497) gld-1(q485); glp-1(ar202)	GLP-1 ON rep2	1 day old adult	germline	dissected germline tumor	Bristol
+SRR10961936	SRR10961936	gld-2(q497) gld-1(q485); glp-1(ar202)	GLP-1 ON rep3	1 day old adult	germline	dissected germline tumor	Bristol
+SRR10961937	SRR10961937	gld-2(q497) gld-1(q485); glp-1(ar202)	GLP-1 ON rep4	1 day old adult	germline	dissected germline tumor	Bristol
+SRR10961938	SRR10961938	gld-2(q497) gld-1(q485); glp-1(ar202)	GLP-1 ON rep5	1 day old adult	germline	dissected germline tumor	Bristol
+SRR10961939	SRR10961939	gld-2(q497) gld-1(q485); glp-1(q175)	GLP-1 OFF rep1	1 day old adult	germline	dissected germline tumor	Bristol
+SRR10961940	SRR10961940	gld-2(q497) gld-1(q485); glp-1(q175)	GLP-1 OFF rep2	1 day old adult	germline	dissected germline tumor	Bristol
+SRR10961941	SRR10961941	gld-2(q497) gld-1(q485); glp-1(q175)	GLP-1 OFF rep3	1 day old adult	germline	dissected germline tumor	Bristol
+SRR10961942	SRR10961942	gld-2(q497) gld-1(q485); glp-1(q175)	GLP-1 OFF rep4	1 day old adult	germline	dissected germline tumor	Bristol
+SRR10961943	SRR10961943	gld-2(q497) gld-1(q485); glp-1(q175)	GLP-1 OFF rep5	1 day old adult	germline	dissected germline tumor	Bristol

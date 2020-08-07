@@ -1,0 +1,12 @@
+---
+bioproject: PRJEB37439
+category: Other
+contrasts: []
+description: 'Divergence of gene function and expression during development can give rise to phenotypic differences at the level of cells, tissues, organs, and ultimately whole organisms. To gain insights into the evolution of gene expression and novel genes at spatial resolution, we compared the spatially-resolved transcriptomes of two distantly related nematodes, Caenorhabditis elegans and Pristionchus pacificus, that diverged 60-90 million years ago.'
+ena_first_public: 2020-05-05
+ena_last_update: 2020-03-20
+pubmed: {}
+resource_links: []
+rnaseqer_last_update: 2020-07-19
+submitting_centre: MAX PLANCK INSTITUTE FOR DEVELOPMENTAL BIOLOGY
+title: Tomo-seq of Pristionchus pacificus nematodes

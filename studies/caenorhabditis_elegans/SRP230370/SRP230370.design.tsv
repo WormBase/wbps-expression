@@ -1,0 +1,7 @@
+Run	Condition	sample_name	title	treatment	developmental_stage	organism_part	sample_type	sex	strain
+SRR10484898	N2 rep1	N2 rep1	N2 worms, rep 1	control	D1	all	whole organism	hermaphrodite	N2
+SRR10484897	N2 rep2	N2 rep2	N2 worms, rep 2	control	D1	all	whole organism	hermaphrodite	N2
+SRR10484896	N2 rep3	N2 rep3	N2 worms, rep 3	control	D1	all	whole organism	hermaphrodite	N2
+SRR10484895	hlh17pXBP1s _rep1	hlh17pXBP1s _rep1	Worms over-expressing xbp-1s from glia, rep 1	over expression of xbp-1	D1	all	whole organism	hermaphrodite	N2
+SRR10484894	hlh17pXBP1s _rep2	hlh17pXBP1s _rep2	Worms over-expressing xbp-1s from glia, rep 2	over expression of xbp-1	D1	all	whole organism	hermaphrodite	N2
+SRR10484893	hlh17pXBP1s _rep3	hlh17pXBP1s _rep3	Worms over-expressing xbp-1s from glia, rep 3	over expression of xbp-1	D1	all	whole organism	hermaphrodite	N2
