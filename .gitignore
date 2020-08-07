@@ -1,0 +1,26 @@
+# unknown content in this directory
+# trusting Wojtek's decision not to track it in tht repo:
+Resources
+# local perl dependencies *definitely* nopt for the repo:
+local
+# files below are unknown; temporary Wojtek things?
+.Rhistory
+SRP063061.contrasts/
+all_with_new_headers.err
+all_with_new_headers.out
+checks.out
+cpanfile.snapshot
+ensembl.md
+malayi.err
+malayi.out
+mansoni.err
+mansoni.out
+nematode.net
+nematode.tsv
+nematode.xml
+new_headers.err
+new_headers.out
+rnaseqer.all_runs
+run_all.sh
+wormbase_out.tsv
+
