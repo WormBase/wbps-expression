@@ -1,9 +1,9 @@
-Run	Condition	breed	sample_name	sex	collection_date	developmental_stage	geographic_location	host	isolation_source	organism_part	title
-SRR5314128	Schistosoma mansoni f-BRExm-GH2 F1-Mirror Female Adults RNA-seq	f-BRExm-GH2_mirror_r2	Schistosoma mansoni f-BRExm-GH2 F1-Mirror Female Adults RNA-seq	female	2015	adult	France: Perpignan	mouse	not applicanle	whole organism	Invertebrate sample from Schistosoma mansoni
-SRR5314129	Schistosoma mansoni f-BRExm-GH2 F1-Mirror Female Adults RNA-seq	f-BRExm-GH2_mirror_r1	Schistosoma mansoni f-BRExm-GH2 F1-Mirror Female Adults RNA-seq	female	2015	adult	France: Perpignan	mouse	not applicanle	whole organism	Invertebrate sample from Schistosoma mansoni
-SRR5314132	Schistosoma mansoni f-BRExm-GH2 F1-Mirror Male Adults RNA-seq	f-BRExm-GH2_mirror_r2	Schistosoma mansoni f-BRExm-GH2 F1-Mirror Male Adults RNA-seq	male	2015	adult	France: Perpignan	mouse	not applicanle	whole organism	Invertebrate sample from Schistosoma mansoni
-SRR5314133	Schistosoma mansoni f-BRExm-GH2 F1-Mirror Male Adults RNA-seq	f-BRExm-GH2_mirror_r1	Schistosoma mansoni f-BRExm-GH2 F1-Mirror Male Adults RNA-seq	male	2015	adult	France: Perpignan	mouse	not applicanle	whole organism	Invertebrate sample from Schistosoma mansoni
-SRR5314130	Schistosoma mansoni f-GH2xm-BRE F1 Female Adults RNA-seq	f-GH2xm-BRE_F1_r2	Schistosoma mansoni f-GH2xm-BRE F1 Female Adults RNA-seq	female	2015	adult	France: Perpignan	mouse	not applicanle	whole organism	Invertebrate sample from Schistosoma mansoni
-SRR5314131	Schistosoma mansoni f-GH2xm-BRE F1 Female Adults RNA-seq	f-GH2xm-BRE_F1_r1	Schistosoma mansoni f-GH2xm-BRE F1 Female Adults RNA-seq	female	2015	adult	France: Perpignan	mouse	not applicanle	whole organism	Invertebrate sample from Schistosoma mansoni
-SRR5314134	Schistosoma mansoni f-GH2xm-BRE F1 Male Adults RNA-seq	f-GH2xm-BRE_F1_r2	Schistosoma mansoni f-GH2xm-BRE F1 Male Adults RNA-seq	male	2015	adult	France: Perpignan	mouse	not applicanle	whole organism	Invertebrate sample from Schistosoma mansoni
-SRR5314135	Schistosoma mansoni f-GH2xm-BRE F1 Male Adults RNA-seq	f-GH2xm-BRE_F1_r1	Schistosoma mansoni f-GH2xm-BRE F1 Male Adults RNA-seq	male	2015	adult	France: Perpignan	mouse	not applicanle	whole organism	Invertebrate sample from Schistosoma mansoni
+Run	Condition	breed	sex	collection_date	developmental_stage	geographic_location	host	organism_part
+SRR5314128	f-BRExm-GH2 F1-Mirror Female Adults	f-BRExm-GH2_mirror	female	2015	adult	France: Perpignan	mouse	whole organism
+SRR5314129	f-BRExm-GH2 F1-Mirror Female Adults	f-BRExm-GH2_mirror	female	2015	adult	France: Perpignan	mouse	whole organism
+SRR5314132	f-BRExm-GH2 F1-Mirror Male Adults	f-BRExm-GH2_mirror	male	2015	adult	France: Perpignan	mouse	whole organism
+SRR5314133	f-BRExm-GH2 F1-Mirror Male Adults	f-BRExm-GH2_mirror	male	2015	adult	France: Perpignan	mouse	whole organism
+SRR5314130	f-GH2xm-BRE F1 Female Adults	f-GH2xm-BRE_F1	female	2015	adult	France: Perpignan	mouse	whole organism
+SRR5314131	f-GH2xm-BRE F1 Female Adults	f-GH2xm-BRE_F1	female	2015	adult	France: Perpignan	mouse	whole organism
+SRR5314134	f-GH2xm-BRE F1 Male Adults	f-GH2xm-BRE_F1	male	2015	adult	France: Perpignan	mouse	whole organism
+SRR5314135	f-GH2xm-BRE F1 Male Adults	f-GH2xm-BRE_F1	male	2015	adult	France: Perpignan	mouse	whole organism
