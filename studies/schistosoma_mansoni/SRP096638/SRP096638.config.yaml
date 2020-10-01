@@ -1,7 +1,137 @@
 ---
 bioproject: PRJNA361136
-category: Other
-contrasts: []
+category: Response to treatment
+contrasts:
+  - name: strain
+    values:
+      -
+        - BH female
+        - NMRI female
+        - BH female vs NMRI female
+      -
+        - BH male
+        - NMRI male
+        - BH male vs NMRI male
+  - name: concentration
+    values:
+      -
+        - 'NMRI female, TH65 at 05uM'
+        - 'NMRI female, TH65 at 10uM'
+        - 'NMRI female, TH65 at 05uM vs NMRI female, TH65 at 10uM'
+      -
+        - 'NMRI female, TH65 at 05uM'
+        - 'NMRI female, TH65 at 20uM'
+        - 'NMRI female, TH65 at 05uM vs NMRI female, TH65 at 20uM'
+      -
+        - 'NMRI female, TH65 at 10uM'
+        - 'NMRI female, TH65 at 20uM'
+        - 'NMRI female, TH65 at: 10uM vs 20uM'
+      -
+        - 'NMRI male, TH65 at 05uM'
+        - 'NMRI male, TH65 at 10uM'
+        - 'NMRI male, TH65 at 05uM vs NMRI male, TH65 at 10uM'
+      -
+        - 'NMRI male, TH65 at 05uM'
+        - 'NMRI male, TH65 at 20uM'
+        - 'NMRI male, TH65 at 05uM vs NMRI male, TH65 at 20uM'
+      -
+        - 'NMRI male, TH65 at 10uM'
+        - 'NMRI male, TH65 at 20uM'
+        - 'NMRI male, TH65 at: 10uM vs 20uM'
+  - name: treatment
+    values:
+      -
+        - Female
+        - 'Female, MC3935 treated'
+        - 'Female vs Female, MC3935 treated'
+      -
+        - Male
+        - 'Male, MC3935 treated'
+        - 'Male vs Male, MC3935 treated'
+  - name: treatment+strain
+    values:
+      -
+        - 'BH female, GSK343 at 20uM'
+        - 'NMRI female, TH65 at 20uM'
+        - 'BH female, GSK343 at 20uM vs NMRI female, TH65 at 20uM'
+      -
+        - 'BH male, GSK343 at 20uM'
+        - 'NMRI male, TH65 at 20uM'
+        - 'BH male, GSK343 at 20uM vs NMRI male, TH65 at 20uM'
+  - name: treatment+host+strain
+    values:
+      -
+        - BH schistosomula
+        - 'Schistosomula, MC395 treated'
+        - 'BH schistosomula vs Schistosomula, MC395 treated'
+  - name: treatment+concentration
+    values:
+      -
+        - BH female
+        - 'BH female, GSK343 at 20uM'
+        - 'BH female vs BH female, GSK343 at 20uM'
+      -
+        - BH male
+        - 'BH male, GSK343 at 20uM'
+        - 'BH male vs BH male, GSK343 at 20uM'
+      -
+        - BH schistosomula
+        - 'BH schistosomula, GSK343 at 20uM'
+        - 'BH schistosomula vs BH schistosomula, GSK343 at 20uM'
+      -
+        - Female
+        - 'Female, MC3935 treated'
+        - 'Female vs Female, MC3935 treated'
+      -
+        - Male
+        - 'Male, MC3935 treated'
+        - 'Male vs Male, MC3935 treated'
+      -
+        - NMRI female
+        - 'NMRI female, TH65 at 05uM'
+        - 'NMRI female vs NMRI female, TH65 at 05uM'
+      -
+        - NMRI female
+        - 'NMRI female, TH65 at 10uM'
+        - 'NMRI female vs NMRI female, TH65 at 10uM'
+      -
+        - NMRI female
+        - 'NMRI female, TH65 at 20uM'
+        - 'NMRI female vs NMRI female, TH65 at 20uM'
+      -
+        - NMRI male
+        - 'NMRI male, TH65 at 05uM'
+        - 'NMRI male vs NMRI male, TH65 at 05uM'
+      -
+        - NMRI male
+        - 'NMRI male, TH65 at 10uM'
+        - 'NMRI male vs NMRI male, TH65 at 10uM'
+      -
+        - NMRI male
+        - 'NMRI male, TH65 at 20uM'
+        - 'NMRI male vs NMRI male, TH65 at 20uM'
+  - name: developmental_stage+sex
+    values:
+      -
+        - BH female
+        - BH male
+        - 'BH: female vs male'
+      -
+        - BH female
+        - BH schistosomula
+        - 'BH: adult, female vs schistosomula'
+      -
+        - BH male
+        - BH schistosomula
+        - 'BH: adult, male vs schistosomula'
+      -
+        - Female
+        - Male
+        - Female vs Male
+      -
+        - NMRI female
+        - NMRI male
+        - 'NMRI: female vs male'
 description: ''
 ena_first_public: 2018-01-02
 ena_last_update: 2019-03-22

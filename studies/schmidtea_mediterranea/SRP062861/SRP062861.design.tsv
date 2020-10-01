@@ -1,11 +1,11 @@
 Run	Condition	rnai	time_after_rnai_treatment	organism_part
-SRR2183580	"CHD4, 12 days"	CHD4	12 days	whole organism
-SRR2183581	"CHD4, 12 days"	CHD4	12 days	whole organism
-SRR2183585	"CHD4, 15 days"	CHD4	15 days	whole organism
-SRR2183573	"CHD4, 3 days"	CHD4	3 days	whole organism
-SRR2183574	"CHD4, 6 days"	CHD4	6 days	whole organism
-SRR2183577	"CHD4, 9 days"	CHD4	9 days	whole organism
-SRR2183579	"CHD4, 9 days"	CHD4	9 days	whole organism
+SRR2183580	CHD4, 12 days	CHD4	12 days	whole organism
+SRR2183581	CHD4, 12 days	CHD4	12 days	whole organism
+SRR2183585	CHD4, 15 days	CHD4	15 days	whole organism
+SRR2183573	CHD4, 3 days	CHD4	3 days	whole organism
+SRR2183574	CHD4, 6 days	CHD4	6 days	whole organism
+SRR2183577	CHD4, 9 days	CHD4	9 days	whole organism
+SRR2183579	CHD4, 9 days	CHD4	9 days	whole organism
 SRR2183582	CHD4_12_3	CHD4	12 days	whole organism
 SRR2183583	CHD4_15_1	CHD4	15 days	whole organism
 SRR2183584	CHD4_15_2	CHD4	15 days	whole organism
@@ -14,38 +14,38 @@ SRR2183572	CHD4_3_2	CHD4	3 days	whole organism
 SRR2183575	CHD4_6_2	CHD4	6 days	whole organism
 SRR2183576	CHD4_6_3	CHD4	6 days	whole organism
 SRR2183578	CHD4_9_2	CHD4	9 days	whole organism
-SRR2183595	"p53, 12 days"	p53	12 days	whole organism
-SRR2183596	"p53, 12 days"	p53	12 days	whole organism
-SRR2183597	"p53, 12 days"	p53	12 days	whole organism
-SRR2183598	"p53, 15 days"	p53	15 days	whole organism
-SRR2183599	"p53, 15 days"	p53	15 days	whole organism
-SRR2183600	"p53, 15 days"	p53	15 days	whole organism
-SRR2183601	"p53, 18 days"	p53	18 days	whole organism
-SRR2183602	"p53, 18 days"	p53	18 days	whole organism
-SRR2183586	"p53, 3 days"	p53	3 days	whole organism
-SRR2183588	"p53, 3 days"	p53	3 days	whole organism
-SRR2183589	"p53, 6 days"	p53	6 days	whole organism
-SRR2183590	"p53, 6 days"	p53	6 days	whole organism
-SRR2183591	"p53, 6 days"	p53	6 days	whole organism
-SRR2183592	"p53, 9 days"	p53	9 days	whole organism
-SRR2183593	"p53, 9 days"	p53	9 days	whole organism
-SRR2183594	"p53, 9 days"	p53	9 days	whole organism
+SRR2183595	p53, 12 days	p53	12 days	whole organism
+SRR2183596	p53, 12 days	p53	12 days	whole organism
+SRR2183597	p53, 12 days	p53	12 days	whole organism
+SRR2183598	p53, 15 days	p53	15 days	whole organism
+SRR2183599	p53, 15 days	p53	15 days	whole organism
+SRR2183600	p53, 15 days	p53	15 days	whole organism
+SRR2183601	p53, 18 days	p53	18 days	whole organism
+SRR2183602	p53, 18 days	p53	18 days	whole organism
+SRR2183586	p53, 3 days	p53	3 days	whole organism
+SRR2183588	p53, 3 days	p53	3 days	whole organism
+SRR2183589	p53, 6 days	p53	6 days	whole organism
+SRR2183590	p53, 6 days	p53	6 days	whole organism
+SRR2183591	p53, 6 days	p53	6 days	whole organism
+SRR2183592	p53, 9 days	p53	9 days	whole organism
+SRR2183593	p53, 9 days	p53	9 days	whole organism
+SRR2183594	p53, 9 days	p53	9 days	whole organism
 SRR2183587	p53_3_2	p53	3 days	whole organism
-SRR2183612	"unc22, 12 days"	unc22	12 days	whole organism
-SRR2183613	"unc22, 12 days"	unc22	12 days	whole organism
-SRR2183614	"unc22, 12 days"	unc22	12 days	whole organism
-SRR2183615	"unc22, 15 days"	unc22	15 days	whole organism
-SRR2183616	"unc22, 15 days"	unc22	15 days	whole organism
-SRR2183617	"unc22, 15 days"	unc22	15 days	whole organism
-SRR2183618	"unc22, 18 days"	unc22	18 days	whole organism
-SRR2183619	"unc22, 18 days"	unc22	18 days	whole organism
-SRR2183620	"unc22, 18 days"	unc22	18 days	whole organism
-SRR2183603	"unc22, 3 days"	unc22	3 days	whole organism
-SRR2183604	"unc22, 3 days"	unc22	3 days	whole organism
-SRR2183605	"unc22, 3 days"	unc22	3 days	whole organism
-SRR2183606	"unc22, 6 days"	unc22	6 days	whole organism
-SRR2183607	"unc22, 6 days"	unc22	6 days	whole organism
-SRR2183608	"unc22, 6 days"	unc22	6 days	whole organism
-SRR2183609	"unc22, 9 days"	unc22	9 days	whole organism
-SRR2183610	"unc22, 9 days"	unc22	9 days	whole organism
-SRR2183611	"unc22, 9 days"	unc22	9 days	whole organism
+SRR2183612	unc22, 12 days	unc22	12 days	whole organism
+SRR2183613	unc22, 12 days	unc22	12 days	whole organism
+SRR2183614	unc22, 12 days	unc22	12 days	whole organism
+SRR2183615	unc22, 15 days	unc22	15 days	whole organism
+SRR2183616	unc22, 15 days	unc22	15 days	whole organism
+SRR2183617	unc22, 15 days	unc22	15 days	whole organism
+SRR2183618	unc22, 18 days	unc22	18 days	whole organism
+SRR2183619	unc22, 18 days	unc22	18 days	whole organism
+SRR2183620	unc22, 18 days	unc22	18 days	whole organism
+SRR2183603	unc22, 3 days	unc22	3 days	whole organism
+SRR2183604	unc22, 3 days	unc22	3 days	whole organism
+SRR2183605	unc22, 3 days	unc22	3 days	whole organism
+SRR2183606	unc22, 6 days	unc22	6 days	whole organism
+SRR2183607	unc22, 6 days	unc22	6 days	whole organism
+SRR2183608	unc22, 6 days	unc22	6 days	whole organism
+SRR2183609	unc22, 9 days	unc22	9 days	whole organism
+SRR2183610	unc22, 9 days	unc22	9 days	whole organism
+SRR2183611	unc22, 9 days	unc22	9 days	whole organism

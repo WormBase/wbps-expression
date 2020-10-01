@@ -2,64 +2,64 @@ Run	Condition	developmental_stage	treatment	concentration	host	sex	strain	organi
 SRR5170160	BH female	adult			Homo sapiens	female	BH	whole organism
 SRR5170161	BH female	adult			Homo sapiens	female	BH	whole organism
 SRR5170162	BH female	adult			Homo sapiens	female	BH	whole organism
-SRR5170157	"BH female, GSK343 at 20uM"	adult	GSK343 	20uM	Homo sapiens	female	BH	whole organism
-SRR5170158	"BH female, GSK343 at 20uM"	adult	GSK343 	20uM	Homo sapiens	female	BH	whole organism
-SRR5170159	"BH female, GSK343 at 20uM"	adult	GSK343 	20uM	Homo sapiens	female	BH	whole organism
+SRR5170157	BH female, GSK343 at 20uM	adult	GSK343	20uM	Homo sapiens	female	BH	whole organism
+SRR5170158	BH female, GSK343 at 20uM	adult	GSK343	20uM	Homo sapiens	female	BH	whole organism
+SRR5170159	BH female, GSK343 at 20uM	adult	GSK343	20uM	Homo sapiens	female	BH	whole organism
 SRR5170166	BH male	adult			Homo sapiens	male	BH	whole organism
 SRR5170167	BH male	adult			Homo sapiens	male	BH	whole organism
 SRR5170168	BH male	adult			Homo sapiens	male	BH	whole organism
-SRR5170163	"BH male, GSK343 at 20uM"	adult	GSK343 	20uM	Homo sapiens	male	BH	whole organism
-SRR5170164	"BH male, GSK343 at 20uM"	adult	GSK343 	20uM	Homo sapiens	male	BH	whole organism
-SRR5170165	"BH male, GSK343 at 20uM"	adult	GSK343 	20uM	Homo sapiens	male	BH	whole organism
+SRR5170163	BH male, GSK343 at 20uM	adult	GSK343	20uM	Homo sapiens	male	BH	whole organism
+SRR5170164	BH male, GSK343 at 20uM	adult	GSK343	20uM	Homo sapiens	male	BH	whole organism
+SRR5170165	BH male, GSK343 at 20uM	adult	GSK343	20uM	Homo sapiens	male	BH	whole organism
 SRR7496596	BH schistosomula	schistosomula			Homo sapiens		BH	whole organism
 SRR7496597	BH schistosomula	schistosomula			Homo sapiens		BH	whole organism
 SRR7496598	BH schistosomula	schistosomula			Homo sapiens		BH	whole organism
 SRR7496599	BH schistosomula	schistosomula			Homo sapiens		BH	whole organism
-SRR7496592	"BH schistosomula, GSK343 at 20uM"	schistosomula	GSK343 	20uM	Homo sapiens		BH	whole organism
-SRR7496593	"BH schistosomula, GSK343 at 20uM"	schistosomula	GSK343 	20uM	Homo sapiens		BH	whole organism
-SRR7496594	"BH schistosomula, GSK343 at 20uM"	schistosomula	GSK343 	20uM	Homo sapiens		BH	whole organism
-SRR7496595	"BH schistosomula, GSK343 at 20uM"	schistosomula	GSK343 	20uM	Homo sapiens		BH	whole organism
-SRR11660033	Male				Mesocricetus auratus	male		whole organism
-SRR11660042	Female				Mesocricetus auratus	female		whole organism
-SRR11660041	"Male, MC3935 treated"		MC395		Mesocricetus auratus	male		whole organism
-SRR11660040	"Female, MC3935 treated"		MC395		Mesocricetus auratus	female		whole organism
-SRR11660039	Male				Mesocricetus auratus	male		whole organism
-SRR11660038	Female				Mesocricetus auratus	female		whole organism
-SRR11660037	"Male, MC3935 treated"		MC395		Mesocricetus auratus	male		whole organism
-SRR11660036	"Female, MC3935 treated"		MC395		Mesocricetus auratus	female		whole organism
-SRR11660032	Female				Mesocricetus auratus	female		whole organism
-SRR11660031	"Male, MC3935 treated"		MC395		Mesocricetus auratus	male		whole organism
-SRR11660030	"Female, MC3935 treated"		MC395		Mesocricetus auratus	female		whole organism
-SRR11660029	Male				Mesocricetus auratus	male		whole organism
+SRR7496592	BH schistosomula, GSK343 at 20uM	schistosomula	GSK343	20uM	Homo sapiens		BH	whole organism
+SRR7496593	BH schistosomula, GSK343 at 20uM	schistosomula	GSK343	20uM	Homo sapiens		BH	whole organism
+SRR7496594	BH schistosomula, GSK343 at 20uM	schistosomula	GSK343	20uM	Homo sapiens		BH	whole organism
+SRR7496595	BH schistosomula, GSK343 at 20uM	schistosomula	GSK343	20uM	Homo sapiens		BH	whole organism
 SRR11660028	Female				Mesocricetus auratus	female		whole organism
-SRR11660045	"Male, MC3935 treated"		MC395		Mesocricetus auratus	male		whole organism
-SRR11660044	"Female, MC3935 treated"		MC395		Mesocricetus auratus	female		whole organism
+SRR11660032	Female				Mesocricetus auratus	female		whole organism
+SRR11660038	Female				Mesocricetus auratus	female		whole organism
+SRR11660042	Female				Mesocricetus auratus	female		whole organism
+SRR11660030	Female, MC3935 treated		MC395		Mesocricetus auratus	female		whole organism
+SRR11660036	Female, MC3935 treated		MC395		Mesocricetus auratus	female		whole organism
+SRR11660040	Female, MC3935 treated		MC395		Mesocricetus auratus	female		whole organism
+SRR11660044	Female, MC3935 treated		MC395		Mesocricetus auratus	female		whole organism
+SRR11660029	Male				Mesocricetus auratus	male		whole organism
+SRR11660033	Male				Mesocricetus auratus	male		whole organism
+SRR11660039	Male				Mesocricetus auratus	male		whole organism
 SRR11660043	Male				Mesocricetus auratus	male		whole organism
-SRR11660047	"Schistosomula, MC395 treated"	schistosomula	MC395		Mesocricetus auratus			whole organism
-SRR11660046	"Schistosomula, MC395 treated"	schistosomula	MC395		Mesocricetus auratus			whole organism
-SRR11660035	"Schistosomula, MC395 treated"	schistosomula	MC395		Mesocricetus auratus			whole organism
-SRR11660034	"Schistosomula, MC395 treated"	schistosomula	MC395		Mesocricetus auratus			whole organism
+SRR11660031	Male, MC3935 treated		MC395		Mesocricetus auratus	male		whole organism
+SRR11660037	Male, MC3935 treated		MC395		Mesocricetus auratus	male		whole organism
+SRR11660041	Male, MC3935 treated		MC395		Mesocricetus auratus	male		whole organism
+SRR11660045	Male, MC3935 treated		MC395		Mesocricetus auratus	male		whole organism
 SRR5170178	NMRI female	adult			Homo sapiens	female	puerto rican	whole organism
 SRR5170179	NMRI female	adult			Homo sapiens	female	puerto rican	whole organism
 SRR5170180	NMRI female	adult			Homo sapiens	female	puerto rican	whole organism
-SRR5170175	"NMRI female, TH65 at 05uM"	adult	TH65	5uM	Homo sapiens	female	puerto rican	whole organism
-SRR5170176	"NMRI female, TH65 at 05uM"	adult	TH65	5uM	Homo sapiens	female	puerto rican	whole organism
-SRR5170177	"NMRI female, TH65 at 05uM"	adult	TH65	5uM	Homo sapiens	female	puerto rican	whole organism
-SRR5170172	"NMRI female, TH65 at 10uM"	adult	TH65	10uM	Homo sapiens	female	puerto rican	whole organism
-SRR5170173	"NMRI female, TH65 at 10uM"	adult	TH65	10uM	Homo sapiens	female	puerto rican	whole organism
-SRR5170174	"NMRI female, TH65 at 10uM"	adult	TH65	10uM	Homo sapiens	female	puerto rican	whole organism
-SRR5170169	"NMRI female, TH65 at 20uM"	adult	TH65	20uM	Homo sapiens	female	puerto rican	whole organism
-SRR5170170	"NMRI female, TH65 at 20uM"	adult	TH65	20uM	Homo sapiens	female	puerto rican	whole organism
-SRR5170171	"NMRI female, TH65 at 20uM"	adult	TH65	20uM	Homo sapiens	female	puerto rican	whole organism
+SRR5170175	NMRI female, TH65 at 05uM	adult	TH65	5uM	Homo sapiens	female	puerto rican	whole organism
+SRR5170176	NMRI female, TH65 at 05uM	adult	TH65	5uM	Homo sapiens	female	puerto rican	whole organism
+SRR5170177	NMRI female, TH65 at 05uM	adult	TH65	5uM	Homo sapiens	female	puerto rican	whole organism
+SRR5170172	NMRI female, TH65 at 10uM	adult	TH65	10uM	Homo sapiens	female	puerto rican	whole organism
+SRR5170173	NMRI female, TH65 at 10uM	adult	TH65	10uM	Homo sapiens	female	puerto rican	whole organism
+SRR5170174	NMRI female, TH65 at 10uM	adult	TH65	10uM	Homo sapiens	female	puerto rican	whole organism
+SRR5170169	NMRI female, TH65 at 20uM	adult	TH65	20uM	Homo sapiens	female	puerto rican	whole organism
+SRR5170170	NMRI female, TH65 at 20uM	adult	TH65	20uM	Homo sapiens	female	puerto rican	whole organism
+SRR5170171	NMRI female, TH65 at 20uM	adult	TH65	20uM	Homo sapiens	female	puerto rican	whole organism
 SRR5170190	NMRI male	adult			Homo sapiens	male	puerto rican	whole organism
 SRR5170191	NMRI male	adult			Homo sapiens	male	puerto rican	whole organism
 SRR5170192	NMRI male	adult			Homo sapiens	male	puerto rican	whole organism
-SRR5170187	"NMRI male, TH65 at 05uM"	adult	TH65	5uM	Homo sapiens	male	puerto rican	whole organism
-SRR5170188	"NMRI male, TH65 at 05uM"	adult	TH65	5uM	Homo sapiens	male	puerto rican	whole organism
-SRR5170189	"NMRI male, TH65 at 05uM"	adult	TH65	5uM	Homo sapiens	male	puerto rican	whole organism
-SRR5170184	"NMRI male, TH65 at 10uM"	adult	TH65	10uM	Homo sapiens	male	puerto rican	whole organism
-SRR5170185	"NMRI male, TH65 at 10uM"	adult	TH65	10uM	Homo sapiens	male	puerto rican	whole organism
-SRR5170186	"NMRI male, TH65 at 10uM"	adult	TH65	10uM	Homo sapiens	male	puerto rican	whole organism
-SRR5170181	"NMRI male, TH65 at 20uM"	adult	TH65	20uM	Homo sapiens	male	puerto rican	whole organism
-SRR5170182	"NMRI male, TH65 at 20uM"	adult	TH65	20uM	Homo sapiens	male	puerto rican	whole organism
-SRR5170183	"NMRI male, TH65 at 20uM"	adult	TH65	20uM	Homo sapiens	male	puerto rican	whole organism
+SRR5170187	NMRI male, TH65 at 05uM	adult	TH65	5uM	Homo sapiens	male	puerto rican	whole organism
+SRR5170188	NMRI male, TH65 at 05uM	adult	TH65	5uM	Homo sapiens	male	puerto rican	whole organism
+SRR5170189	NMRI male, TH65 at 05uM	adult	TH65	5uM	Homo sapiens	male	puerto rican	whole organism
+SRR5170184	NMRI male, TH65 at 10uM	adult	TH65	10uM	Homo sapiens	male	puerto rican	whole organism
+SRR5170185	NMRI male, TH65 at 10uM	adult	TH65	10uM	Homo sapiens	male	puerto rican	whole organism
+SRR5170186	NMRI male, TH65 at 10uM	adult	TH65	10uM	Homo sapiens	male	puerto rican	whole organism
+SRR5170181	NMRI male, TH65 at 20uM	adult	TH65	20uM	Homo sapiens	male	puerto rican	whole organism
+SRR5170182	NMRI male, TH65 at 20uM	adult	TH65	20uM	Homo sapiens	male	puerto rican	whole organism
+SRR5170183	NMRI male, TH65 at 20uM	adult	TH65	20uM	Homo sapiens	male	puerto rican	whole organism
+SRR11660034	Schistosomula, MC395 treated	schistosomula	MC395		Mesocricetus auratus			whole organism
+SRR11660035	Schistosomula, MC395 treated	schistosomula	MC395		Mesocricetus auratus			whole organism
+SRR11660046	Schistosomula, MC395 treated	schistosomula	MC395		Mesocricetus auratus			whole organism
+SRR11660047	Schistosomula, MC395 treated	schistosomula	MC395		Mesocricetus auratus			whole organism
