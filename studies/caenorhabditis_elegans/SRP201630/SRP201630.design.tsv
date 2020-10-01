@@ -1,17 +1,16 @@
-Run	Sample	Condition	developmental_stage	genotype	sample_name	strain	title	organism_part	sex
-SRR11174221	SAMN14165852	nonu-1(srf0780) skih-2(cc2854) unc-54(cc4092)	Young adult	nonu-1(srf0780) skih-2(cc2854) unc-54(cc4092)	nonu-1(srf0780) skih-2(cc2854) unc-54(cc4092)	WJA0785	nonu-1(srf0780) skih-2(cc2854) unc-54(cc4092)	whole organism	hermaphrodite
-SRR11174222	SAMN14165852	nonu-1(srf0780) skih-2(cc2854) unc-54(cc4092)	Young adult	nonu-1(srf0780) skih-2(cc2854) unc-54(cc4092)	nonu-1(srf0780) skih-2(cc2854) unc-54(cc4092)	WJA0785	nonu-1(srf0780) skih-2(cc2854) unc-54(cc4092)	whole organism	hermaphrodite
-SRR11174225	SAMN14165850	nonu-1(srf0780) unc-54(cc4092)	Young adult	nonu-1(srf0780) unc-54(cc4092)	nonu-1(srf0780) unc-54(cc4092)	WJA0780	nonu-1(srf0780) unc-54(cc4092)	whole organism	hermaphrodite
-SRR11174226	SAMN14165850	nonu-1(srf0780) unc-54(cc4092)	Young adult	nonu-1(srf0780) unc-54(cc4092)	nonu-1(srf0780) unc-54(cc4092)	WJA0780	nonu-1(srf0780) unc-54(cc4092)	whole organism	hermaphrodite
-SRR11174234	SAMN14165850	nonu-1(srf0780) unc-54(cc4092)	Young adult	nonu-1(srf0780) unc-54(cc4092)	nonu-1(srf0780) unc-54(cc4092)	WJA0780	nonu-1(srf0780) unc-54(cc4092)	whole organism	hermaphrodite
-SRR11174228	SAMN14165854	nonu-1(srf0780) unc-54(srf0788)	Young adult	nonu-1(srf0780) unc-54(srf0788)	nonu-1(srf0780) unc-54(srf0788)	WJA0789	nonu-1(srf0780) unc-54(srf0788)	whole organism	hermaphrodite
-SRR11174244	SAMN14165854	nonu-1(srf0780) unc-54(srf0788)	Young adult	nonu-1(srf0780) unc-54(srf0788)	nonu-1(srf0780) unc-54(srf0788)	WJA0789	nonu-1(srf0780) unc-54(srf0788)	whole organism	hermaphrodite
-SRR11174223	SAMN14165851	skih-2(cc2854) unc-54(cc4092)	Young adult	skih-2(cc2854) unc-54(cc4092)	skih-2(cc2854) unc-54(cc4092)	WJA0552	skih-2(cc2854) unc-54(cc4092)	whole organism	hermaphrodite
-SRR11174224	SAMN14165851	skih-2(cc2854) unc-54(cc4092)	Young adult	skih-2(cc2854) unc-54(cc4092)	skih-2(cc2854) unc-54(cc4092)	WJA0552	skih-2(cc2854) unc-54(cc4092)	whole organism	hermaphrodite
-SRR11174227	SAMN14165855	skih-2(cc2854) unc-54(srf0788)	Young adult	skih-2(cc2854) unc-54(srf0788)	skih-2(cc2854) unc-54(srf0788)	WJA0790	skih-2(cc2854) unc-54(srf0788)	whole organism	hermaphrodite
-SRR11174243	SAMN14165855	skih-2(cc2854) unc-54(srf0788)	Young adult	skih-2(cc2854) unc-54(srf0788)	skih-2(cc2854) unc-54(srf0788)	WJA0790	skih-2(cc2854) unc-54(srf0788)	whole organism	hermaphrodite
-SRR11174245	SAMN14165849	unc-54(cc4092)	Young adult	unc-54(cc4092)	unc-54(cc4092)	WJA0438	unc-54(cc4092)	whole organism	hermaphrodite
-SRR11174246	SAMN14165849	unc-54(cc4092)	Young adult	unc-54(cc4092)	unc-54(cc4092)	WJA0438	unc-54(cc4092)	whole organism	hermaphrodite
-SRR11174220	SAMN14165853	unc-54(srf0788)	Young adult	unc-54(srf0788)	unc-54(srf0788)	WJA0788	unc-54(srf0788)	whole organism	hermaphrodite
-SRR11174229	SAMN14165853	unc-54(srf0788)	Young adult	unc-54(srf0788)	unc-54(srf0788)	WJA0788	unc-54(srf0788)	whole organism	hermaphrodite
-SRR11174240	SRR11174240	unc-54(srf0788), unc-54(srf0788) nonu-1(srf0791), unc-54(srf0788) nonu-1(srf0802)	Asynchronous	unc-54(srf0788), unc-54(srf0788) nonu-1(srf0791), unc-54(srf0788) nonu-1(srf0802)	unc-54(srf0788), unc-54(srf0788) nonu-1(srf0791), unc-54(srf0788) nonu-1(srf0802)	WJA0788, WJA0791, WJA0802	unc-54(srf0788), unc-54(srf0788) nonu-1(srf0791), unc-54(srf0788) nonu-1(srf0802)	whole organism	hermaphrodite
+Run	Sample	Condition	developmental_stage	genotype	strain	organism_part	sex
+SRR11174221	SAMN14165852	nonu-1(srf0780) skih-2(cc2854) unc-54(cc4092)	Young adult	nonu-1(srf0780) skih-2(cc2854) unc-54(cc4092)	WJA0785	whole organism	hermaphrodite
+SRR11174222	SAMN14165852	nonu-1(srf0780) skih-2(cc2854) unc-54(cc4092)	Young adult	nonu-1(srf0780) skih-2(cc2854) unc-54(cc4092)	WJA0785	whole organism	hermaphrodite
+SRR11174225	SAMN14165850	nonu-1(srf0780) unc-54(cc4092)	Young adult	nonu-1(srf0780) unc-54(cc4092)	WJA0780	whole organism	hermaphrodite
+SRR11174226	SAMN14165850	nonu-1(srf0780) unc-54(cc4092)	Young adult	nonu-1(srf0780) unc-54(cc4092)	WJA0780	whole organism	hermaphrodite
+SRR11174234	SAMN14165850	nonu-1(srf0780) unc-54(cc4092)	Young adult	nonu-1(srf0780) unc-54(cc4092)	WJA0780	whole organism	hermaphrodite
+SRR11174228	SAMN14165854	nonu-1(srf0780) unc-54(srf0788)	Young adult	nonu-1(srf0780) unc-54(srf0788)	WJA0789	whole organism	hermaphrodite
+SRR11174244	SAMN14165854	nonu-1(srf0780) unc-54(srf0788)	Young adult	nonu-1(srf0780) unc-54(srf0788)	WJA0789	whole organism	hermaphrodite
+SRR11174223	SAMN14165851	skih-2(cc2854) unc-54(cc4092)	Young adult	skih-2(cc2854) unc-54(cc4092)	WJA0552	whole organism	hermaphrodite
+SRR11174224	SAMN14165851	skih-2(cc2854) unc-54(cc4092)	Young adult	skih-2(cc2854) unc-54(cc4092)	WJA0552	whole organism	hermaphrodite
+SRR11174227	SAMN14165855	skih-2(cc2854) unc-54(srf0788)	Young adult	skih-2(cc2854) unc-54(srf0788)	WJA0790	whole organism	hermaphrodite
+SRR11174243	SAMN14165855	skih-2(cc2854) unc-54(srf0788)	Young adult	skih-2(cc2854) unc-54(srf0788)	WJA0790	whole organism	hermaphrodite
+SRR11174245	SAMN14165849	unc-54(cc4092)	Young adult	unc-54(cc4092)	WJA0438	whole organism	hermaphrodite
+SRR11174246	SAMN14165849	unc-54(cc4092)	Young adult	unc-54(cc4092)	WJA0438	whole organism	hermaphrodite
+SRR11174220	SAMN14165853	unc-54(srf0788)	Young adult	unc-54(srf0788)	WJA0788	whole organism	hermaphrodite
+SRR11174229	SAMN14165853	unc-54(srf0788)	Young adult	unc-54(srf0788)	WJA0788	whole organism	hermaphrodite
