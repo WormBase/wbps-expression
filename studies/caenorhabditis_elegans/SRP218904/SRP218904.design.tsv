@@ -1,13 +1,13 @@
-Run	Sample	Condition	sample_name	treatment	collected_by	collection_date	developmental_stage	organism_part	phenotype	sample_type	sex	strain	title
-SRR10006159	SAMN12610412	N2_JCMS_12hr	N2_JCMS_12hr	JCMS	Leah Radeke	June-2016	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans
-SRR10006165	SAMN12610412	N2_JCMS_12hr	N2_JCMS_12hr	JCMS	Leah Radeke	June-2016	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans
-SRR10006166	SAMN12610412	N2_JCMS_12hr	N2_JCMS_12hr	JCMS	Leah Radeke	June-2016	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans
-SRR10006157	SAMN12610413	N2_JV3_12hr	N2_JV3_12hr	JV3	Leah Radeke	June-2016	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans
-SRR10006160	SAMN12610413	N2_JV3_12hr	N2_JV3_12hr	JV3	Leah Radeke	June-2016	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans
-SRR10006164	SAMN12610413	N2_JV3_12hr	N2_JV3_12hr	JV3	Leah Radeke	June-2016	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans
-SRR10006162	SAMN12610411	N2_K279a_12hr	N2_K279a_12hr	K279a	Leah Radeke	June-2016	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans
-SRR10006167	SAMN12610411	N2_K279a_12hr	N2_K279a_12hr	K279a	Leah Radeke	June-2016	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans
-SRR10006168	SAMN12610411	N2_K279a_12hr	N2_K279a_12hr	K279a	Leah Radeke	June-2016	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans
-SRR10006158	SAMN12610410	N2_OP50_12hr	N2_OP50_12hr	OP50	Leah Radeke	June-2016	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans
-SRR10006161	SAMN12610410	N2_OP50_12hr	N2_OP50_12hr	OP50	Leah Radeke	June-2016	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans
-SRR10006163	SAMN12610410	N2_OP50_12hr	N2_OP50_12hr	OP50	Leah Radeke	June-2016	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2	Model organism or animal sample from Caenorhabditis elegans
+Run	Sample	Condition	Time	treatment	developmental_stage	organism_part	phenotype	sample_type	sex	strain
+SRR10006159	SAMN12610412	JCMS	12h	JCMS	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2
+SRR10006165	SAMN12610412	JCMS	12h	JCMS	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2
+SRR10006166	SAMN12610412	JCMS	12h	JCMS	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2
+SRR10006157	SAMN12610413	JV3	12h	JV3	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2
+SRR10006160	SAMN12610413	JV3	12h	JV3	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2
+SRR10006164	SAMN12610413	JV3	12h	JV3	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2
+SRR10006162	SAMN12610411	K279a	12h	K279a	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2
+SRR10006167	SAMN12610411	K279a	12h	K279a	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2
+SRR10006168	SAMN12610411	K279a	12h	K279a	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2
+SRR10006158	SAMN12610410	OP50	12h	OP50	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2
+SRR10006161	SAMN12610410	OP50	12h	OP50	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2
+SRR10006163	SAMN12610410	OP50	12h	OP50	adult	whole organism	wild-type	Bulk RNA	hermaphrodite	N2
