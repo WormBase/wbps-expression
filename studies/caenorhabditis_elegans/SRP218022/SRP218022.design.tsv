@@ -1,25 +1,25 @@
-Run	Sample	Condition	description_title	genotype	strain	cell_type	developmental_stage	source_name
-SRR9945395	SAMN12551074	SAMN12551074	BAG neurons, AX7210-6	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945396	SAMN12551074	SAMN12551074	BAG neurons, AX7210-6	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945393	SAMN12551075	SAMN12551075	BAG neurons, AX7210-5	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945394	SAMN12551075	SAMN12551075	BAG neurons, AX7210-5	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945391	SAMN12551076	SAMN12551076	BAG neurons, AX7210-4	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945392	SAMN12551076	SAMN12551076	BAG neurons, AX7210-4	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945389	SAMN12551077	SAMN12551077	BAG neurons, AX7210-3	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945390	SAMN12551077	SAMN12551077	BAG neurons, AX7210-3	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945387	SAMN12551078	SAMN12551078	BAG neurons, AX7210-2	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945388	SAMN12551078	SAMN12551078	BAG neurons, AX7210-2	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945385	SAMN12551079	SAMN12551079	BAG neurons, AX7210-1	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945386	SAMN12551079	SAMN12551079	BAG neurons, AX7210-1	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945383	SAMN12551080	SAMN12551080	BAG neurons, AX7207-6	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945384	SAMN12551080	SAMN12551080	BAG neurons, AX7207-6	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945381	SAMN12551081	SAMN12551081	BAG neurons, AX7207-5	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945382	SAMN12551081	SAMN12551081	BAG neurons, AX7207-5	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945379	SAMN12551082	SAMN12551082	BAG neurons, AX7207-4	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945380	SAMN12551082	SAMN12551082	BAG neurons, AX7207-4	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945377	SAMN12551083	SAMN12551083	BAG neurons, AX7207-3	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945378	SAMN12551083	SAMN12551083	BAG neurons, AX7207-3	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945375	SAMN12551084	SAMN12551084	BAG neurons, AX7207-2	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945376	SAMN12551084	SAMN12551084	BAG neurons, AX7207-2	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945373	SAMN12551085	SAMN12551085	BAG neurons, AX7207-1	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
-SRR9945374	SAMN12551085	SAMN12551085	BAG neurons, AX7207-1	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult	FAC-sorted BAG neurons
+Run	Sample	Condition	genotype	strain	cell_type	developmental_stage
+SRR9945395	SAMN12551074	"BAG neurons, AX7210"	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult
+SRR9945396	SAMN12551074	"BAG neurons, AX7210"	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult
+SRR9945393	SAMN12551075	"BAG neurons, AX7210"	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult
+SRR9945394	SAMN12551075	"BAG neurons, AX7210"	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult
+SRR9945391	SAMN12551076	"BAG neurons, AX7210"	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult
+SRR9945392	SAMN12551076	"BAG neurons, AX7210"	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult
+SRR9945389	SAMN12551077	"BAG neurons, AX7210"	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult
+SRR9945390	SAMN12551077	"BAG neurons, AX7210"	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult
+SRR9945387	SAMN12551078	"BAG neurons, AX7210"	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult
+SRR9945388	SAMN12551078	"BAG neurons, AX7210"	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult
+SRR9945385	SAMN12551079	"BAG neurons, AX7210"	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult
+SRR9945386	SAMN12551079	"BAG neurons, AX7210"	npr-1(ad609); ynIs64[flp-17p::gfp]	AX7210	FAC-sorted BAG neurons	day 1 adult
+SRR9945383	SAMN12551080	"BAG neurons, AX7207"	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult
+SRR9945384	SAMN12551080	"BAG neurons, AX7207"	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult
+SRR9945381	SAMN12551081	"BAG neurons, AX7207"	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult
+SRR9945382	SAMN12551081	"BAG neurons, AX7207"	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult
+SRR9945379	SAMN12551082	"BAG neurons, AX7207"	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult
+SRR9945380	SAMN12551082	"BAG neurons, AX7207"	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult
+SRR9945377	SAMN12551083	"BAG neurons, AX7207"	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult
+SRR9945378	SAMN12551083	"BAG neurons, AX7207"	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult
+SRR9945375	SAMN12551084	"BAG neurons, AX7207"	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult
+SRR9945376	SAMN12551084	"BAG neurons, AX7207"	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult
+SRR9945373	SAMN12551085	"BAG neurons, AX7207"	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult
+SRR9945374	SAMN12551085	"BAG neurons, AX7207"	arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp]	AX7207	FAC-sorted BAG neurons	day 1 adult
