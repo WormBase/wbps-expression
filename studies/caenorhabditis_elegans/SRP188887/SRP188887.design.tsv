@@ -1,14 +1,14 @@
-Run	Sample	Condition	genotype	strain_name	title	source_name
-SRR8754558	SAMN11173464	SAMN11173464	sdc-2(y93, RNAi)	TY0810 grown on sdc-2 RNAi bacteria	DCCmutant_RNA-seq	embryos
-SRR8754559	SAMN11173464	SAMN11173464	sdc-2(y93, RNAi)	TY0810 grown on sdc-2 RNAi bacteria	DCCmutant_RNA-seq	embryos
-SRR8754560	SAMN11173464	SAMN11173464	sdc-2(y93, RNAi)	TY0810 grown on sdc-2 RNAi bacteria	DCCmutant_RNA-seq	embryos
-SRR8754553	SAMN11173465	SAMN11173465	rex-32(y572) rex-33(y743) rex-14(y738) rex-47(y671) rex-8(y737) rex-43(y741) rex-48(y742) rex-35(y740) X	TY5827	8rexDeletion_RNA-seq	embryos
-SRR8754554	SAMN11173465	SAMN11173465	rex-32(y572) rex-33(y743) rex-14(y738) rex-47(y671) rex-8(y737) rex-43(y741) rex-48(y742) rex-35(y740) X	TY5827	8rexDeletion_RNA-seq	embryos
-SRR8754555	SAMN11173465	SAMN11173465	rex-32(y572) rex-33(y743) rex-14(y738) rex-47(y671) rex-8(y737) rex-43(y741) rex-48(y742) rex-35(y740) X	TY5827	8rexDeletion_RNA-seq	embryos
-SRR8754556	SAMN11173465	SAMN11173465	rex-32(y572) rex-33(y743) rex-14(y738) rex-47(y671) rex-8(y737) rex-43(y741) rex-48(y742) rex-35(y740) X	TY5827	8rexDeletion_RNA-seq	embryos
-SRR8754557	SAMN11173465	SAMN11173465	rex-32(y572) rex-33(y743) rex-14(y738) rex-47(y671) rex-8(y737) rex-43(y741) rex-48(y742) rex-35(y740) X	TY5827	8rexDeletion_RNA-seq	embryos
-SRR8754548	SAMN11173467	SAMN11173467	wild type	N2	WT_RNA-seq	embryos
-SRR8754549	SAMN11173467	SAMN11173467	wild type	N2	WT_RNA-seq	embryos
-SRR8754550	SAMN11173467	SAMN11173467	wild type	N2	WT_RNA-seq	embryos
-SRR8754551	SAMN11173467	SAMN11173467	wild type	N2	WT_RNA-seq	embryos
-SRR8754552	SAMN11173467	SAMN11173467	wild type	N2	WT_RNA-seq	embryos
+Run	Sample	Condition	genotype	strain_name	developmental_stage
+SRR8754558	SAMN11173464	DCC mutant	"sdc-2(y93, RNAi)"	TY0810 grown on sdc-2 RNAi bacteria	embryos
+SRR8754559	SAMN11173464	DCC mutant	"sdc-2(y93, RNAi)"	TY0810 grown on sdc-2 RNAi bacteria	embryos
+SRR8754560	SAMN11173464	DCC mutant	"sdc-2(y93, RNAi)"	TY0810 grown on sdc-2 RNAi bacteria	embryos
+SRR8754553	SAMN11173465	8rex deletion	rex-32(y572) rex-33(y743) rex-14(y738) rex-47(y671) rex-8(y737) rex-43(y741) rex-48(y742) rex-35(y740) X	TY5827	embryos
+SRR8754554	SAMN11173465	8rex deletion	rex-32(y572) rex-33(y743) rex-14(y738) rex-47(y671) rex-8(y737) rex-43(y741) rex-48(y742) rex-35(y740) X	TY5827	embryos
+SRR8754555	SAMN11173465	8rex deletion	rex-32(y572) rex-33(y743) rex-14(y738) rex-47(y671) rex-8(y737) rex-43(y741) rex-48(y742) rex-35(y740) X	TY5827	embryos
+SRR8754556	SAMN11173465	8rex deletion	rex-32(y572) rex-33(y743) rex-14(y738) rex-47(y671) rex-8(y737) rex-43(y741) rex-48(y742) rex-35(y740) X	TY5827	embryos
+SRR8754557	SAMN11173465	8rex deletion	rex-32(y572) rex-33(y743) rex-14(y738) rex-47(y671) rex-8(y737) rex-43(y741) rex-48(y742) rex-35(y740) X	TY5827	embryos
+SRR8754548	SAMN11173467	Wild type	wild type	N2	embryos
+SRR8754549	SAMN11173467	Wild type	wild type	N2	embryos
+SRR8754550	SAMN11173467	Wild type	wild type	N2	embryos
+SRR8754551	SAMN11173467	Wild type	wild type	N2	embryos
+SRR8754552	SAMN11173467	Wild type	wild type	N2	embryos
