@@ -1,7 +1,13 @@
 ---
 bioproject: PRJNA551487
-category: Other
-contrasts: []
+category: Response to treatment
+contrasts:
+  - name: treatment
+    values:
+      -
+        - DMSO
+        - FPL-64176
+        - DMSO vs FPL-64176
 description: ''
 ena_first_public: 2020-01-03
 ena_last_update: 2020-01-03
