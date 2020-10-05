@@ -8,6 +8,8 @@ use XML::Simple;
 use Log::Any '$log';
 use Try::Tiny;
 use Carp;
+use Data::Dumper;
+use File::Slurp qw/write_file/;
 
 sub title_and_description_for_pubmed_id {
   my ( $species, $pubmed_id ) = @_;
@@ -20,20 +22,19 @@ sub title_and_description_for_pubmed_id {
 
   my $payload_string = $response->decoded_content;
   return unless $payload_string; #rare but e.g. 30962434
-
   my ($short_description, $full_description );
+
   try {
     my $payload = XMLin($payload_string);
-  
-    my $article_elt = $payload->{PubmedArticleSet}{PubmedArticle}{MedlineCitation}{Article}
-      || die "cannot find PubmedArticleSet|PubmedArticle|MedlineCitation|Article";
+   my $article_elt = $payload->{PubmedArticle}{MedlineCitation}{Article}
+      || die "cannot find PubmedArticle|MedlineCitation|Article";
     
     my $title = $article_elt->{ArticleTitle}
-      || die "cannot find PubmedArticleSet|PubmedArticle|MedlineCitation|Article|ArticleTitle";
+      || die "cannot find PubmedArticle|MedlineCitation|Article|ArticleTitle";
     $title = italicise_species_in_title( $species, $title );
-  
+    print $title;
     my $authors = $article_elt->{AuthorList}{Author}
-      || die "cannot find PubmedArticleSet|PubmedArticle|MedlineCitation|Article|AuthorList|Author";
+      || die "cannot find PubmedArticle|MedlineCitation|Article|AuthorList|Author";
     my @authors =
       $authors ? ref $authors eq 'ARRAY' ? @$authors : ($authors) : ();
     my $first_author = $authors[0]->{LastName};
@@ -45,7 +46,7 @@ sub title_and_description_for_pubmed_id {
         : $first_author
       : "";
     my $year = $article_elt->{Journal}{JournalIssue}{PubDate}{Year}
-      || die "cannot find PubmedArticleSet|PubmedArticle|MedlineCitation|Article|Journal|JournalIssue|PubDate|Year";
+      || die "cannot find PubmedArticle|MedlineCitation|Article|Journal|JournalIssue|PubDate|Year";
     $short_description = "$authors, $year";
     $full_description =
       $title ? "$title ($authors, $year)" : $short_description;
@@ -54,8 +55,7 @@ sub title_and_description_for_pubmed_id {
     my $xmllog = "/tmp/pubmid-$pubmed_id-$$.xml";
     write_file($xmllog, $payload_string);
     confess "PubMed XML parsing error (XML saved as $xmllog): $msg";
-  }
-    
+  };
   return [ $short_description, $full_description ];
 }
 

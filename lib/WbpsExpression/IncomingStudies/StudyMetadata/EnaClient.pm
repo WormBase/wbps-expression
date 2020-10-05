@@ -29,7 +29,7 @@ sub get_study_metadata {
   if ( $data_for_study->{bioproject} ) {
     my $bioproject_xml = get_xml(sprintf( "https://www.ebi.ac.uk/ena/data/view/%s&display=xml",$data_for_study->{bioproject} ));
     last unless ($bioproject_xml);
-    my ( $submitting_centre, $pubmed_refs, $resource_links) = $bioproject_xml->xml_to_data_for_bioproject ;
+    my ( $submitting_centre, $pubmed_refs, $resource_links) = &xml_to_data_for_bioproject($bioproject_xml) ;
     
     #TODO more useful stuff: maybe the descriptions?
     $data_for_study->{pubmed_refs} = [sort {$a cmp $b} uniq ( @{$pubmed_refs // []}, @{ $data_for_study->{pubmed_refs} //[] })];
