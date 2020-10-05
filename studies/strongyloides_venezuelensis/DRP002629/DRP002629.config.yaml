@@ -1,7 +1,13 @@
 ---
 bioproject: PRJDB3457
 category: Other
-contrasts: []
+contrasts:
+  - name: developmental_stage
+    values:
+      -
+        - free-living adult
+        - parasitic adult
+        - free-living adult vs parasitic adult
 description: 'RNAseq analysis of several stages of the rodent intestinal nematode, Strongyloides venezuelensis. Stages include egg, 1st stage larva (L1), 3rd stage infective larva (iL3), 3rd stage larva in lung (lung L3), 3rd stage larva induced in vitro 1day (iL3 induced 1day), 3rd stage larva induced in vitro 1day (iL3 induced 5day), young adult female, adult female.'
 ena_first_public: 2015-05-02
 ena_last_update: 2019-09-28

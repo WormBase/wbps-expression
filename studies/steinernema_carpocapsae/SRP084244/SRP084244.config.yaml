@@ -1,7 +1,229 @@
 ---
 bioproject: PRJNA341580
-category: Other
-contrasts: []
+category: Life cycle
+contrasts:
+  - name: developmental_stage
+    values:
+      -
+        - 1.5-fold
+        - 2-cell
+        - 1.5-fold vs 2-cell
+      -
+        - 1.5-fold
+        - 2-fold
+        - 1.5-fold vs 2-fold
+      -
+        - 1.5-fold
+        - 24-44-cell
+        - 1.5-fold vs 24-44-cell
+      -
+        - 1.5-fold
+        - 4-cell
+        - 1.5-fold vs 4-cell
+      -
+        - 1.5-fold
+        - 64-78-cell
+        - 1.5-fold vs 64-78-cell
+      -
+        - 1.5-fold
+        - 8-cell
+        - 1.5-fold vs 8-cell
+      -
+        - 1.5-fold
+        - L1
+        - 1.5-fold vs L1
+      -
+        - 1.5-fold
+        - comma
+        - 1.5-fold vs comma
+      -
+        - 1.5-fold
+        - moving
+        - 1.5-fold vs moving
+      -
+        - 1.5-fold
+        - zygote
+        - 1.5-fold vs zygote
+      -
+        - 2-cell
+        - 2-fold
+        - 2-cell vs 2-fold
+      -
+        - 2-cell
+        - 24-44-cell
+        - 2-cell vs 24-44-cell
+      -
+        - 2-cell
+        - 4-cell
+        - 2-cell vs 4-cell
+      -
+        - 2-cell
+        - 64-78-cell
+        - 2-cell vs 64-78-cell
+      -
+        - 2-cell
+        - 8-cell
+        - 2-cell vs 8-cell
+      -
+        - 2-cell
+        - L1
+        - 2-cell vs L1
+      -
+        - 2-cell
+        - comma
+        - 2-cell vs comma
+      -
+        - 2-cell
+        - moving
+        - 2-cell vs moving
+      -
+        - 2-cell
+        - zygote
+        - 2-cell vs zygote
+      -
+        - 2-fold
+        - 24-44-cell
+        - 2-fold vs 24-44-cell
+      -
+        - 2-fold
+        - 4-cell
+        - 2-fold vs 4-cell
+      -
+        - 2-fold
+        - 64-78-cell
+        - 2-fold vs 64-78-cell
+      -
+        - 2-fold
+        - 8-cell
+        - 2-fold vs 8-cell
+      -
+        - 2-fold
+        - L1
+        - 2-fold vs L1
+      -
+        - 2-fold
+        - comma
+        - 2-fold vs comma
+      -
+        - 2-fold
+        - moving
+        - 2-fold vs moving
+      -
+        - 2-fold
+        - zygote
+        - 2-fold vs zygote
+      -
+        - 24-44-cell
+        - 4-cell
+        - 24-44-cell vs 4-cell
+      -
+        - 24-44-cell
+        - 64-78-cell
+        - 24-44-cell vs 64-78-cell
+      -
+        - 24-44-cell
+        - 8-cell
+        - 24-44-cell vs 8-cell
+      -
+        - 24-44-cell
+        - L1
+        - 24-44-cell vs L1
+      -
+        - 24-44-cell
+        - comma
+        - 24-44-cell vs comma
+      -
+        - 24-44-cell
+        - moving
+        - 24-44-cell vs moving
+      -
+        - 24-44-cell
+        - zygote
+        - 24-44-cell vs zygote
+      -
+        - 4-cell
+        - 64-78-cell
+        - 4-cell vs 64-78-cell
+      -
+        - 4-cell
+        - 8-cell
+        - 4-cell vs 8-cell
+      -
+        - 4-cell
+        - L1
+        - 4-cell vs L1
+      -
+        - 4-cell
+        - comma
+        - 4-cell vs comma
+      -
+        - 4-cell
+        - moving
+        - 4-cell vs moving
+      -
+        - 4-cell
+        - zygote
+        - 4-cell vs zygote
+      -
+        - 64-78-cell
+        - 8-cell
+        - 64-78-cell vs 8-cell
+      -
+        - 64-78-cell
+        - L1
+        - 64-78-cell vs L1
+      -
+        - 64-78-cell
+        - comma
+        - 64-78-cell vs comma
+      -
+        - 64-78-cell
+        - moving
+        - 64-78-cell vs moving
+      -
+        - 64-78-cell
+        - zygote
+        - 64-78-cell vs zygote
+      -
+        - 8-cell
+        - L1
+        - 8-cell vs L1
+      -
+        - 8-cell
+        - comma
+        - 8-cell vs comma
+      -
+        - 8-cell
+        - moving
+        - 8-cell vs moving
+      -
+        - 8-cell
+        - zygote
+        - 8-cell vs zygote
+      -
+        - L1
+        - comma
+        - L1 vs comma
+      -
+        - L1
+        - moving
+        - L1 vs moving
+      -
+        - L1
+        - zygote
+        - L1 vs zygote
+      -
+        - comma
+        - moving
+        - comma vs moving
+      -
+        - comma
+        - zygote
+        - comma vs zygote
+      -
+        - moving
+        - zygote
+        - moving vs zygote
 description: ''
 ena_first_public: 2017-10-12
 ena_last_update: 2017-12-28
