@@ -208,7 +208,8 @@ sub passes_checks {
 
 sub quantification_method {
   my ($self) = @_;
-  return $self->{config}{rnaseqer_last_update} ge "2019-04-15" ? "FeatureCounts" : "HTSeq";
+#  return $self->{config}{rnaseqer_last_update} ge "2019-04-15" ? "FeatureCounts" : "HTSeq";
+  return "HTSeq";
 }
 
 sub quantification_method_ftp_convention {
