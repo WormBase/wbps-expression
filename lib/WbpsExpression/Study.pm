@@ -244,10 +244,17 @@ sub source_counts {
   return join("/", $self->{sources}{$run_id}{location}, "$run_id.$self->{sources}{$run_id}{end}.genes.raw.$m.tsv");
 }
 
+# sometimes TPM files are named .irap.tsv, sometimes just .tsv. Try both.
+
 sub source_tpm {
   my ($self, $run_id) = @_;
   my $m = lc $self->{quantification_method};
-  return join("/", $self->{sources}{$run_id}{location}, "$run_id.$self->{sources}{$run_id}{end}.genes.tpm.$m.tsv");
+  my $simple = join("/", $self->{sources}{$run_id}{location}, "$run_id.$self->{sources}{$run_id}{end}.genes.tpm.$m.tsv");
+  my $simple_response =  LWP::UserAgent->new->get($simple);
+  if ($simple_response->is_success){
+	return $simple;
+  }
+  return join("/", $self->{sources}{$run_id}{location}, "$run_id.$self->{sources}{$run_id}{end}.genes.tpm.$m.irap.tsv");
 }
 
 sub source_bigwig {
