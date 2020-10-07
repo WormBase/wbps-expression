@@ -10,13 +10,16 @@ use List::Util qw/all min pairmap pairs/;
 use List::MoreUtils qw/duplicates uniq/;
 use File::Slurp qw/write_file/;
 use Regexp::Common qw/URI/;
+use Data::Dumper;
+use LWP;
 
 use open ':encoding(utf8)';
 # use Smart::Comments '###';
 sub new {
-  my ($class, $study_id, $study_design, $study_config, $skipped_runs, $sources) = @_;
+  my ($class, $study_id, $species, $study_design, $study_config, $skipped_runs, $sources) = @_;
   return bless {
     study_id => $study_id,
+    species => $species,
     design => $study_design,
     config => $study_config,
     skipped_runs => $skipped_runs,
@@ -25,7 +28,7 @@ sub new {
 }
 
 sub from_folder {
-  my ($class, $path) = @_;
+  my ($class, $path, $species) = @_;
   return unless -d $path;
   my $study_id = basename($path);
   my $design_path = sprintf("%s/%s.design.tsv", $path,$study_id);
@@ -34,7 +37,8 @@ sub from_folder {
   my $sources_path = sprintf("%s/%s.sources.tsv", $path,$study_id);
   return unless -f $config_path;
   return $class->new(
-     $study_id, 
+     $study_id,
+     $species,
      read_design($design_path),
      LoadFile($config_path),
      read_skipped_runs($skipped_runs_path),
@@ -206,28 +210,44 @@ sub passes_checks {
   return all {$_} values %checks; 
 }
 
+# use featurecounts results if they are available, if not use HTSeq2
 sub quantification_method {
   my ($self) = @_;
-#  return $self->{config}{rnaseqer_last_update} ge "2019-04-15" ? "FeatureCounts" : "HTSeq";
-  return "HTSeq";
+  my $study_id          = $self->{study_id};
+  my $species           = $self->{species}; 
+  my $ftp               = 'ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/studies/ena';
+
+  my $featurecounts_raw = join("/", $ftp, $study_id, $species, 'genes.raw.featurecounts.tsv'); 
+  my $response_fc_raw   = LWP::UserAgent->new->get($featurecounts_raw); 
+  
+  my $featurecounts_tpm = join("/", $ftp, $study_id, $species, 'genes.tpm.featurecounts.tsv');
+  my $response_fc_tpm   = LWP::UserAgent->new->get($featurecounts_tpm);
+
+  if ($response_fc_raw->is_success && $response_fc_tpm->is_success){
+     return "FeatureCounts";
+  }
+
+  my $htseq_raw = join("/", $ftp, $study_id, $species, 'genes.raw.htseq2.tsv');
+  my $response_htseq_raw   = LWP::UserAgent->new->get($htseq_raw);
+
+  my $htseq_tpm = join("/", $ftp, $study_id, $species, 'genes.tpm.htseq2.tsv');
+  my $response_htseq_tpm   = LWP::UserAgent->new->get($htseq_tpm); 
+  
+  if ($response_htseq_raw->is_success && $response_htseq_tpm->is_success){
+     return "HTSeq2";
+  }
 }
 
-sub quantification_method_ftp_convention {
-  my ($self) = @_;
-  my $m = lc $self->quantification_method;
-  $m =~ s/htseq/htseq2/;
-  return $m;
-}
 sub source_counts {
   my ($self, $run_id) = @_;
-  my $m = lc $self->quantification_method_ftp_convention;
+  my $m = lc $self->{quantification_method};
   return join("/", $self->{sources}{$run_id}{location}, "$run_id.$self->{sources}{$run_id}{end}.genes.raw.$m.tsv");
 }
 
 sub source_tpm {
   my ($self, $run_id) = @_;
-  my $m = lc $self->quantification_method_ftp_convention;
-  return join("/", $self->{sources}{$run_id}{location}, "$run_id.$self->{sources}{$run_id}{end}.genes.tpm.$m.irap.tsv");
+  my $m = lc $self->{quantification_method};
+  return join("/", $self->{sources}{$run_id}{location}, "$run_id.$self->{sources}{$run_id}{end}.genes.tpm.$m.tsv");
 }
 
 sub source_bigwig {
@@ -254,7 +274,7 @@ sub qc_issues_per_run {
 
 sub study_frontmatter {
   my ($self) = @_;
-  my $quantification_method = $self->quantification_method;
+  my $quantification_method = $self->{quantification_method};
   my @pubmed_lines = map {sprintf ("%s: https://www.ncbi.nlm.nih.gov/pubmed/%s", $_->[1][0], $_->[0]) } pairs %{$self->{config}{pubmed} // {}};
   return join ("\n",
     "",
