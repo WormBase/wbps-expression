@@ -15,7 +15,7 @@ use List::Util qw/first pairmap/;
 use List::MoreUtils qw/uniq singleton duplicates all/;
 use Log::Any qw/$log/;
 use Carp;
-
+use Data::Dumper;
 use Data::Compare;
 
 # use Smart::Comments '###';
@@ -81,11 +81,24 @@ sub design_and_skipped_runs_from_data_by_run_and_previous_values {
   my $design = keys %{$replicates_by_run} ? WbpsExpression::Study::Design::from_data_by_run($replicates_by_run, \%conditions_by_run, $characteristics_by_run, $characteristics_in_order): WbpsExpression::Study::Design::empty;
   return $design, \@skipped_runs;
 }
+
+# some studies have pubmed IDs but no associated paper data (author/title)
+# check for these, and attempt to re-retrieve metadata
+sub check_pubmed{
+  my $config = shift;
+  foreach my $pubmedid (keys $config->{pubmed}){
+      if (scalar(@{$config->{pubmed}{$pubmedid}}) != 2 ){
+	return;
+      } 
+   }
+  return 1;
+}
+
 sub update_study_with_results {
   my ( $path, $species, $study_id, $rnaseqer_last_update, $location_by_run, $quality_by_run, $replicates_by_run ) = @_;
   my @all_runs = sort keys %$location_by_run;
   my ( $design, $skipped_runs, $sources);
-  my $study_now = WbpsExpression::Study->from_folder($path);
+  my $study_now = WbpsExpression::Study->from_folder($path, $species);
   if ( $study_now and same_runs(
       [ $study_now->all_runs],
       \@all_runs,
@@ -126,11 +139,13 @@ sub update_study_with_results {
     }
   } @all_runs;
 
-
-  my $study_metadata =
-    $study_now && ( all {$study_now->{config}{$_}} qw/title submitting_centre ena_first_public ena_last_update/ )
-    ? $study_now->{config}
-    : WbpsExpression::IncomingStudies::StudyMetadata::get( $species, $study_id );
+  my $study_metadata;
+  if ($study_now && ( all {$study_now->{config}{$_}} qw/title submitting_centre ena_first_public ena_last_update/ )
+   && (&check_pubmed($study_now->{config}))){
+	$study_metadata = $study_now->{config};
+  }else{
+	$study_metadata = WbpsExpression::IncomingStudies::StudyMetadata::get( $species, $study_id );
+ }
 
   return unless $study_metadata;
 
@@ -147,8 +162,9 @@ sub update_study_with_results {
   };
 
   my $study =
-    WbpsExpression::Study->new($study_id, $design, $config, $skipped_runs, \%sources);
+    WbpsExpression::Study->new($study_id, $species, $design, $config, $skipped_runs, \%sources);
 #### $study
+  $study->{quantification_method} = $study->quantification_method;
   $study->to_folder($path);
   return $study;
 }
