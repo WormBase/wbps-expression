@@ -1,17 +1,17 @@
-Run	Condition	gravity	regeneration_days	sample_name	title	type	developmental_stage	molecule	organism_part	sex	strain
-SRR8476605	Sample 1	normal	5	Sample 1	6657	microgravity control	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
-SRR8476598	Sample 10	normal	12	Sample 10	6666	microgravity control	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
-SRR8476595	Sample 11	microgravity	12	Sample 11	6667	microgravity test	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
-SRR8476596	Sample 12	microgravity	12	Sample 12	6668	microgravity test	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
-SRR8476593	Sample 13	normal	12	Sample 13	6669	hypergravity control	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
-SRR8476594	Sample 14	normal	12	Sample 14	6670	hypergravity control	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
-SRR8476591	Sample 15	hypergravity	12	Sample 15	6671	hypergravity test	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
-SRR8476592	Sample 16	hypergravity	12	Sample 16	6672	hypergravity test	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
-SRR8476606	Sample 2	normal	5	Sample 2	6658	microgravity control	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
-SRR8476603	Sample 3	microgravity	5	Sample 3	6659	microgravity test	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
-SRR8476604	Sample 4	microgravity	5	Sample 4	6660	microgravity test	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
-SRR8476601	Sample 5	normal	5	Sample 5	6661	hypergravity control	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
-SRR8476602	Sample 6	normal	5	Sample 6	6662	hypergravity control	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
-SRR8476599	Sample 7	hypergravity	5	Sample 7	6663	hypergravity test	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
-SRR8476600	Sample 8	hypergravity	5	Sample 8	6664	hypergravity test	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
-SRR8476597	Sample 9	normal	12	Sample 9	6665	microgravity control	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
+Run	Condition	regeneration_days	gravity	developmental_stage	molecule	organism_part	sex	strain
+SRR8476605	"microgravity control, 5 days"	5	microgravity control	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
+SRR8476598	"microgravity control, 12 days"	12	microgravity control	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
+SRR8476595	"microgravity test, 12 days"	12	microgravity test	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
+SRR8476596	"microgravity test, 12 days"	12	microgravity test	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
+SRR8476593	"hypergravity control, 12 days"	12	hypergravity control	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
+SRR8476594	"hypergravity control, 12 days"	12	hypergravity control	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
+SRR8476591	"hypergravity test, 12 days"	12	hypergravity test	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
+SRR8476592	"hypergravity test, 12 days"	12	hypergravity test	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
+SRR8476606	"microgravity control, 5 days"	5	microgravity control	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
+SRR8476603	"microgravity test, 5 days"	5	microgravity test	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
+SRR8476604	"microgravity test, 5 days"	5	microgravity test	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
+SRR8476601	"hypergravity control, 5 days"	5	hypergravity control	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
+SRR8476602	"hypergravity control, 5 days"	5	hypergravity control	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
+SRR8476599	"hypergravity test, 5 days"	5	hypergravity test	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
+SRR8476600	"hypergravity test, 5 days"	5	hypergravity test	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line
+SRR8476597	"microgravity control, 12 days"	12	microgravity control	adult	polyA RNA	whole organism	asexual	asexual BCN-10 clonal line

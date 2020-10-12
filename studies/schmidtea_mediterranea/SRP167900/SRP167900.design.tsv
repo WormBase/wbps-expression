@@ -1,30 +1,30 @@
-Run	Condition	description_title	rnai_knockdown	source_name	title	ip_antibody	strain
-SRR8162667	SRR8162667	RNA-Seq_X1_unc_exp1 rep1	Unc-22 RNAi (control)	FACS-sorted neoblasts (X1 cells)			CIW4
-SRR8162668	SRR8162668	RNA-Seq_X1_unc_exp1 rep2	Unc-22 RNAi (control)	FACS-sorted neoblasts (X1 cells)			CIW4
-SRR8162669	SRR8162669	RNA-Seq_X1_unc_exp1 rep3	Unc-22 RNAi (control)	FACS-sorted neoblasts (X1 cells)			CIW4
-SRR8162670	SRR8162670		Unc-22 RNAi (control)	FACS-sorted differentiated cells (Xins cells)	RNA-Seq_Xins_unc_exp1 rep1		CIW4
-SRR8162671	SRR8162671	RNA-Seq_Xins_unc_exp1 rep2	Unc-22 RNAi (control)	FACS-sorted differentiated cells (Xins cells)			CIW4
-SRR8162672	SRR8162672		Unc-22 RNAi (control)	FACS-sorted differentiated cells (Xins cells)	RNA-Seq_Xins_unc_exp1 rep3		CIW4
-SRR8162673	SRR8162673		smedwi-3 RNAi	FACS-sorted neoblasts (X1 cells)	RNA-Seq_X1_sm3_exp1 rep1		CIW4
-SRR8162674	SRR8162674		smedwi-3 RNAi	FACS-sorted neoblasts (X1 cells)	RNA-Seq_X1_sm3_exp1 rep2		CIW4
-SRR8162675	SRR8162675		smedwi-3 RNAi	FACS-sorted neoblasts (X1 cells)	RNA-Seq_X1_sm3_exp1 rep3		CIW4
-SRR8162676	SRR8162676		smedwi-3 RNAi	FACS-sorted differentiated cells (Xins cells)	RNA-Seq_Xins_sm3_exp1 rep1		CIW4
-SRR8162677	SRR8162677		smedwi-3 RNAi	FACS-sorted differentiated cells (Xins cells)	RNA-Seq_Xins_sm3_exp1 rep2		CIW4
-SRR8162678	SRR8162678		smedwi-3 RNAi	FACS-sorted differentiated cells (Xins cells)	RNA-Seq_Xins_sm3_exp1 rep3		CIW4
-SRR8162679	SRR8162679		Unc-22 RNAi (control)	FACS-sorted neoblasts (X1 cells)	RNA-Seq_X1_unc_exp2_pe rep1		CIW4
-SRR8162680	SRR8162680		Unc-22 RNAi (control)	FACS-sorted neoblasts (X1 cells)	RNA-Seq_X1_unc_exp2_pe rep2		CIW4
-SRR8162681	SRR8162681		Unc-22 RNAi (control)	FACS-sorted neoblasts (X1 cells)	RNA-Seq_X1_unc_exp2_pe rep3		CIW4
-SRR8162682	SRR8162682		Smedwi-2 RNAi	FACS-sorted neoblasts (X1 cells)	RNA-Seq_X1_sm2_exp2_pe rep1		CIW4
-SRR8162683	SRR8162683		Smedwi-2 RNAi	FACS-sorted neoblasts (X1 cells)	RNA-Seq_X1_sm2_exp2_pe rep2		CIW4
-SRR8162684	SRR8162684		Smedwi-2 RNAi	FACS-sorted neoblasts (X1 cells)	RNA-Seq_X1_sm2_exp2_pe rep3		CIW4
-SRR8162685	SRR8162685		Unc-22 RNAi (control)	FACS-sorted differentiated cells (Xins cells)	RNA-Seq_Xins_unc_exp2_pe rep1		CIW4
-SRR8162686	SRR8162686		Unc-22 RNAi (control)	FACS-sorted differentiated cells (Xins cells)	RNA-Seq_Xins_unc_exp2_pe rep2		CIW4
-SRR8162687	SRR8162687		Unc-22 RNAi (control)	FACS-sorted differentiated cells (Xins cells)	RNA-Seq_Xins_unc_exp2_pe rep3		CIW4
-SRR8162688	SRR8162688		Smedwi-2 RNAi	FACS-sorted differentiated cells (Xins cells)	RNA-Seq_Xins_sm2_exp2_pe rep1		CIW4
-SRR8162689	SRR8162689		Smedwi-2 RNAi	FACS-sorted differentiated cells (Xins cells)	RNA-Seq_Xins_sm2_exp2_pe rep2		CIW4
-SRR8162690	SRR8162690		Smedwi-2 RNAi	FACS-sorted differentiated cells (Xins cells)	RNA-Seq_Xins_sm2_exp2_pe rep3		CIW4
-SRR8162691	SRR8162691		WT	whole worm	1M7_SHAPE-map		CIW4
-SRR8162692	SRR8162692		WT	whole worm	DMSO_SHAPE-map		CIW4
-SRR8842973	SRR8842973		WT	FACS-sorted neoblasts (X1 cells)	Degradome_Seq 1		CIW4
-SRR8842974	SRR8842974		WT	FACS-sorted neoblasts (X1 cells)	Degradome_Seq 2		CIW4
-SRR8842975	SRR8842975		WT	FACS-sorted neoblasts (X1 cells)	Degradome_Seq 3		CIW4
+Run	Condition	RNAi	Tissue	strain
+SRR8162667	"X1 cells, unc-22 RNAI"	Unc-22 RNAi (control)	FACS-sorted neoblasts (X1 cells)	CIW4
+SRR8162668	"X1 cells, unc-22 RNAI"	Unc-22 RNAi (control)	FACS-sorted neoblasts (X1 cells)	CIW4
+SRR8162669	"X1 cells, unc-22 RNAI"	Unc-22 RNAi (control)	FACS-sorted neoblasts (X1 cells)	CIW4
+SRR8162670	"Xins cells, unc-22 RNAi"	Unc-22 RNAi (control)	FACS-sorted differentiated cells (Xins cells)	CIW4
+SRR8162671	"Xins cells, unc-22 RNAi"	Unc-22 RNAi (control)	FACS-sorted differentiated cells (Xins cells)	CIW4
+SRR8162672	"Xins cells, unc-22 RNAi"	Unc-22 RNAi (control)	FACS-sorted differentiated cells (Xins cells)	CIW4
+SRR8162673	"X1 cells, smedwi-3 RNAi"	smedwi-3 RNAi	FACS-sorted neoblasts (X1 cells)	CIW4
+SRR8162674	"X1 cells, smedwi-3 RNAi"	smedwi-3 RNAi	FACS-sorted neoblasts (X1 cells)	CIW4
+SRR8162675	"X1 cells, smedwi-3 RNAi"	smedwi-3 RNAi	FACS-sorted neoblasts (X1 cells)	CIW4
+SRR8162676	"Xins cells, smedwi-3 RNAi"	smedwi-3 RNAi	FACS-sorted differentiated cells (Xins cells)	CIW4
+SRR8162677	"Xins cells, smedwi-3 RNAi"	smedwi-3 RNAi	FACS-sorted differentiated cells (Xins cells)	CIW4
+SRR8162678	"Xins cells, smedwi-3 RNAi"	smedwi-3 RNAi	FACS-sorted differentiated cells (Xins cells)	CIW4
+SRR8162679	"X1 cells, unc-22 RNAI"	Unc-22 RNAi (control)	FACS-sorted neoblasts (X1 cells)	CIW4
+SRR8162680	"X1 cells, unc-22 RNAI"	Unc-22 RNAi (control)	FACS-sorted neoblasts (X1 cells)	CIW4
+SRR8162681	"X1 cells, unc-22 RNAI"	Unc-22 RNAi (control)	FACS-sorted neoblasts (X1 cells)	CIW4
+SRR8162682	"X1 cells, smedwi-2 RNAi"	Smedwi-2 RNAi	FACS-sorted neoblasts (X1 cells)	CIW4
+SRR8162683	"X1 cells, smedwi-2 RNAi"	Smedwi-2 RNAi	FACS-sorted neoblasts (X1 cells)	CIW4
+SRR8162684	"X1 cells, smedwi-2 RNAi"	Smedwi-2 RNAi	FACS-sorted neoblasts (X1 cells)	CIW4
+SRR8162685	"Xins cells, unc-22 RNAi"	Unc-22 RNAi (control)	FACS-sorted differentiated cells (Xins cells)	CIW4
+SRR8162686	"Xins cells, unc-22 RNAi"	Unc-22 RNAi (control)	FACS-sorted differentiated cells (Xins cells)	CIW4
+SRR8162687	"Xins cells, unc-22 RNAi"	Unc-22 RNAi (control)	FACS-sorted differentiated cells (Xins cells)	CIW4
+SRR8162688	"Xins cells, smedwi-2 RNAi"	Smedwi-2 RNAi	FACS-sorted differentiated cells (Xins cells)	CIW4
+SRR8162689	"Xins cells, smedwi-2 RNAi"	Smedwi-2 RNAi	FACS-sorted differentiated cells (Xins cells)	CIW4
+SRR8162690	"Xins cells, smedwi-2 RNAi"	Smedwi-2 RNAi	FACS-sorted differentiated cells (Xins cells)	CIW4
+SRR8162691	whole worm		whole worm	CIW4
+SRR8162692	whole worm		whole worm	CIW4
+SRR8842973	X1 cells		FACS-sorted neoblasts (X1 cells)	CIW4
+SRR8842974	X1 cells		FACS-sorted neoblasts (X1 cells)	CIW4
+SRR8842975	X1 cells		FACS-sorted neoblasts (X1 cells)	CIW4

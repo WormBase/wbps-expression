@@ -1,13 +1,13 @@
-Run	Condition	developmental_stage	title	organism_part	source_name	strain
-SRR11280722	SRR11280722	6 weeks + 9 days culture	mock RNAi d9 replicate 1	whole adult male parasite	adult male parasites	Puerto Rico
-SRR11280723	SRR11280723	6 weeks + 9 days culture	mock RNAi d9 replicate 2	whole adult male parasite	adult male parasites	Puerto Rico
-SRR11280724	SRR11280724	6 weeks + 9 days culture	mock RNAi d9 replicate 3	whole adult male parasite	adult male parasites	Puerto Rico
-SRR11280725	SRR11280725	6 weeks + 9 days culture	stk RNAi d9 replicate 1	whole adult male parasite	adult male parasites	Puerto Rico
-SRR11280726	SRR11280726	6 weeks + 9 days culture	stk RNAi d9 replicate 2	whole adult male parasite	adult male parasites	Puerto Rico
-SRR11280727	SRR11280727	6 weeks + 9 days culture	stk RNAi d9 replicate 3	whole adult male parasite	adult male parasites	Puerto Rico
-SRR11280728	SRR11280728	6 weeks + 6 days culture	mock RNAi d6 replicate 1	whole adult male parasite	adult male parasites	Puerto Rico
-SRR11280729	SRR11280729	6 weeks + 6 days culture	mock RNAi d6 replicate 2	whole adult male parasite	adult male parasites	Puerto Rico
-SRR11280730	SRR11280730	6 weeks + 6 days culture	mock RNAi d6 replicate 3	whole adult male parasite	adult male parasites	Puerto Rico
-SRR11280731	SRR11280731	6 weeks + 6 days culture	tao RNAi d6 replicate 1	whole adult male parasite	adult male parasites	Puerto Rico
-SRR11280732	SRR11280732	6 weeks + 6 days culture	tao RNAi d6 replicate 2	whole adult male parasite	adult male parasites	Puerto Rico
-SRR11280733	SRR11280733	6 weeks + 6 days culture	tao RNAi d6 replicate 3	whole adult male parasite	adult male parasites	Puerto Rico
+Run	Condition	developmental_stage	organism_part	source_name	strain
+SRR11280722	mock RNAi d9	6 weeks + 9 days culture	whole adult male parasite	adult male parasites	Puerto Rico
+SRR11280723	mock RNAi	6 weeks + 9 days culture	whole adult male parasite	adult male parasites	Puerto Rico
+SRR11280724	mock RNAi d9	6 weeks + 9 days culture	whole adult male parasite	adult male parasites	Puerto Rico
+SRR11280725	stk RNAi d9	6 weeks + 9 days culture	whole adult male parasite	adult male parasites	Puerto Rico
+SRR11280726	stk RNAi d9	6 weeks + 9 days culture	whole adult male parasite	adult male parasites	Puerto Rico
+SRR11280727	stk RNAi d9	6 weeks + 9 days culture	whole adult male parasite	adult male parasites	Puerto Rico
+SRR11280728	mock RNAi d6	6 weeks + 6 days culture	whole adult male parasite	adult male parasites	Puerto Rico
+SRR11280729	mock RNAi d6	6 weeks + 6 days culture	whole adult male parasite	adult male parasites	Puerto Rico
+SRR11280730	mock RNAi d6	6 weeks + 6 days culture	whole adult male parasite	adult male parasites	Puerto Rico
+SRR11280731	tao RNAi d6	6 weeks + 6 days culture	whole adult male parasite	adult male parasites	Puerto Rico
+SRR11280732	tao RNAi d6	6 weeks + 6 days culture	whole adult male parasite	adult male parasites	Puerto Rico
+SRR11280733	tao RNAi d6	6 weeks + 6 days culture	whole adult male parasite	adult male parasites	Puerto Rico

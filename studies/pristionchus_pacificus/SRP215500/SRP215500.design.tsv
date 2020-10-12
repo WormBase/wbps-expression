@@ -1,17 +1,17 @@
-Run	Condition	collection_date	description_title	geographic_location	isolate	sample_name	collected_by	developmental_stage	isolation_source	organism_part
-SRR9719423	eud-1_1	2011	eud-1(tu445) #1	Germany: Tuebingen	eud-1(tu445) #1	eud-1_1	Erik Ragsdale	Mixed-stage	Mutant screen	whole-body
-SRR9719422	eud-1_2	2011	eud-1(tu445) #2	Germany: Tuebingen	eud-1(tu445) #2	eud-1_2	Erik Ragsdale	Mixed-stage	Mutant screen	whole-body
-SRR9719425	eud-1_3	2011	eud-1(tu445) #3	Germany: Tuebingen	eud-1(tu445) #3	eud-1_3	Erik Ragsdale	Mixed-stage	Mutant screen	whole-body
-SRR9719424	eud-1_4	2011	eud-1(tu445) #4	Germany: Tuebingen	eud-1(tu445) #4	eud-1_4	Erik Ragsdale	Mixed-stage	Mutant screen	whole-body
-SRR9719419	eud-1_OE_1	2016	eud-1(tu445) iubIs16 #1	USA: Bloomington, IN	eud-1(tu445) iubIs16 #1	eud-1_OE_1	Erik Ragsdale	Mixed-stage	Mutant screen	whole-body
-SRR9719418	eud-1_OE_2	2016	eud-1(tu445) iubIs16 #2	USA: Bloomington, IN	eud-1(tu445) iubIs16 #2	eud-1_OE_2	Erik Ragsdale	Mixed-stage	Mutant screen	whole-body
-SRR9719421	eud-1_OE_3	2016	eud-1(tu445) iubIs16 #3	USA: Bloomington, IN	eud-1(tu445) iubIs16 #3	eud-1_OE_3	Erik Ragsdale	Mixed-stage	Mutant screen	whole-body
-SRR9719420	eud-1_OE_4	2016	eud-1(tu445) iubIs16 #4	USA: Bloomington, IN	eud-1(tu445) iubIs16 #4	eud-1_OE_4	Erik Ragsdale	Mixed-stage	Mutant screen	whole-body
-SRR9719417	nhr-40_1	2014	nhr-40(tu445) #1	Germany: Tuebingen	nhr-40(tu445) #1	nhr-40_1	Erik Ragsdale	Mixed-stage	Mutant screen	whole-body
-SRR9719416	nhr-40_2	2014	nhr-40(tu445) #2	Germany: Tuebingen	nhr-40(tu445) #2	nhr-40_2	Erik Ragsdale	Mixed-stage	Mutant screen	whole-body
-SRR9719415	nhr-40_3	2014	nhr-40(tu445) #3	Germany: Tuebingen	nhr-40(tu445) #3	nhr-40_3	Erik Ragsdale	Mixed-stage	Mutant screen	whole-body
-SRR9719414	nhr-40_4	2014	nhr-40(tu445) #4	Germany: Tuebingen	nhr-40(tu445) #4	nhr-40_4	Erik Ragsdale	Mixed-stage	Mutant screen	whole-body
-SRR9719413	seud-1_1	2015	seud-1(iub7) #1	USA: Bloomington, IN	seud-1(iub7) #1	seud-1_1	Erik Ragsdale	Mixed-stage	Mutant screen	whole-body
-SRR9719412	seud-1_2	2015	seud-1(iub7) #2	USA: Bloomington, IN	seud-1(iub7) #2	seud-1_2	Erik Ragsdale	Mixed-stage	Mutant screen	whole-body
-SRR9719411	seud-1_3	2015	seud-1(iub7) #3	USA: Bloomington, IN	seud-1(iub7) #3	seud-1_3	Erik Ragsdale	Mixed-stage	Mutant screen	whole-body
-SRR9719410	seud-1_4	2015	seud-1(iub7) #4	USA: Bloomington, IN	seud-1(iub7) #4	seud-1_4	Erik Ragsdale	Mixed-stage	Mutant screen	whole-body
+Run	Condition	collection_date	geographic_location	developmental_stage	isolation_source	organism_part
+SRR9719423	eud-1(tu445)	2011	Germany: Tuebingen	Mixed-stage	Mutant screen	whole-body
+SRR9719422	eud-1(tu445)	2011	Germany: Tuebingen	Mixed-stage	Mutant screen	whole-body
+SRR9719425	eud-1(tu445)	2011	Germany: Tuebingen	Mixed-stage	Mutant screen	whole-body
+SRR9719424	eud-1(tu445)	2011	Germany: Tuebingen	Mixed-stage	Mutant screen	whole-body
+SRR9719419	eud-1(tu445) iubIs16	2016	"USA: Bloomington, IN"	Mixed-stage	Mutant screen	whole-body
+SRR9719418	eud-1(tu445) iubIs16	2016	"USA: Bloomington, IN"	Mixed-stage	Mutant screen	whole-body
+SRR9719421	eud-1(tu445) iubIs16	2016	"USA: Bloomington, IN"	Mixed-stage	Mutant screen	whole-body
+SRR9719420	eud-1(tu445) iubIs16	2016	"USA: Bloomington, IN"	Mixed-stage	Mutant screen	whole-body
+SRR9719417	nhr-40(tu445)	2014	Germany: Tuebingen	Mixed-stage	Mutant screen	whole-body
+SRR9719416	nhr-40(tu445)	2014	Germany: Tuebingen	Mixed-stage	Mutant screen	whole-body
+SRR9719415	nhr-40(tu445)	2014	Germany: Tuebingen	Mixed-stage	Mutant screen	whole-body
+SRR9719414	nhr-40(tu445)	2014	Germany: Tuebingen	Mixed-stage	Mutant screen	whole-body
+SRR9719413	seud-1(iub7)	2015	"USA: Bloomington, IN"	Mixed-stage	Mutant screen	whole-body
+SRR9719412	seud-1(iub7)	2015	"USA: Bloomington, IN"	Mixed-stage	Mutant screen	whole-body
+SRR9719411	seud-1(iub7)	2015	"USA: Bloomington, IN"	Mixed-stage	Mutant screen	whole-body
+SRR9719410	seud-1(iub7)	2015	"USA: Bloomington, IN"	Mixed-stage	Mutant screen	whole-body

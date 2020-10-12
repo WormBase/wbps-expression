@@ -28,7 +28,7 @@ contrasts:
         - L3 larva Ce
         - L4 larva Ce
         - L3 larva Ce vs L4 larva Ce
-description: {}
+description: ''
 ena_first_public: 2012-02-24
 ena_last_update: 2015-06-22
 pubmed:

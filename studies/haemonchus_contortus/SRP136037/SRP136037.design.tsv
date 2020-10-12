@@ -1,16 +1,16 @@
-Run	Condition	developmental_stage	sample_name	collection_date	geo_loc_name	host	isolate	organism_part	title
-SRR6865603	L3-1	L3	L3-1	22-Nov-2016	Australia: Parkville, VIC	Ovis aries	Australia	4000 worms	Invertebrate sample from Haemonchus contortus
-SRR6865602	L3-2	L3	L3-2	22-Nov-2016	Australia: Parkville, VIC	Ovis aries	Australia	4000 worms	Invertebrate sample from Haemonchus contortus
-SRR6865605	L3-3	L3	L3-3	22-Nov-2016	Australia: Parkville, VIC	Ovis aries	Australia	4000 worms	Invertebrate sample from Haemonchus contortus
-SRR6865604	L3-4	L3	L3-4	22-Nov-2016	Australia: Parkville, VIC	Ovis aries	Australia	4000 worms	Invertebrate sample from Haemonchus contortus
-SRR6865607	L3-5	L3	L3-5	22-Nov-2016	Australia: Parkville, VIC	Ovis aries	Australia	4000 worms	Invertebrate sample from Haemonchus contortus
-SRR6865587	L4-1	L4	L4-1	22-Nov-2016	Australia: Parkville, VIC	Ovis aries	Australia	4000 worms	Invertebrate sample from Haemonchus contortus
-SRR6865586	L4-2	L4	L4-2	22-Nov-2016	Australia: Parkville, VIC	Ovis aries	Australia	4000 worms	Invertebrate sample from Haemonchus contortus
-SRR6865585	L4-3	L4	L4-3	22-Nov-2016	Australia: Parkville, VIC	Ovis aries	Australia	4000 worms	Invertebrate sample from Haemonchus contortus
-SRR6865584	L4-4	L4	L4-4	22-Nov-2016	Australia: Parkville, VIC	Ovis aries	Australia	4000 worms	Invertebrate sample from Haemonchus contortus
-SRR6865591	L4-5	L4	L4-5	22-Nov-2016	Australia: Parkville, VIC	Ovis aries	Australia	4000 worms	Invertebrate sample from Haemonchus contortus
-SRR6865606	xL3-1	xL3	xL3-1	22-Nov-2016	Australia: Parkville, VIC	Ovis aries	Australia	4000 worms	Invertebrate sample from Haemonchus contortus
-SRR6865609	xL3-2	xL3	xL3-2	22-Nov-2016	Australia: Parkville, VIC	Ovis aries	Australia	4000 worms	Invertebrate sample from Haemonchus contortus
-SRR6865608	xL3-3	xL3	xL3-3	22-Nov-2016	Australia: Parkville, VIC	Ovis aries	Australia	4000 worms	Invertebrate sample from Haemonchus contortus
-SRR6865611	xL3-4	xL3	xL3-4	22-Nov-2016	Australia: Parkville, VIC	Ovis aries	Australia	4000 worms	Invertebrate sample from Haemonchus contortus
-SRR6865610	xL3-5	xL3	xL3-5	22-Nov-2016	Australia: Parkville, VIC	Ovis aries	Australia	4000 worms	Invertebrate sample from Haemonchus contortus
+Run	Condition	developmental_stage	collection_date	geo_loc_name	host	isolate	organism_part
+SRR6865603	ensheathed L3	ensheathed L3	22-Nov-16	"Australia: Parkville, VIC"	Ovis aries	Australia	4000 worms
+SRR6865602	ensheathed L3	ensheathed L3	22-Nov-16	"Australia: Parkville, VIC"	Ovis aries	Australia	4000 worms
+SRR6865605	ensheathed L3	ensheathed L3	22-Nov-16	"Australia: Parkville, VIC"	Ovis aries	Australia	4000 worms
+SRR6865604	ensheathed L3	ensheathed L3	22-Nov-16	"Australia: Parkville, VIC"	Ovis aries	Australia	4000 worms
+SRR6865607	ensheathed L3	ensheathed L3	22-Nov-16	"Australia: Parkville, VIC"	Ovis aries	Australia	4000 worms
+SRR6865587	L4	L4	22-Nov-16	"Australia: Parkville, VIC"	Ovis aries	Australia	4000 worms
+SRR6865586	L4	L4	22-Nov-16	"Australia: Parkville, VIC"	Ovis aries	Australia	4000 worms
+SRR6865585	L4	L4	22-Nov-16	"Australia: Parkville, VIC"	Ovis aries	Australia	4000 worms
+SRR6865584	L4	L4	22-Nov-16	"Australia: Parkville, VIC"	Ovis aries	Australia	4000 worms
+SRR6865591	L4	L4	22-Nov-16	"Australia: Parkville, VIC"	Ovis aries	Australia	4000 worms
+SRR6865606	exsheathed L3	exsheathed L3	22-Nov-16	"Australia: Parkville, VIC"	Ovis aries	Australia	4000 worms
+SRR6865609	exsheathed L3	exsheathed L3	22-Nov-16	"Australia: Parkville, VIC"	Ovis aries	Australia	4000 worms
+SRR6865608	exsheathed L3	exsheathed L3	22-Nov-16	"Australia: Parkville, VIC"	Ovis aries	Australia	4000 worms
+SRR6865611	exsheathed L3	exsheathed L3	22-Nov-16	"Australia: Parkville, VIC"	Ovis aries	Australia	4000 worms
+SRR6865610	exsheathed L3	exsheathed L3	22-Nov-16	"Australia: Parkville, VIC"	Ovis aries	Australia	4000 worms

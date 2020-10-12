@@ -1,13 +1,13 @@
-Run	Sample	Condition	developmental_stage	geographic_location	host	host_tissue	individual	sex
-SRR1206893	SAMN02709845	Adult female individual 1	adult	Belgium	Sus scrofa		1	female
-SRR1206894	SAMN02709845	Adult female individual 1	adult	Belgium	Sus scrofa		1	female
-SRR1206895	SAMN02709846	Adult female individual 2	adult	Belgium	Sus scrofa		2	female
-SRR1206896	SAMN02709846	Adult female individual 2	adult	Belgium	Sus scrofa		2	female
-SRR1206881	SAMN02709843	Adult male individual 3	adult	Belgium	Sus scrofa		3	male
-SRR1206890	SAMN02709843	Adult male individual 3	adult	Belgium	Sus scrofa		3	male
-SRR1206891	SAMN02709844	Adult male individual 4	adult	Belgium	Sus scrofa		4	male
-SRR1206892	SAMN02709844	Adult male individual 4	adult	Belgium	Sus scrofa		4	male
-SRR1209155	SAMN02709847	Pooled L3 stage eggs	egg	Belgium	Sus scrofa			mixed
-SRR1209119	SAMN02709849	Pooled L3 stage from pig lungs	L3	Belgium	Sus scrofa	lungs		mixed
-SRR1209154	SAMN02709848	Pooled L3 stage isolated from pig livers	L3	Belgium	Sus scrofa	liver		mixed
-SRR1209117	SAMN02709851	Pooled L4 stage from pig small intestine	L4	Belgium	Sus scrofa	small intestine		mixed
+Run	Condition	developmental_stage	geographic_location	host	host_tissue	individual	sex
+SRR1206893	Adult female individual 1	adult	Belgium	Sus scrofa		1	female
+SRR1206894	Adult female individual 1	adult	Belgium	Sus scrofa		1	female
+SRR1206895	Adult female individual 2	adult	Belgium	Sus scrofa		2	female
+SRR1206896	Adult female individual 2	adult	Belgium	Sus scrofa		2	female
+SRR1206881	Adult male individual 3	adult	Belgium	Sus scrofa		3	male
+SRR1206890	Adult male individual 3	adult	Belgium	Sus scrofa		3	male
+SRR1206891	Adult male individual 4	adult	Belgium	Sus scrofa		4	male
+SRR1206892	Adult male individual 4	adult	Belgium	Sus scrofa		4	male
+SRR1209155	Pooled L3 stage eggs	egg	Belgium	Sus scrofa			mixed
+SRR1209119	Pooled L3 stage from pig lungs	L3	Belgium	Sus scrofa	lungs		mixed
+SRR1209154	Pooled L3 stage isolated from pig livers	L3	Belgium	Sus scrofa	liver		mixed
+SRR1209117	Pooled L4 stage from pig small intestine	L4	Belgium	Sus scrofa	small intestine		mixed
