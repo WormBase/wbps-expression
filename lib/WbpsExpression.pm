@@ -38,7 +38,7 @@ sub run_web_only {
   make_path $output_dir;
 my @paths = map {read_dir $_ } "$studies_dir/$species";
 ### @paths
-  my @our_studies = map {WbpsExpression::Study->from_folder($_)} map { "$studies_dir/$species/$_" } read_dir "$studies_dir/$species";
+  my @our_studies = map {WbpsExpression::Study->from_folder($_, $species)} map { "$studies_dir/$species/$_" } read_dir "$studies_dir/$species";
 ### @our_studies
   my @selected_studies;
   my @other_studies;

@@ -8,17 +8,17 @@ ena_last_update: 2017-09-25
 pubmed: {}
 resource_links:
   -
-    - Project info
-    - Project info
-    - http://genome.wustl.edu/genomes/view/ancylostoma_caninum/
+    - Ancylostoma caninum Project page
+    - Ancylostoma caninum Project page
+    - http://www.nematode.net/NN3_frontpage.cgi?navbar_selection=speciestable&subnav_selection=Ancylostoma_caninum
   -
     - Parasitic Nematode Project Page
     - Parasitic Nematode Project Page
     - http://nematode.net
   -
-    - Ancylostoma caninum Project page
-    - Ancylostoma caninum Project page
-    - http://www.nematode.net/NN3_frontpage.cgi?navbar_selection=speciestable&subnav_selection=Ancylostoma_caninum
+    - Project info
+    - Project info
+    - http://genome.wustl.edu/genomes/view/ancylostoma_caninum/
 rnaseqer_last_update: 2018-01-22
 submitting_centre: The Genome Institute
 title: Ancylostoma caninum Genome Sequencing

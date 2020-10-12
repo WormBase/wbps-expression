@@ -47,7 +47,10 @@ contrasts:
 description: ''
 ena_first_public: 2018-04-19
 ena_last_update: 2018-04-19
-pubmed: {}
+pubmed:
+  30158930:
+    - 'Ebner .. Hartmann, 2018'
+    - 'Silent Witness: Dual-Species Transcriptomics Reveals Epithelial Immunological Quiescence to Helminth Larval Encounter and Fostered Larval Development. (Ebner .. Hartmann, 2018)'
 resource_links: []
 rnaseqer_last_update: 2019-04-01
 submitting_centre: Robert Koch Insitute

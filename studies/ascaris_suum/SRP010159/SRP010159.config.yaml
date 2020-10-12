@@ -4,7 +4,7 @@ category: Other
 contrasts: []
 description: ''
 ena_first_public: 2012-01-10
-ena_last_update: 2018-05-26
+ena_last_update: 2020-04-14
 pubmed:
   22031327:
     - 'Jex .. Gasser, 2011'
@@ -12,4 +12,4 @@ pubmed:
 resource_links: []
 rnaseqer_last_update: 2018-06-27
 submitting_centre: Beijing Genomics Institute
-title: Ascaris suum Genome sequencing
+title: Ascaris suum Genome sequencing and assembly

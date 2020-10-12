@@ -236,6 +236,7 @@ sub quantification_method {
   if ($response_htseq_raw->is_success && $response_htseq_tpm->is_success){
      return "HTSeq2";
   }
+  else{ return "FeatureCounts"; }
 }
 
 sub source_counts {
