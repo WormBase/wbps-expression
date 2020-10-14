@@ -1,4 +1,8 @@
 Run	Sample	Condition	genotype	strain	source_name
+SRR9602645	SAMN12142547	Wild type	wild-type, Bristol	GW1 / N2 (WT)	L1 larval stage sorted for non green (no balancer)
+SRR9602646	SAMN12142547	Wild type	wild-type, Bristol	GW1 / N2 (WT)	L1 larval stage sorted for non green (no balancer)
+SRR9602643	SAMN12142548	Wild type	wild-type, Bristol	GW1 / N2 (WT)	L1 larval stage sorted for non green (no balancer)
+SRR9602644	SAMN12142548	Wild type	wild-type, Bristol	GW1 / N2 (WT)	L1 larval stage sorted for non green (no balancer)
 SRR9602651	SAMN12142545	lsm-8 mutant	lsm-8 (xe17 [myo2p::mcherry::unc54 3'UTR])IV/nT1[qIs51](IV;V)	GW1125 (lsm-8-/-)	L1 larval stage sorted for non green (no balancer)
 SRR9602652	SAMN12142545	lsm-8 mutant	lsm-8 (xe17 [myo2p::mcherry::unc54 3'UTR])IV/nT1[qIs51](IV;V)	GW1125 (lsm-8-/-)	L1 larval stage sorted for non green (no balancer)
 SRR9602653	SAMN12142545	lsm-8 mutant	lsm-8 (xe17 [myo2p::mcherry::unc54 3'UTR])IV/nT1[qIs51](IV;V)	GW1125 (lsm-8-/-)	L1 larval stage sorted for non green (no balancer)
@@ -7,7 +11,3 @@ SRR9602647	SAMN12142546	lsm-8 mutant	lsm-8 (xe17 [myo2p::mcherry::unc54 3'UTR])I
 SRR9602648	SAMN12142546	lsm-8 mutant	lsm-8 (xe17 [myo2p::mcherry::unc54 3'UTR])IV/nT1[qIs51](IV;V)	GW1125 (lsm-8-/-)	L1 larval stage sorted for non green (no balancer)
 SRR9602649	SAMN12142546	lsm-8 mutant	lsm-8 (xe17 [myo2p::mcherry::unc54 3'UTR])IV/nT1[qIs51](IV;V)	GW1125 (lsm-8-/-)	L1 larval stage sorted for non green (no balancer)
 SRR9602650	SAMN12142546	lsm-8 mutant	lsm-8 (xe17 [myo2p::mcherry::unc54 3'UTR])IV/nT1[qIs51](IV;V)	GW1125 (lsm-8-/-)	L1 larval stage sorted for non green (no balancer)
-SRR9602645	SAMN12142547	Wild type	"wild-type, Bristol"	GW1 / N2 (WT)	L1 larval stage sorted for non green (no balancer)
-SRR9602646	SAMN12142547	Wild type	"wild-type, Bristol"	GW1 / N2 (WT)	L1 larval stage sorted for non green (no balancer)
-SRR9602643	SAMN12142548	Wild type	"wild-type, Bristol"	GW1 / N2 (WT)	L1 larval stage sorted for non green (no balancer)
-SRR9602644	SAMN12142548	Wild type	"wild-type, Bristol"	GW1 / N2 (WT)	L1 larval stage sorted for non green (no balancer)

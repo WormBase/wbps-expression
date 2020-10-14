@@ -1,64 +1,64 @@
 Run	Sample	Condition	strain	developmental_stage
-SRR9291250	SAMN12046303	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
-SRR9291251	SAMN12046303	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
-SRR9291252	SAMN12046303	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
-SRR9291253	SAMN12046303	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
+SRR9291223	SAMN12046311	AWK33_pg1_gr1	AWK33 pgrn-1(-); granulin 1(+)	day 1 adults
+SRR9291225	SAMN12046311	AWK33_pg1_gr1	AWK33 pgrn-1(-); granulin 1(+)	day 1 adults
+SRR9291210	SAMN12046315	AWK33_pg1_gr1	AWK33 pgrn-1(-); granulin 1(+)	day 1 adults
+SRR9291212	SAMN12046315	AWK33_pg1_gr1	AWK33 pgrn-1(-); granulin 1(+)	day 1 adults
+SRR9291195	SAMN12046319	AWK33_pg1_gr1	AWK33 pgrn-1(-); granulin 1(+)	day 1 adults
+SRR9291196	SAMN12046319	AWK33_pg1_gr1	AWK33 pgrn-1(-); granulin 1(+)	day 1 adults
+SRR9291197	SAMN12046319	AWK33_pg1_gr1	AWK33 pgrn-1(-); granulin 1(+)	day 1 adults
+SRR9291198	SAMN12046319	AWK33_pg1_gr1	AWK33 pgrn-1(-); granulin 1(+)	day 1 adults
+SRR9291181	SAMN12046324	AWK33_pg1_gr1	AWK33 pgrn-1(-); granulin 1(+)	day 1 adults
+SRR9291183	SAMN12046324	AWK33_pg1_gr1	AWK33 pgrn-1(-); granulin 1(+)	day 1 adults
 SRR9291246	SAMN12046304	AWK33_pg1_gr2	AWK43 pgrn-1(-); granulin 2(+)	day 1 adults
 SRR9291247	SAMN12046304	AWK33_pg1_gr2	AWK43 pgrn-1(-); granulin 2(+)	day 1 adults
 SRR9291249	SAMN12046304	AWK33_pg1_gr2	AWK43 pgrn-1(-); granulin 2(+)	day 1 adults
-SRR9291242	SAMN12046305	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
-SRR9291243	SAMN12046305	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
-SRR9291244	SAMN12046305	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
-SRR9291245	SAMN12046305	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
 SRR9291237	SAMN12046307	AWK33_pg1_gr2	AWK43 pgrn-1(-); granulin 2(+)	day 1 adults
 SRR9291238	SAMN12046307	AWK33_pg1_gr2	AWK43 pgrn-1(-); granulin 2(+)	day 1 adults
 SRR9291239	SAMN12046307	AWK33_pg1_gr2	AWK43 pgrn-1(-); granulin 2(+)	day 1 adults
 SRR9291240	SAMN12046307	AWK33_pg1_gr2	AWK43 pgrn-1(-); granulin 2(+)	day 1 adults
 SRR9291241	SAMN12046307	AWK33_pg1_gr2	AWK43 pgrn-1(-); granulin 2(+)	day 1 adults
-SRR9291232	SAMN12046308	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
-SRR9291235	SAMN12046308	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
+SRR9291263	SAMN12046335	AWK33_pg1_gr2	AWK43 pgrn-1(-); granulin 2(+)	day 1 adults
+SRR9291264	SAMN12046335	AWK33_pg1_gr2	AWK43 pgrn-1(-); granulin 2(+)	day 1 adults
+SRR9291265	SAMN12046335	AWK33_pg1_gr2	AWK43 pgrn-1(-); granulin 2(+)	day 1 adults
+SRR9291254	SAMN12046338	AWK33_pg1_gr2	AWK43 pgrn-1(-); granulin 2(+)	day 1 adults
+SRR9291255	SAMN12046338	AWK33_pg1_gr2	AWK43 pgrn-1(-); granulin 2(+)	day 1 adults
+SRR9291256	SAMN12046338	AWK33_pg1_gr2	AWK43 pgrn-1(-); granulin 2(+)	day 1 adults
 SRR9291228	SAMN12046309	AWK33_pg1_gr3	AWK107 pgrn-1(-); granulin 3(+)	day 1 adults
 SRR9291229	SAMN12046309	AWK33_pg1_gr3	AWK107 pgrn-1(-); granulin 3(+)	day 1 adults
 SRR9291230	SAMN12046309	AWK33_pg1_gr3	AWK107 pgrn-1(-); granulin 3(+)	day 1 adults
 SRR9291231	SAMN12046309	AWK33_pg1_gr3	AWK107 pgrn-1(-); granulin 3(+)	day 1 adults
-SRR9291223	SAMN12046311	AWK33_pg1_gr1	AWK33 pgrn-1(-); granulin 1(+)	day 1 adults
-SRR9291225	SAMN12046311	AWK33_pg1_gr1	AWK33 pgrn-1(-); granulin 1(+)	day 1 adults
-SRR9291220	SAMN12046312	WT	N2 wildtype	day 1 adults
-SRR9291222	SAMN12046312	WT	N2 wildtype	day 1 adults
 SRR9291214	SAMN12046314	AWK33_pg1_gr3	AWK107 pgrn-1(-); granulin 3(+)	day 1 adults
 SRR9291215	SAMN12046314	AWK33_pg1_gr3	AWK107 pgrn-1(-); granulin 3(+)	day 1 adults
 SRR9291217	SAMN12046314	AWK33_pg1_gr3	AWK107 pgrn-1(-); granulin 3(+)	day 1 adults
-SRR9291210	SAMN12046315	AWK33_pg1_gr1	AWK33 pgrn-1(-); granulin 1(+)	day 1 adults
-SRR9291212	SAMN12046315	AWK33_pg1_gr1	AWK33 pgrn-1(-); granulin 1(+)	day 1 adults
+SRR9291199	SAMN12046318	AWK33_pg1_gr3	AWK107 pgrn-1(-); granulin 3(+)	day 1 adults
+SRR9291201	SAMN12046318	AWK33_pg1_gr3	AWK107 pgrn-1(-); granulin 3(+)	day 1 adults
+SRR9291202	SAMN12046318	AWK33_pg1_gr3	AWK107 pgrn-1(-); granulin 3(+)	day 1 adults
+SRR9291187	SAMN12046322	AWK33_pg1_gr3	AWK107 pgrn-1(-); granulin 3(+)	day 1 adults
+SRR9291188	SAMN12046322	AWK33_pg1_gr3	AWK107 pgrn-1(-); granulin 3(+)	day 1 adults
+SRR9291189	SAMN12046322	AWK33_pg1_gr3	AWK107 pgrn-1(-); granulin 3(+)	day 1 adults
+SRR9291250	SAMN12046303	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
+SRR9291251	SAMN12046303	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
+SRR9291252	SAMN12046303	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
+SRR9291253	SAMN12046303	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
+SRR9291242	SAMN12046305	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
+SRR9291243	SAMN12046305	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
+SRR9291244	SAMN12046305	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
+SRR9291245	SAMN12046305	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
+SRR9291232	SAMN12046308	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
+SRR9291235	SAMN12046308	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
+SRR9291258	SAMN12046336	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
+SRR9291259	SAMN12046336	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
+SRR9291261	SAMN12046336	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
+SRR9291220	SAMN12046312	WT	N2 wildtype	day 1 adults
+SRR9291222	SAMN12046312	WT	N2 wildtype	day 1 adults
 SRR9291204	SAMN12046317	WT	N2 wildtype	day 1 adults
 SRR9291205	SAMN12046317	WT	N2 wildtype	day 1 adults
 SRR9291206	SAMN12046317	WT	N2 wildtype	day 1 adults
 SRR9291207	SAMN12046317	WT	N2 wildtype	day 1 adults
 SRR9291208	SAMN12046317	WT	N2 wildtype	day 1 adults
-SRR9291199	SAMN12046318	AWK33_pg1_gr3	AWK107 pgrn-1(-); granulin 3(+)	day 1 adults
-SRR9291201	SAMN12046318	AWK33_pg1_gr3	AWK107 pgrn-1(-); granulin 3(+)	day 1 adults
-SRR9291202	SAMN12046318	AWK33_pg1_gr3	AWK107 pgrn-1(-); granulin 3(+)	day 1 adults
-SRR9291195	SAMN12046319	AWK33_pg1_gr1	AWK33 pgrn-1(-); granulin 1(+)	day 1 adults
-SRR9291196	SAMN12046319	AWK33_pg1_gr1	AWK33 pgrn-1(-); granulin 1(+)	day 1 adults
-SRR9291197	SAMN12046319	AWK33_pg1_gr1	AWK33 pgrn-1(-); granulin 1(+)	day 1 adults
-SRR9291198	SAMN12046319	AWK33_pg1_gr1	AWK33 pgrn-1(-); granulin 1(+)	day 1 adults
 SRR9291190	SAMN12046321	WT	N2 wildtype	day 1 adults
 SRR9291191	SAMN12046321	WT	N2 wildtype	day 1 adults
 SRR9291192	SAMN12046321	WT	N2 wildtype	day 1 adults
 SRR9291194	SAMN12046321	WT	N2 wildtype	day 1 adults
-SRR9291187	SAMN12046322	AWK33_pg1_gr3	AWK107 pgrn-1(-); granulin 3(+)	day 1 adults
-SRR9291188	SAMN12046322	AWK33_pg1_gr3	AWK107 pgrn-1(-); granulin 3(+)	day 1 adults
-SRR9291189	SAMN12046322	AWK33_pg1_gr3	AWK107 pgrn-1(-); granulin 3(+)	day 1 adults
-SRR9291181	SAMN12046324	AWK33_pg1_gr1	AWK33 pgrn-1(-); granulin 1(+)	day 1 adults
-SRR9291183	SAMN12046324	AWK33_pg1_gr1	AWK33 pgrn-1(-); granulin 1(+)	day 1 adults
 SRR9291176	SAMN12046325	WT	N2 wildtype	day 1 adults
 SRR9291179	SAMN12046325	WT	N2 wildtype	day 1 adults
-SRR9291263	SAMN12046335	AWK33_pg1_gr2	AWK43 pgrn-1(-); granulin 2(+)	day 1 adults
-SRR9291264	SAMN12046335	AWK33_pg1_gr2	AWK43 pgrn-1(-); granulin 2(+)	day 1 adults
-SRR9291265	SAMN12046335	AWK33_pg1_gr2	AWK43 pgrn-1(-); granulin 2(+)	day 1 adults
-SRR9291258	SAMN12046336	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
-SRR9291259	SAMN12046336	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
-SRR9291261	SAMN12046336	CF3050_pg1	CF3050 pgrn-1(-)	day 1 adults
-SRR9291254	SAMN12046338	AWK33_pg1_gr2	AWK43 pgrn-1(-); granulin 2(+)	day 1 adults
-SRR9291255	SAMN12046338	AWK33_pg1_gr2	AWK43 pgrn-1(-); granulin 2(+)	day 1 adults
-SRR9291256	SAMN12046338	AWK33_pg1_gr2	AWK43 pgrn-1(-); granulin 2(+)	day 1 adults

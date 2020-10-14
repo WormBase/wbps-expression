@@ -1,7 +1,27 @@
 ---
 bioproject: PRJNA635013
-category: Other
-contrasts: []
+category: Response to treatment
+contrasts:
+  - name: treatment
+    values:
+      -
+        - 'WT, heat shock'
+        - 'WT, non-heat shock'
+        - 'WT, heat shock vs WT, non-heat shock'
+      -
+        - 'affl-2 mutant, heat shock'
+        - 'affl-2 mutant, non-heat shock'
+        - 'affl-2 mutant, heat shock vs affl-2 mutant, non-heat shock'
+  - name: genotype+strain
+    values:
+      -
+        - 'WT, heat shock'
+        - 'affl-2 mutant, heat shock'
+        - 'WT, heat shock vs affl-2 mutant, heat shock'
+      -
+        - 'WT, non-heat shock'
+        - 'affl-2 mutant, non-heat shock'
+        - 'WT, non-heat shock vs affl-2 mutant, non-heat shock'
 description: ''
 ena_first_public: 2020-05-28
 ena_last_update: 2020-05-28

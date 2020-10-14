@@ -1,7 +1,13 @@
 ---
 bioproject: PRJNA559676
 category: Other
-contrasts: []
+contrasts:
+  - name: genotype+strain
+    values:
+      -
+        - 'BAG neurons, AX7207'
+        - 'BAG neurons, AX7210'
+        - 'BAG neurons: arcp-1(db1082); npr-1(ad609); ynIs64[flp-17p::gfp], AX7207 vs npr-1(ad609); ynIs64[flp-17p::gfp], AX7210'
 description: ''
 ena_first_public: 2019-11-21
 ena_last_update: 2020-01-23
