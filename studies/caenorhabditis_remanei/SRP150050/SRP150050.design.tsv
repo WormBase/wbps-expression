@@ -1,20 +1,48 @@
-Run	condition	strain	developmental_stage	source_name
-SRR7280037	"Control selected, derived from PX443"	"Control selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280038	"Control selected, derived from PX443"	"Control selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280031	"Control selected, derived from PX443"	"Control selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280032	"Control selected, derived from PX443"	"Control selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280029	"Control selected, derived from PX443"	"Control selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280030	"Control selected, derived from PX443"	"Control selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280055	"Heat selected, derived from PX443"	"Heat selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280056	"Heat selected, derived from PX443"	"Heat selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280053	"Heat selected, derived from PX443"	"Heat selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280054	"Heat selected, derived from PX443"	"Heat selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280047	"Heat selected, derived from PX443"	"Heat selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280048	"Heat selected, derived from PX443"	"Heat selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280045	"Heat selected, derived from PX443"	"Heat selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280046	"Heat selected, derived from PX443"	"Heat selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280039	"Control selected, derived from PX443"	"Control selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280040	"Control selected, derived from PX443"	"Control selected, derived from PX443"	L1	pooled L1 tissue
+Run	Condition	strain	developmental_stage	source_name
+SRR7280029	Control selected, derived from PX443	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280030	Control selected, derived from PX443	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280031	Control selected, derived from PX443	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280032	Control selected, derived from PX443	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280033	Control selected, derived from PX443	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280034	Control selected, derived from PX443	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280035	Control selected, derived from PX443	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280036	Control selected, derived from PX443	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280037	Control selected, derived from PX443	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280038	Control selected, derived from PX443	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280039	Control selected, derived from PX443	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280040	Control selected, derived from PX443	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280041	Control selected, derived from PX443	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280042	Control selected, derived from PX443	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280043	Control selected, derived from PX443	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280044	Control selected, derived from PX443	Control selected, derived from PX443	L1	pooled L1 tissue
+SRR7280045	Heat selected, derived from PX443	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280046	Heat selected, derived from PX443	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280047	Heat selected, derived from PX443	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280048	Heat selected, derived from PX443	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280049	Heat selected, derived from PX443	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280050	Heat selected, derived from PX443	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280051	Heat selected, derived from PX443	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280052	Heat selected, derived from PX443	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280053	Heat selected, derived from PX443	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280054	Heat selected, derived from PX443	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280055	Heat selected, derived from PX443	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280056	Heat selected, derived from PX443	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280057	Heat selected, derived from PX443	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280058	Heat selected, derived from PX443	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280059	Heat selected, derived from PX443	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280060	Heat selected, derived from PX443	Heat selected, derived from PX443	L1	pooled L1 tissue
+SRR7280061	Oxidative stress selected, derived from PX443	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280062	Oxidative stress selected, derived from PX443	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280063	Oxidative stress selected, derived from PX443	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280064	Oxidative stress selected, derived from PX443	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280065	Oxidative stress selected, derived from PX443	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280066	Oxidative stress selected, derived from PX443	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280067	Oxidative stress selected, derived from PX443	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280068	Oxidative stress selected, derived from PX443	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280069	Oxidative stress selected, derived from PX443	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280070	Oxidative stress selected, derived from PX443	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280071	Oxidative stress selected, derived from PX443	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
+SRR7280072	Oxidative stress selected, derived from PX443	Oxidative stress selected, derived from PX443	L1	pooled L1 tissue
 SRR7280017	PX443	PX443	L1	pooled L1 tissue
 SRR7280018	PX443	PX443	L1	pooled L1 tissue
 SRR7280019	PX443	PX443	L1	pooled L1 tissue
@@ -27,31 +55,3 @@ SRR7280025	PX443	PX443	L1	pooled L1 tissue
 SRR7280026	PX443	PX443	L1	pooled L1 tissue
 SRR7280027	PX443	PX443	L1	pooled L1 tissue
 SRR7280028	PX443	PX443	L1	pooled L1 tissue
-SRR7280033	"Control selected, derived from PX443"	"Control selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280034	"Control selected, derived from PX443"	"Control selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280035	"Control selected, derived from PX443"	"Control selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280036	"Control selected, derived from PX443"	"Control selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280041	"Control selected, derived from PX443"	"Control selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280042	"Control selected, derived from PX443"	"Control selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280043	"Control selected, derived from PX443"	"Control selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280044	"Control selected, derived from PX443"	"Control selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280049	"Heat selected, derived from PX443"	"Heat selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280050	"Heat selected, derived from PX443"	"Heat selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280051	"Heat selected, derived from PX443"	"Heat selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280052	"Heat selected, derived from PX443"	"Heat selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280057	"Heat selected, derived from PX443"	"Heat selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280058	"Heat selected, derived from PX443"	"Heat selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280059	"Heat selected, derived from PX443"	"Heat selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280060	"Heat selected, derived from PX443"	"Heat selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280061	"Oxidative stress selected, derived from PX443"	"Oxidative stress selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280062	"Oxidative stress selected, derived from PX443"	"Oxidative stress selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280063	"Oxidative stress selected, derived from PX443"	"Oxidative stress selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280064	"Oxidative stress selected, derived from PX443"	"Oxidative stress selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280065	"Oxidative stress selected, derived from PX443"	"Oxidative stress selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280066	"Oxidative stress selected, derived from PX443"	"Oxidative stress selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280067	"Oxidative stress selected, derived from PX443"	"Oxidative stress selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280068	"Oxidative stress selected, derived from PX443"	"Oxidative stress selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280069	"Oxidative stress selected, derived from PX443"	"Oxidative stress selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280070	"Oxidative stress selected, derived from PX443"	"Oxidative stress selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280071	"Oxidative stress selected, derived from PX443"	"Oxidative stress selected, derived from PX443"	L1	pooled L1 tissue
-SRR7280072	"Oxidative stress selected, derived from PX443"	"Oxidative stress selected, derived from PX443"	L1	pooled L1 tissue

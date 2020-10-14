@@ -1,7 +1,7 @@
 Run	Condition	strain	treatment	developmental_stage	organism_part
 SRR10003845	Control	AF16	control (NHS)	L2	whole organism
-SRR10003846	Heat-shocked	AF16	heat-shocked (HS)	L2	whole organism
 SRR10003847	Control	AF16	control (NHS)	L2	whole organism
-SRR10003848	Heat-shocked	AF16	heat-shocked (HS)	L2	whole organism
 SRR10003849	Control	AF16	control (NHS)	L2	whole organism
+SRR10003846	Heat-shocked	AF16	heat-shocked (HS)	L2	whole organism
+SRR10003848	Heat-shocked	AF16	heat-shocked (HS)	L2	whole organism
 SRR10003850	Heat-shocked	AF16	heat-shocked (HS)	L2	whole organism

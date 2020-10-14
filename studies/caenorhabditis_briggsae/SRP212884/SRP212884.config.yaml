@@ -1,7 +1,21 @@
 ---
 bioproject: PRJNA552485
-category: Other
-contrasts: []
+category: Variation within species
+contrasts:
+  - name: strain
+    values:
+      -
+        - AF16 wild-type isolate
+        - Cbr-htz-1(gu167)/Cbr-ivp-2(gu167)
+        - AF16 wild-type isolate vs Cbr-htz-1(gu167)/Cbr-ivp-2(gu167)
+      -
+        - AF16 wild-type isolate
+        - Cbr-spr-4(gu163)/Cbr-ivp-1(gu163)
+        - AF16 wild-type isolate vs Cbr-spr-4(gu163)/Cbr-ivp-1(gu163)
+      -
+        - Cbr-htz-1(gu167)/Cbr-ivp-2(gu167)
+        - Cbr-spr-4(gu163)/Cbr-ivp-1(gu163)
+        - Cbr-htz-1(gu167)/Cbr-ivp-2(gu167) vs Cbr-spr-4(gu163)/Cbr-ivp-1(gu163)
 description: ''
 ena_first_public: 2020-06-26
 ena_last_update: 2020-06-26

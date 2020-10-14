@@ -1,7 +1,27 @@
 ---
 bioproject: PRJNA597909
-category: Other
-contrasts: []
+category: Response to treatment
+contrasts:
+  - name: treatment
+    values:
+      -
+        - Adult control
+        - Adult praziquantel
+        - Adult control vs Adult praziquantel
+      -
+        - Juvenile control
+        - Juvenile praziquantel
+        - Juvenile control vs Juvenile praziquantel
+  - name: developmental_stage
+    values:
+      -
+        - Adult control
+        - Juvenile control
+        - Adult control vs Juvenile control
+      -
+        - Adult praziquantel
+        - Juvenile praziquantel
+        - Adult praziquantel vs Juvenile praziquantel
 description: ''
 ena_first_public: 2020-01-22
 ena_last_update: 2020-01-22

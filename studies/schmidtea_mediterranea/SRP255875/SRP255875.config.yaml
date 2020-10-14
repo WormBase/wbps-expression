@@ -1,7 +1,47 @@
 ---
 bioproject: PRJNA624098
-category: Other
-contrasts: []
+category: Response to treatment
+contrasts:
+  - name: wound_orientation
+    values:
+      -
+        - activin-2 RNAi
+        - 'anterior-facing wound, activin-2 RNAi'
+        - "activin-2 RNAi: '' vs anterior-facing wound"
+      -
+        - activin-2 RNAi
+        - 'posterior-facing wound, activin-2 RNAi'
+        - "activin-2 RNAi: '' vs posterior-facing wound"
+      -
+        - 'anterior-facing wound, activin-2 RNAi'
+        - 'posterior-facing wound, activin-2 RNAi'
+        - 'activin-2 RNAi: anterior-facing wound vs posterior-facing wound'
+      -
+        - 'anterior-facing wound, unc-22 RNAi'
+        - 'posterior-facing wound, unc-22 RNAi'
+        - 'unc-22 RNAi: anterior-facing wound vs posterior-facing wound'
+      -
+        - 'anterior-facing wound, unc-22 RNAi'
+        - unc-22 RNAi
+        - "unc-22 RNAi: anterior-facing wound vs ''"
+      -
+        - 'posterior-facing wound, unc-22 RNAi'
+        - unc-22 RNAi
+        - "unc-22 RNAi: posterior-facing wound vs ''"
+  - name: rnai
+    values:
+      -
+        - activin-2 RNAi
+        - unc-22 RNAi
+        - 'RNAi: activin-2 vs unc-22'
+      -
+        - 'anterior-facing wound, activin-2 RNAi'
+        - 'anterior-facing wound, unc-22 RNAi'
+        - 'anterior-facing wound, RNAi: activin-2 vs unc-22'
+      -
+        - 'posterior-facing wound, activin-2 RNAi'
+        - 'posterior-facing wound, unc-22 RNAi'
+        - 'posterior-facing wound, RNAi: activin-2 vs unc-22'
 description: ''
 ena_first_public: 2020-05-16
 ena_last_update: 2020-05-16

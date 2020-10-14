@@ -1,7 +1,21 @@
 ---
 bioproject: PRJNA438843
-category: Other
-contrasts: []
+category: Life cycle
+contrasts:
+  - name: developmental_stage
+    values:
+      -
+        - L4
+        - ensheathed L3
+        - L4 vs ensheathed L3
+      -
+        - L4
+        - exsheathed L3
+        - L4 vs exsheathed L3
+      -
+        - ensheathed L3
+        - exsheathed L3
+        - ensheathed L3 vs exsheathed L3
 description: ''
 ena_first_public: 2020-04-14
 ena_last_update: 2020-04-14

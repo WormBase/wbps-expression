@@ -1,7 +1,17 @@
 ---
 bioproject: PRJNA555617
 category: Other
-contrasts: []
+contrasts:
+  - name: collection_date
+    values:
+      -
+        - eud-1(tu445) iubIs16
+        - seud-1(iub7)
+        - eud-1(tu445) iubIs16 vs seud-1(iub7)
+      -
+        - eud-1(tu445)
+        - nhr-40(tu445)
+        - eud-1(tu445) vs nhr-40(tu445)
 description: ''
 ena_first_public: 2019-10-01
 ena_last_update: 2019-10-01

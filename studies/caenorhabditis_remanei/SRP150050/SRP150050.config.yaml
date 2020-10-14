@@ -1,7 +1,33 @@
 ---
 bioproject: PRJNA475205
-category: Other
-contrasts: []
+category: Variation within species
+contrasts:
+  - name: strain
+    values:
+      -
+        - 'Control selected, derived from PX443'
+        - 'Heat selected, derived from PX443'
+        - 'Control selected, derived from PX443 vs Heat selected, derived from PX443'
+      -
+        - 'Control selected, derived from PX443'
+        - 'Oxidative stress selected, derived from PX443'
+        - 'Control selected, derived from PX443 vs Oxidative stress selected, derived from PX443'
+      -
+        - 'Control selected, derived from PX443'
+        - PX443
+        - 'Control selected, derived from PX443 vs PX443'
+      -
+        - 'Heat selected, derived from PX443'
+        - 'Oxidative stress selected, derived from PX443'
+        - 'Heat selected, derived from PX443 vs Oxidative stress selected, derived from PX443'
+      -
+        - 'Heat selected, derived from PX443'
+        - PX443
+        - 'Heat selected, derived from PX443 vs PX443'
+      -
+        - 'Oxidative stress selected, derived from PX443'
+        - PX443
+        - 'Oxidative stress selected, derived from PX443 vs PX443'
 description: ''
 ena_first_public: 2019-02-09
 ena_last_update: 2019-02-09

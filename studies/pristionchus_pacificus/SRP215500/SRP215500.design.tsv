@@ -1,17 +1,17 @@
 Run	Condition	collection_date	geographic_location	developmental_stage	isolation_source	organism_part
-SRR9719423	eud-1(tu445)	2011	Germany: Tuebingen	Mixed-stage	Mutant screen	whole-body
 SRR9719422	eud-1(tu445)	2011	Germany: Tuebingen	Mixed-stage	Mutant screen	whole-body
-SRR9719425	eud-1(tu445)	2011	Germany: Tuebingen	Mixed-stage	Mutant screen	whole-body
+SRR9719423	eud-1(tu445)	2011	Germany: Tuebingen	Mixed-stage	Mutant screen	whole-body
 SRR9719424	eud-1(tu445)	2011	Germany: Tuebingen	Mixed-stage	Mutant screen	whole-body
-SRR9719419	eud-1(tu445) iubIs16	2016	"USA: Bloomington, IN"	Mixed-stage	Mutant screen	whole-body
-SRR9719418	eud-1(tu445) iubIs16	2016	"USA: Bloomington, IN"	Mixed-stage	Mutant screen	whole-body
-SRR9719421	eud-1(tu445) iubIs16	2016	"USA: Bloomington, IN"	Mixed-stage	Mutant screen	whole-body
-SRR9719420	eud-1(tu445) iubIs16	2016	"USA: Bloomington, IN"	Mixed-stage	Mutant screen	whole-body
-SRR9719417	nhr-40(tu445)	2014	Germany: Tuebingen	Mixed-stage	Mutant screen	whole-body
-SRR9719416	nhr-40(tu445)	2014	Germany: Tuebingen	Mixed-stage	Mutant screen	whole-body
-SRR9719415	nhr-40(tu445)	2014	Germany: Tuebingen	Mixed-stage	Mutant screen	whole-body
+SRR9719425	eud-1(tu445)	2011	Germany: Tuebingen	Mixed-stage	Mutant screen	whole-body
+SRR9719418	eud-1(tu445) iubIs16	2016	USA: Bloomington, IN	Mixed-stage	Mutant screen	whole-body
+SRR9719419	eud-1(tu445) iubIs16	2016	USA: Bloomington, IN	Mixed-stage	Mutant screen	whole-body
+SRR9719420	eud-1(tu445) iubIs16	2016	USA: Bloomington, IN	Mixed-stage	Mutant screen	whole-body
+SRR9719421	eud-1(tu445) iubIs16	2016	USA: Bloomington, IN	Mixed-stage	Mutant screen	whole-body
 SRR9719414	nhr-40(tu445)	2014	Germany: Tuebingen	Mixed-stage	Mutant screen	whole-body
-SRR9719413	seud-1(iub7)	2015	"USA: Bloomington, IN"	Mixed-stage	Mutant screen	whole-body
-SRR9719412	seud-1(iub7)	2015	"USA: Bloomington, IN"	Mixed-stage	Mutant screen	whole-body
-SRR9719411	seud-1(iub7)	2015	"USA: Bloomington, IN"	Mixed-stage	Mutant screen	whole-body
-SRR9719410	seud-1(iub7)	2015	"USA: Bloomington, IN"	Mixed-stage	Mutant screen	whole-body
+SRR9719415	nhr-40(tu445)	2014	Germany: Tuebingen	Mixed-stage	Mutant screen	whole-body
+SRR9719416	nhr-40(tu445)	2014	Germany: Tuebingen	Mixed-stage	Mutant screen	whole-body
+SRR9719417	nhr-40(tu445)	2014	Germany: Tuebingen	Mixed-stage	Mutant screen	whole-body
+SRR9719410	seud-1(iub7)	2015	USA: Bloomington, IN	Mixed-stage	Mutant screen	whole-body
+SRR9719411	seud-1(iub7)	2015	USA: Bloomington, IN	Mixed-stage	Mutant screen	whole-body
+SRR9719412	seud-1(iub7)	2015	USA: Bloomington, IN	Mixed-stage	Mutant screen	whole-body
+SRR9719413	seud-1(iub7)	2015	USA: Bloomington, IN	Mixed-stage	Mutant screen	whole-body

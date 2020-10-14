@@ -1,20 +1,20 @@
 Run	Condition	irradiation	rnai_condition	time	organism_part	strain
-SRR9912145	"bcat RNAi, day 4, irradiated"	yes	bcat RNAi	day 4	tail	asexual CIW4
-SRR9912161	"bcat RNAi, day 4"	no	bcat RNAi	day 4	tail	asexual CIW4
-SRR9912146	"bcat RNAi, day 1"	no	bcat RNAi	day 1	tail	asexual CIW4
-SRR9912147	"bcat RNAi, day 2"	no	bcat RNAi	day 2	tail	asexual CIW4
-SRR9912148	"bcat RNAi, day 4"	no	bcat RNAi	day 4	tail	asexual CIW4
-SRR9912149	"bcat RNAi, day 6"	no	bcat RNAi	day 6	tail	asexual CIW4
-SRR9912163	"sp5 RNAi, 1 week"	no	sp5 RNAi	1 week	tail	asexual CIW4
-SRR9912156	"sp5 RNAi, 2 weeks"	no	sp5 RNAi	2 weeks	tail	asexual CIW4
-SRR9912157	"sp5 RNAi, 4 weeks"	no	sp5 RNAi	4 weeks	tail	asexual CIW4
-SRR9912158	"unc RNAi, 1 week"	no	unc RNAi	1 week	tail	asexual CIW4
-SRR9912159	"unc RNAi, 2 weeks"	no	unc RNAi	2 weeks	tail	asexual CIW4
-SRR9912154	"unc RNAi, 4 weeks"	no	unc RNAi	4 weeks	tail	asexual CIW4
-SRR9912160	"unc RNAi, day 4, irradiated"	yes	unc RNAi	day 4	tail	asexual CIW4
-SRR9912162	"unc RNAi, day 4"	no	unc RNAi	day 4	tail	asexual CIW4
-SRR9912150	"unc RNAi, day 0"	no	unc RNAi	day 0	tail	asexual CIW4
-SRR9912151	"unc RNAi, day 1"	no	unc RNAi	day 1	tail	asexual CIW4
-SRR9912152	"unc RNAi, day 2"	no	unc RNAi	day 2	tail	asexual CIW4
-SRR9912153	"unc RNAi, day 4"	no	unc RNAi	day 4	tail	asexual CIW4
-SRR9912144	"unc RNAi, day 6"	no	unc RNAi	day 6	tail	asexual CIW4
+SRR9912146	bcat RNAi, day 1	no	bcat RNAi	day 1	tail	asexual CIW4
+SRR9912147	bcat RNAi, day 2	no	bcat RNAi	day 2	tail	asexual CIW4
+SRR9912148	bcat RNAi, day 4	no	bcat RNAi	day 4	tail	asexual CIW4
+SRR9912161	bcat RNAi, day 4	no	bcat RNAi	day 4	tail	asexual CIW4
+SRR9912145	bcat RNAi, day 4, irradiated	yes	bcat RNAi	day 4	tail	asexual CIW4
+SRR9912149	bcat RNAi, day 6	no	bcat RNAi	day 6	tail	asexual CIW4
+SRR9912163	sp5 RNAi, 1 week	no	sp5 RNAi	1 week	tail	asexual CIW4
+SRR9912156	sp5 RNAi, 2 weeks	no	sp5 RNAi	2 weeks	tail	asexual CIW4
+SRR9912157	sp5 RNAi, 4 weeks	no	sp5 RNAi	4 weeks	tail	asexual CIW4
+SRR9912158	unc RNAi, 1 week	no	unc RNAi	1 week	tail	asexual CIW4
+SRR9912159	unc RNAi, 2 weeks	no	unc RNAi	2 weeks	tail	asexual CIW4
+SRR9912154	unc RNAi, 4 weeks	no	unc RNAi	4 weeks	tail	asexual CIW4
+SRR9912150	unc RNAi, day 0	no	unc RNAi	day 0	tail	asexual CIW4
+SRR9912151	unc RNAi, day 1	no	unc RNAi	day 1	tail	asexual CIW4
+SRR9912152	unc RNAi, day 2	no	unc RNAi	day 2	tail	asexual CIW4
+SRR9912153	unc RNAi, day 4	no	unc RNAi	day 4	tail	asexual CIW4
+SRR9912162	unc RNAi, day 4	no	unc RNAi	day 4	tail	asexual CIW4
+SRR9912160	unc RNAi, day 4, irradiated	yes	unc RNAi	day 4	tail	asexual CIW4
+SRR9912144	unc RNAi, day 6	no	unc RNAi	day 6	tail	asexual CIW4

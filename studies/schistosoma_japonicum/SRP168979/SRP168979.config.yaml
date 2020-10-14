@@ -1,7 +1,13 @@
 ---
 bioproject: PRJNA503276
-category: Other
-contrasts: []
+category: Variation within species
+contrasts:
+  - name: isolate
+    values:
+      -
+        - Primary infection
+        - re-infection
+        - Primary infection vs re-infection
 description: ''
 ena_first_public: 2019-08-09
 ena_last_update: 2019-08-09

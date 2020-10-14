@@ -1,7 +1,13 @@
 ---
 bioproject: PRJNA560889
-category: Other
-contrasts: []
+category: Response to treatment
+contrasts:
+  - name: treatment
+    values:
+      -
+        - Control
+        - Heat-shocked
+        - Control vs Heat-shocked
 description: ''
 ena_first_public: 2019-12-19
 ena_last_update: 2019-12-19

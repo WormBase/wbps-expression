@@ -1,64 +1,64 @@
 Run	Condition	rnai	wound_orientation	organism_part	rnai_feedings	strain
-SRR11518649	activin-2 RNAi	activin-2		post pharyngeal fragment	4F	CIW4
-SRR11518650	activin-2 RNAi	activin-2		post pharyngeal fragment	4F	CIW4
-SRR11518647	activin-2 RNAi	activin-2		post pharyngeal fragment	4F	CIW4
-SRR11518648	activin-2 RNAi	activin-2		post pharyngeal fragment	4F	CIW4
 SRR11518645	activin-2 RNAi	activin-2		post pharyngeal fragment	4F	CIW4
 SRR11518646	activin-2 RNAi	activin-2		post pharyngeal fragment	4F	CIW4
-SRR11518705	"posterior-facing wound, unc-22 RNAi"	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518706	"posterior-facing wound, unc-22 RNAi"	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518703	"posterior-facing wound, unc-22 RNAi"	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518704	"posterior-facing wound, unc-22 RNAi"	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518667	"posterior-facing wound, unc-22 RNAi"	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518668	"posterior-facing wound, unc-22 RNAi"	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518665	"posterior-facing wound, unc-22 RNAi"	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518666	"posterior-facing wound, unc-22 RNAi"	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518663	"posterior-facing wound, unc-22 RNAi"	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518664	"posterior-facing wound, unc-22 RNAi"	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518661	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518662	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518659	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518660	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518657	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518658	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518655	unc-22 RNAi	unc-22		post pharyngeal fragment	4F	CIW4
-SRR11518656	unc-22 RNAi	unc-22		post pharyngeal fragment	4F	CIW4
-SRR11518653	unc-22 RNAi	unc-22		post pharyngeal fragment	4F	CIW4
-SRR11518654	unc-22 RNAi	unc-22		post pharyngeal fragment	4F	CIW4
+SRR11518647	activin-2 RNAi	activin-2		post pharyngeal fragment	4F	CIW4
+SRR11518648	activin-2 RNAi	activin-2		post pharyngeal fragment	4F	CIW4
+SRR11518649	activin-2 RNAi	activin-2		post pharyngeal fragment	4F	CIW4
+SRR11518650	activin-2 RNAi	activin-2		post pharyngeal fragment	4F	CIW4
+SRR11518669	anterior-facing wound, activin-2 RNAi	activin-2	anterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518670	anterior-facing wound, activin-2 RNAi	activin-2	anterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518671	anterior-facing wound, activin-2 RNAi	activin-2	anterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518672	anterior-facing wound, activin-2 RNAi	activin-2	anterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518673	anterior-facing wound, unc-22 RNAi	unc-22	anterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518674	anterior-facing wound, unc-22 RNAi	unc-22	anterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518675	anterior-facing wound, unc-22 RNAi	unc-22	anterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518676	anterior-facing wound, unc-22 RNAi	unc-22	anterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518657	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518658	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518659	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518660	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518661	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518662	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518677	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518678	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518679	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518680	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518685	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518686	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518687	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518688	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518689	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518690	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518697	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518698	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518699	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518700	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518701	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518702	posterior-facing wound, activin-2 RNAi	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518663	posterior-facing wound, unc-22 RNAi	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518664	posterior-facing wound, unc-22 RNAi	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518665	posterior-facing wound, unc-22 RNAi	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518666	posterior-facing wound, unc-22 RNAi	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518667	posterior-facing wound, unc-22 RNAi	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518668	posterior-facing wound, unc-22 RNAi	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518681	posterior-facing wound, unc-22 RNAi	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518682	posterior-facing wound, unc-22 RNAi	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518683	posterior-facing wound, unc-22 RNAi	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518684	posterior-facing wound, unc-22 RNAi	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518691	posterior-facing wound, unc-22 RNAi	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518692	posterior-facing wound, unc-22 RNAi	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518693	posterior-facing wound, unc-22 RNAi	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518694	posterior-facing wound, unc-22 RNAi	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518695	posterior-facing wound, unc-22 RNAi	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518696	posterior-facing wound, unc-22 RNAi	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518703	posterior-facing wound, unc-22 RNAi	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518704	posterior-facing wound, unc-22 RNAi	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518705	posterior-facing wound, unc-22 RNAi	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518706	posterior-facing wound, unc-22 RNAi	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518707	posterior-facing wound, unc-22 RNAi	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
 SRR11518651	unc-22 RNAi	unc-22		post pharyngeal fragment	4F	CIW4
 SRR11518652	unc-22 RNAi	unc-22		post pharyngeal fragment	4F	CIW4
-SRR11518693	"posterior-facing wound, unc-22 RNAi"	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518694	"posterior-facing wound, unc-22 RNAi"	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518691	"posterior-facing wound, unc-22 RNAi"	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518692	"posterior-facing wound, unc-22 RNAi"	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518689	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518690	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518687	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518688	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518685	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518686	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518701	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518702	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518699	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518700	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518697	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518698	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518695	"posterior-facing wound, unc-22 RNAi"	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518696	"posterior-facing wound, unc-22 RNAi"	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518669	"anterior-facing wound, activin-2 RNAi"	activin-2	anterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518670	"anterior-facing wound, activin-2 RNAi"	activin-2	anterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518671	"anterior-facing wound, activin-2 RNAi"	activin-2	anterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518672	"anterior-facing wound, activin-2 RNAi"	activin-2	anterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518673	"anterior-facing wound, unc-22 RNAi"	unc-22	anterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518674	"anterior-facing wound, unc-22 RNAi"	unc-22	anterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518675	"anterior-facing wound, unc-22 RNAi"	unc-22	anterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518676	"anterior-facing wound, unc-22 RNAi"	unc-22	anterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518677	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518678	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518679	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518680	"posterior-facing wound, activin-2 RNAi"	activin-2	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518681	"posterior-facing wound, unc-22 RNAi"	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518682	"posterior-facing wound, unc-22 RNAi"	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518683	"posterior-facing wound, unc-22 RNAi"	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518684	"posterior-facing wound, unc-22 RNAi"	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
-SRR11518707	"posterior-facing wound, unc-22 RNAi"	unc-22	posterior-facing wound	post pharyngeal fragment	4F	CIW4
+SRR11518653	unc-22 RNAi	unc-22		post pharyngeal fragment	4F	CIW4
+SRR11518654	unc-22 RNAi	unc-22		post pharyngeal fragment	4F	CIW4
+SRR11518655	unc-22 RNAi	unc-22		post pharyngeal fragment	4F	CIW4
+SRR11518656	unc-22 RNAi	unc-22		post pharyngeal fragment	4F	CIW4
