@@ -1,17 +1,19 @@
-Run	Condition	strain
-ERR3489985	13 dpi	Puerto Rican
-ERR3489986	13 dpi	Puerto Rican
-ERR3489987	13 dpi	Puerto Rican
-ERR3489988	17 dpi	Puerto Rican
-ERR3489989	17 dpi	Puerto Rican
-ERR3489990	17 dpi	Puerto Rican
-ERR3489991	21 dpi	Puerto Rican
-ERR3489992	21 dpi	Puerto Rican
-ERR3489993	21 dpi	Puerto Rican
-ERR3489994	28 dpi	Puerto Rican
-ERR3489995	28 dpi	Puerto Rican
-ERR3489996	28 dpi	Puerto Rican
-ERR3489997	35 dpi	Puerto Rican
-ERR3489998	35 dpi	Puerto Rican
-ERR3489999	35 dpi	Puerto Rican
-ERR3489978	6 dpi	Puerto Rican
+<<<<<<< HEAD
+Run	Condition	strain	Days post infection
+ERR3489985	13 dpi	Puerto Rican	13 dpi
+ERR3489986	13 dpi	Puerto Rican	13 dpi
+ERR3489987	13 dpi	Puerto Rican	13 dpi
+ERR3489988	17 dpi	Puerto Rican	17 dpi
+ERR3489989	17 dpi	Puerto Rican	17 dpi
+ERR3489990	17 dpi	Puerto Rican	17 dpi
+ERR3489991	21 dpi	Puerto Rican	21 dpi
+ERR3489992	21 dpi	Puerto Rican	21 dpi
+ERR3489993	21 dpi	Puerto Rican	21 dpi
+ERR3489994	28 dpi	Puerto Rican	28 dpi
+ERR3489995	28 dpi	Puerto Rican	28 dpi
+ERR3489996	28 dpi	Puerto Rican	28 dpi
+ERR3489997	35 dpi	Puerto Rican	35 dpi
+ERR3489998	35 dpi	Puerto Rican	35 dpi
+ERR3489999	35 dpi	Puerto Rican	35 dpi
+ERR3489978	6 dpi	Puerto Rican	6 dpi
+>>>>>>> e79639eb17a6bed5c2b9de1d49bca436f232ebeb
