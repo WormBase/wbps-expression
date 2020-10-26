@@ -28,14 +28,13 @@ sub get_study_metadata {
 #### $data_for_study
   if ( $data_for_study->{bioproject} ) {
     my $bioproject_xml = get_xml(sprintf( "https://www.ebi.ac.uk/ena/data/view/%s&display=xml",$data_for_study->{bioproject} ));
-    last unless ($bioproject_xml);
-    my ( $submitting_centre, $pubmed_refs, $resource_links) = &xml_to_data_for_bioproject($bioproject_xml) ;
-    
-    #TODO more useful stuff: maybe the descriptions?
-    $data_for_study->{pubmed_refs} = [sort {$a cmp $b} uniq ( @{$pubmed_refs // []}, @{ $data_for_study->{pubmed_refs} //[] })];
-    $data_for_study->{resource_links} = [sort {$a cmp $b } uniq (@{$resource_links//[]}, @{ $data_for_study->{resource_links} //[] })];
-    $data_for_study->{submitting_centre} ||= $submitting_centre;
-
+    if ($bioproject_xml){
+	my ( $submitting_centre, $pubmed_refs, $resource_links) = &xml_to_data_for_bioproject($bioproject_xml) ;
+      	#TODO more useful stuff: maybe the descriptions?
+	$data_for_study->{pubmed_refs} = [sort {$a cmp $b} uniq ( @{$pubmed_refs // []}, @{ $data_for_study->{pubmed_refs} //[] })];
+	$data_for_study->{resource_links} = [sort {$a cmp $b } uniq (@{$resource_links//[]}, @{ $data_for_study->{resource_links} //[] })];
+	$data_for_study->{submitting_centre} ||= $submitting_centre;
+     }	    
   }
 
   if ( $data_for_study->{submitting_centre} and $data_for_study->{submitting_centre} =~ /^null$/i ) {
