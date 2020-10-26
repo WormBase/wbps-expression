@@ -1,17 +1,17 @@
-Run	Condition	alias	synonym	ena_checklist	insdc_center_alias	strain	title
-ERR3489985	13 dpi	56b59980-50b6-11e5-8edf-68b59976a382	56b59980-50b6-11e5-8edf-68b59976a382	ERC000011	SC	Peurto Rican	Schistosoma mansoni
-ERR3489986	13 dpi	56c996b0-50b6-11e5-8edf-68b59976a382	56c996b0-50b6-11e5-8edf-68b59976a382	ERC000011	SC	Peurto Rican	Schistosoma mansoni
-ERR3489987	13 dpi	56dcd090-50b6-11e5-8edf-68b59976a382	56dcd090-50b6-11e5-8edf-68b59976a382	ERC000011	SC	Peurto Rican	Schistosoma mansoni
-ERR3489988	17 dpi	56f05890-50b6-11e5-8edf-68b59976a382	56f05890-50b6-11e5-8edf-68b59976a382	ERC000011	SC	Peurto Rican	Schistosoma mansoni
-ERR3489989	17 dpi	57047cd0-50b6-11e5-8edf-68b59976a382	57047cd0-50b6-11e5-8edf-68b59976a382	ERC000011	SC	Peurto Rican	Schistosoma mansoni
-ERR3489990	17 dpi	571852f0-50b6-11e5-8edf-68b59976a382	571852f0-50b6-11e5-8edf-68b59976a382	ERC000011	SC	Peurto Rican	Schistosoma mansoni
-ERR3489991	21 dpi	572c0200-50b6-11e5-8edf-68b59976a382	572c0200-50b6-11e5-8edf-68b59976a382	ERC000011	SC	Peurto Rican	Schistosoma mansoni
-ERR3489992	21 dpi	573f3be0-50b6-11e5-8edf-68b59976a382	573f3be0-50b6-11e5-8edf-68b59976a382	ERC000011	SC	Peurto Rican	Schistosoma mansoni
-ERR3489993	21 dpi	57520090-50b6-11e5-8edf-68b59976a382	57520090-50b6-11e5-8edf-68b59976a382	ERC000011	SC	Peurto Rican	Schistosoma mansoni
-ERR3489994	28 dpi	57656180-50b6-11e5-8edf-68b59976a382	57656180-50b6-11e5-8edf-68b59976a382	ERC000011	SC	Peurto Rican	Schistosoma mansoni
-ERR3489995	28 dpi	577937a0-50b6-11e5-8edf-68b59976a382	577937a0-50b6-11e5-8edf-68b59976a382	ERC000011	SC	Peurto Rican	Schistosoma mansoni
-ERR3489996	28 dpi	578d34d0-50b6-11e5-8edf-68b59976a382	578d34d0-50b6-11e5-8edf-68b59976a382	ERC000011	SC	Peurto Rican	Schistosoma mansoni
-ERR3489997	35 dpi	57a21c60-50b6-11e5-8edf-68b59976a382	57a21c60-50b6-11e5-8edf-68b59976a382	ERC000011	SC	Peurto Rican	Schistosoma mansoni
-ERR3489998	35 dpi	57b5cb70-50b6-11e5-8edf-68b59976a382	57b5cb70-50b6-11e5-8edf-68b59976a382	ERC000011	SC	Peurto Rican	Schistosoma mansoni
-ERR3489999	35 dpi	57c9efb0-50b6-11e5-8edf-68b59976a382	57c9efb0-50b6-11e5-8edf-68b59976a382	ERC000011	SC	Peurto Rican	Schistosoma mansoni
-ERR3489978	6 dpi	56359410-50b6-11e5-8edf-68b59976a382	56359410-50b6-11e5-8edf-68b59976a382	ERC000011	SC	Peurto Rican	Schistosoma mansoni
+Run	Condition	strain
+ERR3489985	13 dpi	Puerto Rican
+ERR3489986	13 dpi	Puerto Rican
+ERR3489987	13 dpi	Puerto Rican
+ERR3489988	17 dpi	Puerto Rican
+ERR3489989	17 dpi	Puerto Rican
+ERR3489990	17 dpi	Puerto Rican
+ERR3489991	21 dpi	Puerto Rican
+ERR3489992	21 dpi	Puerto Rican
+ERR3489993	21 dpi	Puerto Rican
+ERR3489994	28 dpi	Puerto Rican
+ERR3489995	28 dpi	Puerto Rican
+ERR3489996	28 dpi	Puerto Rican
+ERR3489997	35 dpi	Puerto Rican
+ERR3489998	35 dpi	Puerto Rican
+ERR3489999	35 dpi	Puerto Rican
+ERR3489978	6 dpi	Puerto Rican
