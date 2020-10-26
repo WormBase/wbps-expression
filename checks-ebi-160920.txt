@@ -1,0 +1,406 @@
+/nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/WbpsExpression/Analysis.t .................................... ok
+/nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/WbpsExpression/Analysis/DESeq2.t ............................. ok
+/nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/WbpsExpression/Analysis/DataFiles.t .......................... ok
+/nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/WbpsExpression/Analysis/QualityWarnings.t .................... ok
+/nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/WbpsExpression/IncomingStudies.t ............................. ok
+/nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/WbpsExpression/IncomingStudies/CurationDefaults.t ............ ok
+/nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/WbpsExpression/IncomingStudies/RnaseqerResults.t ............. ok
+/nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/WbpsExpression/IncomingStudies/SampleAttributes.t ............ ok
+/nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/WbpsExpression/IncomingStudies/StudyMetadata/EnaClient.t ..... ok
+
+#   Failed test 'Pick up paper from payload'
+#   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/WbpsExpression/IncomingStudies/StudyMetadata/PubMedClient.t line 18.
+#     Structures begin differing at:
+#          $got->[0] = undef
+#     $expected->[0] = 'Lee .. Sternberg, 2018'
+# Looks like you failed 1 test of 6.
+/nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/WbpsExpression/IncomingStudies/StudyMetadata/PubMedClient.t .. 
+Dubious, test returned 1 (wstat 256, 0x100)
+Failed 1/6 subtests 
+/nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/WbpsExpression/StudiesPage.t ................................. ok
+/nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/WbpsExpression/Study/Design.t ................................ ok
+
+        #   Failed test 'Condition BH male should have uniform characteristics in replicates SRR5170166 SRR5170167 SRR5170168'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Characteristics 		Homo sapiens					female	BH				 should define precisely one condition'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition NMRI male, TH65 at 20uM should have uniform characteristics in replicates SRR5170183 SRR5170181 SRR5170182'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition NMRI male, TH65 at 05uM should have uniform characteristics in replicates SRR5170187 SRR5170189 SRR5170188'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Characteristics 		Homo sapiens					female	puerto rican				 should define precisely one condition'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition BH male, GSK343 at 20uM should have uniform characteristics in replicates SRR5170164 SRR5170163 SRR5170165'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition BH schistosomula should have uniform characteristics in replicates SRR7496597 SRR7496599 SRR7496598 SRR7496596'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition NMRI male, TH65 at 10uM should have uniform characteristics in replicates SRR5170184 SRR5170186 SRR5170185'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Characteristics 		Homo sapiens					male	BH				 should define precisely one condition'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Characteristics 		Homo sapiens					male	puerto rican				 should define precisely one condition'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition NMRI female, TH65 at 05uM should have uniform characteristics in replicates SRR5170175 SRR5170177 SRR5170176'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition NMRI female, TH65 at 20uM should have uniform characteristics in replicates SRR5170169 SRR5170171 SRR5170170'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition BH schistosomula, GSK343 at 20uM should have uniform characteristics in replicates SRR7496592 SRR7496595 SRR7496594 SRR7496593'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition BH female, GSK343 at 20uM should have uniform characteristics in replicates SRR5170157 SRR5170158 SRR5170159'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition NMRI male should have uniform characteristics in replicates SRR5170190 SRR5170192 SRR5170191'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition BH female should have uniform characteristics in replicates SRR5170162 SRR5170160 SRR5170161'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition NMRI female should have uniform characteristics in replicates SRR5170178 SRR5170180 SRR5170179'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition NMRI female, TH65 at 10uM should have uniform characteristics in replicates SRR5170173 SRR5170172 SRR5170174'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+        # Looks like you failed 18 tests of 212.
+
+    #   Failed test 'Study checks'
+    #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 32.
+    # Looks like you failed 1 test of 5.
+
+#   Failed test '/nfs/production/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/../studies/schistosoma_mansoni/SRP096638'
+#   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 33.
+
+        #   Failed test 'Condition Schistosoma mansoni f-GH2xm-BRE F1 Female Adults RNA-seq should have uniform characteristics in replicates SRR5314131 SRR5314130'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition Schistosoma mansoni f-BRExm-GH2 F1-Mirror Female Adults RNA-seq should have uniform characteristics in replicates SRR5314128 SRR5314129'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition Schistosoma mansoni f-BRExm-GH2 F1-Mirror Male Adults RNA-seq should have uniform characteristics in replicates SRR5314133 SRR5314132'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition Schistosoma mansoni f-GH2xm-BRE F1 Male Adults RNA-seq should have uniform characteristics in replicates SRR5314134 SRR5314135'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Conditions should have reasonably short names - below 60 chars'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+        # Looks like you failed 5 tests of 37.
+
+    #   Failed test 'Study checks'
+    #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 32.
+    # Looks like you failed 1 test of 5.
+
+#   Failed test '/nfs/production/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/../studies/schistosoma_mansoni/SRP101425'
+#   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 33.
+
+        #   Failed test 'Condition FPL-64176 should have uniform characteristics in replicates SRR9603277 SRR9603281 SRR9603278 SRR9603282 SRR9603280'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition DMSO should have uniform characteristics in replicates SRR9603276 SRR9603274 SRR9603279 SRR9603273 SRR9603275'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+        # Looks like you failed 2 tests of 37.
+
+    #   Failed test 'Study checks'
+    #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 32.
+    # Looks like you failed 1 test of 5.
+
+#   Failed test '/nfs/production/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/../studies/schistosoma_mansoni/SRP212141'
+#   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 33.
+
+        #   Failed test 'Condition p53, 12 days should have uniform characteristics in replicates SRR2183596 SRR2183597 SRR2183595'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Characteristics CHD4		whole worm_6 days after CHD4 RNAi	6 days should define precisely one condition'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition unc22, 3 days should have uniform characteristics in replicates SRR2183603 SRR2183605 SRR2183604'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition unc22, 6 days should have uniform characteristics in replicates SRR2183608 SRR2183606 SRR2183607'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition unc22, 9 days should have uniform characteristics in replicates SRR2183611 SRR2183610 SRR2183609'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition p53, 3 days should have uniform characteristics in replicates SRR2183588 SRR2183586'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition p53, 15 days should have uniform characteristics in replicates SRR2183598 SRR2183599 SRR2183600'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Characteristics CHD4		whole worm_3 days after CHD4 RNAi	3 days should define precisely one condition'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Characteristics CHD4		whole worm_15 days after CHD4 RNAi	15 days should define precisely one condition'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition CHD4, 12 days should have uniform characteristics in replicates SRR2183580 SRR2183581'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition unc22, 18 days should have uniform characteristics in replicates SRR2183620 SRR2183618 SRR2183619'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition p53, 6 days should have uniform characteristics in replicates SRR2183589 SRR2183590 SRR2183591'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition p53, 18 days should have uniform characteristics in replicates SRR2183601 SRR2183602'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition unc22, 12 days should have uniform characteristics in replicates SRR2183614 SRR2183613 SRR2183612'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition unc22, 15 days should have uniform characteristics in replicates SRR2183616 SRR2183615 SRR2183617'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition p53, 9 days should have uniform characteristics in replicates SRR2183592 SRR2183594 SRR2183593'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Condition CHD4, 9 days should have uniform characteristics in replicates SRR2183579 SRR2183577'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Characteristics CHD4		whole worm_9 days after CHD4 RNAi	9 days should define precisely one condition'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Characteristics p53		whole worm_3 days after p53 RNAi	3 days should define precisely one condition'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Characteristics CHD4		whole worm_12 days after CHD4 RNAi	12 days should define precisely one condition'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+        # Looks like you failed 20 tests of 156.
+
+    #   Failed test 'Study checks'
+    #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 32.
+    # Looks like you failed 1 test of 5.
+
+#   Failed test '/nfs/production/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/../studies/schmidtea_mediterranea/SRP062861'
+#   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 33.
+
+        #   Failed test 'If the study has more than two samples and fewer samples than replicates, it should have fewer conditions than samples'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+        # Looks like you failed 1 test of 93.
+
+    #   Failed test 'Study checks'
+    #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 32.
+    # Looks like you failed 1 test of 5.
+
+#   Failed test '/nfs/production/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/../studies/caenorhabditis_elegans/SRP095564'
+#   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 33.
+
+        #   Failed test 'Some characteristics should vary by condition'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+        # Looks like you failed 1 test of 63.
+
+    #   Failed test 'Study checks'
+    #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 32.
+    # Looks like you failed 1 test of 5.
+
+#   Failed test '/nfs/production/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/../studies/caenorhabditis_elegans/SRP143903'
+#   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 33.
+
+        #   Failed test 'If the study has more than two samples and fewer samples than replicates, it should have fewer conditions than samples'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+        # Looks like you failed 1 test of 129.
+
+    #   Failed test 'Study checks'
+    #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 32.
+    # Looks like you failed 1 test of 5.
+
+#   Failed test '/nfs/production/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/../studies/caenorhabditis_elegans/SRP167691'
+#   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 33.
+
+        #   Failed test 'If the study has more than two samples and fewer samples than replicates, it should have fewer conditions than samples'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+        # Looks like you failed 1 test of 93.
+
+    #   Failed test 'Study checks'
+    #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 32.
+    # Looks like you failed 1 test of 5.
+
+#   Failed test '/nfs/production/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/../studies/caenorhabditis_elegans/SRP183504'
+#   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 33.
+
+        #   Failed test 'If the study has more than two samples and fewer samples than replicates, it should have fewer conditions than samples'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+        # Looks like you failed 1 test of 35.
+
+    #   Failed test 'Study checks'
+    #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 32.
+    # Looks like you failed 1 test of 5.
+
+#   Failed test '/nfs/production/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/../studies/caenorhabditis_elegans/SRP188887'
+#   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 33.
+
+        #   Failed test 'If the study has more than two samples and fewer samples than replicates, it should have fewer conditions than samples'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+        # Looks like you failed 1 test of 136.
+
+    #   Failed test 'Study checks'
+    #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 32.
+    # Looks like you failed 1 test of 5.
+
+#   Failed test '/nfs/production/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/../studies/caenorhabditis_elegans/SRP201313'
+#   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 33.
+
+        #   Failed test 'If the study has more than two samples and fewer samples than replicates, it should have fewer conditions than samples'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Conditions should have reasonably short names - below 60 chars'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+        # Looks like you failed 2 tests of 53.
+
+    #   Failed test 'Study checks'
+    #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 32.
+    # Looks like you failed 1 test of 5.
+
+#   Failed test '/nfs/production/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/../studies/caenorhabditis_elegans/SRP201630'
+#   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 33.
+
+        #   Failed test 'If the study has more than two samples and fewer samples than replicates, it should have fewer conditions than samples'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+        # Looks like you failed 1 test of 37.
+
+    #   Failed test 'Study checks'
+    #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 32.
+    # Looks like you failed 1 test of 5.
+
+#   Failed test '/nfs/production/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/../studies/caenorhabditis_elegans/SRP212119'
+#   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 33.
+
+        #   Failed test 'If the study has more than two samples and fewer samples than replicates, it should have fewer conditions than samples'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+        # Looks like you failed 1 test of 73.
+
+    #   Failed test 'Study checks'
+    #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 32.
+    # Looks like you failed 1 test of 5.
+
+#   Failed test '/nfs/production/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/../studies/caenorhabditis_elegans/SRP218022'
+#   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 33.
+
+        #   Failed test 'If the study has more than two samples and fewer samples than replicates, it should have fewer conditions than samples'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+        # Looks like you failed 1 test of 37.
+
+    #   Failed test 'Study checks'
+    #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 32.
+    # Looks like you failed 1 test of 5.
+
+#   Failed test '/nfs/production/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/../studies/caenorhabditis_elegans/SRP218904'
+#   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 33.
+
+        #   Failed test 'If the study has more than two samples and fewer samples than replicates, it should have fewer conditions than samples'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+        # Looks like you failed 1 test of 235.
+
+    #   Failed test 'Study checks'
+    #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 32.
+    # Looks like you failed 1 test of 5.
+
+#   Failed test '/nfs/production/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/../studies/caenorhabditis_elegans/SRP223301'
+#   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 33.
+
+        #   Failed test 'If the study has more than two samples and fewer samples than replicates, it should have fewer conditions than samples'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+        # Looks like you failed 1 test of 73.
+
+    #   Failed test 'Study checks'
+    #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 32.
+    # Looks like you failed 1 test of 5.
+
+#   Failed test '/nfs/production/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/../studies/caenorhabditis_elegans/SRP233296'
+#   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 33.
+
+        #   Failed test 'If the study has more than two samples and fewer samples than replicates, it should have fewer conditions than samples'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+        # Looks like you failed 1 test of 126.
+
+    #   Failed test 'Study checks'
+    #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 32.
+    # Looks like you failed 1 test of 5.
+
+#   Failed test '/nfs/production/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/../studies/caenorhabditis_elegans/SRP264727'
+#   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 33.
+Wide character in print at /nfs/software/ensembl/RHEL7-JUL2017-core2/plenv/versions/5.14.4/lib/perl5/site_perl/5.14.4/Test2/Formatter/TAP.pm line 113.
+Wide character in print at /nfs/software/ensembl/RHEL7-JUL2017-core2/plenv/versions/5.14.4/lib/perl5/site_perl/5.14.4/Test2/Formatter/TAP.pm line 113.
+Wide character in print at /nfs/software/ensembl/RHEL7-JUL2017-core2/plenv/versions/5.14.4/lib/perl5/site_perl/5.14.4/Test2/Formatter/TAP.pm line 113.
+Wide character in print at /nfs/software/ensembl/RHEL7-JUL2017-core2/plenv/versions/5.14.4/lib/perl5/site_perl/5.14.4/Test2/Formatter/TAP.pm line 113.
+Wide character in print at /nfs/software/ensembl/RHEL7-JUL2017-core2/plenv/versions/5.14.4/lib/perl5/site_perl/5.14.4/Test2/Formatter/TAP.pm line 113.
+Wide character in print at /nfs/software/ensembl/RHEL7-JUL2017-core2/plenv/versions/5.14.4/lib/perl5/site_perl/5.14.4/Test2/Formatter/TAP.pm line 113.
+Wide character in print at /nfs/software/ensembl/RHEL7-JUL2017-core2/plenv/versions/5.14.4/lib/perl5/site_perl/5.14.4/Test2/Formatter/TAP.pm line 113.
+Wide character in print at /nfs/software/ensembl/RHEL7-JUL2017-core2/plenv/versions/5.14.4/lib/perl5/site_perl/5.14.4/Test2/Formatter/TAP.pm line 113.
+
+        #   Failed test 'Some characteristics should vary by condition'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Characteristics  should define precisely one condition'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Study should have some characteristics'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+        # Looks like you failed 3 tests of 38.
+
+    #   Failed test 'Study checks'
+    #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 32.
+    # Looks like you failed 1 test of 5.
+
+#   Failed test '/nfs/production/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/../studies/steinernema_carpocapsae/SRP058023'
+#   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 33.
+
+        #   Failed test 'Characteristics 8-cell				 should define precisely one condition'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Characteristics 				 should define precisely one condition'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+
+        #   Failed test 'Characteristics 2-cell				 should define precisely one condition'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+        # Looks like you failed 3 tests of 156.
+
+    #   Failed test 'Study checks'
+    #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 32.
+    # Looks like you failed 1 test of 5.
+
+#   Failed test '/nfs/production/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/../studies/steinernema_carpocapsae/SRP084244'
+#   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 33.
+
+        #   Failed test 'If the study has more than two samples and fewer samples than replicates, it should have fewer conditions than samples'
+        #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 29.
+        # Looks like you failed 1 test of 43.
+
+    #   Failed test 'Study checks'
+    #   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 32.
+    # Looks like you failed 1 test of 5.
+
+#   Failed test '/nfs/production/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/../studies/strongyloides_venezuelensis/DRP002629'
+#   at /nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t line 33.
+# Looks like you failed 20 tests of 790.
+/nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t ................................................... 
+Dubious, test returned 20 (wstat 5120, 0x1400)
+Failed 20/790 subtests 
+/nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/gene_page.t .................................................. ok
+/nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/run.t ........................................................ ok
+
+Test Summary Report
+-------------------
+/nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/WbpsExpression/IncomingStudies/StudyMetadata/PubMedClient.t (Wstat: 256 Tests: 6 Failed: 1)
+  Failed test:  1
+  Non-zero exit status: 1
+/nfs/panda/ensemblgenomes/wormbase/parasite/wbps-expression/t/curation.t                                                 (Wstat: 5120 Tests: 790 Failed: 20)
+  Failed tests:  104, 119, 121, 131, 610, 617, 622, 628
+                635, 646, 649-650, 657, 661, 664, 677, 711
+                749-750, 790
+  Non-zero exit status: 20
+Files=15, Tests=886, 22 wallclock secs ( 1.41 usr  0.11 sys +  8.77 cusr  0.64 csys = 10.93 CPU)
+Result: FAIL

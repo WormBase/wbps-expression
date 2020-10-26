@@ -1,7 +1,21 @@
 ---
 bioproject: PRJNA436466
 category: Other
-contrasts: []
+contrasts:
+  - name: geographic_location+isolate
+    values:
+      -
+        - All
+        - Breton
+        - 'USA, All vs Portugal, Breton'
+      -
+        - All
+        - UK1
+        - 'USA, All vs United Kingdom, UK1'
+      -
+        - Breton
+        - UK1
+        - 'Portugal, Breton vs United Kingdom, UK1'
 description: ''
 ena_first_public: 2018-03-02
 ena_last_update: 2018-03-02

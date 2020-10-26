@@ -1,16 +1,16 @@
 Run	Condition	timepoint	treatment	developmental_stage	organism_part	strain
-SRR5028273	"whole individual worm, infective juvenile, in vitro activated, 12h"	12h	in vitro activated	infective juvenile (IJ)	whole organism	ALL
-SRR5028274	"whole individual worm, infective juvenile, in vitro activated, 12h"	12h	in vitro activated	infective juvenile (IJ)	whole organism	ALL
-SRR5028275	"whole individual worm, infective juvenile, in vitro activated, 12h"	12h	in vitro activated	infective juvenile (IJ)	whole organism	ALL
-SRR5028279	"whole individual worm, infective juvenile, in vivo activated, 12h"	12h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
-SRR5028280	"whole individual worm, infective juvenile, in vivo activated, 12h"	12h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
-SRR5028281	"whole individual worm, infective juvenile, in vivo activated, 12h"	12h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
-SRR5028282	"whole individual worm, infective juvenile, in vivo activated, 15h"	15h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
-SRR5028283	"whole individual worm, infective juvenile, in vivo activated, 15h"	15h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
-SRR5028284	"whole individual worm, infective juvenile, in vivo activated, 15h"	15h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
-SRR5028276	"whole individual worm, infective juvenile, in vivo activated, 9h"	9h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
-SRR5028277	"whole individual worm, infective juvenile, in vivo activated, 9h"	9h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
-SRR5028278	"whole individual worm, infective juvenile, in vivo activated, 9h"	9h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
-SRR5028270	"whole individual worm, infective juvenile, nonactivated"	0h	nonactivated	infective juvenile (IJ)	whole organism	ALL
-SRR5028271	"whole individual worm, infective juvenile, nonactivated"	0h	nonactivated	infective juvenile (IJ)	whole organism	ALL
-SRR5028272	"whole individual worm, infective juvenile, nonactivated"	0h	nonactivated	infective juvenile (IJ)	whole organism	ALL
+SRR5028273	whole individual worm, infective juvenile, in vitro activated, 12h	12h	in vitro activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028274	whole individual worm, infective juvenile, in vitro activated, 12h	12h	in vitro activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028275	whole individual worm, infective juvenile, in vitro activated, 12h	12h	in vitro activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028279	whole individual worm, infective juvenile, in vivo activated, 12h	12h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028280	whole individual worm, infective juvenile, in vivo activated, 12h	12h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028281	whole individual worm, infective juvenile, in vivo activated, 12h	12h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028282	whole individual worm, infective juvenile, in vivo activated, 15h	15h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028283	whole individual worm, infective juvenile, in vivo activated, 15h	15h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028284	whole individual worm, infective juvenile, in vivo activated, 15h	15h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028276	whole individual worm, infective juvenile, in vivo activated, 9h	9h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028277	whole individual worm, infective juvenile, in vivo activated, 9h	9h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028278	whole individual worm, infective juvenile, in vivo activated, 9h	9h	in vivo activated	infective juvenile (IJ)	whole organism	ALL
+SRR5028270	whole individual worm, infective juvenile, nonactivated	0h	nonactivated	infective juvenile (IJ)	whole organism	ALL
+SRR5028271	whole individual worm, infective juvenile, nonactivated	0h	nonactivated	infective juvenile (IJ)	whole organism	ALL
+SRR5028272	whole individual worm, infective juvenile, nonactivated	0h	nonactivated	infective juvenile (IJ)	whole organism	ALL
