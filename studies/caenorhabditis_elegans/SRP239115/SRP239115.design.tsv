@@ -1,8 +1,0 @@
-Run	Condition	sample_name	title	developmental_stage	organism_part	sex	strain
-SRR10806510	C. elegans Rab3-gfp-synapses 1_29_19	C. elegans Rab3-gfp-synapses 1_29_19	N2 Rab3-gfp Synapse replicate 4	adult	neurons	hermaphrodite	N2
-SRR10806516	C. elegans Rab3-gfp-synapses 3_29_18 Run_1	C. elegans Rab3-gfp-synapses 3_29_18 Run_1	N2 Rab3-gfp Synapse replicate 1 Run 1	adult	neurons	hermaphrodite	N2
-SRR10806514	C. elegans Rab3-gfp-synapses 4_02_18 Run_1	C. elegans Rab3-gfp-synapses 4_02_18 Run_1	N2 Rab3-gfp Synapse replicate 2 Run 1	adult	neurons	hermaphrodite	N2
-SRR10806512	C. elegans Rab3-gfp-synapses 4_09_18 Run_1	C. elegans Rab3-gfp-synapses 4_09_18 Run_1	N2 Rab3-gfp Synapse replicate 3 Run 1	adult	neurons	hermaphrodite	N2
-SRR10806515	C. elegans pRab3-mcherry-neuron_soma 3_29_18 Run 1	C. elegans pRab3-mcherry-neuron_soma 3_29_18 Run 1	N2 pRab3-mCherry Soma replicate 1 Run 1	adult	neurons	hermaphrodite	N2
-SRR10806513	C. elegans pRab3-mcherry-neuron_soma 4_02_18 Run 1	C. elegans pRab3-mcherry-neuron_soma 4_02_18 Run 1	N2 pRab3-mCherry Soma replicate 2 Run 1	adult	neurons	hermaphrodite	N2
-SRR10806511	C. elegans pRab3-mcherry-neuron_soma 4_09_18 Run 1	C. elegans pRab3-mcherry-neuron_soma 4_09_18 Run 1	N2 pRab3-mCherry Soma replicate 3 Run 1	adult	neurons	hermaphrodite	N2

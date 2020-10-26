@@ -1,7 +1,0 @@
-Run	Condition	description_title	genotype	source_name	strain	developmental_stage
-SRR9016766	SRR9016766	gld-1::gfp_totalRNA_PAR-XL	gld-1::gfp	total RNA	BS1080	young adult
-SRR9016767	SRR9016767	gld-1::gfp_input_PAR-XL	gld-1::gfp	Pulldown input	BS1080	young adult
-SRR9016770	SRR9016770	gld-1::gfp_input_cXL	gld-1::gfp	Pulldown input	BS1080	young adult
-SRR9016772	SRR9016772	gfp::lin-41_input_cXL	gfp::lin-41	Pulldown input	DG3913	young adult
-SRR9016774	SRR9016774	N2_input_cXL	wild type	Pulldown input	N2	young adult
-SRR9016776	SRR9016776	N2_gld-1_elution_cXL	wild type	Pulldown elution	N2	young adult

@@ -1,9 +1,0 @@
-Run	Condition	strain	title	developmental_stage	organism_part	source_name
-SRR10906488	SRR10906488	N2	N2_Rep1 [RNA-seq]	L1 larvae	whole organism	L1 larvae
-SRR10906489	SRR10906489	spr-5 (by101)(I)	spr-5_Rep1 [RNA-seq]	L1 larvae	whole organism	L1 larvae
-SRR10906490	SRR10906490	met-2 (n4256)(III)	met-2_Rep1 [RNA-seq]	L1 larvae	whole organism	L1 larvae
-SRR10906491	SRR10906491	spr-5 (by101)(I); met-2 (n4256)(III)	spr-5; met-2_Rep1 [RNA-seq]	L1 larvae	whole organism	L1 larvae
-SRR10906492	SRR10906492	N2	N2_Rep2 [RNA-seq]	L1 larvae	whole organism	L1 larvae
-SRR10906493	SRR10906493	spr-5 (by101)(I)	spr-5_Rep2 [RNA-seq]	L1 larvae	whole organism	L1 larvae
-SRR10906494	SRR10906494	met-2 (n4256)(III)	met-2_Rep2 [RNA-seq]	L1 larvae	whole organism	L1 larvae
-SRR10906495	SRR10906495	spr-5 (by101)(I); met-2 (n4256)(III)	spr-5; met-2_Rep2 [RNA-seq]	L1 larvae	whole organism	L1 larvae

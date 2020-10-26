@@ -1,7 +1,0 @@
-Run	Condition	source_name	strain	title	treatment	developmental_stage	organism_part
-SRR10003839	SRR10003839	N2_NHS_whole L2 stage worm	N2	N2_NHS_rep1	control (NHS)	L2 stage	whole organism
-SRR10003840	SRR10003840	N2_HS_whole L2 stage worm	N2	N2_HS_rep1	heat-shocked (HS)	L2 stage	whole organism
-SRR10003841	SRR10003841	N2_NHS_whole L2 stage worm	N2	N2_NHS_rep2	control (NHS)	L2 stage	whole organism
-SRR10003842	SRR10003842	N2_HS_whole L2 stage worm	N2	N2_HS_rep2	heat-shocked (HS)	L2 stage	whole organism
-SRR10003843	SRR10003843	N2_NHS_whole L2 stage worm	N2	N2_NHS_rep3	control (NHS)	L2 stage	whole organism
-SRR10003844	SRR10003844	N2_HS_whole L2 stage worm	N2	N2_HS_rep3	heat-shocked (HS)	L2 stage	whole organism

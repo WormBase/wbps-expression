@@ -1,7 +1,0 @@
-Run	Condition	description_title	treatment	developmental_stage	organism_part	source_name	strain	temperature
-SRR9674455	SRR9674455	L4440_1: L4440 control vector rep1	Control	day five post young adult	whole worm lysate of several hundred worms	whole worm lysate of several hundred worms	wild-type Bristol N2	20 °C
-SRR9674456	SRR9674456	L4440_2: L4440 control vector rep2	Control	day five post young adult	whole worm lysate of several hundred worms	whole worm lysate of several hundred worms	wild-type Bristol N2	20 °C
-SRR9674457	SRR9674457	L4440_3: L4440 control vector rep3	Control	day five post young adult	whole worm lysate of several hundred worms	whole worm lysate of several hundred worms	wild-type Bristol N2	20 °C
-SRR9674458	SRR9674458	Y37A1B_5_1: Y37A1B.5 RNAi rep 1	Y37A1B.5 RNAi	day five post young adult	whole worm lysate of several hundred worms	whole worm lysate of several hundred worms	wild-type Bristol N2	20 °C
-SRR9674459	SRR9674459	Y37A1B_5_2: Y37A1B.5 RNAi rep 2	Y37A1B.5 RNAi	day five post young adult	whole worm lysate of several hundred worms	whole worm lysate of several hundred worms	wild-type Bristol N2	20 °C
-SRR9674460	SRR9674460	Y37A1B_5_3: Y37A1B.5 RNAi rep 3	Y37A1B.5 RNAi	day five post young adult	whole worm lysate of several hundred worms	whole worm lysate of several hundred worms	wild-type Bristol N2	20 °C

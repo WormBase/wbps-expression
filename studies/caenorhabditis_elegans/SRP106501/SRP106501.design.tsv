@@ -1,9 +1,0 @@
-Run	Condition	bacteria	description_title	source_name	time_post_infection	organism_part
-SRR5512087	SRR5512087	Pseudomonas aeruginosa PA14	Pseu_4h	whole animal, PA14, 4 hrs	4 hrs	whole organism
-SRR5512088	SRR5512088	Pseudomonas aeruginosa PA14	Pseu_8h	whole animal, PA14, 8 hrs	8 hrs	whole organism
-SRR5512089	SRR5512089	Pseudomonas aeruginosa PA14	Pseu_12h	whole animal, PA14, 12 hrs	12 hrs	whole organism
-SRR5512090	SRR5512090	Pseudomonas aeruginosa PA14	Pseu_12hA	whole animal, PA14, 12 hrs	12 hrs	whole organism
-SRR5512091	SRR5512091	Pseudomonas aeruginosa PA14	Pseu_17h	whole animal, PA14, 17 hrs	17 hrs	whole organism
-SRR5512092	SRR5512092	Pseudomonas aeruginosa PA14	Pseu_22h	whole animal, PA14, 22 hrs	22 hrs	whole organism
-SRR5512093	SRR5512093	Pseudomonas aeruginosa PA14	Pseu_22hA	whole animal, PA14, 22 hrs	22 hrs	whole organism
-SRR5512094	SRR5512094	Escherichia coli OP50	OP50_22h	whole animal, OP50, 22 hrs	22 hrs	whole organism

@@ -1,13 +1,7 @@
 ---
 bioproject: PRJNA598859
 category: Other
-contrasts:
-  - name: sample_name+strain
-    values:
-      -
-        - 'N2;wqEx49[Pdpy-7::gfp]'
-        - 'crh-1(n3315);wqEx49[Pdpy-7::gfp]'
-        - 'N2;wqEx49[Pdpy-7::gfp], CQ591 N2; wqEx49[Pdpy-7::gfp] vs crh-1(n3315);wqEx49[Pdpy-7::gfp], CQ593 crh-1(n3315); wqEx49[Pdpy-7::gfp]'
+contrasts: []
 description: ''
 ena_first_public: 2020-06-04
 ena_last_update: 2020-06-04

@@ -1,7 +1,0 @@
-Run	Condition	genotype	title	developmental_stage	source_name	strain
-SRR11186539	SRR11186539	wild type	WT total mRNA Replicate 1	L3	Whole worm	N2
-SRR11186542	SRR11186542	wild type	WT RPF Replicate 2	L3	Whole worm	N2
-SRR11186543	SRR11186543	ced-3(n717)	ced-3(n717) total mRNA Replicate 1	L3	Whole worm	
-SRR11186547	SRR11186547	pmk-1(km25)	pmk-1(km25) total mRNA Replicate 1	L3	Whole worm	
-SRR11186548	SRR11186548	pmk-1(km25)	pmk-1(km25)RPF Replicate 1	L3	Whole worm	
-SRR11186550	SRR11186550	pmk-1(km25)	pmk-1(km25)RPF Replicate 2	L3	Whole worm	

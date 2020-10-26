@@ -1,7 +1,0 @@
-Run	Condition	description_title	genotype	source_name	strain	developmental_stage
-SRR7364791	SRR7364791	WT_rep1	wild type	N2	N2	L1 larvae
-SRR7364792	SRR7364792	WT_rep2	wild type	N2	N2	L1 larvae
-SRR7364793	SRR7364793	WT_rep3	wild type	N2	N2	L1 larvae
-SRR7364794	SRR7364794	mrg-1_rep1	mrg-1 -/-	XA6227	XA6227	L1 larvae
-SRR7364795	SRR7364795	mrg-1_rep2	mrg-1 -/-	XA6227	XA6227	L1 larvae
-SRR7364796	SRR7364796	mrg-1_rep3	mrg-1 -/-	XA6227	XA6227	L1 larvae

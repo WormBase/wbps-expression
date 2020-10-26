@@ -1,8 +1,0 @@
-Run	Condition	diet	genotype	title	developmental_stage	organism_part	source_name	strain
-SRR10544927	SRR10544927	Heat killed E. coli OP50	wild type	N2 OP50 1	Day 1	whole organism	whole organism	N2
-SRR10544928	SRR10544928	Heat killed E. coli OP50	rnp-6(dh1127)	rnp-6 OP50 1	Day 1	whole organism	whole organism	
-SRR10544929	SRR10544929	Live S. aureus	wild type	N2 SA 1	Day 1	whole organism	whole organism	N2
-SRR10544930	SRR10544930	Live S. aureus	rnp-6(dh1127)	rnp-6 SA 1	Day 1	whole organism	whole organism	
-SRR10544935	SRR10544935	Heat killed E. coli OP50	wild type	N2 OP50 3	Day 1	whole organism	whole organism	N2
-SRR10544936	SRR10544936	Heat killed E. coli OP50	rnp-6(dh1127)	rnp-6 OP50 3	Day 1	whole organism	whole organism	
-SRR10544937	SRR10544937	Live S. aureus	wild type	N2 SA 3	Day 1	whole organism	whole organism	N2

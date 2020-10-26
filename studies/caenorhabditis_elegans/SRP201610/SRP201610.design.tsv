@@ -1,7 +1,0 @@
-Run	Condition	title	treatment	developmental_stage	source_name	strain
-SRR9310678	SRR9310678	CTRL Rep 1 RNA-seq	none	L4	whole organism	wildtype N2
-SRR9310679	SRR9310679	CTRL Rep 2 RNA-seq	none	L4	whole organism	wildtype N2
-SRR9310680	SRR9310680	CTRL Rep 3 RNA-seq	none	L4	whole organism	wildtype N2
-SRR9310681	SRR9310681	HS Rep 1 RNA-seq	4 hr of 35C	L4	whole organism	wildtype N2
-SRR9310682	SRR9310682	HS Rep 2 RNA-seq	4 hr of 35C	L4	whole organism	wildtype N2
-SRR9310683	SRR9310683	HS Rep 3 RNA-seq	4 hr of 35C	L4	whole organism	wildtype N2

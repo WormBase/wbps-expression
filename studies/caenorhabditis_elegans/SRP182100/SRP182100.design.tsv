@@ -1,9 +1,0 @@
-Run	Condition	description_title	treatment	developmental_stage	organism_part	source_name	strain
-SRR8489772	SRR8489772	L4440_01	treated with feeding RNAi clone expressing control vector (L4440)	embryo	mixed	Embryo	TV23837
-SRR8489773	SRR8489773	L4440_02	treated with feeding RNAi clone expressing control vector (L4440)	embryo	mixed	Embryo	TV23837
-SRR8489774	SRR8489774	L4440_03	treated with feeding RNAi clone expressing control vector (L4440)	embryo	mixed	Embryo	TV23837
-SRR8489775	SRR8489775	L4440_04	treated with feeding RNAi clone expressing control vector (L4440)	embryo	mixed	Embryo	TV23837
-SRR8489776	SRR8489776	ztf-11_01	treated with feeding RNAi clone expressing dsRNA against ztf-11	embryo	mixed	Embryo	TV23837
-SRR8489777	SRR8489777	ztf-11_02	treated with feeding RNAi clone expressing dsRNA against ztf-11	embryo	mixed	Embryo	TV23837
-SRR8489778	SRR8489778	ztf-11_03	treated with feeding RNAi clone expressing dsRNA against ztf-11	embryo	mixed	Embryo	TV23837
-SRR8489779	SRR8489779	ztf-11_04	treated with feeding RNAi clone expressing dsRNA against ztf-11	embryo	mixed	Embryo	TV23837

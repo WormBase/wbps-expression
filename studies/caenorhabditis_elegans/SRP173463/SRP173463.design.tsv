@@ -1,9 +1,0 @@
-Run	Condition	description_title	developmental_stage	genotype	source_name	strain	organism_part
-SRR8318591	SRR8318591	N2 day 4_replicate 1_RNASeq	adult day 4	wild type	N2 day 4	N2	whole organism
-SRR8318592	SRR8318592	N2 day 4_replicate 2_RNASeq	adult day 4	wild type	N2 day 4	N2	whole organism
-SRR8318593	SRR8318593	N2 day 12_replicate 1_RNASeq	adult day 12	wild type	N2 day 12	N2	whole organism
-SRR8318594	SRR8318594	N2 day 12_replicate 2_RNASeq	adult day 12	wild type	N2 day 12	N2	whole organism
-SRR8318595	SRR8318595	mir-83 day 4_replicate 1_RNASeq	adult day 4	mir-83 mutant	mir-83 day 4	MT15501	whole organism
-SRR8318596	SRR8318596	mir-83 day 4_replicate 2_RNASeq	adult day 4	mir-83 mutant	mir-83 day 4	MT15501	whole organism
-SRR8318597	SRR8318597	mir-83 day 12_replicate 1_RNASeq	adult day 12	mir-83 mutant	mir-83 day 12	MT15501	whole organism
-SRR8318598	SRR8318598	mir-83 day 12_replicate 2_RNASeq	adult day 12	mir-83 mutant	mir-83 day 12	MT15501	whole organism
