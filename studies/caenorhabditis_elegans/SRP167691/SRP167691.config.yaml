@@ -1,47 +1,7 @@
 ---
 bioproject: PRJNA503572
-category: Response to treatment
-contrasts:
-  - name: treatment
-    values:
-      -
-        - 'monosomal RNA, empty vector'
-        - 'monosomal RNA, mrps-5 RNAi'
-        - 'monosomal RNA: empty vector vs mrps-5 RNAi'
-      -
-        - 'polysomal RNA, empty vector'
-        - 'polysomal RNA, mrps-5 RNAi'
-        - 'polysomal RNA: empty vector vs mrps-5 RNAi'
-      -
-        - 'total RNA, empty vector'
-        - 'total RNA, mrps-5 RNAi'
-        - 'total RNA: empty vector vs mrps-5 RNAi'
-  - name: molecule_subtype
-    values:
-      -
-        - 'monosomal RNA, empty vector'
-        - 'polysomal RNA, empty vector'
-        - 'empty vector: monosomal RNA vs polysomal RNA'
-      -
-        - 'monosomal RNA, empty vector'
-        - 'total RNA, empty vector'
-        - 'empty vector: monosomal RNA vs total RNA'
-      -
-        - 'polysomal RNA, empty vector'
-        - 'total RNA, empty vector'
-        - 'empty vector: polysomal RNA vs total RNA'
-      -
-        - 'monosomal RNA, mrps-5 RNAi'
-        - 'polysomal RNA, mrps-5 RNAi'
-        - 'mrps-5 RNAi: monosomal RNA vs polysomal RNA'
-      -
-        - 'monosomal RNA, mrps-5 RNAi'
-        - 'total RNA, mrps-5 RNAi'
-        - 'mrps-5 RNAi: monosomal RNA vs total RNA'
-      -
-        - 'polysomal RNA, mrps-5 RNAi'
-        - 'total RNA, mrps-5 RNAi'
-        - 'mrps-5 RNAi: polysomal RNA vs total RNA'
+category: Other
+contrasts: []
 description: ''
 ena_first_public: 2019-12-14
 ena_last_update: 2020-03-23
@@ -50,6 +10,6 @@ pubmed:
     - ~
     - ~
 resource_links: []
-rnaseqer_last_update: 2019-12-22
+rnaseqer_last_update: 2021-02-20
 submitting_centre: Amsterdam UMC
 title: 'RNA-seq data for: A conserved mito-cytoplasmic translational balance links two longevity pathways'

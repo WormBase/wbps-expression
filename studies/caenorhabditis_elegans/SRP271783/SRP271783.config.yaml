@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA646217
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-08-05
+ena_last_update: 2020-10-04
+pubmed:
+  32901024:
+    - 'Shi .. Han, 2020'
+    - 'HASH(0x6ef6260) (Shi .. Han, 2020)'
+resource_links: []
+rnaseqer_last_update: 2020-11-30
+submitting_centre: 'PICB, CAS'
+title: 'The precursor of PI(3,4,5)P3 alleviates aging by activating daf-18(Pten) and independent of daf-16'

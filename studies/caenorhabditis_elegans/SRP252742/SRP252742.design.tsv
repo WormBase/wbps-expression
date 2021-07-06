@@ -1,0 +1,7 @@
+Run	Condition	strain	title	developmental_stage	organism_part	source_name
+SRR11305058	SRR11305058	N2	WT (N2) rep1	Young Adult	germline	dissected gonads from C.elegans adult worms
+SRR11305059	SRR11305059	N2	WT (N2) rep2	Young Adult	germline	dissected gonads from C.elegans adult worms
+SRR11305060	SRR11305060	N2	WT (N2) rep3	Young Adult	germline	dissected gonads from C.elegans adult worms
+SRR11305061	SRR11305061	set-2(bn129)	set-2(bn129) rep1	Young Adult	germline	dissected gonads from C.elegans adult worms
+SRR11305062	SRR11305062	set-2(bn129)	set-2(bn129) rep2	Young Adult	germline	dissected gonads from C.elegans adult worms
+SRR11305063	SRR11305063	set-2(bn129)	set-2(bn129) rep3	Young Adult	germline	dissected gonads from C.elegans adult worms

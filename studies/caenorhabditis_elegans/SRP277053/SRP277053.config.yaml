@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA656523
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-08-13
+ena_last_update: 2020-11-13
+pubmed:
+  32905769:
+    - 'Burkewitz .. Mair, 2020'
+    - 'Atf-6 Regulates Lifespan through ER-Mitochondrial Calcium Homeostasis. (Burkewitz .. Mair, 2020)'
+resource_links: []
+rnaseqer_last_update: 2020-11-30
+submitting_centre: 28-7 Therapeutics
+title: Atf-6 regulates lifespan through ER-mitochondrial calcium homeostasis

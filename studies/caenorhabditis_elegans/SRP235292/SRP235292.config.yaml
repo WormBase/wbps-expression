@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA531486
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-12-11
+ena_last_update: 2020-08-20
+pubmed:
+  31280992:
+    - 'Jordan .. Baugh, 2019'
+    - 'Insulin/IGF Signaling and Vitellogenin Provisioning Mediate Intergenerational Adaptation to Nutrient Stress. (Jordan .. Baugh, 2019)'
+resource_links: []
+rnaseqer_last_update: 2020-11-26
+submitting_centre: Duke University
+title: 'mRNA-seq of C. elegans starved L1 progeny of parents fed empty vector, daf-2, or pitr-1 RNAi'

@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA573686
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2021-02-28
+ena_last_update: 2021-05-30
+pubmed:
+  33666644:
+    - 'Lee, 2021'
+    - 'Reduced insulin/IGF1 signaling prevents immune aging via ZIP-10/bZIP-mediated feedforward loop. (Lee, 2021)'
+resource_links: []
+rnaseqer_last_update: 2021-03-06
+submitting_centre: 'Room 4203, Life Sciences, KAIST'
+title: FOXO and HSF1 rejuvenate immunity via positive feedback regulation of insulin/IGF-1 signaling

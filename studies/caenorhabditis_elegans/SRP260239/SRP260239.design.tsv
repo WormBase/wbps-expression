@@ -1,0 +1,13 @@
+Run	Condition	genotype	sample_name	strain	developmental_stage	organism_part	sex	title
+SRR11711130	KO_R06A4.2_rep_01	R06A4.2(xf133)	KO_R06A4.2_rep_01	RFK671	Young Adults	whole organism	hermaphrodite	Model organism or animal sample from Caenorhabditis elegans
+SRR11711129	KO_R06A4.2_rep_02	R06A4.2(xf133)	KO_R06A4.2_rep_02	RFK671	Young Adults	whole organism	hermaphrodite	Model organism or animal sample from Caenorhabditis elegans
+SRR11711126	KO_R06A4.2_rep_03	R06A4.2(xf133)	KO_R06A4.2_rep_03	RFK671	Young Adults	whole organism	hermaphrodite	Model organism or animal sample from Caenorhabditis elegans
+SRR11711125	KO_R06A4.2_rep_04	R06A4.2(xf133)	KO_R06A4.2_rep_04	RFK671	Young Adults	whole organism	hermaphrodite	Model organism or animal sample from Caenorhabditis elegans
+SRR11711124	KO_T12E12.3_rep_01	T12E12.3(xf131)	KO_T12E12.3_rep_01	RFK641	Young Adults	whole organism	hermaphrodite	Model organism or animal sample from Caenorhabditis elegans
+SRR11711123	KO_T12E12.3_rep_02	T12E12.3(xf131)	KO_T12E12.3_rep_02	RFK641	Young Adults	whole organism	hermaphrodite	Model organism or animal sample from Caenorhabditis elegans
+SRR11711122	KO_T12E12.3_rep_03	T12E12.3(xf131)	KO_T12E12.3_rep_03	RFK641	Young Adults	whole organism	hermaphrodite	Model organism or animal sample from Caenorhabditis elegans
+SRR11711121	KO_T12E12.3_rep_04	T12E12.3(xf131)	KO_T12E12.3_rep_04	RFK641	Young Adults	whole organism	hermaphrodite	Model organism or animal sample from Caenorhabditis elegans
+SRR11711120	N2_rep_01	N2 wild-type	N2_rep_01	N2	Young Adults	whole organism	hermaphrodite	Model organism or animal sample from Caenorhabditis elegans
+SRR11711119	N2_rep_02	N2 wild-type	N2_rep_02	N2	Young Adults	whole organism	hermaphrodite	Model organism or animal sample from Caenorhabditis elegans
+SRR11711128	N2_rep_03	N2 wild-type	N2_rep_03	N2	Young Adults	whole organism	hermaphrodite	Model organism or animal sample from Caenorhabditis elegans
+SRR11711127	N2_rep_04	N2 wild-type	N2_rep_04	N2	Young Adults	whole organism	hermaphrodite	Model organism or animal sample from Caenorhabditis elegans

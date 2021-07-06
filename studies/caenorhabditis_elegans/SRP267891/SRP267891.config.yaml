@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA640412
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-11-13
+ena_last_update: 2020-11-13
+pubmed:
+  33159120:
+    - 'Stuhr .. Curran, 2020'
+    - 'Bacterial diets differentially alter lifespan and healthspan trajectories in <i>C. elegans</i>. (Stuhr .. Curran, 2020)'
+resource_links: []
+rnaseqer_last_update: 2020-11-30
+submitting_centre: 'Curran, Davis School of Gerontology, University of Southern California'
+title: RNA-seq Analysis of wildtype (N2) C. elegans at the L4 stage on diets from the laboratory environment and natural environment

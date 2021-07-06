@@ -1,0 +1,18 @@
+Run	Condition	10x_genomics_library_kit	cells_targeted	developmental_stage	source_name	strain	title
+SRR10005177	SRR10005177	v2	10000	90% L4	All C. elegans neurons (rab-3::tagRFP+ neurons)	OH10689; otIs355 [rab-3p(prom1)::2xNLS::tagRFP] IV	Pan-neural 1
+SRR10005178	SRR10005178	v2	10000	90% L4	All C. elegans neurons (rab-3::tagRFP+ neurons)	OH10689; otIs355 [rab-3p(prom1)::2xNLS::tagRFP] IV	Pan-neural 2
+SRR10005179	SRR10005179	v2	5000	68% L4, 28% early adult	unc-47::GFP+ neurons	NC3582; oxIs12 [unc-47p::GFP + lin-15(+)] X; otIs355 [rab-3p(prom1)::2xNLS::tagRFP] IV	GABAergic neurons 1
+SRR10005180	SRR10005180	v2	5000	79% L4, 20% L3	nmr-1-GFP+ neurons	NC3572; akIs3 [nmr-1::GFP + lin-15(+)] V; otIs355 [rab-3p(prom1)::2x-NLS::tagRFP] IV	nmr-1 expressing neurons
+SRR10005181	SRR10005181	v2	10000	71% L4, 25% L3	eat-4::mCherry+ neurons	OH9625; otIs292 [eat-4::mCherry + rol-6(su1006)]	Glutamatergic neurons
+SRR10005182	SRR10005182	v2	5000	79% L4, 21% L3	unc-47::GFP+ neurons	NC3582; oxIs12 [unc-47p::GFP + lin-15(+)] X; otIs355 [rab-3p(prom1)::2xNLS::tagRFP] IV	GABAergic neurons 2
+SRR10005183	SRR10005183	v2	10000	93% L4	unc-3::mCherry+ neurons	OH11746; pha-1(e2123) III; otIs447 [unc-3p::mCherry + pha-1(+)] IV	unc-3 expressing neurons
+SRR10005184	SRR10005184	v2	5000	74% L4, 18% early adult	ift-20::TagRFP+ neurons	OH11157; pha-1(e2123) III; otIs393 [ift-20::NLS::tagRFP + pha-1(+)]	Ciliated sensory neurons
+SRR10005185	SRR10005185	v2	10000	90% L4	cho-1::SL2::YFP+ neurons	NC3579; otIs354 [cho-1(fosmid)::SL2::YFP::H2B]; otIs355 [rab-3(prom1)::2xNLS-tagRFP] IV	Cholinergic neurons 1
+SRR10005186	SRR10005186	v2	10000	90% L4	cho-1::SL2::YFP+ neurons	NC3579; otIs354 [cho-1(fosmid)::SL2::YFP::H2B]; otIs355 [rab-3(prom1)::2xNLS-tagRFP] IV	Cholinergic neurons 2
+SRR10005187	SRR10005187	v2	5000	90% L4	tph-1::GFP and ceh-10::GFP+ neurons	NC3580; zdIs13 [tph-1p::GFP] IV; hpIs202 [ceh-10p::GFP + lin-15(+)]	Serotonergic and ceh-10 + neurons
+SRR10005188	SRR10005188	v3	10000	93% L4	acr-2::GFP+ neurons	CZ631; juIs14 [acr-2p::GFP + lin-15(+)] IV	acr-2 expressing neurons
+SRR10005189	SRR10005189	v3	5000	87% L4	ceh-34::mCherry+ neurons	NC3583; stIs10447 [ceh-34p::HIS-24::mCherry + unc-119(+)]; evIs111 [F25B3.3::GFP + dpy-20(+)]	Pharyngeal neurons
+SRR13269254	SRR13269254	v3	5000	72% L4; 28% early adult	unc-86::myr-GFP+ neurons	CX5974; unc-86::myr-GFP + odr-1::RFP] IV	unc-86 expressing neurons
+SRR13269255	SRR13269255	v3	5000	98% L4	unc-53::GFP+ neurons	NC3636; hdIs1 [unc-53p::GFP + rol-6(su1006)]; otIs355 [rab-3prom1::2xNLS-tagRFP] IV	unc-53 expressing neurons
+SRR13269256	SRR13269256	v3	10000	nlp-13::GFP - 63.5% L4, 22.6% early adult. ceh-2::GFP 46.6% L4, 50% early adult	nlp-13::GFP+ and ceh-2::GFP cells	OH16007; otIs742 [nlp-13p::GFP + lin-15(+)] + PS3504; syIs54 [ceh-2::GFP + unc-119(+)]; unc-119 (ed4) PS3504	nlp-13, ceh-2 expressing neurons
+SRR13269257	SRR13269257	v3	10000	ceh-28::GFP - 76.2 % L4, 15.4% early adult, 9.1% L3; dat-1; mec-3; gcy-35 line - 63.6% early adult, 35.5 % L4; unc-4c::GFP - 51.6% L4, 35.2% early adult	ceh-28::GFP and dat-1::GFP and mec-3::RFP and gcy-35::GFP and unc-4::GFP cells	nIs175; nIs175 [ceh-28p::4xNLS-GFP + lin-15(+)] + NC3635 egIs1 [dat-1p::GFP]; uIs152 [mec-3::RFP]; kyEx1162 [gcy-35p::GFP] + NC3523 wdIs90 [unc-4c::GFP]	ceh-28, dat-1, mec-3, gcy-35, unc-4 expressing neurons

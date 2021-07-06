@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA657442
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2021-01-04
+ena_last_update: 2021-03-28
+pubmed:
+  33472070:
+    - 'Rackles .. Rolland, 2021'
+    - 'Reduced peroxisomal import triggers peroxisomal retrograde signaling. (Rackles .. Rolland, 2021)'
+resource_links: []
+rnaseqer_last_update: 2021-01-19
+submitting_centre: IBS Center for Genomic Integrity
+title: Peroxisomal retrograde signaling in C. elegans

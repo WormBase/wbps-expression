@@ -1,0 +1,17 @@
+Run	Condition	condition	genotype	title	organism_part	source_name
+SRR11100932	SRR11100932	starved	N2 wild-type	WT1_0	l1-arrest c.elegans larvae	L1-arrest C.elegans larvae
+SRR11100933	SRR11100933	starved + 4h in DMSO	N2 wild-type	WT1_S	l1-arrest c.elegans larvae	L1-arrest C.elegans larvae
+SRR11100934	SRR11100934	starved + 4h recovery in (food + DMSO)	N2 wild-type	WT1_R	l1-arrest c.elegans larvae	L1-arrest C.elegans larvae
+SRR11100935	SRR11100935	starved + 4h recovery in (food + cdk12-as inhibitor)	N2 wild-type	WT1_RI	l1-arrest c.elegans larvae	L1-arrest C.elegans larvae
+SRR11100936	SRR11100936	starved	cdk12-as	cdk12as1_0	l1-arrest c.elegans larvae	L1-arrest C.elegans larvae
+SRR11100937	SRR11100937	starved + 4h in DMSO	cdk12-as	cdk12as1_S	l1-arrest c.elegans larvae	L1-arrest C.elegans larvae
+SRR11100938	SRR11100938	starved + 4h recovery in (food + DMSO)	cdk12-as	cdk12as1_R	l1-arrest c.elegans larvae	L1-arrest C.elegans larvae
+SRR11100939	SRR11100939	starved + 4h recovery in (food + cdk12-as inhibitor)	cdk12-as	cdk12as1_RI	l1-arrest c.elegans larvae	L1-arrest C.elegans larvae
+SRR11100940	SRR11100940	starved	N2 wild-type	WT2_0	l1-arrest c.elegans larvae	L1-arrest C.elegans larvae
+SRR11100941	SRR11100941	starved + 4h in DMSO	N2 wild-type	WT2_S	l1-arrest c.elegans larvae	L1-arrest C.elegans larvae
+SRR11100942	SRR11100942	starved + 4h recovery in (food + DMSO)	N2 wild-type	WT2_R	l1-arrest c.elegans larvae	L1-arrest C.elegans larvae
+SRR11100943	SRR11100943	starved + 4h recovery in (food + cdk12-as inhibitor)	N2 wild-type	WT2_RI	l1-arrest c.elegans larvae	L1-arrest C.elegans larvae
+SRR11100944	SRR11100944	starved	cdk12-as	cdk12as2_0	l1-arrest c.elegans larvae	L1-arrest C.elegans larvae
+SRR11100945	SRR11100945	starved + 4h in DMSO	cdk12-as	cdk12as2_S	l1-arrest c.elegans larvae	L1-arrest C.elegans larvae
+SRR11100946	SRR11100946	starved + 4h recovery in (food + DMSO)	cdk12-as	cdk12as2_R	l1-arrest c.elegans larvae	L1-arrest C.elegans larvae
+SRR11100947	SRR11100947	starved + 4h recovery in (food + cdk12-as inhibitor)	cdk12-as	cdk12as2_RI	l1-arrest c.elegans larvae	L1-arrest C.elegans larvae

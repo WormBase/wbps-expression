@@ -1,0 +1,13 @@
+Run	Condition	genotype	rnai_treatment	title	developmental_stage	organism_part	source_name
+SRR10912543	SRR10912543	control (N2)	empty vector(EV)	N2 EV replicate 1	L4	whole worm lysate	whole worm
+SRR10912544	SRR10912544	control (N2)	empty vector(EV)	N2 EV replicate 2	L4	whole worm lysate	whole worm
+SRR10912545	SRR10912545	control (N2)	empty vector(EV)	N2 EV replicate 3	L4	whole worm lysate	whole worm
+SRR10912546	SRR10912546	control (N2)	cco-1 RNAi	N2 cco-1 replicate 1	L4	whole worm lysate	whole worm
+SRR10912547	SRR10912547	control (N2)	cco-1 RNAi	N2 cco-1 replicate 2	L4	whole worm lysate	whole worm
+SRR10912548	SRR10912548	control (N2)	cco-1 RNAi	N2 cco-1 replicate 3	L4	whole worm lysate	whole worm
+SRR10912549	SRR10912549	lin-40(yth27)	empty vector(EV)	lin-40(yth27) EV replicate 1	L4	whole worm lysate	whole worm
+SRR10912550	SRR10912550	lin-40(yth27)	empty vector(EV)	lin-40(yth27) EV replicate 2	L4	whole worm lysate	whole worm
+SRR10912551	SRR10912551	lin-40(yth27)	empty vector(EV)	lin-40(yth27) EV replicate 3	L4	whole worm lysate	whole worm
+SRR10912552	SRR10912552	lin-40(yth27)	cco-1 RNAi	lin-40(yth27) cco-1 replicate 1	L4	whole worm lysate	whole worm
+SRR10912553	SRR10912553	lin-40(yth27)	cco-1 RNAi	lin-40(yth27) cco-1 replicate 2	L4	whole worm lysate	whole worm
+SRR10912554	SRR10912554	lin-40(yth27)	cco-1 RNAi	lin-40(yth27) cco-1 replicate 3	L4	whole worm lysate	whole worm

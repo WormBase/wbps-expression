@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA670707
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2021-03-02
+ena_last_update: 2021-06-02
+pubmed:
+  33789112:
+    - 'Pryszlak .. Pearson, 2021'
+    - 'The DEAD-box helicase DDX56 is a conserved stemness regulator in normal and cancer stem cells. (Pryszlak .. Pearson, 2021)'
+resource_links: []
+rnaseqer_last_update: 2021-03-06
+submitting_centre: 'Pearson, Molecular Genetics, Hospital for Sick Children'
+title: The DEAD-box helicase DDX56 is a conserved stemness regulator in normal and cancer stem cells

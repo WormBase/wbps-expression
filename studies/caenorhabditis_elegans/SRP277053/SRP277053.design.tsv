@@ -1,0 +1,9 @@
+Run	Condition	genotype	strain	title	age_days	source_name	temperature
+SRR12429960	SRR12429960	wild type	N2 (wild-type)	wt_rep1	1	whole organism	20C
+SRR12429961	SRR12429961	wild type	N2 (wild-type)	wt_rep2	1	whole organism	20C
+SRR12429962	SRR12429962	wild type	N2 (wild-type)	wt_rep3	1	whole organism	20C
+SRR12429963	SRR12429963	wild type	N2 (wild-type)	wt_rep4	1	whole organism	20C
+SRR12429964	SRR12429964	atf6	atf-6	atf6_rep1	1	whole organism	20C
+SRR12429965	SRR12429965	atf6	atf-6	atf6_rep2	1	whole organism	20C
+SRR12429966	SRR12429966	atf6	atf-6	atf6_rep3	1	whole organism	20C
+SRR12429967	SRR12429967	atf6	atf-6	atf6_rep4	1	whole organism	20C

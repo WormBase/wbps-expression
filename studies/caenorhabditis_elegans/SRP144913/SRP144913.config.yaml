@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA464509
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-07-30
+ena_last_update: 2020-07-30
+pubmed:
+  32636256:
+    - 'Shin .. Kwon, 2020'
+    - 'HASH(0x33c9ae8) (Shin .. Kwon, 2020)'
+resource_links: []
+rnaseqer_last_update: 2021-02-20
+submitting_centre: 'Genome structure research center, Korea Research Institute of Bioscience and Biotechnology'
+title: 'Inter-species genetic regulation of longevity: ?hns E. coli activate C. elegans DAF-16 in distinct ways from IIS'

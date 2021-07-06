@@ -1,0 +1,18 @@
+Run	Condition	collection_date	genotype	sample_name	strain	title	developmental_stage	organism_part	sex
+SRR9887286	HASN(A53T) OX + tdp-1 KO 1	2019-01-19	HASN(A53T) OX + tdp-1 KO	HASN(A53T) OX + tdp-1 KO 1	UM0013	sample 13	L4 stage	whole organism	hermaphrodite
+SRR9887285	HASN(A53T) OX + tdp-1 KO 2	2018-01-30	HASN(A53T) OX + tdp-1 KO	HASN(A53T) OX + tdp-1 KO 2	UM0013	sample 14	L4 stage	whole organism	hermaphrodite
+SRR9887284	HASN(A53T) OX + tdp-1 KO 3	2018-02-15	HASN(A53T) OX + tdp-1 KO	HASN(A53T) OX + tdp-1 KO 3	UM0013	sample 15	L4 stage	whole organism	hermaphrodite
+SRR9887295	HASN(A53T) OX 1	2019-01-19	HASN(A53T) OX	HASN(A53T) OX 1	UM0010	sample 7	L4 stage	whole organism	hermaphrodite
+SRR9887298	HASN(A53T) OX 2	2018-01-30	HASN(A53T) OX	HASN(A53T) OX 2	UM0010	sample 8	L4 stage	whole organism	hermaphrodite
+SRR9887297	HASN(A53T) OX 3	2018-02-15	HASN(A53T) OX	HASN(A53T) OX 3	UM0010	sample 9	L4 stage	whole organism	hermaphrodite
+SRR9887290	HASN(WT) OX + tdp-1 KO 1	2018-07-18	HASN(WT) OX + tdp-1 KO	HASN(WT) OX + tdp-1 KO 1	UM0014	sample 16	L4 stage	whole organism	hermaphrodite
+SRR9887289	HASN(WT) OX + tdp-1 KO 2	2018-07-23	HASN(WT) OX + tdp-1 KO	HASN(WT) OX + tdp-1 KO 2	UM0014	sample 17	L4 stage	whole organism	hermaphrodite
+SRR9887288	HASN(WT) OX + tdp-1 KO 3	2018-07-27	HASN(WT) OX + tdp-1 KO	HASN(WT) OX + tdp-1 KO 3	UM0014	sample 18	L4 stage	whole organism	hermaphrodite
+SRR9887300	HASN(WT) OX 1	2018-07-18	HASN(WT) OX	HASN(WT) OX 1	UM0011	sample 10	L4 stage	whole organism	hermaphrodite
+SRR9887299	HASN(WT) OX 2	2018-07-23	HASN(WT) OX	HASN(WT) OX 2	UM0011	sample 11	L4 stage	whole organism	hermaphrodite
+SRR9887287	HASN(WT) OX 3	2018-07-27	HASN(WT) OX	HASN(WT) OX 3	UM0011	sample 12	L4 stage	whole organism	hermaphrodite
+SRR9887292	Wild Type 2	2018-01-30	wild type	Wild Type 2	N2	sample 2	L4 stage	whole organism	hermaphrodite
+SRR9887291	Wild Type 3	2018-02-15	wild type	Wild Type 3	N2	sample 3	L4 stage	whole organism	hermaphrodite
+SRR9887294	tdp-1 KO 1	2019-01-19	tdp-1 KO	tdp-1 KO 1	UM0012	sample 4	L4 stage	whole organism	hermaphrodite
+SRR9887293	tdp-1 KO 2	2018-01-30	tdp-1 KO	tdp-1 KO 2	UM0012	sample 5	L4 stage	whole organism	hermaphrodite
+SRR9887296	tdp-1 KO 3	2018-02-15	tdp-1 KO	tdp-1 KO 3	UM0012	sample 6	L4 stage	whole organism	hermaphrodite

@@ -1,0 +1,9 @@
+Run	Condition	genotype	source_name	strain	title	treatment	organism_part
+SRR7132077	SRR7132077	wild type	N2_BW	N2	N2_BW_#1	fed BW	whole organism
+SRR7132078	SRR7132078	wild type	N2_BW	N2	N2_BW_#2	fed BW	whole organism
+SRR7132079	SRR7132079	wild type	N2_hns	N2	N2_hns_#1	fed hns	whole organism
+SRR7132080	SRR7132080	wild type	N2_hns	N2	N2_hns_#2	fed hns	whole organism
+SRR7132081	SRR7132081	daf-16 mutant	d16_BW	daf-16(mgDf50)	d16_BW_#1	fed BW	whole organism
+SRR7132082	SRR7132082	daf-16 mutant	d16_BW	daf-16(mgDf50)	d16_BW_#2	fed BW	whole organism
+SRR7132083	SRR7132083	daf-16 mutant	d16_hns	daf-16(mgDf50)	d16_hns_#1	fed hns	whole organism
+SRR7132084	SRR7132084	daf-16 mutant	d16_hns	daf-16(mgDf50)	d16_hns_#2	fed hns	whole organism

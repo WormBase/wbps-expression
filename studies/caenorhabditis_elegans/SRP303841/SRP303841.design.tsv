@@ -1,0 +1,9 @@
+Run	Condition	title	background_strain	cell_type	genotype	source_name	treatment
+SRR13577914	SRR13577914	SoLo_1	OH10689	Neurons	otIs355 [rab-3(prom1)::2xNLS-TagRFP] IV	FACS C. elegans neurons	untreated
+SRR13577915	SRR13577915	SoLo_2	OH10689	Neurons	otIs355 [rab-3(prom1)::2xNLS-TagRFP] IV	FACS C. elegans neurons	untreated
+SRR13577916	SRR13577916	SoLo_3	OH10689	Neurons	otIs355 [rab-3(prom1)::2xNLS-TagRFP] IV	FACS C. elegans neurons	untreated
+SRR13577917	SRR13577917	SoLo_4	OH10689	Neurons	otIs355 [rab-3(prom1)::2xNLS-TagRFP] IV	FACS C. elegans neurons	untreated
+SRR13577918	SRR13577918	SMARTseq_1	OH10689	Neurons	otIs355 [rab-3(prom1)::2xNLS-TagRFP] IV	FACS C. elegans neurons	untreated
+SRR13577919	SRR13577919	SMARTseq_2	OH10689	Neurons	otIs355 [rab-3(prom1)::2xNLS-TagRFP] IV	FACS C. elegans neurons	untreated
+SRR13577920	SRR13577920	SMARTseq_3	OH10689	Neurons	otIs355 [rab-3(prom1)::2xNLS-TagRFP] IV	FACS C. elegans neurons	untreated
+SRR13577921	SRR13577921	SMARTseq_4	OH10689	Neurons	otIs355 [rab-3(prom1)::2xNLS-TagRFP] IV	FACS C. elegans neurons	untreated

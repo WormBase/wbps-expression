@@ -1,0 +1,7 @@
+Run	Condition	source_name	title	developmental_stage	growth_temperature	medium
+SRR13001237	SRR13001237	N2 strain	Wild-type (control)-1	Mixed stage, includes embryos, larval stages and adults	20°C	OP50
+SRR13001238	SRR13001238	N2 strain	Wild-type (control)-2	Mixed stage, includes embryos, larval stages and adults	20°C	OP50
+SRR13001239	SRR13001239	N2 strain	Wild-type (control)-3	Mixed stage, includes embryos, larval stages and adults	20°C	OP50
+SRR13001240	SRR13001240	Loss-of-function allele of the plp-1 gene	plp-1(ok2155)-1	Mixed stage, includes embryos, larval stages and adults	20°C	OP50
+SRR13001241	SRR13001241	Loss-of-function allele of the plp-1 gene	plp-1(ok2155)-2	Mixed stage, includes embryos, larval stages and adults	20°C	OP50
+SRR13001242	SRR13001242	Loss-of-function allele of the plp-1 gene	plp-1(ok2155)-3	Mixed stage, includes embryos, larval stages and adults	20°C	OP50

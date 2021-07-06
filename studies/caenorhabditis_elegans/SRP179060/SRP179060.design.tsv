@@ -1,0 +1,7 @@
+Run	Condition	genotype	strain	title	organism_part	source_name
+SRR8440437	SRR8440437	cnd-1(ju29)	cnd-1(ju29)	6_cnd1-rep1	embryonic total rna	embryo
+SRR8440438	SRR8440438	wild type	N2	27_N2_rep1	embryonic total rna	embryo
+SRR8440439	SRR8440439	wild type	N2	28_N2_rep2	embryonic total rna	embryo
+SRR8440440	SRR8440440	cnd-1(ju29)	cnd-1(ju29)	34_cnd1-rep2	embryonic total rna	embryo
+SRR8440441	SRR8440441	wild type	N2	36_N2_rep3	embryonic total rna	embryo
+SRR8440442	SRR8440442	cnd-1(ju29)	cnd-1(ju29)	42-cnd1-rep3	embryonic total rna	embryo

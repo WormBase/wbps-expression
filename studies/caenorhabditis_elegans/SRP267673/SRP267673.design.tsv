@@ -1,0 +1,93 @@
+Run	Sample	Condition	culture_condition_o2_level	organism_part	source_name	title	developmental_stage	genotype	sex	strain
+SRR12034910	SAMN15298719	SAMN15298719	O2_21	whole organism	Whole-worm	WW21_D1_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034911	SAMN15298719	SAMN15298719	O2_21	whole organism	Whole-worm	WW21_D1_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034906	SAMN15298720	SAMN15298720	O2_21	whole organism	Whole-worm	WW21_D1_3	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034907	SAMN15298720	SAMN15298720	O2_21	whole organism	Whole-worm	WW21_D1_3	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034903	SAMN15298721	SAMN15298721	O2_21	whole organism	Whole-worm	WW21_D1_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034904	SAMN15298721	SAMN15298721	O2_21	whole organism	Whole-worm	WW21_D1_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034905	SAMN15298721	SAMN15298721	O2_21	whole organism	Whole-worm	WW21_D1_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034900	SAMN15298722	SAMN15298722	O2_21	whole organism	Whole-worm	WW21_D1_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034901	SAMN15298722	SAMN15298722	O2_21	whole organism	Whole-worm	WW21_D1_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034902	SAMN15298722	SAMN15298722	O2_21	whole organism	Whole-worm	WW21_D1_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034993	SAMN15298731	SAMN15298731	O2_7	o2-sensing neurons	sensory neurons	GFP7_D7_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034994	SAMN15298731	SAMN15298731	O2_7	o2-sensing neurons	sensory neurons	GFP7_D7_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034995	SAMN15298731	SAMN15298731	O2_7	o2-sensing neurons	sensory neurons	GFP7_D7_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034991	SAMN15298733	SAMN15298733	O2_7	o2-sensing neurons	sensory neurons	GFP7_D7_3	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034992	SAMN15298733	SAMN15298733	O2_7	o2-sensing neurons	sensory neurons	GFP7_D7_3	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034987	SAMN15298734	SAMN15298734	O2_7	o2-sensing neurons	sensory neurons	GFP7_D7_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034988	SAMN15298734	SAMN15298734	O2_7	o2-sensing neurons	sensory neurons	GFP7_D7_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034989	SAMN15298734	SAMN15298734	O2_7	o2-sensing neurons	sensory neurons	GFP7_D7_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034984	SAMN15298735	SAMN15298735	O2_7	o2-sensing neurons	sensory neurons	GFP7_D7_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034985	SAMN15298735	SAMN15298735	O2_7	o2-sensing neurons	sensory neurons	GFP7_D7_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034986	SAMN15298735	SAMN15298735	O2_7	o2-sensing neurons	sensory neurons	GFP7_D7_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034981	SAMN15298737	SAMN15298737	O2_21	o2-sensing neurons	sensory neurons	GFP21_D7_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034982	SAMN15298737	SAMN15298737	O2_21	o2-sensing neurons	sensory neurons	GFP21_D7_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034983	SAMN15298737	SAMN15298737	O2_21	o2-sensing neurons	sensory neurons	GFP21_D7_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034978	SAMN15298738	SAMN15298738	O2_21	o2-sensing neurons	sensory neurons	GFP21_D7_3	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034979	SAMN15298738	SAMN15298738	O2_21	o2-sensing neurons	sensory neurons	GFP21_D7_3	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034980	SAMN15298738	SAMN15298738	O2_21	o2-sensing neurons	sensory neurons	GFP21_D7_3	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034975	SAMN15298740	SAMN15298740	O2_21	o2-sensing neurons	sensory neurons	GFP21_D7_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034976	SAMN15298740	SAMN15298740	O2_21	o2-sensing neurons	sensory neurons	GFP21_D7_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034977	SAMN15298740	SAMN15298740	O2_21	o2-sensing neurons	sensory neurons	GFP21_D7_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034972	SAMN15298742	SAMN15298742	O2_21	o2-sensing neurons	sensory neurons	GFP21_D7_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034973	SAMN15298742	SAMN15298742	O2_21	o2-sensing neurons	sensory neurons	GFP21_D7_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034974	SAMN15298742	SAMN15298742	O2_21	o2-sensing neurons	sensory neurons	GFP21_D7_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034969	SAMN15298743	SAMN15298743	O2_7	o2-sensing neurons	sensory neurons	GFP7_D1_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034970	SAMN15298743	SAMN15298743	O2_7	o2-sensing neurons	sensory neurons	GFP7_D1_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034971	SAMN15298743	SAMN15298743	O2_7	o2-sensing neurons	sensory neurons	GFP7_D1_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034966	SAMN15298744	SAMN15298744	O2_7	o2-sensing neurons	sensory neurons	GFP7_D1_3	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034967	SAMN15298744	SAMN15298744	O2_7	o2-sensing neurons	sensory neurons	GFP7_D1_3	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034968	SAMN15298744	SAMN15298744	O2_7	o2-sensing neurons	sensory neurons	GFP7_D1_3	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034963	SAMN15298745	SAMN15298745	O2_7	o2-sensing neurons	sensory neurons	GFP7_D1_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034964	SAMN15298745	SAMN15298745	O2_7	o2-sensing neurons	sensory neurons	GFP7_D1_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034965	SAMN15298745	SAMN15298745	O2_7	o2-sensing neurons	sensory neurons	GFP7_D1_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034960	SAMN15298746	SAMN15298746	O2_7	o2-sensing neurons	sensory neurons	GFP7_D1_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034961	SAMN15298746	SAMN15298746	O2_7	o2-sensing neurons	sensory neurons	GFP7_D1_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034962	SAMN15298746	SAMN15298746	O2_7	o2-sensing neurons	sensory neurons	GFP7_D1_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034957	SAMN15298747	SAMN15298747	O2_21	o2-sensing neurons	sensory neurons	GFP21_D1_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034958	SAMN15298747	SAMN15298747	O2_21	o2-sensing neurons	sensory neurons	GFP21_D1_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034959	SAMN15298747	SAMN15298747	O2_21	o2-sensing neurons	sensory neurons	GFP21_D1_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034954	SAMN15298748	SAMN15298748	O2_21	o2-sensing neurons	sensory neurons	GFP21_D1_3	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034955	SAMN15298748	SAMN15298748	O2_21	o2-sensing neurons	sensory neurons	GFP21_D1_3	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034956	SAMN15298748	SAMN15298748	O2_21	o2-sensing neurons	sensory neurons	GFP21_D1_3	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034951	SAMN15298749	SAMN15298749	O2_21	o2-sensing neurons	sensory neurons	GFP21_D1_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034952	SAMN15298749	SAMN15298749	O2_21	o2-sensing neurons	sensory neurons	GFP21_D1_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034953	SAMN15298749	SAMN15298749	O2_21	o2-sensing neurons	sensory neurons	GFP21_D1_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034948	SAMN15298750	SAMN15298750	O2_21	o2-sensing neurons	sensory neurons	GFP21_D1_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034949	SAMN15298750	SAMN15298750	O2_21	o2-sensing neurons	sensory neurons	GFP21_D1_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034950	SAMN15298750	SAMN15298750	O2_21	o2-sensing neurons	sensory neurons	GFP21_D1_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034945	SAMN15298751	SAMN15298751	O2_7	whole organism	Whole-worm	WW7_D7_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034946	SAMN15298751	SAMN15298751	O2_7	whole organism	Whole-worm	WW7_D7_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034947	SAMN15298751	SAMN15298751	O2_7	whole organism	Whole-worm	WW7_D7_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034942	SAMN15298752	SAMN15298752	O2_7	whole organism	Whole-worm	WW7_D7_3	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034943	SAMN15298752	SAMN15298752	O2_7	whole organism	Whole-worm	WW7_D7_3	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034944	SAMN15298752	SAMN15298752	O2_7	whole organism	Whole-worm	WW7_D7_3	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034939	SAMN15298753	SAMN15298753	O2_7	whole organism	Whole-worm	WW7_D7_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034940	SAMN15298753	SAMN15298753	O2_7	whole organism	Whole-worm	WW7_D7_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034941	SAMN15298753	SAMN15298753	O2_7	whole organism	Whole-worm	WW7_D7_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034936	SAMN15298754	SAMN15298754	O2_7	whole organism	Whole-worm	WW7_D7_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034937	SAMN15298754	SAMN15298754	O2_7	whole organism	Whole-worm	WW7_D7_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034938	SAMN15298754	SAMN15298754	O2_7	whole organism	Whole-worm	WW7_D7_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034933	SAMN15298755	SAMN15298755	O2_21	whole organism	Whole-worm	WW21_D7_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034934	SAMN15298755	SAMN15298755	O2_21	whole organism	Whole-worm	WW21_D7_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034935	SAMN15298755	SAMN15298755	O2_21	whole organism	Whole-worm	WW21_D7_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034930	SAMN15298757	SAMN15298757	O2_21	whole organism	Whole-worm	WW21_D7_3	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034931	SAMN15298757	SAMN15298757	O2_21	whole organism	Whole-worm	WW21_D7_3	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034927	SAMN15298758	SAMN15298758	O2_21	whole organism	Whole-worm	WW21_D7_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034928	SAMN15298758	SAMN15298758	O2_21	whole organism	Whole-worm	WW21_D7_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034929	SAMN15298758	SAMN15298758	O2_21	whole organism	Whole-worm	WW21_D7_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034924	SAMN15298759	SAMN15298759	O2_21	whole organism	Whole-worm	WW21_D7_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034925	SAMN15298759	SAMN15298759	O2_21	whole organism	Whole-worm	WW21_D7_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034926	SAMN15298759	SAMN15298759	O2_21	whole organism	Whole-worm	WW21_D7_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034921	SAMN15298760	SAMN15298760	O2_7	whole organism	Whole-worm	WW7_D1_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034922	SAMN15298760	SAMN15298760	O2_7	whole organism	Whole-worm	WW7_D1_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034923	SAMN15298760	SAMN15298760	O2_7	whole organism	Whole-worm	WW7_D1_4	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034918	SAMN15298761	SAMN15298761	O2_7	whole organism	Whole-worm	WW7_D1_3	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034919	SAMN15298761	SAMN15298761	O2_7	whole organism	Whole-worm	WW7_D1_3	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034920	SAMN15298761	SAMN15298761	O2_7	whole organism	Whole-worm	WW7_D1_3	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034915	SAMN15298762	SAMN15298762	O2_7	whole organism	Whole-worm	WW7_D1_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034916	SAMN15298762	SAMN15298762	O2_7	whole organism	Whole-worm	WW7_D1_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034917	SAMN15298762	SAMN15298762	O2_7	whole organism	Whole-worm	WW7_D1_2	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034912	SAMN15298763	SAMN15298763	O2_7	whole organism	Whole-worm	WW7_D1_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034913	SAMN15298763	SAMN15298763	O2_7	whole organism	Whole-worm	WW7_D1_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123
+SRR12034914	SAMN15298763	SAMN15298763	O2_7	whole organism	Whole-worm	WW7_D1_1	adult	npr-1(ad609) X; iaIs25[Pgcy-37::GFP + unc-119(+)]	hermaphrodite	KL123

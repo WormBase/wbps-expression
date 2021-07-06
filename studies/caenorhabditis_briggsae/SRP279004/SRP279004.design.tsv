@@ -1,0 +1,11 @@
+Run	Condition	sample_name	sex	strain	title	developmental_stage	organism_part
+SRR12532517	Cbr_F_3	Cbr_F_3	female	AF16	Caenorhabditis briggsae XX rep. 3	Young adults	whole organism
+SRR12532516	Cbr_M_1	Cbr_M_1	male	AF16	Caenorhabditis briggsae XO rep. 1	Young adults	whole organism
+SRR12532515	Cbr_M_2	Cbr_M_2	male	AF16	Caenorhabditis briggsae XO rep. 2	Young adults	whole organism
+SRR12532514	Cbr_M_3	Cbr_M_3	male	AF16	Caenorhabditis briggsae XO rep. 3	Young adults	whole organism
+SRR12532505	F1H_F_1	F1H_F_1	female	JU1421 x AF16	C. nigoni x C. briggsae F1 hybrid XX rep. 1	Young adults	whole organism
+SRR12532522	F1H_F_2	F1H_F_2	female	JU1421 x AF16	C. nigoni x C. briggsae F1 hybrid XX rep. 2	Young adults	whole organism
+SRR12532521	F1H_F_3	F1H_F_3	female	JU1421 x AF16	C. nigoni x C. briggsae F1 hybrid XX rep. 3	Young adults	whole organism
+SRR12532519	F1H_M_2	F1H_M_2	male	JU1421 x AF16	C. nigoni x C. briggsae F1 hybrid XO rep. 2	Young adults	whole organism
+SRR12532518	F1H_M_3	F1H_M_3	male	JU1421 x AF16	C. nigoni x C. briggsae F1 hybrid XO rep. 3	Young adults	whole organism
+SRR12532520	FH1_M_1	FH1_M_1	male	JU1421 x AF16	C. nigoni x C. briggsae F1 hybrid XO rep. 1	Young adults	whole organism

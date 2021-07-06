@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA528750
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-08-17
+ena_last_update: 2020-10-29
+pubmed:
+  33072747:
+    - 'Robert .. Palladino, 2020'
+    - 'HASH(0x6ce3f88) (Robert .. Palladino, 2020)'
+resource_links: []
+rnaseqer_last_update: 2020-11-29
+submitting_centre: 'MCD Biology, UC Santa Cruz'
+title: The C. elegans SET-2 histone methyltransferase maintains germline fate by preventing progressive transcriptomic deregulation across generations

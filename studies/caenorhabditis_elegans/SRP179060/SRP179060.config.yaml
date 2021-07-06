@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA515039
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-09-22
+ena_last_update: 2020-09-22
+pubmed:
+  32601060:
+    - 'Aquino-Nunez .. Hudson, 2020'
+    - 'HASH(0x6e0bec8) (Aquino-Nunez .. Hudson, 2020)'
+resource_links: []
+rnaseqer_last_update: 2020-11-27
+submitting_centre: 'Molecular and Cellular Biology, Kennesaw State University'
+title: C. elegans cnd-1/NeuroD1 functions with the Hox gene ceh-13/labial to control multiple genes required for nervous system development and function

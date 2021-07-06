@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA516902
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-12-11
+ena_last_update: 2020-02-21
+pubmed:
+  32015436:
+    - 'Barucci .. Cecere, 2020'
+    - 'Small-RNA-mediated transgenerational silencing of histone genes impairs fertility in piRNA mutants. (Barucci .. Cecere, 2020)'
+resource_links: []
+rnaseqer_last_update: 2021-03-02
+submitting_centre: 'mechanisms of epigenetic inheritance, Development and stem cell biology, Institut Pasteur'
+title: Small RNA-mediated transgenerational silencing of histone genes impairs fertility in piRNA mutants (RNA-Seq)

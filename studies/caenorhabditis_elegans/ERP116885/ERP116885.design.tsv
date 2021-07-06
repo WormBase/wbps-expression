@@ -1,0 +1,13 @@
+Run	Condition	genotype	sample_name	submitter_id	title	broker_name	developmental_stage	ena_first_public	ena_last_update	insdc_center_alias	organism_part	sex	strain
+ERR3484473	E-MTAB-8253:Control1	wild type	E-MTAB-8253:Control1	E-MTAB-8253:Control1	Control1	ArrayExpress	adult	2020-08-13	2019-08-16	University of Kent	whole organism	hermaphrodite	CGCM
+ERR3484474	E-MTAB-8253:Control2	wild type	E-MTAB-8253:Control2	E-MTAB-8253:Control2	Control2	ArrayExpress	adult	2020-08-13	2019-08-16	University of Kent	whole organism	hermaphrodite	CGCM
+ERR3484475	E-MTAB-8253:Control3	wild type	E-MTAB-8253:Control3	E-MTAB-8253:Control3	Control3	ArrayExpress	adult	2020-08-13	2019-08-16	University of Kent	whole organism	hermaphrodite	CGCM
+ERR3484476	E-MTAB-8253:Control4	wild type	E-MTAB-8253:Control4	E-MTAB-8253:Control4	Control4	ArrayExpress	adult	2020-08-13	2019-08-16	University of Kent	whole organism	hermaphrodite	CGCM
+ERR3484477	E-MTAB-8253:Control5	wild type	E-MTAB-8253:Control5	E-MTAB-8253:Control5	Control5	ArrayExpress	adult	2020-08-13	2019-08-16	University of Kent	whole organism	hermaphrodite	CGCM
+ERR3484478	E-MTAB-8253:Control6	wild type	E-MTAB-8253:Control6	E-MTAB-8253:Control6	Control6	ArrayExpress	adult	2020-08-13	2019-08-16	University of Kent	whole organism	hermaphrodite	CGCM
+ERR3484479	E-MTAB-8253:SKN1b1	skn-1b(tm4241) IV	E-MTAB-8253:SKN1b1	E-MTAB-8253:SKN1b1	SKN1b1	ArrayExpress	adult	2020-08-13	2019-08-16	University of Kent	whole organism	hermaphrodite	CGCM
+ERR3484480	E-MTAB-8253:SKN1b2	skn-1b(tm4241) IV	E-MTAB-8253:SKN1b2	E-MTAB-8253:SKN1b2	SKN1b2	ArrayExpress	adult	2020-08-13	2019-08-16	University of Kent	whole organism	hermaphrodite	CGCM
+ERR3484481	E-MTAB-8253:SKN1b3	skn-1b(tm4241) IV	E-MTAB-8253:SKN1b3	E-MTAB-8253:SKN1b3	SKN1b3	ArrayExpress	adult	2020-08-13	2019-08-16	University of Kent	whole organism	hermaphrodite	CGCM
+ERR3484482	E-MTAB-8253:SKN1b4	skn-1b(tm4241) IV	E-MTAB-8253:SKN1b4	E-MTAB-8253:SKN1b4	SKN1b4	ArrayExpress	adult	2020-08-13	2019-08-16	University of Kent	whole organism	hermaphrodite	CGCM
+ERR3484483	E-MTAB-8253:SKN1b5	skn-1b(tm4241) IV	E-MTAB-8253:SKN1b5	E-MTAB-8253:SKN1b5	SKN1b5	ArrayExpress	adult	2020-08-13	2019-08-16	University of Kent	whole organism	hermaphrodite	CGCM
+ERR3484484	E-MTAB-8253:SKN1b6	skn-1b(tm4241) IV	E-MTAB-8253:SKN1b6	E-MTAB-8253:SKN1b6	SKN1b6	ArrayExpress	adult	2020-08-13	2019-08-16	University of Kent	whole organism	hermaphrodite	CGCM

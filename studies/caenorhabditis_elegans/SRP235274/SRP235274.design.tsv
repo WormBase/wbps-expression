@@ -1,0 +1,16 @@
+Run	Condition	title	treatment	developmental_stage	organism_part	source_name
+SRR10611938	SRR10611938	Control rep1		L4	whole organism	nematode
+SRR10611939	SRR10611939	Control rep2		L4	whole organism	nematode
+SRR10611940	SRR10611940	Control rep3		L4	whole organism	nematode
+SRR10611941	SRR10611941	suc rep1	400mM sucrose	L4	whole organism	nematode
+SRR10611942	SRR10611942	suc rep2	400mM sucrose	L4	whole organism	nematode
+SRR10611943	SRR10611943	suc rep3	400mM sucrose	L4	whole organism	nematode
+SRR10611944	SRR10611944	ste rep1	500mg/ml stearic acid	L4	whole organism	nematode
+SRR10611945	SRR10611945	ste rep2	500mg/ml stearic acid	L4	whole organism	nematode
+SRR10611946	SRR10611946	ste rep3	500mg/ml stearic acid	L4	whole organism	nematode
+SRR10611947	SRR10611947	suc-ste rep1	400mM sucrose & 500mg/ml stearic acid	L4	whole organism	nematode
+SRR10611948	SRR10611948	suc-ste rep2	400mM sucrose & 500mg/ml stearic acid	L4	whole organism	nematode
+SRR10611949	SRR10611949	suc-ste rep3	400mM sucrose & 500mg/ml stearic acid	L4	whole organism	nematode
+SRR10611950	SRR10611950	suc-ste-res rep1	400mM sucrose-500mg/ml stearic acid & 500mg/ml resveratrol	L4	whole organism	nematode
+SRR10611951	SRR10611951	suc-ste-res rep2	400mM sucrose-500mg/ml stearic acid & 500mg/ml resveratrol	L4	whole organism	nematode
+SRR10611952	SRR10611952	suc-ste-res rep3	400mM sucrose-500mg/ml stearic acid & 500mg/ml resveratrol	L4	whole organism	nematode

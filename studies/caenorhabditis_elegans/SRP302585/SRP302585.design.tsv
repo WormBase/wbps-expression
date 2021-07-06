@@ -1,0 +1,8 @@
+Run	Condition	genotype	pirnai_target_gene	title	source_name
+SRR13491850	SRR13491850	kstSi4[Pmex-5::ceGFP::tbb-2; cbr-unc-119(+)] II; unc-119(ed3)III; kstEx28 [21ur-199 anti-random DNA + Pmyo-2::mCherry + Prps-27::hygromycinR]	random DNA	Negative control for multiplex piRNAi, RNA-seq	Young adult animals
+SRR13491851	SRR13491851	kstSi4[Pmex-5::ceGFP::tbb-2; cbr-unc-119(+)] II; unc-119(ed3)III; kstEx29 [21ur-1224 mod_him-5 + 21ur-1224_mod_mCherry + 21ur-1224- anti-ceGFP + 21ur-199 anti-oma-1 + Pmyo-2::mCherry + Prps-27::hygrom	him-5, mCherry, GFP, oma-1	Multiplex piRNAi, rep 1, RNA-seq	Young adult animals
+SRR13491852	SRR13491852	kstSi4[Pmex-5::ceGFP::tbb-2; cbr-unc-119(+)] II; unc-119(ed3)III; kstEx30 [21ur-1224 mod_him-5 + 21ur-1224_mod_mCherry + 21ur-1224- anti-ceGFP + 21ur-199 anti-oma-1 + Pmyo-2::mCherry + Prps-27::hygrom	him-5, mCherry, GFP, oma-1	Multiplex piRNAi, rep 2, RNA-seq	Young adult animals
+SRR13491853	SRR13491853	kstEx19 [21ur-1224 anti-him-5 + Pmyo-2::mCherry + Prps-27::hygromycinR]	him-5	Anti-him-5 piRNAi, rep 1, RNA-seq	Young adult animals
+SRR13491854	SRR13491854	kstEx20 [21ur-1224 anti-him-5 + Pmyo-2::mCherry + Prps-27::hygromycinR]	him-5	Anti-him-5 piRNAi, rep 2, RNA-seq	Young adult animals
+SRR13491855	SRR13491855	kstEx23 [21ur-1224 anti-him-8 + Pmyo-2::mCherry + Prps-27::hygromycinR]	him-8	Anti-him-8 piRNAi, rep 1, RNA-seq	Young adult animals
+SRR13491856	SRR13491856	kstEx22 [21ur-1224 anti-him-8 + Pmyo-2::mCherry + Prps-27::hygromycinR]	him-8	Anti-him-8 piRNAi, rep 2, RNA-seq	Young adult animals

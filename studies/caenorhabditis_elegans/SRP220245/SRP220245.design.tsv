@@ -1,0 +1,13 @@
+Run	Condition	timepoint	title	treatment	source_name	strain
+SRR10065377	SRR10065377	24h	80280_tre1	480mJ/cm² of UV	L1 stage worms	N2
+SRR10065378	SRR10065378	24h	80284_tre2	480mJ/cm² of UV	L1 stage worms	N2
+SRR10065379	SRR10065379	24h	80288_tre3	480mJ/cm² of UV	L1 stage worms	N2
+SRR10065380	SRR10065380	24h	80282_ctrl1	mock-treatment	L1 stage worms	N2
+SRR10065381	SRR10065381	24h	80286_ctrl2	mock-treatment	L1 stage worms	N2
+SRR10065382	SRR10065382	24h	80290_ctrl3	mock-treatment	L1 stage worms	N2
+SRR10065383	SRR10065383	6h	N2C1	mock-treatment	L1 stage worms	N2
+SRR10065384	SRR10065384	6h	N2C2	mock-treatment	L1 stage worms	N2
+SRR10065385	SRR10065385	6h	N2C3	mock-treatment	L1 stage worms	N2
+SRR10065386	SRR10065386	6h	N2UV1	800mJ/cm² of UV	L1 stage worms	N2
+SRR10065387	SRR10065387	6h	N2UV2	800mJ/cm² of UV	L1 stage worms	N2
+SRR10065388	SRR10065388	6h	N2UV3	800mJ/cm² of UV	L1 stage worms	N2

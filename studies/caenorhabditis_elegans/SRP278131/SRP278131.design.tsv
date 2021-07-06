@@ -1,0 +1,11 @@
+Run	Condition	genotype	title	organism_part	source_name	treatment
+SRR12478497	SRR12478497	clk-2	Heat shock clk-2 rep1	whole organism	Whole animal	Heat shock
+SRR12478498	SRR12478498	N2 wild type	N2 rep1	whole organism	Whole animal	
+SRR12478499	SRR12478499	N2 wild type	N2 rep2	whole organism	Whole animal	
+SRR12478500	SRR12478500	smg-1	smg-1 rep1	whole organism	Whole animal	
+SRR12478501	SRR12478501	smg-1	smg-1 rep2	whole organism	Whole animal	
+SRR12478502	SRR12478502	smg-2	smg-2 rep1	whole organism	Whole animal	
+SRR12478503	SRR12478503	smg-2	smg-2 rep2	whole organism	Whole animal	
+SRR12478504	SRR12478504	clk-2	clk-2 rep1	whole organism	Whole animal	
+SRR12478505	SRR12478505	clk-2	clk-2 rep2	whole organism	Whole animal	
+SRR12478506	SRR12478506	N2 wild type	Heat shock N2 rep1	whole organism	Whole animal	Heat shock

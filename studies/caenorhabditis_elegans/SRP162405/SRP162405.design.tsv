@@ -1,0 +1,11 @@
+Run	Condition	strain	title	developmental_stage	source_name
+SRR7892674	SRR7892674	N2	WT rep1	day 2 post the L1 larval stage at 20C	worms
+SRR7892675	SRR7892675	N2	WT rep2	day 2 post the L1 larval stage at 20C	worms
+SRR7892676	SRR7892676	smn-1(ok355)	smn-1(ok355) rep1	day 2 post the L1 larval stage at 20C	worms
+SRR7892677	SRR7892677	smn-1(ok355)	smn-1(ok355) rep2	day 2 post the L1 larval stage at 20C	worms
+SRR7892678	SRR7892678	smn-1(ok355)	smn-1(ok355) rep3	day 2 post the L1 larval stage at 20C	worms
+SRR7892679	SRR7892679	uaf-1(n4588)	uaf-1(n4588) rep1	day 2 post the L1 larval stage at 20C	worms
+SRR7892680	SRR7892680	uaf-1(n4588)	uaf-1(n4588) rep2	day 2 post the L1 larval stage at 20C	worms
+SRR7892681	SRR7892681	uaf-1(n4588)	uaf-1(n4588) rep3	day 2 post the L1 larval stage at 20C	worms
+SRR7892682	SRR7892682	smn-1(ok355); uaf-1(n4588)	smn-1(ok355); uaf-1(n4588) rep1	day 2 post the L1 larval stage at 20C	worms
+SRR7892683	SRR7892683	smn-1(ok355); uaf-1(n4588)	smn-1(ok355); uaf-1(n4588) rep2	day 2 post the L1 larval stage at 20C	worms

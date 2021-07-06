@@ -1,78 +1,84 @@
-Run	Sample	Condition	genotype	strain	treatment
-SRR11847266	SAMN15015192	WT, heat shock	wild type	N2	heat shock
-SRR11847267	SAMN15015192	WT, heat shock	wild type	N2	heat shock
-SRR11847268	SAMN15015192	WT, heat shock	wild type	N2	heat shock
-SRR11847269	SAMN15015192	WT, heat shock	wild type	N2	heat shock
-SRR11847270	SAMN15015192	WT, heat shock	wild type	N2	heat shock
-SRR11847271	SAMN15015192	WT, heat shock	wild type	N2	heat shock
-SRR11847272	SAMN15015192	WT, heat shock	wild type	N2	heat shock
-SRR11847273	SAMN15015192	WT, heat shock	wild type	N2	heat shock
-SRR11847260	SAMN15015193	WT, heat shock	wild type	N2	heat shock
-SRR11847261	SAMN15015193	WT, heat shock	wild type	N2	heat shock
-SRR11847262	SAMN15015193	WT, heat shock	wild type	N2	heat shock
-SRR11847263	SAMN15015193	WT, heat shock	wild type	N2	heat shock
-SRR11847264	SAMN15015193	WT, heat shock	wild type	N2	heat shock
-SRR11847265	SAMN15015193	WT, heat shock	wild type	N2	heat shock
-SRR11847253	SAMN15015194	WT, heat shock	wild type	N2	heat shock
-SRR11847254	SAMN15015194	WT, heat shock	wild type	N2	heat shock
-SRR11847255	SAMN15015194	WT, heat shock	wild type	N2	heat shock
-SRR11847256	SAMN15015194	WT, heat shock	wild type	N2	heat shock
-SRR11847257	SAMN15015194	WT, heat shock	wild type	N2	heat shock
-SRR11847258	SAMN15015194	WT, heat shock	wild type	N2	heat shock
-SRR11847259	SAMN15015194	WT, heat shock	wild type	N2	heat shock
-SRR11847245	SAMN15015195	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847246	SAMN15015195	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847247	SAMN15015195	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847248	SAMN15015195	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847250	SAMN15015195	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847251	SAMN15015195	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847252	SAMN15015195	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847238	SAMN15015196	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847239	SAMN15015196	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847240	SAMN15015196	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847241	SAMN15015196	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847242	SAMN15015196	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847243	SAMN15015196	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847244	SAMN15015196	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847229	SAMN15015197	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847230	SAMN15015197	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847231	SAMN15015197	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847232	SAMN15015197	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847233	SAMN15015197	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847234	SAMN15015197	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847235	SAMN15015197	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847236	SAMN15015197	WT, non-heat shock	wild type	N2	non-heat-shock
-SRR11847306	SAMN15015186	affl-2 mutant, heat shock	affl-2(sy975)	PS8060	heat shock
-SRR11847307	SAMN15015186	affl-2 mutant, heat shock	affl-2(sy975)	PS8060	heat shock
-SRR11847311	SAMN15015186	affl-2 mutant, heat shock	affl-2(sy975)	PS8060	heat shock
-SRR11847312	SAMN15015186	affl-2 mutant, heat shock	affl-2(sy975)	PS8060	heat shock
-SRR11847313	SAMN15015186	affl-2 mutant, heat shock	affl-2(sy975)	PS8060	heat shock
-SRR11847300	SAMN15015187	affl-2 mutant, heat shock	affl-2(sy975)	PS8060	heat shock
-SRR11847301	SAMN15015187	affl-2 mutant, heat shock	affl-2(sy975)	PS8060	heat shock
-SRR11847302	SAMN15015187	affl-2 mutant, heat shock	affl-2(sy975)	PS8060	heat shock
-SRR11847303	SAMN15015187	affl-2 mutant, heat shock	affl-2(sy975)	PS8060	heat shock
-SRR11847304	SAMN15015187	affl-2 mutant, heat shock	affl-2(sy975)	PS8060	heat shock
-SRR11847305	SAMN15015187	affl-2 mutant, heat shock	affl-2(sy975)	PS8060	heat shock
-SRR11847292	SAMN15015188	affl-2 mutant, heat shock	affl-2(sy975)	PS8060	heat shock
-SRR11847293	SAMN15015188	affl-2 mutant, heat shock	affl-2(sy975)	PS8060	heat shock
-SRR11847294	SAMN15015188	affl-2 mutant, heat shock	affl-2(sy975)	PS8060	heat shock
-SRR11847295	SAMN15015188	affl-2 mutant, heat shock	affl-2(sy975)	PS8060	heat shock
-SRR11847296	SAMN15015188	affl-2 mutant, heat shock	affl-2(sy975)	PS8060	heat shock
-SRR11847297	SAMN15015188	affl-2 mutant, heat shock	affl-2(sy975)	PS8060	heat shock
-SRR11847298	SAMN15015188	affl-2 mutant, heat shock	affl-2(sy975)	PS8060	heat shock
-SRR11847299	SAMN15015188	affl-2 mutant, heat shock	affl-2(sy975)	PS8060	heat shock
-SRR11847286	SAMN15015189	affl-2 mutant, non-heat shock	affl-2(sy975)	PS8060	non-heat-shock
-SRR11847287	SAMN15015189	affl-2 mutant, non-heat shock	affl-2(sy975)	PS8060	non-heat-shock
-SRR11847288	SAMN15015189	affl-2 mutant, non-heat shock	affl-2(sy975)	PS8060	non-heat-shock
-SRR11847290	SAMN15015189	affl-2 mutant, non-heat shock	affl-2(sy975)	PS8060	non-heat-shock
-SRR11847291	SAMN15015189	affl-2 mutant, non-heat shock	affl-2(sy975)	PS8060	non-heat-shock
-SRR11847280	SAMN15015190	affl-2 mutant, non-heat shock	affl-2(sy975)	PS8060	non-heat-shock
-SRR11847281	SAMN15015190	affl-2 mutant, non-heat shock	affl-2(sy975)	PS8060	non-heat-shock
-SRR11847282	SAMN15015190	affl-2 mutant, non-heat shock	affl-2(sy975)	PS8060	non-heat-shock
-SRR11847283	SAMN15015190	affl-2 mutant, non-heat shock	affl-2(sy975)	PS8060	non-heat-shock
-SRR11847284	SAMN15015190	affl-2 mutant, non-heat shock	affl-2(sy975)	PS8060	non-heat-shock
-SRR11847274	SAMN15015191	affl-2 mutant, non-heat shock	affl-2(sy975)	PS8060	non-heat-shock
-SRR11847275	SAMN15015191	affl-2 mutant, non-heat shock	affl-2(sy975)	PS8060	non-heat-shock
-SRR11847276	SAMN15015191	affl-2 mutant, non-heat shock	affl-2(sy975)	PS8060	non-heat-shock
-SRR11847277	SAMN15015191	affl-2 mutant, non-heat shock	affl-2(sy975)	PS8060	non-heat-shock
-SRR11847278	SAMN15015191	affl-2 mutant, non-heat shock	affl-2(sy975)	PS8060	non-heat-shock
+Run	Sample	Condition	genotype	source_name	strain	title	treatment
+SRR11847310	SAMN15015186	SAMN15015186	affl-2(sy975)	affl2_HS	PS8060	affl2_HS_rep3	heat shock
+SRR11847289	SAMN15015189	SAMN15015189	affl-2(sy975)	affl2_NoHS	PS8060	affl2_NoHS_rep3	non-heat-shock
+SRR11847285	SAMN15015190	SAMN15015190	affl-2(sy975)	affl2_NoHS	PS8060	affl2_NoHS_rep2	non-heat-shock
+SRR11847279	SAMN15015191	SAMN15015191	affl-2(sy975)	affl2_NoHS	PS8060	affl2_NoHS_rep1	non-heat-shock
+SRR11847249	SAMN15015195	SAMN15015195	wild type	N2_NoHS	N2	N2_NoHS_rep3	non-heat-shock
+SRR11847237	SAMN15015196	SAMN15015196	wild type	N2_NoHS	N2	N2_NoHS_rep2	non-heat-shock
+SRR11847253	SAMN15015194	WT, heat shock	wild type	N2_HS	N2	N2_HS_rep1	heat shock
+SRR11847254	SAMN15015194	WT, heat shock	wild type	N2_HS	N2	N2_HS_rep1	heat shock
+SRR11847255	SAMN15015194	WT, heat shock	wild type	N2_HS	N2	N2_HS_rep1	heat shock
+SRR11847256	SAMN15015194	WT, heat shock	wild type	N2_HS	N2	N2_HS_rep1	heat shock
+SRR11847257	SAMN15015194	WT, heat shock	wild type	N2_HS	N2	N2_HS_rep1	heat shock
+SRR11847258	SAMN15015194	WT, heat shock	wild type	N2_HS	N2	N2_HS_rep1	heat shock
+SRR11847259	SAMN15015194	WT, heat shock	wild type	N2_HS	N2	N2_HS_rep1	heat shock
+SRR11847260	SAMN15015193	WT, heat shock	wild type	N2_HS	N2	N2_HS_rep2	heat shock
+SRR11847261	SAMN15015193	WT, heat shock	wild type	N2_HS	N2	N2_HS_rep2	heat shock
+SRR11847262	SAMN15015193	WT, heat shock	wild type	N2_HS	N2	N2_HS_rep2	heat shock
+SRR11847263	SAMN15015193	WT, heat shock	wild type	N2_HS	N2	N2_HS_rep2	heat shock
+SRR11847264	SAMN15015193	WT, heat shock	wild type	N2_HS	N2	N2_HS_rep2	heat shock
+SRR11847265	SAMN15015193	WT, heat shock	wild type	N2_HS	N2	N2_HS_rep2	heat shock
+SRR11847266	SAMN15015192	WT, heat shock	wild type	N2_HS	N2	N2_HS_rep3	heat shock
+SRR11847267	SAMN15015192	WT, heat shock	wild type	N2_HS	N2	N2_HS_rep3	heat shock
+SRR11847268	SAMN15015192	WT, heat shock	wild type	N2_HS	N2	N2_HS_rep3	heat shock
+SRR11847269	SAMN15015192	WT, heat shock	wild type	N2_HS	N2	N2_HS_rep3	heat shock
+SRR11847270	SAMN15015192	WT, heat shock	wild type	N2_HS	N2	N2_HS_rep3	heat shock
+SRR11847271	SAMN15015192	WT, heat shock	wild type	N2_HS	N2	N2_HS_rep3	heat shock
+SRR11847272	SAMN15015192	WT, heat shock	wild type	N2_HS	N2	N2_HS_rep3	heat shock
+SRR11847273	SAMN15015192	WT, heat shock	wild type	N2_HS	N2	N2_HS_rep3	heat shock
+SRR11847229	SAMN15015197	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep1	non-heat-shock
+SRR11847230	SAMN15015197	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep1	non-heat-shock
+SRR11847231	SAMN15015197	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep1	non-heat-shock
+SRR11847232	SAMN15015197	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep1	non-heat-shock
+SRR11847233	SAMN15015197	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep1	non-heat-shock
+SRR11847234	SAMN15015197	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep1	non-heat-shock
+SRR11847235	SAMN15015197	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep1	non-heat-shock
+SRR11847236	SAMN15015197	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep1	non-heat-shock
+SRR11847238	SAMN15015196	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep2	non-heat-shock
+SRR11847239	SAMN15015196	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep2	non-heat-shock
+SRR11847240	SAMN15015196	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep2	non-heat-shock
+SRR11847241	SAMN15015196	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep2	non-heat-shock
+SRR11847242	SAMN15015196	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep2	non-heat-shock
+SRR11847243	SAMN15015196	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep2	non-heat-shock
+SRR11847244	SAMN15015196	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep2	non-heat-shock
+SRR11847245	SAMN15015195	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep3	non-heat-shock
+SRR11847246	SAMN15015195	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep3	non-heat-shock
+SRR11847247	SAMN15015195	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep3	non-heat-shock
+SRR11847248	SAMN15015195	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep3	non-heat-shock
+SRR11847250	SAMN15015195	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep3	non-heat-shock
+SRR11847251	SAMN15015195	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep3	non-heat-shock
+SRR11847252	SAMN15015195	WT, non-heat shock	wild type	N2_NoHS	N2	N2_NoHS_rep3	non-heat-shock
+SRR11847292	SAMN15015188	affl-2 mutant, heat shock	affl-2(sy975)	affl2_HS	PS8060	affl2_HS_rep1	heat shock
+SRR11847293	SAMN15015188	affl-2 mutant, heat shock	affl-2(sy975)	affl2_HS	PS8060	affl2_HS_rep1	heat shock
+SRR11847294	SAMN15015188	affl-2 mutant, heat shock	affl-2(sy975)	affl2_HS	PS8060	affl2_HS_rep1	heat shock
+SRR11847295	SAMN15015188	affl-2 mutant, heat shock	affl-2(sy975)	affl2_HS	PS8060	affl2_HS_rep1	heat shock
+SRR11847296	SAMN15015188	affl-2 mutant, heat shock	affl-2(sy975)	affl2_HS	PS8060	affl2_HS_rep1	heat shock
+SRR11847297	SAMN15015188	affl-2 mutant, heat shock	affl-2(sy975)	affl2_HS	PS8060	affl2_HS_rep1	heat shock
+SRR11847298	SAMN15015188	affl-2 mutant, heat shock	affl-2(sy975)	affl2_HS	PS8060	affl2_HS_rep1	heat shock
+SRR11847299	SAMN15015188	affl-2 mutant, heat shock	affl-2(sy975)	affl2_HS	PS8060	affl2_HS_rep1	heat shock
+SRR11847300	SAMN15015187	affl-2 mutant, heat shock	affl-2(sy975)	affl2_HS	PS8060	affl2_HS_rep2	heat shock
+SRR11847301	SAMN15015187	affl-2 mutant, heat shock	affl-2(sy975)	affl2_HS	PS8060	affl2_HS_rep2	heat shock
+SRR11847302	SAMN15015187	affl-2 mutant, heat shock	affl-2(sy975)	affl2_HS	PS8060	affl2_HS_rep2	heat shock
+SRR11847303	SAMN15015187	affl-2 mutant, heat shock	affl-2(sy975)	affl2_HS	PS8060	affl2_HS_rep2	heat shock
+SRR11847304	SAMN15015187	affl-2 mutant, heat shock	affl-2(sy975)	affl2_HS	PS8060	affl2_HS_rep2	heat shock
+SRR11847305	SAMN15015187	affl-2 mutant, heat shock	affl-2(sy975)	affl2_HS	PS8060	affl2_HS_rep2	heat shock
+SRR11847306	SAMN15015186	affl-2 mutant, heat shock	affl-2(sy975)	affl2_HS	PS8060	affl2_HS_rep3	heat shock
+SRR11847307	SAMN15015186	affl-2 mutant, heat shock	affl-2(sy975)	affl2_HS	PS8060	affl2_HS_rep3	heat shock
+SRR11847311	SAMN15015186	affl-2 mutant, heat shock	affl-2(sy975)	affl2_HS	PS8060	affl2_HS_rep3	heat shock
+SRR11847312	SAMN15015186	affl-2 mutant, heat shock	affl-2(sy975)	affl2_HS	PS8060	affl2_HS_rep3	heat shock
+SRR11847313	SAMN15015186	affl-2 mutant, heat shock	affl-2(sy975)	affl2_HS	PS8060	affl2_HS_rep3	heat shock
+SRR11847274	SAMN15015191	affl-2 mutant, non-heat shock	affl-2(sy975)	affl2_NoHS	PS8060	affl2_NoHS_rep1	non-heat-shock
+SRR11847275	SAMN15015191	affl-2 mutant, non-heat shock	affl-2(sy975)	affl2_NoHS	PS8060	affl2_NoHS_rep1	non-heat-shock
+SRR11847276	SAMN15015191	affl-2 mutant, non-heat shock	affl-2(sy975)	affl2_NoHS	PS8060	affl2_NoHS_rep1	non-heat-shock
+SRR11847277	SAMN15015191	affl-2 mutant, non-heat shock	affl-2(sy975)	affl2_NoHS	PS8060	affl2_NoHS_rep1	non-heat-shock
+SRR11847278	SAMN15015191	affl-2 mutant, non-heat shock	affl-2(sy975)	affl2_NoHS	PS8060	affl2_NoHS_rep1	non-heat-shock
+SRR11847280	SAMN15015190	affl-2 mutant, non-heat shock	affl-2(sy975)	affl2_NoHS	PS8060	affl2_NoHS_rep2	non-heat-shock
+SRR11847281	SAMN15015190	affl-2 mutant, non-heat shock	affl-2(sy975)	affl2_NoHS	PS8060	affl2_NoHS_rep2	non-heat-shock
+SRR11847282	SAMN15015190	affl-2 mutant, non-heat shock	affl-2(sy975)	affl2_NoHS	PS8060	affl2_NoHS_rep2	non-heat-shock
+SRR11847283	SAMN15015190	affl-2 mutant, non-heat shock	affl-2(sy975)	affl2_NoHS	PS8060	affl2_NoHS_rep2	non-heat-shock
+SRR11847284	SAMN15015190	affl-2 mutant, non-heat shock	affl-2(sy975)	affl2_NoHS	PS8060	affl2_NoHS_rep2	non-heat-shock
+SRR11847286	SAMN15015189	affl-2 mutant, non-heat shock	affl-2(sy975)	affl2_NoHS	PS8060	affl2_NoHS_rep3	non-heat-shock
+SRR11847287	SAMN15015189	affl-2 mutant, non-heat shock	affl-2(sy975)	affl2_NoHS	PS8060	affl2_NoHS_rep3	non-heat-shock
+SRR11847288	SAMN15015189	affl-2 mutant, non-heat shock	affl-2(sy975)	affl2_NoHS	PS8060	affl2_NoHS_rep3	non-heat-shock
+SRR11847290	SAMN15015189	affl-2 mutant, non-heat shock	affl-2(sy975)	affl2_NoHS	PS8060	affl2_NoHS_rep3	non-heat-shock
+SRR11847291	SAMN15015189	affl-2 mutant, non-heat shock	affl-2(sy975)	affl2_NoHS	PS8060	affl2_NoHS_rep3	non-heat-shock

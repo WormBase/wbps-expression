@@ -1,0 +1,7 @@
+Run	Condition	sample_name	title	developmental_stage	organism_part	sex	strain
+SRR8961807	N2_OP50_1	N2_OP50_1	N2_OP50_1	56 hours	whole organism	hermaphrodite	Bristol N2
+SRR8961808	N2_OP50_2	N2_OP50_2	N2_OP50_2	56 hours	whole organism	hermaphrodite	Bristol N2
+SRR8961809	N2_OP50_3	N2_OP50_3	N2_OP50_3	56 hours	whole organism	hermaphrodite	Bristol N2
+SRR8961804	N2_Starvation_1	N2_Starvation_1	Model organism or animal sample from Caenorhabditis elegans	56 hours	whole organism	hermaphrodite	Bristol N2
+SRR8961805	N2_Starvation_2	N2_Starvation_2	Model organism or animal sample from Caenorhabditis elegans	56 hours	whole organism	hermaphrodite	Bristol N2
+SRR8961806	N2_Starvation_3	N2_Starvation_3	Model organism or animal sample from Caenorhabditis elegans	56 hours	whole organism	hermaphrodite	Bristol N2

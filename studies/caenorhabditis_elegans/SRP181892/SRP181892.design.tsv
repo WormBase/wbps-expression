@@ -1,0 +1,19 @@
+Run	Condition	genotype	title	developmental_stage	organism_part	source_name	treatment
+SRR8482953	SRR8482953	N2	N2_rep1_RNA-seq	young adult, 48 hours post hatching	whole organism	nematodes	
+SRR8482954	SRR8482954	N2	N2_rep2_RNA-seq	young adult, 48 hours post hatching	whole organism	nematodes	
+SRR8482955	SRR8482955	prg-1(n4357)	prg-1_n4357_rep1_RNA-seq	young adult, 48 hours post hatching	whole organism	nematodes	
+SRR8482956	SRR8482956	prg-1(n4357)	prg-1_n4357_rep2_RNA-seq	young adult, 48 hours post hatching	whole organism	nematodes	
+SRR8482957	SRR8482957	WT derived from CRISPR-cas9 piwi mutant line 1	WT_CRISPR_line1_F4_RNA-seq	young adult, 48 hours post hatching	whole organism	nematodes	
+SRR8482958	SRR8482958	WT derived from CRISPR-cas9 piwi mutant line 2	WT_CRISPR_line2_F4_RNA-seq	young adult, 48 hours post hatching	whole organism	nematodes	
+SRR8482959	SRR8482959	CRISPR-cas9 piwi mutant line 1	piwi_CRISPR_line1_F4_RNA-seq	young adult, 48 hours post hatching	whole organism	nematodes	
+SRR8482960	SRR8482960	CRISPR-cas9 piwi mutant line 2	piwi_CRISPR_line2_F4_RNA-seq	young adult, 48 hours post hatching	whole organism	nematodes	
+SRR8482961	SRR8482961	WT derived from CRISPR-cas9 piwi mutant line 1	WT_CRISPR_line1_F9_RNA-seq	young adult, 48 hours post hatching	whole organism	nematodes	
+SRR8482962	SRR8482962	WT derived from CRISPR-cas9 piwi mutant line 2	WT_CRISPR_line2_F9_RNA-seq	young adult, 48 hours post hatching	whole organism	nematodes	
+SRR8482963	SRR8482963	CRISPR-cas9 piwi mutant line 1	piwi_CRISPR_line1_F9_RNA-seq	young adult, 48 hours post hatching	whole organism	nematodes	
+SRR8482964	SRR8482964	CRISPR-cas9 piwi mutant line 2	piwi_CRISPR_line2_F9_RNA-seq	young adult, 48 hours post hatching	whole organism	nematodes	
+SRR8482965	SRR8482965	WT derived from CRISPR-cas9 piwi mutant line 1	WT_CRISPR_line1_F12_RNA-seq	young adult, 48 hours post hatching	whole organism	nematodes	
+SRR8482966	SRR8482966	WT derived from CRISPR-cas9 piwi mutant line 2	WT_CRISPR_line2_F12_RNA-seq	young adult, 48 hours post hatching	whole organism	nematodes	
+SRR8482967	SRR8482967	CRISPR-cas9 piwi mutant line 1	piwi_CRISPR_line1_F12_RNA-seq	young adult, 48 hours post hatching	whole organism	nematodes	
+SRR8482968	SRR8482968	CRISPR-cas9 piwi mutant line 2	piwi_CRISPR_line2_F12_RNA-seq	young adult, 48 hours post hatching	whole organism	nematodes	
+SRR8482969	SRR8482969	CRISPR-cas9 piwi mutant line 1	piwi_CRISPR_line1_F12_mut16_RNAi_RNA-seq	young adult, 48 hours post hatching	whole organism	nematodes	RNAi treatment mut-16
+SRR8482970	SRR8482970	CRISPR-cas9 piwi mutant line 2	piwi_CRISPR_line2_F12_mut16_RNAi_RNA-seq	young adult, 48 hours post hatching	whole organism	nematodes	RNAi treatment mut-16

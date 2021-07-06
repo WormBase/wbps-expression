@@ -1,0 +1,28 @@
+Run	Condition	rnai_clone	source_name	title	stage_at_harvesting	strain
+SRR9107815	SRR9107815	E. coli HT115	N2 + ev_rep1	N2 + ev_rep1	L4/young adult	N2
+SRR9107816	SRR9107816	E. coli HT115	N2 + ev_rep2	N2 + ev_rep2	L4/young adult	N2
+SRR9107817	SRR9107817	E. coli HT115	N2 + ev_rep3	N2 + ev_rep3	L4/young adult	N2
+SRR9107818	SRR9107818	E. coli HT115, cbp-1 RNAi	N2 + cbp-1 RNAi_rep1	N2 + cbp-1 RNAi_rep1	L4/young adult	N2
+SRR9107819	SRR9107819	E. coli HT115, cbp-1 RNAi	N2 + cbp-1 RNAi_rep2	N2 + cbp-1 RNAi_rep2	L4/young adult	N2
+SRR9107820	SRR9107820	E. coli HT115, cbp-1 RNAi	N2 + cbp-1 RNAi_rep3	N2 + cbp-1 RNAi_rep3	L4/young adult	N2
+SRR9107821	SRR9107821	E. coli HT115, atfs-1 RNAi	N2 + atfs-1 RNAi_rep1	N2 + atfs-1 RNAi_rep1	L4/young adult	N2
+SRR9107822	SRR9107822	E. coli HT115, atfs-1 RNAi	N2 + atfs-1 RNAi_rep2	N2 + atfs-1 RNAi_rep2	L4/young adult	N2
+SRR9107823	SRR9107823	E. coli HT115, atfs-1 RNAi	N2 + atfs-1 RNAi_rep3	N2 + atfs-1 RNAi_rep3	L4/young adult	N2
+SRR9107824	SRR9107824	E. coli HT115, cco-1 RNAi	N2 + 50% ev + 50% cco-1 RNAi_rep1	N2 + 50% ev + 50% cco-1 RNAi_rep1	L4/young adult	N2
+SRR9107825	SRR9107825	E. coli HT115, cco-1 RNAi	N2 + 50% ev + 50% cco-1 RNAi_rep2	N2 + 50% ev + 50% cco-1 RNAi_rep2	L4/young adult	N2
+SRR9107826	SRR9107826	E. coli HT115, cco-1 RNAi	N2 + 50% ev + 50% cco-1 RNAi_rep3	N2 + 50% ev + 50% cco-1 RNAi_rep3	L4/young adult	N2
+SRR9107827	SRR9107827	E. coli HT115, cco-1 RNAi, cbp-1 RNAi	N2 + 50% cco-1 RNAi + 25% cbp-1 RNAi + 25% ev_rep1	N2 + 50% cco-1 RNAi + 25% cbp-1 RNAi + 25% ev_rep1	L4/young adult	N2
+SRR9107828	SRR9107828	E. coli HT115, cco-1 RNAi, cbp-1 RNAi	N2 + 50% cco-1 RNAi + 25% cbp-1 RNAi + 25% ev_rep2	N2 + 50% cco-1 RNAi + 25% cbp-1 RNAi + 25% ev_rep2	L4/young adult	N2
+SRR9107829	SRR9107829	E. coli HT115, cco-1 RNAi, cbp-1 RNAi	N2 + 50% cco-1 RNAi + 25% cbp-1 RNAi + 25% ev_rep3	N2 + 50% cco-1 RNAi + 25% cbp-1 RNAi + 25% ev_rep3	L4/young adult	N2
+SRR9107830	SRR9107830	E. coli HT115, cco-1 RNAi, atfs-1-1 RNAi	N2 + 50% cco-1 RNAi + 50% atfs-1 RNAi_ rep1	N2 + 50% cco-1 RNAi + 50% atfs-1 RNAi_ rep1	L4/young adult	N2
+SRR9107831	SRR9107831	E. coli HT115, cco-1 RNAi, atfs-1-1 RNAi	N2 + 50% cco-1 RNAi + 50% atfs-1 RNAi_ rep2	N2 + 50% cco-1 RNAi + 50% atfs-1 RNAi_ rep2	L4/young adult	N2
+SRR9107832	SRR9107832	E. coli HT115, cco-1 RNAi, atfs-1-1 RNAi	N2 + 50% cco-1 RNAi + 50% atfs-1 RNAi_ rep3	N2 + 50% cco-1 RNAi + 50% atfs-1 RNAi_ rep3	L4/young adult	N2
+SRR9107833	SRR9107833	E. coli HT115, mrps-5 RNAi	N2 + 50% mrps-5 RNAi + 50% ev_ rep1	N2 + 50% mrps-5 RNAi + 50% ev_ rep1	L4/young adult	N2
+SRR9107834	SRR9107834	E. coli HT115, mrps-5 RNAi	N2 + 50% mrps-5 RNAi + 50% ev_ rep2	N2 + 50% mrps-5 RNAi + 50% ev_ rep2	L4/young adult	N2
+SRR9107835	SRR9107835	E. coli HT115, mrps-5 RNAi	N2 + 50% mrps-5 RNAi + 50% ev_ rep3	N2 + 50% mrps-5 RNAi + 50% ev_ rep3	L4/young adult	N2
+SRR9107836	SRR9107836	E. coli HT115, mrps-5 RNAi, cbp-1 RNAi	N2 + 50% mrps-5 RNAi + 25%cbp-1 RNAi + 25% ev_rep1	N2 + 50% mrps-5 RNAi + 25%cbp-1 RNAi + 25% ev_rep1	L4/young adult	N2
+SRR9107837	SRR9107837	E. coli HT115, mrps-5 RNAi, cbp-1 RNAi	N2 + 50% mrps-5 RNAi + 25%cbp-1 RNAi + 25% ev_rep2	N2 + 50% mrps-5 RNAi + 25%cbp-1 RNAi + 25% ev_rep2	L4/young adult	N2
+SRR9107838	SRR9107838	E. coli HT115, mrps-5 RNAi, cbp-1 RNAi	N2 + 50% mrps-5 RNAi + 25%cbp-1 RNAi + 25% ev_rep3	N2 + 50% mrps-5 RNAi + 25%cbp-1 RNAi + 25% ev_rep3	L4/young adult	N2
+SRR9107839	SRR9107839	E. coli HT115, mrps-5 RNAi, atfs-1 RNAi	N2 + 50% mrps-5 RNAi + 50% atfs-1 RNAi_ rep1	N2 + 50% mrps-5 RNAi + 50% atfs-1 RNAi_ rep1	L4/young adult	N2
+SRR9107840	SRR9107840	E. coli HT115, mrps-5 RNAi, atfs-1 RNAi	N2 + 50% mrps-5 RNAi + 50% atfs-1 RNAi_ rep2	N2 + 50% mrps-5 RNAi + 50% atfs-1 RNAi_ rep2	L4/young adult	N2
+SRR9107841	SRR9107841	E. coli HT115, mrps-5 RNAi, atfs-1 RNAi	N2 + 50% mrps-5 RNAi + 50% atfs-1 RNAi_ rep3	N2 + 50% mrps-5 RNAi + 50% atfs-1 RNAi_ rep3	L4/young adult	N2

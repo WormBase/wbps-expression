@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA607253
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-10-21
+ena_last_update: 2021-01-04
+pubmed:
+  33298437:
+    - 'Cassart .. Hermand, 2020'
+    - 'HASH(0x6be6f78) (Cassart .. Hermand, 2020)'
+resource_links: []
+rnaseqer_last_update: 2020-12-03
+submitting_centre: "François Bachand's lab, Biochemistry and functional genomics, Sherbrooke University"
+title: 'RNA polymerase II CTD S2P is dispensable during embryogenesis but regulates the developmental diapause in C. elegans [RNA-seq]'

@@ -1,0 +1,25 @@
+Run	Condition	collection_date	isolate	sample_name	sex	title	developmental_stage	geo_loc_name	host	organism_part
+SRR7867982	F1 Schistosoma bovis x haematobium female	2017	homospecific pairing	F1 Schistosoma bovis x haematobium female	female	f1_f_1	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867984	F1 Schistosoma bovis x haematobium female	2017	homospecific pairing	F1 Schistosoma bovis x haematobium female	female	f1_f_3	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867985	F1 Schistosoma bovis x haematobium female	2017	homospecific pairing	F1 Schistosoma bovis x haematobium female	female	f1_f_2	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867980	F1 Schistosoma bovis x haematobium male	2017	homospecific pairing	F1 Schistosoma bovis x haematobium male	male	f1_m_2	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867981	F1 Schistosoma bovis x haematobium male	2017	homospecific pairing	F1 Schistosoma bovis x haematobium male	male	f1_m_1	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867983	F1 Schistosoma bovis x haematobium male	2017	homospecific pairing	F1 Schistosoma bovis x haematobium male	male	f1_m_3	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867956	F1' Schistosoma haematobium x bovis female	2017	homospecific pairing	F1' Schistosoma haematobium x bovis female	female	f1'_f_2	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867959	F1' Schistosoma haematobium x bovis female	2017	homospecific pairing	F1' Schistosoma haematobium x bovis female	female	f1'_f_3	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867978	F1' Schistosoma haematobium x bovis female	2017	homospecific pairing	F1' Schistosoma haematobium x bovis female	female	f1'_f_1	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867979	F1' Schistosoma haematobium x bovis male	2017	homospecific pairing	F1' Schistosoma haematobium x bovis male	male	f1'_m_3	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867986	F1' Schistosoma haematobium x bovis male	2017	homospecific pairing	F1' Schistosoma haematobium x bovis male	male	f1'_m_2	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867987	F1' Schistosoma haematobium x bovis male	2017	homospecific pairing	F1' Schistosoma haematobium x bovis male	male	f1'_m_1	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR12095628	Schistosoma haematobium female (heterospecific pairing)	2017	heterospecific pairing	Schistosoma haematobium female (heterospecific pairing)	female	sh_f_he_3	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867962	Schistosoma haematobium female (heterospecific pairing)	2017	heterospecific pairing	Schistosoma haematobium female (heterospecific pairing)	female	sh_f_he_1	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867963	Schistosoma haematobium female (heterospecific pairing)	2017	heterospecific pairing	Schistosoma haematobium female (heterospecific pairing)	female	sh_f_he_2	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867975	Schistosoma haematobium female (homospecific pairing)	2017	homospecific pairing	Schistosoma haematobium female (homospecific pairing)	female	sh_f_ho_1	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867976	Schistosoma haematobium female (homospecific pairing)	2017	homospecific pairing	Schistosoma haematobium female (homospecific pairing)	female	sh_f_ho_2	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867977	Schistosoma haematobium female (homospecific pairing)	2018	homospecific pairing	Schistosoma haematobium female (homospecific pairing)	female	sh_f_ho_3	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR12095627	Schistosoma haematobium male (heterospecific pairing)	2017	heterospecific pairing	Schistosoma haematobium male (heterospecific pairing)	male	sh_m_he_3	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867964	Schistosoma haematobium male (heterospecific pairing)	2017	heterospecific pairing	Schistosoma haematobium male (heterospecific pairing)	male	sh_m_he_1	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867965	Schistosoma haematobium male (heterospecific pairing)	2017	heterospecific pairing	Schistosoma haematobium male (heterospecific pairing)	male	sh_m_he_2	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867957	Schistosoma haematobium male (homospecific pairing)	2017	homospecific pairing	Schistosoma haematobium male (homospecific pairing)	male	sh_m_ho_2	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867958	Schistosoma haematobium male (homospecific pairing)	2017	homospecific pairing	Schistosoma haematobium male (homospecific pairing)	male	sh_m_ho_1	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867974	Schistosoma haematobium male (homospecific pairing)	2018	homospecific pairing	Schistosoma haematobium male (homospecific pairing)	male	sh_m_ho_3	adult	France: Perpignan	Mesocricetus auratus	whole organism

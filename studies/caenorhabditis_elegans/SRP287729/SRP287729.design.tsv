@@ -1,0 +1,7 @@
+Run	Condition	sample_name	strain	title	developmental_stage	organism_part	sex
+SRR12846160	cel_N2_1	cel_N2_1	N2	N2_replication1	Larval 1	whole organism	hermaphrodite
+SRR12846159	cel_N2_2	cel_N2_2	N2	N2_replication2	Larval 1	whole organism	hermaphrodite
+SRR12846158	cel_N2_3	cel_N2_3	N2	N2_replication3	Larval 1	whole organism	hermaphrodite
+SRR12846157	cel_fust1_1	cel_fust1_1	fust-1(csb21)	fust1_replication1	Larval 1	whole organism	hermaphrodite
+SRR12846156	cel_fust1_2	cel_fust1_2	fust-1(csb21)	fust1_replication2	Larval 1	whole organism	hermaphrodite
+SRR12846155	cel_fust1_3	cel_fust1_3	fust-1(csb21)	fust1_replication3	Larval 1	whole organism	hermaphrodite

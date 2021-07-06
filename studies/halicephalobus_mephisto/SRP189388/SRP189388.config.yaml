@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA528747
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-10-10
+ena_last_update: 2019-10-10
+pubmed:
+  31754114:
+    - 'Weinstein .. Bracht, 2019'
+    - 'The genome of a subterrestrial nematode reveals adaptations to heat. (Weinstein .. Bracht, 2019)'
+resource_links: []
+rnaseqer_last_update: 2021-01-19
+submitting_centre: American University
+title: Genomic analysis of a subterrestrial nematode

@@ -1,0 +1,10 @@
+Run	Condition	agent	source_name	title	developmental_stage
+SRR11996348	SRR11996348	Control (unexposed)	C.elegans L4_BaP 0_1	C.elegans L4_BaP 0_rep1	staged L4 hermaphrodite
+SRR11996349	SRR11996349	Control (unexposed)	C.elegans L4_BaP 0_2	C.elegans L4_BaP 0_rep2	staged L4 hermaphrodite
+SRR11996350	SRR11996350	Control (unexposed)	C.elegans L4_BaP 0_3	C.elegans L4_BaP 0_rep3	staged L4 hermaphrodite
+SRR11996351	SRR11996351	Benzo[a]pyrene exposed (5 microM)	C.elegans L4_BaP 5_1	C.elegans L4_BaP 5_rep1	staged L4 hermaphrodite
+SRR11996352	SRR11996352	Benzo[a]pyrene exposed (5 microM)	C.elegans L4_BaP 5_2	C.elegans L4_BaP 5_rep2	staged L4 hermaphrodite
+SRR11996353	SRR11996353	Benzo[a]pyrene exposed (5 microM)	C.elegans L4_BaP 5_3	C.elegans L4_BaP 5_rep3	staged L4 hermaphrodite
+SRR11996354	SRR11996354	Benzo[a]pyrene exposed (20 microM)	C.elegans L4_BaP 20_1	C.elegans L4_BaP 20_rep1	staged L4 hermaphrodite
+SRR11996355	SRR11996355	Benzo[a]pyrene exposed (20 microM)	C.elegans L4_BaP 20_2	C.elegans L4_BaP 20_rep2	staged L4 hermaphrodite
+SRR11996356	SRR11996356	Benzo[a]pyrene exposed (20 microM)	C.elegans L4_BaP 20_3	C.elegans L4_BaP 20_rep3	staged L4 hermaphrodite

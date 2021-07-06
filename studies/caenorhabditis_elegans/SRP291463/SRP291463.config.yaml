@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA675108
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-11-08
+ena_last_update: 2020-11-09
+pubmed:
+  33051256:
+    - 'Vishnupriya .. Subramaniam, 2020'
+    - 'HASH(0x6c3ac10) (Vishnupriya .. Subramaniam, 2020)'
+resource_links: []
+rnaseqer_last_update: 2020-12-02
+submitting_centre: 'Department of Biotechnology, Indian Institute of Technology Madras'
+title: Transcritome profiling of plp-1-mutant Caenorhabditis elegans

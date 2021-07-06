@@ -1,0 +1,7 @@
+Run	Condition	depletion	title	cell_cycle	irradiation_sensitivity	source_name
+SRR9686833	SRR9686833	gfp (control)	gfp(RNAi) rep1	mitotically active	irradiation sensitive	X1
+SRR9686834	SRR9686834	gfp (control)	gfp(RNAi) rep2	mitotically active	irradiation sensitive	X1
+SRR9686835	SRR9686835	gfp (control)	gfp(RNAi) rep3	mitotically active	irradiation sensitive	X1
+SRR9686836	SRR9686836	Smed-exoc3	Smed-exoc3(RNAi) rep1	mitotically active	irradiation sensitive	X1
+SRR9686837	SRR9686837	Smed-exoc3	Smed-exoc3(RNAi) rep2	mitotically active	irradiation sensitive	X1
+SRR9686838	SRR9686838	Smed-exoc3	Smed-exoc3(RNAi) rep3	mitotically active	irradiation sensitive	X1

@@ -1,0 +1,16 @@
+---
+bioproject: PRJEB34039
+category: Other
+contrasts: []
+description: The difference in translation between CGCM and SKN-1b mutant
+ena_first_public: 2020-08-13
+ena_last_update: 2019-08-16
+pubmed: {}
+resource_links:
+  -
+    - ArrayExpress
+    - E-MTAB-8253 in ArrayExpress
+    - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-8253
+rnaseqer_last_update: 2020-11-20
+submitting_centre: University of Kent
+title: RNA-seq of C. Elegans control vs SKN-1b mutant

@@ -1,0 +1,25 @@
+Run	Condition	title	organism_part	source_name
+SRR11584271	SRR11584271	polyAwt_rep1	whole organism	whole animal
+SRR11584272	SRR11584272	polyAwt_rep2	whole organism	whole animal
+SRR11584273	SRR11584273	polyAwt_rep3	whole organism	whole animal
+SRR11584274	SRR11584274	polyArpb9mj261_rep1	whole organism	whole animal
+SRR11584275	SRR11584275	polyArpb9mj261_rep2	whole organism	whole animal
+SRR11584276	SRR11584276	polyArpb9mj261_rep3	whole organism	whole animal
+SRR11584277	SRR11584277	ribozerowt_rep1	whole organism	whole animal
+SRR11584278	SRR11584278	ribozerowt_rep2	whole organism	whole animal
+SRR11584279	SRR11584279	ribozerowt_rep3	whole organism	whole animal
+SRR11584280	SRR11584280	ribozerorpb9mj261_rep1	whole organism	whole animal
+SRR11584281	SRR11584281	ribozerorpb9mj261_rep2	whole organism	whole animal
+SRR11584282	SRR11584282	ribozerorpb9mj261_rep3	whole organism	whole animal
+SRR11584313	SRR11584313	ribozero_set2_lane1_wt_rep1	whole organism	whole animal
+SRR11584314	SRR11584314	ribozero_set2_lane2_wt_rep1	whole organism	whole animal
+SRR11584315	SRR11584315	ribozero_set2_lane1_wt_rep2	whole organism	whole animal
+SRR11584316	SRR11584316	ribozero_set2_lane2_wt_rep2	whole organism	whole animal
+SRR11584317	SRR11584317	ribozero_set2_lane1_wt_rep3	whole organism	whole animal
+SRR11584318	SRR11584318	ribozero_set2_lane2_wt_rep3	whole organism	whole animal
+SRR11584319	SRR11584319	ribozero_set2_lane1_prg1n4357_rep1	whole organism	whole animal
+SRR11584320	SRR11584320	ribozero_set2_lane2_prg1n4357_rep1	whole organism	whole animal
+SRR11584321	SRR11584321	ribozero_set2_lane1_prg1n4357_rep2	whole organism	whole animal
+SRR11584322	SRR11584322	ribozero_set2_lane2_prg1n4357_rep2	whole organism	whole animal
+SRR11584323	SRR11584323	ribozero_set2_lane1_prg1n4357_rep3	whole organism	whole animal
+SRR11584324	SRR11584324	ribozero_set2_lane2_prg1n4357_rep3	whole organism	whole animal
