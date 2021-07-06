@@ -1,7 +1,27 @@
 ---
 bioproject: PRJNA491632
 category: Other
-contrasts: []
+contrasts:
+  - name: sample_name+sex
+    values:
+      -
+        - Schistosoma bovis female (heterospecific pairing)
+        - Schistosoma bovis male (heterospecific pairing)
+        - 'Schistosoma bovis female (heterospecific pairing), female vs Schistosoma bovis male (heterospecific pairing), male'
+      -
+        - Schistosoma bovis female (homospecific pairing)
+        - Schistosoma bovis male (homospecific pairing)
+        - 'Schistosoma bovis female (homospecific pairing), female vs Schistosoma bovis male (homospecific pairing), male'
+  - name: isolate+sample_name
+    values:
+      -
+        - Schistosoma bovis female (heterospecific pairing)
+        - Schistosoma bovis female (homospecific pairing)
+        - 'Schistosoma bovis female (): heterospecific pairing, Schistosoma bovis female (heterospecific pairing) vs homospecific pairing, Schistosoma bovis female (homospecific pairing)'
+      -
+        - Schistosoma bovis male (heterospecific pairing)
+        - Schistosoma bovis male (homospecific pairing)
+        - 'Schistosoma bovis male (): heterospecific pairing, Schistosoma bovis male (heterospecific pairing) vs homospecific pairing, Schistosoma bovis male (homospecific pairing)'
 description: ''
 ena_first_public: 2019-09-28
 ena_last_update: 2019-09-28
