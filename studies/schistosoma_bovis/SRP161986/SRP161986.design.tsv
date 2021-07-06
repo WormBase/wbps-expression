@@ -1,13 +1,13 @@
-Run	Condition	collection_date	isolate	sample_name	sex	title	developmental_stage	geo_loc_name	host	organism_part
-SRR12095626	Schistosoma bovis female (heterospecific pairing)	2017	heterospecific pairing	Schistosoma bovis female (heterospecific pairing)	female	sb_f_he_3	adult	France: Perpignan	Mesocricetus auratus	whole organism
-SRR7867966	Schistosoma bovis female (heterospecific pairing)	2017	heterospecific pairing	Schistosoma bovis female (heterospecific pairing)	female	sb_f_he_1	adult	France: Perpignan	Mesocricetus auratus	whole organism
-SRR7867967	Schistosoma bovis female (heterospecific pairing)	2017	heterospecific pairing	Schistosoma bovis female (heterospecific pairing)	female	sb_f_he_2	adult	France: Perpignan	Mesocricetus auratus	whole organism
-SRR7867968	Schistosoma bovis female (homospecific pairing)	2017	homospecific pairing	Schistosoma bovis female (homospecific pairing)	female	sb_f_ho_2	adult	France: Perpignan	Mesocricetus auratus	whole organism
-SRR7867969	Schistosoma bovis female (homospecific pairing)	2018	homospecific pairing	Schistosoma bovis female (homospecific pairing)	female	sb_f_ho_3	adult	France: Perpignan	Mesocricetus auratus	whole organism
-SRR7867973	Schistosoma bovis female (homospecific pairing)	2017	homospecific pairing	Schistosoma bovis female (homospecific pairing)	female	sb_f_ho_1	adult	France: Perpignan	Mesocricetus auratus	whole organism
-SRR12095629	Schistosoma bovis male (heterospecific pairing)	2017	heterospecific pairing	Schistosoma bovis male (heterospecific pairing)	male	sb_m_he_3	adult	France: Perpignan	Mesocricetus auratus	whole organism
-SRR7867960	Schistosoma bovis male (heterospecific pairing)	2017	heterospecific pairing	Schistosoma bovis male (heterospecific pairing)	male	sb_m_he_1	adult	France: Perpignan	Mesocricetus auratus	whole organism
-SRR7867961	Schistosoma bovis male (heterospecific pairing)	2017	heterospecific pairing	Schistosoma bovis male (heterospecific pairing)	male	sb_m_he_2	adult	France: Perpignan	Mesocricetus auratus	whole organism
-SRR7867970	Schistosoma bovis male (homospecific pairing)	2017	homospecific pairing	Schistosoma bovis male (homospecific pairing)	male	sb_m_ho_1	adult	France: Perpignan	Mesocricetus auratus	whole organism
-SRR7867971	Schistosoma bovis male (homospecific pairing)	2017	homospecific pairing	Schistosoma bovis male (homospecific pairing)	male	sb_m_ho_2	adult	France: Perpignan	Mesocricetus auratus	whole organism
-SRR7867972	Schistosoma bovis male (homospecific pairing)	2018	homospecific pairing	Schistosoma bovis male (homospecific pairing)	male	sb_m_ho_3	adult	France: Perpignan	Mesocricetus auratus	whole organism
+Run	Condition	isolate	sample_name	sex	developmental_stage	geo_loc_name	host	organism_part
+SRR12095626	Schistosoma bovis female (heterospecific pairing)	heterospecific pairing	Schistosoma bovis female (heterospecific pairing)	female	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867966	Schistosoma bovis female (heterospecific pairing)	heterospecific pairing	Schistosoma bovis female (heterospecific pairing)	female	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867967	Schistosoma bovis female (heterospecific pairing)	heterospecific pairing	Schistosoma bovis female (heterospecific pairing)	female	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867968	Schistosoma bovis female (homospecific pairing)	homospecific pairing	Schistosoma bovis female (homospecific pairing)	female	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867969	Schistosoma bovis female (homospecific pairing)	homospecific pairing	Schistosoma bovis female (homospecific pairing)	female	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867973	Schistosoma bovis female (homospecific pairing)	homospecific pairing	Schistosoma bovis female (homospecific pairing)	female	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR12095629	Schistosoma bovis male (heterospecific pairing)	heterospecific pairing	Schistosoma bovis male (heterospecific pairing)	male	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867960	Schistosoma bovis male (heterospecific pairing)	heterospecific pairing	Schistosoma bovis male (heterospecific pairing)	male	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867961	Schistosoma bovis male (heterospecific pairing)	heterospecific pairing	Schistosoma bovis male (heterospecific pairing)	male	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867970	Schistosoma bovis male (homospecific pairing)	homospecific pairing	Schistosoma bovis male (homospecific pairing)	male	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867971	Schistosoma bovis male (homospecific pairing)	homospecific pairing	Schistosoma bovis male (homospecific pairing)	male	adult	France: Perpignan	Mesocricetus auratus	whole organism
+SRR7867972	Schistosoma bovis male (homospecific pairing)	homospecific pairing	Schistosoma bovis male (homospecific pairing)	male	adult	France: Perpignan	Mesocricetus auratus	whole organism
