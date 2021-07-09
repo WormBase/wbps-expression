@@ -1,28 +1,28 @@
 Run	Condition	developmental_stage	genotype	organism_part	source_name	strain	title
-SRR12462812	sc_nave_whole	Infective Juvenile (IJ)	wild type	whole organism	not activated Infective Juvenile(IJ)	ALL	sc_nave_whole
-SRR12462813	sc_nave_whole	Infective Juvenile (IJ)	wild type	whole organism	not activated Infective Juvenile(IJ)	ALL	sc_nave_whole
-SRR12462814	sc_nave_whole	Infective Juvenile (IJ)	wild type	whole organism	not activated Infective Juvenile(IJ)	ALL	sc_nave_whole
-SRR12462815	sc_nave_head	Infective Juvenile (IJ)	wild type	head	not activated Infective Juvenile(IJ)	ALL	sc_nave_head
-SRR12462816	sc_nave_head	Infective Juvenile (IJ)	wild type	head	not activated Infective Juvenile(IJ)	ALL	sc_nave_head
-SRR12462817	sc_nave_head	Infective Juvenile (IJ)	wild type	head	not activated Infective Juvenile(IJ)	ALL	sc_nave_head
-SRR12462818	sc_nave_tail	Infective Juvenile (IJ)	wild type	tail	not activated Infective Juvenile(IJ)	ALL	sc_nave_tail
-SRR12462819	sc_nave_tail	Infective Juvenile (IJ)	wild type	tail	not activated Infective Juvenile(IJ)	ALL	sc_nave_tail
-SRR12462820	sc_nave_tail	Infective Juvenile (IJ)	wild type	tail	not activated Infective Juvenile(IJ)	ALL	sc_nave_tail
-SRR12462821	sc_female_whole	young adult	wild type	whole organism	activated in lawn of Xenorhabdus nematophila	ALL	sc_female_whole
-SRR12462822	sc_female_whole	young adult	wild type	whole organism	activated in lawn of Xenorhabdus nematophila	ALL	sc_female_whole
-SRR12462823	sc_female_whole	young adult	wild type	whole organism	activated in lawn of Xenorhabdus nematophila	ALL	sc_female_whole
 SRR12462824	sc_female_head	young adult	wild type	head	activated in lawn of Xenorhabdus nematophila	ALL	sc_female_head
 SRR12462825	sc_female_head	young adult	wild type	head	activated in lawn of Xenorhabdus nematophila	ALL	sc_female_head
 SRR12462826	sc_female_head	young adult	wild type	head	activated in lawn of Xenorhabdus nematophila	ALL	sc_female_head
 SRR12462827	sc_female_tail	young adult	wild type	tail	activated in lawn of Xenorhabdus nematophila	ALL	sc_female_tail
 SRR12462828	sc_female_tail	young adult	wild type	tail	activated in lawn of Xenorhabdus nematophila	ALL	sc_female_tail
 SRR12462829	sc_female_tail	young adult	wild type	tail	activated in lawn of Xenorhabdus nematophila	ALL	sc_female_tail
-SRR12462830	sc_male_whole	young adult	wild type	whole organism	activated in lawn of Xenorhabdus nematophila	ALL	sc_male_whole
-SRR12462831	sc_male_whole	young adult	wild type	whole organism	activated in lawn of Xenorhabdus nematophila	ALL	sc_male_whole
-SRR12462832	sc_male_whole	young adult	wild type	whole organism	activated in lawn of Xenorhabdus nematophila	ALL	sc_male_whole
+SRR12462821	sc_female_whole	young adult	wild type	whole organism	activated in lawn of Xenorhabdus nematophila	ALL	sc_female_whole
+SRR12462822	sc_female_whole	young adult	wild type	whole organism	activated in lawn of Xenorhabdus nematophila	ALL	sc_female_whole
+SRR12462823	sc_female_whole	young adult	wild type	whole organism	activated in lawn of Xenorhabdus nematophila	ALL	sc_female_whole
 SRR12462833	sc_male_head	young adult	wild type	head	activated in lawn of Xenorhabdus nematophila	ALL	sc_male_head
 SRR12462834	sc_male_head	young adult	wild type	head	activated in lawn of Xenorhabdus nematophila	ALL	sc_male_head
 SRR12462835	sc_male_head	young adult	wild type	head	activated in lawn of Xenorhabdus nematophila	ALL	sc_male_head
 SRR12462836	sc_male_tail	young adult	wild type	tail	activated in lawn of Xenorhabdus nematophila	ALL	sc_male_tail
 SRR12462837	sc_male_tail	young adult	wild type	tail	activated in lawn of Xenorhabdus nematophila	ALL	sc_male_tail
 SRR12462838	sc_male_tail	young adult	wild type	tail	activated in lawn of Xenorhabdus nematophila	ALL	sc_male_tail
+SRR12462830	sc_male_whole	young adult	wild type	whole organism	activated in lawn of Xenorhabdus nematophila	ALL	sc_male_whole
+SRR12462831	sc_male_whole	young adult	wild type	whole organism	activated in lawn of Xenorhabdus nematophila	ALL	sc_male_whole
+SRR12462832	sc_male_whole	young adult	wild type	whole organism	activated in lawn of Xenorhabdus nematophila	ALL	sc_male_whole
+SRR12462815	sc_nave_head	Infective Juvenile (IJ)	wild type	head	not activated Infective Juvenile(IJ)	ALL	sc_nave_head
+SRR12462816	sc_nave_head	Infective Juvenile (IJ)	wild type	head	not activated Infective Juvenile(IJ)	ALL	sc_nave_head
+SRR12462817	sc_nave_head	Infective Juvenile (IJ)	wild type	head	not activated Infective Juvenile(IJ)	ALL	sc_nave_head
+SRR12462818	sc_nave_tail	Infective Juvenile (IJ)	wild type	tail	not activated Infective Juvenile(IJ)	ALL	sc_nave_tail
+SRR12462819	sc_nave_tail	Infective Juvenile (IJ)	wild type	tail	not activated Infective Juvenile(IJ)	ALL	sc_nave_tail
+SRR12462820	sc_nave_tail	Infective Juvenile (IJ)	wild type	tail	not activated Infective Juvenile(IJ)	ALL	sc_nave_tail
+SRR12462812	sc_nave_whole	Infective Juvenile (IJ)	wild type	whole organism	not activated Infective Juvenile(IJ)	ALL	sc_nave_whole
+SRR12462813	sc_nave_whole	Infective Juvenile (IJ)	wild type	whole organism	not activated Infective Juvenile(IJ)	ALL	sc_nave_whole
+SRR12462814	sc_nave_whole	Infective Juvenile (IJ)	wild type	whole organism	not activated Infective Juvenile(IJ)	ALL	sc_nave_whole
