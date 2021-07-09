@@ -1,28 +1,28 @@
-Run	Condition	developmental_stage	genotype	organism_part	source_name	strain	title
-SRR12462812	SRR12462812	Infective Juvenile (IJ)	wild type	whole organism	not activated Infective Juvenile(IJ)	ALL	sc_naïve_whole_rep1
-SRR12462813	SRR12462813	Infective Juvenile (IJ)	wild type	whole organism	not activated Infective Juvenile(IJ)	ALL	sc_naïve_whole_rep2
-SRR12462814	SRR12462814	Infective Juvenile (IJ)	wild type	whole organism	not activated Infective Juvenile(IJ)	ALL	sc_naïve_whole_rep3
-SRR12462815	SRR12462815	Infective Juvenile (IJ)	wild type	head	not activated Infective Juvenile(IJ)	ALL	sc_naïve_head_rep1
-SRR12462816	SRR12462816	Infective Juvenile (IJ)	wild type	head	not activated Infective Juvenile(IJ)	ALL	sc_naïve_head_rep2
-SRR12462817	SRR12462817	Infective Juvenile (IJ)	wild type	head	not activated Infective Juvenile(IJ)	ALL	sc_naïve_head_rep3
-SRR12462818	SRR12462818	Infective Juvenile (IJ)	wild type	tail	not activated Infective Juvenile(IJ)	ALL	sc_naïve_tail_rep1
-SRR12462819	SRR12462819	Infective Juvenile (IJ)	wild type	tail	not activated Infective Juvenile(IJ)	ALL	sc_naïve_tail_rep2
-SRR12462820	SRR12462820	Infective Juvenile (IJ)	wild type	tail	not activated Infective Juvenile(IJ)	ALL	sc_naïve_tail_rep3
-SRR12462821	SRR12462821	young adult	wild type	whole organism	activated in lawn of Xenorhabdus nematophila	ALL	sc_female_whole_rep1
-SRR12462822	SRR12462822	young adult	wild type	whole organism	activated in lawn of Xenorhabdus nematophila	ALL	sc_female_whole_rep2
-SRR12462823	SRR12462823	young adult	wild type	whole organism	activated in lawn of Xenorhabdus nematophila	ALL	sc_female_whole_rep3
-SRR12462824	SRR12462824	young adult	wild type	head	activated in lawn of Xenorhabdus nematophila	ALL	sc_female_head_rep1
-SRR12462825	SRR12462825	young adult	wild type	head	activated in lawn of Xenorhabdus nematophila	ALL	sc_female_head_rep2
-SRR12462826	SRR12462826	young adult	wild type	head	activated in lawn of Xenorhabdus nematophila	ALL	sc_female_head_rep3
-SRR12462827	SRR12462827	young adult	wild type	tail	activated in lawn of Xenorhabdus nematophila	ALL	sc_female_tail_rep1
-SRR12462828	SRR12462828	young adult	wild type	tail	activated in lawn of Xenorhabdus nematophila	ALL	sc_female_tail_rep2
-SRR12462829	SRR12462829	young adult	wild type	tail	activated in lawn of Xenorhabdus nematophila	ALL	sc_female_tail_rep3
-SRR12462830	SRR12462830	young adult	wild type	whole organism	activated in lawn of Xenorhabdus nematophila	ALL	sc_male_whole_rep1
-SRR12462831	SRR12462831	young adult	wild type	whole organism	activated in lawn of Xenorhabdus nematophila	ALL	sc_male_whole_rep2
-SRR12462832	SRR12462832	young adult	wild type	whole organism	activated in lawn of Xenorhabdus nematophila	ALL	sc_male_whole_rep3
-SRR12462833	SRR12462833	young adult	wild type	head	activated in lawn of Xenorhabdus nematophila	ALL	sc_male_head_rep1
-SRR12462834	SRR12462834	young adult	wild type	head	activated in lawn of Xenorhabdus nematophila	ALL	sc_male_head_rep2
-SRR12462835	SRR12462835	young adult	wild type	head	activated in lawn of Xenorhabdus nematophila	ALL	sc_male_head_rep3
-SRR12462836	SRR12462836	young adult	wild type	tail	activated in lawn of Xenorhabdus nematophila	ALL	sc_male_tail_rep1
-SRR12462837	SRR12462837	young adult	wild type	tail	activated in lawn of Xenorhabdus nematophila	ALL	sc_male_tail_rep2
-SRR12462838	SRR12462838	young adult	wild type	tail	activated in lawn of Xenorhabdus nematophila	ALL	sc_male_tail_rep3
+Run	Condition	developmental_stage	genotype	organism_part	strain
+SRR12462812	Infective Juvenile_whole	Infective Juvenile	wild type	whole	ALL
+SRR12462813	Infective Juvenile_whole	Infective Juvenile	wild type	whole	ALL
+SRR12462814	Infective Juvenile_whole	Infective Juvenile	wild type	whole	ALL
+SRR12462815	Infective Juvenile_head	Infective Juvenile	wild type	head	ALL
+SRR12462816	Infective Juvenile_head	Infective Juvenile	wild type	head	ALL
+SRR12462817	Infective Juvenile_head	Infective Juvenile	wild type	head	ALL
+SRR12462818	Infective Juvenile_tail	Infective Juvenile	wild type	tail	ALL
+SRR12462819	Infective Juvenile_tail	Infective Juvenile	wild type	tail	ALL
+SRR12462820	Infective Juvenile_tail	Infective Juvenile	wild type	tail	ALL
+SRR12462821	young adult_whole_female	young adult	wild type	whole	ALL
+SRR12462822	young adult_whole_female	young adult	wild type	whole	ALL
+SRR12462823	young adult_whole_female	young adult	wild type	whole	ALL
+SRR12462824	young adult_head_female	young adult	wild type	head	ALL
+SRR12462825	young adult_head_female	young adult	wild type	head	ALL
+SRR12462826	young adult_head_female	young adult	wild type	head	ALL
+SRR12462827	young adult_tail_female	young adult	wild type	tail	ALL
+SRR12462828	young adult_tail_female	young adult	wild type	tail	ALL
+SRR12462829	young adult_tail_female	young adult	wild type	tail	ALL
+SRR12462830	young adult_whole_male	young adult	wild type	whole	ALL
+SRR12462831	young adult_whole_male	young adult	wild type	whole	ALL
+SRR12462832	young adult_whole_male	young adult	wild type	whole	ALL
+SRR12462833	young adult_head_male	young adult	wild type	head	ALL
+SRR12462834	young adult_head_male	young adult	wild type	head	ALL
+SRR12462835	young adult_head_male	young adult	wild type	head	ALL
+SRR12462836	young adult_tail_male	young adult	wild type	tail	ALL
+SRR12462837	young adult_tail_male	young adult	wild type	tail	ALL
+SRR12462838	young adult_tail_male	young adult	wild type	tail	ALL
