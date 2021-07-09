@@ -1,28 +1,28 @@
-Run	Condition	developmental_stage	genotype	organism_part	strain
-SRR12462812	Infective Juvenile_whole	Infective Juvenile	wild type	whole	ALL
-SRR12462813	Infective Juvenile_whole	Infective Juvenile	wild type	whole	ALL
-SRR12462814	Infective Juvenile_whole	Infective Juvenile	wild type	whole	ALL
-SRR12462815	Infective Juvenile_head	Infective Juvenile	wild type	head	ALL
-SRR12462816	Infective Juvenile_head	Infective Juvenile	wild type	head	ALL
-SRR12462817	Infective Juvenile_head	Infective Juvenile	wild type	head	ALL
-SRR12462818	Infective Juvenile_tail	Infective Juvenile	wild type	tail	ALL
-SRR12462819	Infective Juvenile_tail	Infective Juvenile	wild type	tail	ALL
-SRR12462820	Infective Juvenile_tail	Infective Juvenile	wild type	tail	ALL
-SRR12462821	young adult_whole_female	young adult	wild type	whole	ALL
-SRR12462822	young adult_whole_female	young adult	wild type	whole	ALL
-SRR12462823	young adult_whole_female	young adult	wild type	whole	ALL
-SRR12462824	young adult_head_female	young adult	wild type	head	ALL
-SRR12462825	young adult_head_female	young adult	wild type	head	ALL
-SRR12462826	young adult_head_female	young adult	wild type	head	ALL
-SRR12462827	young adult_tail_female	young adult	wild type	tail	ALL
-SRR12462828	young adult_tail_female	young adult	wild type	tail	ALL
-SRR12462829	young adult_tail_female	young adult	wild type	tail	ALL
-SRR12462830	young adult_whole_male	young adult	wild type	whole	ALL
-SRR12462831	young adult_whole_male	young adult	wild type	whole	ALL
-SRR12462832	young adult_whole_male	young adult	wild type	whole	ALL
-SRR12462833	young adult_head_male	young adult	wild type	head	ALL
-SRR12462834	young adult_head_male	young adult	wild type	head	ALL
-SRR12462835	young adult_head_male	young adult	wild type	head	ALL
-SRR12462836	young adult_tail_male	young adult	wild type	tail	ALL
-SRR12462837	young adult_tail_male	young adult	wild type	tail	ALL
-SRR12462838	young adult_tail_male	young adult	wild type	tail	ALL
+Run	Condition	genotype	strain
+SRR12462812	Infective Juvenile_whole	wild type	ALL
+SRR12462813	Infective Juvenile_whole	wild type	ALL
+SRR12462814	Infective Juvenile_whole	wild type	ALL
+SRR12462815	Infective Juvenile_head	wild type	ALL
+SRR12462816	Infective Juvenile_head	wild type	ALL
+SRR12462817	Infective Juvenile_head	wild type	ALL
+SRR12462818	Infective Juvenile_tail	wild type	ALL
+SRR12462819	Infective Juvenile_tail	wild type	ALL
+SRR12462820	Infective Juvenile_tail	wild type	ALL
+SRR12462821	young adult_whole_female	wild type	ALL
+SRR12462822	young adult_whole_female	wild type	ALL
+SRR12462823	young adult_whole_female	wild type	ALL
+SRR12462824	young adult_head_female	wild type	ALL
+SRR12462825	young adult_head_female	wild type	ALL
+SRR12462826	young adult_head_female	wild type	ALL
+SRR12462827	young adult_tail_female	wild type	ALL
+SRR12462828	young adult_tail_female	wild type	ALL
+SRR12462829	young adult_tail_female	wild type	ALL
+SRR12462830	young adult_whole_male	wild type	ALL
+SRR12462831	young adult_whole_male	wild type	ALL
+SRR12462832	young adult_whole_male	wild type	ALL
+SRR12462833	young adult_head_male	wild type	ALL
+SRR12462834	young adult_head_male	wild type	ALL
+SRR12462835	young adult_head_male	wild type	ALL
+SRR12462836	young adult_tail_male	wild type	ALL
+SRR12462837	young adult_tail_male	wild type	ALL
+SRR12462838	young adult_tail_male	wild type	ALL
