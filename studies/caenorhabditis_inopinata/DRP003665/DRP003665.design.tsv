@@ -1,8 +1,8 @@
-Run	Sample	Condition	developmental_stage	sample_name	title	host	lab_host	strain
-DRR093034	SAMD00080819	sp34Female	Young adult	sp34Female	sp34FemaleRNA	Ficus septica	Escherichia coli	NKG35
-DRR093035	SAMD00080819	sp34Female	Young adult	sp34Female	sp34FemaleRNA	Ficus septica	Escherichia coli	NKG35
-DRR093038	SAMD00080822	sp34L12	L2 and L3	sp34L12	sp34L12RNA	Ficus septica	Escherichia coli	NKG35
-DRR093039	SAMD00080822	sp34L12	L2 and L3	sp34L12	sp34L12RNA	Ficus septica	Escherichia coli	NKG35
-DRR093036	SAMD00080820	sp34Male	Young adult	sp34Male	sp34MaleRNA	Ficus septica	Escherichia coli	NKG35
-DRR093037	SAMD00080820	sp34Male	Young adult	sp34Male	sp34MaleRNA	Ficus septica	Escherichia coli	NKG35
-DRR093040	DRR093040	sp34Mix	mixed-stage	sp34Mix	sp34MixRNA	Ficus septica	Escherichia coli	NKG35
+Run	Sample	Condition	host	lab_host	strain
+DRR093034	SAMD00080819	sp34Female	Ficus septica	Escherichia coli	NKG35
+DRR093035	SAMD00080819	sp34Female	Ficus septica	Escherichia coli	NKG35
+DRR093038	SAMD00080822	sp34L12	Ficus septica	Escherichia coli	NKG35
+DRR093039	SAMD00080822	sp34L12	Ficus septica	Escherichia coli	NKG35
+DRR093036	SAMD00080820	sp34Male	Ficus septica	Escherichia coli	NKG35
+DRR093037	SAMD00080820	sp34Male	Ficus septica	Escherichia coli	NKG35
+DRR093040	DRR093040	sp34Mix	Ficus septica	Escherichia coli	NKG35
