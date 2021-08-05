@@ -35,7 +35,7 @@ sub get_json {
 sub get_results_by_study {
   my ($species) = @_;
   my %runs_per_study;
-  for my $o (@{get_json ("https://www.ebi.ac.uk/fg/rnaseq/api/json/0/getRunsByOrganism/$species") || []}){
+  for my $o (@{get_json ("https://www.ebi.ac.uk/fg/rnaseq/api/json/1/getRunsByOrganism/$species") || []}){
     push @{$runs_per_study{$o->{STUDY_ID}}}, $o if $o->{STATUS} eq "Complete";
   };
   my %result;
