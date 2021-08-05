@@ -1,7 +1,13 @@
 ---
 bioproject: PRJNA554667
 category: Other
-contrasts: []
+contrasts:
+  - name: depletion
+    values:
+      -
+        - gfp (control)
+        - Smed-exoc3
+        - gfp (control) vs Smed-exoc3
 description: ''
 ena_first_public: 2020-11-17
 ena_last_update: 2021-01-21

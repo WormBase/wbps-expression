@@ -1,49 +1,7 @@
 ---
 bioproject: PRJNA507775
-category: Response to treatment
-contrasts:
-  - name: treatment
-    values:
-      -
-        - 0.1 µM CdCl2
-        - 10 µM CdCl2
-        - 0.1 µM CdCl2 vs 10 µM CdCl2
-      -
-        - 0.1 µM CdCl2
-        - E. coli strain HT115 (HT115_1) as feed
-        - 0.1 µM CdCl2 vs E. coli strain HT115 (HT115_1) as feed
-      -
-        - 0.1 µM CdCl2
-        - E. coli strain HT115 (HT115_2) as feed
-        - 0.1 µM CdCl2 vs E. coli strain HT115 (HT115_2) as feed
-      -
-        - 0.1 µM CdCl2
-        - E. coli strain OP50 as feed
-        - 0.1 µM CdCl2 vs E. coli strain OP50 as feed
-      -
-        - 10 µM CdCl2
-        - E. coli strain HT115 (HT115_1) as feed
-        - 10 µM CdCl2 vs E. coli strain HT115 (HT115_1) as feed
-      -
-        - 10 µM CdCl2
-        - E. coli strain HT115 (HT115_2) as feed
-        - 10 µM CdCl2 vs E. coli strain HT115 (HT115_2) as feed
-      -
-        - 10 µM CdCl2
-        - E. coli strain OP50 as feed
-        - 10 µM CdCl2 vs E. coli strain OP50 as feed
-      -
-        - E. coli strain HT115 (HT115_1) as feed
-        - E. coli strain HT115 (HT115_2) as feed
-        - E. coli strain HT115 (HT115_1) as feed vs E. coli strain HT115 (HT115_2) as feed
-      -
-        - E. coli strain HT115 (HT115_1) as feed
-        - E. coli strain OP50 as feed
-        - E. coli strain HT115 (HT115_1) as feed vs E. coli strain OP50 as feed
-      -
-        - E. coli strain HT115 (HT115_2) as feed
-        - E. coli strain OP50 as feed
-        - E. coli strain HT115 (HT115_2) as feed vs E. coli strain OP50 as feed
+category: Other
+contrasts: []
 description: ''
 ena_first_public: 2018-12-04
 ena_last_update: 2019-02-17

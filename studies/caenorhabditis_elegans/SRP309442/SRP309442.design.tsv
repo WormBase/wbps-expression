@@ -1,7 +1,0 @@
-Run	Condition	agent	title	source_name
-SRR13863231	SRR13863231	Control	Control rep1	C.elegans
-SRR13863232	SRR13863232	Control	Control rep2	C.elegans
-SRR13863233	SRR13863233	Control	Control rep3	C.elegans
-SRR13863234	SRR13863234	HLB01	HLB01 rep1	C.elegans
-SRR13863235	SRR13863235	HLB02	HLB01 rep2	C.elegans
-SRR13863236	SRR13863236	HLB03	HLB01 rep3	C.elegans

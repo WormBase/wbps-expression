@@ -1,33 +1,7 @@
 ---
 bioproject: PRJNA184024
-category: Variation within species
-contrasts:
-  - name: strain
-    values:
-      -
-        - LE2544
-        - LE2962
-        - LE2544 vs LE2962
-      -
-        - LE2544
-        - LE2963
-        - LE2544 vs LE2963
-      -
-        - LE2544
-        - LE3037
-        - LE2544 vs LE3037
-      -
-        - LE2962
-        - LE2963
-        - LE2962 vs LE2963
-      -
-        - LE2962
-        - LE3037
-        - LE2962 vs LE3037
-      -
-        - LE2963
-        - LE3037
-        - LE2963 vs LE3037
+category: Other
+contrasts: []
 description: ''
 ena_first_public: 2013-02-12
 ena_last_update: 2017-04-21

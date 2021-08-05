@@ -1,9 +1,0 @@
-Run	Condition	title	developmental_stage	organism_part	source_name	strain
-SRR11615079	SRR11615079	Rep1_ExpressingProgeny_mRNA	Day 1 adults	whole organism	Whole animal	JA1527
-SRR11615080	SRR11615080	Rep1_SilencedProgeny_mRNA	Day 1 adults	whole organism	Whole animal	JA1527
-SRR11615081	SRR11615081	Rep2_ExpressingProgeny_mRNA	Day 1 adults	whole organism	Whole animal	JA1527
-SRR11615082	SRR11615082	Rep2_SilencedProgeny_mRNA	Day 1 adults	whole organism	Whole animal	JA1527
-SRR11615083	SRR11615083	Rep3_ExpressingProgeny_mRNA	Day 1 adults	whole organism	Whole animal	JA1527
-SRR11615084	SRR11615084	Rep3_SilencedProgeny_mRNA	Day 1 adults	whole organism	Whole animal	JA1527
-SRR11615085	SRR11615085	Rep4_ExpressingProgeny_mRNA	Day 1 adults	whole organism	Whole animal	JA1527
-SRR11615086	SRR11615086	Rep4_SilencedProgeny_mRNA	Day 1 adults	whole organism	Whole animal	JA1527

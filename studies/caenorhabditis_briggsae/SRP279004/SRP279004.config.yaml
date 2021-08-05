@@ -1,7 +1,19 @@
 ---
 bioproject: PRJNA659254
 category: Other
-contrasts: []
+contrasts:
+  - name: strain
+    values:
+      -
+        - Cbr_M
+        - F1H_M
+        - Cbr_M vs F1H_M
+  - name: sex
+    values:
+      -
+        - F1H_F
+        - F1H_M
+        - F1H_F vs F1H_M
 description: ''
 ena_first_public: 2021-02-13
 ena_last_update: 2021-02-13

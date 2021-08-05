@@ -1,7 +1,0 @@
-Run	Condition	title	treatment	developmental_stage	genotype	organism_part	source_name	strain
-SRR12459690	SRR12459690	tag-208 1	tag-208(RNAi)	adult	wild type	whole organism	Whole worm	Bristol N2
-SRR12459691	SRR12459691	tag-208 2	tag-208(RNAi)	adult	wild type	whole organism	Whole worm	Bristol N2
-SRR12459692	SRR12459692	tag-208 3	tag-208(RNAi)	adult	wild type	whole organism	Whole worm	Bristol N2
-SRR12459693	SRR12459693	prx-5 1	prx-5(RNAi)	adult	wild type	whole organism	Whole worm	Bristol N2
-SRR12459694	SRR12459694	prx-5 2	prx-5(RNAi)	adult	wild type	whole organism	Whole worm	Bristol N2
-SRR12459695	SRR12459695	prx-5 3	prx-5(RNAi)	adult	wild type	whole organism	Whole worm	Bristol N2
