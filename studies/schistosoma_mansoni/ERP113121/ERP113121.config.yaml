@@ -1,49 +1,7 @@
 ---
 bioproject: PRJEB30644
 category: Other
-contrasts:
-  - name: Days post infection
-    values:
-      -
-        - 13 dpi
-        - 17 dpi
-        - 13 dpi vs 17 dpi
-      -
-        - 13 dpi
-        - 21 dpi
-        - 13 dpi vs 21 dpi
-      -
-        - 13 dpi
-        - 28 dpi
-        - 13 dpi vs 28 dpi
-      -
-        - 13 dpi
-        - 35 dpi
-        - 13 dpi vs 35 dpi
-      -
-        - 17 dpi
-        - 21 dpi
-        - 17 dpi vs 21 dpi
-      -
-        - 17 dpi
-        - 28 dpi
-        - 17 dpi vs 28 dpi
-      -
-        - 17 dpi
-        - 35 dpi
-        - 17 dpi vs 35 dpi
-      -
-        - 21 dpi
-        - 28 dpi
-        - 21 dpi vs 28 dpi
-      -
-        - 21 dpi
-        - 35 dpi
-        - 21 dpi vs 35 dpi
-      -
-        - 28 dpi
-        - 35 dpi
-        - 28 dpi vs 35 dpi
+contrasts: []
 description: ''
 ena_first_public: 2019-08-22
 ena_last_update: 2019-01-09
