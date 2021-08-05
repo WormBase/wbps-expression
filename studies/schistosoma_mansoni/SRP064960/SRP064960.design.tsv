@@ -1,0 +1,5 @@
+Run	Sample	Condition	organism_part	sample_name	geographic_location	host	isolate
+SRR2722034	SAMN04194072	Schistosoma mansoni heads	heads	Schistosoma mansoni heads	United Kingdom	Rabbit	Puerto Rican
+SRR2722095	SAMN04194072	Schistosoma mansoni heads	heads	Schistosoma mansoni heads	United Kingdom	Rabbit	Puerto Rican
+SRR2722255	SAMN04194079	Schistosoma mansoni tails	tails	Schistosoma mansoni tails	United Kingdom	Rabbit	Puerto Rican
+SRR2722455	SAMN04194079	Schistosoma mansoni tails	tails	Schistosoma mansoni tails	United Kingdom	Rabbit	Puerto Rican

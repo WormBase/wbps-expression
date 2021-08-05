@@ -31,7 +31,8 @@ our %exceptions = (
     "SRP140458"  => "T. pseudospiralis, three runs for genome sequencing, different life stages",
     "SRP048819"  => "D. immitis, three runs, the community expressed interest in including this study",
     "SRP067884"  => "T. circ, drug resistant vs suseptible. Only annotated at our competitors', nematode.net.",
-    "SRP140708" => "Couldn't find featurecounts file here http://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR702/000/SRR7026110/"
+    "SRP140708" => "Couldn't find featurecounts file here http://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR702/000/SRR7026110/",
+    "SRP064960" => "4 runs, but requested to be included"
 );
 
 sub same_runs {
