@@ -23,11 +23,11 @@ use List::Util qw/uniq/;
 sub get_study_metadata {
   my ($study_id) = @_;
   my $data_for_study = &xml_to_data_for_study(
-    get_xml("https://www.ebi.ac.uk/ena/data/view/$study_id&display=xml") );
+    get_xml("https://www.ebi.ac.uk/ena/browser/api/xml/$study_id") );
 
 #### $data_for_study
   if ( $data_for_study->{bioproject} ) {
-    my $bioproject_xml = get_xml(sprintf( "https://www.ebi.ac.uk/ena/data/view/%s&display=xml",$data_for_study->{bioproject} ));
+    my $bioproject_xml = get_xml(sprintf( "https://www.ebi.ac.uk/ena/browser/api/xml/%s",$data_for_study->{bioproject} ));
     if ($bioproject_xml){
 	my ( $submitting_centre, $pubmed_refs, $resource_links) = &xml_to_data_for_bioproject($bioproject_xml) ;
       	#TODO more useful stuff: maybe the descriptions?

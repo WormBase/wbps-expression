@@ -1,8 +1,12 @@
 ---
+bioproject: PRJEB44842
 category: Other
 contrasts: []
+description: ''
+ena_first_public: 2021-05-12
+ena_last_update: 2021-05-12
 pubmed: {}
 resource_links: []
 rnaseqer_last_update: 2021-07-31
-submitting_centre: ''
-title: Schistosoma mansoni study
+submitting_centre: Wellcome Sanger Institute
+title: 'The transcriptome of Schistosoma mansoni developing eggs reveals key mediators in pathogenesis and life cycle propagation '

@@ -1,8 +1,15 @@
 ---
+bioproject: PRJNA299129
 category: Other
 contrasts: []
-pubmed: {}
+description: ''
+ena_first_public: 2015-11-12
+ena_last_update: 2017-11-30
+pubmed:
+  26642053:
+    - 'Wilson .. Castro Borges, 2015'
+    - "The Schistosome Esophagus Is a 'Hotspot' for Microexon and Lysosomal Hydrolase Gene Expression: Implications for Blood Processing. (Wilson .. Castro Borges, 2015)"
 resource_links: []
 rnaseqer_last_update: 2019-06-25
-submitting_centre: ''
-title: Schistosoma mansoni study
+submitting_centre: University of York
+title: Schistosoma mansoni Transcriptome or Gene expression
