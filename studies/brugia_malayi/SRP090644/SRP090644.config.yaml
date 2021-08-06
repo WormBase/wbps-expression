@@ -5,7 +5,10 @@ contrasts: []
 description: ''
 ena_first_public: 2016-10-07
 ena_last_update: 2017-06-16
-pubmed: 28358880
+pubmed:
+  28358880:
+    - 'Grote .. Ghedin, 2017'
+    - 'Defining <i>Brugia malayi</i> and <i>Wolbachia</i> symbiosis by stage-specific dual RNA-seq (Grote .. Ghedin, 2017)'
 resource_links: []
 rnaseqer_last_update: 2019-08-26
 submitting_centre: New York University
