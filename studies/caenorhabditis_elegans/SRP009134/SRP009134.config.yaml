@@ -1,0 +1,18 @@
+---
+bioproject: PRJNA149307
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2013-04-18
+ena_last_update: 2019-09-28
+pubmed:
+  23329696:
+    - 'Hall .. Sengupta, 2013'
+    - 'RNAi pathways contribute to developmental history-dependent phenotypic plasticity in <i>C. elegans</i>. (Hall .. Sengupta, 2013)'
+  27351255:
+    - 'Sims .. Hall, 2016'
+    - 'Developmental programming modulates olfactory behavior in <i>C. elegans</i> via endogenous RNAi pathways. (Sims .. Hall, 2016)'
+resource_links: []
+rnaseqer_last_update: 2019-06-24
+submitting_centre: 'Biochemistry, Boston University School of Medicine'
+title: 'sRNA profiles of control adults, postdauer adults, larva L3, and dauer stages of C. elegans'

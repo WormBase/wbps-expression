@@ -1,0 +1,18 @@
+---
+bioproject: PRJNA168501
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2012-07-30
+ena_last_update: 2019-07-28
+pubmed:
+  22738726:
+    - 'Shirayama .. Mello, 2012'
+    - 'piRNAs initiate an epigenetic memory of nonself RNA in the <i>C. elegans</i> germline. (Shirayama .. Mello, 2012)'
+  29456136:
+    - 'Tang .. Mello, 2018'
+    - 'A Sex Chromosome piRNA Promotes Robust Dosage Compensation and Sex Determination in C. elegans. (Tang .. Mello, 2018)'
+resource_links: []
+rnaseqer_last_update: 2019-06-24
+submitting_centre: 'Craig Mello, Program in Molecular Medicine, University of Massachusetts Medical School'
+title: piRNAs initiate an epigenetic memory of non-self RNA in the C. elegans germline.

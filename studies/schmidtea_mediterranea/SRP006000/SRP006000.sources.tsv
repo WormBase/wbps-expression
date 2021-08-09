@@ -1,4 +1,7 @@
 Run	Location	End	Quality
+SRR125362	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR125/SRR125362	se	13
+SRR125363	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR125/SRR125363	se	15
+SRR125364	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR125/SRR125364	se	16
 SRR125366	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR125/SRR125366	se	50
 SRR125527	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR125/SRR125527	pe	83
 SRR748892	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR748/SRR748892	pe	84

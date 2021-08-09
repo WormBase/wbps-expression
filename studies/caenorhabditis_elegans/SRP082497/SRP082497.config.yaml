@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA339695
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-08-21
+ena_last_update: 2019-11-20
+pubmed:
+  30104661:
+    - 'Le Pen .. Miska, 2018'
+    - 'Terminal uridylyltransferases target RNA viruses as part of the innate immune system. (Le Pen .. Miska, 2018)'
+resource_links: []
+rnaseqer_last_update: 2020-11-26
+submitting_centre: 'Eric Miska, Gurdon Institute, University of Cambridge'
+title: TAIL-seq in cde-1 mutants versus WT C. elegans infected by the Orsay virus

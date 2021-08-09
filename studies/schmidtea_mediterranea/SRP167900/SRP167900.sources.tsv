@@ -1,4 +1,6 @@
 Run	Location	End	Quality
+SRR8162662	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR816/002/SRR8162662	se	13
+SRR8162663	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR816/003/SRR8162663	se	12
 SRR8162667	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR816/007/SRR8162667	se	88
 SRR8162668	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR816/008/SRR8162668	se	89
 SRR8162669	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR816/009/SRR8162669	se	89
@@ -28,3 +30,9 @@ SRR8162692	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR8
 SRR8842973	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR884/003/SRR8842973	se	74
 SRR8842974	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR884/004/SRR8842974	se	78
 SRR8842975	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR884/005/SRR8842975	se	75
+SRR8842976	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR884/006/SRR8842976	se	1
+SRR8842978	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR884/008/SRR8842978	se	1
+SRR8842979	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR884/009/SRR8842979	se	1
+SRR8842980	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR884/000/SRR8842980	se	15
+SRR8842981	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR884/001/SRR8842981	se	8
+SRR8842988	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR884/008/SRR8842988	se	1

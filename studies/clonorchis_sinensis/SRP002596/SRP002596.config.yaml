@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA127731
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2010-09-04
+ena_last_update: 2019-05-17
+pubmed:
+  20920166:
+    - 'Xu .. Zhu, 2010'
+    - 'Identification and characterization of microRNAs in <i>Clonorchis sinensis</i> of human health significance. (Xu .. Zhu, 2010)'
+resource_links: []
+rnaseqer_last_update: 2017-12-24
+submitting_centre: 'parasitology laboratory, College of Veterinary Medicine, South China Agricultural University'
+title: miRNA expression profile analysis of Clonorchis sinensis by Solexa deep sequencing

@@ -1,17 +1,18 @@
-Run	Sample	Condition	developmental_stage
-ERR202423	ERS091953	14 dpi	14 dpi
-ERR407001	ERS092579	14 dpi	14 dpi
-ERR406997	ERS001598	21 dpi	21 dpi
-ERR202426	ERS092349	21 dpi	21 dpi
-ERR406995	ERS001809	28 dpi	28 dpi
-ERR202427	ERS092350	28 dpi	28 dpi
-ERR406998	ERS002001	35 dpi	35 dpi
-ERR202428	ERS092351	35 dpi	35 dpi
-ERR202425	ERS092348	7 dpi	7 dpi
-ERR202422	ERS091952	Adult male	Adult male
-ERR202435	ERS092525	Adult male	Adult male
-ERR406996	ERS001595	J2	J2
-ERR202424	ERS092081	J2	J2
-ERR202429	ERS092426	J2	J2
-ERR407000	ERS091755	egg	egg
-ERR202430	ERS092427	egg	egg
+Run	Condition	strain	developmental_stage
+ERR202423	14 dpi	Lindley	
+ERR407001	14 dpi		
+ERR202426	21 dpi	Standard Pa2/3 pathotype isolate Lindley	
+ERR406997	21 dpi	Standard Pa2/3 pathotype isolate Lindley	
+ERR202427	28 dpi	Standard Pa2/3 pathotype isolate Lindley	
+ERR406995	28 dpi	Standard Pa2/3 pathotype isolate Lindley	
+ERR202428	35 dpi	Standard Pa2/3 pathotype isolate Lindley	
+ERR406998	35 dpi	Standard Pa2/3 pathotype isolate Lindley	
+ERR202425	7 dpi	Standard Pa2/3 pathotype isolate Lindley	
+ERR202422	Adult male	Lindley	
+ERR202435	Adult male		
+ERR406999	ERR406999	Standard Pa2/3 pathotype isolate Lindley	
+ERR202424	J2	Standard Pa2/3 pathotype isolate Lindley	
+ERR202429	J2	Standard Pa2/3 pathotype isolate Lindley	
+ERR406996	J2	Standard Pa2/3 pathotype isolate Lindley	
+ERR202430	egg	Standard Pa2/3 pathotype isolate Lindley	
+ERR407000	egg	Standard Pa2/3 pathotype isolate Lindley	

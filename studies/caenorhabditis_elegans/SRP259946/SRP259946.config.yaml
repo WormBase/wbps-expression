@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA629826
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2021-05-07
+ena_last_update: 2021-07-05
+pubmed:
+  34038721:
+    - 'Otarigho .. Aballay, 2021'
+    - 'Immunity-longevity tradeoff neurally controlled by GABAergic transcription factor PITX1/UNC-30. (Otarigho .. Aballay, 2021)'
+resource_links: []
+rnaseqer_last_update: 2021-07-31
+submitting_centre: 'Aballay Alejandro Lab, Department of Molecular Microbiology and Immunology, Oregon Health & Science University'
+title: RNA Sequencing of unc-30(ok613) and  wild type (WT) N2 C elegans

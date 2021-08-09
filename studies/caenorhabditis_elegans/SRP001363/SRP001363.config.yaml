@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA119753
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2010-02-26
+ena_last_update: 2017-11-30
+pubmed:
+  19734907:
+    - 'Stoeckius .. Rajewsky, 2009'
+    - 'Large-scale sorting of <i>C. elegans</i> embryos reveals the dynamics of small RNA expression. (Stoeckius .. Rajewsky, 2009)'
+resource_links: []
+rnaseqer_last_update: 2019-06-24
+submitting_centre: 'Rajewsky, Systems Biology of Gene Regulatory Elements, Max-Delbrueck Centrum Berlin-Buch'
+title: Illumina sequencing of small RNAs from C. elegans embryos

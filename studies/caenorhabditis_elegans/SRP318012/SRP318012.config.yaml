@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA726525
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2021-05-04
+ena_last_update: 2021-07-11
+pubmed:
+  34211399:
+    - 'García-Casas .. Alvarez, 2021'
+    - 'HASH(0x4de4e40) (García-Casas .. Alvarez, 2021)'
+resource_links: []
+rnaseqer_last_update: 2021-07-30
+submitting_centre: 'IBGM, CSIC / Univerity of Valladolid'
+title: Transcriptomic analysis of Caenorhabditis elegans treated with mitochondrial Na+/Ca2+ exchanger inhibitor CGP37157 vs untreated control.

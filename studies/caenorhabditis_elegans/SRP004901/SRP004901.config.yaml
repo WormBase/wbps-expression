@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA135287
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2011-02-16
+ena_last_update: 2017-11-30
+pubmed:
+  21245313:
+    - 'Zhang .. Ruvkun, 2011'
+    - 'mut-16 and other mutator class genes modulate 22G and 26G siRNA pathways in <i>Caenorhabditis elegans</i>. (Zhang .. Ruvkun, 2011)'
+resource_links: []
+rnaseqer_last_update: 2019-06-24
+submitting_centre: 'Ruvkun, Molecular Biology, Massachusetts General Hospital'
+title: mut-16 and other mutator-class genes modulate 22G and 26G siRNA pathways in Caenorhabditis elegans

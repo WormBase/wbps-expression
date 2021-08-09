@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA637060
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2021-04-21
+ena_last_update: 2021-04-21
+pubmed:
+  33179739:
+    - 'Ford .. King, 2021'
+    - 'In Vivo Microbial Coevolution Favors Host Protection and Plastic Downregulation of Immunity. (Ford .. King, 2021)'
+resource_links: []
+rnaseqer_last_update: 2021-07-29
+submitting_centre: 'Kayla King, Department of Zoology, University of Oxford'
+title: Protective microbes alter the transcriptional response of Caenorhabditis elegans nematodes to pathogenic infection

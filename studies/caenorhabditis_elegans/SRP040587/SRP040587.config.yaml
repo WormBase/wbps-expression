@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA242650
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2014-06-03
+ena_last_update: 2015-11-04
+pubmed:
+  24857550:
+    - 'Grosswendt .. Rajewsky, 2014'
+    - 'Unambiguous identification of miRNA:target site interactions by different types of ligation reactions. (Grosswendt .. Rajewsky, 2014)'
+resource_links: []
+rnaseqer_last_update: 2019-06-25
+submitting_centre: 'Systems Biology of Gene Regulatory Elements, Berlin Institute for Medical Systems Biology, Max Delbrück Center for Molecular Medicine'
+title: Unambiguous Identification of miRNA:target site Interactions by Different Types of Ligation Reactions

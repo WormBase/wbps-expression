@@ -1,13 +1,7 @@
 ---
 bioproject: PRJNA198514
 category: Other
-contrasts:
-  - name: timepoint
-    values:
-      -
-        - 'embryo, 64 hours'
-        - 'embryo, 7 days'
-        - 'embryo: 64 hours vs 7 days'
+contrasts: []
 description: ''
 ena_first_public: 2014-01-15
 ena_last_update: 2019-05-17

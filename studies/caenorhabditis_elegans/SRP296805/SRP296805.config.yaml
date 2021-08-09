@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA683027
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2021-06-09
+ena_last_update: 2021-06-09
+pubmed:
+  34237064:
+    - 'Zeng .. Mak, 2021'
+    - 'Nuclear receptors NHR-49 and NHR-79 promote peroxisome proliferation to compensate for aldehyde dehydrogenase deficiency in <i>C. elegans</i>. (Zeng .. Mak, 2021)'
+resource_links: []
+rnaseqer_last_update: 2021-08-06
+submitting_centre: 'Mak Lab, Division of Life Science, The Hong Kong University of Science and Technology'
+title: Nuclear receptor NHR-49 promotes peroxisome proliferation to compensate for aldehyde dehydrogenase deficiency in C. elegans

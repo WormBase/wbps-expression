@@ -1,67 +1,75 @@
-Run	Sample	Condition	organism_part	developmental_stage
-SRR2013907	SRR2013907	anterior intestine	anterior intestine	
-SRR2013908	SRR2013908	anterior intestine	anterior intestine	
-SRR2013926	SRR2013926	anterior intestine	anterior intestine	
-SRR851212	SRR851212	anterior intestine	anterior intestine	
-SRR851253	SRR851253	anterior intestine	anterior intestine	
-SRR851266	SRR851266	anterior intestine	anterior intestine	
-SRR851649	SRR851649	anterior intestine	anterior intestine	
-SRR851193	SAMN02144338	female intestine	intestine	female
-SRR851224	SAMN02144338	female intestine	intestine	female
-SRR851202	SAMN02144364	female intestine	intestine	female
-SRR851633	SAMN02144364	female intestine	intestine	female
-SRR851167	SAMN02144346	female pharynx	pharynx	female
-SRR851632	SAMN02144346	female pharynx	pharynx	female
-SRR851856	SAMN02144351	female pharynx	pharynx	female
-SRR851199	SAMN02144356	head	head	
-SRR851634	SAMN02144356	head	head	
-SRR851200	SAMN02144363	head	head	
-SRR851639	SAMN02144363	head	head	
-SRR851198	SAMN02144341	male head	head	male
-SRR851257	SAMN02144341	male head	head	male
-SRR851192	SAMN02144362	male head	head	male
-SRR851635	SAMN02144362	male head	head	male
-SRR851225	SAMN02144345	male intestine	intestine	male
-SRR851857	SAMN02144345	male intestine	intestine	male
-SRR851166	SAMN02144365	male intestine	intestine	male
-SRR851195	SAMN02144365	male intestine	intestine	male
-SRR851187	SAMN02144337	male pharynx	pharynx	male
-SRR851189	SAMN02144337	male pharynx	pharynx	male
-SRR851191	SAMN02144368	male pharynx	pharynx	male
-SRR851203	SAMN02144368	male pharynx	pharynx	male
-SRR851201	SRR851201	mid intestine	mid intestine	
-SRR851280	SRR851280	mid intestine	mid intestine	
-SRR851673	SRR851673	mid intestine	mid intestine	
-SRR851683	SRR851683	mid intestine	mid intestine	
-SRR851194	SAMN02144340	ovary	ovary	female
-SRR851197	SAMN02144340	ovary	ovary	female
-SRR851213	SAMN02144348	ovary	ovary	female
-SRR851255	SAMN02144348	ovary	ovary	female
-SRR2013927	SRR2013927	posterior intestine	posterior intestine	
-SRR2014394	SRR2014394	posterior intestine	posterior intestine	
-SRR2014551	SRR2014551	posterior intestine	posterior intestine	
-SRR851210	SRR851210	posterior intestine	posterior intestine	
-SRR851239	SRR851239	posterior intestine	posterior intestine	
-SRR851279	SRR851279	posterior intestine	posterior intestine	
-SRR851650	SRR851650	posterior intestine	posterior intestine	
-SRR851188	SAMN02144334	seminal vesicle	seminal vesicle	male
-SRR851637	SAMN02144334	seminal vesicle	seminal vesicle	male
-SRR851190	SAMN02144371	seminal vesicle	seminal vesicle	male
-SRR851196	SAMN02144371	seminal vesicle	seminal vesicle	male
-SRR851186	SAMN02144354	testis	testis	male
-SRR851223	SAMN02144354	testis	testis	male
-SRR851641	SAMN02144374	testis	testis	male
-SRR869476	SAMN02144374	testis	testis	male
-SRR851254	SAMN02144366	uterus	uterus	female
-SRR851640	SAMN02144366	uterus	uterus	female
-SRR851256	SAMN02144373	uterus	uterus	female
-SRR851636	SAMN02144373	uterus	uterus	female
-SRR851657	SAMN02144333	whole intestine	whole intestine	
-SRR851677	SAMN02144333	whole intestine	whole intestine	
-SRR851214	SRR851214	whole intestine	whole intestine	
-SRR851222	SRR851222	whole intestine	whole intestine	
-SRR851281	SRR851281	whole intestine	whole intestine	
-SRR851237	SRR851237	whole worm	whole worm	
-SRR851252	SRR851252	whole worm	whole worm	
-SRR851258	SRR851258	whole worm	whole worm	
-SRR869505	SRR869505	whole worm	whole worm	
+Run	Sample	Condition
+SRR2013903	SAMN02144336	SAMN02144336
+SRR2013902	SAMN02144347	SAMN02144347
+SRR2013905	SAMN02144352	SAMN02144352
+SRR2013906	SAMN02144353	SAMN02144353
+SRR2013901	SAMN02144355	SAMN02144355
+SRR2013900	SAMN02144358	SAMN02144358
+SRR2013904	SAMN02144359	SAMN02144359
+SRR2013909	SAMN02144370	SAMN02144370
+SRR2013907	SRR2013907	anterior intestine
+SRR2013908	SRR2013908	anterior intestine
+SRR2013926	SRR2013926	anterior intestine
+SRR851212	SAMN02144353	anterior intestine
+SRR851253	SRR851253	anterior intestine
+SRR851266	SRR851266	anterior intestine
+SRR851649	SAMN02144355	anterior intestine
+SRR851193	SAMN02144338	female intestine
+SRR851202	SAMN02144364	female intestine
+SRR851224	SAMN02144338	female intestine
+SRR851633	SAMN02144364	female intestine
+SRR851167	SAMN02144346	female pharynx
+SRR851632	SAMN02144346	female pharynx
+SRR851856	SAMN02144351	female pharynx
+SRR851199	SAMN02144356	head
+SRR851200	SAMN02144363	head
+SRR851634	SAMN02144356	head
+SRR851639	SAMN02144363	head
+SRR851192	SAMN02144362	male head
+SRR851198	SAMN02144341	male head
+SRR851257	SAMN02144341	male head
+SRR851635	SAMN02144362	male head
+SRR851166	SAMN02144365	male intestine
+SRR851195	SAMN02144365	male intestine
+SRR851225	SAMN02144345	male intestine
+SRR851857	SAMN02144345	male intestine
+SRR851187	SAMN02144337	male pharynx
+SRR851189	SAMN02144337	male pharynx
+SRR851191	SAMN02144368	male pharynx
+SRR851203	SAMN02144368	male pharynx
+SRR851201	SAMN02144336	mid intestine
+SRR851280	SRR851280	mid intestine
+SRR851673	SAMN02144359	mid intestine
+SRR851683	SRR851683	mid intestine
+SRR851194	SAMN02144340	ovary
+SRR851197	SAMN02144340	ovary
+SRR851213	SAMN02144348	ovary
+SRR851255	SAMN02144348	ovary
+SRR2013927	SRR2013927	posterior intestine
+SRR2014394	SRR2014394	posterior intestine
+SRR2014551	SRR2014551	posterior intestine
+SRR851210	SAMN02144358	posterior intestine
+SRR851239	SAMN02144347	posterior intestine
+SRR851279	SRR851279	posterior intestine
+SRR851650	SRR851650	posterior intestine
+SRR851188	SAMN02144334	seminal vesicle
+SRR851190	SAMN02144371	seminal vesicle
+SRR851196	SAMN02144371	seminal vesicle
+SRR851637	SAMN02144334	seminal vesicle
+SRR851186	SAMN02144354	testis
+SRR851223	SAMN02144354	testis
+SRR851641	SAMN02144374	testis
+SRR869476	SAMN02144374	testis
+SRR851254	SAMN02144366	uterus
+SRR851256	SAMN02144373	uterus
+SRR851636	SAMN02144373	uterus
+SRR851640	SAMN02144366	uterus
+SRR851214	SAMN02144352	whole intestine
+SRR851222	SAMN02144370	whole intestine
+SRR851281	SRR851281	whole intestine
+SRR851657	SAMN02144333	whole intestine
+SRR851677	SAMN02144333	whole intestine
+SRR851237	SRR851237	whole worm
+SRR851252	SRR851252	whole worm
+SRR851258	SRR851258	whole worm
+SRR869505	SRR869505	whole worm

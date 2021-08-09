@@ -1,14 +1,15 @@
-Run	Sample	Condition	developmental_stage	sex	strain
-SRR332576	SAMN00710576	L1	L1		Baltimore
-SRR332578	SAMN00710576	L1	L1		Baltimore
-SRR332577	SAMN00710575	L2	L2		Baltimore
-SRR332579	SAMN00710575	L2	L2		Baltimore
-SRR332580	SAMN00710412	L3 (Activated)	L3 (Activated)		Baltimore
-SRR332581	SAMN00710412	L3 (Activated)	L3 (Activated)		Baltimore
-SRR3945575	SAMN05433005	L3 (Nonactivated)	L3 (Nonactivated)		Baltimore
-SRR3945576	SAMN05433006	L3 (Untreated)	L3 (Untreated)		Baltimore
-SRR3945577	SAMN05433007	Larvae	Larvae		Baltimore
-SRR3945579	SAMN05433009	adult, female	adult	female	Baltimore
-SRR3945578	SAMN05433008	adult, male	adult	male	Baltimore
-SRR332450	SAMN00710574	eggs	eggs		Baltimore
-SRR332575	SAMN00710574	eggs	eggs		Baltimore
+Run	Sample	Condition	developmental_stage	mgi_unique_identifier	organism_part	sample_id	sample_name	sample_type	geographic_location	host	isolate	strain
+SRR332574	SRR332574	Ancylostoma caninum stage female	female			2821820702	Ancylostoma caninum stage female	cdna				
+SRR332576	SAMN00710576	L1	L1			2870140480	Ancylostoma caninum stage L1 strain Baltimore	rna				Baltimore
+SRR332578	SAMN00710576	L1	L1			2870140480	Ancylostoma caninum stage L1 strain Baltimore	rna				Baltimore
+SRR332577	SAMN00710575	L2	L2			2870140481	Ancylostoma caninum stage l2 strain Baltimore	rna				Baltimore
+SRR332579	SAMN00710575	L2	L2			2870140481	Ancylostoma caninum stage l2 strain Baltimore	rna				Baltimore
+SRR332580	SAMN00710412	L3 (Activated)	L3 (Activated)			2870140482	Ancylostoma caninum stage L3(activated) strain Baltimore	rna				Baltimore
+SRR332581	SAMN00710412	L3 (Activated)	L3 (Activated)			2870140482	Ancylostoma caninum stage L3(activated) strain Baltimore	rna				Baltimore
+SRR3945575	SRR3945575	L3 (Nonactivated)		AIAL-100903_Nonactivated_L3_Tube1	whole organism				USA: Baltimore MD	Canis familiaris	Baltimore	
+SRR3945576	SRR3945576	L3 (Untreated)		AIAL-100903_Untreated_L3_Tube1	whole organism				USA: Baltimore MD	Canis familiaris	Baltimore	
+SRR3945577	SRR3945577	Larvae		AIAL-101008_Larvae2_tube7_10	whole organism				USA: Baltimore MD	Canis familiaris	Baltimore	
+SRR3945579	SRR3945579	adult, female		AIAF-090923_female_RNA_tube1	whole organism				USA: Baltimore MD	Canis familiaris	Baltimore	
+SRR3945578	SRR3945578	adult, male		AIAD-100816_Male_RNA_Tube1	whole organism				USA: Baltimore MD	Canis familiaris	Baltimore	
+SRR332450	SAMN00710574	eggs	eggs			2870140479	Ancylostoma caninum stage eggs strain Baltimore	rna				Baltimore
+SRR332575	SAMN00710574	eggs	eggs			2870140479	Ancylostoma caninum stage eggs strain Baltimore	rna				Baltimore

@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA681154
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2021-06-11
+ena_last_update: 2021-06-11
+pubmed:
+  34084768:
+    - 'Hintze .. Barkoulas, 2021'
+    - 'HASH(0x41dea40) (Hintze .. Barkoulas, 2021)'
+resource_links: []
+rnaseqer_last_update: 2021-08-05
+submitting_centre: 'Barkoulas, Faculty of Natural Sciences, Imperial College London'
+title: Whole genome RNA sequencing of wild type and nath-10(icb99 and icb102) alleles

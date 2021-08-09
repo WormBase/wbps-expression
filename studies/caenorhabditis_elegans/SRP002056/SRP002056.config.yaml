@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA123835
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2010-04-09
+ena_last_update: 2017-11-30
+pubmed:
+  20133686:
+    - 'Conine .. Mello, 2010'
+    - 'Argonautes ALG-3 and ALG-4 are required for spermatogenesis-specific 26G-RNAs and thermotolerant sperm in <i>Caenorhabditis elegans</i>. (Conine .. Mello, 2010)'
+resource_links: []
+rnaseqer_last_update: 2019-06-24
+submitting_centre: 'Craig Mello, Program in Molecular Medicine, University of Massachusetts Medical School'
+title: High throughput sequencing of endogenous small RNAs from AGO pathway mutants

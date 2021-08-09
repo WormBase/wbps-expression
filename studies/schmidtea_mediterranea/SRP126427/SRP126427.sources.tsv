@@ -97,10 +97,14 @@ SRR6363684	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR6
 SRR6363685	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/005/SRR6363685	se	37
 SRR6363686	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/006/SRR6363686	se	38
 SRR6363687	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/007/SRR6363687	se	38
+SRR6363688	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/008/SRR6363688	se	12
+SRR6363689	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/009/SRR6363689	se	12
 SRR6363690	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/000/SRR6363690	se	62
 SRR6363691	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/001/SRR6363691	se	62
 SRR6363692	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/002/SRR6363692	se	58
 SRR6363693	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/003/SRR6363693	se	58
+SRR6363694	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/004/SRR6363694	se	19
+SRR6363695	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/005/SRR6363695	se	19
 SRR6363696	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/006/SRR6363696	se	41
 SRR6363697	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/007/SRR6363697	se	41
 SRR6363698	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/008/SRR6363698	se	42
@@ -159,6 +163,8 @@ SRR6363750	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR6
 SRR6363751	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/001/SRR6363751	se	22
 SRR6363752	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/002/SRR6363752	se	31
 SRR6363753	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/003/SRR6363753	se	31
+SRR6363754	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/004/SRR6363754	se	19
+SRR6363755	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/005/SRR6363755	se	19
 SRR6363756	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/006/SRR6363756	se	42
 SRR6363757	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/007/SRR6363757	se	42
 SRR6363758	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/008/SRR6363758	se	69
@@ -191,10 +197,14 @@ SRR6363784	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR6
 SRR6363785	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/005/SRR6363785	se	38
 SRR6363786	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/006/SRR6363786	se	38
 SRR6363787	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/007/SRR6363787	se	38
+SRR6363788	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/008/SRR6363788	se	4
+SRR6363789	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/009/SRR6363789	se	4
 SRR6363790	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/000/SRR6363790	se	46
 SRR6363791	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/001/SRR6363791	se	46
 SRR6363792	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/002/SRR6363792	se	52
 SRR6363793	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/003/SRR6363793	se	53
+SRR6363794	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/004/SRR6363794	se	12
+SRR6363795	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/005/SRR6363795	se	12
 SRR6363796	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/006/SRR6363796	se	66
 SRR6363797	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/007/SRR6363797	se	66
 SRR6363798	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/008/SRR6363798	se	61
@@ -243,6 +253,8 @@ SRR6363840	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR6
 SRR6363841	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/001/SRR6363841	se	73
 SRR6363842	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/002/SRR6363842	se	60
 SRR6363843	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/003/SRR6363843	se	60
+SRR6363844	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/004/SRR6363844	se	8
+SRR6363845	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/005/SRR6363845	se	8
 SRR6363846	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/006/SRR6363846	se	66
 SRR6363847	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/007/SRR6363847	se	66
 SRR6363848	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR636/008/SRR6363848	se	67

@@ -1,63 +1,7 @@
 ---
 bioproject: PRJNA503908
 category: Other
-contrasts:
-  - name: Tissue
-    values:
-      -
-        - 'X1 cells, smedwi-2 RNAi'
-        - 'Xins cells, smedwi-2 RNAi'
-        - 'X1 cells, smedwi-2 RNAi vs Xins cells, smedwi-2 RNAi'
-      -
-        - 'X1 cells, smedwi-3 RNAi'
-        - 'Xins cells, smedwi-3 RNAi'
-        - 'X1 cells, smedwi-3 RNAi vs Xins cells, smedwi-3 RNAi'
-      -
-        - 'X1 cells, unc-22 RNAI'
-        - 'Xins cells, unc-22 RNAi'
-        - 'X1 cells, unc-22 RNAI vs Xins cells, unc-22 RNAi'
-      -
-        - X1 cells
-        - whole worm
-        - X1 cells vs whole worm
-  - name: RNAi
-    values:
-      -
-        - X1 cells
-        - 'X1 cells, smedwi-2 RNAi'
-        - 'X1 cells vs X1 cells, smedwi-2 RNAi'
-      -
-        - X1 cells
-        - 'X1 cells, smedwi-3 RNAi'
-        - "X1 cells: '' vs smedwi-3 RNAi"
-      -
-        - X1 cells
-        - 'X1 cells, unc-22 RNAI'
-        - 'X1 cells vs X1 cells, unc-22 RNAI'
-      -
-        - 'X1 cells, smedwi-2 RNAi'
-        - 'X1 cells, smedwi-3 RNAi'
-        - 'X1 cells, smedwi-2 RNAi vs X1 cells, smedwi-3 RNAi'
-      -
-        - 'X1 cells, smedwi-2 RNAi'
-        - 'X1 cells, unc-22 RNAI'
-        - 'X1 cells, smedwi-2 RNAi vs X1 cells, unc-22 RNAI'
-      -
-        - 'X1 cells, smedwi-3 RNAi'
-        - 'X1 cells, unc-22 RNAI'
-        - 'X1 cells, smedwi-3 RNAi vs X1 cells, unc-22 RNAI'
-      -
-        - 'Xins cells, smedwi-2 RNAi'
-        - 'Xins cells, smedwi-3 RNAi'
-        - 'Xins cells, smedwi-2 RNAi vs Xins cells, smedwi-3 RNAi'
-      -
-        - 'Xins cells, smedwi-2 RNAi'
-        - 'Xins cells, unc-22 RNAi'
-        - 'Xins cells, smedwi-2 RNAi vs Xins cells, unc-22 RNAi'
-      -
-        - 'Xins cells, smedwi-3 RNAi'
-        - 'Xins cells, unc-22 RNAi'
-        - 'Xins cells, smedwi-3 RNAi vs Xins cells, unc-22 RNAi'
+contrasts: []
 description: ''
 ena_first_public: 2019-09-05
 ena_last_update: 2019-12-06

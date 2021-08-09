@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA189784
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2013-03-04
+ena_last_update: 2017-11-30
+pubmed:
+  23485825:
+    - 'Park .. Shin, 2013'
+    - 'Degradome sequencing reveals an endogenous microRNA target in <i>C. elegans</i>. (Park .. Shin, 2013)'
+resource_links: []
+rnaseqer_last_update: 2019-06-24
+submitting_centre: Seoul National University
+title: Degradome sequencing reveals an endogenous microRNA target in C. elegans

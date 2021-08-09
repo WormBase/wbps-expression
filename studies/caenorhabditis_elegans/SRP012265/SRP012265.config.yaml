@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA159607
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2012-06-15
+ena_last_update: 2017-11-05
+pubmed:
+  22707570:
+    - 'Nam .. Bartel, 2012'
+    - 'Long noncoding RNAs in <i>C. elegans</i>. (Nam .. Bartel, 2012)'
+resource_links: []
+rnaseqer_last_update: 2019-06-24
+submitting_centre: 'Bartel lab, Whitehead Institute'
+title: Small-RNAs in L4 and young adult stages

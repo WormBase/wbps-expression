@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA193194
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2013-03-21
+ena_last_update: 2017-07-19
+pubmed:
+  21829742:
+    - 'Cai .. Chen, 2011'
+    - 'Profiles of small non-coding RNAs in <i>Schistosoma japonicum</i> during development. (Cai .. Chen, 2011)'
+resource_links: []
+rnaseqer_last_update: 2018-01-21
+submitting_centre: 'Institute of Pathogen Biology, Chinese Academy of Medical Sciences'
+title: Schistosoma japonicum Small RNA Transcriptome

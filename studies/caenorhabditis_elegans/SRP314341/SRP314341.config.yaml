@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA721175
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2021-05-07
+ena_last_update: 2021-05-07
+pubmed:
+  33924155:
+    - 'Li .. Wang, 2021'
+    - 'HASH(0x7eb9150) (Li .. Wang, 2021)'
+resource_links: []
+rnaseqer_last_update: 2021-07-31
+submitting_centre: jilin university
+title: Expression data from ferulic acid treated C. elegans

@@ -1,0 +1,10 @@
+Run	Condition	generation	genotype	sample_name	developmental_stage	organism_part	source_name
+SRR548071	N2 F0	F0	wild type	N2 F0	young adult	whole organism	C.elegans whole animal, young adult
+SRR548072	N2 F2	F2	wild type	N2 F2	young adult	whole organism	C.elegans whole animal, young adult
+SRR548073	N2 F8	F8	wild type	N2 F8	young adult	whole organism	C.elegans whole animal, young adult
+SRR548065	RSD-2 F0	F0	RSD-2	RSD-2 F0	young adult	whole organism	C.elegans whole animal, young adult
+SRR548067	RSD-2 F10	F10	RSD-2	RSD-2 F10	young adult	whole organism	C.elegans whole animal, young adult
+SRR548066	RSD-2 F2	F2	RSD-2	RSD-2 F2	young adult	whole organism	C.elegans whole animal, young adult
+SRR548068	RSD-6 F0	F0	RSD-6	RSD-6 F0	young adult	whole organism	C.elegans whole animal, young adult
+SRR548069	RSD-6 F2	F2	RSD-6	RSD-6 F2	young adult	whole organism	C.elegans whole animal, young adult
+SRR548070	RSD-6 F8	F8	RSD-6	RSD-6 F8	young adult	whole organism	C.elegans whole animal, young adult

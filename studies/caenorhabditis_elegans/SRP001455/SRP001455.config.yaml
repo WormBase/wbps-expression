@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA117887
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2010-02-26
+ena_last_update: 2017-11-05
+pubmed:
+  19804759:
+    - 'van Wolfswinkel .. Ketting, 2009'
+    - 'CDE-1 affects chromosome segregation through uridylation of CSR-1-bound siRNAs. (van Wolfswinkel .. Ketting, 2009)'
+resource_links: []
+rnaseqer_last_update: 2019-06-24
+submitting_centre: 'European Research Institute for the Biology of Ageing, University Medical Center Groningen'
+title: C. elegans small RNAs

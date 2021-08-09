@@ -1,22 +1,24 @@
-Run	Condition	developmental_stage	strain
-SRR4113476	L2 larvae	L2 larvae	
-SRR4113462	L3 larvae	L3 larvae	
-SRR4113477	L4 larvae	L4 larvae	
-SRR4113461	adult male	adult male	
-SRR4113467	mixed, drug resistant	mixed	drug resistant
-SRR4113468	mixed, drug resistant	mixed	drug resistant
-SRR4113469	mixed, drug resistant	mixed	drug resistant
-SRR4113470	mixed, drug resistant	mixed	drug resistant
-SRR4113471	mixed, drug resistant	mixed	drug resistant
-SRR4113474	mixed, drug resistant	mixed	drug resistant
-SRR4113475	mixed, drug resistant	mixed	drug resistant
-SRR4113482	mixed, drug resistant	mixed	drug resistant
-SRR4113463	mixed, drug susceptible	mixed	drug susceptible
-SRR4113464	mixed, drug susceptible	mixed	drug susceptible
-SRR4113465	mixed, drug susceptible	mixed	drug susceptible
-SRR4113466	mixed, drug susceptible	mixed	drug susceptible
-SRR4113472	mixed, drug susceptible	mixed	drug susceptible
-SRR4113478	mixed, drug susceptible	mixed	drug susceptible
-SRR4113479	mixed, drug susceptible	mixed	drug susceptible
-SRR4113480	mixed, drug susceptible	mixed	drug susceptible
-SRR4113481	mixed, drug susceptible	mixed	drug susceptible
+Run	Sample	Condition	mgi_identifier	synonym	developmental_stage	host	isolation_source	model	organism_part	sample_id	sample_name	sample_type
+SRR4113476	SRR4113476	L2 larvae	ODAF-091209_L2_RNA_tube1	ODAF-091209_L2_RNA_tube1		Sus scrofa domesticus	stool	Invertebrate	whole organism			
+SRR4113462	SRR4113462	L3 larvae	ODAF-100320_L3_RNA_tube1			Sus scrofa domesticus	stool		whole organism			
+SRR4113477	SRR4113477	L4 larvae	ODAF-100320_L4_RNA_tube1			Sus scrofa domesticus	stool		whole organism			
+SRR332590	SAMN00710415	Oesophagostomum dentatum stage L2			L2					2845876529	Oesophagostomum dentatum stage L2	rna
+SRR4113473	SRR4113473	SRR4113473	ODAF-100320_adult_f_RNA_tube1			Sus scrofa domesticus	stool		whole organism			
+SRR4113461	SRR4113461	adult male	ODAF-100320_adult_m_RNA_tube1			Sus scrofa domesticus	stool		whole organism			
+SRR4113467	SRR4113467	mixed, drug resistant	ODAJ-LEVR_39-NR8-39-293			Sus scrofa domesticus	stool		whole organism			
+SRR4113468	SRR4113468	mixed, drug resistant	ODAJ-LEVR_39-NR8-39-291			Sus scrofa domesticus	stool		whole organism			
+SRR4113469	SRR4113469	mixed, drug resistant	ODAJ-LEVR-NR7-78-1dil			Sus scrofa domesticus	stool		whole organism			
+SRR4113470	SRR4113470	mixed, drug resistant	ODAJ-LEVR_41-NR8-41-291			Sus scrofa domesticus	stool		whole organism			
+SRR4113471	SRR4113471	mixed, drug resistant	ODAJ-LEVR_41-NR8-41-293			Sus scrofa domesticus	stool		whole organism			
+SRR4113474	SRR4113474	mixed, drug resistant	ODAJ-LEVR_41-NR8-41-294	ODAJ-LEVR_41-NR8-41-294		Sus scrofa domesticus	stool	Invertebrate	whole organism			
+SRR4113475	SRR4113475	mixed, drug resistant	ODAJ-LEVR_41-NR8-41-292			Sus scrofa domesticus	stool		whole organism			
+SRR4113482	SRR4113482	mixed, drug resistant	ODAJ-LEVR_39-NR8-39-294			Sus scrofa domesticus	stool		whole organism			
+SRR4113463	SRR4113463	mixed, drug susceptible	ODAJ-SENS_37-NR8-33-84			Sus scrofa domesticus	stool		whole organism			
+SRR4113464	SRR4113464	mixed, drug susceptible	ODAJ-SENS_38-NR8-37-222			Sus scrofa domesticus	stool		whole organism			
+SRR4113465	SRR4113465	mixed, drug susceptible	ODAJ-SENS_38-NR8-37-224			Sus scrofa domesticus	stool		whole organism			
+SRR4113466	SRR4113466	mixed, drug susceptible	ODAJ-SENS_37-NR8-33-81			Sus scrofa domesticus	stool		whole organism			
+SRR4113472	SRR4113472	mixed, drug susceptible	ODAJ-SENS_38-NR8-37-223			Sus scrofa domesticus	stool		whole organism			
+SRR4113478	SRR4113478	mixed, drug susceptible	ODAJ-SENS_37-NR8-33-83			Sus scrofa domesticus	stool		whole organism			
+SRR4113479	SRR4113479	mixed, drug susceptible	ODAJ-SENS-NR7-9-1A			Sus scrofa domesticus	stool		whole organism			
+SRR4113480	SRR4113480	mixed, drug susceptible	ODAJ-SENS_37-NR8-33-82			Sus scrofa domesticus	stool		whole organism			
+SRR4113481	SRR4113481	mixed, drug susceptible	ODAJ-SENS_38-NR8-37-221			Sus scrofa domesticus	stool		whole organism			

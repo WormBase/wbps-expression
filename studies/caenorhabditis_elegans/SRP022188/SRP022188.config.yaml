@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA202243
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2014-02-12
+ena_last_update: 2015-11-04
+pubmed:
+  24445807:
+    - 'Miki .. Großhans, 2014'
+    - 'Engineering of a conditional allele reveals multiple roles of XRN2 in <i>Caenorhabditis elegans</i> development and substrate specificity in microRNA turnover. (Miki .. Großhans, 2014)'
+resource_links: []
+rnaseqer_last_update: 2019-06-25
+submitting_centre: Friedrich Miescher Institute
+title: microRNA decay analysis in the first larval stage Caenorhabditis elegans

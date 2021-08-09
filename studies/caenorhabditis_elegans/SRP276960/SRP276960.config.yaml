@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA656126
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2021-05-07
+ena_last_update: 2021-07-03
+pubmed:
+  34014977:
+    - 'He .. Tang, 2021'
+    - 'Phosphatidylcholine mediates the crosstalk between LET-607 and DAF-16 stress response pathways. (He .. Tang, 2021)'
+resource_links: []
+rnaseqer_last_update: 2021-07-31
+submitting_centre: Chongqing university
+title: Gene expression regulated by let-607 RNAi in C. elegans
