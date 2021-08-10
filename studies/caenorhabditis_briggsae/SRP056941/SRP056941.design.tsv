@@ -1,7 +1,0 @@
-Run	Condition	developmental_stage	sample_name	strain	source_name
-SRR2541840	N2 L1 spikein rep1 RNAseq	L1	N2 L1 spikein rep1 RNAseq	N2 & AF16	whole worms
-SRR2541841	N2 L1 spikein rep2 RNAseq	L1	N2 L1 spikein rep2 RNAseq	N2 & AF16	whole worms
-SRR2541842	N2 L1 spikein rep3 RNAseq	L1	N2 L1 spikein rep3 RNAseq	N2 & AF16	whole worms
-SRR2541843	SET4 L1 spikein rep1 RNAseq	L1	SET4 L1 spikein rep1 RNAseq	MT14911 & AF16	whole worms
-SRR2541844	SET4 L1 spikein rep2 RNAseq	L1	SET4 L1 spikein rep2 RNAseq	MT14911 & AF16	whole worms
-SRR2541845	SET4 L1 spikein rep3 RNAseq	L1	SET4 L1 spikein rep3 RNAseq	MT14911 & AF16	whole worms

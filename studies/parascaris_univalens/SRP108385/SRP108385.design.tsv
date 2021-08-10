@@ -1,12 +1,11 @@
-Run	Sample	Condition	description_title	developmental_stage	organism_part	source_name	strain
-SRR5635093	SRR5635093	SRR5635093	5'-UTR Spliced Leader PCR Library	Mixed sample	mixed sample	Mixed sample	North American wildtype
-SRR5635083	SAMN07183181	male carcass	Parascaris carcass	Male somatic	carcass	Parascaris carcass	North American wildtype
-SRR5635084	SAMN07183181	male carcass	Parascaris carcass	Male somatic	carcass	Parascaris carcass	North American wildtype
-SRR5635085	SAMN07183180	male embryo	Parascaris embryo	Male somatic	embryo	Parascaris embryo	North American wildtype
-SRR5635086	SAMN07183180	male embryo	Parascaris embryo	Male somatic	embryo	Parascaris embryo	North American wildtype
-SRR5635089	SAMN07183178	male intestine	Parascaris intestine	Male somatic	intestine	Parascaris intestine	North American wildtype
-SRR5635090	SAMN07183178	male intestine	Parascaris intestine	Male somatic	intestine	Parascaris intestine	North American wildtype
-SRR5635087	SAMN07183179	ovary	Parascaris ovary	Female germline	ovary	Parascaris ovary	North American wildtype
-SRR5635088	SAMN07183179	ovary	Parascaris ovary	Female germline	ovary	Parascaris ovary	North American wildtype
-SRR5635091	SAMN07183177	testis	Parascaris testis	Male germline	testis	Parascaris testis	North American wildtype
-SRR5635092	SAMN07183177	testis	Parascaris testis	Male germline	testis	Parascaris testis	North American wildtype
+Run	Condition	organism_part	sex	strain
+SRR5635083	male carcass	carcass	male	North American wildtype
+SRR5635084	male carcass	carcass	male	North American wildtype
+SRR5635085	male embryo	embryo	male	North American wildtype
+SRR5635086	male embryo	embryo	male	North American wildtype
+SRR5635089	male intestine	intestine	male	North American wildtype
+SRR5635090	male intestine	intestine	male	North American wildtype
+SRR5635087	ovary	ovary	female	North American wildtype
+SRR5635088	ovary	ovary	female	North American wildtype
+SRR5635091	testis	testis	male	North American wildtype
+SRR5635092	testis	testis	male	North American wildtype

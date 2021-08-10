@@ -1,0 +1,37 @@
+Run	Sample	Condition	Host tissue	Culture conditions	Treatment	Sex	location	host	tissue type
+ERR3975662	SAMEA6605040	In vitro cultured 24h	Intestine	In vitro cultured 24h		Female	Iceland	Equus ferus caballus	anterior end
+ERR3975664	SAMEA6605042	In vitro cultured 24h	Intestine	In vitro cultured 24h		Female	Iceland	Equus ferus caballus	anterior end
+ERR3975666	SAMEA6605044	In vitro cultured 24h	Intestine	In vitro cultured 24h		Female	Iceland	Equus ferus caballus	anterior end
+ERR3975668	SAMEA6605046	In vitro cultured 24h + DMSO	Intestine	In vitro cultured 24h	DMSO	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975670	SAMEA6605048	In vitro cultured 24h + DMSO	Intestine	In vitro cultured 24h	DMSO	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975672	SAMEA6605050	In vitro cultured 24h + DMSO	Intestine	In vitro cultured 24h	DMSO	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975674	SAMEA6605052	In vitro cultured 24h + ivermectin 10-11M	Intestine	In vitro cultured 24h	"Ivermectin, 10-11 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975676	SAMEA6605054	In vitro cultured 24h + ivermectin 10-11M	Intestine	In vitro cultured 24h	"Ivermectin, 10-11 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975678	SAMEA6605056	In vitro cultured 24h + ivermectin 10-11M	Intestine	In vitro cultured 24h	"Ivermectin, 10-11 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975680	SAMEA6605058	In vitro cultured 24h + ivermectin 10-13M	Intestine	In vitro cultured 24h	"Ivermectin, 10-13 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975682	SAMEA6605060	In vitro cultured 24h + ivermectin 10-13M	Intestine	In vitro cultured 24h	"Ivermectin, 10-13 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975684	SAMEA6605062	In vitro cultured 24h + ivermectin 10-13M	Intestine	In vitro cultured 24h	"Ivermectin, 10-13 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975686	SAMEA6605064	In vitro cultured 24h + ivermectin 10-9M	Intestine	In vitro cultured 24h	"Ivermectin, 10-9 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975688	SAMEA6605066	In vitro cultured 24h + ivermectin 10-9M	Intestine	In vitro cultured 24h	"Ivermectin, 10-9 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975690	SAMEA6605068	In vitro cultured 24h + ivermectin 10-9M	Intestine	In vitro cultured 24h	"Ivermectin, 10-9 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975692	SAMEA6605070	Non-incubated	Intestine	Non-incubated		Female	Iceland	Equus ferus caballus	anterior end
+ERR3975694	SAMEA6605072	Non-incubated	Intestine	Non-incubated		Female	Iceland	Equus ferus caballus	anterior end
+ERR3975696	SAMEA6605074	Non-incubated	Intestine	Non-incubated		Female	Iceland	Equus ferus caballus	anterior end
+ERR3975698	SAMEA6605076	In vitro cultured 24h + pyrantel citrate 10-10 M	Intestine	In vitro cultured 24h	"Pyrantel citrate, 10-10 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975700	SAMEA6605078	In vitro cultured 24h + pyrantel citrate 10-10 M	Intestine	In vitro cultured 24h	"Pyrantel citrate, 10-10 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975702	SAMEA6605080	In vitro cultured 24h + pyrantel citrate 10-10 M	Intestine	In vitro cultured 24h	"Pyrantel citrate, 10-10 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975704	SAMEA6605082	In vitro cultured 24h + pyrantel citrate 10-6 M	Intestine	In vitro cultured 24h	"Pyrantel citrate, 10-6 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975706	SAMEA6605084	In vitro cultured 24h + pyrantel citrate 10-6 M	Intestine	In vitro cultured 24h	"Pyrantel citrate, 10-6 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975708	SAMEA6605086	In vitro cultured 24h + pyrantel citrate 10-6 M	Intestine	In vitro cultured 24h	"Pyrantel citrate, 10-6 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975710	SAMEA6605088	In vitro cultured 24h + pyrantel citrate 10-8 M	Intestine	In vitro cultured 24h	"Pyrantel citrate, 10-8 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975712	SAMEA6605090	In vitro cultured 24h + pyrantel citrate 10-8 M	Intestine	In vitro cultured 24h	"Pyrantel citrate, 10-8 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975714	SAMEA6605092	In vitro cultured 24h + pyrantel citrate 10-8 M	Intestine	In vitro cultured 24h	"Pyrantel citrate, 10-8 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975716	SAMEA6605094	In vitro cultured 24h + thiabendazole 10-5 M	Intestine	In vitro cultured 24h	"Thiabendazole, 10-5 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975718	SAMEA6605096	In vitro cultured 24h + thiabendazole 10-5 M	Intestine	In vitro cultured 24h	"Thiabendazole, 10-5 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975720	SAMEA6605098	In vitro cultured 24h + thiabendazole 10-5 M	Intestine	In vitro cultured 24h	"Thiabendazole, 10-5 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975722	SAMEA6605100	In vitro cultured 24h + thiabendazole 10-7 M	Intestine	In vitro cultured 24h	"Thiabendazole, 10-7 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975724	SAMEA6605102	In vitro cultured 24h + thiabendazole 10-7 M	Intestine	In vitro cultured 24h	"Thiabendazole, 10-7 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975726	SAMEA6605104	In vitro cultured 24h + thiabendazole 10-7 M	Intestine	In vitro cultured 24h	"Thiabendazole, 10-7 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975728	SAMEA6605106	In vitro cultured 24h + thiabendazole 10-9 M	Intestine	In vitro cultured 24h	"Thiabendazole, 10-9 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975730	SAMEA6605108	In vitro cultured 24h + thiabendazole 10-9 M	Intestine	In vitro cultured 24h	"Thiabendazole, 10-9 M"	Female	Iceland	Equus ferus caballus	anterior end
+ERR3975732	SAMEA6605110	In vitro cultured 24h + thiabendazole 10-9 M	Intestine	In vitro cultured 24h	"Thiabendazole, 10-9 M"	Female	Iceland	Equus ferus caballus	anterior end
