@@ -1,8 +1,0 @@
-Run	Sample	Condition	barcode	genotype	sample_name	developmental_stage	linker	source_name
-SRR1301075	SAMN02801792	mRNA_WT	GGGT, GTTA	wild type (N2)	mRNA_WT	young adult	CTGTAGGCACCATCAATC	whole adult animals
-SRR1301076	SAMN02801792	mRNA_WT	GGGT, GTTA	wild type (N2)	mRNA_WT	young adult	CTGTAGGCACCATCAATC	whole adult animals
-SRR1301077	SAMN02801788	mRNA_hrde1	TATG, TCGC	hrde-1(tm1200)	mRNA_hrde1	young adult	CTGTAGGCACCATCAATC	whole adult animals
-SRR1301078	SAMN02801788	mRNA_hrde1	TATG, TCGC	hrde-1(tm1200)	mRNA_hrde1	young adult	CTGTAGGCACCATCAATC	whole adult animals
-SRR1301079	SRR1301079	mRNA_nrde2	CGTC	nrde-2(gg91)	mRNA_nrde2	young adult	CTGTAGGCACCATCAATC	whole adult animals
-SRR1301081	SRR1301081	mRNA_nrde3	GTTA	nrde-3(gg66)	mRNA_nrde3	young adult	CTGTAGGCACCATCAATC	whole adult animals
-SRR1301080	SRR1301080	mRNA_nrde4	CTGG	nrde-4(gg129)	mRNA_nrde4	young adult	CTGTAGGCACCATCAATC	whole adult animals

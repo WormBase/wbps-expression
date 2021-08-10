@@ -1,7 +1,0 @@
-Run	Condition	genotype	sample_name	sample_type	source_name	developmental_stage	ip_antibody	ip_antibody_vendor	organism_part	strain
-SRR513327	WAGO-9 IP		WAGO-9 IP	WAGO-9 IP	WAGO-9 IP sample	gravid adults	M2 FLAG monoclonal antibody	Sigma	adult gonade	EG4322
-SRR513325	ms0712A	wild type	ms0712A		N2 Wild type control	gravid adults			adult gonade	EG4322
-SRR513321	ms0712B	neSi9 gfp::csr-1 RNAe	ms0712B		gfp::csr-1 silenced lne	gravid adults			adult gonade	EG4322
-SRR513324	ms0712C	neSi9 gfp::csr-1	ms0712C		gfp::csr-1 expressed line	gravid adults			adult gonade	EG4322
-SRR513322	ms1101A	neSi10 gfp::csr-1	ms1101A		gfp::csr-1 expressed line	gravid adults			adult gonade	EG4322
-SRR513323	ms1101B	neSi10 gfp::csr-1 RNAe	ms1101B		gfp::csr-1 silenced line	gravid adults			adult gonade	EG4322

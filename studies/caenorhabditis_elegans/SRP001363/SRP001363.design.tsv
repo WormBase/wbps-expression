@@ -1,7 +1,0 @@
-Run	Condition	developmental_stage	sample_name	source_name	purity	strain
-SRR029427	Illumina sequencing of small RNAs from living one cell C. elegans embryos	one-cell embryo	Illumina sequencing of small RNAs from living one cell C. elegans embryos	Living one-cell embryo	~70%	TX189
-SRR029428	Illumina sequencing of small RNAs from mixed C. elegans embryos	Mixed embryos	Illumina sequencing of small RNAs from mixed C. elegans embryos	Mixed C. elegans embryos		TX189
-SRR029426	Illumina sequencing of small RNAs from older, fixed C. elegans embryos	embryo	Illumina sequencing of small RNAs from older, fixed C. elegans embryos	Older embryos (fixed)		TX189
-SRR029424	Illumina sequencing of small RNAs from one cell stage C. elegans embryos	One cell embryo	Illumina sequencing of small RNAs from one cell stage C. elegans embryos	One cell embryo		TX189
-SRR029425	Illumina sequencing of small RNAs from post-gastrulation C. elegans embryos	Post-gastrulation embryo	Illumina sequencing of small RNAs from post-gastrulation C. elegans embryos	Post-gastrulation embryo		TX189
-SRR029423	Illumina sequencing of small RNAs from two-to-four cell C. elegans embryos	Two to four cell embryo	Illumina sequencing of small RNAs from two-to-four cell C. elegans embryos	Two to four cell embryo		TX189
