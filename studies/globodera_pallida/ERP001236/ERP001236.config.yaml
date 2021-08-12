@@ -1,7 +1,33 @@
 ---
 bioproject: PRJEB2896
 category: Other
-contrasts: []
+contrasts:
+  - name: developmental_stage
+    values:
+      -
+        - 14 dpi
+        - J2
+        - 14 dpi vs J2
+      -
+        - 21 dpi
+        - J2
+        - 21 dpi vs J2
+      -
+        - 28 dpi
+        - J2
+        - 28 dpi vs J2
+      -
+        - 35 dpi
+        - J2
+        - 35 dpi vs J2
+      -
+        - Adult male
+        - J2
+        - Adult male vs J2
+      -
+        - J2
+        - egg
+        - J2 vs egg
 description: 'As part of the Globodera pallida (potato cyst nematode) genome project we are profiling the transcriptome of the parasite across its life cycle using RNA-Seq. . '
 ena_first_public: 2012-11-28
 ena_last_update: 2013-07-19

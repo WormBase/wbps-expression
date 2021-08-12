@@ -1,7 +1,39 @@
 ---
 bioproject: PRJEB5096
-category: Other
-contrasts: []
+category: Organism parts
+contrasts:
+  - name: organism_part
+    values:
+      -
+        - 'Adult, mid-section'
+        - 'Adult, posterior'
+        - 'Adult, mid-section vs Adult, posterior'
+      -
+        - 'Adult, mid-section'
+        - 'Adult, scolex'
+        - 'Adult, mid-section vs Adult, scolex'
+      -
+        - 'Adult, mid-section'
+        - 'Adult, whole'
+        - 'Adult, mid-section vs Adult, whole'
+      -
+        - 'Adult, posterior'
+        - 'Adult, scolex'
+        - 'Adult, posterior vs Adult, scolex'
+      -
+        - 'Adult, posterior'
+        - 'Adult, whole'
+        - 'Adult, posterior vs Adult, whole'
+      -
+        - 'Adult, scolex'
+        - 'Adult, whole'
+        - 'Adult, scolex vs Adult, whole'
+  - name: developmental_stage
+    values:
+      -
+        - 'Adult, whole'
+        - mid-metamorphosis larvae
+        - 'Adult, whole vs mid-metamorphosis larvae'
 description: 'Project to investigate gene and small RNA expression of tapeworms (including Echinococcus multilocularis, E. granulosus, Hymenolepis microstoma). '
 ena_first_public: 2013-12-13
 ena_last_update: 2014-12-22

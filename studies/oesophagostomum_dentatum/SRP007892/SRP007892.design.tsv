@@ -1,23 +1,23 @@
-Run	Sample	Condition	developmental_stage	isolation_source	organism_part	strain
-SRR4113476	SRR4113476	L2 larvae	L2 larvae	stool	whole organism	
-SRR4113462	SRR4113462	L3 larvae	L3 larvae	stool	whole organism	
-SRR4113477	SRR4113477	L4 larvae	L4 larvae	stool	whole organism	
-SRR4113473	SRR4113473	adult female	adult female	stool	whole organism	
-SRR4113461	SRR4113461	adult male	adult male	stool	whole organism	
-SRR4113467	SRR4113467	"mixed, drug resistant"	mixed	stool	whole organism	drug resistant
-SRR4113468	SRR4113468	"mixed, drug resistant"	mixed	stool	whole organism	drug resistant
-SRR4113469	SRR4113469	"mixed, drug resistant"	mixed	stool	whole organism	drug resistant
-SRR4113470	SRR4113470	"mixed, drug resistant"	mixed	stool	whole organism	drug resistant
-SRR4113471	SRR4113471	"mixed, drug resistant"	mixed	stool	whole organism	drug resistant
-SRR4113474	SRR4113474	"mixed, drug resistant"	mixed	stool	whole organism	drug resistant
-SRR4113475	SRR4113475	"mixed, drug resistant"	mixed	stool	whole organism	drug resistant
-SRR4113482	SRR4113482	"mixed, drug resistant"	mixed	stool	whole organism	drug resistant
-SRR4113463	SRR4113463	"mixed, drug susceptible"	mixed	stool	whole organism	drug susceptible
-SRR4113464	SRR4113464	"mixed, drug susceptible"	mixed	stool	whole organism	drug susceptible
-SRR4113465	SRR4113465	"mixed, drug susceptible"	mixed	stool	whole organism	drug susceptible
-SRR4113466	SRR4113466	"mixed, drug susceptible"	mixed	stool	whole organism	drug susceptible
-SRR4113472	SRR4113472	"mixed, drug susceptible"	mixed	stool	whole organism	drug susceptible
-SRR4113478	SRR4113478	"mixed, drug susceptible"	mixed	stool	whole organism	drug susceptible
-SRR4113479	SRR4113479	"mixed, drug susceptible"	mixed	stool	whole organism	drug susceptible
-SRR4113480	SRR4113480	"mixed, drug susceptible"	mixed	stool	whole organism	drug susceptible
-SRR4113481	SRR4113481	"mixed, drug susceptible"	mixed	stool	whole organism	drug susceptible
+Run	Condition	developmental_stage	isolation_source	organism_part	strain
+SRR4113476	L2 larvae	L2 larvae	stool	whole organism	
+SRR4113462	L3 larvae	L3 larvae	stool	whole organism	
+SRR4113477	L4 larvae	L4 larvae	stool	whole organism	
+SRR4113473	adult female	adult female	stool	whole organism	
+SRR4113461	adult male	adult male	stool	whole organism	
+SRR4113467	mixed, drug resistant	mixed	stool	whole organism	drug resistant
+SRR4113468	mixed, drug resistant	mixed	stool	whole organism	drug resistant
+SRR4113469	mixed, drug resistant	mixed	stool	whole organism	drug resistant
+SRR4113470	mixed, drug resistant	mixed	stool	whole organism	drug resistant
+SRR4113471	mixed, drug resistant	mixed	stool	whole organism	drug resistant
+SRR4113474	mixed, drug resistant	mixed	stool	whole organism	drug resistant
+SRR4113475	mixed, drug resistant	mixed	stool	whole organism	drug resistant
+SRR4113482	mixed, drug resistant	mixed	stool	whole organism	drug resistant
+SRR4113463	mixed, drug susceptible	mixed	stool	whole organism	drug susceptible
+SRR4113464	mixed, drug susceptible	mixed	stool	whole organism	drug susceptible
+SRR4113465	mixed, drug susceptible	mixed	stool	whole organism	drug susceptible
+SRR4113466	mixed, drug susceptible	mixed	stool	whole organism	drug susceptible
+SRR4113472	mixed, drug susceptible	mixed	stool	whole organism	drug susceptible
+SRR4113478	mixed, drug susceptible	mixed	stool	whole organism	drug susceptible
+SRR4113479	mixed, drug susceptible	mixed	stool	whole organism	drug susceptible
+SRR4113480	mixed, drug susceptible	mixed	stool	whole organism	drug susceptible
+SRR4113481	mixed, drug susceptible	mixed	stool	whole organism	drug susceptible

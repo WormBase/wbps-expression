@@ -1,7 +1,13 @@
 ---
 bioproject: PRJNA72579
 category: Other
-contrasts: []
+contrasts:
+  - name: strain
+    values:
+      -
+        - 'mixed, drug resistant'
+        - 'mixed, drug susceptible'
+        - 'mixed: drug resistant vs drug susceptible'
 description: ''
 ena_first_public: 2011-08-23
 ena_last_update: 2016-09-02

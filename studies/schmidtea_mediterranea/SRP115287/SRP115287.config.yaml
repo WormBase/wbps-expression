@@ -1,7 +1,21 @@
 ---
 bioproject: PRJNA397855
-category: Other
-contrasts: []
+category: Response to treatment
+contrasts:
+  - name: treatment
+    values:
+      -
+        - x1 cells
+        - 'x1 cells, ints3 RNAi'
+        - "x1 cells: '' vs ints3 RNAi"
+      -
+        - x1 cells
+        - 'x1 cells, ints9 RNAi'
+        - "x1 cells: '' vs ints9 RNAi"
+      -
+        - 'x1 cells, ints3 RNAi'
+        - 'x1 cells, ints9 RNAi'
+        - 'x1 cells: ints3 RNAi vs ints9 RNAi'
 description: ''
 ena_first_public: 2018-04-26
 ena_last_update: 2018-04-26

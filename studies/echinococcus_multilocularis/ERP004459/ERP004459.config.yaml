@@ -1,7 +1,13 @@
 ---
 bioproject: PRJEB5096
 category: Other
-contrasts: []
+contrasts:
+  - name: culture_conditions
+    values:
+      -
+        - 'axenic culture with hydroxyurea, Metacestode, Ingrid'
+        - 'axenic culture, Metacestode, Ingrid'
+        - 'Metacestode, Ingrid: axenic culture with hydroxyurea vs axenic culture'
 description: 'Project to investigate gene and small RNA expression of tapeworms (including Echinococcus multilocularis, E. granulosus, Hymenolepis microstoma). '
 ena_first_public: 2013-12-13
 ena_last_update: 2014-12-22
