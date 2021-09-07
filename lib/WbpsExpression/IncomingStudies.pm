@@ -22,15 +22,17 @@ use Data::Compare;
 
 #Add to me for unit testing
 our %exceptions = (
-  "ERP006987" => "C. sinensis: four runs, but the tpms could be meaningful",
-  "SRP013211" => "O. viverrini: two runs, juvenile vs adult, from 2012",
-  "DRP003063" => "Emu study, four runs",
-  "SRP131874" => "E. granulosus, four runs but a second study for the species",
-  "SRP152065" => "M. incognita IARI study, two controls two replicates",
-  "SRP179824" => "S. japonicum, three runs done for genome sequencing. Essentially a nice start",
-  "SRP140458" => "T. pseudospiralis, three runs for genome sequencing, different life stages",
-  "SRP048819" => "D. immitis, three runs, the community expressed interest in including this study",
-  "SRP067884" => "T. circ, drug resistant vs suseptible. Only annotated at our competitors', nematode.net.",
+    "ERP006987"  => "C. sinensis: four runs, but the tpms could be meaningful",
+    "SRP013211"  => "O. viverrini: two runs, juvenile vs adult, from 2012",
+    "DRP003063"  => "Emu study, four runs",
+    "SRP131874"  => "E. granulosus, four runs but a second study for the species",
+    "SRP152065"  => "M. incognita IARI study, two controls two replicates",
+    "SRP179824"  => "S. japonicum, three runs done for genome sequencing. Essentially a nice start",
+    "SRP140458"  => "T. pseudospiralis, three runs for genome sequencing, different life stages",
+    "SRP048819"  => "D. immitis, three runs, the community expressed interest in including this study",
+    "SRP067884"  => "T. circ, drug resistant vs suseptible. Only annotated at our competitors', nematode.net.",
+    "SRP140708" => "Couldn't find featurecounts file here http://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR702/000/SRR7026110/",
+    "SRP064960" => "4 runs, but requested to be included"
 );
 
 sub same_runs {
@@ -177,7 +179,8 @@ sub update_studies {
 #### $rnaseqer_results_by_study_id
   for my $study_id (sort keys %{$rnaseqer_results_by_study_id}){
     next unless $rnaseqer_results_by_study_id->{$study_id}{assembly_used} eq $assembly; 
-    next if $study_id eq "DRP002615";
+    next if $study_id eq "DRP002615" ;
+    next if $study_id eq "SRP140708" ;
     $log->info( __PACKAGE__ . " processing $study_id");
     
    # some runs do not have a location (i.e. summat like 'ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR643/009/SRR6435989')

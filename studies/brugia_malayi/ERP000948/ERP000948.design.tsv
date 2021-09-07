@@ -1,12 +1,13 @@
-Run	Sample	Condition	biosourceprovider	biosourcetype	developmental_stage	organism_part	sex	strain
-ERR048962	SAMEA1035164	Adult female	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	adult	whole organism	female	FR3
-ERR048970	SAMEA1035164	Adult female	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	adult	whole organism	female	FR3
-ERR048972	SAMEA1035164	Adult female	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	adult	whole organism	female	FR3
-ERR048961	SAMEA1035158	Adult male	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	adult	whole organism	male	FR3
-ERR048967	SAMEA1035163	Eggs/embryos	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	eggs and embryos	whole organism	mixed	FR3
-ERR048969	SAMEA1035163	Eggs/embryos	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	eggs and embryos	whole organism	mixed	FR3
-ERR048974	SAMEA1035159	L3	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	larva L3	whole organism	mixed	FR3
-ERR048963	SAMEA1035165	L4	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	larva L4	whole organism	mixed	FR3
-ERR048971	SAMEA1035165	L4	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	larva L4	whole organism	mixed	FR3
-ERR048973	SAMEA1035165	L4	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	larva L4	whole organism	mixed	FR3
-ERR048965	SAMEA1035160	Microfilariae	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	mature microfilariae	whole organism	mixed	FR3
+Run	Sample	Condition	developmental_stage	strain	biosourceprovider	biosourcetype	organism_part
+ERR048962	SAMEA1035164	Adult female	adult	FR3	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	whole organism
+ERR048970	SAMEA1035164	Adult female	adult	FR3	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	whole organism
+ERR048972	SAMEA1035164	Adult female	adult	FR3	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	whole organism
+ERR048961	ERR048961	Adult male	adult	FR3	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	whole organism
+ERR048967	SAMEA1035163	Eggs/embryos	eggs and embryos	FR3	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	whole organism
+ERR048969	SAMEA1035163	Eggs/embryos	eggs and embryos	FR3	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	whole organism
+ERR048974	ERR048974	L3	larva L3	FR3 and WI	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	whole organism
+ERR048963	SAMEA1035165	L4	larva L4	FR3	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	whole organism
+ERR048971	SAMEA1035165	L4	larva L4	FR3	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	whole organism
+ERR048973	SAMEA1035165	L4	larva L4	FR3	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	whole organism
+ERR048965	ERR048965	Microfilariae	mature microfilariae	FR3	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	whole organism
+ERR048968	SAMEA1035162	immature female	immature female	FR3	Filariasis Research Reagent Resource (FR3) Center at University of Wisconsin Oshkosh, WI.	frozen_sample	whole organism

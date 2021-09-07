@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA544186
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-12-08
+ena_last_update: 2021-03-28
+pubmed:
+  33718883:
+    - 'Li .. Auwerx, 2021'
+    - 'The transcriptional coactivator CBP/p300 is an evolutionarily conserved node that promotes longevity in response to mitochondrial stress. (Li .. Auwerx, 2021)'
+resource_links: []
+rnaseqer_last_update: 2020-12-11
+submitting_centre: EPFL
+title: 'The transcriptional coactivator CBP/p300 is an evolutionarily conserved node that promotes longevity in response to mitochondrial stress [C. elegans]'

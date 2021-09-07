@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA168969
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2012-06-27
+ena_last_update: 2017-07-19
+pubmed:
+  22738725:
+    - 'Ashe .. Miska, 2012'
+    - 'piRNAs can trigger a multigenerational epigenetic memory in the germline of <i>C. elegans</i>. (Ashe .. Miska, 2012)'
+resource_links: []
+rnaseqer_last_update: 2019-06-24
+submitting_centre: 'Genentech, Inc.'
+title: piRNAs can trigger a multigenerational epigenetic memory in the germline of C. elegans

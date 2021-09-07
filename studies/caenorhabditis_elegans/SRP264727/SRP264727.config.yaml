@@ -1,32 +1,12 @@
 ---
 bioproject: PRJNA635013
-category: Response to treatment
-contrasts:
-  - name: treatment
-    values:
-      -
-        - 'WT, heat shock'
-        - 'WT, non-heat shock'
-        - 'WT, heat shock vs WT, non-heat shock'
-      -
-        - 'affl-2 mutant, heat shock'
-        - 'affl-2 mutant, non-heat shock'
-        - 'affl-2 mutant, heat shock vs affl-2 mutant, non-heat shock'
-  - name: genotype+strain
-    values:
-      -
-        - 'WT, heat shock'
-        - 'affl-2 mutant, heat shock'
-        - 'WT, heat shock vs affl-2 mutant, heat shock'
-      -
-        - 'WT, non-heat shock'
-        - 'affl-2 mutant, non-heat shock'
-        - 'WT, non-heat shock vs affl-2 mutant, non-heat shock'
+category: Other
+contrasts: []
 description: ''
 ena_first_public: 2020-05-28
 ena_last_update: 2020-05-28
 pubmed: {}
 resource_links: []
-rnaseqer_last_update: 2020-07-20
+rnaseqer_last_update: 2020-11-30
 submitting_centre: 'Sternberg, Biology and Biological Engineering, California Institute of Technology'
 title: Caenorhabditis elegans AF4/FMR2 family homolog affl-2 regulates heat shock induced gene expression

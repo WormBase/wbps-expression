@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA434314
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-04-28
+ena_last_update: 2019-07-25
+pubmed:
+  31018137:
+    - 'Ganem .. Lamm, 2019'
+    - 'Disruption in A-to-I Editing Levels Affects C. elegans Development More Than a Complete Lack of Editing. (Ganem .. Lamm, 2019)'
+resource_links: []
+rnaseqer_last_update: 2019-07-09
+submitting_centre: 'Ayelet Lamm, Biology, Technion'
+title: Disruption in A-to-I editing levels affects C. elegans development more than a complete lack of editing

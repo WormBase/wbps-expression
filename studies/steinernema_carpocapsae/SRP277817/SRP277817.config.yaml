@@ -1,0 +1,40 @@
+---
+bioproject: PRJNA657600
+category: Other
+contrasts:
+  - name: title
+    values:
+      -
+        - sc_female_head
+        - sc_male_head
+        - sc_female_head vs sc_male_head
+      -
+        - sc_female_tail
+        - sc_male_tail
+        - sc_female_tail vs sc_male_tail
+      -
+        - sc_female_whole
+        - sc_male_whole
+        - sc_female_whole vs sc_male_whole
+  - name: organism_part+title
+    values:
+      -
+        - sc_nave_head
+        - sc_nave_tail
+        - 'sc_nave_: head, sc_nave_head vs tail, sc_nave_tail'
+      -
+        - sc_nave_head
+        - sc_nave_whole
+        - sc_nave_head vs sc_nave_whole
+      -
+        - sc_nave_tail
+        - sc_nave_whole
+        - sc_nave_tail vs sc_nave_whole
+description: ''
+ena_first_public: 2020-08-19
+ena_last_update: 2020-08-19
+pubmed: {}
+resource_links: []
+rnaseqer_last_update: 2020-12-01
+submitting_centre: 'Mortazavi, Developmental and cell biology, University of California, Irvine'
+title: Comparative Transcriptomics of heads and tails between Steinernema carpocapsae and Caenorhabditis elegans

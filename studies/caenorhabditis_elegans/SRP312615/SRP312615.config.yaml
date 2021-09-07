@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA718306
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2021-03-31
+ena_last_update: 2021-05-19
+pubmed:
+  33997661:
+    - 'Cohen .. Sternberg, 2021'
+    - 'HASH(0x5c0bd58) (Cohen .. Sternberg, 2021)'
+resource_links: []
+rnaseqer_last_update: 2021-07-29
+submitting_centre: 'Sternberg, Biology and Bioengineering, California Institute of Technology'
+title: Transcriptional Response to Dauer-Inducing Ascarosides in Late L1 in C. elegans

@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA121513
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2010-04-09
+ena_last_update: 2017-11-30
+pubmed:
+  20133583:
+    - 'Vasale .. Conte, 2010'
+    - 'Sequential rounds of RNA-dependent RNA transcription drive endogenous small-RNA biogenesis in the ERGO-1/Argonaute pathway. (Vasale .. Conte, 2010)'
+resource_links: []
+rnaseqer_last_update: 2019-06-24
+submitting_centre: 'Craig Mello, Program in Molecular Medicine, University of Massachusetts Medical School'
+title: Sequential rounds of RNA-dependent RNA transcription drive endogenous small-RNA biogenesis in ERGO-1/Argonaute pathway

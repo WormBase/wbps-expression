@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA158125
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2012-04-12
+ena_last_update: 2015-11-04
+pubmed:
+  22542102:
+    - 'Zhang .. Ruvkun, 2012'
+    - 'The <i>Caenorhabditis elegans</i> RDE-10/RDE-11 complex regulates RNAi by promoting secondary siRNA amplification. (Zhang .. Ruvkun, 2012)'
+resource_links: []
+rnaseqer_last_update: 2019-06-24
+submitting_centre: 'Ruvkun, Molecular Biology, Massachusetts General Hospital'
+title: The Caenorhabditis elegans RDE-10/RDE-11 complex regulates RNAi by promoting secondary siRNA amplification

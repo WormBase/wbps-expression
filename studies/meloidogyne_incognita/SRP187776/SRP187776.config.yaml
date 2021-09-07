@@ -1,21 +1,7 @@
 ---
 bioproject: PRJNA525879
 category: Other
-contrasts:
-  - name: isolate+isolation_source
-    values:
-      -
-        - Kenya
-        - Nigeria 1
-        - 'Kenya, Amaranthus viridae vs Nigeria 1, Celosia'
-      -
-        - Kenya
-        - Nigeria 2
-        - 'Kenya, Amaranthus viridae vs Nigeria 2, Not available'
-      -
-        - Nigeria 1
-        - Nigeria 2
-        - 'Nigeria 1, Celosia vs Nigeria 2, Not available'
+contrasts: []
 description: ''
 ena_first_public: 2019-03-07
 ena_last_update: 2019-03-07

@@ -1,4 +1,6 @@
 Run	Location	End	Quality
+SRR7167644	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR716/004/SRR7167644	se	10
+SRR7167645	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR716/005/SRR7167645	se	6
 SRR7167646	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR716/006/SRR7167646	se	78
 SRR7167647	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR716/007/SRR7167647	se	75
 SRR7167648	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/SRR716/008/SRR7167648	se	95

@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA563830
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-08-28
+ena_last_update: 2020-11-28
+pubmed:
+  33046905:
+    - 'Wang .. Schumacher, 2020'
+    - 'H3K4me2 regulates the recovery of protein biosynthesis and homeostasis following DNA damage. (Wang .. Schumacher, 2020)'
+resource_links: []
+rnaseqer_last_update: 2020-11-28
+submitting_centre: 'Institute for Genome Stability in Aging and Disease, CECAD Research Center'
+title: RNA-seq for UV irradiated C. elegans

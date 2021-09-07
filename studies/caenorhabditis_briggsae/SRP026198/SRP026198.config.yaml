@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA208993
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2013-07-01
+ena_last_update: 2015-11-04
+pubmed:
+  24098135:
+    - 'Stadler .. Fire, 2013'
+    - 'Conserved translatome remodeling in nematode species executing a shared developmental transition. (Stadler .. Fire, 2013)'
+resource_links: []
+rnaseqer_last_update: 2019-06-24
+submitting_centre: 'Fire, Pathology, Stanford University'
+title: mRNA and Ribosome Profiling in Four Nematode Species Traversing a Shared Developmental Transition

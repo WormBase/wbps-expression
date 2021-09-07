@@ -1,0 +1,44 @@
+---
+bioproject: PRJNA491632
+category: Other
+contrasts:
+  - name: sample_name
+    values:
+      -
+        - F1 Schistosoma bovis x haematobium female
+        - F1' Schistosoma haematobium x bovis female
+        - F1 Schistosoma bovis x haematobium female vs F1' Schistosoma haematobium x bovis female
+      -
+        - F1 Schistosoma bovis x haematobium female
+        - Schistosoma haematobium female (homospecific pairing)
+        - F1 Schistosoma bovis x haematobium female vs Schistosoma haematobium female (homospecific pairing)
+      -
+        - F1' Schistosoma haematobium x bovis female
+        - Schistosoma haematobium female (homospecific pairing)
+        - F1' Schistosoma haematobium x bovis female vs Schistosoma haematobium female (homospecific pairing)
+      -
+        - F1 Schistosoma bovis x haematobium male
+        - F1' Schistosoma haematobium x bovis male
+        - F1 Schistosoma bovis x haematobium male vs F1' Schistosoma haematobium x bovis male
+      -
+        - F1 Schistosoma bovis x haematobium male
+        - Schistosoma haematobium male (homospecific pairing)
+        - F1 Schistosoma bovis x haematobium male vs Schistosoma haematobium male (homospecific pairing)
+      -
+        - F1' Schistosoma haematobium x bovis male
+        - Schistosoma haematobium male (homospecific pairing)
+        - F1' Schistosoma haematobium x bovis male vs Schistosoma haematobium male (homospecific pairing)
+  - name: sample_name+sex
+    values:
+      -
+        - Schistosoma haematobium female (heterospecific pairing)
+        - Schistosoma haematobium male (heterospecific pairing)
+        - 'Schistosoma haematobium female (heterospecific pairing), female vs Schistosoma haematobium male (heterospecific pairing), male'
+description: ''
+ena_first_public: 2019-09-28
+ena_last_update: 2019-09-28
+pubmed: {}
+resource_links: []
+rnaseqer_last_update: 2021-01-16
+submitting_centre: University of Perpignan Via Domitia
+title: Transcriptome sequencing of Schistosoma haematobium x bovis adult worm hybrids

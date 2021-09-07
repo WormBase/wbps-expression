@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA637040
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2021-04-16
+ena_last_update: 2021-07-17
+pubmed:
+  33852894:
+    - 'Gudipati .. Großhans, 2021'
+    - 'Protease-mediated processing of Argonaute proteins controls small RNA association. (Gudipati .. Großhans, 2021)'
+resource_links: []
+rnaseqer_last_update: 2021-07-29
+submitting_centre: 'Grosshans, FMI'
+title: 'Protease-mediated processing of Argonaute proteins controls small RNA association [RNA-Seq]'

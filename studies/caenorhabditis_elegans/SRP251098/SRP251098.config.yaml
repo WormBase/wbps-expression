@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA609219
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2021-01-15
+ena_last_update: 2021-04-07
+pubmed:
+  33664268:
+    - 'Quarato .. Cecere, 2021'
+    - 'Germline inherited small RNAs facilitate the clearance of untranslated maternal mRNAs in <i>C. elegans</i> embryos. (Quarato .. Cecere, 2021)'
+resource_links: []
+rnaseqer_last_update: 2021-01-23
+submitting_centre: 'Mechanisms of Epigenetic Inheritance, Development and stem cell biology, Institut Pasteur'
+title: Germline inherited small RNAs facilitate the clearance of untranslated maternal mRNAs in C. elegans embryos (RNA-seq)

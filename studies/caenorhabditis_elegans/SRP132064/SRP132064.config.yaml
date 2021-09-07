@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA432698
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-09-27
+ena_last_update: 2019-12-07
+pubmed:
+  31602465:
+    - 'Beurton .. Palladino, 2019'
+    - 'Physical and functional interaction between SET1/COMPASS complex component CFP-1 and a Sin3S HDAC complex in <i>C. elegans</i>. (Beurton .. Palladino, 2019)'
+resource_links: []
+rnaseqer_last_update: 2021-02-19
+submitting_centre: I-Stem
+title: Physical and functional interaction between the SET1 complex component CFP-1/CXXC and the Sin-3S/HDAC complex in C. elegans embryos

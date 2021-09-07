@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA177953
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2013-06-17
+ena_last_update: 2015-12-11
+pubmed:
+  24137537:
+    - 'Ashe .. Miska, 2013'
+    - 'A deletion polymorphism in the <i>Caenorhabditis elegans</i> RIG-I homolog disables viral RNA dicing and antiviral immunity. (Ashe .. Miska, 2013)'
+resource_links: []
+rnaseqer_last_update: 2019-06-24
+submitting_centre: 'Miska, Wellcome Trust/Cancer Research UK Gurdon Institute, The Henry We, University of Cambridge'
+title: Analysis of small RNA response to viral infection in C.elegans

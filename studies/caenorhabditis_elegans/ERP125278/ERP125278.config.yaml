@@ -1,0 +1,12 @@
+---
+bioproject: PRJEB41493
+category: Other
+contrasts: []
+description: 'The goal of this study is to identifiy factors, which modulate protein aggregation in a tissue-specific manner. To this end, we sequenced the transcriptomes of multiple C. elegans lines.'
+ena_first_public: 2020-11-25
+ena_last_update: 2020-11-24
+pubmed: {}
+resource_links: []
+rnaseqer_last_update: 2020-11-28
+submitting_centre: MAX PLANCK INSTITUTE FOR DEVELOPMENTAL BIOLOGY
+title: Tissue-specific transcriptome profiling of Protein Aggregation in Caenorhabditis elegans

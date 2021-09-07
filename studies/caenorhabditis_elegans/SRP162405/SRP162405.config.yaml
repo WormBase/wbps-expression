@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA492792
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-06-03
+ena_last_update: 2019-09-03
+pubmed:
+  31130987:
+    - 'Gao .. Ma, 2019'
+    - 'HASH(0x7269a40) (Gao .. Ma, 2019)'
+resource_links: []
+rnaseqer_last_update: 2021-02-20
+submitting_centre: Central South University
+title: 'Defective expression of mitochondrial, histone and vesicle genes in a C. elegans SMA model'

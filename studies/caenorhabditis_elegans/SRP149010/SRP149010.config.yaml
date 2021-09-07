@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA473173
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-12-04
+ena_last_update: 2021-02-04
+pubmed:
+  33473112:
+    - 'Shpilka .. Haynes, 2021'
+    - 'HASH(0x728d7d8) (Shpilka .. Haynes, 2021)'
+resource_links: []
+rnaseqer_last_update: 2021-01-21
+submitting_centre: 'Molecular Cellular and Cancer Biology, UMass Medical School'
+title: Comparison of WT to atfs-1(null) & WT to atfs-1(et18) in C. elegans by deep sequencing

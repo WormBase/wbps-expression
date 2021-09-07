@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA666675
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-10-03
+ena_last_update: 2020-10-28
+pubmed:
+  32859697:
+    - 'Saskői .. Takács-Vellai, 2020'
+    - 'HASH(0x772a650) (Saskői .. Takács-Vellai, 2020)'
+resource_links: []
+rnaseqer_last_update: 2020-12-01
+submitting_centre: 'HAS-SE Momentum Hereditary Endocrine Tumour Syndromes Research Group, Hungarian Academy of Sciences and Semmelweis University, Semmelweis University'
+title: The SDHB Arg230His mutation causing familial paraganglioma alters glycolysis in a new Caenorhabditis elegans model

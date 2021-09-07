@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA601121
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-12-11
+ena_last_update: 2020-12-11
+pubmed:
+  33289480:
+    - 'Heissenberger .. Schosserer, 2020'
+    - 'HASH(0x7462f78) (Heissenberger .. Schosserer, 2020)'
+resource_links: []
+rnaseqer_last_update: 2020-12-14
+submitting_centre: 'Markus Schosserer, Department of Biotechnology, BOKU - University of Natural Resources and Life Sciences Vienna'
+title: Translational profiling reveals that mRNAs encoding cuticle collagens are translationally repressed upon nsun-1 knockdown

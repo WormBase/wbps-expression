@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA562715
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2021-01-04
+ena_last_update: 2021-04-04
+pubmed:
+  32139421:
+    - 'Harr .. Gasser, 2020'
+    - 'Loss of an H3K9me anchor rescues laminopathy-linked changes in nuclear organization and muscle function in an Emery-Dreifuss muscular dystrophy model. (Harr .. Gasser, 2020)'
+resource_links: []
+rnaseqer_last_update: 2021-03-02
+submitting_centre: Friedrich Miescher Institute
+title: 'RNA-seq: Loss of a heterochromatin anchor rescues altered genome organization and EDMD muscle defects triggered by a laminopathy mutation'

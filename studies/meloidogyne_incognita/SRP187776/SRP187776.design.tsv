@@ -1,10 +1,13 @@
-Run	Condition	isolate	isolation_source	host	organism_part
-SRR8691588	Kenya	Kenya	Amaranthus viridae	Tomato	j2
-SRR8691597	Kenya	Kenya	Amaranthus viridae	Tomato	j2
-SRR8691605	Kenya	Kenya	Amaranthus viridae	Tomato	j2
-SRR8691592	Nigeria 1	Nigeria 1	Celosia	Tomato	j2
-SRR8691594	Nigeria 1	Nigeria 1	Celosia	Tomato	j2
-SRR8691596	Nigeria 1	Nigeria 1	Celosia	Tomato	j2
-SRR8691582	Nigeria 2	Nigeria 2	Not available	Tomato	j2
-SRR8691586	Nigeria 2	Nigeria 2	Not available	Tomato	j2
-SRR8691590	Nigeria 2	Nigeria 2	Not available	Tomato	j2
+Run	Condition	biomaterial_provider	collection_date	description_title	geographic_location	isolate	isolation_source	sample_name	host	organism_part
+SRR8691588	Kenya	ICIPE, Kenya- Not available	May-2017	Ken_1_RNASeq_R1_Replicate_2	Kenya	Ken_1_RNASeq_R1_Replicate_2	Amaranthus viridae	Ken_1_RNASeq_R1_Replicate_2	Tomato	j2
+SRR8691597	Kenya	ICIPE, Kenya- Not available	May-2017	Ken_1_RNASeq_R1_Replicate_3	Kenya	Ken_1_RNASeq_R1_Replicate_3	Amaranthus viridae	Ken_1_RNASeq_R1_Replicate_3	Tomato	j2
+SRR8691605	Kenya	ICIPE, Kenya- Not available	May-2017	Ken_1_RNASeq_R1_Replicate_1	Kenya	Ken_1_RNASeq_R1_Replicate_1	Amaranthus viridae	Ken_1_RNASeq_R1_Replicate_1	Tomato	j2
+SRR8691589	Nig_3_RNASeq_R1_Replicate_1	IITA, Nigeria- Serial No. 19	Jun-2017	Nig_3_RNASeq_R1_Replicate_1	Nigeria	Nig_3_RNASeq_R1_Replicate_1	Not available	Nig_3_RNASeq_R1_Replicate_1	Tomato	j2
+SRR8691601	Nig_3_RNASeq_R1_Replicate_2	IITA, Nigeria- Serial No. 19	Jun-2017	Nig_3_RNASeq_R1_Replicate_2	Nigeria	Nig_3_RNASeq_R1_Replicate_2	Not available	Nig_3_RNASeq_R1_Replicate_2	Tomato	j2
+SRR8691603	Nig_3_RNASeq_R1_Replicate_3	IITA, Nigeria- Serial No. 19	Jun-2017	Nig_3_RNASeq_R1_Replicate_3	Nigeria	Nig_3_RNASeq_R1_Replicate_3	Not available	Nig_3_RNASeq_R1_Replicate_3	Tomato	j2
+SRR8691592	Nigeria 1	IITA, Nigeria- Screen House No. 24	Jun-2017	Nig_1_RNASeq_R1_Replicate_3	Nigeria	Nig_1_RNASeq_R1_Replicate_3	Celosia	Nig_1_RNASeq_R1_Replicate_3	Tomato	j2
+SRR8691594	Nigeria 1	IITA, Nigeria- Screen House No. 21	Jun-2017	Nig_1_RNASeq_R1_Replicate_2	Nigeria	Nig_1_RNASeq_R1_Replicate_2	Celosia	Nig_1_RNASeq_R1_Replicate_2	Tomato	j2
+SRR8691596	Nigeria 1	IITA, Nigeria- Screen House No. 18	Jun-2017	Nig_1_RNASeq_R1_Replicate_1	Nigeria	Nig_1_RNASeq_R1_Replicate_1	Celosia	Nig_1_RNASeq_R1_Replicate_1	Tomato	j2
+SRR8691582	Nigeria 2	IITA, Nigeria- Serial No. 18	Jun-2017	Nig_2_RNASeq_R1_Replicate_3	Nigeria	Nig_2_RNASeq_R1_Replicate_3	Not available	Nig_2_RNASeq_R1_Replicate_3	Tomato	j2
+SRR8691586	Nigeria 2	IITA, Nigeria- Serial No. 18	Jun-2017	Nig_2_RNASeq_R1_Replicate_2	Nigeria	Nig_2_RNASeq_R1_Replicate_2	Not available	Nig_2_RNASeq_R1_Replicate_2	Tomato	j2
+SRR8691590	Nigeria 2	IITA, Nigeria- Serial No. 18	Jun-2017	Nig_2_RNASeq_R1_Replicate_1	Nigeria	Nig_2_RNASeq_R1_Replicate_1	Not available	Nig_2_RNASeq_R1_Replicate_1	Tomato	j2

@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA715371
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2021-03-23
+ena_last_update: 2021-06-20
+pubmed:
+  33856427:
+    - 'Barrett .. Hammarlund, 2021'
+    - 'A head-to-head comparison of ribodepletion and polyA selection approaches for <i>C. elegans</i> low input RNA-sequencing libraries. (Barrett .. Hammarlund, 2021)'
+resource_links: []
+rnaseqer_last_update: 2021-07-29
+submitting_centre: 'Hammarlund, Genetics, Yale University'
+title: Bulk RNA seq of sorted C. elegans neurons

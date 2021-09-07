@@ -26,8 +26,8 @@
           <br>If you would like some of them included in the analysis, please let us know!
       </TMPL_IF>
       <TMPL_UNLESS NAME="MORE_WELCOMING_MESSAGE_FOR_SKIPPED_STUDIES">
-          <br> We have decided not to include them in our analysis.
-          <br> Either they failed to meet minimal criteria for inclusion, we've been asked to exclude them for data quality reasons, or we were unable to interpret the metadata.
+          <br> They have not been included in our analysis for one of the following reasons:
+          <br> Failed to meet minimal criteria for differential expression analysis, failure to pass data quality filters, or we were unable to interpret accompanying metadata.
       </TMPL_UNLESS>
      </p>
 	  <TMPL_VAR NAME=OTHERSTUDIES>

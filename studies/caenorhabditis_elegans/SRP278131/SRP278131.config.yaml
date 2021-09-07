@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA658149
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2021-01-04
+ena_last_update: 2021-02-10
+pubmed:
+  33444416:
+    - 'Guo .. Ciosk, 2021'
+    - 'CLK-2/TEL2 is a conserved component of the nonsense-mediated mRNA decay pathway. (Guo .. Ciosk, 2021)'
+resource_links: []
+rnaseqer_last_update: 2021-01-19
+submitting_centre: 'Rafal Ciosk group, Department of Biosciences, University of Oslo'
+title: Transcriptome profiling (Whole RNA sequencing) to study the funciton of clk-2 in NMD pathway in C.elegans

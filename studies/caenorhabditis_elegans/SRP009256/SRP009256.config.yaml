@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA154339
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2012-01-05
+ena_last_update: 2017-11-30
+pubmed:
+  22152485:
+    - 'Jungkamp .. Rajewsky, 2011'
+    - 'In vivo and transcriptome-wide identification of RNA binding protein target sites. (Jungkamp .. Rajewsky, 2011)'
+resource_links: []
+rnaseqer_last_update: 2019-06-24
+submitting_centre: Max-Delbrueck-Center
+title: 'In vivo and transcriptome-wide identification of RNA-binding protein target sites [PAR-CLIP]'

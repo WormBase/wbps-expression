@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA648381
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2021-04-24
+ena_last_update: 2021-07-11
+pubmed:
+  34108460:
+    - 'Singh .. Cecere, 2021'
+    - 'Translation and codon usage regulate Argonaute slicer activity to trigger small RNA biogenesis. (Singh .. Cecere, 2021)'
+resource_links: []
+rnaseqer_last_update: 2021-07-29
+submitting_centre: 'Mechanisms of Epigenetic Inheritance, Development and stem cell biology, Institut Pasteur'
+title: 'Translation and codon usage regulate Argonaute slicer activity to trigger germline small RNA biogenesis [RNA-Seq]'

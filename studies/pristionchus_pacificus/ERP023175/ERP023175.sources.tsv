@@ -9,6 +9,7 @@ ERR2234461	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/ERR2
 ERR2234462	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/ERR223/002/ERR2234462	pe	84
 ERR2234463	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/ERR223/003/ERR2234463	pe	84
 ERR2234464	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/ERR223/004/ERR2234464	pe	85
+ERR2530150	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/ERR253/000/ERR2530150	se	18
 ERR2530152	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/ERR253/002/ERR2530152	se	49
 ERR2616933	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/ERR261/003/ERR2616933	pe	94
 ERR2616934	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/ERR261/004/ERR2616934	pe	95
@@ -16,6 +17,7 @@ ERR2616935	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/ERR2
 ERR2616936	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/ERR261/006/ERR2616936	pe	95
 ERR2616937	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/ERR261/007/ERR2616937	pe	94
 ERR2616938	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/ERR261/008/ERR2616938	pe	95
+ERR2617696	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/ERR261/006/ERR2617696	se	1
 ERR2617697	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/ERR261/007/ERR2617697	se	80
 ERR2617698	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/ERR261/008/ERR2617698	se	91
 ERR2617699	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/ERR261/009/ERR2617699	se	91

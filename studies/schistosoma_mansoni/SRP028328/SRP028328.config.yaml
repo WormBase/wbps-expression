@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA213724
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2013-08-19
+ena_last_update: 2015-12-11
+pubmed:
+  24069470:
+    - 'Marco .. Ronshaugen, 2013'
+    - 'Sex-biased expression of microRNAs in <i>Schistosoma mansoni</i>. (Marco .. Ronshaugen, 2013)'
+resource_links: []
+rnaseqer_last_update: 2019-06-24
+submitting_centre: 'School of Biological Sciences, University of Essex'
+title: Sex-biased expression profile of Schistosoma mansoni microRNAs

@@ -223,8 +223,12 @@ sub quantification_method {
   my $featurecounts_tpm = join("/", $ftp, $study_id, $species, 'genes.tpm.featurecounts.tsv');
   my $response_fc_tpm   = LWP::UserAgent->new->get($featurecounts_tpm);
 
-  if ($response_fc_raw->is_success && $response_fc_tpm->is_success){
-     return "FeatureCounts";
+  my $featurecounts_tpm_irap = join("/", $ftp, $study_id, $species, 'genes.tpm.featurecounts.irap.tsv');
+  my $response_fc_tpm_irap   = LWP::UserAgent->new->get($featurecounts_tpm_irap);
+
+  if ($response_fc_raw->is_success && $response_fc_tpm->is_success
+      || $response_fc_raw->is_success && $response_fc_tpm_irap->is_success){
+    return "FeatureCounts";
   }
 
   my $htseq_raw = join("/", $ftp, $study_id, $species, 'genes.raw.htseq2.tsv');
@@ -232,11 +236,15 @@ sub quantification_method {
 
   my $htseq_tpm = join("/", $ftp, $study_id, $species, 'genes.tpm.htseq2.tsv');
   my $response_htseq_tpm   = LWP::UserAgent->new->get($htseq_tpm); 
-  
-  if ($response_htseq_raw->is_success && $response_htseq_tpm->is_success){
-     return "HTSeq2";
-  }
-  else{ return "FeatureCounts"; }
+
+  my $htseq_tpm_irap = join("/", $ftp, $study_id, $species, 'genes.tpm.htseq2.irap.tsv');
+  my $response_htseq_tpm_irap   = LWP::UserAgent->new->get($htseq_tpm_irap);
+
+  if ($response_htseq_raw->is_success && $response_htseq_tpm->is_success
+      || $response_htseq_raw->is_success && $response_htseq_tpm_irap->is_success){
+    return "HTSeq2";
+  } else{
+    return "FeatureCounts"; }
 }
 
 sub source_counts {

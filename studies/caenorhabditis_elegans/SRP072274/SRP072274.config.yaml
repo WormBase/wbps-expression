@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA316193
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2016-10-19
+ena_last_update: 2017-01-19
+pubmed:
+  27979995:
+    - 'Jeffers .. Lieb, 2017'
+    - 'Nucleosome fragility is associated with future transcriptional response to developmental cues and stress in <i>C. elegans</i>. (Jeffers .. Lieb, 2017)'
+resource_links: []
+rnaseqer_last_update: 2019-06-26
+submitting_centre: 'Lewis-Sigler Institute for Integrative Genomics, Princeton University'
+title: Nucleosome fragility is associated with future transcriptional response to developmental cues and stress in C. elegans

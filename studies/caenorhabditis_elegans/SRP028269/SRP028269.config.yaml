@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA213441
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2014-04-22
+ena_last_update: 2017-07-19
+pubmed:
+  24696457:
+    - 'Weick .. Miska, 2014'
+    - 'PRDE-1 is a nuclear factor essential for the biogenesis of Ruby motif-dependent piRNAs in <i>C. elegans</i>. (Weick .. Miska, 2014)'
+resource_links: []
+rnaseqer_last_update: 2019-06-25
+submitting_centre: 'MRC Clinical Sciences Centre, Imperial College London'
+title: Small RNA sequencing study of C elegans piRNA biogenesis factors

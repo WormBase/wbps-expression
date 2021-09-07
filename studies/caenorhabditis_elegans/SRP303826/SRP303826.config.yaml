@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA697912
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2021-04-15
+ena_last_update: 2021-07-17
+pubmed:
+  33878133:
+    - 'Tecle .. Troemel, 2021'
+    - 'The purine nucleoside phosphorylase pnp-1 regulates epithelial cell resistance to infection in <i>C. elegans</i>. (Tecle .. Troemel, 2021)'
+resource_links: []
+rnaseqer_last_update: 2021-07-29
+submitting_centre: 'Troemel, Cell and Developmental Biology, University of California, San Diego'
+title: Transcriptomic Analysis of pnp-1 mutants in C. elegans

@@ -1,0 +1,240 @@
+---
+bioproject: PRJEB37010
+category: Other
+contrasts:
+  - name: Treatment
+    values:
+      -
+        - In vitro cultured 24h
+        - In vitro cultured 24h + DMSO
+        - In vitro cultured 24h vs In vitro cultured 24h + DMSO
+      -
+        - In vitro cultured 24h
+        - In vitro cultured 24h + ivermectin 10-11M
+        - In vitro cultured 24h vs In vitro cultured 24h + ivermectin 10-11M
+      -
+        - In vitro cultured 24h
+        - In vitro cultured 24h + ivermectin 10-13M
+        - In vitro cultured 24h vs In vitro cultured 24h + ivermectin 10-13M
+      -
+        - In vitro cultured 24h
+        - In vitro cultured 24h + ivermectin 10-9M
+        - In vitro cultured 24h vs In vitro cultured 24h + ivermectin 10-9M
+      -
+        - In vitro cultured 24h
+        - In vitro cultured 24h + pyrantel citrate 10-10 M
+        - In vitro cultured 24h vs In vitro cultured 24h + pyrantel citrate 10-10 M
+      -
+        - In vitro cultured 24h
+        - In vitro cultured 24h + pyrantel citrate 10-6 M
+        - In vitro cultured 24h vs In vitro cultured 24h + pyrantel citrate 10-6 M
+      -
+        - In vitro cultured 24h
+        - In vitro cultured 24h + pyrantel citrate 10-8 M
+        - In vitro cultured 24h vs In vitro cultured 24h + pyrantel citrate 10-8 M
+      -
+        - In vitro cultured 24h
+        - In vitro cultured 24h + thiabendazole 10-5 M
+        - In vitro cultured 24h vs In vitro cultured 24h + thiabendazole 10-5 M
+      -
+        - In vitro cultured 24h
+        - In vitro cultured 24h + thiabendazole 10-7 M
+        - In vitro cultured 24h vs In vitro cultured 24h + thiabendazole 10-7 M
+      -
+        - In vitro cultured 24h
+        - In vitro cultured 24h + thiabendazole 10-9 M
+        - In vitro cultured 24h vs In vitro cultured 24h + thiabendazole 10-9 M
+      -
+        - In vitro cultured 24h + DMSO
+        - In vitro cultured 24h + ivermectin 10-11M
+        - In vitro cultured 24h + DMSO vs In vitro cultured 24h + ivermectin 10-11M
+      -
+        - In vitro cultured 24h + DMSO
+        - In vitro cultured 24h + ivermectin 10-13M
+        - In vitro cultured 24h + DMSO vs In vitro cultured 24h + ivermectin 10-13M
+      -
+        - In vitro cultured 24h + DMSO
+        - In vitro cultured 24h + ivermectin 10-9M
+        - In vitro cultured 24h + DMSO vs In vitro cultured 24h + ivermectin 10-9M
+      -
+        - In vitro cultured 24h + DMSO
+        - In vitro cultured 24h + pyrantel citrate 10-10 M
+        - In vitro cultured 24h + DMSO vs In vitro cultured 24h + pyrantel citrate 10-10 M
+      -
+        - In vitro cultured 24h + DMSO
+        - In vitro cultured 24h + pyrantel citrate 10-6 M
+        - In vitro cultured 24h + DMSO vs In vitro cultured 24h + pyrantel citrate 10-6 M
+      -
+        - In vitro cultured 24h + DMSO
+        - In vitro cultured 24h + pyrantel citrate 10-8 M
+        - In vitro cultured 24h + DMSO vs In vitro cultured 24h + pyrantel citrate 10-8 M
+      -
+        - In vitro cultured 24h + DMSO
+        - In vitro cultured 24h + thiabendazole 10-5 M
+        - In vitro cultured 24h + DMSO vs In vitro cultured 24h + thiabendazole 10-5 M
+      -
+        - In vitro cultured 24h + DMSO
+        - In vitro cultured 24h + thiabendazole 10-7 M
+        - In vitro cultured 24h + DMSO vs In vitro cultured 24h + thiabendazole 10-7 M
+      -
+        - In vitro cultured 24h + DMSO
+        - In vitro cultured 24h + thiabendazole 10-9 M
+        - In vitro cultured 24h + DMSO vs In vitro cultured 24h + thiabendazole 10-9 M
+      -
+        - In vitro cultured 24h + ivermectin 10-11M
+        - In vitro cultured 24h + ivermectin 10-13M
+        - In vitro cultured 24h + ivermectin 10-11M vs In vitro cultured 24h + ivermectin 10-13M
+      -
+        - In vitro cultured 24h + ivermectin 10-11M
+        - In vitro cultured 24h + ivermectin 10-9M
+        - In vitro cultured 24h + ivermectin 10-11M vs In vitro cultured 24h + ivermectin 10-9M
+      -
+        - In vitro cultured 24h + ivermectin 10-11M
+        - In vitro cultured 24h + pyrantel citrate 10-10 M
+        - In vitro cultured 24h + ivermectin 10-11M vs In vitro cultured 24h + pyrantel citrate 10-10 M
+      -
+        - In vitro cultured 24h + ivermectin 10-11M
+        - In vitro cultured 24h + pyrantel citrate 10-6 M
+        - In vitro cultured 24h + ivermectin 10-11M vs In vitro cultured 24h + pyrantel citrate 10-6 M
+      -
+        - In vitro cultured 24h + ivermectin 10-11M
+        - In vitro cultured 24h + pyrantel citrate 10-8 M
+        - In vitro cultured 24h + ivermectin 10-11M vs In vitro cultured 24h + pyrantel citrate 10-8 M
+      -
+        - In vitro cultured 24h + ivermectin 10-11M
+        - In vitro cultured 24h + thiabendazole 10-5 M
+        - In vitro cultured 24h + ivermectin 10-11M vs In vitro cultured 24h + thiabendazole 10-5 M
+      -
+        - In vitro cultured 24h + ivermectin 10-11M
+        - In vitro cultured 24h + thiabendazole 10-7 M
+        - In vitro cultured 24h + ivermectin 10-11M vs In vitro cultured 24h + thiabendazole 10-7 M
+      -
+        - In vitro cultured 24h + ivermectin 10-11M
+        - In vitro cultured 24h + thiabendazole 10-9 M
+        - In vitro cultured 24h + ivermectin 10-11M vs In vitro cultured 24h + thiabendazole 10-9 M
+      -
+        - In vitro cultured 24h + ivermectin 10-13M
+        - In vitro cultured 24h + ivermectin 10-9M
+        - In vitro cultured 24h + ivermectin 10-13M vs In vitro cultured 24h + ivermectin 10-9M
+      -
+        - In vitro cultured 24h + ivermectin 10-13M
+        - In vitro cultured 24h + pyrantel citrate 10-10 M
+        - In vitro cultured 24h + ivermectin 10-13M vs In vitro cultured 24h + pyrantel citrate 10-10 M
+      -
+        - In vitro cultured 24h + ivermectin 10-13M
+        - In vitro cultured 24h + pyrantel citrate 10-6 M
+        - In vitro cultured 24h + ivermectin 10-13M vs In vitro cultured 24h + pyrantel citrate 10-6 M
+      -
+        - In vitro cultured 24h + ivermectin 10-13M
+        - In vitro cultured 24h + pyrantel citrate 10-8 M
+        - In vitro cultured 24h + ivermectin 10-13M vs In vitro cultured 24h + pyrantel citrate 10-8 M
+      -
+        - In vitro cultured 24h + ivermectin 10-13M
+        - In vitro cultured 24h + thiabendazole 10-5 M
+        - In vitro cultured 24h + ivermectin 10-13M vs In vitro cultured 24h + thiabendazole 10-5 M
+      -
+        - In vitro cultured 24h + ivermectin 10-13M
+        - In vitro cultured 24h + thiabendazole 10-7 M
+        - In vitro cultured 24h + ivermectin 10-13M vs In vitro cultured 24h + thiabendazole 10-7 M
+      -
+        - In vitro cultured 24h + ivermectin 10-13M
+        - In vitro cultured 24h + thiabendazole 10-9 M
+        - In vitro cultured 24h + ivermectin 10-13M vs In vitro cultured 24h + thiabendazole 10-9 M
+      -
+        - In vitro cultured 24h + ivermectin 10-9M
+        - In vitro cultured 24h + pyrantel citrate 10-10 M
+        - In vitro cultured 24h + ivermectin 10-9M vs In vitro cultured 24h + pyrantel citrate 10-10 M
+      -
+        - In vitro cultured 24h + ivermectin 10-9M
+        - In vitro cultured 24h + pyrantel citrate 10-6 M
+        - In vitro cultured 24h + ivermectin 10-9M vs In vitro cultured 24h + pyrantel citrate 10-6 M
+      -
+        - In vitro cultured 24h + ivermectin 10-9M
+        - In vitro cultured 24h + pyrantel citrate 10-8 M
+        - In vitro cultured 24h + ivermectin 10-9M vs In vitro cultured 24h + pyrantel citrate 10-8 M
+      -
+        - In vitro cultured 24h + ivermectin 10-9M
+        - In vitro cultured 24h + thiabendazole 10-5 M
+        - In vitro cultured 24h + ivermectin 10-9M vs In vitro cultured 24h + thiabendazole 10-5 M
+      -
+        - In vitro cultured 24h + ivermectin 10-9M
+        - In vitro cultured 24h + thiabendazole 10-7 M
+        - In vitro cultured 24h + ivermectin 10-9M vs In vitro cultured 24h + thiabendazole 10-7 M
+      -
+        - In vitro cultured 24h + ivermectin 10-9M
+        - In vitro cultured 24h + thiabendazole 10-9 M
+        - In vitro cultured 24h + ivermectin 10-9M vs In vitro cultured 24h + thiabendazole 10-9 M
+      -
+        - In vitro cultured 24h + pyrantel citrate 10-10 M
+        - In vitro cultured 24h + pyrantel citrate 10-6 M
+        - In vitro cultured 24h + pyrantel citrate 10-10 M vs In vitro cultured 24h + pyrantel citrate 10-6 M
+      -
+        - In vitro cultured 24h + pyrantel citrate 10-10 M
+        - In vitro cultured 24h + pyrantel citrate 10-8 M
+        - In vitro cultured 24h + pyrantel citrate 10-10 M vs In vitro cultured 24h + pyrantel citrate 10-8 M
+      -
+        - In vitro cultured 24h + pyrantel citrate 10-10 M
+        - In vitro cultured 24h + thiabendazole 10-5 M
+        - In vitro cultured 24h + pyrantel citrate 10-10 M vs In vitro cultured 24h + thiabendazole 10-5 M
+      -
+        - In vitro cultured 24h + pyrantel citrate 10-10 M
+        - In vitro cultured 24h + thiabendazole 10-7 M
+        - In vitro cultured 24h + pyrantel citrate 10-10 M vs In vitro cultured 24h + thiabendazole 10-7 M
+      -
+        - In vitro cultured 24h + pyrantel citrate 10-10 M
+        - In vitro cultured 24h + thiabendazole 10-9 M
+        - In vitro cultured 24h + pyrantel citrate 10-10 M vs In vitro cultured 24h + thiabendazole 10-9 M
+      -
+        - In vitro cultured 24h + pyrantel citrate 10-6 M
+        - In vitro cultured 24h + pyrantel citrate 10-8 M
+        - In vitro cultured 24h + pyrantel citrate 10-6 M vs In vitro cultured 24h + pyrantel citrate 10-8 M
+      -
+        - In vitro cultured 24h + pyrantel citrate 10-6 M
+        - In vitro cultured 24h + thiabendazole 10-5 M
+        - In vitro cultured 24h + pyrantel citrate 10-6 M vs In vitro cultured 24h + thiabendazole 10-5 M
+      -
+        - In vitro cultured 24h + pyrantel citrate 10-6 M
+        - In vitro cultured 24h + thiabendazole 10-7 M
+        - In vitro cultured 24h + pyrantel citrate 10-6 M vs In vitro cultured 24h + thiabendazole 10-7 M
+      -
+        - In vitro cultured 24h + pyrantel citrate 10-6 M
+        - In vitro cultured 24h + thiabendazole 10-9 M
+        - In vitro cultured 24h + pyrantel citrate 10-6 M vs In vitro cultured 24h + thiabendazole 10-9 M
+      -
+        - In vitro cultured 24h + pyrantel citrate 10-8 M
+        - In vitro cultured 24h + thiabendazole 10-5 M
+        - In vitro cultured 24h + pyrantel citrate 10-8 M vs In vitro cultured 24h + thiabendazole 10-5 M
+      -
+        - In vitro cultured 24h + pyrantel citrate 10-8 M
+        - In vitro cultured 24h + thiabendazole 10-7 M
+        - In vitro cultured 24h + pyrantel citrate 10-8 M vs In vitro cultured 24h + thiabendazole 10-7 M
+      -
+        - In vitro cultured 24h + pyrantel citrate 10-8 M
+        - In vitro cultured 24h + thiabendazole 10-9 M
+        - In vitro cultured 24h + pyrantel citrate 10-8 M vs In vitro cultured 24h + thiabendazole 10-9 M
+      -
+        - In vitro cultured 24h + thiabendazole 10-5 M
+        - In vitro cultured 24h + thiabendazole 10-7 M
+        - In vitro cultured 24h + thiabendazole 10-5 M vs In vitro cultured 24h + thiabendazole 10-7 M
+      -
+        - In vitro cultured 24h + thiabendazole 10-5 M
+        - In vitro cultured 24h + thiabendazole 10-9 M
+        - In vitro cultured 24h + thiabendazole 10-5 M vs In vitro cultured 24h + thiabendazole 10-9 M
+      -
+        - In vitro cultured 24h + thiabendazole 10-7 M
+        - In vitro cultured 24h + thiabendazole 10-9 M
+        - In vitro cultured 24h + thiabendazole 10-7 M vs In vitro cultured 24h + thiabendazole 10-9 M
+  - name: Culture conditions
+    values:
+      -
+        - In vitro cultured 24h
+        - Non-incubated
+        - In vitro cultured 24h vs Non-incubated
+description: ''
+ena_first_public: 2020-08-31
+ena_last_update: 2020-03-03
+pubmed: {}
+resource_links: []
+rnaseqer_last_update: 2021-08-06
+submitting_centre: Swedish University of Agricultural Sciences
+title: 'Transcriptional responses in Parascaris univalens after in vitro exposure to ivermectin, pyrantel citrate and thiabendazole'

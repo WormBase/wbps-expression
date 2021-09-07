@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA664395
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-09-22
+ena_last_update: 2020-11-27
+pubmed:
+  33221314:
+    - 'Yingling .. Pruyne, 2021'
+    - 'FHOD formin and SRF promote post-embryonic striated muscle growth through separate pathways in <i>C. elegans</i>. (Yingling .. Pruyne, 2021)'
+resource_links: []
+rnaseqer_last_update: 2020-12-01
+submitting_centre: '107 Weiskotten Hall, Cell and Developmental Biology, SUNY Upstate Medical University'
+title: FHOD formin and SRF promote striated muscle development through separate pathways in C. elegans

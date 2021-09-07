@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA640097
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-12-08
+ena_last_update: 2020-12-08
+pubmed:
+  33228848:
+    - 'Li .. Busch, 2020'
+    - 'HASH(0x59823d0) (Li .. Busch, 2020)'
+resource_links: []
+rnaseqer_last_update: 2020-12-13
+submitting_centre: 'Busch Lab, Centre for Discovery Brain Sciences, University of Edinburgh'
+title: RNA-seq profiling of C. elegans O2-sensing neurons at different age and activity states

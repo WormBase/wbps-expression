@@ -1,4 +1,6 @@
 Run	Location	End	Quality
+ERR1706668	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/ERR170/008/ERR1706668	pe	3
+ERR1706669	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/ERR170/009/ERR1706669	pe	2
 ERR1706670	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/ERR170/000/ERR1706670	pe	72
 ERR1706671	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/ERR170/001/ERR1706671	pe	68
 ERR1706672	ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/atlas/rnaseq/ERR170/002/ERR1706672	pe	68

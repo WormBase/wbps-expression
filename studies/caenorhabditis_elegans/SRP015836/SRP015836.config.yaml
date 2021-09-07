@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA175639
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2013-06-17
+ena_last_update: 2015-11-04
+pubmed:
+  23811144:
+    - 'Sarkies .. Miska, 2013'
+    - 'Competition between virus-derived and endogenous small RNAs regulates gene expression in <i>Caenorhabditis elegans</i>. (Sarkies .. Miska, 2013)'
+resource_links: []
+rnaseqer_last_update: 2019-06-24
+submitting_centre: 'Miska, Wellcome Trust/Cancer Research UK Gurdon Institute, The Henry We, University of Cambridge'
+title: Changes in small RNAs upon Viral infection of C.elegans

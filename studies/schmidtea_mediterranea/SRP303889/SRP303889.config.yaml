@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA697984
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2021-04-24
+ena_last_update: 2021-04-24
+pubmed:
+  33882291:
+    - 'Raz .. Reddien, 2021'
+    - 'Planarian stem cells specify fate yet retain potency during the cell cycle. (Raz .. Reddien, 2021)'
+resource_links: []
+rnaseqer_last_update: 2021-07-30
+submitting_centre: Whitehead Institute for Biomedical Research
+title: Schmidtea mediterranea 10X G1/G0 scRNA-seq

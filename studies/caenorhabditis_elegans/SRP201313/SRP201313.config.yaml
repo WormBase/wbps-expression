@@ -1,54 +1,12 @@
 ---
 bioproject: PRJNA548689
-category: Variation within species
-contrasts:
-  - name: strain
-    values:
-      -
-        - AWK33_pg1_gr1
-        - AWK33_pg1_gr2
-        - AWK33_pg1_gr1 vs AWK33_pg1_gr2
-      -
-        - AWK33_pg1_gr1
-        - AWK33_pg1_gr3
-        - AWK33_pg1_gr1 vs AWK33_pg1_gr3
-      -
-        - AWK33_pg1_gr1
-        - CF3050_pg1
-        - AWK33_pg1_gr1 vs CF3050_pg1
-      -
-        - AWK33_pg1_gr1
-        - WT
-        - AWK33_pg1_gr1 vs WT
-      -
-        - AWK33_pg1_gr2
-        - AWK33_pg1_gr3
-        - AWK33_pg1_gr2 vs AWK33_pg1_gr3
-      -
-        - AWK33_pg1_gr2
-        - CF3050_pg1
-        - AWK33_pg1_gr2 vs CF3050_pg1
-      -
-        - AWK33_pg1_gr2
-        - WT
-        - AWK33_pg1_gr2 vs WT
-      -
-        - AWK33_pg1_gr3
-        - CF3050_pg1
-        - AWK33_pg1_gr3 vs CF3050_pg1
-      -
-        - AWK33_pg1_gr3
-        - WT
-        - AWK33_pg1_gr3 vs WT
-      -
-        - CF3050_pg1
-        - WT
-        - CF3050_pg1 vs WT
+category: Other
+contrasts: []
 description: ''
 ena_first_public: 2020-06-13
 ena_last_update: 2020-06-13
 pubmed: {}
 resource_links: []
-rnaseqer_last_update: 2020-07-21
+rnaseqer_last_update: 2020-11-30
 submitting_centre: 'Neurogenetics, Psychiatry and Neurology, UCLA'
 title: Granulin expression effect on day 1 adults

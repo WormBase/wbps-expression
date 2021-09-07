@@ -1,0 +1,11 @@
+Run	Condition	sex	strain	developmental_stage	organism_part
+SRR12532517	Cbr_F	female	AF16	Young adults	whole organism
+SRR12532514	Cbr_M	male	AF16	Young adults	whole organism
+SRR12532515	Cbr_M	male	AF16	Young adults	whole organism
+SRR12532516	Cbr_M	male	AF16	Young adults	whole organism
+SRR12532505	F1H_F	female	JU1421 x AF16	Young adults	whole organism
+SRR12532521	F1H_F	female	JU1421 x AF16	Young adults	whole organism
+SRR12532522	F1H_F	female	JU1421 x AF16	Young adults	whole organism
+SRR12532518	F1H_M	male	JU1421 x AF16	Young adults	whole organism
+SRR12532519	F1H_M	male	JU1421 x AF16	Young adults	whole organism
+SRR12532520	F1H_M	male	JU1421 x AF16	Young adults	whole organism

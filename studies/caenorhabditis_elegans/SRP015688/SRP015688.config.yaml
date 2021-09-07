@@ -1,13 +1,7 @@
 ---
 bioproject: PRJNA174814
 category: Other
-contrasts:
-  - name: developmental_stage
-    values:
-      -
-        - 'L3 larva Ce, linker cell, male, PS4730'
-        - 'L4 larva Ce, linker cell, male, PS4730'
-        - 'linker cell, male, PS4730: L3 larva Ce vs L4 larva Ce'
+contrasts: []
 description: ''
 ena_first_public: 2012-09-18
 ena_last_update: 2017-07-19

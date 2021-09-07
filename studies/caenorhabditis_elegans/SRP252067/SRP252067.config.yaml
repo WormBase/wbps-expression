@@ -1,0 +1,12 @@
+---
+bioproject: PRJNA611570
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-11-20
+ena_last_update: 2020-11-20
+pubmed: {}
+resource_links: []
+rnaseqer_last_update: 2020-11-29
+submitting_centre: 'Bringmann, Biology, University of Marburg'
+title: 'RNA sequencing of nas-38(ok4307), nas-38(tm2655) and wild type C. elegans during L4 lethargus using NextSeq500'

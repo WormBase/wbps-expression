@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA612496
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-09-04
+ena_last_update: 2020-12-06
+pubmed:
+  32911802:
+    - 'Herbette .. Palladino, 2020'
+    - 'HASH(0x7063c90) (Herbette .. Palladino, 2020)'
+resource_links: []
+rnaseqer_last_update: 2020-11-29
+submitting_centre: 'Laboratoire de Biologie et Modélisation de la Cellule, ENS de Lyon'
+title: Cooperation between Caenorhabditis elegans COMPASS and condensin in germline chromatin organization

@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA247454
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2014-09-24
+ena_last_update: 2017-06-16
+pubmed:
+  25098249:
+    - 'Thorne .. Wharton, 2014'
+    - 'Molecular analysis of the cold tolerant Antarctic nematode, <i>Panagrolaimus davidi</i>. (Thorne .. Wharton, 2014)'
+resource_links: []
+rnaseqer_last_update: 2021-01-16
+submitting_centre: British Antarctic Survey
+title: Panagrolaimus davidi strain:CB1 Transcriptome or Gene expression

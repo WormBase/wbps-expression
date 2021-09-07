@@ -1,0 +1,21 @@
+---
+bioproject: PRJNA554667
+category: Other
+contrasts:
+  - name: depletion
+    values:
+      -
+        - gfp (control)
+        - Smed-exoc3
+        - gfp (control) vs Smed-exoc3
+description: ''
+ena_first_public: 2020-11-17
+ena_last_update: 2021-01-21
+pubmed:
+  33300287:
+    - 'Deb .. Rudolph, 2021'
+    - 'Tnfaip2/exoc3-driven lipid metabolism is essential for stem cell differentiation and organ homeostasis. (Deb .. Rudolph, 2021)'
+resource_links: []
+rnaseqer_last_update: 2020-11-28
+submitting_centre: 'Core Facility Life Science Computing, Leibniz Institute on Aging - Fritz Lipmann Institute'
+title: 'Tnfaip2/Exoc3 driven lipid metabolism is essential for stem cell differentiation & organ homeostasis [Schmidtea mediterranea]'

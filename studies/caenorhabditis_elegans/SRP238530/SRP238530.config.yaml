@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA597224
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2020-11-12
+ena_last_update: 2021-01-21
+pubmed:
+  33397943:
+    - 'Huang .. Chen, 2021'
+    - 'Host CDK-1 and formin mediate microvillar effacement induced by enterohemorrhagic Escherichia coli. (Huang .. Chen, 2021)'
+resource_links: []
+rnaseqer_last_update: 2020-11-28
+submitting_centre: National Cheng Kung University
+title: CDK1-formin signal confers microvillar effacement by an attaching and effacing (A/E) pathogen

@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA714682
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2021-03-19
+ena_last_update: 2021-03-19
+pubmed:
+  27441386:
+    - 'Arnold .. Sánchez Alvarado, 2016'
+    - 'Pathogenic shifts in endogenous microbiota impede tissue regeneration via distinct activation of TAK1/MKK/p38. (Arnold .. Sánchez Alvarado, 2016)'
+resource_links: []
+rnaseqer_last_update: 2021-07-28
+submitting_centre: 'Seidel, Genomics, Stowers Institute'
+title: 'Examination of gene expression in S. mediterranea transitioning from recirculation to static culture in the presence or absence of Gentamycin at 0, 1, 2, 3, or 4 days'

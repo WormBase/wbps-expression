@@ -1,13 +1,7 @@
 ---
 bioproject: PRJNA257102
-category: Organism parts
-contrasts:
-  - name: organism_part
-    values:
-      -
-        - AB
-        - P1
-        - AB vs P1
+category: Other
+contrasts: []
 description: ''
 ena_first_public: 2015-03-06
 ena_last_update: 2015-11-04

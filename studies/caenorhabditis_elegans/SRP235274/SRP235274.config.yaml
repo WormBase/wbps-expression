@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA594361
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2019-12-11
+ena_last_update: 2020-02-12
+pubmed:
+  32015763:
+    - 'Wang .. Zhang, 2020'
+    - 'HASH(0x77f3db0) (Wang .. Zhang, 2020)'
+resource_links: []
+rnaseqer_last_update: 2020-11-26
+submitting_centre: 'College of Food Science and Nutritional Engineering, China Agricultural University'
+title: Transcriptional analysis effect of excess sugar and lipid on the growth and development of Caenorhabditis elegan

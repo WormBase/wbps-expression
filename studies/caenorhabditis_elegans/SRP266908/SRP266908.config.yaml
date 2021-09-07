@@ -1,0 +1,15 @@
+---
+bioproject: PRJNA638820
+category: Other
+contrasts: []
+description: ''
+ena_first_public: 2021-03-04
+ena_last_update: 2021-03-04
+pubmed:
+  33420596:
+    - 'Abbass .. Stürzenbaum, 2021'
+    - 'Benzo[a]pyrene and <i>Caenorhabditis elegans</i>: defining the genotoxic potential in an organism lacking the classical CYP1A1 pathway. (Abbass .. Stürzenbaum, 2021)'
+resource_links: []
+rnaseqer_last_update: 2021-03-05
+submitting_centre: "Analytical, Environmental and Forensic Sciences, King's College London"
+title: 'Defining the  transcriptomic  fingerprints of benzo[a]pyrene exposure in Caenorhabditis elegans'

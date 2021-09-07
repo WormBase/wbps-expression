@@ -1,0 +1,16 @@
+---
+bioproject: PRJEB41394
+category: Other
+contrasts: []
+description: 'Performed RNA-seq analysis of animals with xbp-1s overexpression (ER stress response transcription factor) in specific neuron types: pan-neuronal, serotonergic neuron, dopaminergic neuron, and both serotonergic and dopaminergic neurons, all compared to a wild-type control. RNA-seq was performed on purified RNA extracted from ~1000 whole worms using a proprietary Genewiz protocol described briefly in the manuscript. 3 biological replicates are provided for each sample.'
+ena_first_public: 2021-01-01
+ena_last_update: 2020-11-17
+pubmed: {}
+resource_links:
+  -
+    - ArrayExpress
+    - E-MTAB-9771 in ArrayExpress
+    - http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-9771
+rnaseqer_last_update: 2021-01-02
+submitting_centre: UNIVERSITY OF CALIFORNIA BERKELEY
+title: The divergent nodes of non-autonomous UPRER signaling through serotonergic and dopaminergic neurons
