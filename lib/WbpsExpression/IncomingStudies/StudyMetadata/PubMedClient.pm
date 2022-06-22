@@ -25,8 +25,8 @@ sub title_and_description_for_pubmed_id {
   my ($short_description, $full_description );
 
   try {
-    my $payload = XMLin($payload_string);
-   my $article_elt = $payload->{PubmedArticle}{MedlineCitation}{Article}
+   my $payload = XMLin($payload_string);
+   my $article_elt = $payload->{"PubmedArticle"}{"MedlineCitation"}{"Article"}
       || die "cannot find PubmedArticle|MedlineCitation|Article";
     
     my $title = $article_elt->{ArticleTitle}
@@ -52,9 +52,9 @@ sub title_and_description_for_pubmed_id {
       $title ? "$title ($authors, $year)" : $short_description;
   } catch {
     my $msg = $_;
-    my $xmllog = "/tmp/pubmid-$pubmed_id-$$.xml";
+    my $xmllog = "/homes/digri/tmp/pubmid-$pubmed_id-$$.xml";
     write_file($xmllog, $payload_string);
-    confess "PubMed XML parsing error (XML saved as $xmllog): $msg";
+    confess "PubMed XML parsing error (XML saved as $xmllog): $msg $pubmed_id $url";
   };
   return [ $short_description, $full_description ];
 }
