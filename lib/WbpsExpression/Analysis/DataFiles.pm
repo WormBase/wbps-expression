@@ -6,8 +6,12 @@ use WbpsExpression::Analysis::Common;
 use LWP;
 use Log::Any '$log';
 use Scalar::Util qw/looks_like_number/;
+use File::Temp qw/tempdir/;
+
+
 # use Smart::Comments '###';
 my $CAN_SEE_EBI_FILESYSTEM = -d "/nfs/ftp";
+my $tmpdir = tempdir(CLEANUP => 1);
 
 sub open_read_fh {
   my ($path) = @_;
@@ -15,8 +19,8 @@ sub open_read_fh {
   my $fh;
   if (not ref $path and $path =~ m{ftp://ftp.ebi.ac.uk}) {
     if( $CAN_SEE_EBI_FILESYSTEM ) {
-       $path =~ s{ftp://ftp.ebi.ac.uk}{/nfs/ftp};
-       open ($fh, "<", $path) or die "$path: $!";
+       $path =~ s{ftp://ftp.ebi.ac.uk/pub}{/nfs/ftp/public};
+       $fh = read_file($path, $tmpdir);
     } else {
        my $response = LWP::UserAgent->new->get($path);
        die "$path error:".$response->status_line."\n" unless $response->is_success;
@@ -24,9 +28,26 @@ sub open_read_fh {
        open ($fh, "<", \$body) or die "$path: $!";
     }
   } else {
-    open ($fh, "<", $path) or die "$path: $!";
+    $fh = read_file($path);
   }
   return $fh;
+}
+
+sub read_file {
+    my ($path, $tmp) = @_;
+    my $bzpath = $path.".tar.bz2";
+    my $fh;
+    if (-e $path) {
+           open($fh, "<", $path) or die "$path: $!";
+       } elsif (-e $bzpath ) {
+           my $tmpfile_basename = `tar -xvf ${bzpath} -C ${tmp}`;
+           chomp($tmpfile_basename);
+           my $tmpfile = "${tmp}/${tmpfile_basename}";
+           if (-e $tmpfile) {
+               open($fh, "<", $tmpfile) or die "$tmpfile: $!";
+           }
+       }
+    return $fh;
 }
 
 sub read_file_into_hash {
