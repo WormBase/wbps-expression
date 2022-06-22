@@ -11,6 +11,7 @@ use WbpsExpression::Study::Design;
 
 my $tmp = tempdir(CLEANUP => 1);
 
+
 make_path "$tmp/in/SRR3209257";
 
 write_file "$tmp/in/SRR3209257/SRR3209257.pe.genes.raw.htseq2.tsv", <<"EOF";
@@ -44,6 +45,8 @@ my $study = bless {
 	}
   },
 }, 'WbpsExpression::Study';
+
+$study->{quantification_method} = "HTSeq2";
 
 WbpsExpression::Analysis::run("$tmp/out", $study);
 

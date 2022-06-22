@@ -18,7 +18,7 @@ sub get_ftp_dir {
  if ($CAN_SEE_EBI_FILESYSTEM and $url =~ m{ftp://ftp.ebi.ac.uk}){
     # Use a shortcut
     # Not exactly the same: EBI's ftp server replies with ls -l output
-	(my $local = $url) =~ s{ftp://ftp.ebi.ac.uk}{/nfs/ftp};
+	(my $local = $url) =~ s{ftp://ftp.ebi.ac.uk/pub}{/nfs/ftp/public};
 	$log->info("RnaseqerFtp::get_ftp_dir read_dir $local");
 	my @local_dir;
 	try {

@@ -22,15 +22,18 @@ Log::Any::Adapter->set('Log4perl');
 ### This part is WormBase ParaSite specific
 use ProductionMysql;
 my @core_dbs = ProductionMysql->staging->core_databases(@ARGV);
-my $work_dir = "/hps/nobackup/production/ensemblgenomes/parasite/production/jbrowse/WBPS$ENV{PARASITE_VERSION}/WbpsExpression";
+my $work_dir = "$ENV{PARASITE_SCRATCH}/jbrowse/WBPS$ENV{PARASITE_VERSION}/WbpsExpression";
 
 if (@core_dbs > 5) {
   $ENV{DO_THROTTLE_GEO} //=1;
 }
-
+my $greenlight = 1;
 for my $core_db (@core_dbs) {
   my ($spe, $cies, $bp ) = split "_", $core_db;
-  next if $bp eq 'core';
+  # if ($core_db eq "ancylostoma_duodenale_prjna72581_core_17_105_1") {$greenlight = 0};
+  # next if $bp eq 'core';
+  # next if $greenlight == 0;
+  # print $core_db."\n";
   my $assembly = ProductionMysql->staging->meta_value($core_db, "assembly.default");
   $assembly =~ s/N__americanus_v1/N_americanus_v1/;
   $assembly =~ s/A_simplex_0011_upd/A_simplex_v1_5_4/;
@@ -40,6 +43,6 @@ for my $core_db (@core_dbs) {
   $assembly =~ s/N_brasiliensis_RM07_v1_5_4_0011_upd/N_brasiliensis_RM07_v1_5_4/;
   $assembly = "" if $assembly eq "Heterorhabditis_bacteriophora-7.0";
   my $species = join ("_", $spe, $cies, $bp);
-  WbpsExpression::run("${spe}_${cies}", $assembly, "$work_dir/$species");
-  $ENV{DO_DEPLOY_WEB} and print `sudo -u wormbase rsync --delete -av $work_dir/$species/  /ebi/ftp/pub/databases/wormbase/parasite/web_data/rnaseq_studies/releases/next/$species/`;
-} 
+  WbpsExpression::run_no_updates("${spe}_${cies}", $assembly, "$work_dir/$species");
+  $ENV{DO_DEPLOY_WEB} and print `sudo -u wormbase rsync --delete -av $work_dir/$species/  $ENV{PARASITE_FTP}/web_data/rnaseq_studies/releases/next/$species/`;
+}

@@ -12,6 +12,7 @@ use File::Slurp qw/write_file/;
 use Regexp::Common qw/URI/;
 use Data::Dumper;
 use LWP;
+use Log::Any '$log';
 
 use open ':encoding(utf8)';
 # use Smart::Comments '###';
