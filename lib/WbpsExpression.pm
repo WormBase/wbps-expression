@@ -7,7 +7,7 @@ use WbpsExpression::StudiesPage;
 use File::Slurp qw/write_file read_dir/;
 use File::Path qw/make_path/;
 use FindBin;
-my $studies_dir = "/hps/software/users/wormbase/parasite/repositories/studies";
+my $studies_dir = "$ENV{PARASITE_REPOSITORIES}/studies";
 
 our %exceptions = (
     "ERP006987"  => "C. sinensis: four runs, but the tpms could be meaningful",
