@@ -4,6 +4,7 @@ package WbpsExpression::StudiesPage;
 use open ':std', ':encoding(UTF-8)';
 use File::Basename;
 use HTML::Template;
+use Data::Dumper;
 
 sub template {
   my ($name) = @_;
@@ -57,7 +58,7 @@ sub downloads_html {
   my ($study) = @_;
   my $template = template("downloads");
   my @analyses;
-  my $fails_checks = not $study->passes_checks;
+  my $fails_checks = $study->passes_checks;
   for my $analysis($study->analyses_required){
     my %item;
     if($fails_checks){

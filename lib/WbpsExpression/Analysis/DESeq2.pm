@@ -16,6 +16,7 @@ sub R_dds_for_design_path_and_counts_path {
   $R->set('countsPath', $counts_path);
   $R->run(q`countData = read.csv(countsPath, header=TRUE, sep="\t", row.names=1)`);
   $log->info("DESeqDataSetFromMatrix");
+  $log->info($counts_path);
   $R->run(q`dataSet = DESeqDataSetFromMatrix(countData = countData, colData = colData, design = ~ Condition)`);
 # If there are no samples, do not collapse the replicates
   $R->run(q`if (exists("dataSet.Sample")) { collapseReplicates(dataSet, dataSet.Sample) }`);

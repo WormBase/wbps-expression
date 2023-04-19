@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 set -euo pipefail
 
-ROOT_DIR=${PARASITE_REPOSITORIES}/wbps-expression
+ROOT_DIR=${EXPRESSION_CODE}
 
 ( cd $ROOT_DIR && [ -d "local" ] || carton )
 
