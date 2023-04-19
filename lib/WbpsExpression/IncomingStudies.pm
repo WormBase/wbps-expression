@@ -162,9 +162,9 @@ sub update_study_with_results {
     category => $category,
     rnaseqer_last_update => $rnaseqer_last_update,
   };
-
+  my $brc4 = 0;
   my $study =
-    WbpsExpression::Study->new($study_id, $species, $design, $config, $skipped_runs, \%sources);
+    WbpsExpression::Study->new($study_id, $species, $brc4, $design, $config, $skipped_runs, \%sources);
 #### $study
   $study->{quantification_method} = $study->quantification_method;
   $study->to_folder($path);

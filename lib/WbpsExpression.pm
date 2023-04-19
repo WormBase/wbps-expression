@@ -4,10 +4,13 @@ package WbpsExpression;
 use WbpsExpression::IncomingStudies;
 use WbpsExpression::Analysis;
 use WbpsExpression::StudiesPage;
+use WbpsExpression::Study;
 use File::Slurp qw/write_file read_dir/;
 use File::Path qw/make_path/;
 use FindBin;
-my $studies_dir = "$ENV{PARASITE_REPOSITORIES}/studies";
+use Data::Dumper;
+my $studies_dir = "$ENV{EXPRESSION_CODE}/studies";
+my $brc4_dir = "$ENV{PARASITE_SCRATCH}/brc4rnaseq/WBPS$ENV{PARASITE_VERSION}/gene_expression";
 
 our %exceptions = (
     "ERP006987"  => "C. sinensis: four runs, but the tpms could be meaningful",
@@ -47,6 +50,41 @@ sub run {
   WbpsExpression::Analysis::run_all($selected_studies, $output_dir);
 
   create_listing_and_webpage($species, $selected_studies, $other_studies, $output_dir);
+}
+
+sub run_brc4 {
+  my ($species, $assembly, $wbps_assembly, $output_dir) = @_;
+  $species = to_lowercase_binomial($species);
+  # print $species . "\n";
+  make_path $output_dir;
+  my $status = WbpsExpression::Study::rnaseq_status($brc4_dir, $species, $wbps_assembly);
+  print "$species\t$wbps_assembly\t$status\n";
+  my $path = "$studies_dir/$species";
+  my $brc4_path = ($status eq "brc4") ? "$brc4_dir/$species/$wbps_assembly" : "";
+  return unless (-d "$path");
+  my @our_studies = map {WbpsExpression::Study->from_folder($_, $species, $brc4_path)} map { "$path/$_" } read_dir "$path";
+  ## @our_studies
+  my @selected_studies;
+  my @other_studies;
+  for my $study (@our_studies){
+     if ($study->{design}->is_empty or $exceptions{$study->{study_id}}){
+       push @other_studies, $study;
+     } else {
+       $study->{quantification_method} = $study->quantification_method;
+       push @selected_studies, $study;
+     }
+  }
+  my $ref_other_studies = \@other_studies;
+  my $ref_selected_studies = \@selected_studies;
+  #### $selected_studies
+  #### $other_studies
+  #### $data_files
+  return unless @$ref_selected_studies or @$ref_other_studies;
+
+  WbpsExpression::Analysis::run_all($ref_selected_studies, $output_dir);
+
+  create_listing_and_webpage($species, $ref_selected_studies, $ref_other_studies, $output_dir);
+
 }
 
 sub run_no_updates {

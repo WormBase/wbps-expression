@@ -7,7 +7,7 @@ use LWP;
 use Log::Any '$log';
 use Scalar::Util qw/looks_like_number/;
 use File::Temp qw/tempdir/;
-
+use Data::Dump qw(dump);
 
 # use Smart::Comments '###';
 my $CAN_SEE_EBI_FILESYSTEM = -d "/nfs/ftp";
@@ -54,6 +54,7 @@ sub read_file_into_hash {
   my ($path) = @_;
 #### read_file_into_hash: $path
   my %result;
+  print("DataFiles path: $path\n");
   my $fh = open_read_fh($path);
   my $header = <$fh>;
   chomp $header;
@@ -74,7 +75,7 @@ sub read_files_into_averaged_hash {
   for my $i (0 .. $#paths){
     for my $path (@{$paths[$i]}) {
 	my $fh = open_read_fh($path);
-	my $header = <$fh>; 
+	my $header = <$fh>;
 #### $header
 	while(<$fh>){
       chomp;
@@ -88,7 +89,7 @@ sub read_files_into_averaged_hash {
 #### %result
   for my $k (keys %result){
     my @vs = map { calculate_median( $_)} @{$result{$k}};
-    $result{$k} = sprintf("%.1f", calculate_median(\@vs)); 
+    $result{$k} = sprintf("%.1f", calculate_median(\@vs));
   }
   return \%result;
 }
@@ -124,5 +125,13 @@ sub average_and_aggregate {
     [$name, $data]
   } @{$name_to_pathlist_pairs};
   WbpsExpression::Analysis::Common::write_named_hashes(\@name_to_data_pairs, $out_path, @frontmatter);
+}
+
+sub read_json {
+  my ($json_file) = @_;
+  open(FH,"<",$json_file) or die "$json_file file doesn't exist!\n";
+  my $data = do { local $/; <FH> };
+  my $ret = JSON::decode_json( $data );
+  return $ret;
 }
 1;
