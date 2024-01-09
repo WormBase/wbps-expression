@@ -1,30 +1,29 @@
-Run	Sample	life_cycle	Sex
-ERR2983867	ERS1178342	adult	female
-ERR2983871	ERS1178343	adult	female
-ERR2983876	ERS2904390	adult	male
-ERR6365549	ERS1478049	sporocysts	
-ERR6365551	ERS1478051	sporocysts	
-ERR6365555	ERS1478045	sporocysts	
-ERR6365556	ERS1753023	miracidia	
-ERR6365557	ERS1753018	miracidia	
-ERR6365561	ERS1753021	miracidia	
-ERR2983870	ERS1178341	adult	female
-ERR2983872	ERS1246883	adult	male
-ERR2983879	ERS1178344	adult	female
-ERR6365548	ERS1478048	sporocysts	
-ERR6365550	ERS1478050	sporocysts	
-ERR6365552	ERS1478052	sporocysts	
-ERR6365554	ERS1478044	sporocysts	
-ERR6365558	ERS1753019	miracidia	
-ERR6365559	ERS1753020	miracidia	
-ERR2983868	ERS1178342	adult	female
-ERR2983869	ERS1157363	adult	female
-ERR2983873	ERS2904387	adult	male
-ERR2983874	ERS2904388	adult	male
-ERR2983875	ERS2904389	adult	male
-ERR2983877	ERS2904391	adult	male
-ERR2983878	ERS2904392	adult	male
-ERR2983880	ERS2904393	adult	male
-ERR6365547	ERS1478047	sporocysts	
-ERR6365553	ERS1478043	sporocysts	
-ERR6365560	ERS1753022	miracidia	
+Run	Sample	Condition	life_cycle	Sex
+ERR2983867	ERS1178342	adult_female	adult	female
+ERR2983871	ERS1178343	adult_female	adult	female
+ERR2983876	ERS2904390	adult_male	adult	male
+ERR6365549	ERS1478049	sporocysts	sporocysts	
+ERR6365551	ERS1478051	sporocysts	sporocysts	
+ERR6365555	ERS1478045	sporocysts	sporocysts	
+ERR6365556	ERS1753023	miracidia	miracidia	
+ERR6365557	ERS1753018	miracidia	miracidia	
+ERR6365561	ERS1753021	miracidia	miracidia	
+ERR2983870	ERS1178341	adult_female	adult	female
+ERR2983872	ERS1246883	adult_male	adult	male
+ERR2983879	ERS1178344	adult_female	adult	female
+ERR6365548	ERS1478048	sporocysts	sporocysts	
+ERR6365550	ERS1478050	sporocysts	sporocysts	
+ERR6365552	ERS1478052	sporocysts	sporocysts	
+ERR6365554	ERS1478044	sporocysts	sporocysts	
+ERR6365558	ERS1753019	miracidia	miracidia	
+ERR6365559	ERS1753020	miracidia	miracidia	
+ERR2983868	ERS1178342	adult_female	adult	female
+ERR2983869	ERS1157363	adult_female	adult	female
+ERR2983873	ERS2904387	adult_male	adult	male
+ERR2983874	ERS2904388	adult_male	adult	male
+ERR2983875	ERS2904389	adult_male	adult	male
+ERR2983877	ERS2904391	adult_male	adult	male
+ERR2983878	ERS2904392	adult_male	adult	male
+ERR2983880	ERS2904393	adult_male	adult	male
+ERR6365547	ERS1478047	sporocysts	sporocysts	
+ERR6365553	ERS1478043	sporocysts	sporocysts	

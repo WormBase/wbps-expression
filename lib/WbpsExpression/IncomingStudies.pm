@@ -171,6 +171,25 @@ sub update_study_with_results {
   return $study;
 }
 
+sub create_config {
+  my ($study_id, $species, $design) = @_;
+  my $study_metadata;
+  $study_metadata = WbpsExpression::IncomingStudies::StudyMetadata::get( $species, $study_id );
+
+  my $contrasts =
+  WbpsExpression::IncomingStudies::CurationDefaults::contrasts($design);
+  my $category =
+  WbpsExpression::IncomingStudies::CurationDefaults::category( $design, $contrasts );
+
+  my $config = {
+    %{$study_metadata},
+    contrasts => $contrasts,
+    category => $category,
+  };
+
+  return $config;
+}
+
 sub update_studies {
   my ( $studies_dir, $species, $assembly ) = @_;
   my @studies;

@@ -1,0 +1,23 @@
+---
+bioproject: PRJEB13987
+category: Other
+contrasts:
+  - name: Sex
+    values:
+      -
+        - adult_female
+        - adult_male
+        - 'adult_: female vs male'
+  - name: life_cycle
+    values:
+      -
+        - miracidia
+        - sporocysts
+        - miracidia vs sporocysts
+description: 'Work is underway to generate an improved version of the S. mansoni genome, and whilst an abundance of illumina RNAseq data area available, we wish to exploit the PacBio IsoSeq protocol. The aim of the project is to capture full length transcripts and isoforms that will be used to generate a more accurate and comprehensive set of gene model on the S. mansoni genome. '
+ena_first_public: 2018-12-05
+ena_last_update: 2016-05-11
+pubmed: {}
+resource_links: []
+submitting_centre: Wellcome Sanger Institute
+title: 'Schistosoma mansoni PacBio transcriptome sequencing IsoSeq '

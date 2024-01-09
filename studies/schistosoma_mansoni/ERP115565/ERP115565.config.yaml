@@ -1,0 +1,119 @@
+---
+bioproject: PRJEB32839
+category: Other
+contrasts:
+  - name: Sex
+    values:
+      -
+        - Cercariae_Free-living_Female
+        - Cercariae_Free-living_Male
+        - 'Cercariae_Free-living_: Female vs Male'
+      -
+        - Cercariae_Free-living_Female
+        - Cercariae_Free-living_Mix
+        - 'Cercariae_Free-living_: Female vs Mix'
+      -
+        - Cercariae_Free-living_Male
+        - Cercariae_Free-living_Mix
+        - 'Cercariae_Free-living_: Male vs Mix'
+      -
+        - Juveniles_Intramammalian_Female
+        - Juveniles_Intramammalian_Male
+        - 'Juveniles_Intramammalian_: Female vs Male'
+      -
+        - Somules_in vitro_Female
+        - Somules_in vitro_Male
+        - 'Somules_in vitro_: Female vs Male'
+      -
+        - Somules_in vitro_Female
+        - Somules_in vitro_Mix
+        - 'Somules_in vitro_: Female vs Mix'
+      -
+        - Somules_in vitro_Male
+        - Somules_in vitro_Mix
+        - 'Somules_in vitro_: Male vs Mix'
+      -
+        - Sporocysts_Intramolluscan_Female
+        - Sporocysts_Intramolluscan_Male
+        - 'Sporocysts_Intramolluscan_: Female vs Male'
+      -
+        - Sporocysts_Intramolluscan_Female
+        - Sporocysts_Intramolluscan_Mix
+        - 'Sporocysts_Intramolluscan_: Female vs Mix'
+      -
+        - Sporocysts_Intramolluscan_Male
+        - Sporocysts_Intramolluscan_Mix
+        - 'Sporocysts_Intramolluscan_: Male vs Mix'
+  - name: sampling_location
+    values:
+      -
+        - Sporocysts_Intramolluscan_Mix
+        - Sporocysts_in vitro_Mix
+        - 'Sporocysts__Mix: Intramolluscan vs in vitro'
+  - name: developmental_stage
+    values:
+      -
+        - Cercariae_Free-living_Mix
+        - Miracidia_Free-living_Mix
+        - '_Free-living_Mix: Cercariae vs Miracidia'
+      -
+        - Somules_in vitro_Mix
+        - Sporocysts_in vitro_Mix
+        - '_in vitro_Mix: Somules vs Sporocysts'
+  - name: developmental_stage+sampling_location
+    values:
+      -
+        - Cercariae_Free-living_Female
+        - Juveniles_Intramammalian_Female
+        - '__Female: Cercariae, Free-living vs Juveniles, Intramammalian'
+      -
+        - Cercariae_Free-living_Female
+        - Somules_in vitro_Female
+        - '__Female: Cercariae, Free-living vs Somules, in vitro'
+      -
+        - Cercariae_Free-living_Female
+        - Sporocysts_Intramolluscan_Female
+        - '__Female: Cercariae, Free-living vs Sporocysts, Intramolluscan'
+      -
+        - Juveniles_Intramammalian_Female
+        - Somules_in vitro_Female
+        - '__Female: Juveniles, Intramammalian vs Somules, in vitro'
+      -
+        - Juveniles_Intramammalian_Female
+        - Sporocysts_Intramolluscan_Female
+        - '__Female: Juveniles, Intramammalian vs Sporocysts, Intramolluscan'
+      -
+        - Somules_in vitro_Female
+        - Sporocysts_Intramolluscan_Female
+        - '__Female: Somules, in vitro vs Sporocysts, Intramolluscan'
+      -
+        - Cercariae_Free-living_Male
+        - Juveniles_Intramammalian_Male
+        - '__Male: Cercariae, Free-living vs Juveniles, Intramammalian'
+      -
+        - Cercariae_Free-living_Male
+        - Somules_in vitro_Male
+        - '__Male: Cercariae, Free-living vs Somules, in vitro'
+      -
+        - Cercariae_Free-living_Male
+        - Sporocysts_Intramolluscan_Male
+        - '__Male: Cercariae, Free-living vs Sporocysts, Intramolluscan'
+      -
+        - Juveniles_Intramammalian_Male
+        - Somules_in vitro_Male
+        - '__Male: Juveniles, Intramammalian vs Somules, in vitro'
+      -
+        - Juveniles_Intramammalian_Male
+        - Sporocysts_Intramolluscan_Male
+        - '__Male: Juveniles, Intramammalian vs Sporocysts, Intramolluscan'
+      -
+        - Somules_in vitro_Male
+        - Sporocysts_Intramolluscan_Male
+        - '__Male: Somules, in vitro vs Sporocysts, Intramolluscan'
+description: 'Single parasite low-input SMART-Seq2 of Schistosoma mansoni NMRI lab strain. Larval time points include freshly hatched miracidia, cercariae, in vitro cultured 1d and 5d mother sporocysts. '
+ena_first_public: 2023-03-30
+ena_last_update: 2023-03-31
+pubmed: {}
+resource_links: []
+submitting_centre: Wellcome Sanger Institute
+title: The stage and sex specific transcriptome of the human parasite Schistosoma mansoni

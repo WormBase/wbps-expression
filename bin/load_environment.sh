@@ -11,3 +11,5 @@ if [ 0 -eq $(R --slave --no-restore --file=- <<< 'installed.packages()' | grep -
 fi
 
 export PERL5LIB="$ROOT_DIR/lib:$ROOT_DIR/local/lib/perl5:${PARASITE_SOFTWARE}/perl_modules/lib/perl5:${PERL5LIB}"
+
+module load embassy

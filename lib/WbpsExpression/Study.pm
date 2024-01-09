@@ -9,19 +9,25 @@ use Carp qw/confess/;
 use List::Util qw/all min pairmap pairs/;
 use List::MoreUtils qw/duplicates uniq/;
 use File::Slurp qw/write_file/;
+use File::Copy::Recursive qw(dircopy);
+use File::Path qw(make_path);
 use Regexp::Common qw/URI/;
 use Data::Dumper;
 use LWP;
 use Log::Any '$log';
 
+
 use open ':encoding(utf8)';
 # use Smart::Comments '###';
 sub new {
-  my ($class, $study_id, $species, $brc4, $study_design, $study_config, $skipped_runs, $sources) = @_;
+  my ($class, $study_id, $species_bp, $assembly, $species, $brc4, $copy_from_old, $study_design, $study_config, $skipped_runs, $sources) = @_;
   return bless {
     study_id => $study_id,
+    species_bp => $species_bp,
+    assembly => $assembly,
     species => $species,
     brc4   => $brc4,
+    copy_from_old => $copy_from_old,
     design => $study_design,
     config => $study_config,
     skipped_runs => $skipped_runs,
@@ -53,27 +59,71 @@ sub rnaseq_status {
     }
 }
 
+sub copy_from_old_status {
+    my ($brc4_dir, $species, $wbps_assembly, $study_id) = @_;
+
+    my $release_dir = "$brc4_dir/$study_id";
+
+    if (-e $release_dir) {
+        
+        return 0; # False
+    }
+
+    my $parasite_data_dir = $ENV{'PARASITE_DATA'} // '';
+    my $species_dir = "$parasite_data_dir/$species";
+
+    if (-e $species_dir) {
+        die "${species} has been updated in this release but its study ${study_id} is missing from $release_dir\n";
+    } else {
+        return 1; # True
+    }
+}
 
 sub from_folder {
-  my ($class, $path, $species, $brc4_path) = @_;
+  my ($class, $path, $species_bp, $species, $wbps_assembly, $brc4_path) = @_;
   return unless -d $path;
   my $study_id = basename($path);
+  my $copy_from_old = copy_from_old_status($brc4_path, $species, $wbps_assembly, $study_id);
   my $design_path = sprintf("%s/%s.design.tsv", $path,$study_id);
   my $config_path = sprintf("%s/%s.config.yaml", $path,$study_id);
   my $skipped_runs_path = sprintf("%s/%s.skipped_runs.tsv", $path,$study_id);
   my $sources_path = sprintf("%s/%s.sources.tsv", $path,$study_id);
   my $brc4_study_path = ($brc4_path eq "") ? "" : "$brc4_path/$study_id";
   my $brc4 = ($brc4_path eq "") ? 0 : 1;
-  return unless -f $config_path;
-  return $class->new(
-     $study_id,
-     $species,
-     $brc4,
-     read_design($design_path),
-     LoadFile($config_path),
-     read_skipped_runs($skipped_runs_path),
-     read_sources($species, $path, $brc4_study_path),
-  );
+  my $study_design = read_design($design_path);
+  if ($copy_from_old == 0 and not -f $config_path) {
+      my $new_study_config = WbpsExpression::IncomingStudies::create_config($study_id, $species, $study_design);
+      DumpFile($config_path, $new_study_config);
+  } else {
+    return unless -f $config_path;
+  }
+  if ($copy_from_old == 0) {
+        return $class->new(
+        $study_id,
+        $species_bp,
+        $wbps_assembly,
+        $species,
+        $brc4,
+        $copy_from_old,
+        $study_design,
+        LoadFile($config_path),
+        read_skipped_runs($skipped_runs_path),
+        read_sources($species, $path, $brc4_study_path),
+        );
+  } else {
+        return $class->new(
+          $study_id,
+          $species_bp,
+          $wbps_assembly,
+          $species,
+          $brc4,
+          $copy_from_old,
+          $study_design,
+          LoadFile($config_path),
+          read_skipped_runs($skipped_runs_path),
+          "",
+        );
+  }
 }
 
 sub to_folder {
@@ -171,27 +221,15 @@ sub read_brc4_sources {
     close($mapping_fh);
 
     # parse and pretty print paired end metadata info from the brc4 pipeline output metadata.json file.
-    my $metadata_file = "$study_path/$run_dir/metadata.json";
-    open(my $metadata_fh, "<", $metadata_file) or die "$!: $metadata_file";
-    my $data = do {
-      local $/;
-      <$metadata_fh>
-    };
-    my $metadata = JSON::decode_json($data);
-    my $end = $metadata->{hasPairedEnds};
-    die "$metadata_file does not contain the hasPairedEnds field or the hasPairedEnds value is not true/false." unless ref($end) eq "JSON::PP::Boolean";
-    my $pretty_end = ($end) ? "pe" : "se";
-    close($metadata_fh);
+    my $end = infer_library_layout("$study_path/$run_dir");
 
     # add it all in a hash
     $run_id => { location => $location,
-                 end      => $pretty_end,
+                 end      => $end,
                  quality  => $pretty_mapped }
   } @directories;
-
   return %sources;
 }
-
 
 
 sub write_sources {
@@ -239,8 +277,47 @@ sub config_matches_design_checks {
 #### @contrasts_match
   return @conditions_match, @contrasts_match;
 }
+
+sub infer_library_layout {
+    my ($run_dir) = @_;
+
+    my $metadata_file = "$run_dir/metadata.json";
+    open(my $metadata_fh, "<", $metadata_file) or die "$!: $metadata_file";
+    my $data = do {
+        local $/;
+        <$metadata_fh>
+    };
+    my $metadata = JSON::decode_json($data);
+    my $end = $metadata->{hasPairedEnds};
+
+    if (ref($end) eq "JSON::PP::Boolean") {
+        my $pretty_end = ($end) ? "pe" : "se";
+        return $pretty_end;
+    } else {
+        my $log_file = "$run_dir/log.txt";
+        if (-e $log_file) {
+            open(my $log_fh, "<", $log_file) or die "$!: $log_file";
+            local $/; # Set input record separator to read the entire file
+            my $log_content = <$log_fh>;
+            close($log_fh);
+            
+            if ($log_content =~ /This is PairEnd Data/) {
+                return "pe";
+            } elsif ($log_content =~ /This is SingleEnd Data/) {
+                return "se";
+            } else {
+                die "$metadata_file does not contain the hasPairedEnds field or the hasPairedEnds value is not true/false.
+                $log_file does not contain a 'This is a *End Data' sentence. Cannot infer the library layout."
+            }
+        }
+    }
+}
+
 sub sources_checks {
   my ($self) = @_;
+  if ($self->{copy_from_old}==1){
+    return 
+  }
   my @ftp_paths = map {
     my ($k, $v) = @{$_};
     my $location = $v->{location};
@@ -265,15 +342,28 @@ sub run_ids_checks {
   my ($self) = @_;
   my @runs_design = $self->{design}->all_runs;
   my @runs_skipped = @{$self->{skipped_runs} //[]};
-  my @runs_sources = keys %{$self->{sources}};
-  my @runs_design_no_sources = grep {not $self->{sources}{$_}} @runs_design;
-  my @runs_skipped_no_sources = grep {not $self->{sources}{$_}} @runs_skipped;
-  return (
-     "All runs in design have a source dir " . join(", ", @runs_design_no_sources) => ! @runs_design || ! @runs_design_no_sources,
-     "All skipped runs have a source dir " . join(", ", @runs_skipped_no_sources) => ! @runs_skipped || ! @runs_skipped_no_sources,
-     "No more source dirs" => @runs_design + @runs_skipped == @runs_sources,
-     "No duplicates between design and skipped" => not duplicates (@runs_design, @runs_skipped),
-  );
+  my @runs_sources;
+  my @runs_design_no_sources;
+  my @runs_skipped_no_sources;
+  my $copy_from_old = $self->{copy_from_old};
+  if ($copy_from_old==0){
+    @runs_sources = keys %{$self->{sources}};
+    @runs_design_no_sources = grep {not $self->{sources}{$_}} @runs_design;
+    @runs_skipped_no_sources = grep {not $self->{sources}{$_}} @runs_skipped;
+    return (
+      "All runs in design have a source dir " . join(", ", @runs_design_no_sources) => ! @runs_design || ! @runs_design_no_sources,
+      "All skipped runs have a source dir " . join(", ", @runs_skipped_no_sources) => ! @runs_skipped || ! @runs_skipped_no_sources,
+      "No more source dirs" => @runs_design + @runs_skipped == @runs_sources,
+      "No duplicates between design and skipped" => not duplicates (@runs_design, @runs_skipped),
+    );
+  } else {
+    return (
+      "All runs in design have a source dir " .  1,
+      "All skipped runs have a source dir " . 1,
+      "No more source dirs" => @runs_design + @runs_skipped == @runs_sources,
+      "No duplicates between design and skipped" => not duplicates (@runs_design, @runs_skipped),
+    );    
+  }
   #todo: design + skipped_runs = results
 }
 sub consistency_checks {
@@ -366,8 +456,8 @@ sub source_counts {
 sub source_tpm {
   my ($self, $run_id) = @_;
   if ($self->{brc4}) {
-    my $simple_stranded = join("/", $self->{sources}->{$run_id}{location}, "genes.htseq-union.stranded.sum.counts.tpm2");
-    my $simple_unstranded = join("/", $self->{sources}->{$run_id}{location}, "genes.htseq-union.unstranded.counts.tpm2");
+    my $simple_stranded = join("/", $self->{sources}->{$run_id}{location}, "genes.htseq-union.stranded.sum.counts.tpm");
+    my $simple_unstranded = join("/", $self->{sources}->{$run_id}{location}, "genes.htseq-union.unstranded.counts.tpm");
     if (-e $simple_stranded) {
       return $simple_stranded;
     }
@@ -388,18 +478,70 @@ sub source_tpm {
   }
 }
 
+# sub previous_embassy_bigwigs_for_species {
+#   my ($species_bp, $species, $wbps_assembly) = @_;
+#   my $embassy_command = $ENV{EMBASSY_COMMAND};
+#   my $embassy_bucket = $ENV{EMBASSY_BUCKET};
+#   my $previous_release = "WBPS".$ENV{PREVIOUS_PARASITE_VERSION};
+#   my $embassy_path = $ENV{EMBASSY_PATH};
+#   my $embassy_full_rnaseq_path = $ENV{EMBASSY_RNASEQER_PATH};
+#   my $embassy_assembly_path = join('/', $embassy_full_rnaseq_path, $previous_release, $species_bp, $assembly)."/";
+#   my $ecmd = "$embassy_command s3 ls $embassy_assembly_path --recursive';";
+#   my $ecmd_output = `$ecmd`;
+
+# }
+
+sub source_embassy_bigwig {
+  my ($self, $run_id) = @_;
+  my $study_id = $self->{study_id};
+  my $species_bp = $self->{species_bp};
+  my $assembly = $self->{assembly};
+  my $short_run_id = substr($run_id, 0, 6);
+  my $embassy_command = $ENV{EMBASSY_COMMAND};
+  my $embassy_bucket = $ENV{EMBASSY_BUCKET};
+  my $previous_release = "WBPS".$ENV{PREVIOUS_PARASITE_VERSION};
+  my $embassy_path = $ENV{EMBASSY_PATH};
+  my $embassy_full_rnaseq_path = $ENV{EMBASSY_RNASEQER_PATH};
+  my $embassy_rnaseq_path = $ENV{EMBASSY_RNASEQER_PATH};
+  $embassy_rnaseq_path =~ s/\Q$embassy_path\E//;
+  $embassy_rnaseq_path =~ s{^/}{};
+  my $embassy_relative_rnaseq_path = $embassy_rnaseq_path;
+  my $embassy_bigwig_path = join('/', $previous_release, $species_bp, $assembly, $short_run_id, $run_id.".bw");
+  my $embassy_s3_full_bigwig_path = join('/', $embassy_full_rnaseq_path, $embassy_bigwig_path);
+  my $embassy_s3_relative_bigwig_path = join('/', $embassy_relative_rnaseq_path, $embassy_bigwig_path);
+  my $embassy_lookup_path = join("/");
+  my $ecmd = "$embassy_command s3api head-object --bucket '$embassy_bucket' --key '$embassy_s3_relative_bigwig_path';";
+  my $ecmd_output = `$ecmd`;
+  if ($?) {
+    my $message = "Cannot find $embassy_s3_full_bigwig_path on EMBASSY $embassy_bucket for $run_id";
+    
+    # Print the message as a warning
+    warn $message;
+    
+    # Save the $embassy_s3_full_bigwig_path to the output file
+    my $output_file = '/homes/digri/failed_bigwigs.txt';
+    open(my $fh, '>>', $output_file) or die "Could not open file '$output_file' $!";
+    print $fh "$embassy_s3_full_bigwig_path\n";
+    close($fh);
+  }
+  return($embassy_s3_full_bigwig_path);
+}
+
 sub source_bigwig {
   my ($self, $run_id) = @_;
-  if ($self->{brc4}) {
-    print "$run_id $self->{sources}->{$run_id}{location}\n";
+  if ($self->{brc4} && $self->{copy_from_old} == 0) {
     my $bigwig_path = join("/", $self->{sources}->{$run_id}{location}, "results.bw");
     if (! -e $bigwig_path) {
-      die "Couldn't find a bigwig file in $self->{sources}->{$run_id}{location}"
+      die "Couldn't find a bigwig file in $self->{sources}->{$run_id}{location}";
     }
     return $bigwig_path;
+  } elsif ($self->{copy_from_old}) {
+    return $self->source_embassy_bigwig($run_id);
+  } else {
+    return join("/", $self->{sources}->{$run_id}{location}, "$run_id.nospliced.bw");
   }
-  return join("/", $self->{sources}->{$run_id}{location}, "$run_id.nospliced.bw");
 }
+
 
 sub mapping_quality {
   my ($self, $run_id) = @_;
@@ -498,6 +640,39 @@ sub analyses_required {
   );
 }
 
+sub copy_study_from_previous_release {
+    my ($copy_study_ids_ref, $prev_release_dir, $output_dir) = @_;
+
+    # Check if the output directory exists, create if it doesn't
+    die "Error: $output_dir doesn't exist!" unless (-e $output_dir);
+
+    foreach my $study (@$copy_study_ids_ref) {
+        my $study_id = $study->{study_id};
+        my $source_dir = "$prev_release_dir/$study_id";
+        my $destination_dir = "$output_dir/$study_id";
+
+        # Check if the source directory exists
+        unless (-e $source_dir and -d $source_dir) {
+            die "Warning: Source directory $source_dir for study ID $study_id does not exist or is not a directory. Skipping.\n";
+        }
+
+        # Check if the destination directory already exists
+        if (-e $destination_dir) {
+            warn "Warning: Destination directory $destination_dir for study ID $study_id already exists. Overwriting.\n";
+        }
+
+        # Copy the source directory to the destination directory
+        eval {
+            dircopy($source_dir, $destination_dir) or die $!;
+        };
+        if ($@) {
+            die "Error: Failed to copy directory $source_dir to $destination_dir: $@";
+        }
+
+        print "Successfully copied $source_dir to $destination_dir\n";
+    }
+}
+
 sub to_hash {
   my ($self) = @_;
   my %result;
@@ -546,4 +721,5 @@ sub to_hash {
   $result{runs} = [@runs_curated, @runs_skipped];
   return \%result;
 }
+
 1;

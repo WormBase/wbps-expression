@@ -132,8 +132,8 @@ sub other_study_html {
   $template->param(STUDYTITLE =>  $study->{config}{title} // "" );
   $template->param(STUDYCENTRE => $study->{config}{submitting_centre}) if $study->{config}{submitting_centre};
   $template->param(STUDYDESCRIPTION => description_html($study));
-  my $num_runs = scalar keys %{$study->{sources}};
-  $template->param(RUNS => $num_runs eq 1 ? "1 run in ENA": "$num_runs runs in ENA");
+  # my $num_runs = scalar keys %{$study->{sources}};
+  # $template->param(RUNS => $num_runs eq 1 ? "1 run in ENA": "$num_runs runs in ENA");
   
   return $template->output;
 }

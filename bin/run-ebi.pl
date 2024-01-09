@@ -25,6 +25,9 @@ use ProductionMysql;
 my @core_dbs = ProductionMysql->staging->core_databases(@ARGV);
 my $work_dir = "$ENV{PARASITE_SCRATCH}/jbrowse/WBPS$ENV{PARASITE_VERSION}/WbpsExpression";
 my $assemblies_rename_json = "$ENV{PARASITE_CONF}/brc4_rnaseq.assemblies-rename.json";
+my $studies_dir = "$ENV{EXPRESSION_CODE}/studies";
+my $prev_release_dir = "$ENV{PARASITE_SCRATCH}/old_jbrowse/WbpsExpression/";
+my $brc4_dir = "$ENV{PARASITE_SCRATCH}/brc4rnaseq/WBPS$ENV{PARASITE_VERSION}/gene_expression";
 
 my $json_data;
 {
@@ -39,6 +42,9 @@ my $assembly_rename_dict = decode_json($json_data);
 if (@core_dbs > 5) {
   $ENV{DO_THROTTLE_GEO} //=1;
 }
+
+
+
 my $greenlight = 1;
 for my $core_db (@core_dbs) {
   my ($spe, $cies, $bp ) = split "_", $core_db;
@@ -57,6 +63,6 @@ for my $core_db (@core_dbs) {
   $assembly =~ s/N_brasiliensis_RM07_v1_5_4_0011_upd/N_brasiliensis_RM07_v1_5_4/;
   $assembly = "" if $assembly eq "Heterorhabditis_bacteriophora-7.0";
   my $species = join ("_", $spe, $cies, $bp);
-  WbpsExpression::run_brc4("${spe}_${cies}", $assembly, $wbps_assembly, "$work_dir/$species");
+  WbpsExpression::run_brc4("$species", $assembly, $wbps_assembly, "$work_dir/$species", $studies_dir, "$prev_release_dir/$species", $brc4_dir);
   # $ENV{DO_DEPLOY_WEB} and print `sudo -u wormbase rsync --delete -av $work_dir/$species/  $ENV{PARASITE_FTP}/web_data/rnaseq_studies/releases/next/$species/`;
 }

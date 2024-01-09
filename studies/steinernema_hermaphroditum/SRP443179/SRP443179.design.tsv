@@ -1,3 +1,3 @@
-Run	sex	tissue	developmental_stage
-SRR24911680	hermaphrodite	whole_animal	mixed_stage
-SRR24911812	hermaphrodite	whole_animal	infective_juvenile
+Run	Sample	Condition	sex	tissue	developmental_stage
+SRR24911680	SAMN35725531	hermaphrodite_whole_animal_mixed_stage	hermaphrodite	whole_animal	mixed_stage
+SRR24911812	SAMN35725606	hermaphrodite_whole_animal_infective_juvenile	hermaphrodite	whole_animal	infective_juvenile
