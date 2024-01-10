@@ -26,7 +26,7 @@ my @core_dbs = ProductionMysql->staging->core_databases(@ARGV);
 my $work_dir = "$ENV{PARASITE_SCRATCH}/jbrowse/WBPS$ENV{PARASITE_VERSION}/WbpsExpression";
 my $assemblies_rename_json = "$ENV{PARASITE_CONF}/brc4_rnaseq.assemblies-rename.json";
 my $studies_dir = "$ENV{EXPRESSION_CODE}/studies";
-my $prev_release_dir = "$ENV{PARASITE_SCRATCH}/old_jbrowse/WbpsExpression/";
+my $prev_release_dir = "$ENV{PARASITE_SCRATCH}/jbrowse_$ENV{PREVIOUS_PARASITE_VERSION}/WbpsExpression/";
 my $brc4_dir = "$ENV{PARASITE_SCRATCH}/brc4rnaseq/WBPS$ENV{PARASITE_VERSION}/gene_expression";
 
 my $json_data;
